@@ -1,16 +1,21 @@
-import { searchProducts, CATEGORIES } from "@/lib/products";
+import { CATEGORIES } from "@/lib/products";
+import { searchAllProducts, getAllProducts } from "@/lib/product-store";
 import ProductCard from "@/components/ProductCard";
 import Link from "next/link";
+
+export const dynamic = "force-dynamic";
 
 interface Props {
   searchParams: { q?: string; kat?: string };
 }
 
-export default function KerkoPage({ searchParams }: Props) {
+export default async function KerkoPage({ searchParams }: Props) {
   const query = searchParams.q ?? "";
   const kat = searchParams.kat ?? "";
 
-  let results = query ? searchProducts(query) : [];
+  let results = query
+    ? await searchAllProducts(query)
+    : await getAllProducts();
   if (kat) results = results.filter((p) => p.category === kat);
 
   const category = kat ? CATEGORIES.find((c) => c.id === kat) : null;

@@ -1,11 +1,15 @@
 import Link from "next/link";
-import { CATEGORIES, PRODUCTS } from "@/lib/products";
+import { CATEGORIES } from "@/lib/products";
+import { getAllProducts } from "@/lib/product-store";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import SearchBar from "@/components/SearchBar";
 
-export default function Home() {
-  const featured = PRODUCTS.slice(0, 8);
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
+  const allProducts = await getAllProducts();
+  const featured = allProducts.slice(0, 8);
 
   return (
     <div>
