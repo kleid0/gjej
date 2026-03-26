@@ -1,7 +1,10 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getCategoryById, getProductsByCategory, CATEGORIES } from "@/lib/products";
+import { getCategoryById, CATEGORIES } from "@/lib/products";
+import { getProductsByCategoryAll } from "@/lib/product-store";
 import ProductCard from "@/components/ProductCard";
+
+export const dynamic = "force-dynamic";
 
 interface Props {
   params: { slug: string };
@@ -11,11 +14,11 @@ export async function generateStaticParams() {
   return CATEGORIES.map((c) => ({ slug: c.id }));
 }
 
-export default function CategoryPage({ params }: Props) {
+export default async function CategoryPage({ params }: Props) {
   const category = getCategoryById(params.slug);
   if (!category) notFound();
 
-  const products = getProductsByCategory(params.slug);
+  const products = await getProductsByCategoryAll(params.slug);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
