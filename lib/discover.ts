@@ -74,7 +74,7 @@ export async function discoverProducts(): Promise<Product[]> {
           const $ = cheerio.load(data);
 
           for (const sel of store.selectors.productLink) {
-            $(sel).each((_: number, el: cheerio.Element) => {
+            $(sel).each((_: number, el: cheerio.AnyNode) => {
               const $el = $(el);
               const href = $el.attr("href");
               if (!href) return;
