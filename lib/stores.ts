@@ -90,6 +90,21 @@ export const STORES: Store[] = [
       outOfStockText: ["out of stock", "unavailable", "nuk ka gjendje"],
     },
   },
+  {
+    id: "albagame",
+    name: "AlbaGame",
+    url: "https://www.albagame.al",
+    logo: "/logos/albagame.png",
+    color: "#7c3aed",
+    searchUrl: (q) => `https://www.albagame.al/?s=${encodeURIComponent(q)}`,
+    selectors: {
+      productLink: [".product-title a", "h2.woocommerce-loop-product__title a", "a.woocommerce-loop-product__link", ".product-name a"],
+      price: [".woocommerce-Price-amount", ".price ins .amount", ".price .amount", ".product-price"],
+      stock: [".in-stock", ".out-of-stock", ".stock", "[class*='stock']"],
+      inStockText: ["in stock", "në gjendje", "available"],
+      outOfStockText: ["out of stock", "nuk ka gjendje", "unavailable"],
+    },
+  },
 ];
 
 export const STORE_MAP = Object.fromEntries(STORES.map((s) => [s.id, s]));
