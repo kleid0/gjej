@@ -7,6 +7,7 @@ import { STORE_MAP } from "@/lib/stores";
 export async function GET(req: NextRequest) {
   const storeId = req.nextUrl.searchParams.get("store");
   const q = req.nextUrl.searchParams.get("q") ?? "Nintendo Switch 2";
+  const offset = parseInt(req.nextUrl.searchParams.get("offset") ?? "0", 10);
 
   const store = storeId ? STORE_MAP[storeId] : null;
   if (!store) {
@@ -26,8 +27,8 @@ export async function GET(req: NextRequest) {
           "Accept-Language": "sq-AL,sq;q=0.9,en-US;q=0.8,en;q=0.7",
         },
       });
-      // Return first 8000 chars so we can see the structure without flooding
-      results.push({ url, status, html: String(data).slice(0, 8000) });
+      // Return 8000 chars starting at offset so we can inspect different parts
+      results.push({ url, status, html: String(data).slice(offset, offset + 8000) });
       break;
     } catch (err: unknown) {
       const e = err as { response?: { status: number }; message: string };
