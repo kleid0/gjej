@@ -32,33 +32,151 @@ function matchScore(name: string, terms: string[]): number {
   return words.filter((w) => n.includes(w)).length;
 }
 
-// Decode HTML entities and strip specs so searches actually match store listings.
-// "HP EliteBook 840 G11 14&#8243;, 16GB, 512GB" → "HP EliteBook 840 G11"
+// Decode HTML entities and strip noise so searches match store listings.
+// "HP EliteBook 840 G11 14&#8243;, 16GB" → "HP EliteBook 840 G11"
+// "Nintendo Switch™ 2" → "Nintendo Switch 2"
 function cleanQuery(term: string): string {
   const decoded = term
     .replace(/&#(\d+);/g, (_, c) => String.fromCharCode(parseInt(c, 10)))
     .replace(/&\w+;/g, " ");
+  // Strip trademark/copyright/registered symbols
+  const noSymbols = decoded.replace(/[™®©℠]/g, "").replace(/\s+/g, " ").trim();
   // Drop everything after the first comma (usually specs)
-  const beforeComma = decoded.split(",")[0];
+  const beforeComma = noSymbols.split(",")[0];
+  // Drop bundle suffixes (e.g. "+ Mario Kart World")
+  const noBundle = beforeComma.split(/\s+\+\s+/)[0];
   // Drop dimension notations and storage sizes
-  return beforeComma
+  return noBundle
     .replace(/\d+\.?\d*\s*["″"'']/g, "")
     .replace(/\b\d+\s*(gb|tb|mb|ram)\b/gi, "")
     .replace(/\s+/g, " ")
     .trim();
 }
 
-// Build a list of queries to try: cleaned full name, then progressively shorter
-function buildQueries(searchTerms: string[]): string[] {
-  const queries: string[] = [];
-  for (const term of searchTerms) {
-    const cleaned = cleanQuery(term);
-    if (cleaned.length >= 3) queries.push(cleaned);
-    // Fallback: first 4 words (brand + model without variants)
-    const short = cleaned.split(/\s+/).slice(0, 4).join(" ");
-    if (short !== cleaned && short.length >= 3) queries.push(short);
+// Known brand names — used to strip non-English/Albanian prefix words
+// e.g. "Tharëse duarësh Dyson Airblade 9KJ" → "Dyson Airblade 9KJ"
+const BRANDS = [
+  "Samsung", "Apple", "Xiaomi", "Huawei", "Sony", "LG", "Dell", "HP", "Lenovo",
+  "ASUS", "Acer", "Microsoft", "Nokia", "Motorola", "OnePlus", "Oppo", "Realme",
+  "Philips", "Bosch", "Siemens", "Dyson", "iRobot", "Whirlpool", "Indesit",
+  "Nintendo", "Nike", "Adidas", "Braun", "Oral-B", "Logitech", "Razer", "MSI",
+  "Gigabyte", "Corsair", "Kingston", "WD", "Seagate", "Canon", "Nikon", "Epson",
+  "Panasonic", "Toshiba", "Sharp", "Hisense", "TCL", "Beko", "Arçelik", "Gorenje",
+];
+
+// If the cleaned query starts with non-English/Albanian words before a known brand,
+// return a brand-forward variant starting at the brand.
+function brandForward(query: string): string | null {
+  const lower = query.toLowerCase();
+  for (const brand of BRANDS) {
+    const idx = lower.indexOf(brand.toLowerCase());
+    if (idx > 0) return query.slice(idx);
   }
-  return queries.filter((q, i) => queries.indexOf(q) === i);
+  return null;
+}
+
+// Detect if a term looks like a manufacturer model number (not a natural-language name)
+// e.g. "SM-S931B", "RTX 4090", "i7-13700K"
+function isModelNumber(term: string): boolean {
+  return /^(SM-[A-Z0-9]+|RTX|GTX|RX\s+\d|i[3579]-\d|Ryzen|[A-Z]{2,5}\d{3,6})/i.test(term);
+}
+
+// Build a list of queries to try, most specific first.
+// Priority order:
+//   1. Model numbers (most specific — exact cross-store match)
+//   2. Brand-forward names (strips Albanian/foreign prefix)
+//   3. Full cleaned name
+//   4. 4-word fallback
+// Skips URL-like terms.
+function buildQueries(searchTerms: string[]): string[] {
+  const modelQueries: string[] = [];
+  const nameQueries: string[] = [];
+
+  for (const term of searchTerms) {
+    // Skip URL-like terms — not useful as store search queries
+    if (/^https?:\/\//.test(term)) continue;
+
+    const cleaned = cleanQuery(term);
+    if (cleaned.length < 3) continue;
+
+    // Model numbers go first for the most precise cross-store matching
+    if (isModelNumber(cleaned)) {
+      modelQueries.push(cleaned);
+      continue;
+    }
+
+    // Brand-forward variant: strips Albanian/foreign prefix before the brand name
+    // e.g. "Tharëse duarësh Dyson Airblade 9KJ" → "Dyson Airblade 9KJ"
+    const branded = brandForward(cleaned);
+    if (branded && branded !== cleaned && branded.length >= 3) {
+      nameQueries.push(branded);
+      const brandedShort = branded.split(/\s+/).slice(0, 3).join(" ");
+      if (brandedShort !== branded && brandedShort.length >= 3) nameQueries.push(brandedShort);
+    }
+
+    nameQueries.push(cleaned);
+
+    // Fallback: first 4 words of the full cleaned query
+    const short = cleaned.split(/\s+/).slice(0, 4).join(" ");
+    if (short !== cleaned && short !== branded && short.length >= 3) nameQueries.push(short);
+  }
+
+  const all = [...modelQueries, ...nameQueries];
+  return all.filter((q, i) => all.indexOf(q) === i);
+}
+
+// Parse JSON-LD structured data from an HTML page to extract price/stock.
+// Most e-commerce platforms include Schema.org Product markup which is reliable
+// and doesn't require platform-specific API knowledge.
+async function scrapeJsonLd(url: string, storeId: string): Promise<ScrapedPrice | null> {
+  try {
+    const { data: html } = await axios.get(url, {
+      timeout: 10000,
+      headers: { ...HEADERS, Accept: "text/html,application/xhtml+xml" },
+    });
+    if (typeof html !== "string") return null;
+
+    // Collect all JSON-LD blocks
+    const ldRegex = /<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi;
+    const ldBlocks: RegExpExecArray[] = [];
+    let ldMatch: RegExpExecArray | null;
+    while ((ldMatch = ldRegex.exec(html)) !== null) ldBlocks.push(ldMatch);
+    for (const [, raw] of ldBlocks) {
+      try {
+        const ld = JSON.parse(raw.trim());
+        const items: unknown[] = Array.isArray(ld) ? ld : ld?.["@graph"] ? ld["@graph"] : [ld];
+        const product = items.find((x: any) => x?.["@type"] === "Product") as any;
+        if (!product) continue;
+
+        const offerList: any[] = Array.isArray(product.offers)
+          ? product.offers
+          : product.offers ? [product.offers] : [];
+        if (!offerList.length) continue;
+
+        const offer = offerList[0];
+        const rawPrice = offer?.price ?? offer?.lowPrice;
+        const price = rawPrice != null ? parseFloat(String(rawPrice)) : null;
+        if (price === null || isNaN(price)) continue;
+
+        const avail: string = offer?.availability ?? "";
+        const inStock = avail ? avail.toLowerCase().includes("instock") : null;
+
+        return {
+          storeId,
+          price,
+          inStock,
+          stockLabel: inStock === true ? "Në gjendje" : inStock === false ? "Jo në gjendje" : "E panjohur",
+          productUrl: url,
+          lastChecked: new Date().toISOString(),
+        };
+      } catch {
+        continue;
+      }
+    }
+  } catch {
+    // network error or not HTML
+  }
+  return null;
 }
 
 // ── Shopify ───────────────────────────────────────────────────────────────────
@@ -224,11 +342,23 @@ async function scrapeWooCommerce(
 }
 
 // ── Shopware (Foleja) ─────────────────────────────────────────────────────────
-// Shopware exposes a search suggest endpoint that returns JSON product data
-// including price and stock. Falls back to the store search page JSON-LD.
+// Strategy:
+// 1. For own-store products: use the product URL (if in searchTerms) to scrape
+//    JSON-LD structured data directly — most reliable, no API key needed.
+// 2. Cross-store: try Shopware's suggest endpoint with brand-forward queries.
 async function scrapeShopware(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
   const lastChecked = new Date().toISOString();
+  const storeBase = store.url.replace(/\/$/, "");
 
+  // 1. Direct URL lookup via JSON-LD (for own-store products that have the URL in searchTerms)
+  for (const term of searchTerms) {
+    if (!term.startsWith(storeBase + "/")) continue;
+    const result = await scrapeJsonLd(term, store.id);
+    if (result) return result;
+    break; // tried the URL, no need to try more
+  }
+
+  // 2. Cross-store search via Shopware suggest API
   for (const term of buildQueries(searchTerms)) {
     try {
       const { data } = await axios.get(`${store.url}/suggest`, {
@@ -237,7 +367,7 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
         headers: HEADERS,
       });
 
-      // Shopware suggest returns { products: { elements: [...] } }
+      // Shopware suggest returns { products: { elements: [...] } } or { elements: [...] }
       const elements: Array<{
         name?: string;
         translated?: { name?: string };
@@ -335,13 +465,44 @@ async function scrapeMagento(store: Store, searchTerms: string[]): Promise<Scrap
 }
 
 // ── Neptun ────────────────────────────────────────────────────────────────────
-// Neptun.al uses a custom AJAX search endpoint.
+// Neptun.al uses a custom platform. Try multiple known search endpoints.
 async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
   const lastChecked = new Date().toISOString();
 
   for (const term of buildQueries(searchTerms)) {
+    // Try the WooCommerce Store API first (some Neptun sites run WooCommerce)
     try {
-      // Try the Neptun search API (discovered via browser DevTools)
+      const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
+        params: { search: term, per_page: 10 },
+        timeout: 8000,
+        headers: HEADERS,
+      });
+      type WooItem = { name: string; permalink: string; prices: { price: string; currency_minor_unit: number }; is_in_stock: boolean };
+      const items: WooItem[] = Array.isArray(data) ? data : [];
+      if (items.length) {
+        const best = items
+          .map((item) => ({ item, score: matchScore(item.name, [term]) }))
+          .filter((x) => x.score > 0)
+          .sort((a, b) => b.score - a.score)[0]?.item;
+        if (best) {
+          const minorUnit = best.prices?.currency_minor_unit ?? 2;
+          const price = best.prices?.price ? parseInt(best.prices.price, 10) / Math.pow(10, minorUnit) : null;
+          return {
+            storeId: store.id,
+            price,
+            inStock: best.is_in_stock ?? null,
+            stockLabel: best.is_in_stock ? "Në gjendje" : "Jo në gjendje",
+            productUrl: best.permalink ?? null,
+            lastChecked,
+          };
+        }
+      }
+    } catch {
+      // not WooCommerce, try custom API
+    }
+
+    // Try Neptun custom search API endpoint
+    try {
       const { data } = await axios.get(`${store.url}/api/products/search`, {
         params: { q: term, limit: 10 },
         timeout: 8000,

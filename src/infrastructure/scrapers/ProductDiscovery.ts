@@ -43,47 +43,75 @@ function extractBrand(name: string, vendor?: string): string {
 }
 
 // Known manufacturer model number patterns (e.g. SM-G991B, RTX 4090, i7-13700K)
-const MODEL_PATTERNS = [
-  /\b(SM-[A-Z0-9]+[A-Z]?)\b/i,           // Samsung: SM-G991B
-  /\b(MQ[A-Z0-9]{2,4}[A-Z]{0,2}\/[A-Z])\b/i, // Apple: MQ6T3LL/A style
-  /\b(RTX\s*\d{4}[A-Z\s]*Ti?)\b/i,        // NVIDIA: RTX 4090
-  /\b(GTX\s*\d{3,4}[A-Z\s]*Ti?)\b/i,      // NVIDIA: GTX 1660
-  /\b(RX\s*\d{4}[A-Z\s]*XT?)\b/i,         // AMD: RX 6700 XT
-  /\b(i[3579]-\d{4,5}[A-Z]{0,2})\b/i,     // Intel: i7-13700K
-  /\b(Ryzen\s+[3579]\s+\d{4}[A-Z]{0,2})\b/i, // AMD Ryzen
-  /\b(Xeon\s+[A-Z0-9-]+)\b/i,             // Intel Xeon
-  /\b([A-Z]{2,4}\d{2,4}[A-Z]{0,3}\d*)\b/, // Generic: TV50UQ, PS5
+const MODEL_PATTERNS: Array<[RegExp, string]> = [
+  [/\b(SM-[A-Z]\d{3}[A-Z0-9]{1,3})\b/i, "Samsung"],           // Samsung: SM-S931B, SM-G991B
+  [/\b(MQ[A-Z0-9]{2,4}[A-Z]{0,2}\/[A-Z])\b/i, "Apple"],       // Apple: MQ6T3LL/A style
+  [/\b([A-Z]{1,2}\d{4}[A-Z]{2,3}\/[A-Z])\b/i, "Apple"],       // Apple: MYYN3LL/A, MYM23QL/A
+  [/\b(RTX\s*\d{4}[A-Z\s]*Ti?)\b/i, "NVIDIA"],                 // NVIDIA: RTX 4090
+  [/\b(GTX\s*\d{3,4}[A-Z\s]*Ti?)\b/i, "NVIDIA"],               // NVIDIA: GTX 1660
+  [/\b(RX\s*\d{4}[A-Z\s]*XT?)\b/i, "AMD"],                     // AMD: RX 6700 XT
+  [/\b(i[3579]-\d{4,5}[A-Z]{0,2})\b/i, "Intel"],               // Intel: i7-13700K
+  [/\b(Core\s+Ultra\s+[579]\s+\d{3}[A-Z]?)\b/i, "Intel"],      // Intel Core Ultra 7 165H
+  [/\b(Ryzen\s+[3579]\s+\d{4}[A-Z]{0,2})\b/i, "AMD"],          // AMD Ryzen
+  [/\b(Xeon\s+[A-Z0-9-]+)\b/i, "Intel"],                       // Intel Xeon
+  [/\b(M[1-9]\s+(?:Pro|Max|Ultra)?)\b/i, "Apple"],             // Apple M3 Pro, M4
+  [/\b(A\d{4}(?:\s*[A-Z]{1,2})?)\b/, "Apple"],                 // Apple A17 Pro chip
+  [/\b(Snapdragon\s+\d+\s*[A-Z]*)\b/i, "Qualcomm"],            // Snapdragon 8 Elite
+  [/\b(Dimensity\s+\d+[A-Z]*)\b/i, "MediaTek"],                // Dimensity 9400
+  [/\b(Kirin\s+\d+[A-Z]*)\b/i, "Huawei"],                      // Kirin 9000
+  [/\b([A-Z]{2,5}\d{3,6}[A-Z]{0,3})\b/, "Generic"],            // Generic: TV50UQ8000, PS5, EW7B66
 ];
 
+// Store-internal SKU patterns to reject (not real model numbers)
+const STORE_SKU_PATTERNS = [
+  /^DUN\d{4}/, // Shpresa internal: DUN4745-M
+  /^SAS\d{4}/, // Shpresa internal: SAS1317
+  /^CEL\d{4}/i,
+  /^ACN-\d/,
+  /^KST-\d/,
+  /^ABP-\d/,
+  /^ERG-\d/,
+  /^MAR-\d/,
+  /^YLL-\d/,
+];
+
+function isStoreInternalSku(sku: string): boolean {
+  return STORE_SKU_PATTERNS.some((p) => p.test(sku));
+}
+
 function extractModelNumber(name: string, fallbackSku: string): string {
-  for (const pattern of MODEL_PATTERNS) {
+  for (const [pattern] of MODEL_PATTERNS) {
     const m = name.match(pattern);
     if (m) return m[1].replace(/\s+/g, " ").trim();
   }
-  // Fall back to SKU only if it looks like a real model number (not a store ID / number)
-  if (fallbackSku && /[A-Z]/.test(fallbackSku) && fallbackSku.length >= 4) return fallbackSku;
-  // Last resort: use the slugified product name (first 20 chars)
-  return slugify(name).slice(0, 20);
+  // Use SKU only if it looks like a real manufacturer model (not a store-internal ID)
+  if (fallbackSku && /[A-Z]/i.test(fallbackSku) && fallbackSku.length >= 4 && !isStoreInternalSku(fallbackSku)) {
+    return fallbackSku;
+  }
+  // Return empty string — no real model number found
+  // (better than a slugified store name which would be misleading)
+  return "";
 }
 
 function guessCategory(name: string, tags: string[] = [], productType = "", categories: string[] = []): { category: string; subcategory: string } {
   const text = [name, productType, ...tags, ...categories].join(" ").toLowerCase();
-  if (/iphone|samsung galaxy|xiaomi|redmi|oneplus|oppo|realme|motorola|smartphone|telefon celular/i.test(text)) return { category: "telefona", subcategory: "Smartphone" };
+  // Phones: include Albanian prefixes "celular", "smartphone" + known brands/models
+  if (/\b(celular|smartphone|telefon celular)\b|iphone|samsung galaxy [as]\d+|pixel \d|xiaomi \d+|redmi|oneplus|oppo|realme|motorola edge|motorola moto/i.test(text)) return { category: "telefona", subcategory: "Smartphone" };
   if (/ipad|tablet|samsung tab|lenovo tab|huawei matepad/i.test(text)) return { category: "telefona", subcategory: "Tablet" };
-  if (/macbook|laptop|notebook|thinkpad|chromebook/i.test(text)) return { category: "kompjutera", subcategory: "Laptop" };
-  if (/desktop|pc gaming|all-in-one|imac|mini pc/i.test(text)) return { category: "kompjutera", subcategory: "Desktop PC" };
+  if (/macbook|laptop|notebook|thinkpad|chromebook|precision \d{4}|elitebook|thinkbook/i.test(text)) return { category: "kompjutera", subcategory: "Laptop" };
+  if (/desktop|pc gaming|all-in-one|imac|\bmini pc\b/i.test(text)) return { category: "kompjutera", subcategory: "Desktop PC" };
   if (/\bmonitor\b/i.test(text)) return { category: "kompjutera", subcategory: "Monitor" };
   if (/printer|printues/i.test(text)) return { category: "kompjutera", subcategory: "Printer" };
-  if (/keyboard|tastier|mouse|webcam|headset pc|usb hub|ssd|hard disk|\bram\b|procesor|\bgpu\b/i.test(text)) return { category: "kompjutera", subcategory: "Aksesore PC" };
+  if (/keyboard|tastier|mouse|webcam|headset pc|usb hub|\bssd\b|hard disk|\bram\b|procesor|\bgpu\b/i.test(text)) return { category: "kompjutera", subcategory: "Aksesore PC" };
   if (/televizor|smart tv|oled tv|qled tv|4k tv/i.test(text)) return { category: "elektronike", subcategory: "TV" };
   if (/headphone|kufje|speaker|soundbar|earbuds|airpods|earphones|subwoofer/i.test(text)) return { category: "elektronike", subcategory: "Audio" };
   if (/playstation|xbox|nintendo|ps5|ps4|gaming chair|controller|joystick/i.test(text)) return { category: "elektronike", subcategory: "Gaming" };
   if (/kamera|camera|dslr|mirrorless|gopro|drone/i.test(text)) return { category: "elektronike", subcategory: "Kamera" };
-  if (/lavatrice|frigorifer|lavastovilje|mikroval|kondicionier|furr|aspirator/i.test(text)) return { category: "elektronike", subcategory: "Shtëpiake" };
+  if (/lavatrice|frigorifer|lavastovilje|mikroval|kondicionier|furr|aspirator|\btharëse\b|hand dryer|airblade/i.test(text)) return { category: "elektronike", subcategory: "Shtëpiake" };
   if (/charger|karikues|power bank|kavo|adapter|\bups\b|toner/i.test(text)) return { category: "elektronike", subcategory: "Aksesorë" };
   if (/parfum|eau de toilette/i.test(text)) return { category: "bukuri", subcategory: "Parfum" };
   if (/skincare|moisturizer|serum|krema|maska/i.test(text)) return { category: "bukuri", subcategory: "Kujdes Lëkure" };
-  if (/hair dryer|hekur flokesh|shaver|epilator/i.test(text)) return { category: "bukuri", subcategory: "Elektrik" };
+  if (/hair dryer|hekur flokesh|shaver|epilator|airwrap|airstrait|straightener/i.test(text)) return { category: "bukuri", subcategory: "Elektrik" };
   if (/lego|toys|barbie|hot wheels|puzzle|lodra|funko/i.test(text)) return { category: "lodra", subcategory: "Lodra" };
   if (/nike|adidas|puma|veshje sportive/i.test(text)) return { category: "sporte", subcategory: "Veshje Sportive" };
   if (/fitness|tapis roulant|elliptical/i.test(text)) return { category: "sporte", subcategory: "Fitness" };

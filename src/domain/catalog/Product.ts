@@ -5,6 +5,17 @@ export interface StorageOption {
   sku?: string;
 }
 
+export interface ProductSpecs {
+  [key: string]: string;  // e.g. "Display" → "6.2\" FHD+, 120Hz"
+}
+
+export interface ProductVariant {
+  modelCode: string;      // e.g. "SM-S931B"
+  region: string;         // "EU" | "US" | "Global" | "Unknown"
+  confidence: "confirmed" | "likely" | "unclear";
+  notes?: string;         // e.g. "Exynos 2500 (Europe)"
+}
+
 export interface Product {
   id: string;
   modelNumber: string;
@@ -15,6 +26,11 @@ export interface Product {
   imageUrl: string;
   storageOptions: StorageOption[];
   searchTerms: string[];
+  variant?: ProductVariant;
+  specs?: ProductSpecs;
+  description?: string;
+  officialImages?: string[];
+  enrichedAt?: string;       // ISO timestamp of last enrichment
 }
 
 export interface Category {
