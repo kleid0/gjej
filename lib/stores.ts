@@ -24,6 +24,7 @@ export const STORES: Store[] = [
     searchUrls: (q) => [
       `https://www.foleja.al/catalogsearch/result/?q=${encodeURIComponent(q)}`,
       `https://www.foleja.al/search?q=${encodeURIComponent(q)}`,
+      `https://www.foleja.al/kerko?q=${encodeURIComponent(q)}`,
     ],
     selectors: {
       productLink: [
@@ -110,13 +111,16 @@ export const STORES: Store[] = [
     logo: "/logos/pcstore.png",
     color: "#ff6600",
     searchUrls: (q) => [
-      `https://www.pcstore.al/?s=${encodeURIComponent(q)}&post_type=product`,
       `https://www.pcstore.al/?s=${encodeURIComponent(q)}`,
+      `https://www.pcstore.al/?s=${encodeURIComponent(q)}&post_type=product`,
     ],
     selectors: {
       productLink: [
-        "h2.woocommerce-loop-product__title a",
         "a.woocommerce-loop-product__link",
+        "a.woocommerce-LoopProduct-link",
+        "a[href*='/product/']",
+        "li.product a[href]",
+        "ul.products a[href]",
         ".product-title a",
         ".product-name a",
       ],
@@ -150,13 +154,16 @@ export const STORES: Store[] = [
     logo: "/logos/albagame.png",
     color: "#7c3aed",
     searchUrls: (q) => [
-      `https://www.albagame.al/?s=${encodeURIComponent(q)}&post_type=product`,
       `https://www.albagame.al/?s=${encodeURIComponent(q)}`,
+      `https://www.albagame.al/?s=${encodeURIComponent(q)}&post_type=product`,
     ],
     selectors: {
       productLink: [
-        "h2.woocommerce-loop-product__title a",
         "a.woocommerce-loop-product__link",
+        "a.woocommerce-LoopProduct-link",
+        "a[href*='/product/']",
+        "li.product a[href]",
+        "ul.products a[href]",
         ".product-title a",
         ".product-name a",
       ],
