@@ -1,8 +1,9 @@
 import { promises as fs } from "fs";
 import path from "path";
 import type { ScrapedPrice } from "./scraper";
+import { PRICES_FILE as PRICES_FILE_PATH } from "./data-path";
 
-const PRICES_FILE = path.join(process.cwd(), "data", "prices.json");
+const PRICES_FILE = PRICES_FILE_PATH;
 
 export interface PriceRecord {
   prices: ScrapedPrice[];

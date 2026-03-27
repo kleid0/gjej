@@ -3,10 +3,10 @@
 // Do NOT import this from client components.
 
 import { promises as fs } from "fs";
-import path from "path";
 import { PRODUCTS, type Product } from "./products";
+import { DISCOVERED_PRODUCTS_FILE } from "./data-path";
 
-const DATA_FILE = path.join(process.cwd(), "data", "discovered-products.json");
+const DATA_FILE = DISCOVERED_PRODUCTS_FILE;
 
 async function loadDiscovered(): Promise<Product[]> {
   try {

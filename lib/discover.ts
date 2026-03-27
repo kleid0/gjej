@@ -9,22 +9,28 @@ const DISCOVERY_PLAN: Array<{
   subcategory: string;
   terms: string[];
 }> = [
-  { categoryId: "telefona",   subcategory: "Smartphone",      terms: ["smartphone", "Samsung Galaxy", "iPhone", "Xiaomi telefon", "telefon celular"] },
-  { categoryId: "telefona",   subcategory: "Tablet",           terms: ["tablet", "iPad"] },
-  { categoryId: "kompjutera", subcategory: "Laptop",           terms: ["laptop", "notebook", "MacBook"] },
-  { categoryId: "kompjutera", subcategory: "Monitor",          terms: ["monitor"] },
-  { categoryId: "kompjutera", subcategory: "Printer",          terms: ["printer", "printues"] },
-  { categoryId: "elektronike",subcategory: "TV",               terms: ["televizor", "Smart TV", "OLED TV"] },
-  { categoryId: "elektronike",subcategory: "Audio",            terms: ["kufje", "headphones", "bluetooth speaker"] },
-  { categoryId: "elektronike",subcategory: "Gaming",           terms: ["PlayStation", "Xbox", "Nintendo Switch"] },
-  { categoryId: "elektronike",subcategory: "Kamera",           terms: ["kamera", "camera"] },
-  { categoryId: "shtepi",     subcategory: "Pajisje Kuzhine",  terms: ["lavatrice", "frigorifer", "pajisje kuzhine"] },
-  { categoryId: "shtepi",     subcategory: "Pastrimi",         terms: ["fshese me korrent", "aspirapolvere"] },
-  { categoryId: "sporte",     subcategory: "Fitness",          terms: ["fitness", "sport pajisje"] },
-  { categoryId: "sporte",     subcategory: "Veshje Sportive",  terms: ["Nike", "Adidas këpucë"] },
-  { categoryId: "bukuri",     subcategory: "Parfum",           terms: ["parfum", "eau de toilette"] },
-  { categoryId: "bukuri",     subcategory: "Kujdes Lëkure",    terms: ["kujdes lëkure", "skincare"] },
-  { categoryId: "lodra",      subcategory: "Lodra",            terms: ["lodra", "LEGO", "toys"] },
+  { categoryId: "telefona",   subcategory: "Smartphone",      terms: ["smartphone", "Samsung Galaxy", "iPhone", "Xiaomi telefon", "telefon celular", "Redmi", "Galaxy A", "Galaxy S", "iPhone 15", "iPhone 14", "iPhone 13", "Xiaomi 13", "OnePlus", "Oppo", "Realme", "Motorola", "Huawei", "Nokia telefon", "Android telefon"] },
+  { categoryId: "telefona",   subcategory: "Tablet",           terms: ["tablet", "iPad", "Samsung Tab", "Lenovo Tab", "Xiaomi Pad", "Huawei MatePad", "iPad Pro", "iPad Air", "iPad mini"] },
+  { categoryId: "kompjutera", subcategory: "Laptop",           terms: ["laptop", "notebook", "MacBook", "Dell laptop", "HP laptop", "Lenovo laptop", "ASUS laptop", "Acer laptop", "gaming laptop", "ultrabook", "Chromebook", "laptop i5", "laptop i7", "laptop ryzen"] },
+  { categoryId: "kompjutera", subcategory: "Desktop",          terms: ["kompjuter desktop", "PC gaming", "all-in-one", "iMac", "mini PC"] },
+  { categoryId: "kompjutera", subcategory: "Monitor",          terms: ["monitor", "monitor gaming", "monitor 4K", "monitor 27 inch", "monitor 24 inch", "curved monitor", "monitor IPS"] },
+  { categoryId: "kompjutera", subcategory: "Printer",          terms: ["printer", "printues", "laser printer", "inkjet printer", "HP printer", "Canon printer", "Epson printer", "multifunksional"] },
+  { categoryId: "kompjutera", subcategory: "Aksesorë",         terms: ["tastierë", "keyboard", "mouse gaming", "mouse wireless", "web kamera", "webcam", "headset PC", "USB hub", "SSD", "hard disk", "RAM", "procesor", "GPU", "grafike"] },
+  { categoryId: "elektronike",subcategory: "TV",               terms: ["televizor", "Smart TV", "OLED TV", "QLED TV", "4K TV", "Samsung TV", "LG TV", "Sony TV", "Philips TV", "TV 55 inch", "TV 65 inch", "TV 43 inch", "Android TV"] },
+  { categoryId: "elektronike",subcategory: "Audio",            terms: ["kufje", "headphones", "bluetooth speaker", "soundbar", "earbuds", "AirPods", "Sony kufje", "JBL speaker", "Bose", "wireless earphones", "gaming headset", "subwoofer"] },
+  { categoryId: "elektronike",subcategory: "Gaming",           terms: ["PlayStation", "Xbox", "Nintendo Switch", "PS5", "PS4", "Xbox Series X", "gaming aksesorë", "joystick", "controller", "gaming chair", "PS5 game", "Xbox game"] },
+  { categoryId: "elektronike",subcategory: "Kamera",           terms: ["kamera", "camera", "DSLR", "mirrorless", "Canon kamera", "Nikon", "Sony kamera", "action camera", "GoPro", "drone", "webcam", "kamera sigurie"] },
+  { categoryId: "elektronike",subcategory: "Shtëpiake",        terms: ["lavatrice", "frigorifer", "lavastovilje", "microwave", "kondicionier", "ajri i kondicionuar", "ngrohës", "furrë", "aspirator"] },
+  { categoryId: "elektronike",subcategory: "Aksesorë",         terms: ["charger", "karikues", "power bank", "kavo", "adapter", "batterie", "UPS", "printer ink", "toner"] },
+  { categoryId: "shtepi",     subcategory: "Pajisje Kuzhine",  terms: ["lavatrice", "frigorifer", "pajisje kuzhine", "furrë gatimi", "mikrovalë", "mikser", "blender", "kafemakine", "toaster", "lavastovilje", "ngrohës uji"] },
+  { categoryId: "shtepi",     subcategory: "Pastrimi",         terms: ["fshese me korrent", "aspirapolvere", "robot aspirator", "Dyson", "iRobot", "fshesë", "washing machine", "lavatrice"] },
+  { categoryId: "shtepi",     subcategory: "Ndriçim",          terms: ["llambë LED", "ndriçim smart", "smart bulb", "Philips Hue", "led shirit"] },
+  { categoryId: "sporte",     subcategory: "Fitness",          terms: ["fitness", "sport pajisje", "vrapim", "biçikletë fitness", "shtangë", "tapis roulant", "elliptical"] },
+  { categoryId: "sporte",     subcategory: "Veshje Sportive",  terms: ["Nike", "Adidas këpucë", "Puma", "veshje sportive", "këpucë sportive", "çantë sportive"] },
+  { categoryId: "bukuri",     subcategory: "Parfum",           terms: ["parfum", "eau de toilette", "Chanel", "Dior parfum", "Hugo Boss", "Versace", "parfum femra", "parfum burra"] },
+  { categoryId: "bukuri",     subcategory: "Kujdes Lëkure",    terms: ["kujdes lëkure", "skincare", "moisturizer", "serum", "Nivea", "L'Oreal", "Garnier", "krema", "maska"] },
+  { categoryId: "bukuri",     subcategory: "Elektrik",         terms: ["tharëse flokësh", "hair dryer", "hekur flokësh", "shavers", "Braun", "Oral-B", "Philips beauty", "epilator"] },
+  { categoryId: "lodra",      subcategory: "Lodra",            terms: ["lodra", "LEGO", "toys", "Barbie", "Hot Wheels", "puzzle", "lodra fëmijësh", "playset"] },
 ];
 
 const KNOWN_BRANDS = [
@@ -89,6 +95,7 @@ export async function discoverProducts(): Promise<Product[]> {
           const $ = cheerio.load(data);
 
           for (const sel of store.selectors.productLink) {
+            let foundCount = 0;
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             $(sel).each((_: number, el: any) => {
               const $el = $(el);
@@ -143,10 +150,11 @@ export async function discoverProducts(): Promise<Product[]> {
                 storageOptions: [],
                 searchTerms: [name],
               });
+              foundCount++;
             });
 
-            // Stop trying selectors once we found items for this store+term
-            if ($("[href]").length > 0) break;
+            // Stop trying selectors once this selector actually found products
+            if (foundCount > 0) break;
           }
         } catch {
           // Store unreachable or blocked — skip silently
