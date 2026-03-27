@@ -21,45 +21,108 @@ export interface GSMArenaResult {
   description?: string;
 }
 
-// Map from region suffix in model numbers to region name
-function inferRegion(models: string[]): { region: string; confidence: "confirmed" | "likely" | "unclear" } {
-  // Samsung model suffixes: B=Europe, U=USA, W=Canada, N=Korea, 0=China
-  const euModels = models.filter((m) => /SM-[A-Z0-9]+B$/.test(m));
-  const usModels = models.filter((m) => /SM-[A-Z0-9]+U[01]?$/.test(m));
-  if (euModels.length > 0 && usModels.length === 0) return { region: "EU", confidence: "confirmed" };
-  if (usModels.length > 0 && euModels.length === 0) return { region: "US", confidence: "confirmed" };
-  // For Albanian market, EU variant is most common (Albania is in Europe)
-  if (euModels.length > 0) return { region: "EU", confidence: "likely" };
-  return { region: "Unknown", confidence: "unclear" };
+// ── Brand-aware model patterns ────────────────────────────────────────────────
+// Each brand has its own model number format. Mixing them across brands is
+// always wrong (SM-* are Samsung, A#### are Apple, etc.).
+const BRAND_MODEL_PATTERNS: Record<string, RegExp> = {
+  "Samsung":   /\bSM-[A-Z]\d{3}[A-Z0-9]{1,3}\b/g,
+  "Apple":     /\bA\d{4}\b/g,
+  "Xiaomi":    /\b(?:M\d{4}[A-Z]\d?|2\d{9,10}[A-Z]?)\b/g,
+  "Huawei":    /\b(?:MED|CLT|ELS|NOH|OCE|VRD|DUB|BND|ANE)-[A-Z]{1,2}\d{2,3}[A-Z]?\b/g,
+  "OnePlus":   /\bPHB\d{3}\b/g,
+  "Motorola":  /\bXT\d{4}-\d\b/g,
+};
+
+// Which GSMArena brand name prefix to validate against
+// (GSMArena lists devices as "Samsung Galaxy S25" or "Apple iPhone 17 Pro")
+const BRAND_GSMARENA_NAME: Record<string, string> = {
+  "Samsung":  "samsung",
+  "Apple":    "apple",
+  "Xiaomi":   "xiaomi",
+  "Huawei":   "huawei",
+  "OnePlus":  "oneplus",
+  "Motorola": "motorola",
+  "Nokia":    "nokia",
+  "Oppo":     "oppo",
+  "Realme":   "realme",
+  "Sony":     "sony",
+  "LG":       "lg",
+};
+
+// ── Region / variant inference ────────────────────────────────────────────────
+function inferRegion(
+  models: string[],
+  brand?: string
+): { region: string; confidence: "confirmed" | "likely" | "unclear" } {
+  // Samsung: trailing letter indicates region (B=EU, U/U1=US, N=Korea, etc.)
+  if (!brand || brand === "Samsung") {
+    const euModels = models.filter((m) => /SM-[A-Z0-9]+B$/.test(m));
+    const usModels = models.filter((m) => /SM-[A-Z0-9]+U\d?$/.test(m));
+    if (euModels.length > 0 && usModels.length === 0) return { region: "EU", confidence: "confirmed" };
+    if (usModels.length > 0 && euModels.length === 0) return { region: "US", confidence: "confirmed" };
+    if (euModels.length > 0) return { region: "EU", confidence: "likely" };
+    if (models.length > 0) return { region: "Unknown", confidence: "unclear" };
+  }
+  // Apple: model numbers (A####) don't directly encode region; Albanian market
+  // gets EU-distributed stock. Mark as EU with "likely" confidence.
+  if (brand === "Apple") {
+    return models.length > 0
+      ? { region: "EU", confidence: "likely" }
+      : { region: "Unknown", confidence: "unclear" };
+  }
+  return { region: models.length > 0 ? "Global" : "Unknown", confidence: "unclear" };
 }
 
-// Find the most likely model number sold in Albanian stores
-// Albanian stores are European → prefer EU variant
-function selectAlbanianVariant(models: string[]): string {
+function selectAlbanianVariant(models: string[], brand?: string): string {
   if (!models.length) return "";
-  // Prefer EU Samsung models (suffix B)
-  const euModel = models.find((m) => /SM-[A-Z0-9]+B$/.test(m));
-  if (euModel) return euModel;
-  // Prefer international Apple models (contain LL/A for US or international)
-  // Apple model numbers in Europe often end with /QL, /B, /NF etc.
-  // Just return first model as fallback
+  if (brand === "Samsung" || models.some((m) => m.startsWith("SM-"))) {
+    // Albanian stores stock EU Samsung models (suffix B)
+    return models.find((m) => /SM-[A-Z0-9]+B$/.test(m)) ?? models[0];
+  }
+  // Apple and others: return first model
   return models[0];
 }
 
-export async function searchGSMArena(productName: string): Promise<string | null> {
+// ── Validation helpers ────────────────────────────────────────────────────────
+// Check that a GSMArena device name is consistent with the expected brand.
+// e.g. brand="Apple" → device name must contain "apple" (case-insensitive)
+function deviceNameMatchesBrand(deviceName: string, brand: string): boolean {
+  const expected = BRAND_GSMARENA_NAME[brand]?.toLowerCase() ?? brand.toLowerCase();
+  return deviceName.toLowerCase().includes(expected);
+}
+
+// Check that extracted model codes are consistent with the expected brand.
+// Samsung models (SM-*) must NOT appear for Apple products, etc.
+function modelsMatchBrand(models: string[], brand: string): boolean {
+  if (!models.length) return true; // no models → no conflict
+  const hasSamsung = models.some((m) => /^SM-/.test(m));
+  const hasApple   = models.some((m) => /^A\d{4}$/.test(m));
+  if (brand === "Apple"   && hasSamsung) return false;
+  if (brand === "Samsung" && hasApple)   return false;
+  return true;
+}
+
+// ── GSMArena search ───────────────────────────────────────────────────────────
+// Searches GSMArena and returns the device URL for the best matching result.
+// brand param is used to validate the result belongs to the right manufacturer.
+export async function searchGSMArena(productName: string, brand?: string): Promise<string | null> {
   try {
     const url = `https://www.gsmarena.com/results.php3?sQuickSearch=1&fDisplayInchesMin=0&fDisplayInchesMax=0&s=${encodeURIComponent(productName)}`;
     const { data } = await axios.get(url, { headers: HEADERS, timeout: 10000 });
     const $ = cheerio.load(data);
 
-    // GSMArena search results are in .makers ul li
+    const expectedBrand = brand ? (BRAND_GSMARENA_NAME[brand]?.toLowerCase() ?? brand.toLowerCase()) : null;
     let devicePath: string | null = null;
+
     $(".makers li").each((_: number, el: any) => {
       if (devicePath) return;
       const link = $(el).find("a").first();
       const href = link.attr("href");
-      const name = link.find("strong span").last().text().trim() || link.text().trim();
-      // Pick first result that matches the search
+      const resultName = (link.find("strong span").last().text().trim() || link.text().trim()).toLowerCase();
+
+      // Brand gate: reject results that don't match the expected manufacturer
+      if (expectedBrand && !resultName.includes(expectedBrand)) return;
+
       if (href && !href.startsWith("http")) {
         devicePath = href;
       }
@@ -71,13 +134,20 @@ export async function searchGSMArena(productName: string): Promise<string | null
   }
 }
 
-export async function fetchGSMArenaDevice(deviceUrl: string): Promise<GSMArenaResult | null> {
+// ── GSMArena device page ──────────────────────────────────────────────────────
+// Fetches and parses a GSMArena device page.
+// brand param enables brand-aware model extraction (only Samsung models for
+// Samsung devices, only Apple models for Apple devices, etc.).
+export async function fetchGSMArenaDevice(deviceUrl: string, brand?: string): Promise<GSMArenaResult | null> {
   try {
     const { data } = await axios.get(deviceUrl, { headers: HEADERS, timeout: 10000 });
     const $ = cheerio.load(data);
 
     const name = $(".specs-phone-name-title, h1.specs-phone-name-title").text().trim();
     if (!name) return null;
+
+    // Validate: device name must contain the expected brand
+    if (brand && !deviceNameMatchesBrand(name, brand)) return null;
 
     // Extract specs using data-spec attributes (most reliable)
     const specs: ProductSpecs = {};
@@ -88,39 +158,47 @@ export async function fetchGSMArenaDevice(deviceUrl: string): Promise<GSMArenaRe
         const $row = $(row);
         const th = $row.find("th").text().trim();
         if (th) currentSection = th;
-
         const ttl = $row.find("td.ttl").text().trim();
         let nfo = $row.find("td.nfo").text().trim().replace(/\s+/g, " ");
-
         if (ttl && nfo) {
-          const specKey = currentSection ? `${currentSection} · ${ttl}` : ttl;
-          specs[specKey] = nfo;
+          specs[currentSection ? `${currentSection} · ${ttl}` : ttl] = nfo;
         }
       });
     });
 
-    // Extract model numbers
+    // Extract model numbers — brand-aware to prevent cross-brand contamination
     const modelsRaw = $("td[data-spec='models']").text().trim() ||
                       specs["Launch · Models"] || specs["Models"] || "";
-    const samsungModels = modelsRaw.match(/SM-[A-Z0-9]+/g) ?? [];
-    const appleModels = modelsRaw.match(/A\d{4}/g) ?? [];
-    const allModels = [...samsungModels, ...appleModels];
 
-    // Remove duplicate models
-    const models = allModels.filter((m, i) => allModels.indexOf(m) === i);
+    let models: string[] = [];
+    const brandPattern = brand ? BRAND_MODEL_PATTERNS[brand] : undefined;
+    if (brandPattern) {
+      // Only extract models matching this brand's pattern
+      models = modelsRaw.match(brandPattern) ?? [];
+    } else {
+      // Unknown brand: try Samsung then Apple (most common)
+      const samsungModels = modelsRaw.match(BRAND_MODEL_PATTERNS["Samsung"]) ?? [];
+      const appleModels   = modelsRaw.match(BRAND_MODEL_PATTERNS["Apple"])   ?? [];
+      models = [...samsungModels, ...appleModels];
+    }
 
-    // Determine variant for Albanian market
-    const regionInfo = inferRegion(models);
-    const primaryModel = selectAlbanianVariant(models);
+    // Deduplicate
+    models = models.filter((m, i) => models.indexOf(m) === i);
+
+    // Final safety check: ensure extracted models are consistent with brand
+    if (brand && !modelsMatchBrand(models, brand)) return null;
+
+    const regionInfo   = inferRegion(models, brand);
+    const primaryModel = selectAlbanianVariant(models, brand);
 
     const variant: ProductVariant = {
-      modelCode: primaryModel || "",
-      region: regionInfo.region,
+      modelCode:  primaryModel || "",
+      region:     regionInfo.region,
       confidence: regionInfo.confidence,
-      notes: models.length > 0 ? `Modelet: ${models.join(", ")}` : undefined,
+      notes:      models.length > 0 ? `Modelet: ${models.join(", ")}` : undefined,
     };
 
-    // Extract official images from the phone photos page
+    // Extract official images
     const officialImages: string[] = [];
     $("div.pictures-list img, img.phone-big-photo").each((_: number, img: any) => {
       const src = $(img).attr("src") || $(img).attr("data-src") || "";
@@ -128,31 +206,17 @@ export async function fetchGSMArenaDevice(deviceUrl: string): Promise<GSMArenaRe
         officialImages.push(src);
       }
     });
-    // Also check for the main phone image
     const mainImg = $("div.review-header img").attr("src") || $("div.specs-photo img").attr("src");
     if (mainImg && mainImg.startsWith("http")) officialImages.unshift(mainImg);
 
-    // Short description
-    const description = $("p.article-info-meta-text, .review-intro-text, .article-intro").first().text().trim().slice(0, 500) || undefined;
+    const description = $("p.article-info-meta-text, .review-intro-text, .article-intro")
+      .first().text().trim().slice(0, 500) || undefined;
 
-    // Build a curated specs subset (most important specs for display)
-    const importantKeys = [
-      "Display · Size", "Display · Resolution", "Display · Type",
-      "Platform · OS", "Platform · Chipset", "Platform · CPU", "Platform · GPU",
-      "Memory · Internal",
-      "Main Camera · Triple", "Main Camera · Dual", "Main Camera · Single",
-      "Battery · Type",
-      "Sound · 3.5mm jack", "Sound · USB",
-      "Network · Technology",
-      "Misc · Models", "Misc · Colors",
-      "Launch · Announced", "Launch · Status",
-    ];
-
+    // Build curated specs subset
     const curatedSpecs: ProductSpecs = {};
     for (const key of Object.keys(specs)) {
-      const shortKey = key.replace(/^[^·]+·\s*/, ""); // "Display · Size" → "Size"
-      const section = key.split(" · ")[0];
-      // Include all specs from important sections
+      const shortKey = key.replace(/^[^·]+·\s*/, "");
+      const section  = key.split(" · ")[0];
       if (["Display", "Platform", "Memory", "Main Camera", "Battery", "Launch", "Network", "Misc"].includes(section)) {
         curatedSpecs[`${section}: ${shortKey}`] = specs[key];
       }
@@ -164,8 +228,16 @@ export async function fetchGSMArenaDevice(deviceUrl: string): Promise<GSMArenaRe
   }
 }
 
-export async function enrichPhone(productName: string): Promise<GSMArenaResult | null> {
-  const deviceUrl = await searchGSMArena(productName);
+// ── Public API ────────────────────────────────────────────────────────────────
+export async function enrichPhone(productName: string, brand?: string): Promise<GSMArenaResult | null> {
+  const deviceUrl = await searchGSMArena(productName, brand);
   if (!deviceUrl) return null;
-  return fetchGSMArenaDevice(deviceUrl);
+
+  const result = await fetchGSMArenaDevice(deviceUrl, brand);
+  if (!result) return null;
+
+  // Final guard: if a brand is known, the returned device must belong to it
+  if (brand && !deviceNameMatchesBrand(result.name, brand)) return null;
+
+  return result;
 }

@@ -54,7 +54,8 @@ export async function GET(req: NextRequest) {
       .replace(/,.*$/, "")           // remove specs after comma
       .replace(/\b\d+\s*(gb|tb)\b/gi, "")  // remove storage
       .replace(/\s+/g, " ").trim();
-    result = await enrichPhone(searchName);
+    // Pass brand so GSMArena results are validated against the right manufacturer
+    result = await enrichPhone(searchName, product.brand);
   }
 
   // For Foleja products: try JSON-LD from the product URL stored in searchTerms
