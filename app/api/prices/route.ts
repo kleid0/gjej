@@ -47,7 +47,11 @@ export async function GET(req: NextRequest) {
   );
 
   setCached(key, results);
-  await setPersistedPrices(productId, results);
+  try {
+    await setPersistedPrices(productId, results);
+  } catch {
+    // File write may fail on read-only Vercel deployment dir; in-memory cache still works
+  }
 
   return NextResponse.json({ prices: results, fromCache: false });
 }

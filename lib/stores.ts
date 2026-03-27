@@ -148,29 +148,40 @@ export const STORES: Store[] = [
     },
   },
   {
+    // Shopify store (albagame-sh-p-k.myshopify.com), Wokiee theme
     id: "albagame",
     name: "AlbaGame",
     url: "https://www.albagame.al",
     logo: "/logos/albagame.png",
     color: "#7c3aed",
     searchUrls: (q) => [
-      `https://www.albagame.al/?s=${encodeURIComponent(q)}`,
-      `https://www.albagame.al/?s=${encodeURIComponent(q)}&post_type=product`,
+      `https://www.albagame.al/search?q=${encodeURIComponent(q)}&type=product`,
+      `https://www.albagame.al/search?q=${encodeURIComponent(q)}`,
     ],
     selectors: {
       productLink: [
-        "a.woocommerce-loop-product__link",
-        "a.woocommerce-LoopProduct-link",
-        "a[href*='/product/']",
-        "li.product a[href]",
-        "ul.products a[href]",
-        ".product-title a",
-        ".product-name a",
+        // Shopify: all product pages live under /products/
+        "a[href*='/products/']",
+        ".product-card a",
+        ".product-item a",
+        ".tt-product a",
+        ".grid__item a",
       ],
-      price: [".woocommerce-Price-amount", ".price ins .amount", ".price .amount", ".product-price"],
-      stock: [".in-stock", ".out-of-stock", ".stock", "[class*='stock']"],
-      inStockText: ["in stock", "në gjendje", "available"],
-      outOfStockText: ["out of stock", "nuk ka gjendje", "unavailable"],
+      price: [
+        ".price__current",
+        ".price-item--regular",
+        ".price__sale .price-item",
+        ".price-item",
+        "[class*='price']",
+      ],
+      stock: [
+        ".product-availability",
+        ".inventory-status",
+        "[class*='availability']",
+        "[class*='inventory']",
+      ],
+      inStockText: ["in stock", "available", "në gjendje", "in magazinë"],
+      outOfStockText: ["out of stock", "sold out", "unavailable", "nuk ka"],
     },
   },
 ];
