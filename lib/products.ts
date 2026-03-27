@@ -55,7 +55,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/global/sm-g930/gallery/global-galaxy-s7-sm-g930-sm-g930fzkaxfe-001-front-black",
     storageOptions: [{ label: "32GB" }],
-    searchTerms: ["Samsung Galaxy S7", "G930F", "SM-G930F"],
+    searchTerms: ["Samsung Galaxy S7", "Galaxy S7"],
   },
   {
     id: "SM-G930FD",
@@ -66,7 +66,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/global/sm-g930/gallery/global-galaxy-s7-sm-g930-sm-g930fzkaxfe-001-front-black",
     storageOptions: [{ label: "32GB" }],
-    searchTerms: ["Samsung Galaxy S7 Dual", "G930FD", "SM-G930FD", "S7 dual sim"],
+    searchTerms: ["Samsung Galaxy S7 Dual", "Galaxy S7 Dual SIM", "S7 dual sim"],
   },
   {
     id: "SM-G930W8",
@@ -77,7 +77,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/global/sm-g930/gallery/global-galaxy-s7-sm-g930-sm-g930fzkaxfe-001-front-black",
     storageOptions: [{ label: "32GB" }],
-    searchTerms: ["Samsung Galaxy S7 W8", "G930W8", "SM-G930W8"],
+    searchTerms: ["Samsung Galaxy S7", "Galaxy S7"],
   },
 
   // ── Samsung Galaxy S24 family ────────────────────────────────────
@@ -90,7 +90,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/2401/gallery/al-galaxy-s24-s921-sm-s921bzadeue-thumb-539572882",
     storageOptions: [{ label: "128GB" }, { label: "256GB" }],
-    searchTerms: ["Samsung Galaxy S24", "S921B", "SM-S921B"],
+    searchTerms: ["Samsung Galaxy S24", "Galaxy S24"],
   },
   {
     id: "SM-S921B-DS",
@@ -101,7 +101,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/2401/gallery/al-galaxy-s24-s921-sm-s921bzadeue-thumb-539572882",
     storageOptions: [{ label: "128GB" }, { label: "256GB" }],
-    searchTerms: ["Samsung Galaxy S24 Dual", "S921B/DS", "SM-S921B/DS", "S24 dual sim"],
+    searchTerms: ["Samsung Galaxy S24 Dual", "Galaxy S24 Dual SIM", "S24 dual sim"],
   },
   {
     id: "SM-S928B",
@@ -112,7 +112,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/2401/gallery/al-galaxy-s24-ultra-s928-sm-s928bzageue-thumb-539572882",
     storageOptions: [{ label: "256GB" }, { label: "512GB" }, { label: "1TB" }],
-    searchTerms: ["Samsung Galaxy S24 Ultra", "S928B", "SM-S928B"],
+    searchTerms: ["Samsung Galaxy S24 Ultra", "Galaxy S24 Ultra"],
   },
 
   // ── Apple iPhone 15 family ───────────────────────────────────────
@@ -125,7 +125,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-black",
     storageOptions: [{ label: "128GB" }, { label: "256GB" }, { label: "512GB" }],
-    searchTerms: ["iPhone 15", "A3090", "iPhone15"],
+    searchTerms: ["iPhone 15", "Apple iPhone 15"],
   },
   {
     id: "A2848",
@@ -136,7 +136,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-naturaltitanium",
     storageOptions: [{ label: "128GB" }, { label: "256GB" }, { label: "512GB" }, { label: "1TB" }],
-    searchTerms: ["iPhone 15 Pro", "A2848"],
+    searchTerms: ["iPhone 15 Pro", "Apple iPhone 15 Pro"],
   },
   {
     id: "A2849",
@@ -147,7 +147,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium",
     storageOptions: [{ label: "256GB" }, { label: "512GB" }, { label: "1TB" }],
-    searchTerms: ["iPhone 15 Pro Max", "A2849"],
+    searchTerms: ["iPhone 15 Pro Max", "Apple iPhone 15 Pro Max"],
   },
 
   // ── MacBook Pro M3 ───────────────────────────────────────────────
@@ -160,7 +160,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptop",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202310",
     storageOptions: [{ label: "8GB / 512GB" }, { label: "16GB / 1TB" }],
-    searchTerms: ["MacBook Pro 14 M3", "MTL73", "MacBook Pro M3 2023"],
+    searchTerms: ["MacBook Pro 14 M3", "MacBook Pro 14 inch M3", "MacBook Pro M3 2023"],
   },
   {
     id: "MTL83",
@@ -171,7 +171,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptop",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spaceblack-select-202310",
     storageOptions: [{ label: "18GB / 512GB" }, { label: "36GB / 1TB" }],
-    searchTerms: ["MacBook Pro 14 M3 Pro", "MTL83"],
+    searchTerms: ["MacBook Pro 14 M3 Pro", "MacBook Pro M3 Pro"],
   },
 
   // ── Dell XPS ─────────────────────────────────────────────────────
@@ -184,7 +184,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptop",
     imageUrl: "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9530/media-gallery/laptop-xps-9530-nt-blue-gallery-4.psd",
     storageOptions: [{ label: "16GB / 512GB" }, { label: "32GB / 1TB" }],
-    searchTerms: ["Dell XPS 15 9530", "XPS9530", "XPS 15 2023"],
+    searchTerms: ["Dell XPS 15 9530", "Dell XPS 15", "XPS 15 2023"],
   },
 
   // ── Samsung TV ───────────────────────────────────────────────────
@@ -197,7 +197,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "TV",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/qn65q80cafxza/gallery/al-qled-q80c-qn65q80cafxza-535157854",
     storageOptions: [],
-    searchTerms: ["Samsung Q80C 55", "QE55Q80C", "QLED Q80C 55 inch"],
+    searchTerms: ["Samsung Q80C 55 inch", "Samsung QLED 55", "QLED Q80C 55"],
   },
   {
     id: "QE65Q80CATXXH",
@@ -208,7 +208,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "TV",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/qn65q80cafxza/gallery/al-qled-q80c-qn65q80cafxza-535157854",
     storageOptions: [],
-    searchTerms: ["Samsung Q80C 65", "QE65Q80C", "QLED Q80C 65 inch"],
+    searchTerms: ["Samsung Q80C 65 inch", "Samsung QLED 65", "QLED Q80C 65"],
   },
   {
     id: "OLED55C34LA",
@@ -219,7 +219,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "TV",
     imageUrl: "https://gscs-b2c.lge.com/downloadFile?fileId=sbRxYPF78z7HxE6b2oTJmA",
     storageOptions: [],
-    searchTerms: ["LG OLED C3 55", "OLED55C3", "C34LA 55"],
+    searchTerms: ["LG OLED C3 55 inch", "LG OLED 55", "OLED C3 55"],
   },
   {
     id: "OLED65C34LA",
@@ -230,7 +230,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "TV",
     imageUrl: "https://gscs-b2c.lge.com/downloadFile?fileId=sbRxYPF78z7HxE6b2oTJmA",
     storageOptions: [],
-    searchTerms: ["LG OLED C3 65", "OLED65C3", "C34LA 65"],
+    searchTerms: ["LG OLED C3 65 inch", "LG OLED 65", "OLED C3 65"],
   },
 
   // ── Gaming ───────────────────────────────────────────────────────
@@ -243,7 +243,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Gaming",
     imageUrl: "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21",
     storageOptions: [],
-    searchTerms: ["PlayStation 5", "PS5", "CFI-1216A", "PS5 Disc"],
+    searchTerms: ["PlayStation 5", "PS5", "PS5 Disc Edition"],
   },
   {
     id: "CFI-1216B",
@@ -254,7 +254,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Gaming",
     imageUrl: "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21",
     storageOptions: [],
-    searchTerms: ["PlayStation 5 Digital", "PS5 Digital", "CFI-1216B"],
+    searchTerms: ["PlayStation 5 Digital Edition", "PS5 Digital", "PS5 Digital Edition"],
   },
   {
     id: "HEG-001",
@@ -265,7 +265,18 @@ export const PRODUCTS: Product[] = [
     subcategory: "Gaming",
     imageUrl: "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.625/c_scale,w_400/ncom/software/switch/70010000022023/cover",
     storageOptions: [],
-    searchTerms: ["Nintendo Switch OLED", "HEG-001", "Switch OLED"],
+    searchTerms: ["Nintendo Switch OLED", "Switch OLED"],
+  },
+  {
+    id: "HEG-S-KAAAA",
+    modelNumber: "HEG-S-KAAAA",
+    family: "Nintendo Switch 2",
+    brand: "Nintendo",
+    category: "elektronike",
+    subcategory: "Gaming",
+    imageUrl: "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2/c_scale,w_400/ncom/en_US/products/hardware/nintendo-switch-2",
+    storageOptions: [],
+    searchTerms: ["Nintendo Switch 2 console", "console Nintendo Switch 2", "Nintendo Switch 2"],
   },
   {
     id: "1TB-XBX",
@@ -276,7 +287,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Gaming",
     imageUrl: "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4mRni",
     storageOptions: [],
-    searchTerms: ["Xbox Series X", "RRT-00010", "Xbox Series X 1TB"],
+    searchTerms: ["Xbox Series X", "Xbox Series X 1TB"],
   },
 
   // ── Audio ────────────────────────────────────────────────────────
@@ -300,7 +311,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Audio",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83",
     storageOptions: [],
-    searchTerms: ["AirPods Pro 2", "MQTP3", "Apple AirPods Pro second generation"],
+    searchTerms: ["AirPods Pro 2", "Apple AirPods Pro 2nd generation"],
   },
   {
     id: "WF-1000XM5",
@@ -324,7 +335,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/2501/gallery/al-galaxy-s25-s931-sm-s931bzkdeue-thumb",
     storageOptions: [{ label: "128GB" }, { label: "256GB" }],
-    searchTerms: ["Samsung Galaxy S25", "S931B", "SM-S931B"],
+    searchTerms: ["Samsung Galaxy S25", "Galaxy S25"],
   },
   {
     id: "SM-S936B",
@@ -335,7 +346,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/2501/gallery/al-galaxy-s25-plus-s936-sm-s936bzkdeue-thumb",
     storageOptions: [{ label: "256GB" }, { label: "512GB" }],
-    searchTerms: ["Samsung Galaxy S25 Plus", "S936B", "SM-S936B", "S25+"],
+    searchTerms: ["Samsung Galaxy S25 Plus", "Galaxy S25+", "S25 Plus"],
   },
   {
     id: "SM-S938B",
@@ -346,7 +357,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/2501/gallery/al-galaxy-s25-ultra-s938-sm-s938bzkgeue-thumb",
     storageOptions: [{ label: "256GB" }, { label: "512GB" }, { label: "1TB" }],
-    searchTerms: ["Samsung Galaxy S25 Ultra", "S938B", "SM-S938B"],
+    searchTerms: ["Samsung Galaxy S25 Ultra", "Galaxy S25 Ultra"],
   },
   {
     id: "A3293",
@@ -357,7 +368,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-black",
     storageOptions: [{ label: "128GB" }, { label: "256GB" }, { label: "512GB" }],
-    searchTerms: ["iPhone 16", "A3293", "iPhone16"],
+    searchTerms: ["iPhone 16", "Apple iPhone 16"],
   },
   {
     id: "A3294",
@@ -368,7 +379,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-blacktitanium",
     storageOptions: [{ label: "128GB" }, { label: "256GB" }, { label: "512GB" }, { label: "1TB" }],
-    searchTerms: ["iPhone 16 Pro", "A3294", "iPhone 16 Pro"],
+    searchTerms: ["iPhone 16 Pro", "Apple iPhone 16 Pro"],
   },
   {
     id: "A3295",
@@ -379,7 +390,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-blacktitanium",
     storageOptions: [{ label: "256GB" }, { label: "512GB" }, { label: "1TB" }],
-    searchTerms: ["iPhone 16 Pro Max", "A3295", "iPhone 16 Pro Max"],
+    searchTerms: ["iPhone 16 Pro Max", "Apple iPhone 16 Pro Max"],
   },
   {
     id: "23116PN5BC",
@@ -390,7 +401,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0/pms_1707207339.34571374.png",
     storageOptions: [{ label: "256GB" }, { label: "512GB" }],
-    searchTerms: ["Xiaomi 14", "23116PN5BC", "Xiaomi 14 5G"],
+    searchTerms: ["Xiaomi 14", "Xiaomi 14 5G"],
   },
   {
     id: "2311DRK48G",
@@ -401,7 +412,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Smartphone",
     imageUrl: "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0/pms_1695709337.58760086.png",
     storageOptions: [{ label: "256GB" }],
-    searchTerms: ["Redmi Note 13 Pro", "2311DRK48G", "Xiaomi Redmi Note 13"],
+    searchTerms: ["Redmi Note 13 Pro", "Xiaomi Redmi Note 13 Pro"],
   },
   {
     id: "SM-X110",
@@ -412,7 +423,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Tablet",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/sm-x110nzaaeue/gallery/al-galaxy-tab-a9-sm-x110-sm-x110nzaaeue-thumb",
     storageOptions: [{ label: "64GB" }, { label: "128GB" }],
-    searchTerms: ["Samsung Galaxy Tab A9", "SM-X110", "Tab A9"],
+    searchTerms: ["Samsung Galaxy Tab A9", "Galaxy Tab A9"],
   },
   {
     id: "MQKQ3",
@@ -423,7 +434,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Tablet",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-10th-gen-finish-select-202212-blue-wifi",
     storageOptions: [{ label: "64GB" }, { label: "256GB" }],
-    searchTerms: ["iPad 10th generation", "MQKQ3", "Apple iPad 2022"],
+    searchTerms: ["iPad 10th generation", "Apple iPad 2022", "iPad 2022"],
   },
 
   // ── More Laptops ─────────────────────────────────────────────────
@@ -436,7 +447,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptop",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-midnight-select-202402",
     storageOptions: [{ label: "8GB / 256GB" }, { label: "16GB / 512GB" }],
-    searchTerms: ["MacBook Air 15 M3", "MXCV3", "MacBook Air M3 2024"],
+    searchTerms: ["MacBook Air 15 M3", "MacBook Air 15 inch M3", "MacBook Air M3 2024"],
   },
   {
     id: "MRXN3",
@@ -447,7 +458,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptop",
     imageUrl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-midnight-select-202402",
     storageOptions: [{ label: "8GB / 256GB" }, { label: "16GB / 512GB" }],
-    searchTerms: ["MacBook Air 13 M3", "MRXN3", "MacBook Air M3"],
+    searchTerms: ["MacBook Air 13 M3", "MacBook Air 13 inch M3", "MacBook Air M3"],
   },
   {
     id: "20XW005RIX",
@@ -458,7 +469,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptop",
     imageUrl: "https://p3-ofp.static.pub/fes/cms/2022/07/20/ofp-2022-07-20-p3-7c0c1640-8ab6-4e6e-ab4a-1aba786d1a14.png",
     storageOptions: [{ label: "16GB / 512GB" }, { label: "32GB / 1TB" }],
-    searchTerms: ["Lenovo ThinkPad X1 Carbon", "ThinkPad X1 Gen 10", "20XW005RIX"],
+    searchTerms: ["Lenovo ThinkPad X1 Carbon", "ThinkPad X1 Carbon Gen 10"],
   },
   {
     id: "82H801KKIX",
@@ -469,7 +480,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptop",
     imageUrl: "https://p3-ofp.static.pub/fes/cms/2021/10/20/y2m3uluwsv2fnvnxb77cjgjvzbbhue558009.png",
     storageOptions: [{ label: "16GB / 512GB" }],
-    searchTerms: ["Lenovo IdeaPad 5", "IdeaPad 5 15", "82H801KK"],
+    searchTerms: ["Lenovo IdeaPad 5", "IdeaPad 5 15", "Lenovo IdeaPad 5 15"],
   },
   {
     id: "HP-ENVY15-FH0012",
@@ -480,7 +491,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptop",
     imageUrl: "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/knowledgebase/c08761428.png",
     storageOptions: [{ label: "16GB / 512GB" }],
-    searchTerms: ["HP Envy x360 15", "7Z2N4EA", "HP Envy 15 2023"],
+    searchTerms: ["HP Envy x360 15", "HP Envy 15 2023", "HP Envy x360"],
   },
   {
     id: "ASUS-UX3405MA",
@@ -491,7 +502,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptop",
     imageUrl: "https://dlcdnwebimgs.asus.com/gain/3AE38A6B-7B9F-4B91-8E13-4DCBFCDE3D2A",
     storageOptions: [{ label: "16GB / 512GB" }, { label: "32GB / 1TB" }],
-    searchTerms: ["ASUS ZenBook 14 OLED", "UX3405MA", "ZenBook OLED 2024"],
+    searchTerms: ["ASUS ZenBook 14 OLED", "ZenBook 14 OLED", "ASUS ZenBook OLED 2024"],
   },
 
   // ── Monitors ─────────────────────────────────────────────────────
@@ -504,7 +515,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Monitor",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/ls27c432gauxen/gallery/al-viewfinity-s4-ls27c432gauxen-thumb",
     storageOptions: [],
-    searchTerms: ["Samsung monitor 27 inch", "LS27C432", "Samsung G3 27"],
+    searchTerms: ["Samsung monitor 27 inch", "Samsung 27 inch IPS", "Samsung gaming monitor 27"],
   },
   {
     id: "27GP850P-B",
@@ -515,7 +526,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Monitor",
     imageUrl: "https://gscs-b2c.lge.com/downloadFile?fileId=kDZQlL8uJGpMH6sZ5KAibQ",
     storageOptions: [],
-    searchTerms: ["LG UltraGear 27 QHD", "27GP850P", "LG gaming monitor 27"],
+    searchTerms: ["LG UltraGear 27 QHD", "LG gaming monitor 27 inch", "LG UltraGear QHD"],
   },
 
   // ── Shtëpi & Kopsht ──────────────────────────────────────────────
@@ -528,7 +539,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Pajisje Kuzhine",
     imageUrl: "https://media3.bosch-home.com/Images/1920x/MCSA02700286_BO_FOC_F_WAN2426PXLS_def.jpg",
     storageOptions: [],
-    searchTerms: ["Bosch lavatrice 9kg", "WAN2426PXLS", "Bosch washing machine Serie 6"],
+    searchTerms: ["Bosch lavatrice 9kg", "Bosch washing machine 9kg", "Bosch Serie 6"],
   },
   {
     id: "WW90T534DAE",
@@ -539,7 +550,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Pajisje Kuzhine",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/ww90t534dae/gallery/al-front-loading-ww90t534dae-thumb",
     storageOptions: [],
-    searchTerms: ["Samsung lavatrice 9kg", "WW90T534DAE", "Samsung EcoBubble 9kg"],
+    searchTerms: ["Samsung lavatrice 9kg", "Samsung washing machine 9kg", "Samsung EcoBubble"],
   },
   {
     id: "RB38A7B5E22",
@@ -550,7 +561,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Pajisje Kuzhine",
     imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/al/rb38a7b5e22/gallery/al-top-mount-freezer-rb38a7b5e22-thumb",
     storageOptions: [],
-    searchTerms: ["Samsung frigorifer 390L", "RB38A7B5E22", "Samsung frigorifer"],
+    searchTerms: ["Samsung frigorifer 390L", "Samsung refrigerator 390L", "Samsung frigorifer"],
   },
   {
     id: "HD9280-90",
@@ -561,7 +572,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Pajisje Kuzhine",
     imageUrl: "https://images.philips.com/is/image/PhilipsConsumer/HD9280_90-IMS-global",
     storageOptions: [],
-    searchTerms: ["Philips Airfryer XXL", "HD9280", "Philips air fryer"],
+    searchTerms: ["Philips Airfryer XXL", "Philips air fryer", "airfryer Philips XXL"],
   },
   {
     id: "V15-DETECT",
@@ -572,7 +583,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Pastrimi",
     imageUrl: "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/hero/368096-01.png",
     storageOptions: [],
-    searchTerms: ["Dyson V15 Detect", "SV22", "Dyson fshese me korrent"],
+    searchTerms: ["Dyson V15 Detect", "Dyson V15", "Dyson fshese me korrent"],
   },
   {
     id: "S3122",
@@ -583,7 +594,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Pastrimi",
     imageUrl: "https://homeassets.irobot.com/is/image/iRobot/roomba_i3plus_product_hero_1x1",
     storageOptions: [],
-    searchTerms: ["iRobot Roomba i3", "S3122", "Roomba robot fshese"],
+    searchTerms: ["iRobot Roomba i3+", "Roomba i3", "Roomba robot fshese"],
   },
   {
     id: "HF-LP075",
@@ -594,7 +605,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Ndriçim",
     imageUrl: "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0/pms_1640163553.5748246.png",
     storageOptions: [],
-    searchTerms: ["Xiaomi projektor", "HF-LP075", "Xiaomi Smart Projector 2"],
+    searchTerms: ["Xiaomi Smart Projector 2 Pro", "Xiaomi projektor", "Xiaomi projektor 4K"],
   },
 
   // ── Sporte & Outdoor ─────────────────────────────────────────────
@@ -607,7 +618,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Veshje Sportive",
     imageUrl: "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/aipmfk95mjqbwdopehep/air-max-270-shoes.png",
     storageOptions: [{ label: "40" }, { label: "41" }, { label: "42" }, { label: "43" }, { label: "44" }, { label: "45" }],
-    searchTerms: ["Nike Air Max 270", "DV9864", "Nike Air Max"],
+    searchTerms: ["Nike Air Max 270", "Nike Air Max 270 shoes"],
   },
   {
     id: "GW4138",
@@ -618,7 +629,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Veshje Sportive",
     imageUrl: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5f32cedf42444060a84aaf8400b6ff88_9366/Ultraboost_23_Shoes_White_GY9351_01_standard.jpg",
     storageOptions: [{ label: "40" }, { label: "41" }, { label: "42" }, { label: "43" }, { label: "44" }, { label: "45" }],
-    searchTerms: ["Adidas Ultraboost 23", "GW4138", "Adidas Ultraboost"],
+    searchTerms: ["Adidas Ultraboost 23", "Adidas Ultraboost"],
   },
   {
     id: "TMILL-T100",
@@ -629,7 +640,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Fitness",
     imageUrl: "https://contents.mediadecathlon.com/p1999456/k$a9f3b1c3b4d5e6f7a8b9c0d1e2f3a4b5/tapis-roulant-t100-domyos.jpg",
     storageOptions: [],
-    searchTerms: ["Domyos tapis roulant", "DOMYOS T100", "treadmill fitness"],
+    searchTerms: ["Domyos T100", "Domyos tapis roulant", "treadmill fitness"],
   },
   {
     id: "B'TWIN-520",
@@ -640,7 +651,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Biçikleta",
     imageUrl: "https://contents.mediadecathlon.com/p2104978/k$4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a/shise-biçikleta-triban-rc-520.jpg",
     storageOptions: [],
-    searchTerms: ["B'Twin biçikletë", "BTWIN 520", "Triban RC 520 biçikletë"],
+    searchTerms: ["Triban RC 520", "B'Twin biçikletë", "Triban biçikletë"],
   },
 
   // ── Veshje & Këpucë ──────────────────────────────────────────────
@@ -653,7 +664,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Këpucë",
     imageUrl: "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/00375826-1527-4821-85a5-d9e6e2ffcfdb/air-force-1-07-shoes.png",
     storageOptions: [{ label: "39" }, { label: "40" }, { label: "41" }, { label: "42" }, { label: "43" }, { label: "44" }],
-    searchTerms: ["Nike Air Force 1", "BQ3204", "Nike AF1"],
+    searchTerms: ["Nike Air Force 1", "Nike Air Force 1 07", "Nike AF1"],
   },
   {
     id: "EG4958",
@@ -664,7 +675,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Këpucë",
     imageUrl: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ed0855435194229a525aad6009a0497_9366/Stan_Smith_Shoes_White_FX5502_01_standard.jpg",
     storageOptions: [{ label: "39" }, { label: "40" }, { label: "41" }, { label: "42" }, { label: "43" }, { label: "44" }],
-    searchTerms: ["Adidas Stan Smith", "EG4958", "Stan Smith white"],
+    searchTerms: ["Adidas Stan Smith", "Stan Smith white"],
   },
   {
     id: "NMJS-001",
@@ -675,7 +686,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Xhaketë",
     imageUrl: "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/jacket-placeholder.png",
     storageOptions: [{ label: "S" }, { label: "M" }, { label: "L" }, { label: "XL" }],
-    searchTerms: ["Nike Therma-FIT jacket", "NA-WJ-001", "Nike xhaketë"],
+    searchTerms: ["Nike Therma-FIT jacket", "Nike xhaketë", "Nike therma fit"],
   },
 
   // ── Lodra & Fëmijë ───────────────────────────────────────────────
@@ -710,7 +721,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Lodra",
     imageUrl: "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2/c_scale,w_400/ncom/en_US/products/hardware/nintendo-switch-oled-model-mario-kart-8-deluxe-bundle",
     storageOptions: [],
-    searchTerms: ["Nintendo Switch OLED Mario Kart", "HEG-S-KABAA", "Switch Mario Kart bundle"],
+    searchTerms: ["Nintendo Switch OLED Mario Kart", "Switch OLED Mario Kart bundle"],
   },
   {
     id: "FURBY-CORAL",
@@ -721,7 +732,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Lodra",
     imageUrl: "https://hasbro.com/common/productimages/en_US/F6743_1.jpg",
     storageOptions: [],
-    searchTerms: ["Furby lëvizëse", "F6743", "Furby interaktiv"],
+    searchTerms: ["Furby interaktiv", "Furby lëvizëse"],
   },
 
   // ── Bukuri & Shëndet ─────────────────────────────────────────────
@@ -767,7 +778,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Rruajtje",
     imageUrl: "https://content.braun.com/Assets/product/braun-series-9-electric-shaver-9470cc.png",
     storageOptions: [],
-    searchTerms: ["Braun Series 9 Pro", "9470CC", "Braun rruajtëse elektrike"],
+    searchTerms: ["Braun Series 9 Pro", "Braun rruajtëse elektrike", "Braun Series 9"],
   },
   {
     id: "CETAPHIL-CLEANSER",
@@ -778,7 +789,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Kujdes Lëkure",
     imageUrl: "https://www.cetaphil.com/dw/image/v2/BCCK_PRD/on/demandware.static/-/Sites-cetaphil-master-catalog/default/gentle-skin-cleanser-250ml.jpg",
     storageOptions: [],
-    searchTerms: ["Cetaphil Gentle Cleanser", "CE-GENTLE-250", "Cetaphil pastrim fytyre"],
+    searchTerms: ["Cetaphil Gentle Cleanser", "Cetaphil pastrim fytyre"],
   },
 ];
 
