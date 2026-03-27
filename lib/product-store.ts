@@ -4,13 +4,11 @@
 
 import { promises as fs } from "fs";
 import { PRODUCTS, type Product } from "./products";
-import { DISCOVERED_PRODUCTS_FILE } from "./data-path";
-
-const DATA_FILE = DISCOVERED_PRODUCTS_FILE;
+import { getDiscoveredProductsReadPath } from "./data-path";
 
 async function loadDiscovered(): Promise<Product[]> {
   try {
-    return JSON.parse(await fs.readFile(DATA_FILE, "utf-8"));
+    return JSON.parse(await fs.readFile(getDiscoveredProductsReadPath(), "utf-8"));
   } catch {
     return [];
   }

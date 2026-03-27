@@ -2,7 +2,7 @@ node_modules/
 .next/
 .env.local
 *.tsbuildinfo
-data/*.json
+data/prices.json
 .claude/
 .claude-flow/
 .swarm/
