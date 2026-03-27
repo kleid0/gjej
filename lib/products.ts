@@ -276,7 +276,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Gaming",
     imageUrl: "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2/c_scale,w_400/ncom/en_US/products/hardware/nintendo-switch-2",
     storageOptions: [],
-    searchTerms: ["Nintendo Switch 2", "Switch 2", "Nintendo Switch 2 console"],
+    searchTerms: ["Nintendo Switch 2 console", "console Nintendo Switch 2", "Nintendo Switch 2"],
   },
   {
     id: "1TB-XBX",
