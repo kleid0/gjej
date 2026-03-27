@@ -77,7 +77,7 @@ async function scrapeShopify(
     const handle = productId.slice(ownPrefix.length);
     try {
       const { data } = await axios.get(`${store.url}/products/${handle}.json`, {
-        timeout: 10000,
+        timeout: 8000,
         headers: HEADERS,
       });
       const product = data?.product;
@@ -104,7 +104,7 @@ async function scrapeShopify(
     try {
       const { data } = await axios.get(`${store.url}/search.json`, {
         params: { type: "product", q: term, limit: 10 },
-        timeout: 10000,
+        timeout: 8000,
         headers: HEADERS,
       });
       const results: Array<{ title: string; url: string; price: string; available: boolean }> =
@@ -121,7 +121,7 @@ async function scrapeShopify(
       if (!handle) continue;
 
       const { data: pd } = await axios.get(`${store.url}/products/${handle}.json`, {
-        timeout: 10000,
+        timeout: 8000,
         headers: HEADERS,
       });
       const variant = pd?.product?.variants?.[0];
@@ -187,7 +187,7 @@ async function scrapeWooCommerce(
     try {
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
         params: { slug, per_page: 1 },
-        timeout: 10000,
+        timeout: 8000,
         headers: HEADERS,
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
@@ -202,7 +202,7 @@ async function scrapeWooCommerce(
     try {
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
         params: { search: term, per_page: 10 },
-        timeout: 10000,
+        timeout: 8000,
         headers: HEADERS,
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
@@ -233,7 +233,7 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
     try {
       const { data } = await axios.get(`${store.url}/suggest`, {
         params: { search: term },
-        timeout: 10000,
+        timeout: 8000,
         headers: HEADERS,
       });
 
@@ -278,9 +278,109 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
   return notFound(store.id, "Produkti nuk u gjet");
 }
 
+// ── Magento (Globe Albania) ───────────────────────────────────────────────────
+// Globe Albania runs Magento. Magento has a public product search REST API.
+async function scrapeMagento(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
+  const lastChecked = new Date().toISOString();
+
+  for (const term of buildQueries(searchTerms)) {
+    try {
+      // Magento 2 REST API — public catalog search (no auth needed for public store)
+      const { data } = await axios.get(`${store.url}/rest/V1/products`, {
+        params: {
+          "searchCriteria[filter_groups][0][filters][0][field]": "name",
+          "searchCriteria[filter_groups][0][filters][0][value]": `%${term}%`,
+          "searchCriteria[filter_groups][0][filters][0][conditionType]": "like",
+          "searchCriteria[pageSize]": 10,
+          "fields": "items[id,name,sku,price,extension_attributes[stock_item[is_in_stock]],custom_attributes[url_key]]",
+        },
+        timeout: 8000,
+        headers: HEADERS,
+      });
+
+      const items: Array<{
+        name: string;
+        sku: string;
+        price: number;
+        extension_attributes?: { stock_item?: { is_in_stock: boolean } };
+        custom_attributes?: Array<{ attribute_code: string; value: string }>;
+      }> = data?.items ?? [];
+      if (!items.length) continue;
+
+      const best = items
+        .map((item) => ({ item, score: matchScore(item.name, [term]) }))
+        .filter((x) => x.score > 0)
+        .sort((a, b) => b.score - a.score)[0]?.item;
+      if (!best) continue;
+
+      const price = best.price ?? null;
+      const inStock = best.extension_attributes?.stock_item?.is_in_stock ?? null;
+      const urlKey = best.custom_attributes?.find((a) => a.attribute_code === "url_key")?.value;
+      const productUrl = urlKey ? `${store.url}/${urlKey}.html` : null;
+
+      return {
+        storeId: store.id,
+        price,
+        inStock,
+        stockLabel: inStock === true ? "Në gjendje" : inStock === false ? "Jo në gjendje" : "E panjohur",
+        productUrl,
+        lastChecked,
+      };
+    } catch {
+      continue;
+    }
+  }
+
+  return notFound(store.id, "Produkti nuk u gjet");
+}
+
+// ── Neptun ────────────────────────────────────────────────────────────────────
+// Neptun.al uses a custom AJAX search endpoint.
+async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
+  const lastChecked = new Date().toISOString();
+
+  for (const term of buildQueries(searchTerms)) {
+    try {
+      // Try the Neptun search API (discovered via browser DevTools)
+      const { data } = await axios.get(`${store.url}/api/products/search`, {
+        params: { q: term, limit: 10 },
+        timeout: 8000,
+        headers: HEADERS,
+      });
+
+      const items: Array<{ name?: string; title?: string; price?: number; url?: string; inStock?: boolean }> =
+        data?.products ?? data?.results ?? data?.items ?? (Array.isArray(data) ? data : []);
+      if (!items.length) continue;
+
+      const best = items
+        .map((item) => ({ item, score: matchScore(item.name ?? item.title ?? "", [term]) }))
+        .filter((x) => x.score > 0)
+        .sort((a, b) => b.score - a.score)[0]?.item;
+      if (!best) continue;
+
+      const price = best.price ?? null;
+      const inStock = best.inStock ?? null;
+      const productUrl = best.url
+        ? best.url.startsWith("http") ? best.url : `${store.url}${best.url}`
+        : null;
+
+      return {
+        storeId: store.id,
+        price,
+        inStock,
+        stockLabel: inStock === true ? "Në gjendje" : "E panjohur",
+        productUrl,
+        lastChecked,
+      };
+    } catch {
+      continue;
+    }
+  }
+
+  return notFound(store.id, "Produkti nuk u gjet");
+}
+
 // ── HTML fallback ─────────────────────────────────────────────────────────────
-// For stores that don't expose a JSON API (or block our requests).
-// Returns unavailable rather than showing wrong data.
 function scrapeHtmlFallback(store: Store): ScrapedPrice {
   return notFound(store.id, "Dyqani nuk mbështet kërkim automatik");
 }
@@ -295,6 +395,10 @@ export class PriceScraper implements IPriceScraper {
         return scrapeWooCommerce(store, searchTerms, productId);
       case "shopware":
         return scrapeShopware(store, searchTerms);
+      case "magento":
+        return scrapeMagento(store, searchTerms);
+      case "neptun":
+        return scrapeNeptun(store, searchTerms);
       case "html":
         return scrapeHtmlFallback(store);
     }

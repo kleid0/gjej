@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { priceQuery, productCatalog } from "@/src/infrastructure/container";
 
+export const maxDuration = 30;
+
 // GET /api/prices?product=<productId>
 export async function GET(req: NextRequest) {
   const productId = req.nextUrl.searchParams.get("product");

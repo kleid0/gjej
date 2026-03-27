@@ -35,8 +35,14 @@ export class PriceQuery {
     }
 
     // 2. Live scrape — only when no fresh data exists
-    const prices = await Promise.all(
+    // allSettled so one slow/failed store never blocks the others
+    const settled = await Promise.allSettled(
       this.stores.map((store) => this.scraper.scrape(store, searchTerms, productId))
+    );
+    const prices = settled.map((r, i) =>
+      r.status === "fulfilled"
+        ? r.value
+        : { storeId: this.stores[i].id, price: null, inStock: null, stockLabel: "E panjohur", productUrl: null, lastChecked: new Date().toISOString(), error: "Gabim gjatë kërkimit" }
     );
 
     try {

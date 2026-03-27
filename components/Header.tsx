@@ -41,7 +41,7 @@ export default function Header() {
 
       {/* Category nav */}
       <nav className="bg-orange-700 border-t border-orange-500">
-        <div className="max-w-6xl mx-auto px-4 flex items-center gap-1 overflow-x-auto py-1 text-sm">
+        <div className="max-w-6xl mx-auto px-4 flex flex-wrap items-center gap-1 py-1 text-sm">
           {CATEGORIES.map((cat) => (
             <Link
               key={cat.id}

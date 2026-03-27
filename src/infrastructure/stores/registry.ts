@@ -25,7 +25,7 @@ export const STORES: Store[] = [
     url: "https://www.neptun.al",
     logo: "/logos/neptun.png",
     color: "#003087",
-    platform: "html",
+    platform: "neptun",
   },
   {
     id: "pcstore",
@@ -41,7 +41,7 @@ export const STORES: Store[] = [
     url: "https://www.globe.al",
     logo: "/logos/globe.png",
     color: "#00a651",
-    platform: "html",
+    platform: "magento",
   },
   {
     id: "albagame",
