@@ -3,10 +3,11 @@ import { promises as fs } from "fs";
 import path from "path";
 import { discoverProducts } from "@/lib/discover";
 import type { Product } from "@/lib/products";
+import { DISCOVERED_PRODUCTS_FILE } from "@/lib/data-path";
 
 export const maxDuration = 300;
 
-const DATA_FILE = path.join(process.cwd(), "data", "discovered-products.json");
+const DATA_FILE = DISCOVERED_PRODUCTS_FILE;
 
 // GET /api/cron/discover
 // Called daily by Vercel Cron. Searches all stores for new products

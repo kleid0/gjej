@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { STORES } from "@/lib/stores";
-import { PRODUCTS } from "@/lib/products";
 import { scrapeStore, ScrapedPrice } from "@/lib/scraper";
 import { setAllPersistedPrices } from "@/lib/price-store";
 import { setCached, cacheKey } from "@/lib/cache";
+import { getAllProducts } from "@/lib/product-store";
 
 // Allow up to 5 minutes — scraping all products takes time
 export const maxDuration = 300;
@@ -18,9 +18,10 @@ export async function GET(req: NextRequest) {
   }
 
   const allPrices: Record<string, ScrapedPrice[]> = {};
+  const allProducts = await getAllProducts();
 
   await Promise.all(
-    PRODUCTS.map(async (product) => {
+    allProducts.map(async (product) => {
       const prices = await Promise.all(
         STORES.map((store) => scrapeStore(store, product.searchTerms))
       );
@@ -32,7 +33,7 @@ export async function GET(req: NextRequest) {
   await setAllPersistedPrices(allPrices);
 
   return NextResponse.json({
-    refreshed: PRODUCTS.length,
+    refreshed: allProducts.length,
     timestamp: new Date().toISOString(),
   });
 }
