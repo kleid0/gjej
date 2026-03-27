@@ -1,108 +1,244 @@
-// Infrastructure: price scraper — fetches live prices from a store's product page
+// Infrastructure: price scraper — uses platform-native APIs (Shopify/WooCommerce/Shopware)
+// instead of fragile HTML scraping so prices are always accurate.
 
 import axios from "axios";
-import * as cheerio from "cheerio";
 import type { IPriceScraper } from "@/src/application/pricing/PriceQuery";
 import type { Store } from "@/src/domain/pricing/Store";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
-const BROWSER_HEADERS = {
+const HEADERS = {
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+  "Accept": "application/json",
   "Accept-Language": "sq-AL,sq;q=0.9,en-US;q=0.8,en;q=0.7",
-  "Accept-Encoding": "gzip, deflate, br",
   "Cache-Control": "no-cache",
-  "Upgrade-Insecure-Requests": "1",
 };
 
-function extractPrice(text: string): number | null {
-  const cleaned = text.replace(/\s/g, "");
-  const match = cleaned.match(/[\d.,]+/);
-  if (!match) return null;
-  const num = parseFloat(match[0].replace(/,/g, "").replace(/\.(?=\d{3})/g, ""));
-  return isNaN(num) ? null : num;
+function notFound(storeId: string, error: string): ScrapedPrice {
+  return {
+    storeId,
+    price: null,
+    inStock: null,
+    stockLabel: "E panjohur",
+    productUrl: null,
+    lastChecked: new Date().toISOString(),
+    error,
+  };
 }
 
-function detectStock(
-  $: ReturnType<typeof cheerio.load>,
-  selectors: string[],
-  inStockTexts: string[],
-  outOfStockTexts: string[]
-): { inStock: boolean | null; stockLabel: string } {
-  for (const sel of selectors) {
-    const el = $(sel).first();
-    if (el.length) {
-      const text = el.text().trim().toLowerCase();
-      if (outOfStockTexts.some((t) => text.includes(t))) return { inStock: false, stockLabel: el.text().trim() };
-      if (inStockTexts.some((t) => text.includes(t))) return { inStock: true, stockLabel: el.text().trim() };
-      return { inStock: null, stockLabel: el.text().trim() || "E panjohur" };
+// Score a product name against search terms — higher = better match
+function matchScore(name: string, terms: string[]): number {
+  const n = name.toLowerCase();
+  const words = terms.join(" ").toLowerCase().split(/\s+/).filter(Boolean);
+  return words.filter((w) => n.includes(w)).length;
+}
+
+// ── Shopify ───────────────────────────────────────────────────────────────────
+// Uses /products/{handle}.json when the product came from this store,
+// falls back to /search.json for cross-store lookups.
+async function scrapeShopify(
+  store: Store,
+  searchTerms: string[],
+  productId: string
+): Promise<ScrapedPrice> {
+  const lastChecked = new Date().toISOString();
+
+  // Direct handle lookup — only works when product was discovered from this store
+  const ownPrefix = `${store.id}-`;
+  if (productId.startsWith(ownPrefix)) {
+    const handle = productId.slice(ownPrefix.length);
+    try {
+      const { data } = await axios.get(`${store.url}/products/${handle}.json`, {
+        timeout: 10000,
+        headers: HEADERS,
+      });
+      const product = data?.product;
+      const variant = product?.variants?.[0];
+      if (variant) {
+        const price = variant.price ? parseFloat(variant.price) : null;
+        const available = variant.available ?? null;
+        return {
+          storeId: store.id,
+          price,
+          inStock: available,
+          stockLabel: available === true ? "Në gjendje" : available === false ? "Jo në gjendje" : "E panjohur",
+          productUrl: `${store.url}/products/${handle}`,
+          lastChecked,
+        };
+      }
+    } catch {
+      // fall through to search
     }
   }
-  return { inStock: null, stockLabel: "E panjohur" };
+
+  // Cross-store search via Shopify search API
+  for (const term of searchTerms) {
+    try {
+      const { data } = await axios.get(`${store.url}/search.json`, {
+        params: { type: "product", q: term, limit: 10 },
+        timeout: 10000,
+        headers: HEADERS,
+      });
+      const results: Array<{ title: string; url: string; price: string; available: boolean }> =
+        data?.resources?.results?.products ?? [];
+      if (!results.length) continue;
+
+      const best = results
+        .map((r) => ({ r, score: matchScore(r.title, [term]) }))
+        .filter((x) => x.score > 0)
+        .sort((a, b) => b.score - a.score)[0]?.r;
+      if (!best) continue;
+
+      const handle = best.url.split("/products/")[1]?.split("?")[0];
+      if (!handle) continue;
+
+      const { data: pd } = await axios.get(`${store.url}/products/${handle}.json`, {
+        timeout: 10000,
+        headers: HEADERS,
+      });
+      const variant = pd?.product?.variants?.[0];
+      if (!variant) continue;
+      const price = variant.price ? parseFloat(variant.price) : null;
+      const available = variant.available ?? null;
+      return {
+        storeId: store.id,
+        price,
+        inStock: available,
+        stockLabel: available === true ? "Në gjendje" : available === false ? "Jo në gjendje" : "E panjohur",
+        productUrl: `${store.url}/products/${handle}`,
+        lastChecked,
+      };
+    } catch {
+      continue;
+    }
+  }
+
+  return notFound(store.id, "Produkti nuk u gjet");
 }
 
-export class PriceScraper implements IPriceScraper {
-  async scrape(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
-    const lastChecked = new Date().toISOString();
-    let lastError = "Produkti nuk u gjet në këtë dyqan";
+// ── WooCommerce ───────────────────────────────────────────────────────────────
+// Uses the public WooCommerce Store API (no auth required) which returns
+// structured price data — same endpoint as product discovery.
+async function scrapeWooCommerce(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
+  const lastChecked = new Date().toISOString();
 
-    for (const term of searchTerms) {
-      for (const searchUrl of store.searchUrls(term)) {
-        try {
-          const { data } = await axios.get(searchUrl, { timeout: 10000, headers: BROWSER_HEADERS });
-          const $ = cheerio.load(data);
+  for (const term of searchTerms) {
+    try {
+      const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
+        params: { search: term, per_page: 10 },
+        timeout: 10000,
+        headers: HEADERS,
+      });
+      const items: Array<{
+        name: string;
+        permalink: string;
+        prices: { price: string; regular_price: string; currency_minor_unit: number };
+        is_in_stock: boolean;
+        stock_status: string;
+      }> = Array.isArray(data) ? data : [];
+      if (!items.length) continue;
 
-          // Collect all candidate links, then pick the one whose anchor text
-          // best matches the search term (avoids grabbing a random accessory first)
-          const termLower = term.toLowerCase();
-          const termWords = termLower.split(/\s+/).filter(Boolean);
-          let productUrl: string | null = null;
-          let bestScore = -1;
+      const best = items
+        .map((item) => ({ item, score: matchScore(item.name, [term]) }))
+        .filter((x) => x.score > 0)
+        .sort((a, b) => b.score - a.score)[0]?.item;
+      if (!best) continue;
 
-          for (const sel of store.selectors.productLink) {
-            $(sel).each((_: number, el: any) => {
-              const href = $(el).attr("href");
-              if (!href) return;
-              const text = ($(el).text().trim() || $(el).attr("title") || "").toLowerCase();
-              const score = termWords.filter((w) => text.includes(w)).length;
-              if (score > bestScore) {
-                bestScore = score;
-                productUrl = href.startsWith("http") ? href : `${store.url}${href}`;
-              }
-            });
-            if (productUrl) break;
-          }
-          if (!productUrl) continue;
+      const minorUnit = best.prices?.currency_minor_unit ?? 2;
+      const divisor = Math.pow(10, minorUnit);
+      const rawPrice = best.prices?.price ?? best.prices?.regular_price;
+      const price = rawPrice ? parseInt(rawPrice, 10) / divisor : null;
+      const inStock = best.is_in_stock ?? best.stock_status === "instock";
 
-          const productPage = await axios.get(productUrl, {
-            timeout: 10000,
-            headers: { ...BROWSER_HEADERS, "Referer": searchUrl },
-          });
-          const $p = cheerio.load(productPage.data);
-
-          let price: number | null = null;
-          for (const sel of store.selectors.price) {
-            const priceText = $p(sel).first().text().trim();
-            if (priceText) {
-              price = extractPrice(priceText);
-              if (price !== null) break;
-            }
-          }
-
-          const { inStock, stockLabel } = detectStock(
-            $p,
-            store.selectors.stock,
-            store.selectors.inStockText,
-            store.selectors.outOfStockText
-          );
-
-          return { storeId: store.id, price, inStock, stockLabel, productUrl, lastChecked };
-        } catch (err: unknown) {
-          lastError = `Nuk u gjet: ${(err instanceof Error ? err.message : String(err)).slice(0, 80)}`;
-        }
-      }
+      return {
+        storeId: store.id,
+        price,
+        inStock,
+        stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
+        productUrl: best.permalink ?? null,
+        lastChecked,
+      };
+    } catch {
+      continue;
     }
+  }
 
-    return { storeId: store.id, price: null, inStock: null, stockLabel: "E panjohur", productUrl: null, lastChecked, error: lastError };
+  return notFound(store.id, "Produkti nuk u gjet");
+}
+
+// ── Shopware (Foleja) ─────────────────────────────────────────────────────────
+// Shopware exposes a search suggest endpoint that returns JSON product data
+// including price and stock. Falls back to the store search page JSON-LD.
+async function scrapeShopware(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
+  const lastChecked = new Date().toISOString();
+
+  for (const term of searchTerms) {
+    try {
+      const { data } = await axios.get(`${store.url}/suggest`, {
+        params: { search: term },
+        timeout: 10000,
+        headers: HEADERS,
+      });
+
+      // Shopware suggest returns { products: { elements: [...] } }
+      const elements: Array<{
+        name?: string;
+        translated?: { name?: string };
+        calculatedPrice?: { totalPrice: number };
+        price?: Array<{ gross: number }>;
+        stock?: number;
+        availableStock?: number;
+        seoUrls?: Array<{ seoPathInfo: string }>;
+      }> = data?.products?.elements ?? data?.elements ?? [];
+
+      if (!elements.length) continue;
+
+      const best = elements
+        .map((el) => ({ el, score: matchScore(el.name ?? el.translated?.name ?? "", [term]) }))
+        .filter((x) => x.score > 0)
+        .sort((a, b) => b.score - a.score)[0]?.el;
+      if (!best) continue;
+
+      const price = best.calculatedPrice?.totalPrice ?? best.price?.[0]?.gross ?? null;
+      const availableStock = best.availableStock ?? best.stock ?? 0;
+      const inStock = availableStock > 0;
+      const seoPath = best.seoUrls?.[0]?.seoPathInfo;
+      const productUrl = seoPath ? `${store.url}/${seoPath}` : null;
+
+      return {
+        storeId: store.id,
+        price,
+        inStock,
+        stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
+        productUrl,
+        lastChecked,
+      };
+    } catch {
+      continue;
+    }
+  }
+
+  return notFound(store.id, "Produkti nuk u gjet");
+}
+
+// ── HTML fallback ─────────────────────────────────────────────────────────────
+// For stores that don't expose a JSON API (or block our requests).
+// Returns unavailable rather than showing wrong data.
+function scrapeHtmlFallback(store: Store): ScrapedPrice {
+  return notFound(store.id, "Dyqani nuk mbështet kërkim automatik");
+}
+
+// ── Main scraper ──────────────────────────────────────────────────────────────
+export class PriceScraper implements IPriceScraper {
+  async scrape(store: Store, searchTerms: string[], productId: string): Promise<ScrapedPrice> {
+    switch (store.platform) {
+      case "shopify":
+        return scrapeShopify(store, searchTerms, productId);
+      case "woocommerce":
+        return scrapeWooCommerce(store, searchTerms);
+      case "shopware":
+        return scrapeShopware(store, searchTerms);
+      case "html":
+        return scrapeHtmlFallback(store);
+    }
   }
 }

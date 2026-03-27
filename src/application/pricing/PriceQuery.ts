@@ -5,7 +5,7 @@ import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 import type { Store } from "@/src/domain/pricing/Store";
 
 export interface IPriceScraper {
-  scrape(store: Store, searchTerms: string[]): Promise<ScrapedPrice>;
+  scrape(store: Store, searchTerms: string[], productId: string): Promise<ScrapedPrice>;
 }
 
 const STALE_THRESHOLD_MS = 2 * 60 * 60 * 1000; // 2 hours
@@ -36,7 +36,7 @@ export class PriceQuery {
 
     // 2. Live scrape — only when no fresh data exists
     const prices = await Promise.all(
-      this.stores.map((store) => this.scraper.scrape(store, searchTerms))
+      this.stores.map((store) => this.scraper.scrape(store, searchTerms, productId))
     );
 
     try {

@@ -1,4 +1,6 @@
-// Store entity — represents a retailer that can be scraped for prices
+// Store entity — represents a retailer with platform-specific integration
+
+export type StorePlatform = "shopify" | "woocommerce" | "shopware" | "html";
 
 export interface Store {
   id: string;
@@ -6,12 +8,5 @@ export interface Store {
   url: string;
   logo: string;
   color: string;
-  searchUrls: (query: string) => string[];
-  selectors: {
-    productLink: string[];
-    price: string[];
-    stock: string[];
-    inStockText: string[];
-    outOfStockText: string[];
-  };
+  platform: StorePlatform;
 }
