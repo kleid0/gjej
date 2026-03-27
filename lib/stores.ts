@@ -160,12 +160,11 @@ export const STORES: Store[] = [
     ],
     selectors: {
       productLink: [
-        // Shopify: all product pages live under /products/
-        "a[href*='/products/']",
-        ".product-card a",
-        ".product-item a",
-        ".tt-product a",
-        ".grid__item a",
+        // Shopify: scope to <main> to avoid header/nav gift-card links
+        "main a[href*='/products/']",
+        "#MainContent a[href*='/products/']",
+        ".tt-product a[href*='/products/']",
+        ".product-card a[href*='/products/']",
       ],
       price: [
         ".price__current",
