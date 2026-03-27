@@ -61,16 +61,31 @@ export async function discoverProducts(): Promise<Product[]> {
   for (const plan of DISCOVERY_PLAN) {
     for (const store of STORES) {
       for (const term of plan.terms) {
-        const url = store.searchUrl(term);
+        const urls = store.searchUrls(term);
+        let data: string | null = null;
+        for (const url of urls) {
+          try {
+            const response = await axios.get(url, {
+              timeout: 12000,
+              headers: {
+                "User-Agent":
+                  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept":
+                  "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                "Accept-Language": "sq-AL,sq;q=0.9,en-US;q=0.8,en;q=0.7",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Cache-Control": "no-cache",
+                "Upgrade-Insecure-Requests": "1",
+              },
+            });
+            data = response.data;
+            break;
+          } catch {
+            // try next URL format
+          }
+        }
         try {
-          const { data } = await axios.get(url, {
-            timeout: 12000,
-            headers: {
-              "User-Agent": "Mozilla/5.0 (compatible; GjejBot/1.0; +https://gjej.al)",
-              "Accept-Language": "sq-AL,sq;q=0.9,en;q=0.8",
-              Accept: "text/html,application/xhtml+xml",
-            },
-          });
+          if (!data) continue;
           const $ = cheerio.load(data);
 
           for (const sel of store.selectors.productLink) {
