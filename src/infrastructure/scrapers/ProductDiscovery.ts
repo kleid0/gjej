@@ -34,6 +34,30 @@ function extractBrand(name: string, vendor?: string): string {
   return name.split(/\s+/)[0] ?? "Unknown";
 }
 
+// Known manufacturer model number patterns (e.g. SM-G991B, RTX 4090, i7-13700K)
+const MODEL_PATTERNS = [
+  /\b(SM-[A-Z0-9]+[A-Z]?)\b/i,           // Samsung: SM-G991B
+  /\b(MQ[A-Z0-9]{2,4}[A-Z]{0,2}\/[A-Z])\b/i, // Apple: MQ6T3LL/A style
+  /\b(RTX\s*\d{4}[A-Z\s]*Ti?)\b/i,        // NVIDIA: RTX 4090
+  /\b(GTX\s*\d{3,4}[A-Z\s]*Ti?)\b/i,      // NVIDIA: GTX 1660
+  /\b(RX\s*\d{4}[A-Z\s]*XT?)\b/i,         // AMD: RX 6700 XT
+  /\b(i[3579]-\d{4,5}[A-Z]{0,2})\b/i,     // Intel: i7-13700K
+  /\b(Ryzen\s+[3579]\s+\d{4}[A-Z]{0,2})\b/i, // AMD Ryzen
+  /\b(Xeon\s+[A-Z0-9-]+)\b/i,             // Intel Xeon
+  /\b([A-Z]{2,4}\d{2,4}[A-Z]{0,3}\d*)\b/, // Generic: TV50UQ, PS5
+];
+
+function extractModelNumber(name: string, fallbackSku: string): string {
+  for (const pattern of MODEL_PATTERNS) {
+    const m = name.match(pattern);
+    if (m) return m[1].replace(/\s+/g, " ").trim();
+  }
+  // Fall back to SKU only if it looks like a real model number (not a store ID / number)
+  if (fallbackSku && /[A-Z]/.test(fallbackSku) && fallbackSku.length >= 4) return fallbackSku;
+  // Last resort: use the slugified product name (first 20 chars)
+  return slugify(name).slice(0, 20);
+}
+
 function guessCategory(name: string, tags: string[] = [], productType = "", categories: string[] = []): { category: string; subcategory: string } {
   const text = [name, productType, ...tags, ...categories].join(" ").toLowerCase();
   if (/iphone|samsung galaxy|xiaomi|redmi|oneplus|oppo|realme|motorola|smartphone|telefon celular/i.test(text)) return { category: "telefona", subcategory: "Smartphone" };
@@ -72,7 +96,7 @@ async function fetchShopify(storeId: string, baseUrl: string): Promise<Product[]
       for (const item of items) {
         if (!item.title || item.title.length < 3) continue;
         const { category, subcategory } = guessCategory(item.title, item.tags ?? [], item.product_type ?? "");
-        products.push({ id: `${storeId}-${item.handle ?? slugify(item.title)}`, modelNumber: item.variants?.[0]?.sku ?? slugify(item.title).slice(0, 20), family: item.title, brand: extractBrand(item.title, item.vendor), category, subcategory, imageUrl: item.images?.[0]?.src ?? "", storageOptions: [], searchTerms: [item.title] });
+        products.push({ id: `${storeId}-${item.handle ?? slugify(item.title)}`, modelNumber: extractModelNumber(item.title, item.variants?.[0]?.sku ?? ""), family: item.title, brand: extractBrand(item.title, item.vendor), category, subcategory, imageUrl: item.images?.[0]?.src ?? "", storageOptions: [], searchTerms: [item.title] });
       }
       if (items.length < 250) break;
       page++;
@@ -97,7 +121,7 @@ async function fetchWooCommerce(storeId: string, baseUrl: string): Promise<Produ
         if (!item.name || item.name.length < 3) continue;
         const cats = item.categories?.map((c) => c.name) ?? [];
         const { category, subcategory } = guessCategory(item.name, [], "", cats);
-        products.push({ id: `${storeId}-${item.slug ?? slugify(item.name)}`, modelNumber: item.sku ?? slugify(item.name).slice(0, 20), family: item.name, brand: extractBrand(item.name), category, subcategory, imageUrl: item.images?.[0]?.src ?? "", storageOptions: [], searchTerms: [item.name] });
+        products.push({ id: `${storeId}-${item.slug ?? slugify(item.name)}`, modelNumber: extractModelNumber(item.name, item.sku ?? ""), family: item.name, brand: extractBrand(item.name), category, subcategory, imageUrl: item.images?.[0]?.src ?? "", storageOptions: [], searchTerms: [item.name] });
       }
       if (items.length < perPage) break;
       page++;
@@ -129,7 +153,7 @@ async function fetchFoleja(): Promise<Product[]> {
         const id = `foleja-${slugify(name)}`;
         if (discovered.has(id)) return;
         const { category, subcategory } = guessCategory(name);
-        discovered.set(id, { id, modelNumber: slugify(name).slice(0, 20), family: name, brand: extractBrand(name), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name] });
+        discovered.set(id, { id, modelNumber: extractModelNumber(name, ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name] });
       });
     } catch { /* blocked or unreachable */ }
     await new Promise((r) => setTimeout(r, 300));
@@ -165,7 +189,7 @@ async function fetchHtmlStore(store: typeof HTML_STORES[0]): Promise<Product[]> 
             const id = `${store.id}-${slugify(name)}`;
             if (discovered.has(id)) return;
             const { category, subcategory } = guessCategory(name);
-            discovered.set(id, { id, modelNumber: slugify(name).slice(0, 20), family: name, brand: extractBrand(name), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name] });
+            discovered.set(id, { id, modelNumber: extractModelNumber(name, ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name] });
             found++;
           });
           if (found > 0) break;
