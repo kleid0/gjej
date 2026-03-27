@@ -213,7 +213,7 @@ async function fetchFolejaProducts(): Promise<Product[]> {
       const $ = cheerio.load(data);
 
       // Shopware product listing: .product-box or .product-info
-      $(".product-box, .product-info, .product-name").each((_: number, el: cheerio.AnyNode) => {
+      $(".product-box, .product-info, .product-name").each((_: number, el: any) => {
         const $el = $(el);
         const link = $el.find("a[href*='/']").first();
         const href = link.attr("href") ?? $el.closest("a").attr("href");
@@ -298,7 +298,7 @@ async function fetchHtmlStoreProducts(store: HtmlStore): Promise<Product[]> {
 
         for (const sel of store.productLinkSelectors) {
           let found = 0;
-          $(sel).each((_: number, el: cheerio.AnyNode) => {
+          $(sel).each((_: number, el: any) => {
             const $el = $(el);
             const href = $el.attr("href");
             if (!href) return;
