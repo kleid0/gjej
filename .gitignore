@@ -3,3 +3,7 @@ node_modules/
 .env.local
 *.tsbuildinfo
 data/*.json
+.claude/
+.claude-flow/
+.swarm/
+.mcp.json

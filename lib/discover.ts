@@ -1,44 +1,21 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
-import { STORES } from "./stores";
 import type { Product } from "./products";
 
-// What to search on each store per category to surface products
-const DISCOVERY_PLAN: Array<{
-  categoryId: string;
-  subcategory: string;
-  terms: string[];
-}> = [
-  { categoryId: "telefona",   subcategory: "Smartphone",      terms: ["smartphone", "Samsung Galaxy", "iPhone", "Xiaomi telefon", "telefon celular", "Redmi", "Galaxy A", "Galaxy S", "iPhone 15", "iPhone 14", "iPhone 13", "Xiaomi 13", "OnePlus", "Oppo", "Realme", "Motorola", "Huawei", "Nokia telefon", "Android telefon"] },
-  { categoryId: "telefona",   subcategory: "Tablet",           terms: ["tablet", "iPad", "Samsung Tab", "Lenovo Tab", "Xiaomi Pad", "Huawei MatePad", "iPad Pro", "iPad Air", "iPad mini"] },
-  { categoryId: "kompjutera", subcategory: "Laptop",           terms: ["laptop", "notebook", "MacBook", "Dell laptop", "HP laptop", "Lenovo laptop", "ASUS laptop", "Acer laptop", "gaming laptop", "ultrabook", "Chromebook", "laptop i5", "laptop i7", "laptop ryzen"] },
-  { categoryId: "kompjutera", subcategory: "Desktop",          terms: ["kompjuter desktop", "PC gaming", "all-in-one", "iMac", "mini PC"] },
-  { categoryId: "kompjutera", subcategory: "Monitor",          terms: ["monitor", "monitor gaming", "monitor 4K", "monitor 27 inch", "monitor 24 inch", "curved monitor", "monitor IPS"] },
-  { categoryId: "kompjutera", subcategory: "Printer",          terms: ["printer", "printues", "laser printer", "inkjet printer", "HP printer", "Canon printer", "Epson printer", "multifunksional"] },
-  { categoryId: "kompjutera", subcategory: "Aksesorë",         terms: ["tastierë", "keyboard", "mouse gaming", "mouse wireless", "web kamera", "webcam", "headset PC", "USB hub", "SSD", "hard disk", "RAM", "procesor", "GPU", "grafike"] },
-  { categoryId: "elektronike",subcategory: "TV",               terms: ["televizor", "Smart TV", "OLED TV", "QLED TV", "4K TV", "Samsung TV", "LG TV", "Sony TV", "Philips TV", "TV 55 inch", "TV 65 inch", "TV 43 inch", "Android TV"] },
-  { categoryId: "elektronike",subcategory: "Audio",            terms: ["kufje", "headphones", "bluetooth speaker", "soundbar", "earbuds", "AirPods", "Sony kufje", "JBL speaker", "Bose", "wireless earphones", "gaming headset", "subwoofer"] },
-  { categoryId: "elektronike",subcategory: "Gaming",           terms: ["PlayStation", "Xbox", "Nintendo Switch", "PS5", "PS4", "Xbox Series X", "gaming aksesorë", "joystick", "controller", "gaming chair", "PS5 game", "Xbox game"] },
-  { categoryId: "elektronike",subcategory: "Kamera",           terms: ["kamera", "camera", "DSLR", "mirrorless", "Canon kamera", "Nikon", "Sony kamera", "action camera", "GoPro", "drone", "webcam", "kamera sigurie"] },
-  { categoryId: "elektronike",subcategory: "Shtëpiake",        terms: ["lavatrice", "frigorifer", "lavastovilje", "microwave", "kondicionier", "ajri i kondicionuar", "ngrohës", "furrë", "aspirator"] },
-  { categoryId: "elektronike",subcategory: "Aksesorë",         terms: ["charger", "karikues", "power bank", "kavo", "adapter", "batterie", "UPS", "printer ink", "toner"] },
-  { categoryId: "shtepi",     subcategory: "Pajisje Kuzhine",  terms: ["lavatrice", "frigorifer", "pajisje kuzhine", "furrë gatimi", "mikrovalë", "mikser", "blender", "kafemakine", "toaster", "lavastovilje", "ngrohës uji"] },
-  { categoryId: "shtepi",     subcategory: "Pastrimi",         terms: ["fshese me korrent", "aspirapolvere", "robot aspirator", "Dyson", "iRobot", "fshesë", "washing machine", "lavatrice"] },
-  { categoryId: "shtepi",     subcategory: "Ndriçim",          terms: ["llambë LED", "ndriçim smart", "smart bulb", "Philips Hue", "led shirit"] },
-  { categoryId: "sporte",     subcategory: "Fitness",          terms: ["fitness", "sport pajisje", "vrapim", "biçikletë fitness", "shtangë", "tapis roulant", "elliptical"] },
-  { categoryId: "sporte",     subcategory: "Veshje Sportive",  terms: ["Nike", "Adidas këpucë", "Puma", "veshje sportive", "këpucë sportive", "çantë sportive"] },
-  { categoryId: "bukuri",     subcategory: "Parfum",           terms: ["parfum", "eau de toilette", "Chanel", "Dior parfum", "Hugo Boss", "Versace", "parfum femra", "parfum burra"] },
-  { categoryId: "bukuri",     subcategory: "Kujdes Lëkure",    terms: ["kujdes lëkure", "skincare", "moisturizer", "serum", "Nivea", "L'Oreal", "Garnier", "krema", "maska"] },
-  { categoryId: "bukuri",     subcategory: "Elektrik",         terms: ["tharëse flokësh", "hair dryer", "hekur flokësh", "shavers", "Braun", "Oral-B", "Philips beauty", "epilator"] },
-  { categoryId: "lodra",      subcategory: "Lodra",            terms: ["lodra", "LEGO", "toys", "Barbie", "Hot Wheels", "puzzle", "lodra fëmijësh", "playset"] },
-];
+const HEADERS = {
+  "User-Agent":
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "Accept-Language": "sq-AL,sq;q=0.9,en-US;q=0.8,en;q=0.7",
+  "Accept-Encoding": "gzip, deflate, br",
+  "Cache-Control": "no-cache",
+};
 
-const KNOWN_BRANDS = [
-  "Samsung", "Apple", "Xiaomi", "Huawei", "Sony", "LG", "Dell", "HP", "Lenovo",
-  "ASUS", "Acer", "Microsoft", "Nokia", "Motorola", "OnePlus", "Oppo", "Realme",
-  "Philips", "Bosch", "Siemens", "Dyson", "iRobot", "Whirlpool", "Indesit",
-  "Nintendo", "Dior", "Chanel", "Nike", "Adidas", "Braun", "Oral-B",
-];
+const JSON_HEADERS = {
+  "User-Agent": HEADERS["User-Agent"],
+  "Accept": "application/json",
+  "Accept-Language": HEADERS["Accept-Language"],
+};
 
 function slugify(text: string): string {
   return text
@@ -48,120 +25,376 @@ function slugify(text: string): string {
     .slice(0, 80);
 }
 
-function extractBrand(name: string): string {
+const KNOWN_BRANDS = [
+  "Samsung", "Apple", "Xiaomi", "Huawei", "Sony", "LG", "Dell", "HP", "Lenovo",
+  "ASUS", "Acer", "Microsoft", "Nokia", "Motorola", "OnePlus", "Oppo", "Realme",
+  "Philips", "Bosch", "Siemens", "Dyson", "iRobot", "Whirlpool", "Indesit",
+  "Nintendo", "Dior", "Chanel", "Nike", "Adidas", "Braun", "Oral-B", "Redragon",
+  "Logitech", "Razer", "MSI", "Gigabyte", "NZXT", "Corsair", "Kingston",
+];
+
+function extractBrand(name: string, vendor?: string): string {
+  if (vendor && vendor !== "Others" && vendor !== "Unknown") return vendor;
   for (const brand of KNOWN_BRANDS) {
     if (new RegExp(`\\b${brand}\\b`, "i").test(name)) return brand;
   }
   return name.split(/\s+/)[0] ?? "Unknown";
 }
 
-function extractModelNumber(name: string): string {
-  // Look for typical model-number patterns like SM-G930F, A3090, WH-1000XM5
-  const match = name.match(/\b([A-Z]{1,4}[-–]?[A-Z0-9]{3,12})\b/);
-  return match?.[1] ?? slugify(name).slice(0, 20);
+function guessCategory(
+  name: string,
+  tags: string[] = [],
+  productType: string = "",
+  categories: string[] = []
+): { category: string; subcategory: string } {
+  const text = [name, productType, ...tags, ...categories].join(" ").toLowerCase();
+
+  if (/iphone|samsung galaxy|xiaomi|redmi|oneplus|oppo|realme|motorola|android phone|smartphone|telefon celular/i.test(text))
+    return { category: "telefona", subcategory: "Smartphone" };
+  if (/ipad|tablet|samsung tab|lenovo tab|huawei matepad/i.test(text))
+    return { category: "telefona", subcategory: "Tablet" };
+  if (/macbook|laptop|notebook|dell xps|thinkpad|chromebook/i.test(text))
+    return { category: "kompjutera", subcategory: "Laptop" };
+  if (/desktop|pc gaming|all-in-one|imac|mini pc/i.test(text))
+    return { category: "kompjutera", subcategory: "Desktop PC" };
+  if (/monitor/i.test(text))
+    return { category: "kompjutera", subcategory: "Monitor" };
+  if (/printer|printues|scanner/i.test(text))
+    return { category: "kompjutera", subcategory: "Printer" };
+  if (/keyboard|tastier|mouse|webcam|headset pc|usb hub|ssd|hard disk|ram|procesor|gpu|grafik/i.test(text))
+    return { category: "kompjutera", subcategory: "Aksesore PC" };
+  if (/televizor|smart tv|oled tv|qled tv|4k tv/i.test(text))
+    return { category: "elektronike", subcategory: "TV" };
+  if (/headphone|kufje|speaker|soundbar|earbuds|airpods|earphones|subwoofer/i.test(text))
+    return { category: "elektronike", subcategory: "Audio" };
+  if (/playstation|xbox|nintendo|ps5|ps4|gaming chair|controller|joystick/i.test(text))
+    return { category: "elektronike", subcategory: "Gaming" };
+  if (/kamera|camera|dslr|mirrorless|gopro|drone|webcam/i.test(text))
+    return { category: "elektronike", subcategory: "Kamera" };
+  if (/lavatrice|frigorifer|lavastovilje|mikroval|kondicionier|ngrohes|furr|aspirator/i.test(text))
+    return { category: "elektronike", subcategory: "Shtëpiake" };
+  if (/charger|karikues|power bank|kavo|adapter|ups|toner|batterie/i.test(text))
+    return { category: "elektronike", subcategory: "Aksesorë" };
+  if (/parfum|eau de toilette/i.test(text))
+    return { category: "bukuri", subcategory: "Parfum" };
+  if (/skincare|moisturizer|serum|krema|maska|lekure/i.test(text))
+    return { category: "bukuri", subcategory: "Kujdes Lëkure" };
+  if (/tharëse|hair dryer|hekur flokesh|shaver|epilator|electric toothbrush/i.test(text))
+    return { category: "bukuri", subcategory: "Elektrik" };
+  if (/lego|toys|barbie|hot wheels|puzzle|lodra|playset|funko/i.test(text))
+    return { category: "lodra", subcategory: "Lodra" };
+  if (/nike|adidas|puma|veshje sportive|kep.c. sport/i.test(text))
+    return { category: "sporte", subcategory: "Veshje Sportive" };
+  if (/fitness|tapis roulant|elliptical|biçiklet/i.test(text))
+    return { category: "sporte", subcategory: "Fitness" };
+
+  return { category: "elektronike", subcategory: "Aksesorë" };
 }
 
-export async function discoverProducts(): Promise<Product[]> {
+// ── Shopify: fetch all products via /products.json ─────────────────────────────
+async function fetchShopifyProducts(storeId: string, baseUrl: string): Promise<Product[]> {
+  const products: Product[] = [];
+  let page = 1;
+
+  while (true) {
+    try {
+      const { data } = await axios.get(`${baseUrl}/products.json`, {
+        params: { limit: 250, page },
+        timeout: 15000,
+        headers: JSON_HEADERS,
+      });
+
+      const items: ShopifyProduct[] = data?.products ?? [];
+      if (items.length === 0) break;
+
+      for (const item of items) {
+        if (!item.title || item.title.length < 3) continue;
+        const id = `${storeId}-${item.handle ?? slugify(item.title)}`;
+        const { category, subcategory } = guessCategory(
+          item.title,
+          item.tags ?? [],
+          item.product_type ?? ""
+        );
+        const imageUrl = item.images?.[0]?.src ?? "";
+        products.push({
+          id,
+          modelNumber: item.variants?.[0]?.sku ?? slugify(item.title).slice(0, 20),
+          family: item.title,
+          brand: extractBrand(item.title, item.vendor),
+          category,
+          subcategory,
+          imageUrl,
+          storageOptions: [],
+          searchTerms: [item.title],
+        });
+      }
+
+      if (items.length < 250) break;
+      page++;
+    } catch {
+      break;
+    }
+  }
+
+  return products;
+}
+
+// ── WooCommerce Store API: /wp-json/wc/store/v1/products ──────────────────────
+async function fetchWooCommerceProducts(storeId: string, baseUrl: string): Promise<Product[]> {
+  const products: Product[] = [];
+  let page = 1;
+  const perPage = 100;
+
+  while (true) {
+    try {
+      const { data } = await axios.get(`${baseUrl}/wp-json/wc/store/v1/products`, {
+        params: { per_page: perPage, page },
+        timeout: 15000,
+        headers: JSON_HEADERS,
+      });
+
+      const items: WooProduct[] = Array.isArray(data) ? data : [];
+      if (items.length === 0) break;
+
+      for (const item of items) {
+        if (!item.name || item.name.length < 3) continue;
+        const id = `${storeId}-${item.slug ?? slugify(item.name)}`;
+        const cats = item.categories?.map((c) => c.name) ?? [];
+        const { category, subcategory } = guessCategory(item.name, [], "", cats);
+        const imageUrl = item.images?.[0]?.src ?? "";
+        products.push({
+          id,
+          modelNumber: item.sku ?? slugify(item.name).slice(0, 20),
+          family: item.name,
+          brand: extractBrand(item.name),
+          category,
+          subcategory,
+          imageUrl,
+          storageOptions: [],
+          searchTerms: [item.name],
+        });
+      }
+
+      if (items.length < perPage) break;
+      page++;
+      // Brief pause to avoid rate limiting
+      await new Promise((r) => setTimeout(r, 500));
+    } catch {
+      break;
+    }
+  }
+
+  return products;
+}
+
+// ── Shopware (Foleja.al): search-based HTML scraping ─────────────────────────
+const FOLEJA_SEARCH_TERMS = [
+  "smartphone", "Samsung Galaxy", "iPhone", "Xiaomi", "laptop", "MacBook",
+  "Dell", "HP laptop", "ASUS", "monitor", "televizor", "Smart TV", "Sony TV",
+  "LG TV", "Samsung TV", "PlayStation", "Xbox", "Nintendo", "gaming",
+  "headphones", "bluetooth speaker", "earbuds", "AirPods", "printer",
+  "SSD", "RAM", "keyboard", "mouse", "webcam", "power bank", "parfum",
+  "Dyson", "lavatrice", "frigorifer", "kondicionier", "kamera",
+  "tablet", "iPad", "Samsung Tab",
+];
+
+async function fetchFolejaProducts(): Promise<Product[]> {
+  const discovered = new Map<string, Product>();
+  const baseUrl = "https://www.foleja.al";
+
+  for (const term of FOLEJA_SEARCH_TERMS) {
+    try {
+      const { data } = await axios.get(`${baseUrl}/search`, {
+        params: { search: term, p: 1 },
+        timeout: 12000,
+        headers: HEADERS,
+      });
+
+      const $ = cheerio.load(data);
+
+      // Shopware product listing: .product-box or .product-info
+      $(".product-box, .product-info, .product-name").each((_: number, el: cheerio.Element) => {
+        const $el = $(el);
+        const link = $el.find("a[href*='/']").first();
+        const href = link.attr("href") ?? $el.closest("a").attr("href");
+        if (!href) return;
+
+        const productUrl = href.startsWith("http") ? href : `${baseUrl}${href}`;
+
+        const name = (
+          $el.find(".product-name, h2, h3, .name").first().text().trim() ||
+          link.text().trim() ||
+          link.attr("title") || ""
+        ).replace(/\s+/g, " ").trim();
+
+        if (!name || name.length < 4 || name.length > 200) return;
+
+        const img = $el.find("img").first();
+        const rawSrc = img.attr("src") || img.attr("data-src") || "";
+        const imageUrl = rawSrc ? (rawSrc.startsWith("http") ? rawSrc : `${baseUrl}${rawSrc}`) : "";
+
+        const id = `foleja-${slugify(name)}`;
+        if (discovered.has(id)) return;
+
+        const { category, subcategory } = guessCategory(name);
+        discovered.set(id, {
+          id,
+          modelNumber: slugify(name).slice(0, 20),
+          family: name,
+          brand: extractBrand(name),
+          category,
+          subcategory,
+          imageUrl,
+          storageOptions: [],
+          searchTerms: [name, productUrl],
+        });
+      });
+    } catch {
+      // Store unreachable or blocked — skip silently
+    }
+    await new Promise((r) => setTimeout(r, 300));
+  }
+
+  return Array.from(discovered.values());
+}
+
+// ── HTML fallback for other stores ──────────────────────────────────────────
+
+interface HtmlStore {
+  id: string;
+  searchUrls: (q: string) => string[];
+  productLinkSelectors: string[];
+  terms: string[];
+}
+
+const HTML_STORES: HtmlStore[] = [
+  {
+    id: "neptun",
+    searchUrls: (q) => [`https://www.neptun.al/search?q=${encodeURIComponent(q)}`],
+    productLinkSelectors: ["a.product-link", ".product-name a", "h2 a", ".product-item a", "a.product-item-link"],
+    terms: ["laptop", "telefon", "iPhone", "Samsung", "televizor", "Gaming", "PlayStation"],
+  },
+  {
+    id: "pcstore",
+    searchUrls: (q) => [`https://www.pcstore.al/?s=${encodeURIComponent(q)}&post_type=product`],
+    productLinkSelectors: [
+      "a.woocommerce-loop-product__link",
+      "a[href*='/product/']",
+      "li.product a[href]",
+      ".product-title a",
+    ],
+    terms: ["laptop", "gaming PC", "SSD", "monitor", "keyboard", "mouse", "RAM", "GPU"],
+  },
+];
+
+async function fetchHtmlStoreProducts(store: HtmlStore): Promise<Product[]> {
   const discovered = new Map<string, Product>();
 
-  for (const plan of DISCOVERY_PLAN) {
-    for (const store of STORES) {
-      for (const term of plan.terms) {
-        const urls = store.searchUrls(term);
-        let data: string | null = null;
-        for (const url of urls) {
-          try {
-            const response = await axios.get(url, {
-              timeout: 12000,
-              headers: {
-                "User-Agent":
-                  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                "Accept":
-                  "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-                "Accept-Language": "sq-AL,sq;q=0.9,en-US;q=0.8,en;q=0.7",
-                "Accept-Encoding": "gzip, deflate, br",
-                "Cache-Control": "no-cache",
-                "Upgrade-Insecure-Requests": "1",
-              },
+  for (const term of store.terms) {
+    for (const url of store.searchUrls(term)) {
+      try {
+        const { data } = await axios.get(url, { timeout: 12000, headers: HEADERS });
+        const $ = cheerio.load(data);
+
+        for (const sel of store.productLinkSelectors) {
+          let found = 0;
+          $(sel).each((_: number, el: cheerio.Element) => {
+            const $el = $(el);
+            const href = $el.attr("href");
+            if (!href) return;
+
+            const productUrl = href.startsWith("http") ? href : `https://www.${store.id}.al${href}`;
+            const $container = $el.closest("[class*='product'], article, li.item, .item, [class*='card']").first();
+            const name = (
+              $el.text().trim() ||
+              $el.attr("title") ||
+              $container.find("h2,h3,h4,[class*='title'],[class*='name']").first().text().trim()
+            ).replace(/\s+/g, " ").trim();
+
+            if (!name || name.length < 4 || name.length > 200) return;
+
+            const img = $container.find("img").first();
+            const rawSrc = img.attr("src") || img.attr("data-src") || "";
+            const imageUrl = rawSrc ? (rawSrc.startsWith("http") ? rawSrc : `https://www.${store.id}.al${rawSrc}`) : "";
+
+            const id = `${store.id}-${slugify(name)}`;
+            if (discovered.has(id)) return;
+
+            const { category, subcategory } = guessCategory(name);
+            discovered.set(id, {
+              id,
+              modelNumber: slugify(name).slice(0, 20),
+              family: name,
+              brand: extractBrand(name),
+              category,
+              subcategory,
+              imageUrl,
+              storageOptions: [],
+              searchTerms: [name],
             });
-            data = response.data;
-            break;
-          } catch {
-            // try next URL format
-          }
+            found++;
+          });
+          if (found > 0) break;
         }
-        try {
-          if (!data) continue;
-          const $ = cheerio.load(data);
+      } catch {
+        // blocked or unreachable
+      }
+    }
+    await new Promise((r) => setTimeout(r, 400));
+  }
 
-          for (const sel of store.selectors.productLink) {
-            let foundCount = 0;
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            $(sel).each((_: number, el: any) => {
-              const $el = $(el);
-              const href = $el.attr("href");
-              if (!href) return;
+  return Array.from(discovered.values());
+}
 
-              const productUrl = href.startsWith("http") ? href : `${store.url}${href}`;
+// ── Types ────────────────────────────────────────────────────────────────────
 
-              // Resolve product title from link text or nearby heading
-              const $container = $el.closest(
-                "[class*='product'], article, li.item, .item, [class*='card']"
-              ).first();
-              const name = (
-                $el.text().trim() ||
-                $el.attr("title") ||
-                $el.attr("aria-label") ||
-                $container
-                  .find("h2,h3,h4,[class*='title'],[class*='name']")
-                  .first()
-                  .text()
-                  .trim()
-              )
-                .replace(/\s+/g, " ")
-                .trim();
+interface ShopifyProduct {
+  handle: string;
+  title: string;
+  vendor: string;
+  product_type: string;
+  tags: string[];
+  images: Array<{ src: string }>;
+  variants: Array<{ sku: string }>;
+}
 
-              if (!name || name.length < 4 || name.length > 150) return;
+interface WooProduct {
+  name: string;
+  slug: string;
+  sku: string;
+  categories: Array<{ name: string }>;
+  images: Array<{ src: string }>;
+}
 
-              // Resolve product image
-              const imgEl = $container.find("img").first();
-              const rawSrc =
-                imgEl.attr("src") ||
-                imgEl.attr("data-src") ||
-                imgEl.attr("data-lazy-src") ||
-                "";
-              const imageUrl = rawSrc
-                ? rawSrc.startsWith("http")
-                  ? rawSrc
-                  : `${store.url}${rawSrc}`
-                : "";
+// ── Main entry point ─────────────────────────────────────────────────────────
 
-              const id = `disc-${slugify(name)}`;
-              if (discovered.has(id)) return;
+export async function discoverProducts(): Promise<Product[]> {
+  const all: Product[] = [];
+  const seen = new Set<string>();
 
-              discovered.set(id, {
-                id,
-                modelNumber: extractModelNumber(name),
-                family: name,
-                brand: extractBrand(name),
-                category: plan.categoryId,
-                subcategory: plan.subcategory,
-                imageUrl,
-                storageOptions: [],
-                searchTerms: [name],
-              });
-              foundCount++;
-            });
-
-            // Stop trying selectors once this selector actually found products
-            if (foundCount > 0) break;
-          }
-        } catch {
-          // Store unreachable or blocked — skip silently
-        }
+  function addAll(items: Product[]) {
+    for (const p of items) {
+      if (!seen.has(p.id)) {
+        seen.add(p.id);
+        all.push(p);
       }
     }
   }
 
-  return Array.from(discovered.values());
+  // Run all stores in parallel for speed
+  const [albagame, shpresa, foleja, ...htmlResults] = await Promise.allSettled([
+    fetchShopifyProducts("albagame", "https://www.albagame.al"),
+    fetchWooCommerceProducts("shpresa", "https://shpresa.al"),
+    fetchFolejaProducts(),
+    ...HTML_STORES.map((s) => fetchHtmlStoreProducts(s)),
+  ]);
+
+  if (albagame.status === "fulfilled") addAll(albagame.value);
+  if (shpresa.status === "fulfilled") addAll(shpresa.value);
+  if (foleja.status === "fulfilled") addAll(foleja.value);
+  for (const r of htmlResults) {
+    if (r.status === "fulfilled") addAll(r.value);
+  }
+
+  return all;
 }
