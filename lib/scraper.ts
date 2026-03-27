@@ -71,10 +71,12 @@ export async function scrapeStore(
   for (const term of searchTerms) {
     for (const searchUrl of store.searchUrls(term)) {
       try {
-        const { data } = await axios.get(searchUrl, {
+        const { data, status: httpStatus } = await axios.get(searchUrl, {
           timeout: 10000,
           headers: BROWSER_HEADERS,
         });
+
+        console.log(`[scraper] ${store.id} ${searchUrl} → HTTP ${httpStatus}, html_len=${String(data).length}`);
 
         const $ = cheerio.load(data);
 
@@ -84,11 +86,13 @@ export async function scrapeStore(
           const link = $(sel).first().attr("href");
           if (link) {
             productUrl = link.startsWith("http") ? link : `${store.url}${link}`;
+            console.log(`[scraper] ${store.id} matched selector "${sel}" → ${productUrl}`);
             break;
           }
         }
 
         if (!productUrl) {
+          console.log(`[scraper] ${store.id} no product link found (tried ${store.selectors.productLink.length} selectors)`);
           lastError = "Produkti nuk u gjet në këtë dyqan";
           continue;
         }
@@ -128,6 +132,7 @@ export async function scrapeStore(
         };
       } catch (err: unknown) {
         const message = err instanceof Error ? err.message : String(err);
+        console.log(`[scraper] ${store.id} ERROR ${searchUrl}: ${message.slice(0, 120)}`);
         lastError = `Nuk u gjet: ${message.slice(0, 80)}`;
         // Try next URL format
       }
