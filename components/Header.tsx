@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { CATEGORIES } from "@/lib/products";
+import { CATEGORIES } from "@/src/domain/catalog/Product";
 
 export default function Header() {
   const [query, setQuery] = useState("");

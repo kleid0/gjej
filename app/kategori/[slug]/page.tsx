@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getCategoryById, CATEGORIES } from "@/lib/products";
-import { getProductsByCategoryAll } from "@/lib/product-store";
+import { productCatalog } from "@/src/infrastructure/container";
 import ProductCard from "@/components/ProductCard";
 
 export const dynamic = "force-dynamic";
@@ -11,14 +10,14 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return CATEGORIES.map((c) => ({ slug: c.id }));
+  return productCatalog.getCategories().map((c) => ({ slug: c.id }));
 }
 
 export default async function CategoryPage({ params }: Props) {
-  const category = getCategoryById(params.slug);
+  const category = productCatalog.getCategoryById(params.slug);
   if (!category) notFound();
 
-  const products = await getProductsByCategoryAll(params.slug);
+  const products = await productCatalog.getProductsByCategory(params.slug);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">

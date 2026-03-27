@@ -1,21 +1,19 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getProductById, getFamilySiblings, PRODUCTS } from "@/lib/products";
+import { productCatalog } from "@/src/infrastructure/container";
 import PriceComparison from "@/components/PriceComparison";
+
+export const dynamic = "force-dynamic";
 
 interface Props {
   params: { slug: string };
 }
 
-export async function generateStaticParams() {
-  return PRODUCTS.map((p) => ({ slug: p.id }));
-}
-
-export default function ProductPage({ params }: Props) {
-  const product = getProductById(params.slug);
+export default async function ProductPage({ params }: Props) {
+  const product = await productCatalog.getProductById(params.slug);
   if (!product) notFound();
 
-  const siblings = getFamilySiblings(product);
+  const siblings = await productCatalog.getFamilySiblings(product);
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Product } from "@/lib/products";
+import { Product } from "@/src/domain/catalog/Product";
 
 export default function ProductCard({ product }: { product: Product }) {
   return (

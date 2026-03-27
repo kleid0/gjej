@@ -1,5 +1,4 @@
-// In-memory cache for scraped prices
-// TTL: 15 minutes — keeps data fresh without hammering stores
+// Infrastructure: in-memory TTL cache for scraped prices
 
 interface CacheEntry<T> {
   data: T;
@@ -7,8 +6,7 @@ interface CacheEntry<T> {
 }
 
 const store = new Map<string, CacheEntry<unknown>>();
-
-const TTL_MS = 15 * 60 * 1000; // 15 minutes
+const DEFAULT_TTL_MS = 15 * 60 * 1000; // 15 minutes
 
 export function getCached<T>(key: string): T | null {
   const entry = store.get(key) as CacheEntry<T> | undefined;
@@ -20,7 +18,7 @@ export function getCached<T>(key: string): T | null {
   return entry.data;
 }
 
-export function setCached<T>(key: string, data: T, ttlMs = TTL_MS): void {
+export function setCached<T>(key: string, data: T, ttlMs = DEFAULT_TTL_MS): void {
   store.set(key, { data, expiresAt: Date.now() + ttlMs });
 }
 

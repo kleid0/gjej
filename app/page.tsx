@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { CATEGORIES } from "@/lib/products";
-import { getAllProducts } from "@/lib/product-store";
+import { productCatalog } from "@/src/infrastructure/container";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import SearchBar from "@/components/SearchBar";
@@ -8,8 +7,9 @@ import SearchBar from "@/components/SearchBar";
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const allProducts = await getAllProducts();
+  const allProducts = await productCatalog.getAllProducts();
   const featured = allProducts.slice(0, 8);
+  const categories = productCatalog.getCategories();
 
   return (
     <div>
@@ -38,7 +38,7 @@ export default async function Home() {
       <section className="max-w-6xl mx-auto px-4 py-10">
         <h2 className="text-xl font-bold text-gray-800 mb-5">Shfleto sipas kategorisë</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3">
-          {CATEGORIES.map((cat) => (
+          {categories.map((cat) => (
             <CategoryCard key={cat.id} category={cat} />
           ))}
         </div>

@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { STORE_MAP } from "@/lib/stores";
-import { ScrapedPrice } from "@/lib/scraper";
+import { STORE_MAP } from "@/src/infrastructure/stores/registry";
+import { ScrapedPrice } from "@/src/domain/pricing/Price";
 
 const DISCLAIMER =
   "Çmimi dhe stoku i shfaqur janë siç reklamohen nga dyqani. Gjej.al nuk verifikon disponueshmërinë reale të produktit.";

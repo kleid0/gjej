@@ -1,9 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { STORES } from "@/lib/stores";
-import { scrapeStore, ScrapedPrice } from "@/lib/scraper";
-import { setAllPersistedPrices } from "@/lib/price-store";
-import { setCached, cacheKey } from "@/lib/cache";
-import { getAllProducts } from "@/lib/product-store";
+import { priceQuery, productCatalog } from "@/src/infrastructure/container";
 
 // Allow up to 5 minutes — scraping all products takes time
 export const maxDuration = 300;
@@ -17,20 +13,13 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const allPrices: Record<string, ScrapedPrice[]> = {};
-  const allProducts = await getAllProducts();
+  const allProducts = await productCatalog.getAllProducts();
 
   await Promise.all(
-    allProducts.map(async (product) => {
-      const prices = await Promise.all(
-        STORES.map((store) => scrapeStore(store, product.searchTerms))
-      );
-      allPrices[product.id] = prices;
-      setCached(cacheKey("prices", product.id), prices);
-    })
+    allProducts.map((product) =>
+      priceQuery.getPricesForProduct(product.id, product.searchTerms)
+    )
   );
-
-  await setAllPersistedPrices(allPrices);
 
   return NextResponse.json({
     refreshed: allProducts.length,

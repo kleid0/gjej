@@ -1,5 +1,4 @@
-import { CATEGORIES } from "@/lib/products";
-import { searchAllProducts, getAllProducts } from "@/lib/product-store";
+import { productCatalog } from "@/src/infrastructure/container";
 import ProductCard from "@/components/ProductCard";
 import Link from "next/link";
 
@@ -14,11 +13,12 @@ export default async function KerkoPage({ searchParams }: Props) {
   const kat = searchParams.kat ?? "";
 
   let results = query
-    ? await searchAllProducts(query)
-    : await getAllProducts();
+    ? await productCatalog.searchProducts(query)
+    : await productCatalog.getAllProducts();
   if (kat) results = results.filter((p) => p.category === kat);
 
-  const category = kat ? CATEGORIES.find((c) => c.id === kat) : null;
+  const categories = productCatalog.getCategories();
+  const category = kat ? categories.find((c) => c.id === kat) : null;
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
@@ -52,7 +52,7 @@ export default async function KerkoPage({ searchParams }: Props) {
           >
             Të gjitha
           </Link>
-          {CATEGORIES.map((c) => (
+          {categories.map((c) => (
             <Link
               key={c.id}
               href={`/kerko?q=${encodeURIComponent(query)}&kat=${c.id}`}
