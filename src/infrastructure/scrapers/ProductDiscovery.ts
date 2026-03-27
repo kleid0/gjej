@@ -18,6 +18,14 @@ function slugify(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80);
 }
 
+function decodeHtml(text: string): string {
+  return text
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(parseInt(code, 10)))
+    .replace(/&amp;/gi, "&").replace(/&lt;/gi, "<").replace(/&gt;/gi, ">")
+    .replace(/&quot;/gi, '"').replace(/&apos;/gi, "'").replace(/&nbsp;/gi, " ")
+    .replace(/\s+/g, " ").trim();
+}
+
 const KNOWN_BRANDS = [
   "Samsung", "Apple", "Xiaomi", "Huawei", "Sony", "LG", "Dell", "HP", "Lenovo",
   "ASUS", "Acer", "Microsoft", "Nokia", "Motorola", "OnePlus", "Oppo", "Realme",
@@ -119,9 +127,10 @@ async function fetchWooCommerce(storeId: string, baseUrl: string): Promise<Produ
       if (!items.length) break;
       for (const item of items) {
         if (!item.name || item.name.length < 3) continue;
+        const name = decodeHtml(item.name);
         const cats = item.categories?.map((c) => c.name) ?? [];
-        const { category, subcategory } = guessCategory(item.name, [], "", cats);
-        products.push({ id: `${storeId}-${item.slug ?? slugify(item.name)}`, modelNumber: extractModelNumber(item.name, item.sku ?? ""), family: item.name, brand: extractBrand(item.name), category, subcategory, imageUrl: item.images?.[0]?.src ?? "", storageOptions: [], searchTerms: [item.name] });
+        const { category, subcategory } = guessCategory(name, [], "", cats);
+        products.push({ id: `${storeId}-${item.slug ?? slugify(name)}`, modelNumber: extractModelNumber(name, item.sku ?? ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl: item.images?.[0]?.src ?? "", storageOptions: [], searchTerms: [name] });
       }
       if (items.length < perPage) break;
       page++;

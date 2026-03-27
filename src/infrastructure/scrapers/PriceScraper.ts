@@ -32,6 +32,35 @@ function matchScore(name: string, terms: string[]): number {
   return words.filter((w) => n.includes(w)).length;
 }
 
+// Decode HTML entities and strip specs so searches actually match store listings.
+// "HP EliteBook 840 G11 14&#8243;, 16GB, 512GB" → "HP EliteBook 840 G11"
+function cleanQuery(term: string): string {
+  const decoded = term
+    .replace(/&#(\d+);/g, (_, c) => String.fromCharCode(parseInt(c, 10)))
+    .replace(/&\w+;/g, " ");
+  // Drop everything after the first comma (usually specs)
+  const beforeComma = decoded.split(",")[0];
+  // Drop dimension notations and storage sizes
+  return beforeComma
+    .replace(/\d+\.?\d*\s*["″"'']/g, "")
+    .replace(/\b\d+\s*(gb|tb|mb|ram)\b/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// Build a list of queries to try: cleaned full name, then progressively shorter
+function buildQueries(searchTerms: string[]): string[] {
+  const queries: string[] = [];
+  for (const term of searchTerms) {
+    const cleaned = cleanQuery(term);
+    if (cleaned.length >= 3) queries.push(cleaned);
+    // Fallback: first 4 words (brand + model without variants)
+    const short = cleaned.split(/\s+/).slice(0, 4).join(" ");
+    if (short !== cleaned && short.length >= 3) queries.push(short);
+  }
+  return queries.filter((q, i) => queries.indexOf(q) === i);
+}
+
 // ── Shopify ───────────────────────────────────────────────────────────────────
 // Uses /products/{handle}.json when the product came from this store,
 // falls back to /search.json for cross-store lookups.
@@ -71,7 +100,7 @@ async function scrapeShopify(
   }
 
   // Cross-store search via Shopify search API
-  for (const term of searchTerms) {
+  for (const term of buildQueries(searchTerms)) {
     try {
       const { data } = await axios.get(`${store.url}/search.json`, {
         params: { type: "product", q: term, limit: 10 },
@@ -116,25 +145,67 @@ async function scrapeShopify(
 }
 
 // ── WooCommerce ───────────────────────────────────────────────────────────────
-// Uses the public WooCommerce Store API (no auth required) which returns
-// structured price data — same endpoint as product discovery.
-async function scrapeWooCommerce(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
+// Uses the public WooCommerce Store API (no auth required).
+// For own-store products: direct slug lookup (always correct).
+// For cross-store: name search with best-match scoring.
+async function scrapeWooCommerce(
+  store: Store,
+  searchTerms: string[],
+  productId: string
+): Promise<ScrapedPrice> {
   const lastChecked = new Date().toISOString();
 
-  for (const term of searchTerms) {
+  type WooItem = {
+    name: string;
+    slug: string;
+    permalink: string;
+    prices: { price: string; regular_price: string; currency_minor_unit: number };
+    is_in_stock: boolean;
+    stock_status: string;
+  };
+
+  function parseWooItem(item: WooItem): ScrapedPrice {
+    const minorUnit = item.prices?.currency_minor_unit ?? 2;
+    const divisor = Math.pow(10, minorUnit);
+    const rawPrice = item.prices?.price ?? item.prices?.regular_price;
+    const price = rawPrice ? parseInt(rawPrice, 10) / divisor : null;
+    const inStock = item.is_in_stock ?? item.stock_status === "instock";
+    return {
+      storeId: store.id,
+      price,
+      inStock,
+      stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
+      productUrl: item.permalink ?? null,
+      lastChecked,
+    };
+  }
+
+  // Direct slug lookup for own-store products
+  const ownPrefix = `${store.id}-`;
+  if (productId.startsWith(ownPrefix)) {
+    const slug = productId.slice(ownPrefix.length);
+    try {
+      const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
+        params: { slug, per_page: 1 },
+        timeout: 10000,
+        headers: HEADERS,
+      });
+      const items: WooItem[] = Array.isArray(data) ? data : [];
+      if (items.length) return parseWooItem(items[0]);
+    } catch {
+      // fall through to search
+    }
+  }
+
+  // Cross-store or slug lookup failed — search by name
+  for (const term of buildQueries(searchTerms)) {
     try {
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
         params: { search: term, per_page: 10 },
         timeout: 10000,
         headers: HEADERS,
       });
-      const items: Array<{
-        name: string;
-        permalink: string;
-        prices: { price: string; regular_price: string; currency_minor_unit: number };
-        is_in_stock: boolean;
-        stock_status: string;
-      }> = Array.isArray(data) ? data : [];
+      const items: WooItem[] = Array.isArray(data) ? data : [];
       if (!items.length) continue;
 
       const best = items
@@ -143,20 +214,7 @@ async function scrapeWooCommerce(store: Store, searchTerms: string[]): Promise<S
         .sort((a, b) => b.score - a.score)[0]?.item;
       if (!best) continue;
 
-      const minorUnit = best.prices?.currency_minor_unit ?? 2;
-      const divisor = Math.pow(10, minorUnit);
-      const rawPrice = best.prices?.price ?? best.prices?.regular_price;
-      const price = rawPrice ? parseInt(rawPrice, 10) / divisor : null;
-      const inStock = best.is_in_stock ?? best.stock_status === "instock";
-
-      return {
-        storeId: store.id,
-        price,
-        inStock,
-        stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
-        productUrl: best.permalink ?? null,
-        lastChecked,
-      };
+      return parseWooItem(best);
     } catch {
       continue;
     }
@@ -171,7 +229,7 @@ async function scrapeWooCommerce(store: Store, searchTerms: string[]): Promise<S
 async function scrapeShopware(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
   const lastChecked = new Date().toISOString();
 
-  for (const term of searchTerms) {
+  for (const term of buildQueries(searchTerms)) {
     try {
       const { data } = await axios.get(`${store.url}/suggest`, {
         params: { search: term },
@@ -234,7 +292,7 @@ export class PriceScraper implements IPriceScraper {
       case "shopify":
         return scrapeShopify(store, searchTerms, productId);
       case "woocommerce":
-        return scrapeWooCommerce(store, searchTerms);
+        return scrapeWooCommerce(store, searchTerms, productId);
       case "shopware":
         return scrapeShopware(store, searchTerms);
       case "html":
