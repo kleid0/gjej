@@ -52,13 +52,25 @@ export class PriceScraper implements IPriceScraper {
           const { data } = await axios.get(searchUrl, { timeout: 10000, headers: BROWSER_HEADERS });
           const $ = cheerio.load(data);
 
+          // Collect all candidate links, then pick the one whose anchor text
+          // best matches the search term (avoids grabbing a random accessory first)
+          const termLower = term.toLowerCase();
+          const termWords = termLower.split(/\s+/).filter(Boolean);
           let productUrl: string | null = null;
+          let bestScore = -1;
+
           for (const sel of store.selectors.productLink) {
-            const link = $(sel).first().attr("href");
-            if (link) {
-              productUrl = link.startsWith("http") ? link : `${store.url}${link}`;
-              break;
-            }
+            $(sel).each((_: number, el: any) => {
+              const href = $(el).attr("href");
+              if (!href) return;
+              const text = ($(el).text().trim() || $(el).attr("title") || "").toLowerCase();
+              const score = termWords.filter((w) => text.includes(w)).length;
+              if (score > bestScore) {
+                bestScore = score;
+                productUrl = href.startsWith("http") ? href : `${store.url}${href}`;
+              }
+            });
+            if (productUrl) break;
           }
           if (!productUrl) continue;
 
