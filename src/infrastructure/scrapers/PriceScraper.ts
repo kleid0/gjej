@@ -2,6 +2,7 @@
 // instead of fragile HTML scraping so prices are always accurate.
 
 import axios from "axios";
+import * as cheerio from "cheerio";
 import type { IPriceScraper } from "@/src/application/pricing/PriceQuery";
 import type { Store } from "@/src/domain/pricing/Store";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
@@ -342,64 +343,117 @@ async function scrapeWooCommerce(
 }
 
 // ── Shopware (Foleja) ─────────────────────────────────────────────────────────
-// Strategy:
-// 1. For own-store products: use the product URL (if in searchTerms) to scrape
-//    JSON-LD structured data directly — most reliable, no API key needed.
-// 2. Cross-store: try Shopware's suggest endpoint with brand-forward queries.
+// Foleja runs Shopware 6 but its frontend does NOT expose a JSON suggest API —
+// the /suggest endpoint returns HTML. Product pages also lack JSON-LD; prices
+// are in the GTM dataLayer instead. Strategy:
+// 1. For own-store products: fetch the stored product URL and extract price
+//    from JSON-LD (if present) or GTM dataLayer ("productPrice":"19934.00").
+// 2. Cross-store: search via /search?search= HTML page, parse product cards
+//    with cheerio, then fetch the matched product page for price.
+
+async function scrapeShopwareProductPage(url: string, storeId: string): Promise<ScrapedPrice | null> {
+  try {
+    const { data: html } = await axios.get(url, {
+      timeout: 10000,
+      headers: { ...HEADERS, Accept: "text/html,application/xhtml+xml" },
+    });
+    if (typeof html !== "string") return null;
+
+    // Try JSON-LD Product schema first (works for many Shopware stores)
+    const ldRegex = /<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi;
+    let ldMatch: RegExpExecArray | null;
+    while ((ldMatch = ldRegex.exec(html)) !== null) {
+      try {
+        const ld = JSON.parse(ldMatch[1].trim());
+        const items: unknown[] = Array.isArray(ld) ? ld : ld?.["@graph"] ? ld["@graph"] : [ld];
+        const product = items.find((x: any) => x?.["@type"] === "Product") as any;
+        if (!product) continue;
+        const offerList: any[] = Array.isArray(product.offers) ? product.offers
+          : product.offers ? [product.offers] : [];
+        const offer = offerList[0];
+        const rawPrice = offer?.price ?? offer?.lowPrice;
+        const price = rawPrice != null ? parseFloat(String(rawPrice)) : null;
+        if (price !== null && !isNaN(price) && price > 0) {
+          const avail = offer?.availability ?? "";
+          const inStock = avail ? avail.toLowerCase().includes("instock") : null;
+          return {
+            storeId, price, inStock,
+            stockLabel: inStock === true ? "Në gjendje" : inStock === false ? "Jo në gjendje" : "E panjohur",
+            productUrl: url,
+            lastChecked: new Date().toISOString(),
+          };
+        }
+      } catch { continue; }
+    }
+
+    // Foleja.al uses GTM dataLayer instead of JSON-LD: "productPrice":"19934.00"
+    const priceMatch = html.match(/"productPrice"\s*:\s*"?(\d+(?:\.\d{1,2})?)"?/);
+    if (!priceMatch) return null;
+    const price = parseFloat(priceMatch[1]);
+    if (isNaN(price) || price <= 0) return null;
+
+    return {
+      storeId,
+      price,
+      inStock: null,
+      stockLabel: "E panjohur",
+      productUrl: url,
+      lastChecked: new Date().toISOString(),
+    };
+  } catch {
+    return null;
+  }
+}
+
 async function scrapeShopware(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
-  const lastChecked = new Date().toISOString();
   const storeBase = store.url.replace(/\/$/, "");
 
-  // 1. Direct URL lookup via JSON-LD (for own-store products that have the URL in searchTerms)
+  // 1. Direct product page lookup — own-store products have their Foleja URL in searchTerms
   for (const term of searchTerms) {
     if (!term.startsWith(storeBase + "/")) continue;
-    const result = await scrapeJsonLd(term, store.id);
+    const result = await scrapeShopwareProductPage(term, store.id);
     if (result) return result;
-    break; // tried the URL, no need to try more
+    break;
   }
 
-  // 2. Cross-store search via Shopware suggest API
+  // 2. Cross-store: search the HTML search page and match by name
   for (const term of buildQueries(searchTerms)) {
     try {
-      const { data } = await axios.get(`${store.url}/suggest`, {
+      const { data: html } = await axios.get(`${store.url}/search`, {
         params: { search: term },
         timeout: 8000,
-        headers: HEADERS,
+        headers: { ...HEADERS, Accept: "text/html,application/xhtml+xml" },
+      });
+      if (typeof html !== "string") continue;
+
+      const $ = cheerio.load(html);
+      const candidates: Array<{ name: string; url: string }> = [];
+
+      // Shopware 6 product cards are in .product-box containers
+      $(".product-box").each((_, el) => {
+        const $el = $(el);
+        const link = $el.find("a.product-name, .product-name a, a[href^='/']").first();
+        const href = link.attr("href");
+        if (!href || href === "/") return;
+        const name = (
+          $el.find(".product-name").first().text().trim() ||
+          link.text().trim() ||
+          $el.find("h2, h3, [class*='name']").first().text().trim()
+        ).replace(/\s+/g, " ").trim();
+        if (!name || name.length < 3) return;
+        candidates.push({ name, url: href.startsWith("http") ? href : `${storeBase}${href}` });
       });
 
-      // Shopware suggest returns { products: { elements: [...] } } or { elements: [...] }
-      const elements: Array<{
-        name?: string;
-        translated?: { name?: string };
-        calculatedPrice?: { totalPrice: number };
-        price?: Array<{ gross: number }>;
-        stock?: number;
-        availableStock?: number;
-        seoUrls?: Array<{ seoPathInfo: string }>;
-      }> = data?.products?.elements ?? data?.elements ?? [];
+      if (!candidates.length) continue;
 
-      if (!elements.length) continue;
-
-      const best = elements
-        .map((el) => ({ el, score: matchScore(el.name ?? el.translated?.name ?? "", [term]) }))
+      const best = candidates
+        .map((c) => ({ c, score: matchScore(c.name, [term]) }))
         .filter((x) => x.score > 0)
-        .sort((a, b) => b.score - a.score)[0]?.el;
+        .sort((a, b) => b.score - a.score)[0]?.c;
       if (!best) continue;
 
-      const price = best.calculatedPrice?.totalPrice ?? best.price?.[0]?.gross ?? null;
-      const availableStock = best.availableStock ?? best.stock ?? 0;
-      const inStock = availableStock > 0;
-      const seoPath = best.seoUrls?.[0]?.seoPathInfo;
-      const productUrl = seoPath ? `${store.url}/${seoPath}` : null;
-
-      return {
-        storeId: store.id,
-        price,
-        inStock,
-        stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
-        productUrl,
-        lastChecked,
-      };
+      const result = await scrapeShopwareProductPage(best.url, store.id);
+      if (result) return result;
     } catch {
       continue;
     }
@@ -465,74 +519,48 @@ async function scrapeMagento(store: Store, searchTerms: string[]): Promise<Scrap
 }
 
 // ── Neptun ────────────────────────────────────────────────────────────────────
-// Neptun.al uses a custom platform. Try multiple known search endpoints.
+// Neptun.al uses a custom ASP.NET platform. Product data on search/category
+// pages is embedded as JSON-LD ItemList in the server HTML. Individual product
+// pages may have JSON-LD pricing. Note: content is partially JS-rendered, so
+// this may not find all products.
 async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
-  const lastChecked = new Date().toISOString();
-
   for (const term of buildQueries(searchTerms)) {
-    // Try the WooCommerce Store API first (some Neptun sites run WooCommerce)
     try {
-      const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
-        params: { search: term, per_page: 10 },
+      const { data: html } = await axios.get(`${store.url}/search-product-result.nspx`, {
+        params: { keyword: term },
         timeout: 8000,
-        headers: HEADERS,
+        headers: { ...HEADERS, Accept: "text/html,application/xhtml+xml" },
       });
-      type WooItem = { name: string; permalink: string; prices: { price: string; currency_minor_unit: number }; is_in_stock: boolean };
-      const items: WooItem[] = Array.isArray(data) ? data : [];
-      if (items.length) {
-        const best = items
-          .map((item) => ({ item, score: matchScore(item.name, [term]) }))
-          .filter((x) => x.score > 0)
-          .sort((a, b) => b.score - a.score)[0]?.item;
-        if (best) {
-          const minorUnit = best.prices?.currency_minor_unit ?? 2;
-          const price = best.prices?.price ? parseInt(best.prices.price, 10) / Math.pow(10, minorUnit) : null;
-          return {
-            storeId: store.id,
-            price,
-            inStock: best.is_in_stock ?? null,
-            stockLabel: best.is_in_stock ? "Në gjendje" : "Jo në gjendje",
-            productUrl: best.permalink ?? null,
-            lastChecked,
-          };
-        }
+      if (typeof html !== "string") continue;
+
+      // Neptun embeds product listings as JSON-LD ItemList in some page variants
+      const ldRegex = /<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi;
+      let ldMatch: RegExpExecArray | null;
+      let bestUrl: string | null = null;
+      let bestScore = 0;
+
+      while ((ldMatch = ldRegex.exec(html)) !== null) {
+        try {
+          const ld = JSON.parse(ldMatch[1].trim());
+          const items: any[] = Array.isArray(ld) ? ld : [ld];
+          for (const item of items) {
+            if (item?.["@type"] !== "ItemList") continue;
+            for (const el of item.itemListElement ?? []) {
+              const name = el.name ?? el.item?.name ?? "";
+              const url = el.url ?? el.item?.url ?? "";
+              if (!name || !url) continue;
+              const score = matchScore(name, [term]);
+              if (score > bestScore) { bestScore = score; bestUrl = url; }
+            }
+          }
+        } catch { continue; }
       }
-    } catch {
-      // not WooCommerce, try custom API
-    }
 
-    // Try Neptun custom search API endpoint
-    try {
-      const { data } = await axios.get(`${store.url}/api/products/search`, {
-        params: { q: term, limit: 10 },
-        timeout: 8000,
-        headers: HEADERS,
-      });
+      if (!bestUrl || bestScore === 0) continue;
 
-      const items: Array<{ name?: string; title?: string; price?: number; url?: string; inStock?: boolean }> =
-        data?.products ?? data?.results ?? data?.items ?? (Array.isArray(data) ? data : []);
-      if (!items.length) continue;
-
-      const best = items
-        .map((item) => ({ item, score: matchScore(item.name ?? item.title ?? "", [term]) }))
-        .filter((x) => x.score > 0)
-        .sort((a, b) => b.score - a.score)[0]?.item;
-      if (!best) continue;
-
-      const price = best.price ?? null;
-      const inStock = best.inStock ?? null;
-      const productUrl = best.url
-        ? best.url.startsWith("http") ? best.url : `${store.url}${best.url}`
-        : null;
-
-      return {
-        storeId: store.id,
-        price,
-        inStock,
-        stockLabel: inStock === true ? "Në gjendje" : "E panjohur",
-        productUrl,
-        lastChecked,
-      };
+      // Fetch the matched product page and try JSON-LD pricing
+      const result = await scrapeJsonLd(bestUrl, store.id);
+      if (result) return result;
     } catch {
       continue;
     }

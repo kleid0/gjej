@@ -190,7 +190,8 @@ async function fetchFoleja(): Promise<Product[]> {
         const id = `foleja-${slugify(name)}`;
         if (discovered.has(id)) return;
         const { category, subcategory } = guessCategory(name);
-        discovered.set(id, { id, modelNumber: extractModelNumber(name, ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name] });
+        const productUrl = href.startsWith("http") ? href : `https://www.foleja.al${href}`;
+        discovered.set(id, { id, modelNumber: extractModelNumber(name, ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name, productUrl] });
       });
     } catch { /* blocked or unreachable */ }
     await new Promise((r) => setTimeout(r, 300));
@@ -200,7 +201,7 @@ async function fetchFoleja(): Promise<Product[]> {
 
 // ── HTML fallback ─────────────────────────────────────────────────────────────
 const HTML_STORES = [
-  { id: "neptun", searchUrls: (q: string) => [`https://www.neptun.al/search?q=${encodeURIComponent(q)}`], selectors: ["a.product-link", ".product-name a", "h2 a", ".product-item a"], terms: ["laptop", "telefon", "iPhone", "televizor", "Gaming", "PlayStation"] },
+  { id: "neptun", searchUrls: (q: string) => [`https://www.neptun.al/search-product-result.nspx?keyword=${encodeURIComponent(q)}`], selectors: ["a.product-link", ".product-name a", "h2 a", ".product-item a"], terms: ["laptop", "telefon", "iPhone", "televizor", "Gaming", "PlayStation"] },
   { id: "pcstore", searchUrls: (q: string) => [`https://www.pcstore.al/?s=${encodeURIComponent(q)}&post_type=product`], selectors: ["a.woocommerce-loop-product__link", "a[href*='/product/']", "li.product a[href]", ".product-title a"], terms: ["laptop", "SSD", "monitor", "keyboard", "mouse", "RAM"] },
 ];
 
