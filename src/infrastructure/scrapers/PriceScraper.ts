@@ -26,11 +26,41 @@ function notFound(storeId: string, error: string): ScrapedPrice {
   };
 }
 
-// Score a product name against search terms — higher = better match
+// Words that indicate an accessory/peripheral rather than the main product.
+// Penalise results containing these when the query does not.
+const ACCESSORY_WORDS = new Set([
+  "kontrollues", "kontroller", "controller", "joy-con", "joystick", "gamepad",
+  "volant", "steering", "wheel", "adapter", "charger", "karikues", "kabel",
+  "cable", "case", "kover", "mbrojtes", "mbrojtese", "protective", "glass",
+  "tempered", "screen", "dock", "stand", "pouch", "bag", "backpack",
+  "headset", "headphone", "kufje", "mouse", "tastierë", "keyboard",
+]);
+
+// Score a product name against search terms — higher = better match.
+// Applies two penalties to prevent false positives:
+//  1. Precision factor: discounts results with many extra words not in the query
+//     (Joy-Con "Kontrollues Joy-Con 2 Nintendo Switch 2 i kuq" has many extras)
+//  2. Accessory penalty (×0.3): if the result contains accessory keywords absent
+//     from the query, the user is looking for the main product not an accessory.
 function matchScore(name: string, terms: string[]): number {
   const n = name.toLowerCase();
-  const words = terms.join(" ").toLowerCase().split(/\s+/).filter(Boolean);
-  return words.filter((w) => n.includes(w)).length;
+  const queryWords = terms.join(" ").toLowerCase().split(/\s+/).filter((w) => w.length > 1);
+  const matchingWords = queryWords.filter((w) => n.includes(w));
+  if (matchingWords.length === 0) return 0;
+
+  // Precision: penalise extra result words that aren't in the query
+  const resultWords = n.split(/\W+/).filter((w) => w.length > 1);
+  const unmatchedExtras = resultWords.filter(
+    (w) => !queryWords.some((qw) => qw.includes(w) || w.includes(qw))
+  ).length;
+  const precisionFactor = matchingWords.length / (matchingWords.length + unmatchedExtras * 0.4);
+
+  // Accessory penalty: suppress peripheral results when the query is for the main product
+  const queryHasAccessory = queryWords.some((w) => ACCESSORY_WORDS.has(w));
+  const resultHasAccessory = resultWords.some((w) => ACCESSORY_WORDS.has(w));
+  const accessoryMultiplier = !queryHasAccessory && resultHasAccessory ? 0.3 : 1.0;
+
+  return matchingWords.length * precisionFactor * accessoryMultiplier;
 }
 
 // Decode HTML entities and strip noise so searches match store listings.
@@ -219,6 +249,16 @@ async function scrapeShopify(
   }
 
   // Cross-store search via Shopify search API
+  // Some stores (e.g. AlbaGame) have Cloudflare rules that return HTML for
+  // search.json. Detect that and fall back to handle-inference direct lookup.
+  function toShopifyHandle(s: string): string {
+    return s.toLowerCase()
+      .replace(/[™®©℠''`]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .replace(/-+/g, "-");
+  }
+
   for (const term of buildQueries(searchTerms)) {
     try {
       const { data } = await axios.get(`${store.url}/search.json`, {
@@ -226,6 +266,43 @@ async function scrapeShopify(
         timeout: 8000,
         headers: HEADERS,
       });
+
+      // If response is HTML (Cloudflare redirect / no JSON API), fall back to
+      // handle inference: try /products/{slugified-term}.json directly.
+      if (typeof data !== "object" || !data?.resources) {
+        // Generate candidate handles: full term, without brand prefix, shortened
+        const candidateHandles: string[] = [];
+        candidateHandles.push(toShopifyHandle(term));
+        // AlbaGame stores Nintendo games as "Switch 2 {game}" not "Nintendo Switch 2 {game}"
+        const withoutNintendo = toShopifyHandle(term.replace(/^nintendo\s+/i, ""));
+        if (withoutNintendo !== candidateHandles[0]) candidateHandles.push(withoutNintendo);
+        // Also try without "Nintendo Switch 2 " prefix → just the game/product name
+        const withoutNS2 = toShopifyHandle(term.replace(/^nintendo\s+switch\s+2\s*/i, ""));
+        if (withoutNS2 !== candidateHandles[0] && withoutNS2 !== withoutNintendo && withoutNS2.length > 3) {
+          candidateHandles.push(withoutNS2);
+        }
+        for (const h of candidateHandles) {
+          try {
+            const { data: pd } = await axios.get(`${store.url}/products/${h}.json`, {
+              timeout: 5000, headers: HEADERS,
+            });
+            const variant = pd?.product?.variants?.[0];
+            if (!variant) continue;
+            const price = variant.price ? parseFloat(variant.price) : null;
+            if (price === null) continue;
+            return {
+              storeId: store.id,
+              price,
+              inStock: variant.available ?? null,
+              stockLabel: variant.available === true ? "Në gjendje" : variant.available === false ? "Jo në gjendje" : "E panjohur",
+              productUrl: `${store.url}/products/${h}`,
+              lastChecked,
+            };
+          } catch { continue; }
+        }
+        continue; // handle inference failed — try next query term
+      }
+
       const results: Array<{ title: string; url: string; price: string; available: boolean }> =
         data?.resources?.results?.products ?? [];
       if (!results.length) continue;
@@ -427,7 +504,8 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
       if (typeof html !== "string") continue;
 
       const $ = cheerio.load(html);
-      const candidates: Array<{ name: string; url: string }> = [];
+      type Candidate = { name: string; url: string; listingPrice: number | null };
+      const candidates: Candidate[] = [];
 
       // Shopware 6 product cards are in .product-box containers
       $(".product-box").each((_, el) => {
@@ -441,16 +519,50 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
           $el.find("h2, h3, [class*='name']").first().text().trim()
         ).replace(/\s+/g, " ").trim();
         if (!name || name.length < 3) return;
-        candidates.push({ name, url: href.startsWith("http") ? href : `${storeBase}${href}` });
+
+        // Extract listing price from the card — "65.800 L" → 65800 (Albanian thousands sep)
+        const priceText = $el.find(".price-unit-price, [class*='price-unit']").first().text();
+        const priceStr = priceText.replace(/\./g, "").replace(/[^0-9]/g, "");
+        const listingPrice = priceStr ? parseInt(priceStr, 10) : null;
+
+        candidates.push({ name, url: href.startsWith("http") ? href : `${storeBase}${href}`, listingPrice });
       });
 
       if (!candidates.length) continue;
 
-      const best = candidates
+      const scored = candidates
         .map((c) => ({ c, score: matchScore(c.name, [term]) }))
-        .filter((x) => x.score > 0)
-        .sort((a, b) => b.score - a.score)[0]?.c;
+        .filter((x) => x.score > 0);
+
+      // Price sanity check: if listing prices are available, penalise candidates
+      // whose price is dramatically lower than the most expensive match (×10).
+      // This catches Joy-Con (6,000 L) listed alongside a console (65,800 L).
+      if (scored.length > 1) {
+        const prices = scored.map((x) => x.c.listingPrice).filter((p): p is number => p !== null && p > 0);
+        if (prices.length > 1) {
+          const maxPrice = Math.max(...prices);
+          scored.forEach((x) => {
+            if (x.c.listingPrice !== null && x.c.listingPrice < maxPrice * 0.1) {
+              x.score *= 0.1; // Implausibly cheap → heavy penalty
+            }
+          });
+        }
+      }
+
+      const best = scored.sort((a, b) => b.score - a.score)[0]?.c;
       if (!best) continue;
+
+      // Use listing price if available (saves a second HTTP request)
+      if (best.listingPrice !== null && best.listingPrice > 0) {
+        return {
+          storeId: store.id,
+          price: best.listingPrice,
+          inStock: null,
+          stockLabel: "E panjohur",
+          productUrl: best.url,
+          lastChecked: new Date().toISOString(),
+        };
+      }
 
       const result = await scrapeShopwareProductPage(best.url, store.id);
       if (result) return result;
