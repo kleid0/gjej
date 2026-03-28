@@ -4,4 +4,5 @@ export interface IPriceRepository {
   getByProductId(productId: string): Promise<PriceRecord | null>;
   save(productId: string, prices: ScrapedPrice[]): Promise<void>;
   saveAll(all: Record<string, ScrapedPrice[]>): Promise<void>;
+  getAll(): Promise<Record<string, PriceRecord>>;
 }

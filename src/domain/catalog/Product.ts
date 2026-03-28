@@ -41,12 +41,12 @@ export interface Category {
 }
 
 export const CATEGORIES: Category[] = [
-  { id: "telefona",   name: "Telefona & Tablets",  icon: "📱", subcategories: ["Smartphone", "Tablet", "Aksesore Telefoni"] },
-  { id: "kompjutera", name: "Kompjutera",           icon: "💻", subcategories: ["Laptop", "Desktop PC", "Monitor", "Printer", "Aksesore PC"] },
-  { id: "elektronike",name: "Elektronikë",          icon: "🔌", subcategories: ["TV", "Audio", "Kamera", "Gaming", "Shtëpiake", "Aksesorë"] },
-  { id: "shtepi",     name: "Shtëpi & Kopsht",      icon: "🏠", subcategories: ["Pajisje Kuzhine", "Pastrimi", "Ndriçim", "Kopsht"] },
-  { id: "sporte",     name: "Sporte & Outdoor",     icon: "⚽", subcategories: ["Fitness", "Veshje Sportive", "Biçikleta", "Camping"] },
-  { id: "veshje",     name: "Veshje & Këpucë",      icon: "👟", subcategories: ["Këpucë", "Xhaketë", "Aksesore Mode"] },
-  { id: "lodra",      name: "Lodra & Fëmijë",       icon: "🧸", subcategories: ["Lodra", "Libra Fëmijësh", "Kujdes Bebe"] },
-  { id: "bukuri",     name: "Bukuri & Shëndet",     icon: "💊", subcategories: ["Parfum", "Kujdes Lëkure", "Shëndet", "Rruajtje", "Elektrik"] },
+  { id: "telefona",    name: "Telefona & Tablets",  icon: "📱", subcategories: ["Smartphone", "Tablet", "Smartwatch", "Aksesore Telefoni", "Karikues & Kabllo", "Kufje", "Mbrojtese & Kover"] },
+  { id: "kompjutera",  name: "Kompjutera",          icon: "💻", subcategories: ["Laptop", "Desktop PC", "Monitor", "Printer", "Aksesore PC", "Mouse & Tastiere", "Karte Grafike", "SSD & RAM", "Rrjete & WiFi"] },
+  { id: "elektronike", name: "Elektronike",         icon: "🔌", subcategories: ["TV", "Audio & Altoparlant", "Kamera", "Gaming", "Konsola", "Shtepiake", "Dron", "Projektor", "Aksesore"] },
+  { id: "shtepi",      name: "Shtepi & Kopsht",     icon: "🏠", subcategories: ["Pajisje Kuzhine", "Pastrimi", "Aspirapluhar", "Ndricim", "Kopsht", "Mobilje", "Dekorim"] },
+  { id: "sporte",      name: "Sporte & Outdoor",    icon: "⚽", subcategories: ["Fitness", "Veshje Sportive", "Bicikleta", "Camping", "Trotinet Elektrik", "Peshkim"] },
+  { id: "veshje",      name: "Veshje & Kepuce",     icon: "👟", subcategories: ["Kepuce", "Xhakete", "Aksesore Mode", "Canta", "Syze Dielli", "Ore"] },
+  { id: "lodra",       name: "Lodra & Femije",      icon: "🧸", subcategories: ["Lodra", "LEGO", "Lodra Edukative", "Libra Femijesh", "Kujdes Bebe", "Karroca"] },
+  { id: "bukuri",      name: "Bukuri & Shendet",    icon: "💊", subcategories: ["Parfum", "Kujdes Lekure", "Makeup", "Shendet", "Rruajtje", "Kujdes Flokesh", "Elektrik"] },
 ];

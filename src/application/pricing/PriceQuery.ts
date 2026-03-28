@@ -1,7 +1,7 @@
 // Use case: get prices for a product, with cache and persistence layers
 
 import type { IPriceRepository } from "@/src/domain/pricing/IPriceRepository";
-import type { ScrapedPrice } from "@/src/domain/pricing/Price";
+import type { ScrapedPrice, PriceRecord } from "@/src/domain/pricing/Price";
 import type { Store } from "@/src/domain/pricing/Store";
 
 export interface IPriceScraper {
@@ -52,5 +52,9 @@ export class PriceQuery {
     }
 
     return { prices, fromCache: false };
+  }
+
+  async getAllCachedPrices(): Promise<Record<string, PriceRecord>> {
+    return this.priceRepo.getAll();
   }
 }

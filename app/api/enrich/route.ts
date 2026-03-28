@@ -4,6 +4,7 @@ import path from "path";
 import { productCatalog } from "@/src/infrastructure/container";
 import { enrichPhone } from "@/src/infrastructure/enrichment/GSMArenaService";
 import { enrichFromProductPage } from "@/src/infrastructure/enrichment/ManufacturerService";
+import { enrichNonPhoneProduct } from "@/src/infrastructure/enrichment/CategoryEnrichmentService";
 
 export const maxDuration = 30;
 
@@ -58,19 +59,30 @@ export async function GET(req: NextRequest) {
     result = await enrichPhone(searchName, product.brand);
   }
 
-  // For Foleja products: try JSON-LD from the product URL stored in searchTerms
+  // For non-phone products: use multi-source category enrichment
+  if (!result && !isPhone) {
+    const categoryResult = await enrichNonPhoneProduct(product);
+    if (categoryResult) {
+      await writeCache(productId, categoryResult);
+      return NextResponse.json({ ...categoryResult, fromCache: false });
+    }
+  }
+
+  // Fallback: try JSON-LD from Foleja product URL
   if (!result) {
     const folejUrl = product.searchTerms.find((t) => t.startsWith("https://www.foleja.al/"));
     if (folejUrl) {
       result = await enrichFromProductPage(folejUrl);
+      if (result) (result as any).source = "Foleja.al";
     }
   }
 
-  // For Shpresa products: try the product permalink
+  // Fallback: try Shpresa product permalink
   if (!result && productId.startsWith("shpresa-")) {
     const slug = productId.slice("shpresa-".length);
     const shpresaUrl = `https://shpresa.al/shop/${slug}`;
     result = await enrichFromProductPage(shpresaUrl);
+    if (result) (result as any).source = "Shpresa Group";
   }
 
   if (result) {
@@ -84,5 +96,6 @@ export async function GET(req: NextRequest) {
     variant: { modelCode: product.modelNumber || "", region: "Unknown", confidence: "unclear" },
     fromCache: false,
     notFound: true,
+    source: "",
   });
 }

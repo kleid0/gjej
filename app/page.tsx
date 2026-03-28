@@ -2,7 +2,7 @@ import Link from "next/link";
 import { productCatalog } from "@/src/infrastructure/container";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
-import SearchBar from "@/components/SearchBar";
+import SearchAutocomplete from "@/components/SearchAutocomplete";
 
 export const dynamic = "force-dynamic";
 
@@ -20,7 +20,7 @@ export default async function Home() {
           <p className="text-orange-100 text-lg mb-8">
             Krahaso çmimet nga dyqanet kryesore shqiptare në një vend
           </p>
-          <SearchBar large />
+          <SearchAutocomplete variant="hero" />
         </div>
       </section>
 

@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { productCatalog } from "@/src/infrastructure/container";
-import ProductCard from "@/components/ProductCard";
+import { productCatalog, priceQuery } from "@/src/infrastructure/container";
+import { STORES } from "@/src/infrastructure/stores/registry";
+import SearchResultsClient from "@/components/SearchResultsClient";
+import type { ProductSummary, StoreInfo } from "@/components/SearchResultsClient";
 
 export const dynamic = "force-dynamic";
 
@@ -18,50 +20,66 @@ export default async function CategoryPage({ params }: Props) {
   if (!category) notFound();
 
   const products = await productCatalog.getProductsByCategory(params.slug);
+  const allPrices = await priceQuery.getAllCachedPrices();
+
+  const summaries: ProductSummary[] = products.map((p) => {
+    const record = allPrices[p.id];
+    const valid = record?.prices.filter((pr) => pr.price !== null) ?? [];
+    return {
+      id: p.id,
+      family: p.family,
+      brand: p.brand,
+      category: p.category,
+      subcategory: p.subcategory,
+      imageUrl: p.imageUrl,
+      modelNumber: p.modelNumber,
+      bestPrice: valid.length
+        ? Math.min(...valid.map((pr) => pr.price!))
+        : null,
+      storeCount: valid.length,
+      storeIds: valid.map((pr) => pr.storeId),
+      hasStock: record?.prices.some((pr) => pr.inStock === true) ?? false,
+      refreshedAt: record?.refreshedAt ?? null,
+    };
+  });
+
+  const subcategories = Array.from(
+    new Set(products.map((p) => p.subcategory).filter(Boolean))
+  ).sort();
+
+  const storeInfos: StoreInfo[] = STORES.map((s) => ({
+    id: s.id,
+    name: s.name,
+    color: s.color,
+  }));
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
-      {/* Breadcrumb */}
-      <nav className="text-xs text-gray-400 mb-6 flex items-center gap-1">
-        <Link href="/" className="hover:text-orange-600">Kryefaqja</Link>
+    <div className="max-w-7xl mx-auto px-4 py-6">
+      <nav className="text-xs text-gray-400 mb-3 flex items-center gap-1">
+        <Link href="/" className="hover:text-orange-600">
+          Kryefaqja
+        </Link>
         <span>/</span>
         <span className="text-gray-600">{category.name}</span>
       </nav>
 
-      <div className="flex items-center gap-3 mb-6">
+      <div className="flex items-center gap-3 mb-5">
         <span className="text-4xl">{category.icon}</span>
         <div>
           <h1 className="text-2xl font-bold text-gray-900">{category.name}</h1>
-          <p className="text-sm text-gray-500">{products.length} produkte</p>
+          <p className="text-sm text-gray-500">{summaries.length} produkte</p>
         </div>
       </div>
 
-      {/* Subcategory pills */}
-      <div className="flex flex-wrap gap-2 mb-6">
-        {category.subcategories.map((sub) => (
-          <span
-            key={sub}
-            className="text-xs bg-orange-50 text-orange-700 border border-orange-100 rounded-full px-3 py-1 font-medium"
-          >
-            {sub}
-          </span>
-        ))}
-      </div>
-
-      {products.length > 0 ? (
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-          {products.map((p) => (
-            <ProductCard key={p.id} product={p} />
-          ))}
-        </div>
-      ) : (
-        <div className="text-center py-20 text-gray-400">
-          <p className="text-5xl mb-4">{category.icon}</p>
-          <p className="text-lg font-medium text-gray-600">
-            Nuk ka produkte akoma në këtë kategori
-          </p>
-        </div>
-      )}
+      <SearchResultsClient
+        products={summaries}
+        stores={storeInfos}
+        subcategories={subcategories}
+        query=""
+        category={params.slug}
+        categoryName={category.name}
+        subcategory=""
+      />
     </div>
   );
 }

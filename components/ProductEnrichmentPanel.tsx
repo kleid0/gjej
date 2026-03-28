@@ -10,6 +10,8 @@ interface EnrichmentData {
   variant?: ProductVariant;
   fromCache?: boolean;
   notFound?: boolean;
+  source?: string;
+  sourceUrl?: string;
 }
 
 interface Props {
@@ -219,11 +221,30 @@ export default function ProductEnrichmentPanel({ productId, fallbackImage, produ
         </div>
       )}
 
+      {/* Specs unavailable message */}
+      {!loading && data?.notFound && (
+        <div className="border border-gray-100 rounded-xl p-6 text-center mb-8">
+          <div className="text-3xl mb-2">📋</div>
+          <p className="text-sm font-medium text-gray-600 mb-1">
+            Specifikimet teknike nuk janë të disponueshme
+          </p>
+          <p className="text-xs text-gray-400">
+            Nuk arritëm të gjejmë të dhëna teknike për këtë produkt.
+            Kontrolloni faqen e prodhuesit për më shumë informacion.
+          </p>
+        </div>
+      )}
+
       {/* Source note */}
       {!loading && data && !data.notFound && (
         <p className="text-xs text-gray-400 mb-4">
           Të dhënat teknike nga{" "}
-          {data.variant?.modelCode?.startsWith("SM-") ? "GSMArena" : "faqja zyrtare e prodhuesit"}.
+          {data.source
+            ? data.source
+            : data.variant?.modelCode?.startsWith("SM-")
+              ? "GSMArena"
+              : "faqja zyrtare e prodhuesit"}
+          .
           {data.fromCache && " (ruajtur lokalisht)"}
         </p>
       )}

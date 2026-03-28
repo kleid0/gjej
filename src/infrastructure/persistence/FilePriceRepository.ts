@@ -17,6 +17,10 @@ export class FilePriceRepository implements IPriceRepository {
     }
   }
 
+  async getAll(): Promise<Record<string, PriceRecord>> {
+    return this.readFile();
+  }
+
   async getByProductId(productId: string): Promise<PriceRecord | null> {
     const data = await this.readFile();
     return data[productId] ?? null;

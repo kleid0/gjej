@@ -36,3 +36,18 @@ body {
 .badge-unknown {
   @apply bg-gray-100 text-gray-500 text-xs font-semibold px-2 py-0.5 rounded-full;
 }
+
+/* Custom form controls */
+input[type="checkbox"] {
+  accent-color: #f57c00;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
