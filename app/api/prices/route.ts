@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { priceQuery, productCatalog } from "@/src/infrastructure/container";
+import { buildVariantSearchTerms } from "@/src/domain/catalog/variants";
 
 export const maxDuration = 30;
 
@@ -15,6 +16,26 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Product not found" }, { status: 404 });
   }
 
-  const result = await priceQuery.getPricesForProduct(productId, product.searchTerms);
+  const colourParam = req.nextUrl.searchParams.get("ngjyre");
+  const storageParam = req.nextUrl.searchParams.get("hapesire");
+
+  let searchTerms = product.searchTerms;
+  let cacheKey: string | undefined;
+
+  if (colourParam || storageParam) {
+    searchTerms = buildVariantSearchTerms(product, colourParam ?? "", storageParam ?? "");
+    cacheKey = `${productId}:${(colourParam ?? "").toLowerCase()}:${(storageParam ?? "").toLowerCase()}`;
+  }
+
+  const result = await priceQuery.getPricesForProduct(productId, searchTerms, cacheKey);
+
+  // For variant-specific queries, use a clearer "not found" message
+  if (colourParam || storageParam) {
+    result.prices = result.prices.map((p) => ({
+      ...p,
+      error: p.error === "Produkti nuk u gjet" ? "Ky variant nuk disponohet" : p.error,
+    }));
+  }
+
   return NextResponse.json(result);
 }

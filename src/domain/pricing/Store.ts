@@ -1,6 +1,6 @@
 // Store entity — represents a retailer with platform-specific integration
 
-export type StorePlatform = "shopify" | "woocommerce" | "shopware" | "magento" | "neptun" | "html";
+export type StorePlatform = "shopify" | "woocommerce" | "shopware" | "globe" | "neptun" | "html";
 
 export interface Store {
   id: string;

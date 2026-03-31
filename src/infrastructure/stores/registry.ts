@@ -41,7 +41,7 @@ export const STORES: Store[] = [
     url: "https://www.globe.al",
     logo: "/logos/globe.png",
     color: "#00a651",
-    platform: "magento",
+    platform: "globe",
   },
   {
     id: "albagame",

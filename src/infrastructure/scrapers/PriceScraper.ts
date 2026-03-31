@@ -120,12 +120,20 @@ function isModelNumber(term: string): boolean {
 //   4. 4-word fallback
 // Skips URL-like terms.
 function buildQueries(searchTerms: string[]): string[] {
+  const exactQueries: string[] = [];
   const modelQueries: string[] = [];
   const nameQueries: string[] = [];
 
   for (const term of searchTerms) {
     // Skip URL-like terms — not useful as store search queries
     if (/^https?:\/\//.test(term)) continue;
+
+    // Exact variant queries (! prefix): already cleaned, bypass processing
+    if (term.startsWith("!")) {
+      const q = term.slice(1).trim();
+      if (q.length >= 3) exactQueries.push(q);
+      continue;
+    }
 
     const cleaned = cleanQuery(term);
     if (cleaned.length < 3) continue;
@@ -147,12 +155,20 @@ function buildQueries(searchTerms: string[]): string[] {
 
     nameQueries.push(cleaned);
 
+    // Brand-stripped variant: some stores (e.g. Neptun) don't use brand prefixes
+    // "Apple iPhone 17" → "iPhone 17", "Samsung Galaxy S25" → "Galaxy S25"
+    const matchedBrand = BRANDS.find((b) => cleaned.toLowerCase().startsWith(b.toLowerCase() + " "));
+    if (matchedBrand) {
+      const stripped = cleaned.slice(matchedBrand.length).trim();
+      if (stripped.length >= 3 && stripped !== cleaned) nameQueries.push(stripped);
+    }
+
     // Fallback: first 4 words of the full cleaned query
     const short = cleaned.split(/\s+/).slice(0, 4).join(" ");
     if (short !== cleaned && short !== branded && short.length >= 3) nameQueries.push(short);
   }
 
-  const all = [...modelQueries, ...nameQueries];
+  const all = [...exactQueries, ...modelQueries, ...nameQueries];
   return all.filter((q, i) => all.indexOf(q) === i);
 }
 
@@ -574,111 +590,144 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
   return notFound(store.id, "Produkti nuk u gjet");
 }
 
-// ── Magento (Globe Albania) ───────────────────────────────────────────────────
-// Globe Albania runs Magento. Magento has a public product search REST API.
-async function scrapeMagento(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
+// ── Globe Albania ────────────────────────────────────────────────────────────
+// Globe.al is a React SPA backed by a custom REST API at /api/.
+// The /api/products endpoint returns the full catalog (no server-side search),
+// but supports ?brand= filtering to reduce payload.
+// Strategy: extract brand from search terms, fetch filtered products, client-side match.
+async function scrapeGlobe(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
   const lastChecked = new Date().toISOString();
+  const queries = buildQueries(searchTerms);
 
-  for (const term of buildQueries(searchTerms)) {
-    try {
-      // Magento 2 REST API — public catalog search (no auth needed for public store)
-      const { data } = await axios.get(`${store.url}/rest/V1/products`, {
-        params: {
-          "searchCriteria[filter_groups][0][filters][0][field]": "name",
-          "searchCriteria[filter_groups][0][filters][0][value]": `%${term}%`,
-          "searchCriteria[filter_groups][0][filters][0][conditionType]": "like",
-          "searchCriteria[pageSize]": 10,
-          "fields": "items[id,name,sku,price,extension_attributes[stock_item[is_in_stock]],custom_attributes[url_key]]",
-        },
-        timeout: 8000,
-        headers: HEADERS,
-      });
+  // Extract brand from first search term (e.g. "Apple iPhone 17" → "Apple")
+  const firstTerm = queries[0] ?? "";
+  const brand = BRANDS.find((b) => firstTerm.toLowerCase().startsWith(b.toLowerCase()));
 
-      const items: Array<{
-        name: string;
-        sku: string;
-        price: number;
-        extension_attributes?: { stock_item?: { is_in_stock: boolean } };
-        custom_attributes?: Array<{ attribute_code: string; value: string }>;
-      }> = data?.items ?? [];
-      if (!items.length) continue;
+  type GlobeItem = {
+    id: number;
+    name: string;
+    price: number;
+    salePrice: number | null;
+    offerPrice: number | null;
+    stock: number;
+    brand: string;
+  };
 
-      const best = items
+  try {
+    const params: Record<string, string> = {};
+    if (brand) params.brand = brand;
+
+    const { data } = await axios.get(`${store.url}/api/products`, {
+      params,
+      timeout: 15000,
+      headers: HEADERS,
+    });
+
+    const items: GlobeItem[] = Array.isArray(data) ? data : [];
+    if (!items.length) return notFound(store.id, "Produkti nuk u gjet");
+
+    // Try each query against the catalog, best match wins
+    for (const term of queries) {
+      const scored = items
+        .filter((item) => item.price > 0)
         .map((item) => ({ item, score: matchScore(item.name, [term]) }))
         .filter((x) => x.score > 0)
-        .sort((a, b) => b.score - a.score)[0]?.item;
+        .sort((a, b) => b.score - a.score);
+
+      const best = scored[0]?.item;
       if (!best) continue;
 
-      const price = best.price ?? null;
-      const inStock = best.extension_attributes?.stock_item?.is_in_stock ?? null;
-      const urlKey = best.custom_attributes?.find((a) => a.attribute_code === "url_key")?.value;
-      const productUrl = urlKey ? `${store.url}/${urlKey}.html` : null;
+      const price = best.offerPrice ?? best.salePrice ?? best.price;
+      const inStock = best.stock > 0;
 
       return {
         storeId: store.id,
         price,
         inStock,
-        stockLabel: inStock === true ? "Në gjendje" : inStock === false ? "Jo në gjendje" : "E panjohur",
-        productUrl,
+        stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
+        productUrl: `${store.url}/products/${best.id}`,
         lastChecked,
       };
-    } catch {
-      continue;
     }
+  } catch {
+    // network or parse error
   }
 
   return notFound(store.id, "Produkti nuk u gjet");
 }
 
 // ── Neptun ────────────────────────────────────────────────────────────────────
-// Neptun.al uses a custom ASP.NET platform. Product data on search/category
-// pages is embedded as JSON-LD ItemList in the server HTML. Individual product
-// pages may have JSON-LD pricing. Note: content is partially JS-rendered, so
-// this may not find all products.
+// Neptun.al is an ASP.NET + AngularJS app. The HTML search page is a shell that
+// loads results via AJAX. The actual product search API is:
+//   POST /Product/SearchProductsAutocomplete
+//   Body: { term, page, itemsPerPage }
+//   Header: FROM-ANGULAR: true
+// Returns { ProductsResult: { total, results: [{ Title, ActualPrice, Url, ... }] } }
 async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
+  const lastChecked = new Date().toISOString();
+
+  type NeptunItem = {
+    Title: string;
+    Url: string;
+    RegularPrice: number;
+    DiscountPrice: number;
+    HasDiscount: boolean;
+    ActualPrice: number;
+    AvailableWebshop: boolean;
+    Manufacturer: string;
+  };
+
+  // Try ALL queries and pick the overall best match (Neptun's search API
+  // is fast, and different query formulations yield very different results —
+  // e.g. "Apple iPhone 17" returns cases, "iPhone 17" returns actual phones).
+  let bestItem: NeptunItem | null = null;
+  let bestScore = 0;
+
   for (const term of buildQueries(searchTerms)) {
     try {
-      const { data: html } = await axios.get(`${store.url}/search-product-result.nspx`, {
-        params: { keyword: term },
-        timeout: 8000,
-        headers: { ...HEADERS, Accept: "text/html,application/xhtml+xml" },
-      });
-      if (typeof html !== "string") continue;
+      const { data } = await axios.post(
+        `${store.url}/Product/SearchProductsAutocomplete`,
+        { term, page: 1, itemsPerPage: 20 },
+        {
+          timeout: 10000,
+          headers: {
+            ...HEADERS,
+            "Content-Type": "application/json",
+            "FROM-ANGULAR": "true",
+          },
+        }
+      );
 
-      // Neptun embeds product listings as JSON-LD ItemList in some page variants
-      const ldRegex = /<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi;
-      let ldMatch: RegExpExecArray | null;
-      let bestUrl: string | null = null;
-      let bestScore = 0;
+      const results: NeptunItem[] = data?.ProductsResult?.results ?? [];
+      if (!results.length) continue;
 
-      while ((ldMatch = ldRegex.exec(html)) !== null) {
-        try {
-          const ld = JSON.parse(ldMatch[1].trim());
-          const items: any[] = Array.isArray(ld) ? ld : [ld];
-          for (const item of items) {
-            if (item?.["@type"] !== "ItemList") continue;
-            for (const el of item.itemListElement ?? []) {
-              const name = el.name ?? el.item?.name ?? "";
-              const url = el.url ?? el.item?.url ?? "";
-              if (!name || !url) continue;
-              const score = matchScore(name, [term]);
-              if (score > bestScore) { bestScore = score; bestUrl = url; }
-            }
-          }
-        } catch { continue; }
+      for (const r of results) {
+        if (r.ActualPrice <= 0) continue;
+        const score = matchScore(r.Title, [term]);
+        if (score > bestScore) {
+          bestScore = score;
+          bestItem = r;
+        }
       }
-
-      if (!bestUrl || bestScore === 0) continue;
-
-      // Fetch the matched product page and try JSON-LD pricing
-      const result = await scrapeJsonLd(bestUrl, store.id);
-      if (result) return result;
     } catch {
       continue;
     }
   }
 
-  return notFound(store.id, "Produkti nuk u gjet");
+  if (!bestItem) return notFound(store.id, "Produkti nuk u gjet");
+
+  const price = bestItem.HasDiscount && bestItem.DiscountPrice > 0
+    ? bestItem.DiscountPrice
+    : bestItem.ActualPrice;
+
+  return {
+    storeId: store.id,
+    price,
+    inStock: bestItem.AvailableWebshop,
+    stockLabel: bestItem.AvailableWebshop ? "Në gjendje" : "Jo në gjendje",
+    productUrl: `${store.url}${bestItem.Url}`,
+    lastChecked,
+  };
 }
 
 // ── HTML fallback ─────────────────────────────────────────────────────────────
@@ -696,8 +745,8 @@ export class PriceScraper implements IPriceScraper {
         return scrapeWooCommerce(store, searchTerms, productId);
       case "shopware":
         return scrapeShopware(store, searchTerms);
-      case "magento":
-        return scrapeMagento(store, searchTerms);
+      case "globe":
+        return scrapeGlobe(store, searchTerms);
       case "neptun":
         return scrapeNeptun(store, searchTerms);
       case "html":

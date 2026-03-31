@@ -29,9 +29,11 @@ function StockBadge({ inStock, label }: { inStock: boolean | null; label: string
 
 interface Props {
   productId: string;
+  variantColour?: string;
+  variantStorage?: string;
 }
 
-export default function PriceComparison({ productId }: Props) {
+export default function PriceComparison({ productId, variantColour, variantStorage }: Props) {
   const [prices, setPrices] = useState<ScrapedPrice[] | null>(null);
   const [loading, setLoading] = useState(true);
   const [fromCache, setFromCache] = useState(false);
@@ -40,7 +42,10 @@ export default function PriceComparison({ productId }: Props) {
   async function fetchPrices() {
     setLoading(true);
     try {
-      const res = await fetch(`/api/prices?product=${encodeURIComponent(productId)}`);
+      let url = `/api/prices?product=${encodeURIComponent(productId)}`;
+      if (variantColour) url += `&ngjyre=${encodeURIComponent(variantColour)}`;
+      if (variantStorage) url += `&hapesire=${encodeURIComponent(variantStorage)}`;
+      const res = await fetch(url);
       const data = await res.json();
       setPrices(data.prices);
       setFromCache(data.fromCache);
@@ -56,7 +61,7 @@ export default function PriceComparison({ productId }: Props) {
     const interval = setInterval(fetchPrices, 15 * 60 * 1000);
     return () => clearInterval(interval);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [productId]);
+  }, [productId, variantColour, variantStorage]);
 
   const found = prices?.filter((p) => p.price !== null) ?? [];
   const cheapest = found.length ? Math.min(...found.map((p) => p.price!)) : null;

@@ -19,10 +19,12 @@ export class PriceQuery {
 
   async getPricesForProduct(
     productId: string,
-    searchTerms: string[]
+    searchTerms: string[],
+    cacheKey?: string,
   ): Promise<{ prices: ScrapedPrice[]; fromCache: boolean; refreshedAt?: string }> {
+    const effectiveKey = cacheKey ?? productId;
     // 1. Check persisted prices (written by cron)
-    const persisted = await this.priceRepo.getByProductId(productId);
+    const persisted = await this.priceRepo.getByProductId(effectiveKey);
     if (persisted) {
       const ageMs = Date.now() - new Date(persisted.refreshedAt).getTime();
       if (ageMs < STALE_THRESHOLD_MS) {
@@ -46,7 +48,7 @@ export class PriceQuery {
     );
 
     try {
-      await this.priceRepo.save(productId, prices);
+      await this.priceRepo.save(effectiveKey, prices);
     } catch {
       // File write may fail on read-only Vercel deployment; continue anyway
     }

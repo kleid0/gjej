@@ -1,22 +1,32 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { productCatalog } from "@/src/infrastructure/container";
-import PriceComparison from "@/components/PriceComparison";
 import ProductEnrichmentPanel from "@/components/ProductEnrichmentPanel";
+import ProductVariantSection from "@/components/ProductVariantSection";
 import { CATEGORIES } from "@/src/domain/catalog/Product";
+import { getVariantConfig, extractStorageFromFamily } from "@/src/domain/catalog/variants";
 
 export const dynamic = "force-dynamic";
 
 interface Props {
   params: { slug: string };
+  searchParams: { [key: string]: string | string[] | undefined };
 }
 
-export default async function ProductPage({ params }: Props) {
+export default async function ProductPage({ params, searchParams }: Props) {
   const product = await productCatalog.getProductById(params.slug);
   if (!product) notFound();
 
   const siblings = await productCatalog.getFamilySiblings(product);
   const category = CATEGORIES.find((c) => c.id === product.category);
+
+  const variantConfig = getVariantConfig(product);
+  const rawNgjyre = searchParams?.ngjyre;
+  const rawHapesire = searchParams?.hapesire;
+  const initialColour = (typeof rawNgjyre === "string" ? rawNgjyre : undefined) ?? variantConfig?.defaultColour;
+  const initialStorage = (typeof rawHapesire === "string" ? rawHapesire : undefined)
+    ?? extractStorageFromFamily(product.family)
+    ?? variantConfig?.defaultStorage;
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -58,8 +68,8 @@ export default async function ProductPage({ params }: Props) {
         )}
       </div>
 
-      {/* Storage options */}
-      {product.storageOptions.length > 1 && (
+      {/* Storage options (fallback for products without variant config) */}
+      {!variantConfig && product.storageOptions.length > 1 && (
         <div className="mb-6 p-4 bg-amber-50 border border-amber-100 rounded-xl">
           <p className="text-xs font-semibold text-amber-700 mb-2 uppercase tracking-wide">
             Kapaciteti / RAM — zgjidh variantin
@@ -114,8 +124,13 @@ export default async function ProductPage({ params }: Props) {
         </div>
       )}
 
-      {/* Price comparison */}
-      <PriceComparison productId={product.id} />
+      {/* Variant selector + Price comparison */}
+      <ProductVariantSection
+        productId={product.id}
+        variantConfig={variantConfig}
+        initialColour={initialColour}
+        initialStorage={initialStorage}
+      />
 
       {/* Disclaimer */}
       <p className="text-xs text-gray-400 mt-6 text-center">
