@@ -1,9 +1,13 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
 import VariantSelector from "./VariantSelector";
 import PriceComparison from "./PriceComparison";
 import type { VariantConfig } from "@/src/domain/catalog/variants";
+
+const PriceHistoryGraph = dynamic(() => import("./PriceHistoryGraph"), { ssr: false });
+const PriceAlertButton = dynamic(() => import("./PriceAlertButton"), { ssr: false });
 import type { ProductSpecs, ProductVariant } from "@/src/domain/catalog/Product";
 
 interface EnrichmentData {
@@ -327,6 +331,12 @@ export default function ProductVariantSection({
         variantColour={config ? colour : undefined}
         variantStorage={config ? storage : undefined}
       />
+
+      {/* ── Price alert button ── */}
+      <PriceAlertButton productId={productId} />
+
+      {/* ── Price history graph ── */}
+      <PriceHistoryGraph productId={productId} />
     </div>
   );
 }
