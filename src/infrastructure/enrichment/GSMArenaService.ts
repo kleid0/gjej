@@ -102,9 +102,32 @@ function modelsMatchBrand(models: string[], brand: string): boolean {
   return true;
 }
 
+// ── Strict model matching ─────────────────────────────────────────────────────
+// "iPhone 17" must NOT match "iPhone 17 Pro", "iPhone 17 Pro Max", etc.
+// After locating the search term inside the result name, rejects if a known
+// variant suffix (pro, max, plus, air, ultra, …) follows immediately.
+const VARIANT_SUFFIX_RE = /\b(pro|max|plus|air|ultra|edge|mini|fe|lite|note|slim)\b/i;
+
+function isStrictModelMatch(searchName: string, resultName: string): boolean {
+  const norm = (s: string) =>
+    s.toLowerCase()
+      .replace(/\b(apple|samsung|xiaomi|huawei|motorola|oneplus|oppo|realme|nokia|sony|lg|google|vivo|honor|tecno|infinix|nothing)\b/gi, "")
+      .replace(/\s+/g, " ").trim();
+
+  const search = norm(searchName);
+  const result = norm(resultName);
+
+  const idx = result.indexOf(search);
+  if (idx < 0) return false;
+
+  // Text after the matched portion — must not start with a variant qualifier
+  const after = result.slice(idx + search.length).trim();
+  return !VARIANT_SUFFIX_RE.test(after);
+}
+
 // ── GSMArena search ───────────────────────────────────────────────────────────
 // Searches GSMArena and returns the device URL for the best matching result.
-// brand param is used to validate the result belongs to the right manufacturer.
+// Uses strict model matching so "iPhone 17" never pulls "iPhone 17 Pro Max".
 export async function searchGSMArena(productName: string, brand?: string): Promise<string | null> {
   try {
     const url = `https://www.gsmarena.com/results.php3?sQuickSearch=1&fDisplayInchesMin=0&fDisplayInchesMax=0&s=${encodeURIComponent(productName)}`;
@@ -118,10 +141,13 @@ export async function searchGSMArena(productName: string, brand?: string): Promi
       if (devicePath) return;
       const link = $(el).find("a").first();
       const href = link.attr("href");
-      const resultName = (link.find("strong span").last().text().trim() || link.text().trim()).toLowerCase();
+      const resultName = link.find("strong span").last().text().trim() || link.text().trim();
 
-      // Brand gate: reject results that don't match the expected manufacturer
-      if (expectedBrand && !resultName.includes(expectedBrand)) return;
+      // Brand gate: reject results from the wrong manufacturer
+      if (expectedBrand && !resultName.toLowerCase().includes(expectedBrand)) return;
+
+      // Strict model gate: "iPhone 17" must not match "iPhone 17 Pro Max"
+      if (!isStrictModelMatch(productName, resultName)) return;
 
       if (href && !href.startsWith("http")) {
         devicePath = href;

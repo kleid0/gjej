@@ -141,9 +141,19 @@ export default function PriceComparison({ productId, variantColour, variantStora
 
                   <div className="flex items-center gap-3">
                     {p.price !== null ? (
-                      <span className={`font-bold text-lg ${isCheapest ? "text-orange-600" : "text-gray-800"}`}>
-                        {p.price.toLocaleString("sq-AL")} ALL
-                      </span>
+                      <div className="text-right">
+                        <span className={`font-bold text-lg ${isCheapest ? "text-orange-600" : "text-gray-800"}`}>
+                          {p.price.toLocaleString("sq-AL")} ALL
+                        </span>
+                        {p.suspicious && (
+                          <div
+                            className="text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded px-1.5 py-0.5 mt-0.5 cursor-help"
+                            title="Çmimi ndryshon shumë nga dyqanet e tjera — ky produkt mund të mos jetë i njëjti."
+                          >
+                            ⚠ Çmim i dyshimtë
+                          </div>
+                        )}
+                      </div>
                     ) : (
                       <span className="text-gray-400 text-sm">{p.error ?? "Nuk ka çmim"}</span>
                     )}

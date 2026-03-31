@@ -36,6 +36,104 @@ const ACCESSORY_WORDS = new Set([
   "headset", "headphone", "kufje", "mouse", "tastierë", "keyboard",
 ]);
 
+// ── Strict match helpers ──────────────────────────────────────────────────────
+// These guards are applied BEFORE the fuzzy matchScore to eliminate hard mismatches:
+//   1. Generation mismatch  → "iPhone 17" must not match "iPhone 15"
+//   2. Tier mismatch        → "iPhone 17" must not match "iPhone 17 Pro / Pro Max / Air"
+//   3. Storage conflict     → "256GB" in query must not match "1TB" in result
+//   4. Accessory result     → a case/cable must not win when user wants the device
+//   5. Low confidence       → fewer than 60% of query words found in result
+
+// Model tiers, ordered from most-specific to least-specific so "pro max" is
+// tested before "pro" (prevents "Pro Max" being wrongly classified as "Pro").
+const TIER_PRIORITY = [
+  "pro max", "pro plus", "pro",
+  "plus", "ultra", "air", "edge", "mini", "fe", "lite", "note", "slim",
+];
+
+/** Return the primary tier of a product name, or null if none. */
+function extractTier(text: string): string | null {
+  const lower = text.toLowerCase();
+  for (const tier of TIER_PRIORITY) {
+    const re = new RegExp(`\\b${tier.replace(" ", "\\s+")}\\b`);
+    if (re.test(lower)) return tier;
+  }
+  return null;
+}
+
+/**
+ * Extract 2-4 digit standalone numbers that represent model/generation numbers.
+ * Storage sizes (128GB, 256GB, 1TB) and screen-size notations (65") are stripped
+ * first so they do not interfere with model number comparison.
+ */
+function extractGenerationNumbers(text: string): Set<string> {
+  const cleaned = text.toLowerCase()
+    .replace(/\b\d+\s*(gb|tb)\b/gi, "")          // strip storage: 128GB, 1TB
+    .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, ""); // strip screen sizes: 65", 6.1in
+  return new Set(cleaned.match(/\b\d{2,4}\b/g) ?? []);
+}
+
+/** Return the normalised storage string ("256GB", "1TB") or null if none. */
+function extractStorageSize(text: string): string | null {
+  const m = text.match(/\b(\d+)\s*(gb|tb)\b/i);
+  return m ? `${m[1]}${m[2].toUpperCase()}` : null;
+}
+
+/**
+ * Fraction of query words that appear in the result name (0 – 1).
+ * Used as a confidence backstop after the hard-reject checks.
+ */
+function confidenceRatio(resultName: string, queryTerms: string[]): number {
+  const n = resultName.toLowerCase();
+  const words = queryTerms.join(" ").toLowerCase().split(/\s+/).filter((w) => w.length > 1);
+  if (!words.length) return 0;
+  return words.filter((w) => n.includes(w)).length / words.length;
+}
+
+const MIN_CONFIDENCE = 0.6;
+
+/**
+ * Strict-then-fuzzy scorer.
+ * Returns 0 for hard mismatches (wrong generation, wrong tier, storage conflict,
+ * accessory result for a non-accessory query, or confidence below threshold).
+ * Otherwise returns the fuzzy matchScore.
+ */
+function strictMatchScore(resultName: string, queryTerms: string[]): number {
+  const queryText  = queryTerms.join(" ");
+  const resultLow  = resultName.toLowerCase();
+  const queryLow   = queryText.toLowerCase();
+
+  // 1. Generation numbers: every number in the query must exist in the result.
+  //    Prevents "iPhone 17" matching "iPhone 15" or "iPhone 16".
+  const queryNums  = extractGenerationNumbers(queryLow);
+  const resultNums = extractGenerationNumbers(resultLow);
+  if (!Array.from(queryNums).every((n) => resultNums.has(n))) return 0;
+
+  // 2. Model tier must match exactly.
+  //    "iPhone 17" (tier=null) must not match "iPhone 17 Pro" (tier="pro").
+  //    "iPhone 17 Pro" (tier="pro") must not match "iPhone 17 Pro Max" (tier="pro max").
+  if (extractTier(queryLow) !== extractTier(resultLow)) return 0;
+
+  // 3. Storage conflict: if both sides specify storage and they differ → reject.
+  //    "iPhone 17 256GB" must not match "iPhone 17 1TB Silver".
+  const qs = extractStorageSize(queryLow);
+  const rs = extractStorageSize(resultLow);
+  if (qs && rs && qs !== rs) return 0;
+
+  // 4. Accessory hard reject: if the result is an accessory (case, cable, glass…)
+  //    but the query is not, score is zero regardless of word overlap.
+  const queryWords  = queryLow.split(/\s+/).filter((w) => w.length > 1);
+  const resultWords = resultLow.split(/\W+/).filter((w) => w.length > 1);
+  const queryIsAccessory  = queryWords.some((w)  => ACCESSORY_WORDS.has(w));
+  const resultIsAccessory = resultWords.some((w) => ACCESSORY_WORDS.has(w));
+  if (!queryIsAccessory && resultIsAccessory) return 0;
+
+  // 5. Minimum confidence: at least 60 % of query words must appear in result.
+  if (confidenceRatio(resultName, queryTerms) < MIN_CONFIDENCE) return 0;
+
+  return matchScore(resultName, queryTerms);
+}
+
 // Score a product name against search terms — higher = better match.
 // Applies two penalties to prevent false positives:
 //  1. Precision factor: discounts results with many extra words not in the query
@@ -324,7 +422,7 @@ async function scrapeShopify(
       if (!results.length) continue;
 
       const best = results
-        .map((r) => ({ r, score: matchScore(r.title, [term]) }))
+        .map((r) => ({ r, score: strictMatchScore(r.title, [term]) }))
         .filter((x) => x.score > 0)
         .sort((a, b) => b.score - a.score)[0]?.r;
       if (!best) continue;
@@ -421,7 +519,7 @@ async function scrapeWooCommerce(
       if (!items.length) continue;
 
       const best = items
-        .map((item) => ({ item, score: matchScore(item.name, [term]) }))
+        .map((item) => ({ item, score: strictMatchScore(item.name, [term]) }))
         .filter((x) => x.score > 0)
         .sort((a, b) => b.score - a.score)[0]?.item;
       if (!best) continue;
@@ -547,7 +645,7 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
       if (!candidates.length) continue;
 
       const scored = candidates
-        .map((c) => ({ c, score: matchScore(c.name, [term]) }))
+        .map((c) => ({ c, score: strictMatchScore(c.name, [term]) }))
         .filter((x) => x.score > 0);
 
       // Price sanity check: if listing prices are available, penalise candidates
@@ -630,7 +728,7 @@ async function scrapeGlobe(store: Store, searchTerms: string[]): Promise<Scraped
     for (const term of queries) {
       const scored = items
         .filter((item) => item.price > 0)
-        .map((item) => ({ item, score: matchScore(item.name, [term]) }))
+        .map((item) => ({ item, score: strictMatchScore(item.name, [term]) }))
         .filter((x) => x.score > 0)
         .sort((a, b) => b.score - a.score);
 
@@ -703,7 +801,7 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
 
       for (const r of results) {
         if (r.ActualPrice <= 0) continue;
-        const score = matchScore(r.Title, [term]);
+        const score = strictMatchScore(r.Title, [term]);
         if (score > bestScore) {
           bestScore = score;
           bestItem = r;

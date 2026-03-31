@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { productCatalog } from "@/src/infrastructure/container";
-import ProductEnrichmentPanel from "@/components/ProductEnrichmentPanel";
 import ProductVariantSection from "@/components/ProductVariantSection";
 import { CATEGORIES } from "@/src/domain/catalog/Product";
 import { getVariantConfig, extractStorageFromFamily } from "@/src/domain/catalog/variants";
@@ -94,13 +93,6 @@ export default async function ProductPage({ params, searchParams }: Props) {
         </div>
       )}
 
-      {/* Enrichment panel: images, variant badge, specs — loaded lazily on client */}
-      <ProductEnrichmentPanel
-        productId={product.id}
-        fallbackImage={product.imageUrl}
-        productFamily={product.family}
-      />
-
       {/* Family siblings (same product, different model numbers) */}
       {siblings.length > 0 && (
         <div className="mb-8 p-4 border border-gray-100 rounded-xl bg-gray-50">
@@ -124,12 +116,14 @@ export default async function ProductPage({ params, searchParams }: Props) {
         </div>
       )}
 
-      {/* Variant selector + Price comparison */}
+      {/* Image + Variant selectors + Specs + Price comparison */}
       <ProductVariantSection
         productId={product.id}
         variantConfig={variantConfig}
         initialColour={initialColour}
         initialStorage={initialStorage}
+        fallbackImage={product.imageUrl}
+        productFamily={product.family}
       />
 
       {/* Disclaimer */}

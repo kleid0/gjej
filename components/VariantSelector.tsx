@@ -31,7 +31,7 @@ export default function VariantSelector({
   const selectedColourObj = config.colours.find((c) => c.nameEn === selectedColour);
 
   return (
-    <div className="mb-6 p-5 bg-white border border-gray-100 rounded-xl shadow-sm space-y-5">
+    <div className="space-y-5">
       {/* Colour swatches */}
       {showColours && (
         <div>

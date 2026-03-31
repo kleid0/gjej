@@ -8,6 +8,7 @@ export interface ScrapedPrice {
   productUrl: string | null;
   lastChecked: string;
   error?: string;
+  suspicious?: boolean; // Price is an outlier (>50% from median) — match may be wrong
 }
 
 export interface PriceRecord {

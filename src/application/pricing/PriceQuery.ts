@@ -10,6 +10,29 @@ export interface IPriceScraper {
 
 const STALE_THRESHOLD_MS = 2 * 60 * 60 * 1000; // 2 hours
 
+/**
+ * Flag prices that deviate more than 50% from the median of all found prices.
+ * Requires ≥ 3 data points — fewer stores means too little to compute a meaningful median.
+ * Flagged entries get suspicious=true so the UI can show a warning to the user.
+ */
+function flagSuspiciousPrices(prices: ScrapedPrice[]): ScrapedPrice[] {
+  const found = prices.filter((p) => p.price !== null && p.price > 0);
+  if (found.length < 3) return prices;
+
+  const sorted = found.map((p) => p.price!).sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  const median = sorted.length % 2 === 0
+    ? (sorted[mid - 1] + sorted[mid]) / 2
+    : sorted[mid];
+
+  return prices.map((p) => {
+    if (p.price === null || p.price <= 0) return p;
+    return Math.abs(p.price - median) / median > 0.5
+      ? { ...p, suspicious: true }
+      : p;
+  });
+}
+
 export class PriceQuery {
   constructor(
     private readonly priceRepo: IPriceRepository,
@@ -41,11 +64,13 @@ export class PriceQuery {
     const settled = await Promise.allSettled(
       this.stores.map((store) => this.scraper.scrape(store, searchTerms, productId))
     );
-    const prices = settled.map((r, i) =>
+    const raw = settled.map((r, i) =>
       r.status === "fulfilled"
         ? r.value
         : { storeId: this.stores[i].id, price: null, inStock: null, stockLabel: "E panjohur", productUrl: null, lastChecked: new Date().toISOString(), error: "Gabim gjatë kërkimit" }
     );
+
+    const prices = flagSuspiciousPrices(raw);
 
     try {
       await this.priceRepo.save(effectiveKey, prices);

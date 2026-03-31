@@ -7,6 +7,7 @@ export interface ColourOption {
   name: string;      // Albanian display name (e.g. "E zeze")
   nameEn: string;    // English name for search queries and URL params
   hex: string;       // Hex colour for swatch
+  imageUrl?: string; // Colour-specific product image (from manufacturer CDN)
 }
 
 export interface VariantConfig {
@@ -55,12 +56,13 @@ const BASE_MODEL_PATTERNS: Array<{ regex: RegExp; key: string }> = [
 ];
 
 // Shared colour palettes
-const APPLE_STANDARD: ColourOption[] = [
-  { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
-  { name: "E bardhe", nameEn: "White", hex: "#f5f5f7" },
-  { name: "E gjelber", nameEn: "Green", hex: "#4a6741" },
-  { name: "Blu", nameEn: "Blue", hex: "#5b7fa5" },
-  { name: "Roze", nameEn: "Pink", hex: "#f2c8c4" },
+// iPhone 17 actual colours (Black, White, Mist Blue, Sage, Lavender)
+const IPHONE_17_COLOURS: ColourOption[] = [
+  { name: "E zeze", nameEn: "Black", hex: "#1d1d1f", imageUrl: "https://www.apple.com/v/iphone-17/e/images/overview/product-viewer/colors_black__fzuhc3kqvmq2_large.jpg" },
+  { name: "E bardhe", nameEn: "White", hex: "#f5f5f7", imageUrl: "https://www.apple.com/v/iphone-17/e/images/overview/product-viewer/colors_white__979ypubjzdum_large.jpg" },
+  { name: "Mjegulle Blu", nameEn: "Mist Blue", hex: "#8fafc8", imageUrl: "https://www.apple.com/v/iphone-17/e/images/overview/product-viewer/colors_mist_blue__700uff6zu2qa_large.jpg" },
+  { name: "Sage", nameEn: "Sage", hex: "#8a9a7a", imageUrl: "https://www.apple.com/v/iphone-17/e/images/overview/product-viewer/colors_sage__cr1jt90v1yoi_large.jpg" },
+  { name: "Lila", nameEn: "Lavender", hex: "#b8a8c8", imageUrl: "https://www.apple.com/v/iphone-17/e/images/overview/product-viewer/colors_lavender__bcaie9a8npj6_large.jpg" },
 ];
 
 const APPLE_TITANIUM: ColourOption[] = [
@@ -87,9 +89,9 @@ const S25_ULTRA_COLOURS: ColourOption[] = [
 const CONFIGS: Record<string, VariantConfig> = {
   // ── Apple iPhone 17 ──────────────────────────────────────
   "iPhone 17": {
-    baseFamily: "iPhone 17", colours: APPLE_STANDARD,
-    storageOptions: ["128GB", "256GB", "512GB"],
-    defaultColour: "Black", defaultStorage: "128GB",
+    baseFamily: "iPhone 17", colours: IPHONE_17_COLOURS,
+    storageOptions: ["256GB", "512GB"],
+    defaultColour: "Black", defaultStorage: "256GB",
   },
   "iPhone 17 Pro": {
     baseFamily: "iPhone 17 Pro", colours: APPLE_TITANIUM,
