@@ -639,106 +639,81 @@ async function scrapeWooCommerce(
   }
 
   /**
-   * For variable WooCommerce products (e.g. Shpresa "Apple iPhone 17"):
-   * the parent's is_in_stock is aggregate — we must fetch the specific
-   * colour variation to get accurate per-colour stock and price.
+   * Resolve a specific colour variation for a WooCommerce variable product.
    *
-   * Returns:
-   *   ScrapedPrice  — variation found and fetched successfully
-   *   null          — colour not carried by this store (no matching variation)
-   *   undefined     — variation data incomplete, caller should use parent data
+   * The Store API returns variations as plain numeric IDs on the parent.
+   * We fetch every variation, check its attributes for a colour match,
+   * and return that variation's stock and price directly.
+   *
+   * Returns ScrapedPrice if we could determine the answer (including
+   * "not available in this colour"). Returns undefined only when we
+   * have no colour preference or all network calls failed.
    */
-  async function resolveColourVariation(parent: WooItem): Promise<ScrapedPrice | null | undefined> {
+  async function resolveVariation(parent: WooItem): Promise<ScrapedPrice | undefined> {
     const requestedColour = extractColourFromTerms(searchTerms);
-    if (!requestedColour) return undefined; // no colour filter — use parent
+    if (!requestedColour) return undefined;
 
-    const variations = parent.variations ?? [];
-    const varObjects = variations.filter(
-      (v): v is WooVariation => typeof v === "object" && v !== null && "id" in v
+    // Collect all variation IDs (Shpresa Store API returns plain numbers)
+    const ids: number[] = [];
+    for (const v of parent.variations ?? []) {
+      if (typeof v === "number") ids.push(v);
+      else if (typeof v === "object" && v !== null && "id" in v) ids.push((v as WooVariation).id);
+    }
+    if (!ids.length) return undefined;
+
+    // Fetch every variation in parallel — each has its own attributes, stock, price
+    type VarData = {
+      is_in_stock: boolean;
+      stock_status: string;
+      prices: { price: string; regular_price: string; currency_minor_unit: number };
+      attributes: Array<{ name: string; value: string }>;
+      permalink: string;
+    };
+    const results = await Promise.all(
+      ids.slice(0, 20).map((id) =>
+        axios
+          .get<VarData>(`${store.url}/wp-json/wc/store/v1/products/${id}`, {
+            timeout: 8000,
+            headers: HEADERS,
+          })
+          .then((r) => r.data)
+          .catch(() => null)
+      )
     );
 
-    // Helper: check if a variation object matches the requested colour
-    function colourMatches(v: WooVariation): boolean {
-      return v.attributes?.some((a) => {
-        const aName = a.name.toLowerCase();
-        return (
-          (aName.includes("color") || aName.includes("colour") || aName.includes("ngjyre")) &&
-          extractColour(a.value) === requestedColour
-        );
-      }) ?? false;
+    const fetched = results.filter((r): r is VarData => r !== null);
+    if (!fetched.length) return undefined; // all requests failed — fall back to parent
+
+    // Find the variation whose attributes contain the requested colour
+    const match = fetched.find((v) =>
+      (v.attributes ?? []).some((a) => extractColour(a.value) === requestedColour)
+    );
+
+    if (!match) {
+      return {
+        storeId: store.id,
+        price: null,
+        inStock: null,
+        stockLabel: "E panjohur",
+        productUrl: parent.permalink ?? null,
+        lastChecked,
+        error: "Ky variant nuk disponohet",
+      };
     }
 
-    // If the parent already has variation objects with attributes, use them directly.
-    // Otherwise (Store API returns numeric IDs only), fetch each variation to inspect attributes.
-    let match: WooVariation | undefined;
-
-    if (varObjects.length > 0) {
-      match = varObjects.find(colourMatches);
-      if (!match) {
-        return {
-          storeId: store.id, price: null, inStock: null,
-          stockLabel: "E panjohur",
-          productUrl: parent.permalink ?? null, lastChecked,
-          error: "Ky variant nuk disponohet",
-        };
-      }
-    } else {
-      // Variations are numeric IDs — fetch each to check colour attributes
-      const numericIds = variations.filter((v): v is number => typeof v === "number");
-      if (!numericIds.length) return undefined;
-
-      type VarWithData = { id: number; data: WooItem & { attributes?: WooVariationAttr[] } };
-      const fetched = await Promise.all(
-        numericIds.slice(0, 15).map((id) =>
-          axios
-            .get(`${store.url}/wp-json/wc/store/v1/products/${id}`, { timeout: 8000, headers: HEADERS })
-            .then((r) => ({ id, data: r.data as VarWithData["data"] }))
-            .catch(() => null)
-        )
-      );
-
-      const validFetches = fetched.filter((e): e is VarWithData => e !== null);
-      if (!validFetches.length) return undefined; // all fetches failed — fall back to parent
-
-      const matchedFetch = validFetches.find(({ data }) =>
-        data.attributes?.some((a) => {
-          const aName = a.name.toLowerCase();
-          return (
-            (aName.includes("color") || aName.includes("colour") || aName.includes("ngjyre")) &&
-            extractColour(a.value) === requestedColour
-          );
-        })
-      );
-
-      if (!matchedFetch) {
-        // Fetches succeeded but no variation matched — store doesn't carry this colour
-        return {
-          storeId: store.id, price: null, inStock: null,
-          stockLabel: "E panjohur",
-          productUrl: parent.permalink ?? null, lastChecked,
-          error: "Ky variant nuk disponohet",
-        };
-      }
-      // Return the matched variation's data directly (already fetched with prices)
-      if (matchedFetch.data?.prices) {
-        return parseWooItem(matchedFetch.data, parent.permalink);
-      }
-      match = { id: matchedFetch.id };
-    }
-
-    // Fetch the individual variation for its own stock/price (object-with-attributes path)
-    try {
-      const { data: varData } = await axios.get(
-        `${store.url}/wp-json/wc/store/v1/products/${match.id}`,
-        { timeout: 8000, headers: HEADERS }
-      );
-      if (varData?.prices) {
-        // Variation permalink may be empty — fall back to parent URL
-        return parseWooItem(varData as WooItem, parent.permalink);
-      }
-    } catch { /* fall through */ }
-
-    return undefined; // variation fetch failed — caller uses parent
+    const minorUnit = match.prices?.currency_minor_unit ?? 0;
+    const divisor = minorUnit > 0 ? Math.pow(10, minorUnit) : 1;
+    const rawPrice = match.prices?.price ?? match.prices?.regular_price;
+    const price = rawPrice ? parseInt(rawPrice, 10) / divisor : null;
+    const inStock = match.is_in_stock ?? match.stock_status === "instock";
+    return {
+      storeId: store.id,
+      price,
+      inStock,
+      stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
+      productUrl: match.permalink || parent.permalink || null,
+      lastChecked,
+    };
   }
 
   // Direct slug lookup for own-store products
@@ -755,8 +730,8 @@ async function scrapeWooCommerce(
       if (items.length) {
         const item = items[0];
         if (item.type === "variable") {
-          const varResult = await resolveColourVariation(item);
-          if (varResult !== undefined) return varResult ?? parseWooItem(item);
+          const varResult = await resolveVariation(item);
+          if (varResult !== undefined) return varResult;
         }
         return parseWooItem(item);
       }
@@ -784,8 +759,8 @@ async function scrapeWooCommerce(
 
       // For variable products (e.g. Shpresa): resolve the specific colour variation
       if (best.type === "variable") {
-        const varResult = await resolveColourVariation(best);
-        if (varResult !== undefined) return varResult ?? parseWooItem(best);
+        const varResult = await resolveVariation(best);
+        if (varResult !== undefined) return varResult;
       }
 
       return parseWooItem(best);
