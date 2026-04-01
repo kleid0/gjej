@@ -622,9 +622,9 @@ async function scrapeWooCommerce(
     stock_status: string;
   };
 
-  function parseWooItem(item: WooItem): ScrapedPrice {
-    const minorUnit = item.prices?.currency_minor_unit ?? 2;
-    const divisor = Math.pow(10, minorUnit);
+  function parseWooItem(item: WooItem, fallbackUrl?: string): ScrapedPrice {
+    const minorUnit = item.prices?.currency_minor_unit ?? 0;
+    const divisor = minorUnit > 0 ? Math.pow(10, minorUnit) : 1;
     const rawPrice = item.prices?.price ?? item.prices?.regular_price;
     const price = rawPrice ? parseInt(rawPrice, 10) / divisor : null;
     const inStock = item.is_in_stock ?? item.stock_status === "instock";
@@ -633,9 +633,64 @@ async function scrapeWooCommerce(
       price,
       inStock,
       stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
-      productUrl: item.permalink ?? null,
+      productUrl: item.permalink ?? fallbackUrl ?? null,
       lastChecked,
     };
+  }
+
+  /**
+   * For variable WooCommerce products (e.g. Shpresa "Apple iPhone 17"):
+   * the parent's is_in_stock is aggregate — we must fetch the specific
+   * colour variation to get accurate per-colour stock and price.
+   *
+   * Returns:
+   *   ScrapedPrice  — variation found and fetched successfully
+   *   null          — colour not carried by this store (no matching variation)
+   *   undefined     — variation data incomplete, caller should use parent data
+   */
+  async function resolveColourVariation(parent: WooItem): Promise<ScrapedPrice | null | undefined> {
+    const requestedColour = extractColourFromTerms(searchTerms);
+    if (!requestedColour) return undefined; // no colour filter — use parent
+
+    const variations = parent.variations ?? [];
+    const varObjects = variations.filter(
+      (v): v is WooVariation => typeof v === "object" && v !== null && "id" in v
+    );
+    if (!varObjects.length) return undefined; // only IDs, no attribute info — use parent
+
+    const match = varObjects.find((v) =>
+      v.attributes?.some((a) => {
+        const aName = a.name.toLowerCase();
+        return (
+          (aName.includes("color") || aName.includes("colour") || aName.includes("ngjyre")) &&
+          extractColour(a.value) === requestedColour
+        );
+      })
+    );
+
+    if (!match) {
+      // We have colour attribute data but no matching variant → store doesn't carry this colour
+      return {
+        storeId: store.id, price: null, inStock: null,
+        stockLabel: "E panjohur",
+        productUrl: parent.permalink ?? null, lastChecked,
+        error: "Ky variant nuk disponohet",
+      };
+    }
+
+    // Fetch the individual variation for its own stock/price
+    try {
+      const { data: varData } = await axios.get(
+        `${store.url}/wp-json/wc/store/v1/products/${match.id}`,
+        { timeout: 8000, headers: HEADERS }
+      );
+      if (varData?.prices) {
+        // Variation permalink may be empty — fall back to parent URL
+        return parseWooItem(varData as WooItem, parent.permalink);
+      }
+    } catch { /* fall through */ }
+
+    return undefined; // variation fetch failed — caller uses parent
   }
 
   // Direct slug lookup for own-store products
@@ -649,7 +704,14 @@ async function scrapeWooCommerce(
         headers: HEADERS,
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
-      if (items.length) return parseWooItem(items[0]);
+      if (items.length) {
+        const item = items[0];
+        if (item.type === "variable") {
+          const varResult = await resolveColourVariation(item);
+          if (varResult !== undefined) return varResult ?? parseWooItem(item);
+        }
+        return parseWooItem(item);
+      }
     } catch {
       // fall through to search
     }
@@ -672,49 +734,10 @@ async function scrapeWooCommerce(
         .sort((a, b) => b.score - a.score)[0]?.item;
       if (!best) continue;
 
-      // ── Variable-product colour resolution (e.g. Shpresa) ────────────────
-      // Shpresa lists "Apple iPhone 17" as a SINGLE variable product where
-      // colour is a WooCommerce variation attribute (not in the product name).
-      // The parent's is_in_stock is aggregated; we need the specific variation.
-      const requestedColour = extractColourFromTerms(searchTerms);
-      if (requestedColour && best.type === "variable" && Array.isArray(best.variations) && best.variations.length > 0) {
-        // WC Store v1 may return variation objects with attribute data
-        const varObjects = best.variations.filter(
-          (v): v is WooVariation => typeof v === "object" && v !== null && "id" in v
-        );
-
-        if (varObjects.length > 0) {
-          // Find the variation whose colour attribute matches the request
-          const match = varObjects.find((v) =>
-            v.attributes?.some((a) => {
-              const aName = a.name.toLowerCase();
-              return (aName.includes("color") || aName.includes("colour") || aName.includes("ngjyre")) &&
-                extractColour(a.value) === requestedColour;
-            })
-          );
-
-          if (!match) {
-            // Colour attribute data present but no matching variant → not carried
-            return {
-              storeId: store.id, price: null, inStock: null,
-              stockLabel: "E panjohur",
-              productUrl: best.permalink ?? null, lastChecked,
-              error: "Ky variant nuk disponohet",
-            };
-          }
-
-          // Fetch the variation by ID for its own stock status and price
-          try {
-            const { data: varData } = await axios.get(
-              `${store.url}/wp-json/wc/store/v1/products/${match.id}`,
-              { timeout: 8000, headers: HEADERS }
-            );
-            if (varData?.prices) return parseWooItem(varData as WooItem);
-          } catch {
-            // Fall through — use parent data as last resort
-          }
-        }
-        // Variations are IDs only (no attribute info) — fall through to parent stock
+      // For variable products (e.g. Shpresa): resolve the specific colour variation
+      if (best.type === "variable") {
+        const varResult = await resolveColourVariation(best);
+        if (varResult !== undefined) return varResult ?? parseWooItem(best);
       }
 
       return parseWooItem(best);
