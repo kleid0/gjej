@@ -38,5 +38,40 @@ export async function ensureSchema(): Promise<void> {
     )
   `;
 
+  await sql`
+    CREATE TABLE IF NOT EXISTS products (
+      id              TEXT PRIMARY KEY,
+      model_number    TEXT        NOT NULL DEFAULT '',
+      family          TEXT        NOT NULL DEFAULT '',
+      brand           TEXT        NOT NULL DEFAULT '',
+      category        TEXT        NOT NULL DEFAULT '',
+      subcategory     TEXT        NOT NULL DEFAULT '',
+      image_url       TEXT        NOT NULL DEFAULT '',
+      storage_options JSONB       NOT NULL DEFAULT '[]',
+      search_terms    JSONB       NOT NULL DEFAULT '[]',
+      variant         JSONB,
+      specs           JSONB,
+      description     TEXT,
+      official_images JSONB,
+      enriched_at     TIMESTAMPTZ,
+      updated_at      TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    )
+  `;
+
+  await sql`
+    CREATE INDEX IF NOT EXISTS idx_products_category
+    ON products(category)
+  `;
+
+  await sql`
+    CREATE INDEX IF NOT EXISTS idx_products_brand
+    ON products(brand)
+  `;
+
+  await sql`
+    CREATE INDEX IF NOT EXISTS idx_products_family
+    ON products(family)
+  `;
+
   schemaEnsured = true;
 }
