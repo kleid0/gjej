@@ -656,29 +656,77 @@ async function scrapeWooCommerce(
     const varObjects = variations.filter(
       (v): v is WooVariation => typeof v === "object" && v !== null && "id" in v
     );
-    if (!varObjects.length) return undefined; // only IDs, no attribute info — use parent
 
-    const match = varObjects.find((v) =>
-      v.attributes?.some((a) => {
+    // Helper: check if a variation object matches the requested colour
+    function colourMatches(v: WooVariation): boolean {
+      return v.attributes?.some((a) => {
         const aName = a.name.toLowerCase();
         return (
           (aName.includes("color") || aName.includes("colour") || aName.includes("ngjyre")) &&
           extractColour(a.value) === requestedColour
         );
-      })
-    );
-
-    if (!match) {
-      // We have colour attribute data but no matching variant → store doesn't carry this colour
-      return {
-        storeId: store.id, price: null, inStock: null,
-        stockLabel: "E panjohur",
-        productUrl: parent.permalink ?? null, lastChecked,
-        error: "Ky variant nuk disponohet",
-      };
+      }) ?? false;
     }
 
-    // Fetch the individual variation for its own stock/price
+    // If the parent already has variation objects with attributes, use them directly.
+    // Otherwise (Store API returns numeric IDs only), fetch each variation to inspect attributes.
+    let match: WooVariation | undefined;
+
+    if (varObjects.length > 0) {
+      match = varObjects.find(colourMatches);
+      if (!match) {
+        return {
+          storeId: store.id, price: null, inStock: null,
+          stockLabel: "E panjohur",
+          productUrl: parent.permalink ?? null, lastChecked,
+          error: "Ky variant nuk disponohet",
+        };
+      }
+    } else {
+      // Variations are numeric IDs — fetch each to check colour attributes
+      const numericIds = variations.filter((v): v is number => typeof v === "number");
+      if (!numericIds.length) return undefined;
+
+      type VarWithData = { id: number; data: WooItem & { attributes?: WooVariationAttr[] } };
+      const fetched = await Promise.all(
+        numericIds.slice(0, 15).map((id) =>
+          axios
+            .get(`${store.url}/wp-json/wc/store/v1/products/${id}`, { timeout: 8000, headers: HEADERS })
+            .then((r) => ({ id, data: r.data as VarWithData["data"] }))
+            .catch(() => null)
+        )
+      );
+
+      const validFetches = fetched.filter((e): e is VarWithData => e !== null);
+      if (!validFetches.length) return undefined; // all fetches failed — fall back to parent
+
+      const matchedFetch = validFetches.find(({ data }) =>
+        data.attributes?.some((a) => {
+          const aName = a.name.toLowerCase();
+          return (
+            (aName.includes("color") || aName.includes("colour") || aName.includes("ngjyre")) &&
+            extractColour(a.value) === requestedColour
+          );
+        })
+      );
+
+      if (!matchedFetch) {
+        // Fetches succeeded but no variation matched — store doesn't carry this colour
+        return {
+          storeId: store.id, price: null, inStock: null,
+          stockLabel: "E panjohur",
+          productUrl: parent.permalink ?? null, lastChecked,
+          error: "Ky variant nuk disponohet",
+        };
+      }
+      // Return the matched variation's data directly (already fetched with prices)
+      if (matchedFetch.data?.prices) {
+        return parseWooItem(matchedFetch.data, parent.permalink);
+      }
+      match = { id: matchedFetch.id };
+    }
+
+    // Fetch the individual variation for its own stock/price (object-with-attributes path)
     try {
       const { data: varData } = await axios.get(
         `${store.url}/wp-json/wc/store/v1/products/${match.id}`,

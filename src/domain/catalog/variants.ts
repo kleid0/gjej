@@ -336,6 +336,10 @@ export function buildVariantSearchTerms(
     terms.push(`!${brand} ${base} ${storage} ${colourEn}`);
     terms.push(`!${base} ${storage} ${colourEn}`);
   }
+  if (colourEn && !storage) {
+    terms.push(`!${brand} ${base} ${colourEn}`);
+    terms.push(`!${base} ${colourEn}`);
+  }
   if (storage) {
     terms.push(`!${brand} ${base} ${storage}`);
     terms.push(`!${base} ${storage}`);
