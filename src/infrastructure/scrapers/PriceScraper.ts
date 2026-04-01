@@ -746,28 +746,21 @@ async function scrapeWooCommerce(
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
       if (items.length) {
-        let item = items[0];
+        const item = items[0];
 
-        // WooCommerce ?slug= can return a variation instead of the parent variable product
-        // (the default variation is whichever colour the store happens to show first).
-        // When a specific colour is requested, fetch the parent to resolve from all variations.
-        if (item.type === "variation" && item.parent_id && extractColourFromTerms(searchTerms)) {
-          try {
-            const { data: parentData } = await axios.get(
-              `${store.url}/wp-json/wc/store/v1/products/${item.parent_id}`,
-              { timeout: 8000, headers: HEADERS }
-            );
-            if (parentData?.type === "variable") {
-              item = parentData as WooItem;
-            }
-          } catch { /* fall through with the variation */ }
+        // WooCommerce ?slug= can return a VARIATION (the store's default colour) instead of
+        // the VARIABLE parent. Variations only have one colour's stock; we can't resolve other
+        // colours from them. When a specific colour is requested, skip and fall through to the
+        // name search which always returns the parent variable product with all variation IDs.
+        if (item.type === "variation" && extractColourFromTerms(searchTerms)) {
+          // fall through to name search
+        } else {
+          if (item.type === "variable") {
+            const varResult = await resolveVariation(item);
+            if (varResult !== undefined) return varResult;
+          }
+          return parseWooItem(item);
         }
-
-        if (item.type === "variable") {
-          const varResult = await resolveVariation(item);
-          if (varResult !== undefined) return varResult;
-        }
-        return parseWooItem(item);
       }
     } catch {
       // fall through to search
