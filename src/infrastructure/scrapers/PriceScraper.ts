@@ -651,6 +651,9 @@ async function scrapeWooCommerce(
    */
   async function resolveVariation(parent: WooItem): Promise<ScrapedPrice | undefined> {
     const requestedColour = extractColourFromTerms(searchTerms);
+    console.log(`[resolveVariation] store=${store.id} product=${productId}`);
+    console.log(`[resolveVariation] searchTerms=${JSON.stringify(searchTerms)}`);
+    console.log(`[resolveVariation] requestedColour=${requestedColour}`);
     if (!requestedColour) return undefined;
 
     // Collect all variation IDs (Shpresa Store API returns plain numbers)
@@ -659,6 +662,7 @@ async function scrapeWooCommerce(
       if (typeof v === "number") ids.push(v);
       else if (typeof v === "object" && v !== null && "id" in v) ids.push((v as WooVariation).id);
     }
+    console.log(`[resolveVariation] variationIds=${JSON.stringify(ids)}`);
     if (!ids.length) return undefined;
 
     // Fetch every variation in parallel — each has its own attributes, stock, price
@@ -677,11 +681,21 @@ async function scrapeWooCommerce(
             headers: HEADERS,
           })
           .then((r) => r.data)
-          .catch(() => null)
+          .catch((err) => {
+            console.log(`[resolveVariation] fetch id=${id} FAILED: ${err?.message}`);
+            return null;
+          })
       )
     );
 
     const fetched = results.filter((r): r is VarData => r !== null);
+    console.log(`[resolveVariation] fetched ${fetched.length}/${ids.length} variations`);
+    for (const v of fetched) {
+      const attrStr = JSON.stringify(v.attributes);
+      const matched = (v.attributes ?? []).some((a) => extractColour(a.value) === requestedColour);
+      console.log(`[resolveVariation] var attrs=${attrStr} inStock=${v.is_in_stock} colourMatch=${matched}`);
+    }
+
     if (!fetched.length) return undefined; // all requests failed — fall back to parent
 
     // Find the variation whose attributes contain the requested colour
@@ -690,6 +704,7 @@ async function scrapeWooCommerce(
     );
 
     if (!match) {
+      console.log(`[resolveVariation] no match for colour="${requestedColour}" → not available`);
       return {
         storeId: store.id,
         price: null,
@@ -706,6 +721,7 @@ async function scrapeWooCommerce(
     const rawPrice = match.prices?.price ?? match.prices?.regular_price;
     const price = rawPrice ? parseInt(rawPrice, 10) / divisor : null;
     const inStock = match.is_in_stock ?? match.stock_status === "instock";
+    console.log(`[resolveVariation] MATCH inStock=${inStock} price=${price}`);
     return {
       storeId: store.id,
       price,
