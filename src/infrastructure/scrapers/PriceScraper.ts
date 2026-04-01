@@ -653,60 +653,47 @@ async function scrapeWooCommerce(
    */
   async function resolveVariation(parent: WooItem): Promise<ScrapedPrice | undefined> {
     const requestedColour = extractColourFromTerms(searchTerms);
-    console.log(`[resolveVariation] store=${store.id} product=${productId}`);
-    console.log(`[resolveVariation] searchTerms=${JSON.stringify(searchTerms)}`);
-    console.log(`[resolveVariation] requestedColour=${requestedColour}`);
     if (!requestedColour) return undefined;
 
-    // Collect all variation IDs (Shpresa Store API returns plain numbers)
-    const ids: number[] = [];
-    for (const v of parent.variations ?? []) {
-      if (typeof v === "number") ids.push(v);
-      else if (typeof v === "object" && v !== null && "id" in v) ids.push((v as WooVariation).id);
-    }
-    console.log(`[resolveVariation] variationIds=${JSON.stringify(ids)}`);
-    if (!ids.length) return undefined;
+    // WooCommerce Store API v1 behaviour:
+    //   - GET /products/{id}  (single)  → variations: [{id, attributes:[{name,value}]}]
+    //   - GET /products?search=...      → variations: [id1, id2, …]  (plain numbers, no attrs)
+    //   - GET /products/{variationId}   → attributes: []  (always empty on individual variations)
+    //
+    // Therefore we MUST use the attributes embedded in the parent's variations array.
+    // If the parent came from a list endpoint (plain IDs), fetch it by ID first.
 
-    // Fetch every variation in parallel — each has its own attributes, stock, price
-    type VarData = {
-      is_in_stock: boolean;
-      stock_status: string;
-      prices: { price: string; regular_price: string; currency_minor_unit: number };
-      attributes: Array<{ name: string; value: string }>;
-      permalink: string;
-    };
-    const results = await Promise.all(
-      ids.slice(0, 20).map((id) =>
-        axios
-          .get<VarData>(`${store.url}/wp-json/wc/store/v1/products/${id}`, {
-            timeout: 8000,
-            headers: HEADERS,
-          })
-          .then((r) => r.data)
-          .catch((err) => {
-            console.log(`[resolveVariation] fetch id=${id} FAILED: ${err?.message}`);
-            return null;
-          })
-      )
+    let variationsWithAttrs: WooVariation[] = (parent.variations ?? []).filter(
+      (v): v is WooVariation =>
+        typeof v === "object" && v !== null && "id" in v &&
+        Array.isArray((v as WooVariation).attributes) &&
+        ((v as WooVariation).attributes!.length > 0)
     );
 
-    const fetched = results.filter((r): r is VarData => r !== null);
-    console.log(`[resolveVariation] fetched ${fetched.length}/${ids.length} variations`);
-    for (const v of fetched) {
-      const attrStr = JSON.stringify(v.attributes);
-      const matched = (v.attributes ?? []).some((a) => extractColour(a.value) === requestedColour);
-      console.log(`[resolveVariation] var attrs=${attrStr} inStock=${v.is_in_stock} colourMatch=${matched}`);
+    if (!variationsWithAttrs.length && parent.id) {
+      // Parent came from a list endpoint — re-fetch it to get full variation attributes
+      try {
+        const { data: fullParent } = await axios.get<WooItem>(
+          `${store.url}/wp-json/wc/store/v1/products/${parent.id}`,
+          { timeout: 8000, headers: HEADERS }
+        );
+        variationsWithAttrs = (fullParent.variations ?? []).filter(
+          (v): v is WooVariation =>
+            typeof v === "object" && v !== null && "id" in v &&
+            Array.isArray((v as WooVariation).attributes) &&
+            ((v as WooVariation).attributes!.length > 0)
+        );
+      } catch { return undefined; }
     }
 
-    if (!fetched.length) return undefined; // all requests failed — fall back to parent
+    if (!variationsWithAttrs.length) return undefined;
 
-    // Find the variation whose attributes contain the requested colour
-    const match = fetched.find((v) =>
+    // Find the variation whose attributes match the requested colour
+    const matchedVar = variationsWithAttrs.find((v) =>
       (v.attributes ?? []).some((a) => extractColour(a.value) === requestedColour)
     );
 
-    if (!match) {
-      console.log(`[resolveVariation] no match for colour="${requestedColour}" → not available`);
+    if (!matchedVar) {
       return {
         storeId: store.id,
         price: null,
@@ -718,20 +705,34 @@ async function scrapeWooCommerce(
       };
     }
 
-    const minorUnit = match.prices?.currency_minor_unit ?? 0;
-    const divisor = minorUnit > 0 ? Math.pow(10, minorUnit) : 1;
-    const rawPrice = match.prices?.price ?? match.prices?.regular_price;
-    const price = rawPrice ? parseInt(rawPrice, 10) / divisor : null;
-    const inStock = match.is_in_stock ?? match.stock_status === "instock";
-    console.log(`[resolveVariation] MATCH inStock=${inStock} price=${price}`);
-    return {
-      storeId: store.id,
-      price,
-      inStock,
-      stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
-      productUrl: match.permalink || parent.permalink || null,
-      lastChecked,
+    // Fetch just the matched variation for its stock and price
+    type VarData = {
+      is_in_stock: boolean;
+      stock_status: string;
+      prices: { price: string; regular_price: string; currency_minor_unit: number };
+      permalink: string;
     };
+    try {
+      const { data: varData } = await axios.get<VarData>(
+        `${store.url}/wp-json/wc/store/v1/products/${matchedVar.id}`,
+        { timeout: 8000, headers: HEADERS }
+      );
+      const minorUnit = varData.prices?.currency_minor_unit ?? 0;
+      const divisor = minorUnit > 0 ? Math.pow(10, minorUnit) : 1;
+      const rawPrice = varData.prices?.price ?? varData.prices?.regular_price;
+      const price = rawPrice ? parseInt(rawPrice, 10) / divisor : null;
+      const inStock = varData.is_in_stock ?? varData.stock_status === "instock";
+      return {
+        storeId: store.id,
+        price,
+        inStock,
+        stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
+        productUrl: varData.permalink || parent.permalink || null,
+        lastChecked,
+      };
+    } catch {
+      return { storeId: store.id, price: null, inStock: null, stockLabel: "E panjohur", productUrl: parent.permalink ?? null, lastChecked };
+    }
   }
 
   // Direct slug lookup for own-store products
