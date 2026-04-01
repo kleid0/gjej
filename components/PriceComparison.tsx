@@ -73,7 +73,7 @@ export default function PriceComparison({ productId, variantColour, variantStora
         <div className="flex items-center gap-3 text-xs text-gray-400">
           {lastRefresh && (
             <span>
-              Azhurnuar: {lastRefresh.toLocaleTimeString("sq-AL")}
+              Azhurnuar: {lastRefresh.toLocaleTimeString("sq-AL", { timeZone: "Europe/Tirane" })}
               {fromCache && " (cache)"}
             </span>
           )}

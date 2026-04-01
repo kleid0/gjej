@@ -35,7 +35,7 @@ type RangeDays = (typeof RANGES)[number]["days"];
 
 function fmtDate(dateStr: string): string {
   const d = new Date(dateStr + "T00:00:00Z");
-  return d.toLocaleDateString("sq-AL", { day: "2-digit", month: "short" });
+  return d.toLocaleDateString("sq-AL", { day: "2-digit", month: "short", timeZone: "Europe/Tirane" });
 }
 
 function fmtPrice(price: number): string {
