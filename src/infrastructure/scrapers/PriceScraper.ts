@@ -612,8 +612,10 @@ async function scrapeWooCommerce(
     name: string;
     slug: string;
     permalink: string;
-    // "variable" = parent product with colour/storage variants
+    // "variable" = parent with colour/storage variants; "variation" = a single variant
     type?: string;
+    // Set on variation products — ID of the parent variable product
+    parent_id?: number;
     // WooCommerce Store v1 returns variation summaries on the parent object.
     // Each entry has an id and (when available) attribute name→value pairs.
     variations?: Array<WooVariation | number>;
@@ -744,9 +746,23 @@ async function scrapeWooCommerce(
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
       if (items.length) {
-        const item = items[0];
-        console.log(`[slug-lookup] type=${item.type} permalink=${item.permalink} variationsCount=${JSON.stringify(item.variations?.length)}`);
-        console.log(`[slug-lookup] is_in_stock=${item.is_in_stock} variations=${JSON.stringify(item.variations?.slice(0,5))}`);
+        let item = items[0];
+
+        // WooCommerce ?slug= can return a variation instead of the parent variable product
+        // (the default variation is whichever colour the store happens to show first).
+        // When a specific colour is requested, fetch the parent to resolve from all variations.
+        if (item.type === "variation" && item.parent_id && extractColourFromTerms(searchTerms)) {
+          try {
+            const { data: parentData } = await axios.get(
+              `${store.url}/wp-json/wc/store/v1/products/${item.parent_id}`,
+              { timeout: 8000, headers: HEADERS }
+            );
+            if (parentData?.type === "variable") {
+              item = parentData as WooItem;
+            }
+          } catch { /* fall through with the variation */ }
+        }
+
         if (item.type === "variable") {
           const varResult = await resolveVariation(item);
           if (varResult !== undefined) return varResult;
