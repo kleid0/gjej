@@ -80,6 +80,83 @@ function extractStorageSize(text: string): string | null {
 }
 
 /**
+ * Colour token list — ordered most-specific first so "Mist Blue" is matched
+ * before "Blue", and "Black Titanium" before plain "Black".
+ * Each key is the canonical identifier compared across query and result.
+ * Patterns include Albanian colour words (e zezë, i bardhë, blu e lehtë…)
+ * because Foleja uses Albanian product names.
+ */
+const COLOUR_TOKENS: Array<{ key: string; pattern: RegExp }> = [
+  // Titanium sub-variants (must precede plain "titanium" / "black" / "white")
+  { key: "natural-titanium",     pattern: /\bnatural\s+titanium\b/i },
+  { key: "black-titanium",       pattern: /\b(black\s+titanium|titanium\s+black)\b/i },
+  { key: "white-titanium",       pattern: /\b(white\s+titanium|titanium\s+white(?:\s+silver)?)\b/i },
+  { key: "desert-titanium",      pattern: /\bdesert\s+titanium\b/i },
+  { key: "silver-blue-titanium", pattern: /\btitanium\s+silver\s+blue\b/i },
+  { key: "gray-titanium",        pattern: /\btitanium\s+gr[ae]y\b/i },
+  { key: "silver-titanium",      pattern: /\btitanium\s+silver\b/i },
+  // Multi-word named colours (before single-word fallbacks)
+  { key: "mist-blue",     pattern: /\bmist\s+blu?e?\b/i },
+  { key: "icy-blue",      pattern: /\bicy\s+blu?e?\b/i },
+  { key: "storm-blue",    pattern: /\bstorm\s+blu?e?\b/i },
+  { key: "light-blue",    pattern: /\b(light\s+blu?e?|blu\s+e\s+leht[eë])\b/i },
+  { key: "deep-blue",     pattern: /\bdeep\s+blu?e?\b/i },
+  { key: "silver-shadow", pattern: /\bsilver\s+shadow\b/i },
+  { key: "space-gray",    pattern: /\b(space\s+gr[ae]y|hap[eë]sir[eë]\s+gri)\b/i },
+  { key: "space-black",   pattern: /\bspace\s+black\b/i },
+  { key: "cosmic-orange", pattern: /\bcosmic\s+orange\b/i },
+  { key: "cobalt-violet", pattern: /\bcobalt\s+violet\b/i },
+  { key: "phantom-black", pattern: /\bphantom\s+black\b/i },
+  // Specific single-word named colours (before generic aliases)
+  { key: "sage",        pattern: /\bsage\b/i },
+  { key: "lavender",    pattern: /\b(lavender|lila)\b/i },
+  { key: "ultramarine", pattern: /\bultramarine\b/i },
+  { key: "teal",        pattern: /\bteal\b/i },
+  { key: "mint",        pattern: /\bmint\b/i },
+  { key: "navy",        pattern: /\bnavy\b/i },
+  { key: "starlight",   pattern: /\bstarlight\b/i },
+  { key: "moonstone",   pattern: /\bmoonstone\b/i },
+  // Generic colours + Albanian / common-European translations
+  { key: "black",  pattern: /\b(black|e\s*ze(?:z[eë])?|i\s+zi|onyx|midnight|graphite|nero|negro)\b/i },
+  { key: "white",  pattern: /\b(white|bardhë?|e\s+bardhë?|i\s+bardhë?|blanc|pearl|ivory)\b/i },
+  { key: "silver", pattern: /\b(silver|argjend[ti]?[ae]?|platinum)\b/i },
+  { key: "blue",   pattern: /\b(blue|blu)\b/i },
+  { key: "green",  pattern: /\b(green|e\s+gjelb[eë]r|verde|lime|forest)\b/i },
+  { key: "purple", pattern: /\b(purple|violet|vjollc[eë]|mauve)\b/i },
+  { key: "red",    pattern: /\b(red|e\s+kuqe|rouge|scarlet|crimson)\b/i },
+  { key: "yellow", pattern: /\b(yellow|verdh[eë]|gold|amber)\b/i },
+  { key: "pink",   pattern: /\b(pink|roz[eë]?|rose|peach|coral)\b/i },
+  { key: "gray",   pattern: /\b(gr[ae]y|gri)\b/i },
+  { key: "orange", pattern: /\borange\b/i },
+];
+
+/**
+ * Return the canonical colour key from a product name / query string, or null.
+ * Iterates COLOUR_TOKENS in order so the most-specific pattern wins.
+ */
+function extractColour(text: string): string | null {
+  for (const { key, pattern } of COLOUR_TOKENS) {
+    if (pattern.test(text)) return key;
+  }
+  return null;
+}
+
+/**
+ * Extract the requested colour from scraper search terms.
+ * Looks at !-prefixed exact terms (e.g. "!Apple iPhone 17 256GB Black")
+ * which are the variant-specific queries built by buildVariantSearchTerms().
+ */
+function extractColourFromTerms(searchTerms: string[]): string | null {
+  for (const term of searchTerms) {
+    if (term.startsWith("!")) {
+      const c = extractColour(term.slice(1));
+      if (c) return c;
+    }
+  }
+  return null;
+}
+
+/**
  * Fraction of query words that appear in the result name (0 – 1).
  * Used as a confidence backstop after the hard-reject checks.
  */
@@ -120,6 +197,15 @@ function strictMatchScore(resultName: string, queryTerms: string[]): number {
   const rs = extractStorageSize(resultLow);
   if (qs && rs && qs !== rs) return 0;
 
+  // 3b. Colour conflict: if the query specifies a colour and the result shows a
+  //     DIFFERENT colour → reject.  If only one side has a detectable colour
+  //     (e.g. the result name doesn't mention colour at all), allow it through —
+  //     the store may not include colour in the product name.
+  //     This fixes Foleja returning "i bardhë" (White) for a "Black" query.
+  const qc = extractColour(queryLow);
+  const rc = extractColour(resultLow);
+  if (qc && rc && qc !== rc) return 0;
+
   // 4. Accessory hard reject: if the result is an accessory (case, cable, glass…)
   //    but the query is not, score is zero regardless of word overlap.
   const queryWords  = queryLow.split(/\s+/).filter((w) => w.length > 1);
@@ -131,7 +217,10 @@ function strictMatchScore(resultName: string, queryTerms: string[]): number {
   // 5. Minimum confidence: at least 60 % of query words must appear in result.
   if (confidenceRatio(resultName, queryTerms) < MIN_CONFIDENCE) return 0;
 
-  return matchScore(resultName, queryTerms);
+  // Colour-match bonus: if both sides agree on colour, boost score so the
+  // explicit-colour result wins over a colour-less result with equal word overlap.
+  const base = matchScore(resultName, queryTerms);
+  return (qc && rc && qc === rc) ? base * 1.5 : base;
 }
 
 // Score a product name against search terms — higher = better match.
@@ -324,6 +413,52 @@ async function scrapeJsonLd(url: string, storeId: string): Promise<ScrapedPrice 
   return null;
 }
 
+// ── Shopify variant picker ────────────────────────────────────────────────────
+// Shopify products have an `options` array describing what each option slot means
+// (e.g. options[0]={name:"Color"}, options[1]={name:"Storage"}).  Each variant
+// then has option1/option2/option3 values corresponding to those slots.
+// We match the requested colour and storage against those values.
+// Falls back to variants[0] when no searchTerms hint is available.
+
+interface ShopifyVariant { option1?: string; option2?: string; option3?: string; price?: string; available?: boolean }
+interface ShopifyProduct { options?: Array<{ name: string }>; variants?: ShopifyVariant[] }
+
+function pickShopifyVariant(product: ShopifyProduct, searchTerms: string[]): ShopifyVariant | undefined {
+  const variants = product.variants ?? [];
+  if (!variants.length) return undefined;
+
+  const requestedColour  = extractColourFromTerms(searchTerms);
+  const requestedStorage = (() => {
+    for (const t of searchTerms) {
+      if (t.startsWith("!")) {
+        const s = extractStorageSize(t.slice(1));
+        if (s) return s.toLowerCase();
+      }
+    }
+    return null;
+  })();
+
+  if (!requestedColour && !requestedStorage) return variants[0];
+
+  const options = product.options ?? [];
+  // Find which option slot (option1/option2/option3) corresponds to colour vs storage
+  const optionKeys = ["option1", "option2", "option3"] as const;
+
+  const colourSlot  = options.findIndex((o) => /colou?r|ngjyre|color/i.test(o.name));
+  const storageSlot = options.findIndex((o) => /storage|capacity|memory|hapesire|gb|tb/i.test(o.name));
+
+  const match = variants.find((v) => {
+    const colourVal  = colourSlot  >= 0 ? (v[optionKeys[colourSlot]]  ?? "") : "";
+    const storageVal = storageSlot >= 0 ? (v[optionKeys[storageSlot]] ?? "") : "";
+
+    const colourOk  = !requestedColour  || !colourVal  || extractColour(colourVal)  === requestedColour;
+    const storageOk = !requestedStorage || !storageVal || extractStorageSize(storageVal)?.toLowerCase() === requestedStorage;
+    return colourOk && storageOk;
+  });
+
+  return match ?? variants[0] ?? undefined;
+}
+
 // ── Shopify ───────────────────────────────────────────────────────────────────
 // Uses /products/{handle}.json when the product came from this store,
 // falls back to /search.json for cross-store lookups.
@@ -344,7 +479,7 @@ async function scrapeShopify(
         headers: HEADERS,
       });
       const product = data?.product;
-      const variant = product?.variants?.[0];
+      const variant = product ? pickShopifyVariant(product, searchTerms) : null;
       if (variant) {
         const price = variant.price ? parseFloat(variant.price) : null;
         const available = variant.available ?? null;
@@ -400,7 +535,9 @@ async function scrapeShopify(
             const { data: pd } = await axios.get(`${store.url}/products/${h}.json`, {
               timeout: 5000, headers: HEADERS,
             });
-            const variant = pd?.product?.variants?.[0];
+            const prd = pd?.product;
+            if (!prd) continue;
+            const variant = pickShopifyVariant(prd, searchTerms);
             if (!variant) continue;
             const price = variant.price ? parseFloat(variant.price) : null;
             if (price === null) continue;
@@ -434,7 +571,9 @@ async function scrapeShopify(
         timeout: 8000,
         headers: HEADERS,
       });
-      const variant = pd?.product?.variants?.[0];
+      const product = pd?.product;
+      if (!product) continue;
+      const variant = pickShopifyVariant(product, searchTerms);
       if (!variant) continue;
       const price = variant.price ? parseFloat(variant.price) : null;
       const available = variant.available ?? null;
@@ -465,10 +604,19 @@ async function scrapeWooCommerce(
 ): Promise<ScrapedPrice> {
   const lastChecked = new Date().toISOString();
 
+  type WooVariationAttr = { name: string; value: string };
+  type WooVariation = { id: number; attributes?: WooVariationAttr[] };
+
   type WooItem = {
+    id?: number;
     name: string;
     slug: string;
     permalink: string;
+    // "variable" = parent product with colour/storage variants
+    type?: string;
+    // WooCommerce Store v1 returns variation summaries on the parent object.
+    // Each entry has an id and (when available) attribute name→value pairs.
+    variations?: Array<WooVariation | number>;
     prices: { price: string; regular_price: string; currency_minor_unit: number };
     is_in_stock: boolean;
     stock_status: string;
@@ -523,6 +671,51 @@ async function scrapeWooCommerce(
         .filter((x) => x.score > 0)
         .sort((a, b) => b.score - a.score)[0]?.item;
       if (!best) continue;
+
+      // ── Variable-product colour resolution (e.g. Shpresa) ────────────────
+      // Shpresa lists "Apple iPhone 17" as a SINGLE variable product where
+      // colour is a WooCommerce variation attribute (not in the product name).
+      // The parent's is_in_stock is aggregated; we need the specific variation.
+      const requestedColour = extractColourFromTerms(searchTerms);
+      if (requestedColour && best.type === "variable" && Array.isArray(best.variations) && best.variations.length > 0) {
+        // WC Store v1 may return variation objects with attribute data
+        const varObjects = best.variations.filter(
+          (v): v is WooVariation => typeof v === "object" && v !== null && "id" in v
+        );
+
+        if (varObjects.length > 0) {
+          // Find the variation whose colour attribute matches the request
+          const match = varObjects.find((v) =>
+            v.attributes?.some((a) => {
+              const aName = a.name.toLowerCase();
+              return (aName.includes("color") || aName.includes("colour") || aName.includes("ngjyre")) &&
+                extractColour(a.value) === requestedColour;
+            })
+          );
+
+          if (!match) {
+            // Colour attribute data present but no matching variant → not carried
+            return {
+              storeId: store.id, price: null, inStock: null,
+              stockLabel: "E panjohur",
+              productUrl: best.permalink ?? null, lastChecked,
+              error: "Ky variant nuk disponohet",
+            };
+          }
+
+          // Fetch the variation by ID for its own stock status and price
+          try {
+            const { data: varData } = await axios.get(
+              `${store.url}/wp-json/wc/store/v1/products/${match.id}`,
+              { timeout: 8000, headers: HEADERS }
+            );
+            if (varData?.prices) return parseWooItem(varData as WooItem);
+          } catch {
+            // Fall through — use parent data as last resort
+          }
+        }
+        // Variations are IDs only (no attribute info) — fall through to parent stock
+      }
 
       return parseWooItem(best);
     } catch {
