@@ -745,6 +745,8 @@ async function scrapeWooCommerce(
       const items: WooItem[] = Array.isArray(data) ? data : [];
       if (items.length) {
         const item = items[0];
+        console.log(`[slug-lookup] type=${item.type} permalink=${item.permalink} variationsCount=${JSON.stringify(item.variations?.length)}`);
+        console.log(`[slug-lookup] is_in_stock=${item.is_in_stock} variations=${JSON.stringify(item.variations?.slice(0,5))}`);
         if (item.type === "variable") {
           const varResult = await resolveVariation(item);
           if (varResult !== undefined) return varResult;
