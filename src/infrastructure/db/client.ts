@@ -73,5 +73,67 @@ export async function ensureSchema(): Promise<void> {
     ON products(family)
   `;
 
+  // Catalogue status + discovery tracking columns (idempotent)
+  await sql`ALTER TABLE products ADD COLUMN IF NOT EXISTS catalogue_status TEXT NOT NULL DEFAULT 'discovered'`;
+  await sql`ALTER TABLE products ADD COLUMN IF NOT EXISTS last_seen_at TIMESTAMPTZ`;
+  await sql`ALTER TABLE products ADD COLUMN IF NOT EXISTS lowest_price INTEGER`;
+  await sql`ALTER TABLE products ADD COLUMN IF NOT EXISTS lowest_price_updated_at TIMESTAMPTZ`;
+
+  // Store mappings: persist store→catalogue product mapping decisions
+  await sql`
+    CREATE TABLE IF NOT EXISTS store_mappings (
+      id                   SERIAL PRIMARY KEY,
+      store_id             TEXT        NOT NULL,
+      store_product_id     TEXT        NOT NULL,
+      store_product_name   TEXT,
+      catalogue_product_id TEXT        NOT NULL,
+      match_method         TEXT        NOT NULL DEFAULT 'name_match',
+      confidence           INTEGER     NOT NULL DEFAULT 0,
+      status               TEXT        NOT NULL DEFAULT 'pending',
+      created_at           TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+      updated_at           TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+      UNIQUE(store_id, store_product_id)
+    )
+  `;
+
+  await sql`
+    CREATE INDEX IF NOT EXISTS idx_store_mappings_catalogue
+    ON store_mappings(catalogue_product_id)
+  `;
+
+  await sql`
+    CREATE INDEX IF NOT EXISTS idx_store_mappings_status
+    ON store_mappings(status)
+  `;
+
+  // Scraper errors log for admin panel visibility
+  await sql`
+    CREATE TABLE IF NOT EXISTS scraper_errors (
+      id            SERIAL PRIMARY KEY,
+      store_id      TEXT        NOT NULL,
+      error_type    TEXT        NOT NULL,
+      error_message TEXT,
+      product_id    TEXT,
+      occurred_at   TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    )
+  `;
+
+  await sql`
+    CREATE INDEX IF NOT EXISTS idx_scraper_errors_occurred
+    ON scraper_errors(occurred_at DESC)
+  `;
+
+  // Discovery log: daily summary rows
+  await sql`
+    CREATE TABLE IF NOT EXISTS discovery_log (
+      id                SERIAL PRIMARY KEY,
+      run_at            TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+      total_discovered  INTEGER     NOT NULL DEFAULT 0,
+      auto_added        INTEGER     NOT NULL DEFAULT 0,
+      pending_review    INTEGER     NOT NULL DEFAULT 0,
+      discontinued      INTEGER     NOT NULL DEFAULT 0
+    )
+  `;
+
   schemaEnsured = true;
 }

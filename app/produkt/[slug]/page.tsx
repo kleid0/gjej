@@ -1,15 +1,81 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { productCatalog } from "@/src/infrastructure/container";
+import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import ProductVariantSection from "@/components/ProductVariantSection";
 import { CATEGORIES } from "@/src/domain/catalog/Product";
 import { getVariantConfig, extractStorageFromFamily } from "@/src/domain/catalog/variants";
 
-export const dynamic = "force-dynamic";
+// ISR: revalidate product pages every hour
+// Specs never change; prices are fetched client-side from /api/prices
+export const revalidate = 3600;
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://gjej.al";
+const STORE_COUNT = 5;
 
 interface Props {
   params: { slug: string };
   searchParams: { [key: string]: string | string[] | undefined };
+}
+
+export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
+  const product = await productCatalog.getProductById(params.slug);
+  if (!product) return {};
+
+  const storage =
+    typeof searchParams?.hapesire === "string" ? searchParams.hapesire : null;
+  const colour =
+    typeof searchParams?.ngjyre === "string" ? searchParams.ngjyre : null;
+
+  const displayName = `${product.family}${storage ? ` ${storage}` : ""}`;
+  const title = `${displayName} çmimi në Shqipëri - Gjej.al`;
+
+  // Pull lowest known price from cache for the meta description
+  let lowestPrice: number | null = null;
+  try {
+    const allPrices = await priceQuery.getAllCachedPrices();
+    const record = allPrices[product.id];
+    if (record) {
+      const valid = record.prices.filter(
+        (p) => p.price !== null && !p.suspicious && !p.overpriced,
+      );
+      lowestPrice = valid.length ? Math.min(...valid.map((p) => p.price!)) : null;
+    }
+  } catch { /* non-fatal */ }
+
+  const description = lowestPrice
+    ? `Krahaso çmimin e ${product.family} nga ${STORE_COUNT} dyqane shqiptare. Çmimi më i mirë sot: ${lowestPrice.toLocaleString("sq-AL")} ALL`
+    : `Krahaso çmimin e ${product.family} nga ${STORE_COUNT} dyqane shqiptare. Gjej ofertën më të mirë në Gjej.al`;
+
+  // Canonical URL always points to base product — variant querystrings are supplemental
+  const canonical = `${SITE_URL}/produkt/${product.id}`;
+
+  const ogImage = product.imageUrl || `${SITE_URL}/og-default.png`;
+
+  const variantQs: Record<string, string> = {};
+  if (colour) variantQs["ngjyre"] = colour;
+  if (storage) variantQs["hapesire"] = storage;
+  const variantQsStr = new URLSearchParams(variantQs).toString();
+
+  return {
+    title,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: variantQsStr ? `${canonical}?${variantQsStr}` : canonical,
+      siteName: "Gjej.al",
+      images: [{ url: ogImage, width: 1200, height: 630, alt: displayName }],
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
 }
 
 export default async function ProductPage({ params, searchParams }: Props) {
@@ -22,10 +88,12 @@ export default async function ProductPage({ params, searchParams }: Props) {
   const variantConfig = getVariantConfig(product);
   const rawNgjyre = searchParams?.ngjyre;
   const rawHapesire = searchParams?.hapesire;
-  const initialColour = (typeof rawNgjyre === "string" ? rawNgjyre : undefined) ?? variantConfig?.defaultColour;
-  const initialStorage = (typeof rawHapesire === "string" ? rawHapesire : undefined)
-    ?? extractStorageFromFamily(product.family)
-    ?? variantConfig?.defaultStorage;
+  const initialColour =
+    (typeof rawNgjyre === "string" ? rawNgjyre : undefined) ?? variantConfig?.defaultColour;
+  const initialStorage =
+    (typeof rawHapesire === "string" ? rawHapesire : undefined) ??
+    extractStorageFromFamily(product.family) ??
+    variantConfig?.defaultStorage;
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -93,7 +161,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
         </div>
       )}
 
-      {/* Family siblings (same product, different model numbers) */}
+      {/* Family siblings */}
       {siblings.length > 0 && (
         <div className="mb-8 p-4 border border-gray-100 rounded-xl bg-gray-50">
           <p className="text-xs font-semibold text-gray-500 mb-3 uppercase tracking-wide">

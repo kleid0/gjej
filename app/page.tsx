@@ -1,15 +1,34 @@
 import Link from "next/link";
-import { productCatalog } from "@/src/infrastructure/container";
+import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import SearchAutocomplete from "@/components/SearchAutocomplete";
 
-export const dynamic = "force-dynamic";
+// Revalidate homepage every 30 minutes — cached prices refresh daily
+export const revalidate = 1800;
 
 export default async function Home() {
-  const allProducts = await productCatalog.getAllProducts();
+  const [allProducts, allPrices] = await Promise.all([
+    productCatalog.getAllProducts(),
+    priceQuery.getAllCachedPrices(),
+  ]);
+
   const featured = allProducts.slice(0, 8);
   const categories = productCatalog.getCategories();
+
+  // Build lowest-price map from cached prices (exclude suspicious matches)
+  const lowestPriceMap: Record<string, number | null> = {};
+  for (const product of allProducts) {
+    const record = allPrices[product.id];
+    if (record) {
+      const valid = record.prices.filter(
+        (p) => p.price !== null && !p.suspicious && !p.overpriced,
+      );
+      lowestPriceMap[product.id] = valid.length
+        ? Math.min(...valid.map((p) => p.price!))
+        : null;
+    }
+  }
 
   return (
     <div>
@@ -54,7 +73,11 @@ export default async function Home() {
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {featured.map((p) => (
-            <ProductCard key={p.id} product={p} />
+            <ProductCard
+              key={p.id}
+              product={p}
+              lowestPrice={lowestPriceMap[p.id] ?? null}
+            />
           ))}
         </div>
       </section>

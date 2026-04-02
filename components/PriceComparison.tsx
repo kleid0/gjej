@@ -148,9 +148,41 @@ export default function PriceComparison({ productId, variantColour, variantStora
                         {p.suspicious && (
                           <div
                             className="text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded px-1.5 py-0.5 mt-0.5 cursor-help"
-                            title="Çmimi ndryshon shumë nga dyqanet e tjera — ky produkt mund të mos jetë i njëjti."
+                            title="Çmimi është shumë më i ulët se mesatarja e dyqaneve të tjera — ky produkt mund të mos jetë i njëjti."
                           >
                             ⚠ Çmim i dyshimtë
+                          </div>
+                        )}
+                        {p.overpriced && (
+                          <div
+                            className="text-xs text-red-600 bg-red-50 border border-red-200 rounded px-1.5 py-0.5 mt-0.5 cursor-help"
+                            title="Çmimi është shumë mbi mesataren e dyqaneve të tjera."
+                          >
+                            ⚠ Çmim i lartë
+                          </div>
+                        )}
+                        {p.stale && (
+                          <div
+                            className="text-xs text-gray-400 bg-gray-50 border border-gray-200 rounded px-1.5 py-0.5 mt-0.5 cursor-help"
+                            title="Ky çmim mund të mos jetë i azhurnuar. Klikoni Rifresho për çmimin aktual."
+                          >
+                            Çmimi mund të jetë i vjetëruar
+                          </div>
+                        )}
+                        {p.unverified && (
+                          <div
+                            className="text-xs text-gray-500 bg-gray-50 border border-gray-200 rounded px-1.5 py-0.5 mt-0.5"
+                            title="Përputhja e këtij produkti nuk është verifikuar plotësisht."
+                          >
+                            Çmim i paverifikuar
+                          </div>
+                        )}
+                        {p.colourWarning && (
+                          <div
+                            className="text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded px-1.5 py-0.5 mt-0.5 cursor-help"
+                            title="Ngjyra e produktit të gjetur mund të mos jetë saktësisht ajo e kërkuar. Kontrolloni faqen e dyqanit."
+                          >
+                            {p.colourWarning}
                           </div>
                         )}
                       </div>
