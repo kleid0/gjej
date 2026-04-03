@@ -5,6 +5,7 @@ import {
   getAdminStats,
   getRecentScraperErrors,
   getDiscoveryLog,
+  getStoreLastRecorded,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { priceQuery, productCatalog } from "@/src/infrastructure/container";
 import { STORES } from "@/src/infrastructure/stores/registry";
@@ -39,10 +40,11 @@ function StatCard({ label, value, sub, color = "gray" }: {
 }
 
 export default async function AdminPage({ searchParams: _searchParams }: Props) {
-  const [stats, errors, discoveryLog, allPrices, allProducts] = await Promise.allSettled([
+  const [stats, errors, discoveryLog, storeHealth, allPrices, allProducts] = await Promise.allSettled([
     getAdminStats(),
     getRecentScraperErrors(50),
     getDiscoveryLog(10),
+    getStoreLastRecorded(),
     priceQuery.getAllCachedPrices(),
     productCatalog.getAllProducts(),
   ]);
@@ -50,6 +52,8 @@ export default async function AdminPage({ searchParams: _searchParams }: Props) 
   const s = stats.status === "fulfilled" ? stats.value : null;
   const errList = errors.status === "fulfilled" ? errors.value : [];
   const discLog = discoveryLog.status === "fulfilled" ? discoveryLog.value : [];
+  // DB-backed store health (persisted across function instances)
+  const dbStoreLastSeen = storeHealth.status === "fulfilled" ? storeHealth.value : {};
   const prices = allPrices.status === "fulfilled" ? allPrices.value : {};
   const products = allProducts.status === "fulfilled" ? allProducts.value : [];
 
@@ -82,20 +86,10 @@ export default async function AdminPage({ searchParams: _searchParams }: Props) 
   // Products missing image
   const missingImage = products.filter((p) => !p.imageUrl);
 
-  // Store health: last time each store returned a non-null price
-  const storeLastSeen: Record<string, string> = {};
-  for (const record of Object.values(prices)) {
-    for (const p of record.prices) {
-      if (p.price !== null) {
-        const prev = storeLastSeen[p.storeId];
-        if (!prev || record.refreshedAt > prev) {
-          storeLastSeen[p.storeId] = record.refreshedAt;
-        }
-      }
-    }
-  }
-
-  const cutoff24h = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+  // Store health: use DB-backed data (persisted across Vercel function instances).
+  // DB recorded_at is DATE (YYYY-MM-DD); compare against today's date string.
+  const today = new Date().toISOString().split("T")[0];
+  const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().split("T")[0];
 
   const fmt = (iso: string) =>
     new Date(iso).toLocaleString("sq-AL", {
@@ -175,26 +169,29 @@ export default async function AdminPage({ searchParams: _searchParams }: Props) 
             </thead>
             <tbody className="divide-y divide-gray-50">
               {STORES.map((store) => {
-                const lastSeen = storeLastSeen[store.id];
-                const ok = lastSeen && lastSeen > cutoff24h;
+                const lastDate = dbStoreLastSeen[store.id]; // "YYYY-MM-DD" or undefined
+                const ok = lastDate && (lastDate >= today || lastDate >= yesterday);
+                const displayDate = lastDate
+                  ? fmt(lastDate + "T12:00:00Z") // treat as noon UTC for display
+                  : null;
                 return (
                   <tr key={store.id} className="hover:bg-gray-50">
                     <td className="px-4 py-2.5 font-medium text-gray-800">{store.name}</td>
                     <td className="px-4 py-2.5 font-mono text-gray-500">{store.id}</td>
                     <td className="px-4 py-2.5 text-gray-600">
-                      {lastSeen ? fmt(lastSeen) : "Asnjëherë"}
+                      {displayDate ?? "Asnjëherë"}
                     </td>
                     <td className="px-4 py-2.5">
                       <span
                         className={`text-xs font-semibold px-2 py-0.5 rounded-full ${
                           ok
                             ? "bg-green-100 text-green-700"
-                            : lastSeen
+                            : lastDate
                               ? "bg-amber-100 text-amber-700"
                               : "bg-red-100 text-red-700"
                         }`}
                       >
-                        {ok ? "✓ Aktiv" : lastSeen ? "⚠ I vjetër" : "✗ Pa të dhëna"}
+                        {ok ? "✓ Aktiv" : lastDate ? "⚠ I vjetër" : "✗ Pa të dhëna"}
                       </span>
                     </td>
                   </tr>

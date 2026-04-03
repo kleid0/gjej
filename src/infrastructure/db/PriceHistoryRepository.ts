@@ -192,6 +192,24 @@ export async function getDiscoveryLog(limit = 30): Promise<DiscoveryLogRow[]> {
   return result.rows as DiscoveryLogRow[];
 }
 
+// ── Store health ──────────────────────────────────────────────────────────────
+
+/** Returns the most recent recorded_at date string per store (from price_history). */
+export async function getStoreLastRecorded(): Promise<Record<string, string>> {
+  try {
+    await ready();
+    const result = await sql`
+      SELECT store_id, MAX(recorded_at)::text AS last_recorded
+      FROM price_history
+      WHERE price IS NOT NULL
+      GROUP BY store_id
+    `;
+    return Object.fromEntries(result.rows.map((r) => [r.store_id as string, r.last_recorded as string]));
+  } catch {
+    return {};
+  }
+}
+
 // ── Product catalogue helpers ─────────────────────────────────────────────────
 
 export async function updateProductLowestPrice(
