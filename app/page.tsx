@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
+import { STORE_MAP } from "@/src/infrastructure/stores/registry";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import SearchAutocomplete from "@/components/SearchAutocomplete";
@@ -19,18 +20,23 @@ export default async function Home() {
   const categories = productCatalog.getCategories();
 
   // Build lowest-price map: prefer fresh file cache, fall back to DB lowest_price
-  const lowestPriceMap: Record<string, number | null> = {};
+  const lowestPriceMap: Record<string, { price: number; storeName: string } | null> = {};
   for (const product of allProducts) {
     const record = allPrices[product.id];
     if (record) {
       const valid = record.prices.filter(
         (p) => p.price !== null && !p.suspicious && !p.overpriced,
       );
-      lowestPriceMap[product.id] = valid.length
-        ? Math.min(...valid.map((p) => p.price!))
-        : null;
+      if (valid.length) {
+        const best = valid.reduce((a, b) => a.price! < b.price! ? a : b);
+        const store = STORE_MAP[best.storeId];
+        lowestPriceMap[product.id] = { price: best.price!, storeName: store?.name ?? best.storeId };
+      } else {
+        lowestPriceMap[product.id] = null;
+      }
     } else {
-      lowestPriceMap[product.id] = dbPrices[product.id] ?? null;
+      const price = dbPrices[product.id] ?? null;
+      lowestPriceMap[product.id] = price !== null ? { price, storeName: "" } : null;
     }
   }
 
@@ -80,7 +86,8 @@ export default async function Home() {
             <ProductCard
               key={p.id}
               product={p}
-              lowestPrice={lowestPriceMap[p.id] ?? null}
+              lowestPrice={lowestPriceMap[p.id]?.price ?? null}
+              lowestPriceStore={lowestPriceMap[p.id]?.storeName ?? null}
             />
           ))}
         </div>
