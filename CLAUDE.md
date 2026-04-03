@@ -1,188 +1,140 @@
-# Claude Code Configuration - RuFlo V3
+# Claude Code Configuration — Gjej.al
 
-## Behavioral Rules (Always Enforced)
+## Project Overview
+
+Albanian price comparison app (Next.js 14, TypeScript, Vercel Postgres). Scrapes prices from Foleja, Shpresa Group, Neptun, PC Store, Globe Albania, AlbaGame and displays them in a unified catalog.
+
+**Stack:** Next.js 14 App Router · TypeScript · Tailwind CSS · Vercel Postgres · Resend · Recharts
+
+## Behavioral Rules
 
 - Do what has been asked; nothing more, nothing less
-- NEVER create files unless they're absolutely necessary for achieving your goal
-- ALWAYS prefer editing an existing file to creating a new one
-- NEVER proactively create documentation files (*.md) or README files unless explicitly requested
-- NEVER save working files, text/mds, or tests to the root folder
-- Never continuously check status after spawning a swarm — wait for results
+- NEVER create files unless absolutely necessary — prefer editing existing ones
+- NEVER create documentation (*.md) or README files unless explicitly requested
+- NEVER save files to the root folder
 - ALWAYS read a file before editing it
 - NEVER commit secrets, credentials, or .env files
+- NEVER hardcode API keys or credentials in source files
 
 ## File Organization
 
-- NEVER save to root folder — use the directories below
-- Use `/src` for source code files
-- Use `/tests` for test files
-- Use `/docs` for documentation and markdown files
-- Use `/config` for configuration files
-- Use `/scripts` for utility scripts
-- Use `/examples` for example code
+| Directory | Purpose |
+|-----------|---------|
+| `/app` | Next.js App Router — pages and API routes |
+| `/app/api` | API endpoints (scrapers, cron, search, alerts) |
+| `/src/domain` | Pure business logic — no external dependencies |
+| `/src/application` | Use cases (ProductCatalog, PriceQuery, CatalogDiscovery) |
+| `/src/infrastructure` | DB, scrapers, stores, enrichment, DI container |
+| `/components` | Reusable React UI components |
+| `/data` | File-based JSON cache (discovered-products.json) |
+| `/config` | Config files |
+| `/scripts` | Utility scripts |
 
-## Project Architecture
+## Architecture: Domain-Driven Design
 
-- Follow Domain-Driven Design with bounded contexts
-- Keep files under 500 lines
+```
+domain/         ← pure entities, no imports from infra
+application/    ← use cases, depends on domain only
+infrastructure/ ← implements domain interfaces (DB, scrapers, stores)
+app/            ← Next.js pages/routes, uses container.ts for DI
+```
+
+**Rules:**
+- Never import infrastructure directly in UI components — go through `container.ts`
+- Domain layer has zero external dependencies
 - Use typed interfaces for all public APIs
-- Prefer TDD London School (mock-first) for new code
-- Use event sourcing for state changes
-- Ensure input validation at system boundaries
+- Keep files under 500 lines
 
-### Project Config
-
-- **Topology**: hierarchical-mesh
-- **Max Agents**: 15
-- **Memory**: hybrid
-- **HNSW**: Enabled
-- **Neural**: Enabled
-
-## Build & Test
+## Build & Dev
 
 ```bash
-# Build
-npm run build
-
-# Test
-npm test
-
-# Lint
-npm run lint
+npm run dev        # dev server at localhost:3000
+npm run build      # production build — run before committing
+npm run lint       # ESLint check
 ```
 
-- ALWAYS run tests after making code changes
-- ALWAYS verify build succeeds before committing
+- ALWAYS verify `npm run build` succeeds before committing
+- No test suite exists — verify behavior manually or by running build
 
-## Security Rules
+## Database
 
-- NEVER hardcode API keys, secrets, or credentials in source files
-- NEVER commit .env files or any file containing secrets
-- Always validate user input at system boundaries
-- Always sanitize file paths to prevent directory traversal
-- Run `npx @claude-flow/cli@latest security scan` after security-related changes
+**Vercel Postgres** via `@vercel/postgres` with raw SQL (no ORM).
 
-## Concurrency: 1 MESSAGE = ALL RELATED OPERATIONS
+**Tables:** `price_history`, `price_alerts`, `products`, `store_mappings`, `scraper_errors`, `discovery_log`
 
-- All operations MUST be concurrent/parallel in a single message
-- Use Claude Code's Task tool for spawning agents, not just MCP
-- ALWAYS batch ALL todos in ONE TodoWrite call (5-10+ minimum)
-- ALWAYS spawn ALL agents in ONE message with full instructions via Task tool
-- ALWAYS batch ALL file reads/writes/edits in ONE message
-- ALWAYS batch ALL Bash commands in ONE message
-
-## Swarm Orchestration
-
-- MUST initialize the swarm using CLI tools when starting complex tasks
-- MUST spawn concurrent agents using Claude Code's Task tool
-- Never use CLI tools alone for execution — Task tool agents do the actual work
-- MUST call CLI tools AND Task tool in ONE message for complex work
-
-### 3-Tier Model Routing (ADR-026)
-
-| Tier | Handler | Latency | Cost | Use Cases |
-|------|---------|---------|------|-----------|
-| **1** | Agent Booster (WASM) | <1ms | $0 | Simple transforms (var→const, add types) — Skip LLM |
-| **2** | Haiku | ~500ms | $0.0002 | Simple tasks, low complexity (<30%) |
-| **3** | Sonnet/Opus | 2-5s | $0.003-0.015 | Complex reasoning, architecture, security (>30%) |
-
-- Always check for `[AGENT_BOOSTER_AVAILABLE]` or `[TASK_MODEL_RECOMMENDATION]` before spawning agents
-- Use Edit tool directly when `[AGENT_BOOSTER_AVAILABLE]`
-
-## Swarm Configuration & Anti-Drift
-
-- ALWAYS use hierarchical topology for coding swarms
-- Keep maxAgents at 6-8 for tight coordination
-- Use specialized strategy for clear role boundaries
-- Use `raft` consensus for hive-mind (leader maintains authoritative state)
-- Run frequent checkpoints via `post-task` hooks
-- Keep shared memory namespace for all agents
+**File cache:** `/data/discovered-products.json` (~7.7 MB) — written by discovery cron, read for fast homepage loads.
 
 ```bash
-npx @claude-flow/cli@latest swarm init --topology hierarchical --max-agents 8 --strategy specialized
+# Env var needed locally
+POSTGRES_URL=...
+CRON_SECRET=...      # bearer token for cron endpoints
+RESEND_API_KEY=...   # email alerts
 ```
 
-## Swarm Execution Rules
+## Scrapers
 
-- ALWAYS use `run_in_background: true` for all agent Task calls
-- ALWAYS put ALL agent Task calls in ONE message for parallel execution
-- After spawning, STOP — do NOT add more tool calls or check status
-- Never poll TaskOutput or check swarm status — trust agents to return
-- When agent results arrive, review ALL results before proceeding
+Each store uses its **platform-native API** — not HTML scraping:
+- Foleja → Shopware API
+- Shpresa, PC Store → WooCommerce API
+- Neptun → custom API
+- AlbaGame → Shopify API
+- Globe → custom API
 
-## V3 CLI Commands
+When modifying scrapers, preserve the platform-native approach. Don't switch to HTML/CSS selectors unless the API is gone.
 
-### Core Commands
+## Cron Jobs (Vercel)
 
-| Command | Subcommands | Description |
-|---------|-------------|-------------|
-| `init` | 4 | Project initialization |
-| `agent` | 8 | Agent lifecycle management |
-| `swarm` | 6 | Multi-agent swarm coordination |
-| `memory` | 11 | AgentDB memory with HNSW search |
-| `task` | 6 | Task creation and lifecycle |
-| `session` | 7 | Session state management |
-| `hooks` | 17 | Self-learning hooks + 12 workers |
-| `hive-mind` | 6 | Byzantine fault-tolerant consensus |
+| Schedule | Endpoint | Purpose |
+|----------|----------|---------|
+| 3:00 AM UTC daily | `/api/cron/discover` | Discover new products |
+| 6:00 AM UTC daily | `/api/cron/refresh-prices` | Refresh all prices |
 
-### Quick CLI Examples
+Both require `Authorization: Bearer <CRON_SECRET>` header.
+Both use concurrent batching (`CONCURRENCY=12`) to avoid Vercel ORM limits.
 
-```bash
-npx @claude-flow/cli@latest init --wizard
-npx @claude-flow/cli@latest agent spawn -t coder --name my-coder
-npx @claude-flow/cli@latest swarm init --v3-mode
-npx @claude-flow/cli@latest memory search --query "authentication patterns"
-npx @claude-flow/cli@latest doctor --fix
-```
+## Price Quality Rules
 
-## Available Agents (60+ Types)
+These are core business logic — don't break them:
+- Flag prices **>40% below average** as suspicious (likely wrong product match)
+- Flag prices **>60% above average** as overpriced (admin review)
+- Mark prices **older than 24h** as stale
+- Require **≥3 data points** before flagging
 
-### Core Development
-`coder`, `reviewer`, `tester`, `planner`, `researcher`
+## Product Matching Rules
 
-### Specialized
-`security-architect`, `security-auditor`, `memory-specialist`, `performance-engineer`
+Multi-step validation in `PriceQuery` before fuzzy matching:
+1. Generation mismatch (iPhone 17 ≠ iPhone 15)
+2. Tier mismatch (Pro Max vs Pro vs base)
+3. Storage conflict (256GB must match 256GB)
+4. Accessory filtering (case/cable won't match phone)
+5. Confidence threshold ≥60% query word overlap
 
-### Swarm Coordination
-`hierarchical-coordinator`, `mesh-coordinator`, `adaptive-coordinator`
+Don't weaken these guards — they prevent bad price data showing up.
 
-### GitHub & Repository
-`pr-manager`, `code-review-swarm`, `issue-tracker`, `release-manager`
+## Key Files to Know
 
-### SPARC Methodology
-`sparc-coord`, `sparc-coder`, `specification`, `pseudocode`, `architecture`
+| File | Purpose |
+|------|---------|
+| `src/infrastructure/container.ts` | Dependency injection / service wiring |
+| `src/infrastructure/scrapers/` | Store price scrapers |
+| `src/infrastructure/stores/` | Store registry (STORES config) |
+| `src/domain/catalog/Product.ts` | Core product entity |
+| `src/domain/pricing/Price.ts` | ScrapedPrice, PriceRecord |
+| `app/api/cron/refresh-prices/route.ts` | Daily price refresh job |
+| `app/api/search/route.ts` | Product search endpoint |
+| `components/PriceComparison.tsx` | Main price comparison table |
+| `components/PriceHistoryGraph.tsx` | Recharts price history graph |
+| `data/discovered-products.json` | File-based product catalog cache |
 
-## Memory Commands Reference
+## UI / Styling
 
-```bash
-# Store (REQUIRED: --key, --value; OPTIONAL: --namespace, --ttl, --tags)
-npx @claude-flow/cli@latest memory store --key "pattern-auth" --value "JWT with refresh" --namespace patterns
+- Tailwind CSS with custom orange brand palette (`#f57c00` primary)
+- Albanian language throughout: UI text, dates, numbers use `sq-AL` locale
+- No i18n library — strings are hardcoded in Albanian
 
-# Search (REQUIRED: --query; OPTIONAL: --namespace, --limit, --threshold)
-npx @claude-flow/cli@latest memory search --query "authentication patterns"
+## Security
 
-# List (OPTIONAL: --namespace, --limit)
-npx @claude-flow/cli@latest memory list --namespace patterns --limit 10
-
-# Retrieve (REQUIRED: --key; OPTIONAL: --namespace)
-npx @claude-flow/cli@latest memory retrieve --key "pattern-auth" --namespace patterns
-```
-
-## Quick Setup
-
-```bash
-claude mcp add claude-flow -- npx -y @claude-flow/cli@latest
-npx @claude-flow/cli@latest daemon start
-npx @claude-flow/cli@latest doctor --fix
-```
-
-## Claude Code vs CLI Tools
-
-- Claude Code's Task tool handles ALL execution: agents, file ops, code generation, git
-- CLI tools handle coordination via Bash: swarm init, memory, hooks, routing
-- NEVER use CLI tools as a substitute for Task tool agents
-
-## Support
-
-- Documentation: https://github.com/ruvnet/claude-flow
-- Issues: https://github.com/ruvnet/claude-flow/issues
+- Validate all user input at API boundaries
+- Sanitize file paths to prevent directory traversal
+- Cron endpoints protected by bearer token — keep it that way
+- Never expose `POSTGRES_URL` or `CRON_SECRET` client-side
