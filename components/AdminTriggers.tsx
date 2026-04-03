@@ -12,7 +12,7 @@ interface Result {
 
 // Fallback estimates (seconds) used until we have real timing data
 const FALLBACK_DURATION: Record<Action, number> = {
-  "refresh-prices": 180,
+  "refresh-prices": 240, // auto-loops ~3 batches × ~80s each
   "discover":       60,
   "fetch-images":   90,
 };
@@ -20,11 +20,11 @@ const FALLBACK_DURATION: Record<Action, number> = {
 const HISTORY_KEY = "admin_run_history";
 const MAX_SAMPLES = 10;
 
-function loadHistory(): Record<Action, number[]> {
+function loadHistory(): Record<string, number[]> {
   try {
     return JSON.parse(localStorage.getItem(HISTORY_KEY) ?? "{}");
   } catch {
-    return {} as Record<Action, number[]>;
+    return {};
   }
 }
 
@@ -33,7 +33,7 @@ function saveRunDuration(action: Action, durationSecs: number) {
     const history = loadHistory();
     const samples = history[action] ?? [];
     samples.push(Math.round(durationSecs));
-    history[action] = samples.slice(-MAX_SAMPLES); // keep last N
+    history[action] = samples.slice(-MAX_SAMPLES);
     localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
   } catch { /* ignore */ }
 }
@@ -42,13 +42,8 @@ function estimatedDuration(action: Action): number {
   try {
     const samples = loadHistory()[action];
     if (!samples?.length) return FALLBACK_DURATION[action];
-    // Weighted average: recent runs count more
     let total = 0, weight = 0;
-    samples.forEach((s, i) => {
-      const w = i + 1; // older runs have lower weight
-      total += s * w;
-      weight += w;
-    });
+    samples.forEach((s, i) => { const w = i + 1; total += s * w; weight += w; });
     return Math.round(total / weight);
   } catch {
     return FALLBACK_DURATION[action];
@@ -59,50 +54,43 @@ function fmtSecs(s: number): string {
   if (s <= 0) return "acum";
   const m = Math.floor(s / 60);
   const sec = s % 60;
-  if (m > 0) return `${m}m ${sec}s`;
-  return `${sec}s`;
+  return m > 0 ? `${m}m ${sec}s` : `${sec}s`;
 }
 
-function ProgressBar({ action, onDone }: { action: Action; onDone: (secs: number) => void }) {
-  const [progress, setProgress] = useState(0);
+interface ProgressBarProps {
+  action: Action;
+  /** 0–1 override: when we know the real fraction (multi-batch) */
+  overrideFraction?: number;
+}
+
+function ProgressBar({ action, overrideFraction }: ProgressBarProps) {
   const [elapsed, setElapsed] = useState(0);
-  const [eta, setEta] = useState<number | null>(null);
+  const [autoPct, setAutoPct] = useState(0);
   const startRef = useRef(Date.now());
   const totalRef = useRef(estimatedDuration(action));
-  const doneCalledRef = useRef(false);
+  const sampleCount = loadHistory()[action]?.length ?? 0;
 
   useEffect(() => {
     startRef.current = Date.now();
     totalRef.current = estimatedDuration(action);
-    doneCalledRef.current = false;
-    setProgress(0);
-    setElapsed(0);
-    setEta(totalRef.current);
 
     const interval = setInterval(() => {
       const secs = (Date.now() - startRef.current) / 1000;
-      const total = totalRef.current;
       setElapsed(Math.floor(secs));
-      // Exponential ease toward 95%
-      const pct = 95 * (1 - Math.exp(-secs / (total * 0.6)));
-      setProgress(Math.min(pct, 95));
-      // ETA: remaining time based on current pace
-      const remaining = Math.max(0, Math.round(total - secs));
-      setEta(remaining);
+      const pct = 95 * (1 - Math.exp(-secs / (totalRef.current * 0.6)));
+      setAutoPct(Math.min(pct, 95));
     }, 200);
 
-    return () => {
-      clearInterval(interval);
-      if (!doneCalledRef.current) {
-        const secs = (Date.now() - startRef.current) / 1000;
-        doneCalledRef.current = true;
-        onDone(secs);
-      }
-    };
-  }, [action]); // eslint-disable-line react-hooks/exhaustive-deps
+    return () => clearInterval(interval);
+  }, [action]);
 
-  const sampleCount = loadHistory()[action]?.length ?? 0;
-  const etaLabel = eta === null ? null : eta === 0 ? "acum" : `~${fmtSecs(eta)}`;
+  // Use real fraction if available, otherwise auto-estimated
+  const pct = overrideFraction != null
+    ? Math.round(overrideFraction * 100)
+    : Math.round(autoPct);
+
+  const total = totalRef.current;
+  const eta = Math.max(0, Math.round(total - elapsed));
 
   return (
     <div className="space-y-1.5">
@@ -111,25 +99,23 @@ function ProgressBar({ action, onDone }: { action: Action; onDone: (secs: number
           {fmtSecs(elapsed)} kaluar
           {sampleCount > 0 && (
             <span className="ml-1 text-gray-400">
-              · bazuar në {sampleCount} {sampleCount === 1 ? "run" : "runs"} të mëparshëm
+              · bazuar në {sampleCount} {sampleCount === 1 ? "run" : "runs"}
             </span>
           )}
         </span>
-        {etaLabel && (
-          <span className={eta === 0 ? "text-orange-500 font-medium" : "text-gray-500"}>
-            ETA {etaLabel}
-          </span>
-        )}
+        <span className={eta === 0 ? "text-orange-500 font-medium" : ""}>
+          {overrideFraction != null
+            ? `${pct}% — ETA ~${fmtSecs(eta)}`
+            : `ETA ~${fmtSecs(eta)}`}
+        </span>
       </div>
       <div className="w-full bg-gray-100 rounded-full h-2 overflow-hidden">
         <div
           className="h-2 rounded-full bg-orange-400 transition-all duration-300 ease-out"
-          style={{ width: `${progress}%` }}
+          style={{ width: `${pct}%` }}
         />
       </div>
-      <p className="text-xs text-gray-400">
-        Mos e mbyll faqen — po ekzekutohet në sfond
-      </p>
+      <p className="text-xs text-gray-400">Mos e mbyll faqen — po ekzekutohet</p>
     </div>
   );
 }
@@ -141,47 +127,88 @@ export function AdminTriggers() {
   const [loading, setLoading] = useState<Action | null>(null);
   const [result, setResult] = useState<Result | null>(null);
   const [error, setError] = useState<string | null>(null);
+  // Multi-batch progress for refresh-prices
+  const [batchProgress, setBatchProgress] = useState<{ done: number; total: number } | null>(null);
 
   async function trigger(action: Action) {
-    if (!key.trim()) {
-      setError("Vendos çelësin admin.");
-      return;
-    }
+    if (!key.trim()) { setError("Vendos çelësin admin."); return; }
     sessionStorage.setItem("admin_key", key.trim());
     setLoading(action);
     setResult(null);
     setError(null);
+    setBatchProgress(null);
 
     const started = Date.now();
 
     try {
-      const res = await fetch(`/api/admin/trigger?action=${action}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ key: key.trim() }),
-      });
-      const json = await res.json();
-      const durationSecs = (Date.now() - started) / 1000;
+      if (action === "refresh-prices") {
+        // Auto-loop: call the endpoint repeatedly with increasing startIndex
+        let startIndex = 0;
+        let totalRefreshed = 0;
+        let totalErrors = 0;
+        let total = 0;
 
-      if (!res.ok || !json.ok) {
-        setError(json.error ?? json.data?.error ?? "Gabim i panjohur");
-      } else {
-        // Only record successful runs for ETA calibration
+        while (true) {
+          const res = await fetch(`/api/admin/trigger?action=refresh-prices`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ key: key.trim(), startIndex }),
+          });
+          const json = await res.json();
+
+          if (!res.ok || !json.ok) {
+            setError(json.error ?? json.data?.error ?? "Gabim i panjohur");
+            return;
+          }
+
+          const d = json.data as { refreshed: number; errors: number; total: number; nextIndex: number; remaining: number };
+          totalRefreshed += d.refreshed;
+          totalErrors += d.errors;
+          total = d.total;
+          startIndex = d.nextIndex;
+
+          setBatchProgress({ done: startIndex, total });
+
+          if (d.remaining === 0) break;
+        }
+
+        const durationSecs = (Date.now() - started) / 1000;
         saveRunDuration(action, durationSecs);
-        setResult({ action, ok: true, data: json.data });
+        setResult({ action, ok: true, data: { refreshed: totalRefreshed, errors: totalErrors, total } });
+
+      } else {
+        const res = await fetch(`/api/admin/trigger?action=${action}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ key: key.trim() }),
+        });
+        const json = await res.json();
+        const durationSecs = (Date.now() - started) / 1000;
+
+        if (!res.ok || !json.ok) {
+          setError(json.error ?? json.data?.error ?? "Gabim i panjohur");
+        } else {
+          saveRunDuration(action, durationSecs);
+          setResult({ action, ok: true, data: json.data });
+        }
       }
     } catch (e) {
       setError(String(e));
     } finally {
       setLoading(null);
+      setBatchProgress(null);
     }
   }
 
   const buttons: { action: Action; label: string; desc: string }[] = [
-    { action: "refresh-prices", label: "Rifresko Çmimet",   desc: "Scrape të gjitha dyqanet tani" },
+    { action: "refresh-prices", label: "Rifresko Çmimet",   desc: "Të gjitha dyqanet, automatik" },
     { action: "discover",       label: "Zbulo Produkte",     desc: "Kërko produkte të reja" },
     { action: "fetch-images",   label: "Merr Fotot",         desc: "Plotëso fotot e munguara (50/run)" },
   ];
+
+  const overrideFraction = batchProgress
+    ? batchProgress.done / batchProgress.total
+    : undefined;
 
   return (
     <section className="mb-8">
@@ -189,7 +216,6 @@ export function AdminTriggers() {
         Veprime Manuale
       </h2>
       <div className="border border-gray-100 rounded-xl p-5 space-y-4">
-        {/* Key input */}
         <div className="flex gap-2 items-center">
           <label className="text-sm text-gray-600 whitespace-nowrap">Çelësi admin:</label>
           <input
@@ -201,7 +227,6 @@ export function AdminTriggers() {
           />
         </div>
 
-        {/* Trigger buttons */}
         <div className="flex flex-wrap gap-3">
           {buttons.map(({ action, label, desc }) => (
             <button
@@ -215,20 +240,19 @@ export function AdminTriggers() {
                 }`}
             >
               <span className="text-sm font-semibold">{label}</span>
-              <span className="text-xs text-gray-400 mt-0.5">{desc}</span>
+              <span className="text-xs text-gray-400 mt-0.5">
+                {loading === action && batchProgress
+                  ? `${batchProgress.done} / ${batchProgress.total} produkte`
+                  : desc}
+              </span>
             </button>
           ))}
         </div>
 
-        {/* Progress bar */}
         {loading && (
-          <ProgressBar
-            action={loading}
-            onDone={() => { /* duration saved in trigger() on success */ }}
-          />
+          <ProgressBar action={loading} overrideFraction={overrideFraction} />
         )}
 
-        {/* Result / error */}
         {!loading && error && (
           <div className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-4 py-2">
             ✗ {error}
