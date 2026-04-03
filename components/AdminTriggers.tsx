@@ -10,44 +10,116 @@ interface Result {
   data: Record<string, unknown>;
 }
 
-// Estimated durations in seconds for each action (used to drive the progress bar)
-const ESTIMATED_DURATION: Record<Action, number> = {
+// Fallback estimates (seconds) used until we have real timing data
+const FALLBACK_DURATION: Record<Action, number> = {
   "refresh-prices": 180,
   "discover":       60,
   "fetch-images":   90,
 };
 
-function ProgressBar({ action }: { action: Action }) {
+const HISTORY_KEY = "admin_run_history";
+const MAX_SAMPLES = 10;
+
+function loadHistory(): Record<Action, number[]> {
+  try {
+    return JSON.parse(localStorage.getItem(HISTORY_KEY) ?? "{}");
+  } catch {
+    return {} as Record<Action, number[]>;
+  }
+}
+
+function saveRunDuration(action: Action, durationSecs: number) {
+  try {
+    const history = loadHistory();
+    const samples = history[action] ?? [];
+    samples.push(Math.round(durationSecs));
+    history[action] = samples.slice(-MAX_SAMPLES); // keep last N
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+  } catch { /* ignore */ }
+}
+
+function estimatedDuration(action: Action): number {
+  try {
+    const samples = loadHistory()[action];
+    if (!samples?.length) return FALLBACK_DURATION[action];
+    // Weighted average: recent runs count more
+    let total = 0, weight = 0;
+    samples.forEach((s, i) => {
+      const w = i + 1; // older runs have lower weight
+      total += s * w;
+      weight += w;
+    });
+    return Math.round(total / weight);
+  } catch {
+    return FALLBACK_DURATION[action];
+  }
+}
+
+function fmtSecs(s: number): string {
+  if (s <= 0) return "acum";
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  if (m > 0) return `${m}m ${sec}s`;
+  return `${sec}s`;
+}
+
+function ProgressBar({ action, onDone }: { action: Action; onDone: (secs: number) => void }) {
   const [progress, setProgress] = useState(0);
   const [elapsed, setElapsed] = useState(0);
+  const [eta, setEta] = useState<number | null>(null);
   const startRef = useRef(Date.now());
-  const total = ESTIMATED_DURATION[action];
+  const totalRef = useRef(estimatedDuration(action));
+  const doneCalledRef = useRef(false);
 
   useEffect(() => {
     startRef.current = Date.now();
+    totalRef.current = estimatedDuration(action);
+    doneCalledRef.current = false;
     setProgress(0);
     setElapsed(0);
+    setEta(totalRef.current);
 
     const interval = setInterval(() => {
       const secs = (Date.now() - startRef.current) / 1000;
+      const total = totalRef.current;
       setElapsed(Math.floor(secs));
-      // Ease toward 95% — never hits 100% until we're done
+      // Exponential ease toward 95%
       const pct = 95 * (1 - Math.exp(-secs / (total * 0.6)));
       setProgress(Math.min(pct, 95));
+      // ETA: remaining time based on current pace
+      const remaining = Math.max(0, Math.round(total - secs));
+      setEta(remaining);
     }, 200);
 
-    return () => clearInterval(interval);
-  }, [action, total]);
+    return () => {
+      clearInterval(interval);
+      if (!doneCalledRef.current) {
+        const secs = (Date.now() - startRef.current) / 1000;
+        doneCalledRef.current = true;
+        onDone(secs);
+      }
+    };
+  }, [action]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const mins = Math.floor(elapsed / 60);
-  const secs = elapsed % 60;
-  const timeStr = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`;
+  const sampleCount = loadHistory()[action]?.length ?? 0;
+  const etaLabel = eta === null ? null : eta === 0 ? "acum" : `~${fmtSecs(eta)}`;
 
   return (
     <div className="space-y-1.5">
       <div className="flex justify-between text-xs text-gray-500">
-        <span>Duke u ekzekutuar…</span>
-        <span>{timeStr} kaluar</span>
+        <span>
+          {fmtSecs(elapsed)} kaluar
+          {sampleCount > 0 && (
+            <span className="ml-1 text-gray-400">
+              · bazuar në {sampleCount} {sampleCount === 1 ? "run" : "runs"} të mëparshëm
+            </span>
+          )}
+        </span>
+        {etaLabel && (
+          <span className={eta === 0 ? "text-orange-500 font-medium" : "text-gray-500"}>
+            ETA {etaLabel}
+          </span>
+        )}
       </div>
       <div className="w-full bg-gray-100 rounded-full h-2 overflow-hidden">
         <div
@@ -56,7 +128,7 @@ function ProgressBar({ action }: { action: Action }) {
         />
       </div>
       <p className="text-xs text-gray-400">
-        Mund të zgjasë deri në {Math.ceil(total / 60)} min — mos e mbyll faqen
+        Mos e mbyll faqen — po ekzekutohet në sfond
       </p>
     </div>
   );
@@ -80,6 +152,8 @@ export function AdminTriggers() {
     setResult(null);
     setError(null);
 
+    const started = Date.now();
+
     try {
       const res = await fetch(`/api/admin/trigger?action=${action}`, {
         method: "POST",
@@ -87,9 +161,13 @@ export function AdminTriggers() {
         body: JSON.stringify({ key: key.trim() }),
       });
       const json = await res.json();
+      const durationSecs = (Date.now() - started) / 1000;
+
       if (!res.ok || !json.ok) {
         setError(json.error ?? json.data?.error ?? "Gabim i panjohur");
       } else {
+        // Only record successful runs for ETA calibration
+        saveRunDuration(action, durationSecs);
         setResult({ action, ok: true, data: json.data });
       }
     } catch (e) {
@@ -100,9 +178,9 @@ export function AdminTriggers() {
   }
 
   const buttons: { action: Action; label: string; desc: string }[] = [
-    { action: "refresh-prices", label: "Rifresko Çmimet",    desc: "Scrape të gjitha dyqanet tani" },
-    { action: "discover",       label: "Zbulo Produkte",      desc: "Kërko produkte të reja" },
-    { action: "fetch-images",   label: "Merr Fotot",          desc: "Plotëso fotot e munguara (50/run)" },
+    { action: "refresh-prices", label: "Rifresko Çmimet",   desc: "Scrape të gjitha dyqanet tani" },
+    { action: "discover",       label: "Zbulo Produkte",     desc: "Kërko produkte të reja" },
+    { action: "fetch-images",   label: "Merr Fotot",         desc: "Plotëso fotot e munguara (50/run)" },
   ];
 
   return (
@@ -142,10 +220,15 @@ export function AdminTriggers() {
           ))}
         </div>
 
-        {/* Progress bar — shown while a job is running */}
-        {loading && <ProgressBar action={loading} />}
+        {/* Progress bar */}
+        {loading && (
+          <ProgressBar
+            action={loading}
+            onDone={() => { /* duration saved in trigger() on success */ }}
+          />
+        )}
 
-        {/* Result */}
+        {/* Result / error */}
         {!loading && error && (
           <div className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-4 py-2">
             ✗ {error}
