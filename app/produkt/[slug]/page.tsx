@@ -44,7 +44,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   } catch { /* non-fatal */ }
 
   const description = lowestPrice
-    ? `Krahaso çmimin e ${product.family} nga ${STORE_COUNT} dyqane shqiptare. Çmimi më i mirë sot: ${lowestPrice.toLocaleString("sq-AL")} ALL`
+    ? `Krahaso çmimin e ${product.family} nga ${STORE_COUNT} dyqane shqiptare. Çmimi më i mirë sot: ${lowestPrice.toLocaleString("sq-AL")} Lekë`
     : `Krahaso çmimin e ${product.family} nga ${STORE_COUNT} dyqane shqiptare. Gjej ofertën më të mirë në Gjej.al`;
 
   // Canonical URL always points to base product — variant querystrings are supplemental

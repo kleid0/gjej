@@ -359,7 +359,7 @@ function GridCard({ p }: { p: ProductSummary }) {
             <p className="text-[11px] text-gray-400 leading-none">Nga</p>
             <p className="text-lg font-bold text-orange-600 leading-tight">
               {p.bestPrice.toLocaleString("sq-AL")}{" "}
-              <span className="text-xs font-medium text-gray-400">ALL</span>
+              <span className="text-xs font-medium text-gray-400">Lekë</span>
             </p>
           </div>
         ) : (
@@ -422,7 +422,7 @@ function ListCard({ p }: { p: ProductSummary }) {
             <p className="text-xl font-bold text-orange-600">
               {p.bestPrice.toLocaleString("sq-AL")}
             </p>
-            <p className="text-[11px] text-gray-400">ALL</p>
+            <p className="text-[11px] text-gray-400">Lekë</p>
           </>
         ) : (
           <span className="text-xs text-orange-500 font-medium">
