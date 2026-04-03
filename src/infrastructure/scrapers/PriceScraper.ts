@@ -88,10 +88,10 @@ function extractStorageSize(text: string): string | null {
  */
 const COLOUR_TOKENS: Array<{ key: string; pattern: RegExp }> = [
   // Titanium sub-variants (must precede plain "titanium" / "black" / "white")
-  { key: "natural-titanium",     pattern: /\bnatural\s+titanium\b/i },
+  { key: "natural-titanium",     pattern: /\b(natural\s+titanium|titanium\s+natural)\b/i },
   { key: "black-titanium",       pattern: /\b(black\s+titanium|titanium\s+black)\b/i },
   { key: "white-titanium",       pattern: /\b(white\s+titanium|titanium\s+white(?:\s+silver)?)\b/i },
-  { key: "desert-titanium",      pattern: /\bdesert\s+titanium\b/i },
+  { key: "desert-titanium",      pattern: /\b(desert\s+titanium|titanium\s+desert|titanio\s+desierto)\b/i },
   { key: "silver-blue-titanium", pattern: /\btitanium\s+silver\s+blue\b/i },
   { key: "gray-titanium",        pattern: /\btitanium\s+gr[ae]y\b/i },
   { key: "silver-titanium",      pattern: /\btitanium\s+silver\b/i },
@@ -122,13 +122,114 @@ const COLOUR_TOKENS: Array<{ key: string; pattern: RegExp }> = [
   { key: "silver", pattern: /\b(silver|argjend[ti]?[ae]?|platinum)\b/i },
   { key: "blue",   pattern: /\b(blue|blu)\b/i },
   { key: "green",  pattern: /\b(green|e\s+gjelb[eë]r|verde|lime|forest)\b/i },
-  { key: "purple", pattern: /\b(purple|violet|vjollc[eë]|mauve)\b/i },
+  { key: "purple", pattern: /\b(purple|violet|vjollc[eë]|mauve|purp[eë]l)\b/i },
   { key: "red",    pattern: /\b(red|e\s+kuqe|rouge|scarlet|crimson)\b/i },
   { key: "yellow", pattern: /\b(yellow|verdh[eë]|gold|amber)\b/i },
   { key: "pink",   pattern: /\b(pink|roz[eë]?|rose|peach|coral)\b/i },
   { key: "gray",   pattern: /\b(gr[ae]y|gri)\b/i },
   { key: "orange", pattern: /\borange\b/i },
 ];
+
+// Colour alias pairs (bidirectional) — both keys are functionally equivalent (90% confidence).
+// "black-titanium" and "black" are the same colour family with different naming conventions.
+const COLOUR_ALIAS_PAIRS: Array<[string, string]> = [
+  ["black-titanium", "black"],
+  ["white-titanium", "white"],
+  ["natural-titanium", "silver"],
+  ["silver-titanium", "silver"],
+  ["desert-titanium", "yellow"],    // Desert Titanium is a warm gold/sand tone
+  ["starlight", "white"],
+  ["starlight", "silver"],
+  ["space-gray", "gray"],
+  ["space-black", "black"],
+  ["phantom-black", "black"],
+  ["cobalt-violet", "purple"],      // Cobalt Violet is a violet/purple
+  ["lavender", "purple"],           // Lavender is a light purple
+  ["moonstone", "gray"],
+  ["silver-shadow", "silver"],
+  ["silver-shadow", "gray"],
+  ["navy", "blue"],
+  ["teal", "blue"],
+  ["teal", "green"],
+  ["mint", "green"],
+  ["sage", "green"],
+  ["mist-blue", "blue"],
+  ["icy-blue", "blue"],
+  ["storm-blue", "blue"],
+  ["light-blue", "blue"],
+  ["deep-blue", "blue"],
+  ["ultramarine", "blue"],
+];
+
+// Colour family groups — colours in the same family match at 60% confidence (uncertain).
+const COLOUR_FAMILY: Record<string, string> = {
+  "black": "dark",         "black-titanium": "dark",  "space-black": "dark", "phantom-black": "dark",
+  "white": "light",        "white-titanium": "light", "starlight": "light",
+  "silver": "neutral",     "natural-titanium": "neutral", "silver-titanium": "neutral",
+  "gray": "neutral",       "space-gray": "neutral",   "gray-titanium": "neutral",
+  "moonstone": "neutral",  "silver-shadow": "neutral",
+  "blue": "cool",          "navy": "cool",            "mist-blue": "cool",
+  "icy-blue": "cool",      "storm-blue": "cool",      "light-blue": "cool",
+  "deep-blue": "cool",     "ultramarine": "cool",     "silver-blue-titanium": "cool",
+  "purple": "violet",      "lavender": "violet",      "cobalt-violet": "violet",
+  "green": "warm-cool",    "mint": "warm-cool",       "teal": "warm-cool",   "sage": "warm-cool",
+  "red": "warm",           "pink": "warm",            "orange": "warm",      "cosmic-orange": "warm",
+  "yellow": "warm",        "desert-titanium": "warm",
+};
+
+/**
+ * Confidence score (0–100) that candidateText represents the requestedColour key.
+ * Returns -1 when no colour is detectable in candidateText.
+ *   100 = exact key match
+ *    90 = known alias (e.g. "Lavender" for "purple" query)
+ *    60 = same colour family (flag as uncertain)
+ *     0 = different colour confirmed (reject)
+ *    -1 = no colour info found (unknown)
+ */
+function colourConfidence(requestedKey: string, candidateText: string): number {
+  const candidateKey = extractColour(candidateText);
+  if (candidateKey === null) return -1;
+  if (candidateKey === requestedKey) return 100;
+  for (const [a, b] of COLOUR_ALIAS_PAIRS) {
+    if ((a === requestedKey && b === candidateKey) || (b === requestedKey && a === candidateKey)) return 90;
+  }
+  const reqFam = COLOUR_FAMILY[requestedKey];
+  const candFam = COLOUR_FAMILY[candidateKey];
+  if (reqFam && candFam && reqFam === candFam) return 60;
+  return 0;
+}
+
+/** Build a "colour variant not available" ScrapedPrice. */
+function colourUnavailable(storeId: string, productUrl: string | null = null): ScrapedPrice {
+  return {
+    storeId, price: null, inStock: null,
+    stockLabel: "Ky variant nuk disponohet",
+    productUrl, lastChecked: new Date().toISOString(),
+    error: "Ky variant nuk disponohet",
+  };
+}
+
+/**
+ * Validate a found scraper result against the requested colour.
+ *   conf ≥ 90  → pass through unchanged
+ *   conf 60–89 → pass with colourWarning (uncertain match)
+ *   conf 0     → return colourUnavailable (wrong colour confirmed)
+ *   conf -1    → strict=true: unavailable; strict=false: pass through (store has no colour variants)
+ */
+function validateColour(
+  requestedColour: string | null,
+  candidateText: string,
+  result: ScrapedPrice,
+  storeId: string,
+  strict = true,
+): ScrapedPrice {
+  if (!requestedColour) return result;
+  const conf = colourConfidence(requestedColour, candidateText);
+  if (conf >= 90) return result;
+  if (conf >= 60) return { ...result, colourWarning: "⚠️ Ngjyra mund të ndryshojë" };
+  if (conf === -1) return strict ? colourUnavailable(storeId, result.productUrl) : result;
+  return colourUnavailable(storeId, result.productUrl);
+}
 
 /**
  * Return the canonical colour key from a product name / query string, or null.
@@ -423,7 +524,7 @@ async function scrapeJsonLd(url: string, storeId: string): Promise<ScrapedPrice 
 interface ShopifyVariant { option1?: string; option2?: string; option3?: string; price?: string; available?: boolean }
 interface ShopifyProduct { options?: Array<{ name: string }>; variants?: ShopifyVariant[] }
 
-function pickShopifyVariant(product: ShopifyProduct, searchTerms: string[]): ShopifyVariant | undefined {
+function pickShopifyVariant(product: ShopifyProduct, searchTerms: string[]): ShopifyVariant | null | undefined {
   const variants = product.variants ?? [];
   if (!variants.length) return undefined;
 
@@ -456,7 +557,10 @@ function pickShopifyVariant(product: ShopifyProduct, searchTerms: string[]): Sho
     return colourOk && storageOk;
   });
 
-  return match ?? variants[0] ?? undefined;
+  if (match) return match;
+  // Colour was requested but no matching variant — return null to signal unavailable
+  if (requestedColour) return null;
+  return variants[0] ?? undefined;
 }
 
 // ── Shopify ───────────────────────────────────────────────────────────────────
@@ -479,7 +583,10 @@ async function scrapeShopify(
         headers: HEADERS,
       });
       const product = data?.product;
-      const variant = product ? pickShopifyVariant(product, searchTerms) : null;
+      const variant = product ? pickShopifyVariant(product, searchTerms) : undefined;
+      if (product && variant === null) {
+        return colourUnavailable(store.id, `${store.url}/products/${handle}`);
+      }
       if (variant) {
         const price = variant.price ? parseFloat(variant.price) : null;
         const available = variant.available ?? null;
@@ -538,6 +645,7 @@ async function scrapeShopify(
             const prd = pd?.product;
             if (!prd) continue;
             const variant = pickShopifyVariant(prd, searchTerms);
+            if (variant === null) return colourUnavailable(store.id, `${store.url}/products/${h}`);
             if (!variant) continue;
             const price = variant.price ? parseFloat(variant.price) : null;
             if (price === null) continue;
@@ -574,6 +682,7 @@ async function scrapeShopify(
       const product = pd?.product;
       if (!product) continue;
       const variant = pickShopifyVariant(product, searchTerms);
+      if (variant === null) return colourUnavailable(store.id, `${store.url}/products/${handle}`);
       if (!variant) continue;
       const price = variant.price ? parseFloat(variant.price) : null;
       const available = variant.available ?? null;
@@ -865,10 +974,16 @@ async function scrapeShopwareProductPage(url: string, storeId: string): Promise<
 
 async function scrapeShopware(store: Store, searchTerms: string[]): Promise<ScrapedPrice> {
   const storeBase = store.url.replace(/\/$/, "");
+  const requestedColour = extractColourFromTerms(searchTerms);
 
-  // 1. Direct product page lookup — own-store products have their Foleja URL in searchTerms
+  // 1. Direct product page lookup — own-store products have their Foleja URL in searchTerms.
+  //    Skip the stored URL if it contains a different colour than requested (fall through to search).
   for (const term of searchTerms) {
     if (!term.startsWith(storeBase + "/")) continue;
+    if (requestedColour) {
+      const urlColour = extractColour(term);
+      if (urlColour !== null && urlColour !== requestedColour) break;
+    }
     const result = await scrapeShopwareProductPage(term, store.id);
     if (result) return result;
     break;
@@ -933,9 +1048,12 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
       const best = scored.sort((a, b) => b.score - a.score)[0]?.c;
       if (!best) continue;
 
+      // Validate colour from the candidate name + URL before returning any price.
+      const candidateText = `${best.name} ${best.url}`;
+
       // Use listing price if available (saves a second HTTP request)
       if (best.listingPrice !== null && best.listingPrice > 0) {
-        return {
+        const baseResult: ScrapedPrice = {
           storeId: store.id,
           price: best.listingPrice,
           inStock: null,
@@ -943,10 +1061,11 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
           productUrl: best.url,
           lastChecked: new Date().toISOString(),
         };
+        return validateColour(requestedColour, candidateText, baseResult, store.id);
       }
 
       const result = await scrapeShopwareProductPage(best.url, store.id);
-      if (result) return result;
+      if (result) return validateColour(requestedColour, candidateText, result, store.id);
     } catch {
       continue;
     }
@@ -1005,7 +1124,7 @@ async function scrapeGlobe(store: Store, searchTerms: string[]): Promise<Scraped
       const price = best.offerPrice ?? best.salePrice ?? best.price;
       const inStock = best.stock > 0;
 
-      return {
+      const baseResult: ScrapedPrice = {
         storeId: store.id,
         price,
         inStock,
@@ -1013,6 +1132,9 @@ async function scrapeGlobe(store: Store, searchTerms: string[]): Promise<Scraped
         productUrl: `${store.url}/products/${best.id}`,
         lastChecked,
       };
+      // Globe doesn't always include colour in product names; use strict=false so a
+      // no-colour-info result passes through rather than being rejected outright.
+      return validateColour(extractColourFromTerms(searchTerms), best.name, baseResult, store.id, false);
     }
   } catch {
     // network or parse error
@@ -1085,7 +1207,7 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
     ? bestItem.DiscountPrice
     : bestItem.ActualPrice;
 
-  return {
+  const baseResult: ScrapedPrice = {
     storeId: store.id,
     price,
     inStock: bestItem.AvailableWebshop,
@@ -1093,6 +1215,7 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
     productUrl: `${store.url}${bestItem.Url}`,
     lastChecked,
   };
+  return validateColour(extractColourFromTerms(searchTerms), `${bestItem.Title} ${bestItem.Url}`, baseResult, store.id);
 }
 
 // ── HTML fallback ─────────────────────────────────────────────────────────────

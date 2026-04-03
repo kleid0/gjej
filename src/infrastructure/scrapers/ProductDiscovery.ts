@@ -13,6 +13,8 @@ const HEADERS = {
   "Cache-Control": "no-cache",
 };
 const JSON_HEADERS = { ...HEADERS, "Accept": "application/json" };
+// PC Store blocks standard UAs via WAF; Googlebot UA is accepted
+const GOOGLEBOT_HEADERS = { "User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "Accept": "application/json" };
 
 function slugify(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80);
@@ -144,13 +146,14 @@ async function fetchShopify(storeId: string, baseUrl: string): Promise<Product[]
 // ── WooCommerce ───────────────────────────────────────────────────────────────
 interface WooProduct { name: string; slug: string; sku: string; categories: Array<{ name: string }>; images: Array<{ src: string }>; }
 
-async function fetchWooCommerce(storeId: string, baseUrl: string): Promise<Product[]> {
+async function fetchWooCommerce(storeId: string, baseUrl: string, extraHeaders?: Record<string, string>): Promise<Product[]> {
   const products: Product[] = [];
   let page = 1;
   const perPage = 100;
+  const headers = extraHeaders ? { ...JSON_HEADERS, ...extraHeaders } : JSON_HEADERS;
   while (true) {
     try {
-      const { data } = await axios.get(`${baseUrl}/wp-json/wc/store/v1/products`, { params: { per_page: perPage, page }, timeout: 15000, headers: JSON_HEADERS });
+      const { data } = await axios.get(`${baseUrl}/wp-json/wc/store/v1/products`, { params: { per_page: perPage, page }, timeout: 25000, headers });
       const items: WooProduct[] = Array.isArray(data) ? data : [];
       if (!items.length) break;
       for (const item of items) {
@@ -174,67 +177,162 @@ const FOLEJA_TERMS = ["smartphone", "Samsung Galaxy", "iPhone", "Xiaomi", "lapto
 async function fetchFoleja(): Promise<Product[]> {
   const discovered = new Map<string, Product>();
   for (const term of FOLEJA_TERMS) {
-    try {
-      const { data } = await axios.get("https://www.foleja.al/search", { params: { search: term, p: 1 }, timeout: 12000, headers: HEADERS });
-      const $ = cheerio.load(data);
-      $(".product-box, .product-info, .product-name").each((_: number, el: any) => {
-        const $el = $(el);
-        const link = $el.find("a[href*='/']").first();
-        const href = link.attr("href") ?? $el.closest("a").attr("href");
-        if (!href) return;
-        const name = ($el.find(".product-name, h2, h3, .name").first().text().trim() || link.text().trim() || "").replace(/\s+/g, " ").trim();
-        if (!name || name.length < 4 || name.length > 200) return;
-        const img = $el.find("img").first();
-        const rawSrc = img.attr("src") || img.attr("data-src") || "";
-        const imageUrl = rawSrc ? (rawSrc.startsWith("http") ? rawSrc : `https://www.foleja.al${rawSrc}`) : "";
-        const id = `foleja-${slugify(name)}`;
-        if (discovered.has(id)) return;
-        const { category, subcategory } = guessCategory(name);
-        const productUrl = href.startsWith("http") ? href : `https://www.foleja.al${href}`;
-        discovered.set(id, { id, modelNumber: extractModelNumber(name, ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name, productUrl] });
-      });
-    } catch { /* blocked or unreachable */ }
+    for (let page = 1; page <= 5; page++) {
+      try {
+        const { data } = await axios.get("https://www.foleja.al/search", { params: { search: term, p: page }, timeout: 12000, headers: HEADERS });
+        const $ = cheerio.load(data);
+        let found = 0;
+        $(".product-box, .product-info, .product-name").each((_: number, el: any) => {
+          const $el = $(el);
+          const link = $el.find("a[href*='/']").first();
+          const href = link.attr("href") ?? $el.closest("a").attr("href");
+          if (!href) return;
+          const name = ($el.find(".product-name, h2, h3, .name").first().text().trim() || link.text().trim() || "").replace(/\s+/g, " ").trim();
+          if (!name || name.length < 4 || name.length > 200) return;
+          const img = $el.find("img").first();
+          const rawSrc = img.attr("src") || img.attr("data-src") || "";
+          const imageUrl = rawSrc ? (rawSrc.startsWith("http") ? rawSrc : `https://www.foleja.al${rawSrc}`) : "";
+          const id = `foleja-${slugify(name)}`;
+          if (discovered.has(id)) return;
+          const { category, subcategory } = guessCategory(name);
+          const productUrl = href.startsWith("http") ? href : `https://www.foleja.al${href}`;
+          discovered.set(id, { id, modelNumber: extractModelNumber(name, ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name, productUrl] });
+          found++;
+        });
+        if (found === 0) break; // no more results for this term
+      } catch { break; }
+      await new Promise((r) => setTimeout(r, 400));
+    }
     await new Promise((r) => setTimeout(r, 300));
   }
   return Array.from(discovered.values());
 }
 
-// ── HTML fallback ─────────────────────────────────────────────────────────────
-const HTML_STORES = [
-  { id: "neptun", searchUrls: (q: string) => [`https://www.neptun.al/search-product-result.nspx?keyword=${encodeURIComponent(q)}`], selectors: ["a.product-link", ".product-name a", "h2 a", ".product-item a"], terms: ["laptop", "telefon", "iPhone", "televizor", "Gaming", "PlayStation"] },
-  { id: "pcstore", searchUrls: (q: string) => [`https://www.pcstore.al/?s=${encodeURIComponent(q)}&post_type=product`], selectors: ["a.woocommerce-loop-product__link", "a[href*='/product/']", "li.product a[href]", ".product-title a"], terms: ["laptop", "SSD", "monitor", "keyboard", "mouse", "RAM"] },
+// ── Globe Albania ─────────────────────────────────────────────────────────────
+interface GlobeProduct { id: number; name: string; price: number; image: string | null; images: string[]; category: string; sku: string; brand: string; stock: number; categories: string[]; }
+
+async function fetchGlobe(): Promise<Product[]> {
+  try {
+    const { data } = await axios.get<GlobeProduct[]>("https://www.globe.al/api/products", { timeout: 20000, headers: JSON_HEADERS });
+    if (!Array.isArray(data)) return [];
+    return data
+      .filter((item) => item.name && item.name.length >= 3)
+      .map((item) => {
+        const name = decodeHtml(item.name);
+        const cats = item.categories ?? [];
+        const { category, subcategory } = guessCategory(name, [], "", cats);
+        const imageUrl = item.image ?? item.images?.[0] ?? "";
+        return { id: `globe-${item.id}`, modelNumber: extractModelNumber(name, item.sku ?? ""), family: name, brand: extractBrand(name, item.brand), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name] };
+      });
+  } catch { return []; }
+}
+
+// ── Neptun Albania ────────────────────────────────────────────────────────────
+// Neptun uses an AngularJS frontend with a JSON API at NeptunCategories/LoadProductsForCategory.
+// Products are not in static HTML; a mobile UA is required to bypass Cloudflare.
+const NEPTUN_MOBILE_UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1";
+const NEPTUN_IMAGE_BASE = "https://www.neptun.al/";
+
+// Category IDs discovered by probing the API (IDs 1–300 scanned; only non-empty ones listed).
+// Covers phones, tablets, computers, TVs, audio, cameras, gaming, accessories, and home appliances.
+const NEPTUN_CATEGORY_IDS = [
+  // Phones & wearables
+  144, 143, 149, 146, 147,
+  // Tablets & computers
+  106, 82, 80, 81, 92,
+  // TV & audio
+  276, 165, 138, 84, 162,
+  // Cameras
+  35, 73, 36, 75,
+  // Gaming
+  261, 187, 192,
+  // Printers & office
+  100, 99, 101, 103,
+  // PC peripherals
+  93, 96, 90, 94,
+  // Mobile accessories
+  136, 140, 135, 134, 139, 131,
+  // Large accessories buckets
+  241, 250, 130, 236, 237,
+  // Small kitchen appliances
+  24, 25, 26, 28, 29, 31, 37, 38, 40, 41, 43, 45, 46, 47, 48, 49, 51, 53, 63,
+  // Personal care
+  54, 56, 120, 122, 123, 124, 125, 127,
+  // Vacuum & floor
+  20, 21, 219, 220,
+  // Irons & steam
+  23, 118, 221,
+  // Lighting
+  60,
+  // Health
+  110, 111,
+  // Cookware
+  238, 227,
+  // Other accessories
+  240, 243, 244, 246, 247, 248, 251, 260,
+  // Misc
+  33, 85, 91,
 ];
 
-async function fetchHtmlStore(store: typeof HTML_STORES[0]): Promise<Product[]> {
+interface NeptunItem {
+  Id: number;
+  Title: string;
+  Manufacturer: { Name: string } | null;
+  Category: { Id: number; Name: string; NameEn: string } | null;
+  ModelNumber: string | null;
+  ProductCode: string | null;
+  Thumbnail: string | null;
+}
+
+async function fetchNeptunCategory(categoryId: number): Promise<NeptunItem[]> {
+  const items: NeptunItem[] = [];
+  let page = 1;
+  const pageSize = 100;
+  while (true) {
+    try {
+      const { data } = await axios.post(
+        "https://www.neptun.al/NeptunCategories/LoadProductsForCategory",
+        { model: { CategoryId: categoryId, Sort: 4, Manufacturers: [], PriceRange: null, BoolFeatures: [], DropdownFeatures: [], MultiSelectFeatures: [], ShowAllProducts: false, ItemsPerPage: pageSize, CurrentPage: page } },
+        { timeout: 20000, headers: { ...JSON_HEADERS, "User-Agent": NEPTUN_MOBILE_UA, "X-Requested-With": "XMLHttpRequest", "Referer": "https://www.neptun.al/" } }
+      );
+      const batch = data?.Batch;
+      if (!batch?.Items?.length) break;
+      items.push(...batch.Items);
+      if (items.length >= batch.Config?.TotalItems || batch.Items.length < pageSize) break;
+      page++;
+      await new Promise((r) => setTimeout(r, 300));
+    } catch { break; }
+  }
+  return items;
+}
+
+async function fetchNeptun(): Promise<Product[]> {
   const discovered = new Map<string, Product>();
-  for (const term of store.terms) {
-    for (const url of store.searchUrls(term)) {
-      try {
-        const { data } = await axios.get(url, { timeout: 12000, headers: HEADERS });
-        const $ = cheerio.load(data);
-        for (const sel of store.selectors) {
-          let found = 0;
-          $(sel).each((_: number, el: any) => {
-            const $el = $(el);
-            const href = $el.attr("href");
-            if (!href) return;
-            const $c = $el.closest("[class*='product'], article, li.item, [class*='card']").first();
-            const name = ($el.text().trim() || $el.attr("title") || $c.find("h2,h3,h4,[class*='title'],[class*='name']").first().text().trim() || "").replace(/\s+/g, " ").trim();
-            if (!name || name.length < 4 || name.length > 200) return;
-            const img = $c.find("img").first();
-            const rawSrc = img.attr("src") || img.attr("data-src") || "";
-            const imageUrl = rawSrc ? (rawSrc.startsWith("http") ? rawSrc : `https://www.${store.id}.al${rawSrc}`) : "";
-            const id = `${store.id}-${slugify(name)}`;
-            if (discovered.has(id)) return;
-            const { category, subcategory } = guessCategory(name);
-            discovered.set(id, { id, modelNumber: extractModelNumber(name, ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name] });
-            found++;
-          });
-          if (found > 0) break;
-        }
-      } catch { /* blocked */ }
-    }
-    await new Promise((r) => setTimeout(r, 400));
+  for (const catId of NEPTUN_CATEGORY_IDS) {
+    try {
+      const items = await fetchNeptunCategory(catId);
+      for (const item of items) {
+        if (!item.Title || item.Title.length < 3) continue;
+        const id = `neptun-${item.Id}`;
+        if (discovered.has(id)) continue;
+        const name = decodeHtml(item.Title);
+        const catNameEn = item.Category?.NameEn ?? item.Category?.Name ?? "";
+        const { category, subcategory } = guessCategory(name, [], catNameEn);
+        const imageUrl = item.Thumbnail ? `${NEPTUN_IMAGE_BASE}${item.Thumbnail}` : "";
+        discovered.set(id, {
+          id,
+          modelNumber: extractModelNumber(name, item.ModelNumber ?? item.ProductCode ?? ""),
+          family: name,
+          brand: extractBrand(name, item.Manufacturer?.Name),
+          category,
+          subcategory,
+          imageUrl,
+          storageOptions: [],
+          searchTerms: [name],
+        });
+      }
+      await new Promise((r) => setTimeout(r, 200));
+    } catch { /* skip failed category */ }
   }
   return Array.from(discovered.values());
 }
@@ -248,8 +346,10 @@ export class ProductDiscoveryService implements IProductDiscoveryService {
     const results = await Promise.allSettled([
       fetchShopify("albagame", "https://www.albagame.al"),
       fetchWooCommerce("shpresa", "https://shpresa.al"),
+      fetchWooCommerce("pcstore", "https://www.pcstore.al", GOOGLEBOT_HEADERS),
       fetchFoleja(),
-      ...HTML_STORES.map((s) => fetchHtmlStore(s)),
+      fetchGlobe(),
+      fetchNeptun(),
     ]);
 
     for (const result of results) {

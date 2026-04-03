@@ -9,28 +9,34 @@ export interface IPriceScraper {
 }
 
 const STALE_THRESHOLD_MS = 2 * 60 * 60 * 1000; // 2 hours
+const STALE_DISPLAY_MS   = 24 * 60 * 60 * 1000; // 24 hours — show stale warning
 
 /**
- * Flag prices that deviate more than 50% from the median of all found prices.
- * Requires ≥ 3 data points — fewer stores means too little to compute a meaningful median.
- * Flagged entries get suspicious=true so the UI can show a warning to the user.
+ * Flag prices that deviate significantly from the average.
+ * Requires ≥ 3 data points — fewer stores means too little signal.
+ * - >40% below average → suspicious (likely wrong match)
+ * - >60% above average → overpriced (flagged for admin review)
  */
 function flagSuspiciousPrices(prices: ScrapedPrice[]): ScrapedPrice[] {
   const found = prices.filter((p) => p.price !== null && p.price > 0);
   if (found.length < 3) return prices;
 
-  const sorted = found.map((p) => p.price!).sort((a, b) => a - b);
-  const mid = Math.floor(sorted.length / 2);
-  const median = sorted.length % 2 === 0
-    ? (sorted[mid - 1] + sorted[mid]) / 2
-    : sorted[mid];
+  const avg = found.reduce((s, p) => s + p.price!, 0) / found.length;
 
   return prices.map((p) => {
     if (p.price === null || p.price <= 0) return p;
-    return Math.abs(p.price - median) / median > 0.5
-      ? { ...p, suspicious: true }
-      : p;
+    const deviation = (p.price - avg) / avg;
+    if (deviation < -0.4) return { ...p, suspicious: true };
+    if (deviation >  0.6) return { ...p, overpriced: true };
+    return p;
   });
+}
+
+/** Mark prices as stale when cached data is older than 24 hours. */
+function markStalePrices(prices: ScrapedPrice[], refreshedAt: string): ScrapedPrice[] {
+  const ageMs = Date.now() - new Date(refreshedAt).getTime();
+  if (ageMs < STALE_DISPLAY_MS) return prices;
+  return prices.map((p) => (p.price !== null ? { ...p, stale: true } : p));
 }
 
 export class PriceQuery {
@@ -46,13 +52,14 @@ export class PriceQuery {
     cacheKey?: string,
   ): Promise<{ prices: ScrapedPrice[]; fromCache: boolean; refreshedAt?: string }> {
     const effectiveKey = cacheKey ?? productId;
+
     // 1. Check persisted prices (written by cron)
     const persisted = await this.priceRepo.getByProductId(effectiveKey);
     if (persisted) {
       const ageMs = Date.now() - new Date(persisted.refreshedAt).getTime();
       if (ageMs < STALE_THRESHOLD_MS) {
         return {
-          prices: persisted.prices,
+          prices: markStalePrices(persisted.prices, persisted.refreshedAt),
           fromCache: true,
           refreshedAt: persisted.refreshedAt,
         };
@@ -67,7 +74,15 @@ export class PriceQuery {
     const raw = settled.map((r, i) =>
       r.status === "fulfilled"
         ? r.value
-        : { storeId: this.stores[i].id, price: null, inStock: null, stockLabel: "E panjohur", productUrl: null, lastChecked: new Date().toISOString(), error: "Gabim gjatë kërkimit" }
+        : {
+            storeId: this.stores[i].id,
+            price: null,
+            inStock: null,
+            stockLabel: "E panjohur",
+            productUrl: null,
+            lastChecked: new Date().toISOString(),
+            error: "Gabim gjatë kërkimit",
+          }
     );
 
     const prices = flagSuspiciousPrices(raw);

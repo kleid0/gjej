@@ -80,6 +80,9 @@ export default function ProductVariantSection({
     );
   });
   const [syncUrl, setSyncUrl] = useState(Boolean(initialColour || initialStorage));
+  // Changing this key forces PriceComparison to remount, immediately showing
+  // the loading skeleton instead of keeping stale variant prices visible.
+  const [variantPriceKey, setVariantPriceKey] = useState(`${colour}-${storage}`);
 
   // ── Enrichment state ───────────────────────────────────────
   const [enrichment, setEnrichment] = useState<EnrichmentData | null>(null);
@@ -128,11 +131,13 @@ export default function ProductVariantSection({
 
   function handleColourChange(c: string) {
     setColour(c);
+    setVariantPriceKey(`${c}-${storage}`);
     setSyncUrl(true);
   }
 
   function handleStorageChange(s: string) {
     setStorage(s);
+    setVariantPriceKey(`${colour}-${s}`);
     setSyncUrl(true);
   }
 
@@ -326,7 +331,9 @@ export default function ProductVariantSection({
       )}
 
       {/* ── Price comparison ── */}
+      {/* key changes on variant switch → forces remount → shows loading skeleton immediately */}
       <PriceComparison
+        key={variantPriceKey}
         productId={productId}
         variantColour={config ? colour : undefined}
         variantStorage={config ? storage : undefined}
