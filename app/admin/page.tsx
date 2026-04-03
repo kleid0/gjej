@@ -8,6 +8,7 @@ import {
 } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { priceQuery, productCatalog } from "@/src/infrastructure/container";
 import { STORES } from "@/src/infrastructure/stores/registry";
+import { AdminTriggers } from "@/components/AdminTriggers";
 
 export const dynamic = "force-dynamic";
 
@@ -123,6 +124,8 @@ export default async function AdminPage({ searchParams: _searchParams }: Props) 
           </Link>
         </div>
       </div>
+
+      <AdminTriggers />
 
       {/* Catalogue stats */}
       {s && (
