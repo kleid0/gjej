@@ -39,7 +39,7 @@ function fmtDate(dateStr: string): string {
 }
 
 function fmtPrice(price: number): string {
-  return price.toLocaleString("sq-AL") + " ALL";
+  return price.toLocaleString("sq-AL") + " Lekë";
 }
 
 interface TooltipPayloadEntry {

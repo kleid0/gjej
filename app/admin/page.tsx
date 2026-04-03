@@ -227,7 +227,7 @@ export default async function AdminPage({ searchParams: _searchParams }: Props) 
                     </td>
                     <td className="px-4 py-2.5 text-gray-500">{fp.storeId}</td>
                     <td className="px-4 py-2.5 text-right font-mono font-bold text-gray-800">
-                      {fp.price.toLocaleString("sq-AL")} ALL
+                      {fp.price.toLocaleString("sq-AL")} Lekë
                     </td>
                     <td className="px-4 py-2.5">
                       <span

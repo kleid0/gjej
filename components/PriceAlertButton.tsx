@@ -44,7 +44,7 @@ export default function PriceAlertButton({ productId }: Props) {
         <span className="text-base leading-none mt-0.5">✓</span>
         <span>
           Do të njoftoheni kur çmimi të bjerë nën{" "}
-          <strong>{parseInt(threshold, 10).toLocaleString("sq-AL")} ALL</strong>.
+          <strong>{parseInt(threshold, 10).toLocaleString("sq-AL")} Lekë</strong>.
         </span>
       </div>
     );

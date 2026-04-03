@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-gray-400 text-sm py-8 px-4 mt-auto">
@@ -22,19 +24,19 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-2">Kategoritë</h3>
             <ul className="space-y-1 text-xs">
-              <li>Telefona & Tablets</li>
-              <li>Kompjutera</li>
-              <li>Elektronikë</li>
-              <li>Shtëpi & Kopsht</li>
+              <li><Link href="/kategori/telefona" className="hover:text-white">Telefona & Tablets</Link></li>
+              <li><Link href="/kategori/kompjutera" className="hover:text-white">Kompjutera</Link></li>
+              <li><Link href="/kategori/elektronike" className="hover:text-white">Elektronikë</Link></li>
+              <li><Link href="/kategori/shtepi" className="hover:text-white">Shtëpi & Kopsht</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="text-white font-semibold mb-2">Informacion</h3>
             <ul className="space-y-1 text-xs">
-              <li>Rreth nesh</li>
-              <li>Si funksionon</li>
-              <li>Politika e privatësisë</li>
-              <li>Na kontaktoni</li>
+              <li><Link href="/rreth-nesh" className="hover:text-white">Rreth nesh</Link></li>
+              <li><Link href="/si-funksionon" className="hover:text-white">Si funksionon</Link></li>
+              <li><Link href="/privatesia" className="hover:text-white">Politika e privatësisë</Link></li>
+              <li><Link href="/kontakt" className="hover:text-white">Na kontaktoni</Link></li>
             </ul>
           </div>
         </div>
