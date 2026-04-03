@@ -210,6 +210,27 @@ export async function getStoreLastRecorded(): Promise<Record<string, string>> {
   }
 }
 
+// ── Bulk lowest-price lookup (used as fallback when file cache is empty) ──────
+
+/**
+ * Returns a map of productId → lowest_price for all products that have a
+ * recorded lowest price in the DB. Used as a fallback when prices.json has
+ * not yet been populated by the cron/admin trigger.
+ */
+export async function getProductLowestPrices(): Promise<Record<string, number>> {
+  try {
+    await ready();
+    const result = await sql`
+      SELECT id, lowest_price FROM products WHERE lowest_price IS NOT NULL
+    `;
+    return Object.fromEntries(
+      result.rows.map((r) => [r.id as string, r.lowest_price as number])
+    );
+  } catch {
+    return {};
+  }
+}
+
 // ── Product catalogue helpers ─────────────────────────────────────────────────
 
 export async function updateProductLowestPrice(

@@ -13,8 +13,11 @@ import type { Product } from "@/src/domain/catalog/Product";
 // Allow up to 5 minutes — scraping all products takes time
 export const maxDuration = 300;
 
+// How many products to scrape concurrently to avoid OOM on Vercel
+const CONCURRENCY = 12;
+
 // GET /api/cron/refresh-prices
-// Called daily by Vercel Cron. Scrapes every known product across all stores,
+// Called daily by Vercel Cron. Scrapes products in concurrent batches,
 // writes results to data/prices.json, records to DB, fires price alerts, and
 // logs scraper errors to the admin panel.
 export async function GET(req: NextRequest) {
@@ -24,49 +27,51 @@ export async function GET(req: NextRequest) {
   }
 
   const allProducts = await productCatalog.getAllProducts();
-
-  const results = await Promise.all(
-    allProducts.map((product) =>
-      priceQuery.getPricesForProduct(product.id, product.searchTerms)
-    )
-  );
-
+  let refreshed = 0;
   let errorCount = 0;
 
-  // Record to DB, check alerts, log errors, update lowest prices
-  await Promise.allSettled(
-    allProducts.map(async (product, i) => {
-      const { prices } = results[i];
-      await recordPrices(product.id, prices);
+  // Process in concurrent chunks to avoid spawning thousands of requests at once
+  for (let i = 0; i < allProducts.length; i += CONCURRENCY) {
+    const chunk = allProducts.slice(i, i + CONCURRENCY);
 
-      // Log scraper errors for stores that failed
-      for (const p of prices) {
-        if (p.error && p.error !== "Produkti nuk u gjet" && p.error !== "Ky variant nuk disponohet") {
+    await Promise.allSettled(
+      chunk.map(async (product) => {
+        try {
+          const { prices } = await priceQuery.getPricesForProduct(product.id, product.searchTerms);
+          refreshed++;
+
+          await recordPrices(product.id, prices);
+
+          for (const p of prices) {
+            if (p.error && p.error !== "Produkti nuk u gjet" && p.error !== "Ky variant nuk disponohet") {
+              errorCount++;
+              await logScraperError(p.storeId, "scrape_failed", p.error, product.id);
+            }
+          }
+
+          const found = prices.filter((p) => p.price !== null && !p.suspicious);
+          if (found.length > 0) {
+            await markProductLastSeen(product.id);
+            const lowest = Math.min(...found.map((p) => p.price!));
+            await updateProductLowestPrice(product.id, lowest);
+
+            const alerts = await getAlertsToNotify(product.id, lowest);
+            for (const alert of alerts) {
+              await sendAlertEmail(alert.email, product, lowest, alert.threshold);
+              await markAlertNotified(alert.id);
+            }
+          } else {
+            await updateProductLowestPrice(product.id, null);
+          }
+        } catch {
           errorCount++;
-          await logScraperError(p.storeId, "scrape_failed", p.error, product.id);
         }
-      }
-
-      // Track which products were seen (for discontinued detection)
-      const found = prices.filter((p) => p.price !== null && !p.suspicious);
-      if (found.length > 0) {
-        await markProductLastSeen(product.id);
-        const lowest = Math.min(...found.map((p) => p.price!));
-        await updateProductLowestPrice(product.id, lowest);
-
-        const alerts = await getAlertsToNotify(product.id, lowest);
-        for (const alert of alerts) {
-          await sendAlertEmail(alert.email, product, lowest, alert.threshold);
-          await markAlertNotified(alert.id);
-        }
-      } else {
-        await updateProductLowestPrice(product.id, null);
-      }
-    })
-  );
+      })
+    );
+  }
 
   return NextResponse.json({
-    refreshed: allProducts.length,
+    refreshed,
     errors: errorCount,
     timestamp: new Date().toISOString(),
   });

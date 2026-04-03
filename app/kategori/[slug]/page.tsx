@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
+import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { STORES } from "@/src/infrastructure/stores/registry";
 import SearchResultsClient from "@/components/SearchResultsClient";
 import type { ProductSummary, StoreInfo } from "@/components/SearchResultsClient";
@@ -19,12 +20,18 @@ export default async function CategoryPage({ params }: Props) {
   const category = productCatalog.getCategoryById(params.slug);
   if (!category) notFound();
 
-  const products = await productCatalog.getProductsByCategory(params.slug);
-  const allPrices = await priceQuery.getAllCachedPrices();
+  const [products, allPrices, dbPrices] = await Promise.all([
+    productCatalog.getProductsByCategory(params.slug),
+    priceQuery.getAllCachedPrices(),
+    getProductLowestPrices(),
+  ]);
 
   const summaries: ProductSummary[] = products.map((p) => {
     const record = allPrices[p.id];
     const valid = record?.prices.filter((pr) => pr.price !== null) ?? [];
+    const bestPrice = valid.length
+      ? Math.min(...valid.map((pr) => pr.price!))
+      : (dbPrices[p.id] ?? null);
     return {
       id: p.id,
       family: p.family,
@@ -33,9 +40,7 @@ export default async function CategoryPage({ params }: Props) {
       subcategory: p.subcategory,
       imageUrl: p.imageUrl,
       modelNumber: p.modelNumber,
-      bestPrice: valid.length
-        ? Math.min(...valid.map((pr) => pr.price!))
-        : null,
+      bestPrice,
       storeCount: valid.length,
       storeIds: valid.map((pr) => pr.storeId),
       hasStock: record?.prices.some((pr) => pr.inStock === true) ?? false,

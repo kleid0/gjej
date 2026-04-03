@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
+import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import SearchAutocomplete from "@/components/SearchAutocomplete";
@@ -8,15 +9,16 @@ import SearchAutocomplete from "@/components/SearchAutocomplete";
 export const revalidate = 1800;
 
 export default async function Home() {
-  const [allProducts, allPrices] = await Promise.all([
+  const [allProducts, allPrices, dbPrices] = await Promise.all([
     productCatalog.getAllProducts(),
     priceQuery.getAllCachedPrices(),
+    getProductLowestPrices(),
   ]);
 
   const featured = allProducts.slice(0, 8);
   const categories = productCatalog.getCategories();
 
-  // Build lowest-price map from cached prices (exclude suspicious matches)
+  // Build lowest-price map: prefer fresh file cache, fall back to DB lowest_price
   const lowestPriceMap: Record<string, number | null> = {};
   for (const product of allProducts) {
     const record = allPrices[product.id];
@@ -27,6 +29,8 @@ export default async function Home() {
       lowestPriceMap[product.id] = valid.length
         ? Math.min(...valid.map((p) => p.price!))
         : null;
+    } else {
+      lowestPriceMap[product.id] = dbPrices[product.id] ?? null;
     }
   }
 

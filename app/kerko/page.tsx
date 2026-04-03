@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
+import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { STORES } from "@/src/infrastructure/stores/registry";
 import SearchResultsClient from "@/components/SearchResultsClient";
 import type { ProductSummary, StoreInfo } from "@/components/SearchResultsClient";
@@ -23,14 +24,17 @@ export default async function KerkoPage({ searchParams }: Props) {
 
   if (kat && query) products = products.filter((p) => p.category === kat);
 
-  const allPrices = await priceQuery.getAllCachedPrices();
+  const [allPrices, dbPrices] = await Promise.all([
+    priceQuery.getAllCachedPrices(),
+    getProductLowestPrices(),
+  ]);
 
   const summaries: ProductSummary[] = products.map((p) => {
     const record = allPrices[p.id];
     const valid = record?.prices.filter((pr) => pr.price !== null) ?? [];
     const bestPrice = valid.length
       ? Math.min(...valid.map((pr) => pr.price!))
-      : null;
+      : (dbPrices[p.id] ?? null);
     return {
       id: p.id,
       family: p.family,
