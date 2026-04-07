@@ -921,7 +921,7 @@ async function scrapeWooCommerce(
   for (const term of buildQueries(searchTerms)) {
     try {
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
-        params: { search: term, per_page: 10 },
+        params: { search: term, per_page: 20 },
         timeout: 8000,
         headers: HEADERS,
       });
@@ -941,6 +941,43 @@ async function scrapeWooCommerce(
       }
 
       return parseWooItem(best);
+    } catch {
+      continue;
+    }
+  }
+
+  // Search exhausted — try direct slug inference as a last resort.
+  // When the store has many related products (e.g. Switch 2 games) that all get
+  // rejected by the matching guards, the actual base product can fall outside the
+  // search page.  Slugify each query term and attempt a ?slug= lookup directly.
+  function toWooSlug(s: string): string {
+    return cleanQuery(s)
+      .toLowerCase()
+      .replace(/[™®©℠''`]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
+  const slugsAttempted = new Set<string>();
+  for (const term of buildQueries(searchTerms)) {
+    const slug = toWooSlug(term);
+    if (!slug || slugsAttempted.has(slug)) continue;
+    slugsAttempted.add(slug);
+    try {
+      const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
+        params: { slug, per_page: 1 },
+        timeout: 6000,
+        headers: HEADERS,
+      });
+      const items: WooItem[] = Array.isArray(data) ? data : [];
+      if (!items.length) continue;
+      const item = items[0];
+      if (strictMatchScore(item.name, [term]) <= 0) continue;
+      if (item.type === "variable") {
+        const varResult = await resolveVariation(item);
+        if (varResult !== undefined) return varResult;
+      }
+      return parseWooItem(item);
     } catch {
       continue;
     }
