@@ -631,6 +631,7 @@ async function scrapeShopify(
           stockLabel: available === true ? "Në gjendje" : available === false ? "Jo në gjendje" : "E panjohur",
           productUrl: `${store.url}/products/${handle}`,
           lastChecked,
+          matchedName: product?.title,
         };
       }
     } catch {
@@ -690,6 +691,7 @@ async function scrapeShopify(
               stockLabel: variant.available === true ? "Në gjendje" : variant.available === false ? "Jo në gjendje" : "E panjohur",
               productUrl: `${store.url}/products/${h}`,
               lastChecked,
+              matchedName: prd.title,
             };
           } catch { continue; }
         }
@@ -727,6 +729,7 @@ async function scrapeShopify(
         stockLabel: available === true ? "Në gjendje" : available === false ? "Jo në gjendje" : "E panjohur",
         productUrl: `${store.url}/products/${handle}`,
         lastChecked,
+        matchedName: product?.title,
       };
     } catch {
       continue;
@@ -780,6 +783,7 @@ async function scrapeWooCommerce(
       stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
       productUrl: item.permalink ?? fallbackUrl ?? null,
       lastChecked,
+      matchedName: item.name,
     };
   }
 
@@ -1094,12 +1098,13 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
           stockLabel: "E panjohur",
           productUrl: best.url,
           lastChecked: new Date().toISOString(),
+          matchedName: best.name,
         };
         return validateColour(requestedColour, candidateText, baseResult, store.id);
       }
 
       const result = await scrapeShopwareProductPage(best.url, store.id);
-      if (result) return validateColour(requestedColour, candidateText, result, store.id);
+      if (result) return validateColour(requestedColour, candidateText, { ...result, matchedName: best.name }, store.id);
     } catch {
       continue;
     }
@@ -1165,6 +1170,7 @@ async function scrapeGlobe(store: Store, searchTerms: string[]): Promise<Scraped
         stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
         productUrl: `${store.url}/products/${best.id}`,
         lastChecked,
+        matchedName: best.name,
       };
       // Globe doesn't always include colour in product names; use strict=false so a
       // no-colour-info result passes through rather than being rejected outright.
@@ -1248,6 +1254,7 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
     stockLabel: bestItem.AvailableWebshop ? "Në gjendje" : "Jo në gjendje",
     productUrl: `${store.url}${bestItem.Url}`,
     lastChecked,
+    matchedName: bestItem.Title,
   };
   return validateColour(extractColourFromTerms(searchTerms), `${bestItem.Title} ${bestItem.Url}`, baseResult, store.id);
 }

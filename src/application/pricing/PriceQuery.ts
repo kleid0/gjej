@@ -11,6 +11,87 @@ export interface IPriceScraper {
 const STALE_THRESHOLD_MS = 2 * 60 * 60 * 1000; // 2 hours
 const STALE_DISPLAY_MS   = 24 * 60 * 60 * 1000; // 24 hours — show stale warning
 
+// ── Post-collection match validation ────────────────────────────────────────
+// Re-checks every price (cached or live) against the product's search terms.
+// Catches wrong matches that slipped through or were persisted before guards
+// were tightened.  Uses matchedName when available, URL slug as fallback.
+
+const POST_ACCESSORY_WORDS = new Set([
+  "kontrollues", "kontroller", "controller", "joystick", "gamepad",
+  "charger", "karikues", "kabel", "cable", "case", "kover",
+  "mbrojtes", "mbrojtese", "mbështjellës", "mbeshstjelles",
+  "protective", "glass", "tempered", "dock", "stand", "pouch", "bag",
+  "headset", "kufje", "mouse", "keyboard", "tastierë", "tastiere",
+]);
+
+const POST_BUNDLE_WORDS = new Set([
+  "bundle", "edition", "pack", "combo", "collection",
+  "koleksion", "paketë", "pakete",
+  "pokemon", "pokémon", "zelda", "metroid", "kirby", "splatoon", "legends",
+]);
+
+/** Strip diacritics so URL-slugified Albanian ("mbeshstjelles") matches originals. */
+function stripDiacritics(text: string): string {
+  return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function postTokenize(text: string): string[] {
+  return stripDiacritics(text)
+    .replace(/[™®©℠]/g, " ")
+    .split(/[\s\-/()\[\]{}.,;:!?|+@#%^&*~`]+/)
+    .filter((w) => w.length > 1);
+}
+
+function extractGenNums(text: string): Set<string> {
+  const c = text.replace(/\b\d+\s*(gb|tb)\b/gi, "")
+    .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, "");
+  return new Set(c.match(/\b\d{2,4}\b/g) ?? []);
+}
+
+/** Extract a product name from the URL slug (fallback when matchedName is absent). */
+function nameFromUrl(url: string): string | null {
+  try {
+    const segments = new URL(url).pathname.split("/").filter(Boolean);
+    const slug = segments[segments.length - 1];
+    if (!slug || /^\d+$/.test(slug)) return null;
+    return slug.replace(/\.(html?|php|aspx)$/i, "").replace(/-/g, " ");
+  } catch { return null; }
+}
+
+function isValidMatch(name: string, searchTerms: string[]): boolean {
+  const queryText = stripDiacritics(
+    searchTerms.filter((t) => !t.startsWith("http") && !t.startsWith("!")).join(" ")
+  ).toLowerCase();
+  const resultText = stripDiacritics(name).toLowerCase();
+
+  // Generation numbers: both directions
+  const qn = extractGenNums(queryText);
+  const rn = extractGenNums(resultText);
+  if (!Array.from(qn).every((n) => rn.has(n))) return false;
+  if (qn.size > 0 && Array.from(rn).some((n) => !qn.has(n))) return false;
+
+  // Accessory / bundle rejection
+  const qw = postTokenize(queryText);
+  const rw = postTokenize(resultText);
+  if (!qw.some((w) => POST_ACCESSORY_WORDS.has(w)) && rw.some((w) => POST_ACCESSORY_WORDS.has(w))) return false;
+  if (!qw.some((w) => POST_BUNDLE_WORDS.has(w)) && rw.some((w) => POST_BUNDLE_WORDS.has(w))) return false;
+
+  return true;
+}
+
+/** Nullify prices whose matched product is clearly wrong. */
+function validatePriceMatches(prices: ScrapedPrice[], searchTerms: string[]): ScrapedPrice[] {
+  return prices.map((p) => {
+    if (p.price === null) return p;
+    const name = p.matchedName ?? (p.productUrl ? nameFromUrl(p.productUrl) : null);
+    if (!name) return p; // can't validate without a name
+    if (!isValidMatch(name, searchTerms)) {
+      return { ...p, price: null, inStock: null, error: "Produkti nuk përputhet" };
+    }
+    return p;
+  });
+}
+
 /**
  * Flag prices that deviate significantly from the average.
  * Requires ≥ 3 data points — fewer stores means too little signal.
@@ -59,7 +140,10 @@ export class PriceQuery {
       const ageMs = Date.now() - new Date(persisted.refreshedAt).getTime();
       if (ageMs < STALE_THRESHOLD_MS) {
         return {
-          prices: markStalePrices(persisted.prices, persisted.refreshedAt),
+          prices: validatePriceMatches(
+            markStalePrices(persisted.prices, persisted.refreshedAt),
+            searchTerms,
+          ),
           fromCache: true,
           refreshedAt: persisted.refreshedAt,
         };
@@ -85,7 +169,8 @@ export class PriceQuery {
           }
     );
 
-    const prices = flagSuspiciousPrices(raw);
+    const validated = validatePriceMatches(raw, searchTerms);
+    const prices = flagSuspiciousPrices(validated);
 
     try {
       await this.priceRepo.save(effectiveKey, prices);
