@@ -80,15 +80,17 @@ function extractTier(text: string): string | null {
 }
 
 /**
- * Extract 2-4 digit standalone numbers that represent model/generation numbers.
+ * Extract 1-4 digit standalone numbers that represent model/generation numbers.
  * Storage sizes (128GB, 256GB, 1TB) and screen-size notations (65") are stripped
  * first so they do not interfere with model number comparison.
+ * Single-digit numbers ARE captured — "Switch 2", "PlayStation 5", "iPad 8"
+ * all use single-digit generation numbers that must be matched.
  */
 function extractGenerationNumbers(text: string): Set<string> {
   const cleaned = text.toLowerCase()
     .replace(/\b\d+\s*(gb|tb)\b/gi, "")          // strip storage: 128GB, 1TB
     .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, ""); // strip screen sizes: 65", 6.1in
-  return new Set(cleaned.match(/\b\d{2,4}\b/g) ?? []);
+  return new Set(cleaned.match(/\b\d{1,4}\b/g) ?? []);
 }
 
 /** Return the normalised storage string ("256GB", "1TB") or null if none. */

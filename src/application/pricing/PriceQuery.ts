@@ -45,7 +45,7 @@ function postTokenize(text: string): string[] {
 function extractGenNums(text: string): Set<string> {
   const c = text.replace(/\b\d+\s*(gb|tb)\b/gi, "")
     .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, "");
-  return new Set(c.match(/\b\d{2,4}\b/g) ?? []);
+  return new Set(c.match(/\b\d{1,4}\b/g) ?? []);
 }
 
 /** Extract a product name from the URL slug (fallback when matchedName is absent). */
