@@ -26,14 +26,32 @@ function notFound(storeId: string, error: string): ScrapedPrice {
   };
 }
 
+// Tokenise a product name into words, preserving Unicode letters (including
+// Albanian ë, é, etc.) that \W+ would otherwise split.  Splits only on
+// whitespace, hyphens, and common punctuation/symbols.
+function tokenize(text: string): string[] {
+  return text
+    .replace(/[™®©℠]/g, " ")
+    .split(/[\s\-/()\[\]{}.,;:!?|+@#%^&*~`]+/)
+    .filter((w) => w.length > 1);
+}
+
 // Words that indicate an accessory/peripheral rather than the main product.
 // Penalise results containing these when the query does not.
 const ACCESSORY_WORDS = new Set([
   "kontrollues", "kontroller", "controller", "joy-con", "joystick", "gamepad",
   "volant", "steering", "wheel", "adapter", "charger", "karikues", "kabel",
-  "cable", "case", "kover", "mbrojtes", "mbrojtese", "protective", "glass",
+  "cable", "case", "kover", "mbrojtes", "mbrojtese", "mbështjellës", "protective", "glass",
   "tempered", "screen", "dock", "stand", "pouch", "bag", "backpack",
   "headset", "headphone", "kufje", "mouse", "tastierë", "keyboard",
+]);
+
+// Words that indicate a bundle or special edition rather than the base product.
+// Prevents "Nintendo Switch 2 Pokémon Legends: Z-A" matching a "Nintendo Switch 2" query.
+const BUNDLE_WORDS = new Set([
+  "bundle", "edition", "pack", "combo", "collection",
+  "koleksion", "paketë", "pakete",
+  "pokemon", "pokémon", "zelda", "metroid", "kirby", "splatoon", "legends",
 ]);
 
 // ── Strict match helpers ──────────────────────────────────────────────────────
@@ -309,11 +327,20 @@ function strictMatchScore(resultName: string, queryTerms: string[]): number {
 
   // 4. Accessory hard reject: if the result is an accessory (case, cable, glass…)
   //    but the query is not, score is zero regardless of word overlap.
+  //    tokenize() is used instead of split(/\W+/) so Albanian words like
+  //    "mbështjellës" (case/wrapper) are kept intact rather than split at ë/é.
   const queryWords  = queryLow.split(/\s+/).filter((w) => w.length > 1);
-  const resultWords = resultLow.split(/\W+/).filter((w) => w.length > 1);
+  const resultWords = tokenize(resultLow);
   const queryIsAccessory  = queryWords.some((w)  => ACCESSORY_WORDS.has(w));
   const resultIsAccessory = resultWords.some((w) => ACCESSORY_WORDS.has(w));
   if (!queryIsAccessory && resultIsAccessory) return 0;
+
+  // 4b. Bundle/edition hard reject: if the result is a bundle or special edition
+  //     (e.g. "Nintendo Switch 2 Pokémon Legends: Z-A") but the query is for
+  //     the base product, score is zero.
+  const queryHasBundle  = queryWords.some((w) => BUNDLE_WORDS.has(w));
+  const resultHasBundle = resultWords.some((w) => BUNDLE_WORDS.has(w));
+  if (!queryHasBundle && resultHasBundle) return 0;
 
   // 5. Minimum confidence: at least 60 % of query words must appear in result.
   if (confidenceRatio(resultName, queryTerms) < MIN_CONFIDENCE) return 0;
@@ -337,7 +364,7 @@ function matchScore(name: string, terms: string[]): number {
   if (matchingWords.length === 0) return 0;
 
   // Precision: penalise extra result words that aren't in the query
-  const resultWords = n.split(/\W+/).filter((w) => w.length > 1);
+  const resultWords = tokenize(n);
   const unmatchedExtras = resultWords.filter(
     (w) => !queryWords.some((qw) => qw.includes(w) || w.includes(qw))
   ).length;
