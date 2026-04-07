@@ -305,6 +305,13 @@ function strictMatchScore(resultName: string, queryTerms: string[]): number {
   const resultNums = extractGenerationNumbers(resultLow);
   if (!Array.from(queryNums).every((n) => resultNums.has(n))) return 0;
 
+  // 1b. Reverse check: result must not have extra generation numbers absent from the query.
+  //     Prevents "Nintendo Switch 2" matching "Nintendo Switch 2 EA SPORTS FC 26"
+  //     (result nums {2,26} vs query nums {2} → "26" is extra → reject).
+  //     Only applied when the query itself carries at least one generation number,
+  //     so bare brand queries (e.g. "Samsung") are not affected.
+  if (queryNums.size > 0 && Array.from(resultNums).some((n) => !queryNums.has(n))) return 0;
+
   // 2. Model tier must match exactly.
   //    "iPhone 17" (tier=null) must not match "iPhone 17 Pro" (tier="pro").
   //    "iPhone 17 Pro" (tier="pro") must not match "iPhone 17 Pro Max" (tier="pro max").
