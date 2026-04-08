@@ -88,7 +88,7 @@ function validatePriceMatches(prices: ScrapedPrice[], searchTerms: string[]): Sc
     const name = p.matchedName ?? (p.productUrl ? nameFromUrl(p.productUrl) : null);
     if (!name) return p; // can't validate without a name
     if (!isValidMatch(name, searchTerms)) {
-      return { ...p, price: null, inStock: null, error: "Produkti nuk përputhet" };
+      return { ...p, price: null, inStock: null, error: "Produkti nuk u gjet" };
     }
     return p;
   });
