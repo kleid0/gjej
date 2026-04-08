@@ -105,7 +105,7 @@ export default async function Home() {
       {/* Featured products */}
       <section className="max-w-6xl mx-auto px-4 pb-12">
         <div className="flex items-center justify-between mb-5">
-          <h2 className="text-xl font-bold text-gray-800">Produkte në Trend</h2>
+          <h2 className="text-xl font-bold text-gray-800">Produktet më të kërkuara</h2>
           <Link href="/kerko" className="text-orange-600 hover:text-orange-700 text-sm font-medium">
             Shiko të gjitha →
           </Link>
