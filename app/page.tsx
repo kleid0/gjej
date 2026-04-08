@@ -4,7 +4,6 @@ import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepo
 import { STORE_MAP } from "@/src/infrastructure/stores/registry";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
-import SearchAutocomplete from "@/components/SearchAutocomplete";
 
 // Revalidate homepage every 30 minutes — cached prices refresh daily
 export const revalidate = 1800;
@@ -49,7 +48,6 @@ export default async function Home() {
           <p className="text-orange-100 text-lg mb-8">
             Krahaso çmimet nga dyqanet kryesore shqiptare në një vend
           </p>
-          <SearchAutocomplete variant="hero" />
         </div>
       </section>
 
