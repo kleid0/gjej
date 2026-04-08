@@ -161,7 +161,16 @@ async function fetchWooCommerce(storeId: string, baseUrl: string, extraHeaders?:
         const name = decodeHtml(item.name);
         const cats = item.categories?.map((c) => c.name) ?? [];
         const { category, subcategory } = guessCategory(name, [], "", cats);
-        products.push({ id: `${storeId}-${item.slug ?? slugify(name)}`, modelNumber: extractModelNumber(name, item.sku ?? ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl: item.images?.[0]?.src ?? "", storageOptions: [], searchTerms: [name] });
+        // WooCommerce slugs can contain percent-encoded Unicode chars (e.g. %e2%80%b3 for ″).
+        // Decode and re-slugify to produce a clean, URL-safe product ID.
+        const rawSlug = item.slug ?? slugify(name);
+        let cleanSlug: string;
+        try {
+          cleanSlug = /%[0-9a-f]{2}/i.test(rawSlug) ? slugify(decodeURIComponent(rawSlug)) : rawSlug;
+        } catch {
+          cleanSlug = rawSlug;
+        }
+        products.push({ id: `${storeId}-${cleanSlug}`, modelNumber: extractModelNumber(name, item.sku ?? ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl: item.images?.[0]?.src ?? "", storageOptions: [], searchTerms: [name] });
       }
       if (items.length < perPage) break;
       page++;

@@ -21,7 +21,21 @@ export class FileProductRepository implements IProductRepository {
 
   async getById(id: string): Promise<Product | null> {
     const all = await this.readFile();
-    return all.find((p) => p.id === id) ?? null;
+    // Exact match first
+    const exact = all.find((p) => p.id === id);
+    if (exact) return exact;
+    // Fallback: Next.js URL-decodes path segments, so a stored ID like
+    // "shpresa-...-8%e2%80%b3-..." won't match the decoded param "shpresa-...-8″-...".
+    // Normalise both sides by decoding percent-encoding before comparing.
+    try {
+      const decoded = decodeURIComponent(id);
+      if (decoded !== id) {
+        return all.find((p) => {
+          try { return decodeURIComponent(p.id) === decoded; } catch { return false; }
+        }) ?? null;
+      }
+    } catch { /* ignore malformed encoding */ }
+    return null;
   }
 
   async getByCategory(categoryId: string): Promise<Product[]> {
