@@ -934,7 +934,11 @@ async function scrapeWooCommerce(
   // Direct slug lookup for own-store products
   const ownPrefix = `${store.id}-`;
   if (productId.startsWith(ownPrefix)) {
-    const slug = productId.slice(ownPrefix.length);
+    // Product IDs may contain percent-encoded characters (e.g. %e2%80%b3 for ″).
+    // Decode first so axios doesn't double-encode the % signs when serialising params.
+    const rawSlug = productId.slice(ownPrefix.length);
+    let slug: string;
+    try { slug = decodeURIComponent(rawSlug); } catch { slug = rawSlug; }
     try {
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
         params: { slug, per_page: 1 },
