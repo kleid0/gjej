@@ -63,7 +63,7 @@ export default function SiFunksiononPage() {
       <div className="mt-10 bg-orange-50 border border-orange-100 rounded-xl p-5">
         <h3 className="font-semibold text-gray-800 mb-1">Alarmet e çmimit</h3>
         <p className="text-sm text-gray-600">
-          Vendosni një çmim target për çdo produkt dhe ne do t'ju dërgojmë email kur ai çmim
+          Vendosni një çmim target për çdo produkt dhe ne do t&apos;ju dërgojmë email kur ai çmim
           arrihet. Kjo veçori është falas dhe nuk kërkon regjistrim.
         </p>
       </div>

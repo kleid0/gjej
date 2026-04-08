@@ -40,7 +40,6 @@ async function getInterestScores(keywords: string[]): Promise<number[]> {
   });
 
   const exploreData = JSON.parse(stripPrefix(exploreRes.data as string));
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const widget = (exploreData.widgets as any[])?.find(
     (w) => w.id === "TIMESERIES",
   );
