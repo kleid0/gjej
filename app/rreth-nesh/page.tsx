@@ -23,7 +23,7 @@ export default function RrethNeshPage() {
           <h2 className="text-xl font-semibold text-gray-800 mb-2">Kush jemi ne?</h2>
           <p>
             <strong>gjej.al</strong> është një platformë shqiptare e krahasimit të çmimeve, e ndërtuar
-            me një qëllim të thjeshtë: t'ju ndihmojë të gjeni çmimin më të mirë pa pasur nevojë të
+            me një qëllim të thjeshtë: t&apos;ju ndihmojë të gjeni çmimin më të mirë pa pasur nevojë të
             vizitoni dyqan pas dyqani. Ne mbledhim çmimet nga dyqanet kryesore online në Shqipëri
             dhe i shfaqim ato në një vend të vetëm.
           </p>
