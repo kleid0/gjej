@@ -9,6 +9,7 @@ export const DATA_DIR = process.env.VERCEL
 
 export const DISCOVERED_PRODUCTS_FILE = path.join(DATA_DIR, "discovered-products.json");
 export const PRICES_FILE = path.join(DATA_DIR, "prices.json");
+export const TRENDS_FILE = path.join(DATA_DIR, "trends.json");
 
 // On Vercel, /tmp is ephemeral. Fall back to the committed snapshot in data/.
 export function getDiscoveredProductsReadPath(): string {

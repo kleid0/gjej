@@ -2,6 +2,7 @@ import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { STORE_MAP } from "@/src/infrastructure/stores/registry";
+import { readTrendsCache } from "@/src/infrastructure/trends/TrendsService";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 
@@ -17,10 +18,7 @@ export default async function Home() {
 
   const categories = productCatalog.getCategories();
 
-  // Score products for trending: prioritize store coverage and stock availability
-  const dayOfYear = Math.floor(
-    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000,
-  );
+  // Score each product by store coverage and stock as a baseline
   const scoredProducts = allProducts.map((product) => {
     const record = allPrices[product.id];
     let storeCount = 0;
@@ -36,18 +34,35 @@ export default async function Home() {
     }
     return { product, storeCount, hasStock };
   });
-  scoredProducts.sort((a, b) => {
-    if (a.hasStock !== b.hasStock) return a.hasStock ? -1 : 1;
-    return b.storeCount - a.storeCount;
-  });
-  // Rotate daily through 3 non-overlapping windows of 8 from the top 24
-  const POOL = 24;
-  const PAGE = 8;
-  const windowIdx = dayOfYear % (POOL / PAGE);
-  const featured = scoredProducts
-    .slice(0, POOL)
-    .slice(windowIdx * PAGE, (windowIdx + 1) * PAGE)
-    .map((s) => s.product);
+
+  // Use Google Trends scores if a fresh cache exists; otherwise fall back to
+  // store-coverage ranking with a daily rotation so the set changes each day.
+  const trendsCache = readTrendsCache();
+  const trendsScores = trendsCache?.scores ?? {};
+  const hasTrendsData = Object.values(trendsScores).some((s) => s > 0);
+
+  let featured;
+  if (hasTrendsData) {
+    featured = scoredProducts
+      .sort((a, b) => (trendsScores[b.product.id] ?? 0) - (trendsScores[a.product.id] ?? 0))
+      .slice(0, 8)
+      .map((s) => s.product);
+  } else {
+    const dayOfYear = Math.floor(
+      (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000,
+    );
+    const POOL = 24;
+    const PAGE = 8;
+    const windowIdx = dayOfYear % (POOL / PAGE);
+    featured = scoredProducts
+      .sort((a, b) => {
+        if (a.hasStock !== b.hasStock) return a.hasStock ? -1 : 1;
+        return b.storeCount - a.storeCount;
+      })
+      .slice(0, POOL)
+      .slice(windowIdx * PAGE, (windowIdx + 1) * PAGE)
+      .map((s) => s.product);
+  }
 
   // Build lowest-price map: prefer fresh file cache, fall back to DB lowest_price
   const lowestPriceMap: Record<string, { price: number; storeName: string } | null> = {};
