@@ -557,8 +557,32 @@ async function scrapeJsonLd(url: string, storeId: string): Promise<ScrapedPrice 
 // We match the requested colour and storage against those values.
 // Falls back to variants[0] when no searchTerms hint is available.
 
-interface ShopifyVariant { option1?: string; option2?: string; option3?: string; price?: string; available?: boolean }
-interface ShopifyProduct { options?: Array<{ name: string }>; variants?: ShopifyVariant[] }
+interface ShopifyVariant {
+  option1?: string; option2?: string; option3?: string;
+  price?: string;
+  available?: boolean | null;
+  inventory_quantity?: number;
+  inventory_management?: string | null;
+  inventory_policy?: string;
+}
+interface ShopifyProduct { options?: Array<{ name: string }>; variants?: ShopifyVariant[]; title?: string }
+
+/**
+ * Resolve stock availability from a Shopify variant.
+ * `available` is authoritative when it is a boolean.
+ * When it is null/undefined (common with multi-location inventory), fall back to
+ * inventory_quantity + inventory_policy so we don't show "E panjohur" for items
+ * that are clearly in stock at one or more store locations.
+ */
+function shopifyVariantInStock(v: ShopifyVariant): boolean | null {
+  if (typeof v.available === "boolean") return v.available;
+  if (typeof v.inventory_quantity === "number") {
+    return v.inventory_quantity > 0 || v.inventory_policy === "continue";
+  }
+  // inventory_management === null means "don't track" → treat as available
+  if (v.inventory_management === null) return true;
+  return null;
+}
 
 function pickShopifyVariant(product: ShopifyProduct, searchTerms: string[]): ShopifyVariant | null | undefined {
   const variants = product.variants ?? [];
@@ -625,7 +649,7 @@ async function scrapeShopify(
       }
       if (variant) {
         const price = variant.price ? parseFloat(variant.price) : null;
-        const available = variant.available ?? null;
+        const available = shopifyVariantInStock(variant);
         return {
           storeId: store.id,
           price,
@@ -686,11 +710,12 @@ async function scrapeShopify(
             if (!variant) continue;
             const price = variant.price ? parseFloat(variant.price) : null;
             if (price === null) continue;
+            const avail = shopifyVariantInStock(variant);
             return {
               storeId: store.id,
               price,
-              inStock: variant.available ?? null,
-              stockLabel: variant.available === true ? "Në gjendje" : variant.available === false ? "Jo në gjendje" : "E panjohur",
+              inStock: avail,
+              stockLabel: avail === true ? "Në gjendje" : avail === false ? "Jo në gjendje" : "E panjohur",
               productUrl: `${store.url}/products/${h}`,
               lastChecked,
               matchedName: prd.title,
@@ -723,7 +748,7 @@ async function scrapeShopify(
       if (variant === null) return colourUnavailable(store.id, `${store.url}/products/${handle}`);
       if (!variant) continue;
       const price = variant.price ? parseFloat(variant.price) : null;
-      const available = variant.available ?? null;
+      const available = shopifyVariantInStock(variant);
       return {
         storeId: store.id,
         price,
