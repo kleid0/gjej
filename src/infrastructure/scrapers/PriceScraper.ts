@@ -1042,6 +1042,28 @@ async function scrapeWooCommerce(
 // 2. Cross-store: search via /search?search= HTML page, parse product cards
 //    with cheerio, then fetch the matched product page for price.
 
+/** Extract stock status from Shopware 6 page HTML when JSON-LD availability is absent. */
+function extractShopwareStockFromHtml(html: string): boolean | null {
+  // Shopware 6 delivery status indicator: <span class="delivery-status-indicator is-available">
+  if (/delivery-status-indicator/.test(html)) {
+    if (/\bis-available\b/.test(html)) return true;
+    if (/\bnot-available\b/.test(html)) return false;
+  }
+
+  // Embedded JSON with availableStock count (Shopware serializes product state)
+  const stockCountMatch = html.match(/"availableStock"\s*:\s*(\d+)/);
+  if (stockCountMatch) return parseInt(stockCountMatch[1], 10) > 0;
+
+  // Albanian delivery text: "N+ artikuj" / "N artikuj" = items in stock
+  if (/\d+\+?\s*artikuj/i.test(html)) return true;
+
+  // Shopware "available" product flag in serialized data
+  const availFlagMatch = html.match(/"available"\s*:\s*(true|false)/);
+  if (availFlagMatch) return availFlagMatch[1] === "true";
+
+  return null;
+}
+
 async function scrapeShopwareProductPage(url: string, storeId: string): Promise<ScrapedPrice | null> {
   try {
     const { data: html } = await axios.get(url, {
@@ -1066,7 +1088,9 @@ async function scrapeShopwareProductPage(url: string, storeId: string): Promise<
         const price = rawPrice != null ? parseFloat(String(rawPrice)) : null;
         if (price !== null && !isNaN(price) && price > 0) {
           const avail = offer?.availability ?? "";
-          const inStock = avail ? avail.toLowerCase().includes("instock") : null;
+          let inStock: boolean | null = avail ? avail.toLowerCase().includes("instock") : null;
+          // If JSON-LD doesn't carry availability, try HTML-based detection
+          if (inStock === null) inStock = extractShopwareStockFromHtml(html);
           return {
             storeId, price, inStock,
             stockLabel: inStock === true ? "Në gjendje" : inStock === false ? "Jo në gjendje" : "E panjohur",
@@ -1083,11 +1107,12 @@ async function scrapeShopwareProductPage(url: string, storeId: string): Promise<
     const price = parseFloat(priceMatch[1]);
     if (isNaN(price) || price <= 0) return null;
 
+    const inStock = extractShopwareStockFromHtml(html);
     return {
       storeId,
       price,
-      inStock: null,
-      stockLabel: "E panjohur",
+      inStock,
+      stockLabel: inStock === true ? "Në gjendje" : inStock === false ? "Jo në gjendje" : "E panjohur",
       productUrl: url,
       lastChecked: new Date().toISOString(),
     };
