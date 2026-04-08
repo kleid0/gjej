@@ -292,6 +292,9 @@ const CONFIGS: Record<string, VariantConfig> = {
   },
 };
 
+// Keywords that identify accessories — even if the name contains a phone model
+const ACCESSORY_KEYWORDS = /\b(case|cover|casing|screen\s*protector|tempered\s*glass|folie|mbrojtese|kover|aksesore|cable|kabllo|charger|karikues|strap|band|ring|holder|stand|mount|lens|wallet|pouch|sleeve|skin|sticker|bumper|shell)\b/i;
+
 /**
  * Get variant configuration for a product.
  * Returns null for products without a known variant config (accessories, TVs, etc.).
@@ -299,6 +302,9 @@ const CONFIGS: Record<string, VariantConfig> = {
 export function getVariantConfig(product: Product): VariantConfig | null {
   const validSubcategories = ["Smartphone", "Tablet", "Laptop"];
   if (!validSubcategories.includes(product.subcategory)) return null;
+
+  // Accessories often mention the phone model in their name — exclude them
+  if (ACCESSORY_KEYWORDS.test(product.family)) return null;
 
   for (const { regex, key } of BASE_MODEL_PATTERNS) {
     if (regex.test(product.family)) {

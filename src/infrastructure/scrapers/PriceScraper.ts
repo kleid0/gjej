@@ -343,6 +343,8 @@ function strictMatchScore(resultName: string, queryTerms: string[]): number {
   const queryIsAccessory  = queryWords.some((w)  => ACCESSORY_WORDS.has(w));
   const resultIsAccessory = resultWords.some((w) => ACCESSORY_WORDS.has(w));
   if (!queryIsAccessory && resultIsAccessory) return 0;
+  // Reverse: if query is for an accessory, reject non-accessory results (e.g. the phone itself)
+  if (queryIsAccessory && !resultIsAccessory) return 0;
 
   // 4b. Bundle/edition hard reject: if the result is a bundle or special edition
   //     (e.g. "Nintendo Switch 2 Pokémon Legends: Z-A") but the query is for

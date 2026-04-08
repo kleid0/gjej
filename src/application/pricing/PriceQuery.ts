@@ -74,6 +74,8 @@ function isValidMatch(name: string, searchTerms: string[]): boolean {
   const qw = postTokenize(queryText);
   const rw = postTokenize(resultText);
   if (!qw.some((w) => POST_ACCESSORY_WORDS.has(w)) && rw.some((w) => POST_ACCESSORY_WORDS.has(w))) return false;
+  // Reverse: if query is for an accessory, reject non-accessory results (e.g. the phone itself)
+  if (qw.some((w) => POST_ACCESSORY_WORDS.has(w)) && !rw.some((w) => POST_ACCESSORY_WORDS.has(w))) return false;
   if (!qw.some((w) => POST_BUNDLE_WORDS.has(w)) && rw.some((w) => POST_BUNDLE_WORDS.has(w))) return false;
 
   return true;
@@ -86,7 +88,7 @@ function validatePriceMatches(prices: ScrapedPrice[], searchTerms: string[]): Sc
     const name = p.matchedName ?? (p.productUrl ? nameFromUrl(p.productUrl) : null);
     if (!name) return p; // can't validate without a name
     if (!isValidMatch(name, searchTerms)) {
-      return { ...p, price: null, inStock: null, error: "Produkti nuk përputhet" };
+      return { ...p, price: null, inStock: null, error: "Produkti nuk u gjet" };
     }
     return p;
   });
