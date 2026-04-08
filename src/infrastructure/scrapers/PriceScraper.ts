@@ -935,6 +935,11 @@ async function scrapeWooCommerce(
 
   // Direct slug lookup for own-store products
   const ownPrefix = `${store.id}-`;
+  // Log debug info for percent-encoded product IDs so we can diagnose issues via runtime logs
+  const debugMode = productId.includes('%');
+  if (debugMode) {
+    console.error(`[WooScraper] store=${store.id} productId=${productId} searchTerms=${JSON.stringify(searchTerms)}`);
+  }
   if (productId.startsWith(ownPrefix)) {
     // Pass the raw slug directly — do NOT pre-decode it.
     // WordPress stores slugs with literal percent-encoded chars (e.g. the string
@@ -944,6 +949,9 @@ async function scrapeWooCommerce(
     // Pre-decoding (%e2%80%b3 → ″) causes PHP to search for the ″ character
     // instead, which never matches the percent-encoded DB slug.
     const slug = productId.slice(ownPrefix.length);
+    if (debugMode) {
+      console.error(`[WooScraper] slug lookup: store=${store.id} slug=${slug}`);
+    }
     try {
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
         params: { slug, per_page: 1 },
@@ -951,6 +959,9 @@ async function scrapeWooCommerce(
         headers: HEADERS,
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
+      if (debugMode) {
+        console.error(`[WooScraper] slug lookup result: items=${items.length} first=${items[0]?.name ?? 'none'}`);
+      }
       if (items.length) {
         const item = items[0];
 
@@ -968,13 +979,20 @@ async function scrapeWooCommerce(
           return parseWooItem(item);
         }
       }
-    } catch {
+    } catch (e) {
+      if (debugMode) {
+        console.error(`[WooScraper] slug lookup exception: ${e instanceof Error ? e.message : String(e)}`);
+      }
       // fall through to search
     }
   }
 
   // Cross-store or slug lookup failed — search by name
-  for (const term of buildQueries(searchTerms)) {
+  const nameQueries = buildQueries(searchTerms);
+  if (debugMode) {
+    console.error(`[WooScraper] name search: store=${store.id} queries=${JSON.stringify(nameQueries)}`);
+  }
+  for (const term of nameQueries) {
     try {
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
         params: { search: term, per_page: 20 },
@@ -982,12 +1000,16 @@ async function scrapeWooCommerce(
         headers: HEADERS,
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
+      if (debugMode) {
+        console.error(`[WooScraper] name search term="${term}" items=${items.length} names=${JSON.stringify(items.slice(0,3).map(i => i.name))}`);
+      }
       if (!items.length) continue;
 
-      const best = items
-        .map((item) => ({ item, score: strictMatchScore(item.name, [term]) }))
-        .filter((x) => x.score > 0)
-        .sort((a, b) => b.score - a.score)[0]?.item;
+      const scored = items.map((item) => ({ item, score: strictMatchScore(item.name, [term]) }));
+      if (debugMode) {
+        console.error(`[WooScraper] scores: ${JSON.stringify(scored.slice(0,3).map(x => ({ name: x.item.name, score: x.score })))}`);
+      }
+      const best = scored.filter((x) => x.score > 0).sort((a, b) => b.score - a.score)[0]?.item;
       if (!best) continue;
 
       // For variable products (e.g. Shpresa): resolve the specific colour variation
@@ -997,7 +1019,10 @@ async function scrapeWooCommerce(
       }
 
       return parseWooItem(best);
-    } catch {
+    } catch (e) {
+      if (debugMode) {
+        console.error(`[WooScraper] name search exception: term="${term}" err=${e instanceof Error ? e.message : String(e)}`);
+      }
       continue;
     }
   }
