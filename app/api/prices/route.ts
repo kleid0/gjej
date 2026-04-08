@@ -4,7 +4,7 @@ import { buildVariantSearchTerms } from "@/src/domain/catalog/variants";
 
 export const maxDuration = 30;
 
-// GET /api/prices?product=<productId>
+// GET /api/prices?product=<productId>[&ngjyre=<colour>][&hapesire=<storage>][&force=1]
 export async function GET(req: NextRequest) {
   const productId = req.nextUrl.searchParams.get("product");
   if (!productId) {
@@ -16,8 +16,9 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Product not found" }, { status: 404 });
   }
 
-  const colourParam = req.nextUrl.searchParams.get("ngjyre");
+  const colourParam  = req.nextUrl.searchParams.get("ngjyre");
   const storageParam = req.nextUrl.searchParams.get("hapesire");
+  const forceRefresh = req.nextUrl.searchParams.get("force") === "1";
 
   let searchTerms = product.searchTerms;
   let cacheKey: string | undefined;
@@ -27,7 +28,7 @@ export async function GET(req: NextRequest) {
     cacheKey = `${productId}:${(colourParam ?? "").toLowerCase()}:${(storageParam ?? "").toLowerCase()}`;
   }
 
-  const result = await priceQuery.getPricesForProduct(productId, searchTerms, cacheKey);
+  const result = await priceQuery.getPricesForProduct(productId, searchTerms, cacheKey, forceRefresh);
 
   // For variant-specific queries, use a clearer "not found" message
   if (colourParam || storageParam) {

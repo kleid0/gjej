@@ -26,14 +26,32 @@ function notFound(storeId: string, error: string): ScrapedPrice {
   };
 }
 
+// Tokenise a product name into words, preserving Unicode letters (including
+// Albanian ë, é, etc.) that \W+ would otherwise split.  Splits only on
+// whitespace, hyphens, and common punctuation/symbols.
+function tokenize(text: string): string[] {
+  return text
+    .replace(/[™®©℠]/g, " ")
+    .split(/[\s\-/()\[\]{}.,;:!?|+@#%^&*~`]+/)
+    .filter((w) => w.length > 1);
+}
+
 // Words that indicate an accessory/peripheral rather than the main product.
 // Penalise results containing these when the query does not.
 const ACCESSORY_WORDS = new Set([
   "kontrollues", "kontroller", "controller", "joy-con", "joystick", "gamepad",
   "volant", "steering", "wheel", "adapter", "charger", "karikues", "kabel",
-  "cable", "case", "kover", "mbrojtes", "mbrojtese", "protective", "glass",
+  "cable", "case", "kover", "mbrojtes", "mbrojtese", "mbështjellës", "protective", "glass",
   "tempered", "screen", "dock", "stand", "pouch", "bag", "backpack",
   "headset", "headphone", "kufje", "mouse", "tastierë", "keyboard",
+]);
+
+// Words that indicate a bundle or special edition rather than the base product.
+// Prevents "Nintendo Switch 2 Pokémon Legends: Z-A" matching a "Nintendo Switch 2" query.
+const BUNDLE_WORDS = new Set([
+  "bundle", "edition", "pack", "combo", "collection",
+  "koleksion", "paketë", "pakete",
+  "pokemon", "pokémon", "zelda", "metroid", "kirby", "splatoon", "legends",
 ]);
 
 // ── Strict match helpers ──────────────────────────────────────────────────────
@@ -62,15 +80,17 @@ function extractTier(text: string): string | null {
 }
 
 /**
- * Extract 2-4 digit standalone numbers that represent model/generation numbers.
+ * Extract 1-4 digit standalone numbers that represent model/generation numbers.
  * Storage sizes (128GB, 256GB, 1TB) and screen-size notations (65") are stripped
  * first so they do not interfere with model number comparison.
+ * Single-digit numbers ARE captured — "Switch 2", "PlayStation 5", "iPad 8"
+ * all use single-digit generation numbers that must be matched.
  */
 function extractGenerationNumbers(text: string): Set<string> {
   const cleaned = text.toLowerCase()
     .replace(/\b\d+\s*(gb|tb)\b/gi, "")          // strip storage: 128GB, 1TB
     .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, ""); // strip screen sizes: 65", 6.1in
-  return new Set(cleaned.match(/\b\d{2,4}\b/g) ?? []);
+  return new Set(cleaned.match(/\b\d{1,4}\b/g) ?? []);
 }
 
 /** Return the normalised storage string ("256GB", "1TB") or null if none. */
@@ -287,6 +307,13 @@ function strictMatchScore(resultName: string, queryTerms: string[]): number {
   const resultNums = extractGenerationNumbers(resultLow);
   if (!Array.from(queryNums).every((n) => resultNums.has(n))) return 0;
 
+  // 1b. Reverse check: result must not have extra generation numbers absent from the query.
+  //     Prevents "Nintendo Switch 2" matching "Nintendo Switch 2 EA SPORTS FC 26"
+  //     (result nums {2,26} vs query nums {2} → "26" is extra → reject).
+  //     Only applied when the query itself carries at least one generation number,
+  //     so bare brand queries (e.g. "Samsung") are not affected.
+  if (queryNums.size > 0 && Array.from(resultNums).some((n) => !queryNums.has(n))) return 0;
+
   // 2. Model tier must match exactly.
   //    "iPhone 17" (tier=null) must not match "iPhone 17 Pro" (tier="pro").
   //    "iPhone 17 Pro" (tier="pro") must not match "iPhone 17 Pro Max" (tier="pro max").
@@ -309,11 +336,20 @@ function strictMatchScore(resultName: string, queryTerms: string[]): number {
 
   // 4. Accessory hard reject: if the result is an accessory (case, cable, glass…)
   //    but the query is not, score is zero regardless of word overlap.
+  //    tokenize() is used instead of split(/\W+/) so Albanian words like
+  //    "mbështjellës" (case/wrapper) are kept intact rather than split at ë/é.
   const queryWords  = queryLow.split(/\s+/).filter((w) => w.length > 1);
-  const resultWords = resultLow.split(/\W+/).filter((w) => w.length > 1);
+  const resultWords = tokenize(resultLow);
   const queryIsAccessory  = queryWords.some((w)  => ACCESSORY_WORDS.has(w));
   const resultIsAccessory = resultWords.some((w) => ACCESSORY_WORDS.has(w));
   if (!queryIsAccessory && resultIsAccessory) return 0;
+
+  // 4b. Bundle/edition hard reject: if the result is a bundle or special edition
+  //     (e.g. "Nintendo Switch 2 Pokémon Legends: Z-A") but the query is for
+  //     the base product, score is zero.
+  const queryHasBundle  = queryWords.some((w) => BUNDLE_WORDS.has(w));
+  const resultHasBundle = resultWords.some((w) => BUNDLE_WORDS.has(w));
+  if (!queryHasBundle && resultHasBundle) return 0;
 
   // 5. Minimum confidence: at least 60 % of query words must appear in result.
   if (confidenceRatio(resultName, queryTerms) < MIN_CONFIDENCE) return 0;
@@ -337,7 +373,7 @@ function matchScore(name: string, terms: string[]): number {
   if (matchingWords.length === 0) return 0;
 
   // Precision: penalise extra result words that aren't in the query
-  const resultWords = n.split(/\W+/).filter((w) => w.length > 1);
+  const resultWords = tokenize(n);
   const unmatchedExtras = resultWords.filter(
     (w) => !queryWords.some((qw) => qw.includes(w) || w.includes(qw))
   ).length;
@@ -521,8 +557,32 @@ async function scrapeJsonLd(url: string, storeId: string): Promise<ScrapedPrice 
 // We match the requested colour and storage against those values.
 // Falls back to variants[0] when no searchTerms hint is available.
 
-interface ShopifyVariant { option1?: string; option2?: string; option3?: string; price?: string; available?: boolean }
-interface ShopifyProduct { options?: Array<{ name: string }>; variants?: ShopifyVariant[] }
+interface ShopifyVariant {
+  option1?: string; option2?: string; option3?: string;
+  price?: string;
+  available?: boolean | null;
+  inventory_quantity?: number;
+  inventory_management?: string | null;
+  inventory_policy?: string;
+}
+interface ShopifyProduct { options?: Array<{ name: string }>; variants?: ShopifyVariant[]; title?: string }
+
+/**
+ * Resolve stock availability from a Shopify variant.
+ * `available` is authoritative when it is a boolean.
+ * When it is null/undefined (common with multi-location inventory), fall back to
+ * inventory_quantity + inventory_policy so we don't show "E panjohur" for items
+ * that are clearly in stock at one or more store locations.
+ */
+function shopifyVariantInStock(v: ShopifyVariant): boolean | null {
+  if (typeof v.available === "boolean") return v.available;
+  if (typeof v.inventory_quantity === "number") {
+    return v.inventory_quantity > 0 || v.inventory_policy === "continue";
+  }
+  // inventory_management === null means "don't track" → treat as available
+  if (v.inventory_management === null) return true;
+  return null;
+}
 
 function pickShopifyVariant(product: ShopifyProduct, searchTerms: string[]): ShopifyVariant | null | undefined {
   const variants = product.variants ?? [];
@@ -589,14 +649,27 @@ async function scrapeShopify(
       }
       if (variant) {
         const price = variant.price ? parseFloat(variant.price) : null;
-        const available = variant.available ?? null;
+        const productUrl = `${store.url}/products/${handle}`;
+        let available = shopifyVariantInStock(variant);
+
+        // Shopify multi-location inventory can return available:null from the
+        // product JSON.  Fall back to JSON-LD structured data on the product page
+        // (Schema.org InStock/OutOfStock) which is always accurate.
+        if (available === null && price !== null) {
+          const pageResult = await scrapeJsonLd(productUrl, store.id);
+          if (pageResult?.inStock !== null && pageResult?.inStock !== undefined) {
+            available = pageResult.inStock;
+          }
+        }
+
         return {
           storeId: store.id,
           price,
           inStock: available,
           stockLabel: available === true ? "Në gjendje" : available === false ? "Jo në gjendje" : "E panjohur",
-          productUrl: `${store.url}/products/${handle}`,
+          productUrl,
           lastChecked,
+          matchedName: product?.title,
         };
       }
     } catch {
@@ -649,13 +722,20 @@ async function scrapeShopify(
             if (!variant) continue;
             const price = variant.price ? parseFloat(variant.price) : null;
             if (price === null) continue;
+            const inferUrl = `${store.url}/products/${h}`;
+            let avail = shopifyVariantInStock(variant);
+            if (avail === null) {
+              const pg = await scrapeJsonLd(inferUrl, store.id);
+              if (pg?.inStock !== null && pg?.inStock !== undefined) avail = pg.inStock;
+            }
             return {
               storeId: store.id,
               price,
-              inStock: variant.available ?? null,
-              stockLabel: variant.available === true ? "Në gjendje" : variant.available === false ? "Jo në gjendje" : "E panjohur",
-              productUrl: `${store.url}/products/${h}`,
+              inStock: avail,
+              stockLabel: avail === true ? "Në gjendje" : avail === false ? "Jo në gjendje" : "E panjohur",
+              productUrl: inferUrl,
               lastChecked,
+              matchedName: prd.title,
             };
           } catch { continue; }
         }
@@ -685,14 +765,20 @@ async function scrapeShopify(
       if (variant === null) return colourUnavailable(store.id, `${store.url}/products/${handle}`);
       if (!variant) continue;
       const price = variant.price ? parseFloat(variant.price) : null;
-      const available = variant.available ?? null;
+      const crossUrl = `${store.url}/products/${handle}`;
+      let available = shopifyVariantInStock(variant);
+      if (available === null && price !== null) {
+        const pg = await scrapeJsonLd(crossUrl, store.id);
+        if (pg?.inStock !== null && pg?.inStock !== undefined) available = pg.inStock;
+      }
       return {
         storeId: store.id,
         price,
         inStock: available,
         stockLabel: available === true ? "Në gjendje" : available === false ? "Jo në gjendje" : "E panjohur",
-        productUrl: `${store.url}/products/${handle}`,
+        productUrl: crossUrl,
         lastChecked,
+        matchedName: product?.title,
       };
     } catch {
       continue;
@@ -746,6 +832,7 @@ async function scrapeWooCommerce(
       stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
       productUrl: item.permalink ?? fallbackUrl ?? null,
       lastChecked,
+      matchedName: item.name,
     };
   }
 
@@ -881,7 +968,7 @@ async function scrapeWooCommerce(
   for (const term of buildQueries(searchTerms)) {
     try {
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
-        params: { search: term, per_page: 10 },
+        params: { search: term, per_page: 20 },
         timeout: 8000,
         headers: HEADERS,
       });
@@ -906,6 +993,43 @@ async function scrapeWooCommerce(
     }
   }
 
+  // Search exhausted — try direct slug inference as a last resort.
+  // When the store has many related products (e.g. Switch 2 games) that all get
+  // rejected by the matching guards, the actual base product can fall outside the
+  // search page.  Slugify each query term and attempt a ?slug= lookup directly.
+  function toWooSlug(s: string): string {
+    return cleanQuery(s)
+      .toLowerCase()
+      .replace(/[™®©℠''`]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
+  const slugsAttempted = new Set<string>();
+  for (const term of buildQueries(searchTerms)) {
+    const slug = toWooSlug(term);
+    if (!slug || slugsAttempted.has(slug)) continue;
+    slugsAttempted.add(slug);
+    try {
+      const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
+        params: { slug, per_page: 1 },
+        timeout: 6000,
+        headers: HEADERS,
+      });
+      const items: WooItem[] = Array.isArray(data) ? data : [];
+      if (!items.length) continue;
+      const item = items[0];
+      if (strictMatchScore(item.name, [term]) <= 0) continue;
+      if (item.type === "variable") {
+        const varResult = await resolveVariation(item);
+        if (varResult !== undefined) return varResult;
+      }
+      return parseWooItem(item);
+    } catch {
+      continue;
+    }
+  }
+
   return notFound(store.id, "Produkti nuk u gjet");
 }
 
@@ -917,6 +1041,28 @@ async function scrapeWooCommerce(
 //    from JSON-LD (if present) or GTM dataLayer ("productPrice":"19934.00").
 // 2. Cross-store: search via /search?search= HTML page, parse product cards
 //    with cheerio, then fetch the matched product page for price.
+
+/** Extract stock status from Shopware 6 page HTML when JSON-LD availability is absent. */
+function extractShopwareStockFromHtml(html: string): boolean | null {
+  // Shopware 6 delivery status indicator: <span class="delivery-status-indicator is-available">
+  if (/delivery-status-indicator/.test(html)) {
+    if (/\bis-available\b/.test(html)) return true;
+    if (/\bnot-available\b/.test(html)) return false;
+  }
+
+  // Embedded JSON with availableStock count (Shopware serializes product state)
+  const stockCountMatch = html.match(/"availableStock"\s*:\s*(\d+)/);
+  if (stockCountMatch) return parseInt(stockCountMatch[1], 10) > 0;
+
+  // Albanian delivery text: "N+ artikuj" / "N artikuj" = items in stock
+  if (/\d+\+?\s*artikuj/i.test(html)) return true;
+
+  // Shopware "available" product flag in serialized data
+  const availFlagMatch = html.match(/"available"\s*:\s*(true|false)/);
+  if (availFlagMatch) return availFlagMatch[1] === "true";
+
+  return null;
+}
 
 async function scrapeShopwareProductPage(url: string, storeId: string): Promise<ScrapedPrice | null> {
   try {
@@ -942,7 +1088,9 @@ async function scrapeShopwareProductPage(url: string, storeId: string): Promise<
         const price = rawPrice != null ? parseFloat(String(rawPrice)) : null;
         if (price !== null && !isNaN(price) && price > 0) {
           const avail = offer?.availability ?? "";
-          const inStock = avail ? avail.toLowerCase().includes("instock") : null;
+          let inStock: boolean | null = avail ? avail.toLowerCase().includes("instock") : null;
+          // If JSON-LD doesn't carry availability, try HTML-based detection
+          if (inStock === null) inStock = extractShopwareStockFromHtml(html);
           return {
             storeId, price, inStock,
             stockLabel: inStock === true ? "Në gjendje" : inStock === false ? "Jo në gjendje" : "E panjohur",
@@ -959,11 +1107,12 @@ async function scrapeShopwareProductPage(url: string, storeId: string): Promise<
     const price = parseFloat(priceMatch[1]);
     if (isNaN(price) || price <= 0) return null;
 
+    const inStock = extractShopwareStockFromHtml(html);
     return {
       storeId,
       price,
-      inStock: null,
-      stockLabel: "E panjohur",
+      inStock,
+      stockLabel: inStock === true ? "Në gjendje" : inStock === false ? "Jo në gjendje" : "E panjohur",
       productUrl: url,
       lastChecked: new Date().toISOString(),
     };
@@ -1060,12 +1209,13 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
           stockLabel: "E panjohur",
           productUrl: best.url,
           lastChecked: new Date().toISOString(),
+          matchedName: best.name,
         };
         return validateColour(requestedColour, candidateText, baseResult, store.id);
       }
 
       const result = await scrapeShopwareProductPage(best.url, store.id);
-      if (result) return validateColour(requestedColour, candidateText, result, store.id);
+      if (result) return validateColour(requestedColour, candidateText, { ...result, matchedName: best.name }, store.id);
     } catch {
       continue;
     }
@@ -1131,6 +1281,7 @@ async function scrapeGlobe(store: Store, searchTerms: string[]): Promise<Scraped
         stockLabel: inStock ? "Në gjendje" : "Jo në gjendje",
         productUrl: `${store.url}/products/${best.id}`,
         lastChecked,
+        matchedName: best.name,
       };
       // Globe doesn't always include colour in product names; use strict=false so a
       // no-colour-info result passes through rather than being rejected outright.
@@ -1162,6 +1313,13 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
     ActualPrice: number;
     AvailableWebshop: boolean;
     Manufacturer: string;
+    // Extra stock fields the API may return (varies by response)
+    Available?: boolean;
+    IsAvailable?: boolean;
+    InStock?: boolean;
+    IsInStock?: boolean;
+    StockQuantity?: number;
+    Quantity?: number;
   };
 
   // Try ALL queries and pick the overall best match (Neptun's search API
@@ -1207,13 +1365,43 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
     ? bestItem.DiscountPrice
     : bestItem.ActualPrice;
 
+  // Use the most specific stock field available in the search result.
+  // AvailableWebshop = "can be ordered online" which may be true even when the
+  // product isn't in warehouse. Prefer narrower fields if the API returned them.
+  const productUrl = `${store.url}${bestItem.Url}`;
+  let inStock: boolean | null =
+    bestItem.IsInStock ?? bestItem.InStock ?? bestItem.IsAvailable ?? bestItem.Available ??
+    (bestItem.StockQuantity != null ? bestItem.StockQuantity > 0 :
+     bestItem.Quantity != null ? bestItem.Quantity > 0 : bestItem.AvailableWebshop);
+  try {
+    const { data: detail } = await axios.get(productUrl, {
+      timeout: 8000,
+      headers: {
+        ...HEADERS,
+        "FROM-ANGULAR": "true",
+        Accept: "application/json, text/javascript, */*",
+      },
+    });
+    if (detail && typeof detail === "object") {
+      // Parse various field names Neptun might use for stock status
+      const raw = detail as Record<string, unknown>;
+      const product = (raw.Product ?? raw.product ?? raw.data ?? raw) as Record<string, unknown>;
+      const stockVal =
+        product.IsAvailable ?? product.Available ?? product.InStock ??
+        product.AvailableWebshop ?? product.isAvailable ?? product.available;
+      if (typeof stockVal === "boolean") inStock = stockVal;
+      else if (typeof stockVal === "number") inStock = stockVal > 0;
+    }
+  } catch { /* keep API value */ }
+
   const baseResult: ScrapedPrice = {
     storeId: store.id,
     price,
-    inStock: bestItem.AvailableWebshop,
-    stockLabel: bestItem.AvailableWebshop ? "Në gjendje" : "Jo në gjendje",
-    productUrl: `${store.url}${bestItem.Url}`,
+    inStock,
+    stockLabel: inStock === true ? "Në gjendje" : inStock === false ? "Jo në gjendje" : "E panjohur",
+    productUrl,
     lastChecked,
+    matchedName: bestItem.Title,
   };
   return validateColour(extractColourFromTerms(searchTerms), `${bestItem.Title} ${bestItem.Url}`, baseResult, store.id);
 }

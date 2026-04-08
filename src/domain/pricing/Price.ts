@@ -13,6 +13,7 @@ export interface ScrapedPrice {
   stale?: boolean;        // Price data is older than 24h
   unverified?: boolean;   // Store match confidence below verification threshold
   colourWarning?: string;
+  matchedName?: string;   // Product name the store actually matched — used for post-validation
 }
 
 export interface PriceRecord {

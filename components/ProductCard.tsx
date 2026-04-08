@@ -62,7 +62,7 @@ export default function ProductCard({ product, lowestPrice: initialPrice, lowest
         {lowestPrice != null ? (
           <>
             <p className="text-sm font-bold text-orange-600">
-              Nga {lowestPrice.toLocaleString("sq-AL")} Lekë
+              Nga {Math.round(lowestPrice).toLocaleString("sq-AL")} Lekë
             </p>
             {lowestPriceStore && (
               <p className="text-xs text-gray-500 mt-0.5">{lowestPriceStore}</p>
