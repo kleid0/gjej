@@ -2,9 +2,9 @@ import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { STORE_MAP } from "@/src/infrastructure/stores/registry";
+import { readTrendsCache } from "@/src/infrastructure/trends/TrendsService";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
-import SearchAutocomplete from "@/components/SearchAutocomplete";
 
 // Revalidate homepage every 30 minutes — cached prices refresh daily
 export const revalidate = 1800;
@@ -16,8 +16,53 @@ export default async function Home() {
     getProductLowestPrices(),
   ]);
 
-  const featured = allProducts.slice(0, 8);
   const categories = productCatalog.getCategories();
+
+  // Score each product by store coverage and stock as a baseline
+  const scoredProducts = allProducts.map((product) => {
+    const record = allPrices[product.id];
+    let storeCount = 0;
+    let hasStock = false;
+    if (record) {
+      const valid = record.prices.filter(
+        (p) => p.price !== null && !p.suspicious && !p.overpriced && !p.stale,
+      );
+      storeCount = valid.length;
+      hasStock = valid.some((p) => p.inStock === true);
+    } else if (dbPrices[product.id]) {
+      storeCount = 1;
+    }
+    return { product, storeCount, hasStock };
+  });
+
+  // Use Google Trends scores if a fresh cache exists; otherwise fall back to
+  // store-coverage ranking with a daily rotation so the set changes each day.
+  const trendsCache = readTrendsCache();
+  const trendsScores = trendsCache?.scores ?? {};
+  const hasTrendsData = Object.values(trendsScores).some((s) => s > 0);
+
+  let featured;
+  if (hasTrendsData) {
+    featured = scoredProducts
+      .sort((a, b) => (trendsScores[b.product.id] ?? 0) - (trendsScores[a.product.id] ?? 0))
+      .slice(0, 8)
+      .map((s) => s.product);
+  } else {
+    const dayOfYear = Math.floor(
+      (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000,
+    );
+    const POOL = 24;
+    const PAGE = 8;
+    const windowIdx = dayOfYear % (POOL / PAGE);
+    featured = scoredProducts
+      .sort((a, b) => {
+        if (a.hasStock !== b.hasStock) return a.hasStock ? -1 : 1;
+        return b.storeCount - a.storeCount;
+      })
+      .slice(0, POOL)
+      .slice(windowIdx * PAGE, (windowIdx + 1) * PAGE)
+      .map((s) => s.product);
+  }
 
   // Build lowest-price map: prefer fresh file cache, fall back to DB lowest_price
   const lowestPriceMap: Record<string, { price: number; storeName: string } | null> = {};
@@ -49,7 +94,6 @@ export default async function Home() {
           <p className="text-orange-100 text-lg mb-8">
             Krahaso çmimet nga dyqanet kryesore shqiptare në një vend
           </p>
-          <SearchAutocomplete variant="hero" />
         </div>
       </section>
 
@@ -76,7 +120,7 @@ export default async function Home() {
       {/* Featured products */}
       <section className="max-w-6xl mx-auto px-4 pb-12">
         <div className="flex items-center justify-between mb-5">
-          <h2 className="text-xl font-bold text-gray-800">Produkte të Njohura</h2>
+          <h2 className="text-xl font-bold text-gray-800">Produktet më të kërkuara</h2>
           <Link href="/kerko" className="text-orange-600 hover:text-orange-700 text-sm font-medium">
             Shiko të gjitha →
           </Link>
