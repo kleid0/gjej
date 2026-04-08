@@ -74,6 +74,8 @@ function isValidMatch(name: string, searchTerms: string[]): boolean {
   const qw = postTokenize(queryText);
   const rw = postTokenize(resultText);
   if (!qw.some((w) => POST_ACCESSORY_WORDS.has(w)) && rw.some((w) => POST_ACCESSORY_WORDS.has(w))) return false;
+  // Reverse: if query is for an accessory, reject non-accessory results (e.g. the phone itself)
+  if (qw.some((w) => POST_ACCESSORY_WORDS.has(w)) && !rw.some((w) => POST_ACCESSORY_WORDS.has(w))) return false;
   if (!qw.some((w) => POST_BUNDLE_WORDS.has(w)) && rw.some((w) => POST_BUNDLE_WORDS.has(w))) return false;
 
   return true;
