@@ -1358,12 +1358,48 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
     ? bestItem.DiscountPrice
     : bestItem.ActualPrice;
 
+  // AvailableWebshop can be true for products that are orderable online but
+  // not actually in physical stock ("I padisponueshëm" badge on product page).
+  // Verify stock by checking the product page JSON-LD or HTML indicators.
+  const productUrl = `${store.url}${bestItem.Url}`;
+  let inStock: boolean | null = bestItem.AvailableWebshop;
+  try {
+    const { data: pageHtml } = await axios.get(productUrl, {
+      timeout: 8000,
+      headers: { ...HEADERS, Accept: "text/html,application/xhtml+xml" },
+    });
+    if (typeof pageHtml === "string") {
+      // Try JSON-LD availability first
+      const ldRegex = /<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi;
+      let ldMatch: RegExpExecArray | null;
+      let ldInStock: boolean | null = null;
+      while ((ldMatch = ldRegex.exec(pageHtml)) !== null) {
+        try {
+          const ld = JSON.parse(ldMatch[1].trim());
+          const items: unknown[] = Array.isArray(ld) ? ld : ld?.["@graph"] ? ld["@graph"] : [ld];
+          const product = items.find((x: any) => x?.["@type"] === "Product") as any;
+          if (!product) continue;
+          const offerList: any[] = Array.isArray(product.offers)
+            ? product.offers : product.offers ? [product.offers] : [];
+          const avail: string = offerList[0]?.availability ?? "";
+          if (avail) { ldInStock = avail.toLowerCase().includes("instock"); break; }
+        } catch { continue; }
+      }
+      if (ldInStock !== null) {
+        inStock = ldInStock;
+      } else if (/padisponuesh/i.test(pageHtml)) {
+        // "I padisponueshëm" = unavailable/not in stock on the Neptun page
+        inStock = false;
+      }
+    }
+  } catch { /* keep API value */ }
+
   const baseResult: ScrapedPrice = {
     storeId: store.id,
     price,
-    inStock: bestItem.AvailableWebshop,
-    stockLabel: bestItem.AvailableWebshop ? "Në gjendje" : "Jo në gjendje",
-    productUrl: `${store.url}${bestItem.Url}`,
+    inStock,
+    stockLabel: inStock === true ? "Në gjendje" : inStock === false ? "Jo në gjendje" : "E panjohur",
+    productUrl,
     lastChecked,
     matchedName: bestItem.Title,
   };
