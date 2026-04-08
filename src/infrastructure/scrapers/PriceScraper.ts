@@ -1313,6 +1313,13 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
     ActualPrice: number;
     AvailableWebshop: boolean;
     Manufacturer: string;
+    // Extra stock fields the API may return (varies by response)
+    Available?: boolean;
+    IsAvailable?: boolean;
+    InStock?: boolean;
+    IsInStock?: boolean;
+    StockQuantity?: number;
+    Quantity?: number;
   };
 
   // Try ALL queries and pick the overall best match (Neptun's search API
@@ -1358,39 +1365,32 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
     ? bestItem.DiscountPrice
     : bestItem.ActualPrice;
 
-  // AvailableWebshop can be true for products that are orderable online but
-  // not actually in physical stock ("I padisponueshëm" badge on product page).
-  // Verify stock by checking the product page JSON-LD or HTML indicators.
+  // Use the most specific stock field available in the search result.
+  // AvailableWebshop = "can be ordered online" which may be true even when the
+  // product isn't in warehouse. Prefer narrower fields if the API returned them.
   const productUrl = `${store.url}${bestItem.Url}`;
-  let inStock: boolean | null = bestItem.AvailableWebshop;
+  let inStock: boolean | null =
+    bestItem.IsInStock ?? bestItem.InStock ?? bestItem.IsAvailable ?? bestItem.Available ??
+    (bestItem.StockQuantity != null ? bestItem.StockQuantity > 0 :
+     bestItem.Quantity != null ? bestItem.Quantity > 0 : bestItem.AvailableWebshop);
   try {
-    const { data: pageHtml } = await axios.get(productUrl, {
+    const { data: detail } = await axios.get(productUrl, {
       timeout: 8000,
-      headers: { ...HEADERS, Accept: "text/html,application/xhtml+xml" },
+      headers: {
+        ...HEADERS,
+        "FROM-ANGULAR": "true",
+        Accept: "application/json, text/javascript, */*",
+      },
     });
-    if (typeof pageHtml === "string") {
-      // "I padisponueshëm" badge on the page is the most visible signal —
-      // check it first because JSON-LD may still say InStock for orderable-but-
-      // out-of-warehouse products.
-      if (/padisponuesh/i.test(pageHtml)) {
-        inStock = false;
-      } else {
-        // No unavailability text — try JSON-LD for a positive in-stock signal
-        const ldRegex = /<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi;
-        let ldMatch: RegExpExecArray | null;
-        while ((ldMatch = ldRegex.exec(pageHtml)) !== null) {
-          try {
-            const ld = JSON.parse(ldMatch[1].trim());
-            const items: unknown[] = Array.isArray(ld) ? ld : ld?.["@graph"] ? ld["@graph"] : [ld];
-            const product = items.find((x: any) => x?.["@type"] === "Product") as any;
-            if (!product) continue;
-            const offerList: any[] = Array.isArray(product.offers)
-              ? product.offers : product.offers ? [product.offers] : [];
-            const avail: string = offerList[0]?.availability ?? "";
-            if (avail) { inStock = avail.toLowerCase().includes("instock"); break; }
-          } catch { continue; }
-        }
-      }
+    if (detail && typeof detail === "object") {
+      // Parse various field names Neptun might use for stock status
+      const raw = detail as Record<string, unknown>;
+      const product = (raw.Product ?? raw.product ?? raw.data ?? raw) as Record<string, unknown>;
+      const stockVal =
+        product.IsAvailable ?? product.Available ?? product.InStock ??
+        product.AvailableWebshop ?? product.isAvailable ?? product.available;
+      if (typeof stockVal === "boolean") inStock = stockVal;
+      else if (typeof stockVal === "number") inStock = stockVal > 0;
     }
   } catch { /* keep API value */ }
 
