@@ -39,12 +39,13 @@ export default function PriceComparison({ productId, variantColour, variantStora
   const [fromCache, setFromCache] = useState(false);
   const [lastRefresh, setLastRefresh] = useState<Date | null>(null);
 
-  async function fetchPrices() {
+  async function fetchPrices(force = false) {
     setLoading(true);
     try {
       let url = `/api/prices?product=${encodeURIComponent(productId)}`;
       if (variantColour) url += `&ngjyre=${encodeURIComponent(variantColour)}`;
       if (variantStorage) url += `&hapesire=${encodeURIComponent(variantStorage)}`;
+      if (force) url += `&force=1`;
       const res = await fetch(url);
       const data = await res.json();
       setPrices(data.prices);
@@ -78,7 +79,7 @@ export default function PriceComparison({ productId, variantColour, variantStora
             </span>
           )}
           <button
-            onClick={fetchPrices}
+            onClick={() => fetchPrices(true)}
             disabled={loading}
             className="text-orange-600 hover:text-orange-700 font-medium disabled:opacity-50"
           >

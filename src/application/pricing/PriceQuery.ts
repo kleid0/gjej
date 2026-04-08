@@ -131,22 +131,25 @@ export class PriceQuery {
     productId: string,
     searchTerms: string[],
     cacheKey?: string,
+    forceRefresh = false,
   ): Promise<{ prices: ScrapedPrice[]; fromCache: boolean; refreshedAt?: string }> {
     const effectiveKey = cacheKey ?? productId;
 
-    // 1. Check persisted prices (written by cron)
-    const persisted = await this.priceRepo.getByProductId(effectiveKey);
-    if (persisted) {
-      const ageMs = Date.now() - new Date(persisted.refreshedAt).getTime();
-      if (ageMs < STALE_THRESHOLD_MS) {
-        return {
-          prices: validatePriceMatches(
-            markStalePrices(persisted.prices, persisted.refreshedAt),
-            searchTerms,
-          ),
-          fromCache: true,
-          refreshedAt: persisted.refreshedAt,
-        };
+    // 1. Check persisted prices (written by cron) — skip when force-refresh requested
+    if (!forceRefresh) {
+      const persisted = await this.priceRepo.getByProductId(effectiveKey);
+      if (persisted) {
+        const ageMs = Date.now() - new Date(persisted.refreshedAt).getTime();
+        if (ageMs < STALE_THRESHOLD_MS) {
+          return {
+            prices: validatePriceMatches(
+              markStalePrices(persisted.prices, persisted.refreshedAt),
+              searchTerms,
+            ),
+            fromCache: true,
+            refreshedAt: persisted.refreshedAt,
+          };
+        }
       }
     }
 
