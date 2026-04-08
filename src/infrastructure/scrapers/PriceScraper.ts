@@ -1369,27 +1369,27 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
       headers: { ...HEADERS, Accept: "text/html,application/xhtml+xml" },
     });
     if (typeof pageHtml === "string") {
-      // Try JSON-LD availability first
-      const ldRegex = /<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi;
-      let ldMatch: RegExpExecArray | null;
-      let ldInStock: boolean | null = null;
-      while ((ldMatch = ldRegex.exec(pageHtml)) !== null) {
-        try {
-          const ld = JSON.parse(ldMatch[1].trim());
-          const items: unknown[] = Array.isArray(ld) ? ld : ld?.["@graph"] ? ld["@graph"] : [ld];
-          const product = items.find((x: any) => x?.["@type"] === "Product") as any;
-          if (!product) continue;
-          const offerList: any[] = Array.isArray(product.offers)
-            ? product.offers : product.offers ? [product.offers] : [];
-          const avail: string = offerList[0]?.availability ?? "";
-          if (avail) { ldInStock = avail.toLowerCase().includes("instock"); break; }
-        } catch { continue; }
-      }
-      if (ldInStock !== null) {
-        inStock = ldInStock;
-      } else if (/padisponuesh/i.test(pageHtml)) {
-        // "I padisponueshëm" = unavailable/not in stock on the Neptun page
+      // "I padisponueshëm" badge on the page is the most visible signal —
+      // check it first because JSON-LD may still say InStock for orderable-but-
+      // out-of-warehouse products.
+      if (/padisponuesh/i.test(pageHtml)) {
         inStock = false;
+      } else {
+        // No unavailability text — try JSON-LD for a positive in-stock signal
+        const ldRegex = /<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi;
+        let ldMatch: RegExpExecArray | null;
+        while ((ldMatch = ldRegex.exec(pageHtml)) !== null) {
+          try {
+            const ld = JSON.parse(ldMatch[1].trim());
+            const items: unknown[] = Array.isArray(ld) ? ld : ld?.["@graph"] ? ld["@graph"] : [ld];
+            const product = items.find((x: any) => x?.["@type"] === "Product") as any;
+            if (!product) continue;
+            const offerList: any[] = Array.isArray(product.offers)
+              ? product.offers : product.offers ? [product.offers] : [];
+            const avail: string = offerList[0]?.availability ?? "";
+            if (avail) { inStock = avail.toLowerCase().includes("instock"); break; }
+          } catch { continue; }
+        }
       }
     }
   } catch { /* keep API value */ }
