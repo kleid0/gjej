@@ -936,11 +936,14 @@ async function scrapeWooCommerce(
   // Direct slug lookup for own-store products
   const ownPrefix = `${store.id}-`;
   if (productId.startsWith(ownPrefix)) {
-    // Product IDs may contain percent-encoded characters (e.g. %e2%80%b3 for ″).
-    // Decode first so axios doesn't double-encode the % signs when serialising params.
-    const rawSlug = productId.slice(ownPrefix.length);
-    let slug: string;
-    try { slug = decodeURIComponent(rawSlug); } catch { slug = rawSlug; }
+    // Pass the raw slug directly — do NOT pre-decode it.
+    // WordPress stores slugs with literal percent-encoded chars (e.g. the string
+    // "%e2%80%b3" — not the ″ character). Axios will encode bare % signs to %25
+    // when building the URL, so PHP receives the literal "%e2%80%b3" string via
+    // $_GET and matches the post_name in the database.
+    // Pre-decoding (%e2%80%b3 → ″) causes PHP to search for the ″ character
+    // instead, which never matches the percent-encoded DB slug.
+    const slug = productId.slice(ownPrefix.length);
     try {
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
         params: { slug, per_page: 1 },
