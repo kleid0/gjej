@@ -190,7 +190,7 @@ export default function PriceComparison({ productId, variantColour, variantStora
                     ) : (
                       <span className="text-gray-400 text-sm">{p.error ?? "Nuk ka çmim"}</span>
                     )}
-                    {p.productUrl && (
+                    {p.productUrl && p.price !== null && (
                       <a
                         href={p.productUrl}
                         target="_blank"
