@@ -649,13 +649,25 @@ async function scrapeShopify(
       }
       if (variant) {
         const price = variant.price ? parseFloat(variant.price) : null;
-        const available = shopifyVariantInStock(variant);
+        const productUrl = `${store.url}/products/${handle}`;
+        let available = shopifyVariantInStock(variant);
+
+        // Shopify multi-location inventory can return available:null from the
+        // product JSON.  Fall back to JSON-LD structured data on the product page
+        // (Schema.org InStock/OutOfStock) which is always accurate.
+        if (available === null && price !== null) {
+          const pageResult = await scrapeJsonLd(productUrl, store.id);
+          if (pageResult?.inStock !== null && pageResult?.inStock !== undefined) {
+            available = pageResult.inStock;
+          }
+        }
+
         return {
           storeId: store.id,
           price,
           inStock: available,
           stockLabel: available === true ? "Në gjendje" : available === false ? "Jo në gjendje" : "E panjohur",
-          productUrl: `${store.url}/products/${handle}`,
+          productUrl,
           lastChecked,
           matchedName: product?.title,
         };
@@ -710,13 +722,18 @@ async function scrapeShopify(
             if (!variant) continue;
             const price = variant.price ? parseFloat(variant.price) : null;
             if (price === null) continue;
-            const avail = shopifyVariantInStock(variant);
+            const inferUrl = `${store.url}/products/${h}`;
+            let avail = shopifyVariantInStock(variant);
+            if (avail === null) {
+              const pg = await scrapeJsonLd(inferUrl, store.id);
+              if (pg?.inStock !== null && pg?.inStock !== undefined) avail = pg.inStock;
+            }
             return {
               storeId: store.id,
               price,
               inStock: avail,
               stockLabel: avail === true ? "Në gjendje" : avail === false ? "Jo në gjendje" : "E panjohur",
-              productUrl: `${store.url}/products/${h}`,
+              productUrl: inferUrl,
               lastChecked,
               matchedName: prd.title,
             };
@@ -748,13 +765,18 @@ async function scrapeShopify(
       if (variant === null) return colourUnavailable(store.id, `${store.url}/products/${handle}`);
       if (!variant) continue;
       const price = variant.price ? parseFloat(variant.price) : null;
-      const available = shopifyVariantInStock(variant);
+      const crossUrl = `${store.url}/products/${handle}`;
+      let available = shopifyVariantInStock(variant);
+      if (available === null && price !== null) {
+        const pg = await scrapeJsonLd(crossUrl, store.id);
+        if (pg?.inStock !== null && pg?.inStock !== undefined) available = pg.inStock;
+      }
       return {
         storeId: store.id,
         price,
         inStock: available,
         stockLabel: available === true ? "Në gjendje" : available === false ? "Jo në gjendje" : "E panjohur",
-        productUrl: `${store.url}/products/${handle}`,
+        productUrl: crossUrl,
         lastChecked,
         matchedName: product?.title,
       };
