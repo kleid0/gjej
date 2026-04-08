@@ -143,7 +143,7 @@ export default function PriceComparison({ productId, variantColour, variantStora
                     {p.price !== null ? (
                       <div className="text-right">
                         <span className={`font-bold text-lg ${isCheapest ? "text-orange-600" : "text-gray-800"}`}>
-                          {p.price.toLocaleString("sq-AL")} Lekë
+                          {Math.round(p.price).toLocaleString("sq-AL")} Lekë
                         </span>
                         {p.suspicious && (
                           <div
