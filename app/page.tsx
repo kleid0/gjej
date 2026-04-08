@@ -15,8 +15,39 @@ export default async function Home() {
     getProductLowestPrices(),
   ]);
 
-  const featured = allProducts.slice(0, 8);
   const categories = productCatalog.getCategories();
+
+  // Score products for trending: prioritize store coverage and stock availability
+  const dayOfYear = Math.floor(
+    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000,
+  );
+  const scoredProducts = allProducts.map((product) => {
+    const record = allPrices[product.id];
+    let storeCount = 0;
+    let hasStock = false;
+    if (record) {
+      const valid = record.prices.filter(
+        (p) => p.price !== null && !p.suspicious && !p.overpriced && !p.stale,
+      );
+      storeCount = valid.length;
+      hasStock = valid.some((p) => p.inStock === true);
+    } else if (dbPrices[product.id]) {
+      storeCount = 1;
+    }
+    return { product, storeCount, hasStock };
+  });
+  scoredProducts.sort((a, b) => {
+    if (a.hasStock !== b.hasStock) return a.hasStock ? -1 : 1;
+    return b.storeCount - a.storeCount;
+  });
+  // Rotate daily through 3 non-overlapping windows of 8 from the top 24
+  const POOL = 24;
+  const PAGE = 8;
+  const windowIdx = dayOfYear % (POOL / PAGE);
+  const featured = scoredProducts
+    .slice(0, POOL)
+    .slice(windowIdx * PAGE, (windowIdx + 1) * PAGE)
+    .map((s) => s.product);
 
   // Build lowest-price map: prefer fresh file cache, fall back to DB lowest_price
   const lowestPriceMap: Record<string, { price: number; storeName: string } | null> = {};
@@ -74,7 +105,7 @@ export default async function Home() {
       {/* Featured products */}
       <section className="max-w-6xl mx-auto px-4 pb-12">
         <div className="flex items-center justify-between mb-5">
-          <h2 className="text-xl font-bold text-gray-800">Produkte të Njohura</h2>
+          <h2 className="text-xl font-bold text-gray-800">Produkte në Trend</h2>
           <Link href="/kerko" className="text-orange-600 hover:text-orange-700 text-sm font-medium">
             Shiko të gjitha →
           </Link>
