@@ -42,9 +42,8 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
             await markProductLastSeen(product.id);
             const lowest = Math.min(...found.map((p) => p.price!));
             await updateProductLowestPrice(product.id, lowest);
-          } else {
-            await updateProductLowestPrice(product.id, null);
           }
+          // Do NOT set lowest_price = null on failed scrapes — preserve last known price.
         } catch {
           errors++;
         }

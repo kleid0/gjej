@@ -77,7 +77,9 @@ export default async function Home() {
         const store = STORE_MAP[best.storeId];
         lowestPriceMap[product.id] = { price: best.price!, storeName: store?.name ?? best.storeId };
       } else {
-        lowestPriceMap[product.id] = null;
+        // File cache has no valid prices — fall back to DB last-known price
+        const price = dbPrices[product.id] ?? null;
+        lowestPriceMap[product.id] = price !== null ? { price, storeName: "" } : null;
       }
     } else {
       const price = dbPrices[product.id] ?? null;

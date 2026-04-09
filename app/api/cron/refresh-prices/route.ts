@@ -60,9 +60,9 @@ export async function GET(req: NextRequest) {
               await sendAlertEmail(alert.email, product, lowest, alert.threshold);
               await markAlertNotified(alert.id);
             }
-          } else {
-            await updateProductLowestPrice(product.id, null);
           }
+          // Do NOT set lowest_price = null on failed scrapes — preserve the
+          // last known good price so the homepage can still display something.
         } catch {
           errorCount++;
         }
