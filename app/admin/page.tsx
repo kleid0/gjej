@@ -107,6 +107,12 @@ export default async function AdminPage({ searchParams: _searchParams }: Props) 
         </div>
         <div className="flex gap-3">
           <a
+            href="/api/admin/export/no-price"
+            className="text-xs border border-green-200 rounded-lg px-3 py-2 text-green-700 hover:border-green-400 hover:bg-green-50 transition-colors"
+          >
+            ↓ Excel: Pa Çmim
+          </a>
+          <a
             href={`/api/health`}
             target="_blank"
             className="text-xs border border-gray-200 rounded-lg px-3 py-2 text-gray-600 hover:border-orange-400 hover:text-orange-600 transition-colors"
