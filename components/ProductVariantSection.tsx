@@ -169,7 +169,14 @@ export default function ProductVariantSection({
               src={selectedImage}
               alt={productFamily}
               className="max-h-full max-w-full object-contain"
-              onError={(e) => { (e.target as HTMLImageElement).src = fallbackImage; }}
+              onError={(e) => {
+                const img = e.target as HTMLImageElement;
+                if (img.src !== fallbackImage && fallbackImage) {
+                  img.src = fallbackImage;
+                } else {
+                  img.src = "/placeholder.svg";
+                }
+              }}
             />
           </div>
 

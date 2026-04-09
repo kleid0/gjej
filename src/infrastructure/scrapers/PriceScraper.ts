@@ -69,9 +69,16 @@ const TIER_PRIORITY = [
   "plus", "ultra", "air", "edge", "mini", "fe", "lite", "note", "slim",
 ];
 
-/** Return the primary tier of a product name, or null if none. */
+/** Return the primary tier of a product name, or null if none.
+ *  CPU model names are stripped first so "Core™ Ultra 7" / "Core i7" don't
+ *  fake a tier of "ultra" for laptop product names. */
 function extractTier(text: string): string | null {
-  const lower = text.toLowerCase();
+  const lower = text
+    .replace(/[™®©℠]/g, " ")
+    // Strip CPU names that contain tier-like words ("ultra", "core")
+    .replace(/\bcore\s+(?:ultra\s*)?i?\s*\d+[a-z0-9]*\b/gi, "")
+    .replace(/\b(?:ryzen|xeon|celeron|pentium|athlon)\s+\w*\s*\d+\b/gi, "")
+    .toLowerCase();
   for (const tier of TIER_PRIORITY) {
     const re = new RegExp(`\\b${tier.replace(" ", "\\s+")}\\b`);
     if (re.test(lower)) return tier;
@@ -88,8 +95,15 @@ function extractTier(text: string): string | null {
  */
 function extractGenerationNumbers(text: string): Set<string> {
   const cleaned = text.toLowerCase()
-    .replace(/\b\d+\s*(gb|tb)\b/gi, "")          // strip storage: 128GB, 1TB
-    .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, ""); // strip screen sizes: 65", 6.1in
+    .replace(/[™®©℠]/g, " ")                          // "Core™ Ultra 7" → "Core Ultra 7"
+    .replace(/\b\d+\s*(gb|tb)\b/gi, "")               // strip storage: 128GB, 1TB
+    // Strip screen sizes: "14\"" / "14″" — no trailing \b since " and ″ are non-word chars
+    .replace(/\b\d+(?:\.\d+)?\s*(?:["″"'']|in\b)/gi, "")
+    .replace(/\b\d+\.\d+\b/g, "")                     // strip remaining bare decimals
+    // Strip CPU model numbers so "Core Ultra 7" / "Core i7" / "Ryzen 9" don't inject
+    // spurious generation numbers that break the reverse-check comparison.
+    .replace(/\bcore\s+(?:ultra\s*)?i?\s*\d+[a-z0-9]*\b/gi, "")  // Core Ultra 7, Core i7-1335U
+    .replace(/\b(?:ryzen|xeon|celeron|pentium|athlon)\s+\w*\s*\d+\b/gi, ""); // Ryzen 7, Xeon E5
   return new Set(cleaned.match(/\b\d{1,4}\b/g) ?? []);
 }
 
@@ -935,43 +949,68 @@ async function scrapeWooCommerce(
 
   // Direct slug lookup for own-store products
   const ownPrefix = `${store.id}-`;
+  // Log debug info for percent-encoded product IDs so we can diagnose issues via runtime logs
+  const debugMode = productId.includes('%');
+  if (debugMode) {
+    console.error(`[WooScraper] store=${store.id} productId=${productId} searchTerms=${JSON.stringify(searchTerms)}`);
+  }
   if (productId.startsWith(ownPrefix)) {
-    // Product IDs may contain percent-encoded characters (e.g. %e2%80%b3 for ″).
-    // Decode first so axios doesn't double-encode the % signs when serialising params.
+    // Try the slug lookup with both raw and decoded forms.
+    // WordPress post_name may store the literal percent-encoded string ("%e2%80%b3")
+    // or the actual Unicode character ("″") depending on the site configuration.
+    // Trying both ensures a match regardless of how the DB was populated.
     const rawSlug = productId.slice(ownPrefix.length);
-    let slug: string;
-    try { slug = decodeURIComponent(rawSlug); } catch { slug = rawSlug; }
-    try {
-      const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
-        params: { slug, per_page: 1 },
-        timeout: 8000,
-        headers: HEADERS,
-      });
-      const items: WooItem[] = Array.isArray(data) ? data : [];
-      if (items.length) {
-        const item = items[0];
+    let decodedSlug: string;
+    try { decodedSlug = decodeURIComponent(rawSlug); } catch { decodedSlug = rawSlug; }
+    // Only try two different slugs when they differ (i.e., slug has percent-encoded chars)
+    const slugsToTry = decodedSlug !== rawSlug ? [rawSlug, decodedSlug] : [rawSlug];
 
-        // WooCommerce ?slug= can return a VARIATION (the store's default colour) instead of
-        // the VARIABLE parent. Variations only have one colour's stock; we can't resolve other
-        // colours from them. When a specific colour is requested, skip and fall through to the
-        // name search which always returns the parent variable product with all variation IDs.
-        if (item.type === "variation" && extractColourFromTerms(searchTerms)) {
-          // fall through to name search
-        } else {
-          if (item.type === "variable") {
-            const varResult = await resolveVariation(item);
-            if (varResult !== undefined) return varResult;
-          }
-          return parseWooItem(item);
-        }
+    for (const slug of slugsToTry) {
+      if (debugMode) {
+        console.error(`[WooScraper] slug lookup: store=${store.id} slug=${slug}`);
       }
-    } catch {
-      // fall through to search
+      try {
+        const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
+          params: { slug, per_page: 1 },
+          timeout: 8000,
+          headers: HEADERS,
+        });
+        const items: WooItem[] = Array.isArray(data) ? data : [];
+        if (debugMode) {
+          console.error(`[WooScraper] slug lookup result: items=${items.length} first=${items[0]?.name ?? 'none'}`);
+        }
+        if (items.length) {
+          const item = items[0];
+
+          // WooCommerce ?slug= can return a VARIATION (the store's default colour) instead of
+          // the VARIABLE parent. Variations only have one colour's stock; we can't resolve other
+          // colours from them. When a specific colour is requested, skip and fall through to the
+          // name search which always returns the parent variable product with all variation IDs.
+          if (item.type === "variation" && extractColourFromTerms(searchTerms)) {
+            break; // fall through to name search
+          } else {
+            if (item.type === "variable") {
+              const varResult = await resolveVariation(item);
+              if (varResult !== undefined) return varResult;
+            }
+            return parseWooItem(item);
+          }
+        }
+      } catch (e) {
+        if (debugMode) {
+          console.error(`[WooScraper] slug lookup exception: ${e instanceof Error ? e.message : String(e)}`);
+        }
+        // try next slug variant
+      }
     }
   }
 
   // Cross-store or slug lookup failed — search by name
-  for (const term of buildQueries(searchTerms)) {
+  const nameQueries = buildQueries(searchTerms);
+  if (debugMode) {
+    console.error(`[WooScraper] name search: store=${store.id} queries=${JSON.stringify(nameQueries)}`);
+  }
+  for (const term of nameQueries) {
     try {
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
         params: { search: term, per_page: 20 },
@@ -979,12 +1018,16 @@ async function scrapeWooCommerce(
         headers: HEADERS,
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
+      if (debugMode) {
+        console.error(`[WooScraper] name search term="${term}" items=${items.length} names=${JSON.stringify(items.slice(0,3).map(i => i.name))}`);
+      }
       if (!items.length) continue;
 
-      const best = items
-        .map((item) => ({ item, score: strictMatchScore(item.name, [term]) }))
-        .filter((x) => x.score > 0)
-        .sort((a, b) => b.score - a.score)[0]?.item;
+      const scored = items.map((item) => ({ item, score: strictMatchScore(item.name, [term]) }));
+      if (debugMode) {
+        console.error(`[WooScraper] scores: ${JSON.stringify(scored.slice(0,3).map(x => ({ name: x.item.name, score: x.score })))}`);
+      }
+      const best = scored.filter((x) => x.score > 0).sort((a, b) => b.score - a.score)[0]?.item;
       if (!best) continue;
 
       // For variable products (e.g. Shpresa): resolve the specific colour variation
@@ -994,7 +1037,10 @@ async function scrapeWooCommerce(
       }
 
       return parseWooItem(best);
-    } catch {
+    } catch (e) {
+      if (debugMode) {
+        console.error(`[WooScraper] name search exception: term="${term}" err=${e instanceof Error ? e.message : String(e)}`);
+      }
       continue;
     }
   }

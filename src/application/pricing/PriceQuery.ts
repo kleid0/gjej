@@ -43,8 +43,12 @@ function postTokenize(text: string): string[] {
 }
 
 function extractGenNums(text: string): Set<string> {
-  const c = text.replace(/\b\d+\s*(gb|tb)\b/gi, "")
-    .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, "");
+  const c = text.replace(/[™®©℠]/g, " ")
+    .replace(/\b\d+\s*(gb|tb)\b/gi, "")
+    .replace(/\b\d+(?:\.\d+)?\s*(?:["″"'']|in\b)/gi, "") // screen sizes: 14", 6.1in
+    .replace(/\b\d+\.\d+\b/g, "")                         // bare decimals like 23.8
+    .replace(/\bcore\s+(?:ultra\s*)?i?\s*\d+[a-z0-9]*\b/gi, "")  // Core Ultra 7, Core i7
+    .replace(/\b(?:ryzen|xeon|celeron|pentium|athlon)\s+\w*\s*\d+\b/gi, ""); // Ryzen 7, etc.
   return new Set(c.match(/\b\d{1,4}\b/g) ?? []);
 }
 
