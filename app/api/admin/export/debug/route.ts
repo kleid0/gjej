@@ -12,11 +12,41 @@ function makeClient() {
   return new Client({ connectionString, ssl: { rejectUnauthorized: false } });
 }
 
-// GET: check price_history stats
+const TEST_ROWS = [
+  // Two products × four stores; prices trigger both suspicious-price flags.
+  // Average for product 1 = (150000+150000+255000+75000)/4 = 157500
+  //   pcstore: +62% → "I lartë", globe: -52% → "I ulët"
+  { product_id: "shpresa-hp-elitebook-840-g11-14-16gb-512gb-core-ultra-7-3", store_id: "shpresa",  price: 150000 },
+  { product_id: "shpresa-hp-elitebook-840-g11-14-16gb-512gb-core-ultra-7-3", store_id: "neptun",   price: 150000 },
+  { product_id: "shpresa-hp-elitebook-840-g11-14-16gb-512gb-core-ultra-7-3", store_id: "pcstore",  price: 255000 },
+  { product_id: "shpresa-hp-elitebook-840-g11-14-16gb-512gb-core-ultra-7-3", store_id: "globe",    price:  75000 },
+  // Average for product 2 = (200000+195000+340000+110000)/4 = 211250
+  //   pcstore: +61% → "I lartë", globe: -48% → "I ulët"
+  { product_id: "shpresa-lenovo-thinkpad-x1-2-in-1-g10-14-touchscreen-32gb-1tb-ssd-core-ultra-7-2", store_id: "shpresa", price: 200000 },
+  { product_id: "shpresa-lenovo-thinkpad-x1-2-in-1-g10-14-touchscreen-32gb-1tb-ssd-core-ultra-7-2", store_id: "neptun",  price: 195000 },
+  { product_id: "shpresa-lenovo-thinkpad-x1-2-in-1-g10-14-touchscreen-32gb-1tb-ssd-core-ultra-7-2", store_id: "pcstore", price: 340000 },
+  { product_id: "shpresa-lenovo-thinkpad-x1-2-in-1-g10-14-touchscreen-32gb-1tb-ssd-core-ultra-7-2", store_id: "globe",   price: 110000 },
+];
+
+// GET: auto-seed if empty, then return price_history stats
 export async function GET() {
   const client = makeClient();
   await client.connect();
   try {
+    const countRes = await client.query("SELECT COUNT(*) FROM price_history");
+    let seeded = 0;
+    if (countRes.rows[0].count === "0") {
+      for (const row of TEST_ROWS) {
+        await client.query(
+          `INSERT INTO price_history (product_id, store_id, price, in_stock, recorded_at)
+           VALUES ($1, $2, $3, true, CURRENT_DATE)
+           ON CONFLICT (product_id, store_id, recorded_at)
+           DO UPDATE SET price = EXCLUDED.price, in_stock = EXCLUDED.in_stock`,
+          [row.product_id, row.store_id, row.price]
+        );
+        seeded++;
+      }
+    }
     const count = await client.query("SELECT COUNT(*) FROM price_history");
     const sample = await client.query(
       "SELECT product_id, store_id, price, recorded_at FROM price_history LIMIT 5"
@@ -26,6 +56,7 @@ export async function GET() {
     );
     return NextResponse.json({
       total_rows: count.rows[0].count,
+      seeded,
       sample: sample.rows,
       by_store: stores.rows,
     });
