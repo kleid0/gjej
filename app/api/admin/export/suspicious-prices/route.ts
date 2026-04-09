@@ -51,7 +51,8 @@ async function queryPriceHistory(): Promise<
   }
 }
 
-export async function GET() {
+export async function GET(req: Request) {
+  const format = new URL(req.url).searchParams.get("format");
   let dbRows: { product_id: string; store_id: string; price: number; recorded_at: string }[];
   try {
     dbRows = await queryPriceHistory();
@@ -116,6 +117,10 @@ export async function GET() {
         Data: entry.recordedAt,
       });
     }
+  }
+
+  if (format === "json") {
+    return NextResponse.json({ count: rows.length, rows });
   }
 
   const ws = XLSX.utils.json_to_sheet(rows);
