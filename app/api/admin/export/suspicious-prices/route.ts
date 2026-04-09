@@ -20,7 +20,7 @@ export async function GET() {
   for (const [productId, record] of Object.entries(allPrices)) {
     const product = productMap[productId];
     for (const sp of record.prices) {
-      if (!sp.suspicious) continue;
+      if (!sp.suspicious && !sp.overpriced) continue;
       rows.push({
         "ID Produkti": productId,
         Emri: product?.family ?? productId,
@@ -28,6 +28,7 @@ export async function GET() {
         Kategoria: product?.category ?? "",
         Dyqani: sp.storeId,
         "Çmimi (Lekë)": sp.price ?? "",
+        Flamuri: sp.suspicious ? "I ulët (>40%)" : "I lartë (>60%)",
         "Emri i Dyqanit": sp.matchedName ?? "",
         "URL": sp.productUrl ?? "",
         "Kontrolluar më": sp.lastChecked,
