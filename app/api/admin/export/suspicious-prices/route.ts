@@ -1,82 +1,82 @@
 // API route: export entries with suspicious/overpriced prices as .xlsx
 // GET /api/admin/export/suspicious-prices
 //
-// Recomputes deviation flags from raw cached prices rather than relying on
-// persisted suspicious/overpriced fields, which may be absent when prices
-// were written from a different Vercel function instance.
+// Reads from the persisted price_history DB table (not the ephemeral
+// /tmp/prices.json) so it works regardless of which Vercel instance serves
+// the request.  Computes deviation flags inline from the latest price per
+// store per product.
 
 import { NextResponse } from "next/server";
 import * as XLSX from "xlsx";
-import type { ScrapedPrice } from "@/src/domain/pricing/Price";
-import { priceQuery, productCatalog } from "@/src/infrastructure/container";
+import { sql, ensureSchema } from "@/src/infrastructure/db/client";
+import { productCatalog } from "@/src/infrastructure/container";
 
 export const dynamic = "force-dynamic";
 
-type FlaggedEntry = {
-  productId: string;
-  family: string;
-  brand: string;
-  category: string;
-  storeId: string;
-  price: number;
-  flag: "I ulët (>40%)" | "I lartë (>60%)";
-  matchedName: string;
-  productUrl: string;
-  lastChecked: string;
-};
+export async function GET() {
+  await ensureSchema();
 
-function computeFlags(prices: ScrapedPrice[]): FlaggedEntry["flag"][] {
-  const found = prices.filter((p): p is ScrapedPrice & { price: number } =>
-    p.price !== null && p.price > 0
-  );
-  if (found.length < 3) {
-    // Not enough data points — fall back to saved flags
-    return prices.map((p) => {
-      if (p.suspicious) return "I ulët (>40%)";
-      if (p.overpriced) return "I lartë (>60%)";
-      return "" as never;
+  // Latest price per (product, store) from the persisted DB
+  const result = await sql`
+    SELECT ph.product_id, ph.store_id, ph.price, ph.recorded_at::text AS recorded_at
+    FROM price_history ph
+    INNER JOIN (
+      SELECT product_id, store_id, MAX(recorded_at) AS latest
+      FROM price_history
+      WHERE price IS NOT NULL AND price > 0
+      GROUP BY product_id, store_id
+    ) latest
+      ON ph.product_id = latest.product_id
+     AND ph.store_id   = latest.store_id
+     AND ph.recorded_at = latest.latest
+    WHERE ph.price IS NOT NULL AND ph.price > 0
+    ORDER BY ph.product_id
+  `;
+
+  // Group prices by product
+  const byProduct = new Map<string, { storeId: string; price: number; recordedAt: string }[]>();
+  for (const row of result.rows) {
+    const pid = row.product_id as string;
+    if (!byProduct.has(pid)) byProduct.set(pid, []);
+    byProduct.get(pid)!.push({
+      storeId: row.store_id as string,
+      price: row.price as number,
+      recordedAt: row.recorded_at as string,
     });
   }
-  const avg = found.reduce((s, p) => s + p.price, 0) / found.length;
-  return prices.map((p) => {
-    if (p.price === null || p.price <= 0) return "" as never;
-    const dev = (p.price - avg) / avg;
-    if (dev < -0.4) return "I ulët (>40%)";
-    if (dev > 0.6) return "I lartë (>60%)";
-    return "" as never;
-  });
-}
 
-export async function GET() {
-  const [allProducts, allPrices] = await Promise.all([
-    productCatalog.getAllProducts(),
-    priceQuery.getAllCachedPrices(),
-  ]);
-
+  // Load product names
+  const allProducts = await productCatalog.getAllProducts();
   const productMap = Object.fromEntries(allProducts.map((p) => [p.id, p]));
 
   const rows: object[] = [];
 
-  for (const [productId, record] of Object.entries(allPrices)) {
-    const product = productMap[productId];
-    const flags = computeFlags(record.prices);
+  for (const [productId, entries] of byProduct) {
+    if (entries.length < 3) continue; // need ≥3 stores to flag deviations
 
-    record.prices.forEach((sp, i) => {
-      const flag = flags[i];
-      if (!flag) return;
+    const avg = entries.reduce((s, e) => s + e.price, 0) / entries.length;
+    const product = productMap[productId];
+
+    for (const entry of entries) {
+      const dev = (entry.price - avg) / avg;
+      let flag: string | null = null;
+      if (dev < -0.4) flag = "I ulët (>40% nën mesatare)";
+      else if (dev > 0.6) flag = "I lartë (>60% mbi mesatare)";
+      if (!flag) continue;
+
       rows.push({
         "ID Produkti": productId,
         Emri: product?.family ?? productId,
         Marka: product?.brand ?? "",
         Kategoria: product?.category ?? "",
-        Dyqani: sp.storeId,
-        "Çmimi (Lekë)": sp.price ?? "",
+        Dyqani: entry.storeId,
+        "Çmimi (Lekë)": entry.price,
+        "Mesatarja (Lekë)": Math.round(avg),
+        "Devijimi %": `${(dev * 100).toFixed(1)}%`,
         Flamuri: flag,
-        "Emri i Dyqanit": sp.matchedName ?? "",
-        URL: sp.productUrl ?? "",
-        "Kontrolluar më": sp.lastChecked,
+        "Data": entry.recordedAt,
       });
-    });
+    }
   }
 
   const ws = XLSX.utils.json_to_sheet(rows);
