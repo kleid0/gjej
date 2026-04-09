@@ -8,9 +8,9 @@ const pool = new Pool({
   ssl: process.env.NODE_ENV !== "development" ? { rejectUnauthorized: false } : undefined,
 });
 
-interface SqlResult {
-  rows: Record<string, unknown>[];
-}
+// pg returns untyped rows; callers cast as needed
+// deno-lint-ignore no-explicit-any
+type SqlResult = { rows: any[] };
 
 export async function sql(
   strings: TemplateStringsArray,
