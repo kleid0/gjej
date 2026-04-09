@@ -33,12 +33,14 @@ export async function GET() {
     ORDER BY ph.product_id
   `;
 
+  type StoreEntry = { storeId: string; price: number; recordedAt: string };
+
   // Group prices by product
-  const byProduct = new Map<string, { storeId: string; price: number; recordedAt: string }[]>();
+  const byProduct: Record<string, StoreEntry[]> = {};
   for (const row of result.rows) {
     const pid = row.product_id as string;
-    if (!byProduct.has(pid)) byProduct.set(pid, []);
-    byProduct.get(pid)!.push({
+    if (!byProduct[pid]) byProduct[pid] = [];
+    byProduct[pid].push({
       storeId: row.store_id as string,
       price: row.price as number,
       recordedAt: row.recorded_at as string,
@@ -51,10 +53,10 @@ export async function GET() {
 
   const rows: object[] = [];
 
-  for (const [productId, entries] of byProduct) {
+  for (const [productId, entries] of Object.entries(byProduct)) {
     if (entries.length < 3) continue; // need ≥3 stores to flag deviations
 
-    const avg = entries.reduce((s, e) => s + e.price, 0) / entries.length;
+    const avg = entries.reduce((s: number, e: StoreEntry) => s + e.price, 0) / entries.length;
     const product = productMap[productId];
 
     for (const entry of entries) {
