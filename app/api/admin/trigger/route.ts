@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { GET as discoverHandler } from "@/app/api/cron/discover/route";
 import { POST as fetchImagesHandler } from "@/app/api/admin/fetch-images/route";
-import { productCatalog, priceQuery } from "@/src/infrastructure/container";
+import { productCatalog, priceQuery, duplicateFuser } from "@/src/infrastructure/container";
 import {
   recordPrices,
   logScraperError,
@@ -98,6 +98,14 @@ export async function POST(req: NextRequest) {
       const handlerResponse = await fetchImagesHandler(makeReq("https://internal/api/admin/fetch-images", "POST"));
       const data = await handlerResponse.json().catch(() => ({}));
       return NextResponse.json({ ok: handlerResponse.ok, status: handlerResponse.status, data });
+    }
+
+    if (action === "fuse-duplicates") {
+      const mode = (body as Record<string, unknown>).mode ?? "fuse";
+      const data = mode === "detect"
+        ? await duplicateFuser.detect()
+        : await duplicateFuser.fuse();
+      return NextResponse.json({ ok: true, data });
     }
 
     return NextResponse.json({ error: "Veprim i panjohur" }, { status: 400 });

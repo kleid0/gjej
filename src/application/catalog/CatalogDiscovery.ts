@@ -8,29 +8,13 @@ export interface IProductDiscoveryService {
 }
 
 // ── Deduplication ─────────────────────────────────────────────────────────────
-// Strips noise words (colors, storage sizes, generic prefixes) so that
-// "Console Nintendo Switch 2 Black" and "Nintendo Switch 2" hash to the
-// same key and are treated as one product.
+// Re-use the fusionKey from DuplicateFuser for consistent dedup behaviour
+// across discovery-time and admin-triggered fusion.
+
+import { fusionKey } from "./DuplicateFuser";
 
 function dedupKey(p: Product): string {
-  const cleaned = p.family
-    .toLowerCase()
-    // Generic product-type prefixes stores add
-    .replace(/\b(console|gaming|laptop|notebook|smartphone|device|produit)\b/g, "")
-    // Storage / RAM variants
-    .replace(/\b\d+\s*(gb|tb|mb|ram)\b/g, "")
-    // Colour variants
-    .replace(
-      /\b(black|white|red|blue|gold|silver|gray|grey|graphite|midnight|starlight|platinum|rouge|noir|bleu|blanco|negro)\b/g,
-      ""
-    )
-    // Bundle noise (e.g., "+ Mario Kart World" shouldn't differ from base console)
-    .replace(/\+.*/g, "")
-    // Punctuation → space
-    .replace(/[^\w\s]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-  return `${p.brand.toLowerCase()}::${cleaned}`;
+  return fusionKey(p);
 }
 
 // Merge two products: keep the one with the better image, richer searchTerms
