@@ -69,9 +69,16 @@ const TIER_PRIORITY = [
   "plus", "ultra", "air", "edge", "mini", "fe", "lite", "note", "slim",
 ];
 
-/** Return the primary tier of a product name, or null if none. */
+/** Return the primary tier of a product name, or null if none.
+ *  CPU model names are stripped first so "Core™ Ultra 7" / "Core i7" don't
+ *  fake a tier of "ultra" for laptop product names. */
 function extractTier(text: string): string | null {
-  const lower = text.toLowerCase();
+  const lower = text
+    .replace(/[™®©℠]/g, " ")
+    // Strip CPU names that contain tier-like words ("ultra", "core")
+    .replace(/\bcore\s+(?:ultra\s*)?i?\s*\d+[a-z0-9]*\b/gi, "")
+    .replace(/\b(?:ryzen|xeon|celeron|pentium|athlon)\s+\w*\s*\d+\b/gi, "")
+    .toLowerCase();
   for (const tier of TIER_PRIORITY) {
     const re = new RegExp(`\\b${tier.replace(" ", "\\s+")}\\b`);
     if (re.test(lower)) return tier;
