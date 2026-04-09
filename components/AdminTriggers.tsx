@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 
-type Action = "refresh-prices" | "discover" | "fetch-images";
+type Action = "refresh-prices" | "discover" | "fetch-images" | "fuse-duplicates";
 
 interface Result {
   action: Action;
@@ -12,9 +12,10 @@ interface Result {
 
 // Fallback estimates (seconds) used until we have real timing data
 const FALLBACK_DURATION: Record<Action, number> = {
-  "refresh-prices": 240, // auto-loops ~3 batches × ~80s each
-  "discover":       60,
-  "fetch-images":   90,
+  "refresh-prices":  240, // auto-loops ~3 batches × ~80s each
+  "discover":        60,
+  "fetch-images":    90,
+  "fuse-duplicates": 15,
 };
 
 const HISTORY_KEY = "admin_run_history";
@@ -204,6 +205,7 @@ export function AdminTriggers() {
     { action: "refresh-prices", label: "Rifresko Çmimet",   desc: "Të gjitha dyqanet, automatik" },
     { action: "discover",       label: "Zbulo Produkte",     desc: "Kërko produkte të reja" },
     { action: "fetch-images",   label: "Merr Fotot",         desc: "Plotëso fotot e munguara (50/run)" },
+    { action: "fuse-duplicates", label: "Bashko Dublikatat", desc: "Gjej dhe bashko produktet e njëjta" },
   ];
 
   const overrideFraction = batchProgress
