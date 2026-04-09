@@ -1,8 +1,32 @@
-// Vercel Postgres client + auto-schema bootstrap
-// Requires POSTGRES_URL env var (auto-injected by Vercel when DB is linked)
+// Postgres client using pg.Pool — works with both direct and pooled connection strings.
+// Replaces @vercel/postgres sql tag which only accepts pooled URLs.
 
-import { sql } from "@vercel/postgres";
-export { sql };
+import { Pool } from "pg";
+
+const pool = new Pool({
+  connectionString: process.env.POSTGRES_URL || process.env.POSTGRES_URL_NON_POOLING,
+  ssl: process.env.NODE_ENV !== "development" ? { rejectUnauthorized: false } : undefined,
+});
+
+interface SqlResult {
+  rows: Record<string, unknown>[];
+}
+
+export async function sql(
+  strings: TemplateStringsArray,
+  ...values: unknown[]
+): Promise<SqlResult> {
+  let text = "";
+  const params: unknown[] = [];
+  for (let i = 0; i < strings.length; i++) {
+    text += strings[i];
+    if (i < values.length) {
+      params.push(values[i]);
+      text += `$${params.length}`;
+    }
+  }
+  return pool.query(text, params);
+}
 
 let schemaEnsured = false;
 
