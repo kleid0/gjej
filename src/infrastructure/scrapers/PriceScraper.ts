@@ -88,9 +88,15 @@ function extractTier(text: string): string | null {
  */
 function extractGenerationNumbers(text: string): Set<string> {
   const cleaned = text.toLowerCase()
-    .replace(/\b\d+\s*(gb|tb)\b/gi, "")           // strip storage: 128GB, 1TB
-    .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, "") // strip screen sizes with symbol: 65", 6.1in
-    .replace(/\b\d+\.\d+\b/g, "");                // strip bare decimals (screen sizes like 23.8)
+    .replace(/[™®©℠]/g, " ")                          // "Core™ Ultra 7" → "Core Ultra 7"
+    .replace(/\b\d+\s*(gb|tb)\b/gi, "")               // strip storage: 128GB, 1TB
+    // Strip screen sizes: "14\"" / "14″" — no trailing \b since " and ″ are non-word chars
+    .replace(/\b\d+(?:\.\d+)?\s*(?:["″"'']|in\b)/gi, "")
+    .replace(/\b\d+\.\d+\b/g, "")                     // strip remaining bare decimals
+    // Strip CPU model numbers so "Core Ultra 7" / "Core i7" / "Ryzen 9" don't inject
+    // spurious generation numbers that break the reverse-check comparison.
+    .replace(/\bcore\s+(?:ultra\s*)?i?\s*\d+[a-z0-9]*\b/gi, "")  // Core Ultra 7, Core i7-1335U
+    .replace(/\b(?:ryzen|xeon|celeron|pentium|athlon)\s+\w*\s*\d+\b/gi, ""); // Ryzen 7, Xeon E5
   return new Set(cleaned.match(/\b\d{1,4}\b/g) ?? []);
 }
 
