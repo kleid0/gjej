@@ -1,21 +1,32 @@
 // API route: export entries with suspicious/overpriced prices as .xlsx
 // GET /api/admin/export/suspicious-prices
 //
-// Reads from the persisted price_history DB table (not the ephemeral
-// /tmp/prices.json) so it works regardless of which Vercel instance serves
-// the request.  Computes deviation flags inline from the latest price per
-// store per product.
+// Uses pg.Client directly to avoid @vercel/postgres connection string
+// validation issues on preview deployments. Reads from the persisted
+// price_history DB table and computes deviation flags inline.
 
 import { NextResponse } from "next/server";
 import * as XLSX from "xlsx";
-import { createClient } from "@vercel/postgres";
+import { Client } from "pg";
 import { productCatalog } from "@/src/infrastructure/container";
 
 export const dynamic = "force-dynamic";
 
-async function queryPriceHistory(): Promise<Record<string, unknown>[]> {
-  const client = createClient({
-    connectionString: process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL,
+async function queryPriceHistory(): Promise<
+  { product_id: string; store_id: string; price: number; recorded_at: string }[]
+> {
+  const connectionString =
+    process.env.POSTGRES_URL_NON_POOLING ||
+    process.env.POSTGRES_URL ||
+    process.env.DATABASE_URL;
+
+  if (!connectionString) {
+    throw new Error("No database connection string found in environment");
+  }
+
+  const client = new Client({
+    connectionString,
+    ssl: { rejectUnauthorized: false },
   });
   await client.connect();
   try {
@@ -34,23 +45,21 @@ async function queryPriceHistory(): Promise<Record<string, unknown>[]> {
       WHERE ph.price IS NOT NULL AND ph.price > 0
       ORDER BY ph.product_id
     `);
-    return result.rows as Record<string, unknown>[];
+    return result.rows;
   } finally {
     await client.end().catch(() => {});
   }
 }
 
 export async function GET() {
-  let dbRows: Record<string, unknown>[];
+  let dbRows: { product_id: string; store_id: string; price: number; recorded_at: string }[];
   try {
     dbRows = await queryPriceHistory();
   } catch (err: unknown) {
-    const detail = err instanceof Error
-      ? { message: err.message, name: err.name, stack: err.stack?.split("\n").slice(0, 5) }
-      : JSON.stringify(err);
+    const msg = err instanceof Error ? err.message : JSON.stringify(err);
     return NextResponse.json(
-      { error: "DB query failed", detail },
-      { status: 500 }
+      { error: "DB query failed", detail: msg },
+      { status: 500 },
     );
   }
 
@@ -59,12 +68,12 @@ export async function GET() {
   // Group prices by product
   const byProduct: Record<string, StoreEntry[]> = {};
   for (const row of dbRows) {
-    const pid = row.product_id as string;
+    const pid = row.product_id;
     if (!byProduct[pid]) byProduct[pid] = [];
     byProduct[pid].push({
-      storeId: row.store_id as string,
-      price: row.price as number,
-      recordedAt: row.recorded_at as string,
+      storeId: row.store_id,
+      price: row.price,
+      recordedAt: row.recorded_at,
     });
   }
 
@@ -77,7 +86,9 @@ export async function GET() {
   for (const [productId, entries] of Object.entries(byProduct)) {
     if (entries.length < 3) continue; // need ≥3 stores to flag deviations
 
-    const avg = entries.reduce((s: number, e: StoreEntry) => s + e.price, 0) / entries.length;
+    const avg =
+      entries.reduce((s: number, e: StoreEntry) => s + e.price, 0) /
+      entries.length;
     const product = productMap[productId];
 
     for (const entry of entries) {
@@ -97,7 +108,7 @@ export async function GET() {
         "Mesatarja (Lekë)": Math.round(avg),
         "Devijimi %": `${(dev * 100).toFixed(1)}%`,
         Flamuri: flag,
-        "Data": entry.recordedAt,
+        Data: entry.recordedAt,
       });
     }
   }
