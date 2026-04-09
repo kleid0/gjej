@@ -56,7 +56,6 @@ export async function GET(req: Request) {
   let dbRows: { product_id: string; store_id: string; price: number; recorded_at: string }[];
   try {
     dbRows = await queryPriceHistory();
-    console.log(`[suspicious-prices] DB rows: ${dbRows.length}`);
   } catch (err: unknown) {
     const msg = err instanceof Error ? err.message : JSON.stringify(err);
     return NextResponse.json(
@@ -84,10 +83,6 @@ export async function GET(req: Request) {
   const productMap = Object.fromEntries(allProducts.map((p) => [p.id, p]));
 
   const rows: object[] = [];
-
-  const productCount = Object.keys(byProduct).length;
-  const qualifyingCount = Object.values(byProduct).filter(e => e.length >= 2).length;
-  console.log(`[suspicious-prices] products: ${productCount}, with ≥2 stores: ${qualifyingCount}`);
 
   for (const [productId, entries] of Object.entries(byProduct)) {
     if (entries.length < 2) continue; // need ≥2 stores to flag deviations
