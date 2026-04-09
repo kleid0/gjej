@@ -113,6 +113,12 @@ export default async function AdminPage({ searchParams: _searchParams }: Props) 
             ↓ Excel: Pa Çmim
           </a>
           <a
+            href="/api/admin/export/suspicious-prices"
+            className="text-xs border border-amber-200 rounded-lg px-3 py-2 text-amber-700 hover:border-amber-400 hover:bg-amber-50 transition-colors"
+          >
+            ↓ Excel: Çmime të Dyshimta
+          </a>
+          <a
             href={`/api/health`}
             target="_blank"
             className="text-xs border border-gray-200 rounded-lg px-3 py-2 text-gray-600 hover:border-orange-400 hover:text-orange-600 transition-colors"
