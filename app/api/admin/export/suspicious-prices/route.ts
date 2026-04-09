@@ -13,12 +13,10 @@ import { productCatalog } from "@/src/infrastructure/container";
 
 export const dynamic = "force-dynamic";
 
-export async function GET() {
-  // Use createClient() so it works with both pooled and direct connection strings
+async function queryPriceHistory(): Promise<Record<string, unknown>[]> {
   const client = createClient();
-  let dbRows: Record<string, unknown>[];
+  await client.connect();
   try {
-    await client.connect();
     const result = await client.query(`
       SELECT ph.product_id, ph.store_id, ph.price, ph.recorded_at::text AS recorded_at
       FROM price_history ph
@@ -34,14 +32,21 @@ export async function GET() {
       WHERE ph.price IS NOT NULL AND ph.price > 0
       ORDER BY ph.product_id
     `);
-    dbRows = result.rows as Record<string, unknown>[];
+    return result.rows as Record<string, unknown>[];
+  } finally {
+    await client.end().catch(() => {});
+  }
+}
+
+export async function GET() {
+  let dbRows: Record<string, unknown>[];
+  try {
+    dbRows = await queryPriceHistory();
   } catch (err) {
     return NextResponse.json(
       { error: "DB query failed", detail: String(err) },
       { status: 500 }
     );
-  } finally {
-    await client.end().catch(() => {});
   }
 
   type StoreEntry = { storeId: string; price: number; recordedAt: string };
