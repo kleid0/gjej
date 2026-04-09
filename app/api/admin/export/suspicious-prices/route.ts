@@ -8,16 +8,16 @@
 
 import { NextResponse } from "next/server";
 import * as XLSX from "xlsx";
-import { sql, ensureSchema } from "@/src/infrastructure/db/client";
+import { sql } from "@/src/infrastructure/db/client";
 import { productCatalog } from "@/src/infrastructure/container";
 
 export const dynamic = "force-dynamic";
 
 export async function GET() {
-  await ensureSchema();
-
-  // Latest price per (product, store) from the persisted DB
-  const result = await sql`
+  let result: Awaited<ReturnType<typeof sql>>;
+  try {
+    // Latest price per (product, store) from the persisted DB
+    result = await sql`
     SELECT ph.product_id, ph.store_id, ph.price, ph.recorded_at::text AS recorded_at
     FROM price_history ph
     INNER JOIN (
@@ -32,6 +32,12 @@ export async function GET() {
     WHERE ph.price IS NOT NULL AND ph.price > 0
     ORDER BY ph.product_id
   `;
+  } catch (err) {
+    return NextResponse.json(
+      { error: "DB query failed", detail: String(err) },
+      { status: 500 }
+    );
+  }
 
   type StoreEntry = { storeId: string; price: number; recordedAt: string };
 
