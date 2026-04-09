@@ -14,7 +14,9 @@ import { productCatalog } from "@/src/infrastructure/container";
 export const dynamic = "force-dynamic";
 
 async function queryPriceHistory(): Promise<Record<string, unknown>[]> {
-  const client = createClient();
+  const client = createClient({
+    connectionString: process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL,
+  });
   await client.connect();
   try {
     const result = await client.query(`
