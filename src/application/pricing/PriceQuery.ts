@@ -44,7 +44,8 @@ function postTokenize(text: string): string[] {
 
 function extractGenNums(text: string): Set<string> {
   const c = text.replace(/\b\d+\s*(gb|tb)\b/gi, "")
-    .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, "");
+    .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, "") // strip screen sizes with symbol: 65", 6.1in
+    .replace(/\b\d+\.\d+\b/g, "");                  // strip bare decimals (screen sizes like 23.8)
   return new Set(c.match(/\b\d{1,4}\b/g) ?? []);
 }
 

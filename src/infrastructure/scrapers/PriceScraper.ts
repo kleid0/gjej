@@ -88,8 +88,9 @@ function extractTier(text: string): string | null {
  */
 function extractGenerationNumbers(text: string): Set<string> {
   const cleaned = text.toLowerCase()
-    .replace(/\b\d+\s*(gb|tb)\b/gi, "")          // strip storage: 128GB, 1TB
-    .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, ""); // strip screen sizes: 65", 6.1in
+    .replace(/\b\d+\s*(gb|tb)\b/gi, "")           // strip storage: 128GB, 1TB
+    .replace(/\b\d+(?:\.\d+)?\s*["″"''in]\b/gi, "") // strip screen sizes with symbol: 65", 6.1in
+    .replace(/\b\d+\.\d+\b/g, "");                // strip bare decimals (screen sizes like 23.8)
   return new Set(cleaned.match(/\b\d{1,4}\b/g) ?? []);
 }
 
@@ -941,49 +942,53 @@ async function scrapeWooCommerce(
     console.error(`[WooScraper] store=${store.id} productId=${productId} searchTerms=${JSON.stringify(searchTerms)}`);
   }
   if (productId.startsWith(ownPrefix)) {
-    // Pass the raw slug directly — do NOT pre-decode it.
-    // WordPress stores slugs with literal percent-encoded chars (e.g. the string
-    // "%e2%80%b3" — not the ″ character). Axios will encode bare % signs to %25
-    // when building the URL, so PHP receives the literal "%e2%80%b3" string via
-    // $_GET and matches the post_name in the database.
-    // Pre-decoding (%e2%80%b3 → ″) causes PHP to search for the ″ character
-    // instead, which never matches the percent-encoded DB slug.
-    const slug = productId.slice(ownPrefix.length);
-    if (debugMode) {
-      console.error(`[WooScraper] slug lookup: store=${store.id} slug=${slug}`);
-    }
-    try {
-      const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
-        params: { slug, per_page: 1 },
-        timeout: 8000,
-        headers: HEADERS,
-      });
-      const items: WooItem[] = Array.isArray(data) ? data : [];
-      if (debugMode) {
-        console.error(`[WooScraper] slug lookup result: items=${items.length} first=${items[0]?.name ?? 'none'}`);
-      }
-      if (items.length) {
-        const item = items[0];
+    // Try the slug lookup with both raw and decoded forms.
+    // WordPress post_name may store the literal percent-encoded string ("%e2%80%b3")
+    // or the actual Unicode character ("″") depending on the site configuration.
+    // Trying both ensures a match regardless of how the DB was populated.
+    const rawSlug = productId.slice(ownPrefix.length);
+    let decodedSlug: string;
+    try { decodedSlug = decodeURIComponent(rawSlug); } catch { decodedSlug = rawSlug; }
+    // Only try two different slugs when they differ (i.e., slug has percent-encoded chars)
+    const slugsToTry = decodedSlug !== rawSlug ? [rawSlug, decodedSlug] : [rawSlug];
 
-        // WooCommerce ?slug= can return a VARIATION (the store's default colour) instead of
-        // the VARIABLE parent. Variations only have one colour's stock; we can't resolve other
-        // colours from them. When a specific colour is requested, skip and fall through to the
-        // name search which always returns the parent variable product with all variation IDs.
-        if (item.type === "variation" && extractColourFromTerms(searchTerms)) {
-          // fall through to name search
-        } else {
-          if (item.type === "variable") {
-            const varResult = await resolveVariation(item);
-            if (varResult !== undefined) return varResult;
-          }
-          return parseWooItem(item);
-        }
-      }
-    } catch (e) {
+    for (const slug of slugsToTry) {
       if (debugMode) {
-        console.error(`[WooScraper] slug lookup exception: ${e instanceof Error ? e.message : String(e)}`);
+        console.error(`[WooScraper] slug lookup: store=${store.id} slug=${slug}`);
       }
-      // fall through to search
+      try {
+        const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
+          params: { slug, per_page: 1 },
+          timeout: 8000,
+          headers: HEADERS,
+        });
+        const items: WooItem[] = Array.isArray(data) ? data : [];
+        if (debugMode) {
+          console.error(`[WooScraper] slug lookup result: items=${items.length} first=${items[0]?.name ?? 'none'}`);
+        }
+        if (items.length) {
+          const item = items[0];
+
+          // WooCommerce ?slug= can return a VARIATION (the store's default colour) instead of
+          // the VARIABLE parent. Variations only have one colour's stock; we can't resolve other
+          // colours from them. When a specific colour is requested, skip and fall through to the
+          // name search which always returns the parent variable product with all variation IDs.
+          if (item.type === "variation" && extractColourFromTerms(searchTerms)) {
+            break; // fall through to name search
+          } else {
+            if (item.type === "variable") {
+              const varResult = await resolveVariation(item);
+              if (varResult !== undefined) return varResult;
+            }
+            return parseWooItem(item);
+          }
+        }
+      } catch (e) {
+        if (debugMode) {
+          console.error(`[WooScraper] slug lookup exception: ${e instanceof Error ? e.message : String(e)}`);
+        }
+        // try next slug variant
+      }
     }
   }
 
