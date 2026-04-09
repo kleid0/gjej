@@ -44,9 +44,12 @@ export async function GET() {
   let dbRows: Record<string, unknown>[];
   try {
     dbRows = await queryPriceHistory();
-  } catch (err) {
+  } catch (err: unknown) {
+    const detail = err instanceof Error
+      ? { message: err.message, name: err.name, stack: err.stack?.split("\n").slice(0, 5) }
+      : JSON.stringify(err);
     return NextResponse.json(
-      { error: "DB query failed", detail: String(err) },
+      { error: "DB query failed", detail },
       { status: 500 }
     );
   }
