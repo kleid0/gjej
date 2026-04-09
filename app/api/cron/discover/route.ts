@@ -17,7 +17,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const { discovered, total } = await catalogDiscovery.run();
+  const { discovered, total, fused } = await catalogDiscovery.run();
 
   // Mark products not seen in 30+ days as discontinued (preserves price history)
   const discontinued = await markDiscontinuedProducts();
@@ -39,6 +39,7 @@ export async function GET(req: NextRequest) {
   return NextResponse.json({
     discovered,
     total,
+    fused,
     autoAdded,
     pendingReview,
     discontinued,

@@ -8,34 +8,20 @@ export interface IProductDiscoveryService {
 }
 
 // ── Deduplication ─────────────────────────────────────────────────────────────
-// Re-use the fusionKey from DuplicateFuser for consistent dedup behaviour
-// across discovery-time and admin-triggered fusion.
+// Re-uses fusionKey + fuseGroup from DuplicateFuser so discovery automatically
+// fuses duplicates with the same smart, category-aware logic.
 
-import { fusionKey } from "./DuplicateFuser";
-
-function dedupKey(p: Product): string {
-  return fusionKey(p);
-}
-
-// Merge two products: keep the one with the better image, richer searchTerms
-function mergeProducts(a: Product, b: Product): Product {
-  const hasImageA = a.imageUrl.startsWith("http");
-  const hasImageB = b.imageUrl.startsWith("http");
-  const base = hasImageA ? a : hasImageB ? b : a;
-
-  // Combine searchTerms so the price scraper can find it under both names
-  const terms = Array.from(new Set([...a.searchTerms, ...b.searchTerms]));
-  return { ...base, searchTerms: terms };
-}
+import { fusionKey, fuseGroup } from "./DuplicateFuser";
 
 function deduplicateProducts(products: Product[]): Product[] {
-  const canonical = new Map<string, Product>();
+  const groups = new Map<string, Product[]>();
   for (const p of products) {
-    const key = dedupKey(p);
-    const existing = canonical.get(key);
-    canonical.set(key, existing ? mergeProducts(existing, p) : p);
+    const key = fusionKey(p);
+    const group = groups.get(key);
+    if (group) group.push(p);
+    else groups.set(key, [p]);
   }
-  return Array.from(canonical.values());
+  return Array.from(groups.values()).map(fuseGroup);
 }
 
 // ── Use case ──────────────────────────────────────────────────────────────────
@@ -45,17 +31,18 @@ export class CatalogDiscovery {
     private readonly discoveryService: IProductDiscoveryService
   ) {}
 
-  async run(): Promise<{ discovered: number; total: number }> {
+  async run(): Promise<{ discovered: number; total: number; fused: number }> {
     const fresh = await this.discoveryService.discover();
     const existing = await this.repo.getAll();
 
-    // Merge fresh into existing by id, then deduplicate cross-store duplicates
+    // Merge fresh into existing by id, then fuse cross-store duplicates
     const byId = new Map(existing.map((p) => [p.id, p]));
     for (const p of fresh) byId.set(p.id, p);
 
+    const beforeDedup = byId.size;
     const merged = deduplicateProducts(Array.from(byId.values()));
     await this.repo.saveAll(merged);
 
-    return { discovered: fresh.length, total: merged.length };
+    return { discovered: fresh.length, total: merged.length, fused: beforeDedup - merged.length };
   }
 }

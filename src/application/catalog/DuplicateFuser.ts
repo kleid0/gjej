@@ -93,7 +93,7 @@ export function fusionKey(p: Product): string {
 // ── Merge logic ──────────────────────────────────────────────────────────────
 
 /** Pick the best product from a group and merge search terms from all */
-function fuseGroup(products: Product[]): Product {
+export function fuseGroup(products: Product[]): Product {
   if (products.length === 1) return products[0];
 
   // Score each product: prefer one with image, enrichment, shorter family, more search terms
