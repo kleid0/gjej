@@ -220,12 +220,39 @@ export async function getStoreLastRecorded(): Promise<Record<string, string>> {
 export async function getProductLowestPrices(): Promise<Record<string, number>> {
   try {
     await ready();
-    const result = await sql`
+    // Primary: products.lowest_price kept up-to-date by the cron
+    const productResult = await sql`
       SELECT id, lowest_price FROM products WHERE lowest_price IS NOT NULL
     `;
-    return Object.fromEntries(
-      result.rows.map((r) => [r.id as string, r.lowest_price as number])
+    const prices: Record<string, number> = Object.fromEntries(
+      productResult.rows.map((r) => [r.id as string, r.lowest_price as number])
     );
+
+    // Fallback: for any product whose lowest_price was cleared (e.g. by a
+    // failed cron run), pull the minimum price from the most-recent date in
+    // price_history so the homepage can still show something.
+    const histResult = await sql`
+      SELECT ph.product_id, MIN(ph.price) AS lowest_price
+      FROM price_history ph
+      INNER JOIN (
+        SELECT product_id, MAX(recorded_at) AS max_date
+        FROM price_history
+        WHERE price IS NOT NULL
+        GROUP BY product_id
+      ) latest
+        ON ph.product_id = latest.product_id
+       AND ph.recorded_at  = latest.max_date
+      WHERE ph.price IS NOT NULL
+      GROUP BY ph.product_id
+    `;
+    for (const r of histResult.rows) {
+      const id = r.product_id as string;
+      if (!(id in prices)) {
+        prices[id] = r.lowest_price as number;
+      }
+    }
+
+    return prices;
   } catch {
     return {};
   }
