@@ -8,42 +8,47 @@
 
 import { NextResponse } from "next/server";
 import * as XLSX from "xlsx";
-import { sql } from "@/src/infrastructure/db/client";
+import { createClient } from "@vercel/postgres";
 import { productCatalog } from "@/src/infrastructure/container";
 
 export const dynamic = "force-dynamic";
 
 export async function GET() {
-  let result: Awaited<ReturnType<typeof sql>>;
+  // Use createClient() so it works with both pooled and direct connection strings
+  const client = createClient();
+  let dbRows: Record<string, unknown>[];
   try {
-    // Latest price per (product, store) from the persisted DB
-    result = await sql`
-    SELECT ph.product_id, ph.store_id, ph.price, ph.recorded_at::text AS recorded_at
-    FROM price_history ph
-    INNER JOIN (
-      SELECT product_id, store_id, MAX(recorded_at) AS latest
-      FROM price_history
-      WHERE price IS NOT NULL AND price > 0
-      GROUP BY product_id, store_id
-    ) latest
-      ON ph.product_id = latest.product_id
-     AND ph.store_id   = latest.store_id
-     AND ph.recorded_at = latest.latest
-    WHERE ph.price IS NOT NULL AND ph.price > 0
-    ORDER BY ph.product_id
-  `;
+    await client.connect();
+    const result = await client.query(`
+      SELECT ph.product_id, ph.store_id, ph.price, ph.recorded_at::text AS recorded_at
+      FROM price_history ph
+      INNER JOIN (
+        SELECT product_id, store_id, MAX(recorded_at) AS latest
+        FROM price_history
+        WHERE price IS NOT NULL AND price > 0
+        GROUP BY product_id, store_id
+      ) latest
+        ON ph.product_id = latest.product_id
+       AND ph.store_id   = latest.store_id
+       AND ph.recorded_at = latest.latest
+      WHERE ph.price IS NOT NULL AND ph.price > 0
+      ORDER BY ph.product_id
+    `);
+    dbRows = result.rows as Record<string, unknown>[];
   } catch (err) {
     return NextResponse.json(
       { error: "DB query failed", detail: String(err) },
       { status: 500 }
     );
+  } finally {
+    await client.end().catch(() => {});
   }
 
   type StoreEntry = { storeId: string; price: number; recordedAt: string };
 
   // Group prices by product
   const byProduct: Record<string, StoreEntry[]> = {};
-  for (const row of result.rows) {
+  for (const row of dbRows) {
     const pid = row.product_id as string;
     if (!byProduct[pid]) byProduct[pid] = [];
     byProduct[pid].push({
