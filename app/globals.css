@@ -71,88 +71,53 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-/* ── Flip Board (airport split-flap display) ───────────────── */
-.flip-board {
-  display: inline-block;
-  background: #0d1117;
-  border-radius: 12px;
-  padding: 24px 32px;
-  box-shadow:
-    0 20px 60px rgba(0, 0, 0, 0.55),
-    inset 0 1px 0 rgba(255, 255, 255, 0.04),
-    0 0 0 2px rgba(245, 158, 11, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+/* ── Flip Board ─────────────────────────────────────────────── */
+.flip-board-number {
+  display: inline-flex;
+  gap: 6px;
 }
 
-.flip-board__row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  row-gap: 4px;
-  margin-bottom: 10px;
-}
-.flip-board__row:last-child {
-  margin-bottom: 0;
-}
-.flip-board__row--num {
-  margin: 14px 0;
-}
-
-/* Small tile */
-.flip-tile {
+.flip-digit {
   position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.6ch;
-  height: 1.8em;
-  font-size: 0.95rem;
+  width: 1.15ch;
+  height: 1.65em;
+  font-size: 3rem;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
-  color: #fbbf24;
-  background: linear-gradient(to bottom, #1e2237 50%, #161826 50%);
-  border-radius: 3px;
-  margin: 0 1.5px;
+  color: #ea580c;
+  background: linear-gradient(to bottom, #ffffff 50%, #fff7ed 50%);
+  border-radius: 8px;
   overflow: hidden;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 2px 8px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  perspective: 300px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  perspective: 500px;
 }
-.flip-tile::after {
+
+.flip-digit::after {
   content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
-  height: 1px;
-  background: rgba(0, 0, 0, 0.65);
+  height: 1.5px;
+  background: rgba(0, 0, 0, 0.07);
   z-index: 2;
   pointer-events: none;
 }
 
-/* Large tile (numbers) */
-.flip-tile--lg {
-  width: 1.1ch;
-  height: 1.7em;
-  font-size: 2.8rem;
-  border-radius: 6px;
-  margin: 0 3px;
-  perspective: 600px;
-}
-
-/* Animated character */
-.flip-tile__char {
+.flip-digit__char {
   position: relative;
   z-index: 1;
   line-height: 1;
-  animation: flip-in 0.14s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation: flip-digit-in 0.15s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
 
-@keyframes flip-in {
+@keyframes flip-digit-in {
   from {
     transform: rotateX(-90deg);
-    opacity: 0.2;
+    opacity: 0.3;
   }
   to {
     transform: rotateX(0deg);
@@ -160,21 +125,8 @@ input[type="number"] {
   }
 }
 
-/* Spaces between words */
-.flip-gap {
-  display: inline-block;
-  width: 8px;
-}
-.flip-gap--lg {
-  display: inline-block;
-  width: 18px;
-}
-
 @media (max-width: 640px) {
-  .flip-tile--lg {
-    font-size: 2rem;
-  }
-  .flip-board {
-    padding: 16px 20px;
+  .flip-digit {
+    font-size: 2.2rem;
   }
 }

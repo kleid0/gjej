@@ -97,7 +97,15 @@ export default async function Home() {
           <p className="text-orange-100 text-lg mb-8">
             Krahaso çmimet nga dyqanet kryesore shqiptare në një vend
           </p>
-          <FlipBoard productCount={allProducts.length} />
+          <div className="flex flex-col items-center gap-3">
+            <p className="text-orange-100 text-base font-medium tracking-wide uppercase">
+              Çmimet me të ulëta në
+            </p>
+            <FlipBoard productCount={allProducts.length} />
+            <p className="text-orange-100 text-base font-medium tracking-wide uppercase">
+              produkte
+            </p>
+          </div>
         </div>
       </section>
 
