@@ -161,6 +161,7 @@ export function AdminTriggers() {
     done: number;
     total: number;
   } | null>(null);
+  const [autoFetchAll, setAutoFetchAll] = useState(false);
 
   async function trigger(action: Action) {
     if (!key.trim()) {
@@ -221,6 +222,56 @@ export function AdminTriggers() {
           action,
           ok: true,
           data: { refreshed: totalRefreshed, errors: totalErrors, total },
+        });
+      } else if (action === "fetch-images") {
+        let totalUpdated = 0;
+        let totalSkipped = 0;
+        let initialTotal = 0;
+        let totalProcessed = 0;
+        let first = true;
+
+        while (true) {
+          const res = await fetch(`/api/admin/trigger?action=fetch-images`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ key: key.trim() }),
+          });
+          const json = await res.json();
+
+          if (!res.ok || !json.ok) {
+            setError(json.error ?? json.data?.error ?? "Gabim i panjohur");
+            return;
+          }
+
+          const d = json.data as {
+            updated: number;
+            skipped: number;
+            total: number;
+            remaining: number;
+          };
+
+          if (first) {
+            initialTotal = d.total;
+            first = false;
+          }
+          totalUpdated += d.updated;
+          totalSkipped += d.skipped;
+          totalProcessed += d.updated + d.skipped;
+
+          if (initialTotal > 0) {
+            setBatchProgress({ done: totalProcessed, total: initialTotal });
+          }
+
+          // Stop: all done, auto-repeat off, or no progress (avoids infinite loop)
+          if (d.remaining === 0 || !autoFetchAll || d.updated === 0) break;
+        }
+
+        const durationSecs = (Date.now() - started) / 1000;
+        saveRunDuration(action, durationSecs);
+        setResult({
+          action,
+          ok: true,
+          data: { updated: totalUpdated, skipped: totalSkipped, total: initialTotal },
         });
       } else {
         const res = await fetch(`/api/admin/trigger?action=${action}`, {
@@ -350,6 +401,24 @@ export function AdminTriggers() {
               </div>
             </button>
           ))}
+        </div>
+
+        {/* Merr Fotot auto-repeat */}
+        <div className="flex items-center gap-2">
+          <input
+            id="auto-fetch-all"
+            type="checkbox"
+            checked={autoFetchAll}
+            onChange={(e) => setAutoFetchAll(e.target.checked)}
+            disabled={loading !== null}
+            className="h-3.5 w-3.5 rounded border-slate-300 accent-orange-500 disabled:opacity-40 cursor-pointer"
+          />
+          <label
+            htmlFor="auto-fetch-all"
+            className={`text-sm select-none ${loading !== null ? "text-slate-400 cursor-not-allowed" : "text-slate-500 cursor-pointer"}`}
+          >
+            Merr Fotot — vazhdo automatikisht deri në fund
+          </label>
         </div>
 
         {/* Progress */}
