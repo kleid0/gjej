@@ -1,10 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { CATEGORIES } from "@/src/domain/catalog/Product";
 import SearchAutocomplete from "./SearchAutocomplete";
 
 export default function Header() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+
   return (
     <header className="bg-orange-600 text-white shadow-md sticky top-0 z-50">
       {/* Top bar */}
@@ -12,9 +16,11 @@ export default function Header() {
         <Link href="/" className="text-2xl font-black tracking-tight shrink-0">
           gjej<span className="text-orange-200">.al</span>
         </Link>
-        <div className="flex-1">
-          <SearchAutocomplete variant="header" />
-        </div>
+        {!isHome && (
+          <div className="flex-1">
+            <SearchAutocomplete variant="header" />
+          </div>
+        )}
       </div>
 
       {/* Category nav */}
