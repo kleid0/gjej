@@ -1,14 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import { priceQuery, productCatalog } from "@/src/infrastructure/container";
 import {
-  recordPrices,
-  getAlertsToNotify,
-  markAlertNotified,
-  logScraperError,
-  updateProductLowestPrice,
-  markProductLastSeen,
+  batchRecordPrices,
+  batchUpdateProductPrices,
+  batchLogScraperErrors,
+  batchGetAlertsToNotify,
+  batchMarkAlertsNotified,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
+import { resetQueryCount, getQueryCount } from "@/src/infrastructure/db/client";
 import type { Product } from "@/src/domain/catalog/Product";
+import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
 // Allow up to 5 minutes — scraping all products takes time
 export const maxDuration = 300;
@@ -20,59 +21,98 @@ const CONCURRENCY = 12;
 // Called daily by Vercel Cron. Scrapes products in concurrent batches,
 // writes results to data/prices.json, records to DB, fires price alerts, and
 // logs scraper errors to the admin panel.
+//
+// DB-optimised: all per-product operations are batched per chunk, reducing
+// total queries from ~9 per product to ~4 per chunk of 12.
 export async function GET(req: NextRequest) {
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
+  resetQueryCount();
   const allProducts = await productCatalog.getAllProducts();
   let refreshed = 0;
   let errorCount = 0;
 
-  // Process in concurrent chunks to avoid spawning thousands of requests at once
   for (let i = 0; i < allProducts.length; i += CONCURRENCY) {
     const chunk = allProducts.slice(i, i + CONCURRENCY);
 
-    await Promise.allSettled(
+    // Phase 1: Scrape all products in the chunk concurrently
+    const chunkResults: Array<{
+      product: Product;
+      prices: ScrapedPrice[];
+    } | null> = await Promise.all(
       chunk.map(async (product) => {
         try {
           const { prices } = await priceQuery.getPricesForProduct(product.id, product.searchTerms);
           refreshed++;
-
-          await recordPrices(product.id, prices);
-
-          for (const p of prices) {
-            if (p.error && p.error !== "Produkti nuk u gjet" && p.error !== "Ky variant nuk disponohet") {
-              errorCount++;
-              await logScraperError(p.storeId, "scrape_failed", p.error, product.id);
-            }
-          }
-
-          const found = prices.filter((p) => p.price !== null && !p.suspicious);
-          if (found.length > 0) {
-            await markProductLastSeen(product.id);
-            const lowest = Math.min(...found.map((p) => p.price!));
-            await updateProductLowestPrice(product.id, lowest);
-
-            const alerts = await getAlertsToNotify(product.id, lowest);
-            for (const alert of alerts) {
-              await sendAlertEmail(alert.email, product, lowest, alert.threshold);
-              await markAlertNotified(alert.id);
-            }
-          }
-          // Do NOT set lowest_price = null on failed scrapes — preserve the
-          // last known good price so the homepage can still display something.
+          return { product, prices };
         } catch {
           errorCount++;
+          return null;
         }
-      })
+      }),
     );
+
+    // Phase 2: Batch all DB writes for the chunk
+    const priceEntries: Array<{ productId: string; prices: ScrapedPrice[] }> = [];
+    const productUpdates: Array<{ productId: string; lowestPrice: number | null }> = [];
+    const errors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }> = [];
+    const alertLookups: Array<{ productId: string; lowestPrice: number; product: Product }> = [];
+
+    for (const result of chunkResults) {
+      if (!result) continue;
+      const { product, prices } = result;
+
+      priceEntries.push({ productId: product.id, prices });
+
+      for (const p of prices) {
+        if (p.error && p.error !== "Produkti nuk u gjet" && p.error !== "Ky variant nuk disponohet") {
+          errorCount++;
+          errors.push({ storeId: p.storeId, errorType: "scrape_failed", errorMessage: p.error, productId: product.id });
+        }
+      }
+
+      const found = prices.filter((p) => p.price !== null && !p.suspicious);
+      if (found.length > 0) {
+        const lowest = Math.min(...found.map((p) => p.price!));
+        productUpdates.push({ productId: product.id, lowestPrice: lowest });
+        alertLookups.push({ productId: product.id, lowestPrice: lowest, product });
+      }
+      // Do NOT set lowest_price = null on failed scrapes — preserve the
+      // last known good price so the homepage can still display something.
+    }
+
+    // Execute batched DB operations (~4 queries per chunk instead of ~9 per product)
+    await Promise.allSettled([
+      batchRecordPrices(priceEntries),
+      batchUpdateProductPrices(productUpdates),
+      batchLogScraperErrors(errors),
+    ]);
+
+    // Alerts: batch-query, then send emails, then batch-mark notified
+    if (alertLookups.length > 0) {
+      const alertMap = await batchGetAlertsToNotify(
+        alertLookups.map((a) => ({ productId: a.productId, lowestPrice: a.lowestPrice })),
+      );
+      const notifiedIds: number[] = [];
+      for (const lookup of alertLookups) {
+        const alerts = alertMap.get(lookup.productId) ?? [];
+        for (const alert of alerts) {
+          await sendAlertEmail(alert.email, lookup.product, lookup.lowestPrice, alert.threshold);
+          notifiedIds.push(alert.id);
+        }
+      }
+      await batchMarkAlertsNotified(notifiedIds);
+    }
   }
 
+  const { count: queryCount } = getQueryCount();
   return NextResponse.json({
     refreshed,
     errors: errorCount,
+    dbQueries: queryCount,
     timestamp: new Date().toISOString(),
   });
 }

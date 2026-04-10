@@ -1,6 +1,6 @@
 // Repository for time-series price data and alert subscriptions
 
-import { sql, ensureSchema } from "./client";
+import { sql, rawQuery, ensureSchema } from "./client";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
 let schemaReady = false;
@@ -16,14 +16,50 @@ async function ready(): Promise<void> {
 
 export async function recordPrices(productId: string, prices: ScrapedPrice[]): Promise<void> {
   await ready();
+  if (prices.length === 0) return;
+  // Single multi-row INSERT instead of N individual queries
+  const params: unknown[] = [];
+  const rows: string[] = [];
   for (const p of prices) {
-    await sql`
-      INSERT INTO price_history (product_id, store_id, price, in_stock, recorded_at)
-      VALUES (${productId}, ${p.storeId}, ${p.price}, ${p.inStock}, CURRENT_DATE)
-      ON CONFLICT (product_id, store_id, recorded_at)
-      DO UPDATE SET price = EXCLUDED.price, in_stock = EXCLUDED.in_stock
-    `;
+    const i = params.length;
+    params.push(productId, p.storeId, p.price, p.inStock);
+    rows.push(`($${i + 1}, $${i + 2}, $${i + 3}, $${i + 4}, CURRENT_DATE)`);
   }
+  await rawQuery(
+    `INSERT INTO price_history (product_id, store_id, price, in_stock, recorded_at)
+     VALUES ${rows.join(", ")}
+     ON CONFLICT (product_id, store_id, recorded_at)
+     DO UPDATE SET price = EXCLUDED.price, in_stock = EXCLUDED.in_stock`,
+    params,
+  );
+}
+
+/**
+ * Batch-record prices for multiple products in a single INSERT.
+ * Used by cron/admin to collapse an entire chunk (e.g. 12 products × 6 stores
+ * = 72 rows) into one query instead of 72.
+ */
+export async function batchRecordPrices(
+  entries: Array<{ productId: string; prices: ScrapedPrice[] }>,
+): Promise<void> {
+  await ready();
+  const params: unknown[] = [];
+  const rows: string[] = [];
+  for (const { productId, prices } of entries) {
+    for (const p of prices) {
+      const i = params.length;
+      params.push(productId, p.storeId, p.price, p.inStock);
+      rows.push(`($${i + 1}, $${i + 2}, $${i + 3}, $${i + 4}, CURRENT_DATE)`);
+    }
+  }
+  if (rows.length === 0) return;
+  await rawQuery(
+    `INSERT INTO price_history (product_id, store_id, price, in_stock, recorded_at)
+     VALUES ${rows.join(", ")}
+     ON CONFLICT (product_id, store_id, recorded_at)
+     DO UPDATE SET price = EXCLUDED.price, in_stock = EXCLUDED.in_stock`,
+    params,
+  );
 }
 
 export interface DailyPriceRow {
@@ -220,39 +256,29 @@ export async function getStoreLastRecorded(): Promise<Record<string, string>> {
 export async function getProductLowestPrices(): Promise<Record<string, number>> {
   try {
     await ready();
-    // Primary: products.lowest_price kept up-to-date by the cron
-    const productResult = await sql`
-      SELECT id, lowest_price FROM products WHERE lowest_price IS NOT NULL
+    // Single query: COALESCE products.lowest_price with the latest price_history
+    // fallback for products whose lowest_price was cleared by a failed cron run.
+    const result = await sql`
+      SELECT p.id,
+             COALESCE(p.lowest_price, hist.lowest_price) AS lowest_price
+      FROM products p
+      LEFT JOIN LATERAL (
+        SELECT MIN(ph.price) AS lowest_price
+        FROM price_history ph
+        WHERE ph.product_id = p.id
+          AND ph.price IS NOT NULL
+          AND ph.recorded_at = (
+            SELECT MAX(ph2.recorded_at)
+            FROM price_history ph2
+            WHERE ph2.product_id = p.id AND ph2.price IS NOT NULL
+          )
+      ) hist ON p.lowest_price IS NULL
+      WHERE p.lowest_price IS NOT NULL
+         OR hist.lowest_price IS NOT NULL
     `;
-    const prices: Record<string, number> = Object.fromEntries(
-      productResult.rows.map((r) => [r.id as string, r.lowest_price as number])
+    return Object.fromEntries(
+      result.rows.map((r) => [r.id as string, r.lowest_price as number]),
     );
-
-    // Fallback: for any product whose lowest_price was cleared (e.g. by a
-    // failed cron run), pull the minimum price from the most-recent date in
-    // price_history so the homepage can still show something.
-    const histResult = await sql`
-      SELECT ph.product_id, MIN(ph.price) AS lowest_price
-      FROM price_history ph
-      INNER JOIN (
-        SELECT product_id, MAX(recorded_at) AS max_date
-        FROM price_history
-        WHERE price IS NOT NULL
-        GROUP BY product_id
-      ) latest
-        ON ph.product_id = latest.product_id
-       AND ph.recorded_at  = latest.max_date
-      WHERE ph.price IS NOT NULL
-      GROUP BY ph.product_id
-    `;
-    for (const r of histResult.rows) {
-      const id = r.product_id as string;
-      if (!(id in prices)) {
-        prices[id] = r.lowest_price as number;
-      }
-    }
-
-    return prices;
   } catch {
     return {};
   }
@@ -279,6 +305,111 @@ export async function markProductLastSeen(productId: string): Promise<void> {
   try {
     await ready();
     await sql`UPDATE products SET last_seen_at = NOW() WHERE id = ${productId}`;
+  } catch { /* non-fatal */ }
+}
+
+/**
+ * Batch-update last_seen_at + lowest_price for multiple products in a single
+ * query. Replaces per-product markProductLastSeen() + updateProductLowestPrice()
+ * calls — saves ~2 queries per product.
+ */
+export async function batchUpdateProductPrices(
+  updates: Array<{ productId: string; lowestPrice: number | null }>,
+): Promise<void> {
+  if (updates.length === 0) return;
+  try {
+    await ready();
+    // Use unnest to batch-update in a single query
+    const ids: string[] = [];
+    const prices: (number | null)[] = [];
+    for (const u of updates) {
+      ids.push(u.productId);
+      prices.push(u.lowestPrice);
+    }
+    await rawQuery(
+      `UPDATE products
+       SET last_seen_at = NOW(),
+           lowest_price = batch.price,
+           lowest_price_updated_at = NOW()
+       FROM (SELECT unnest($1::text[]) AS id, unnest($2::int[]) AS price) AS batch
+       WHERE products.id = batch.id`,
+      [ids, prices],
+    );
+  } catch { /* non-fatal */ }
+}
+
+/**
+ * Batch-insert scraper errors in a single INSERT.
+ * Replaces per-error logScraperError() calls.
+ */
+export async function batchLogScraperErrors(
+  errors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }>,
+): Promise<void> {
+  if (errors.length === 0) return;
+  try {
+    await ready();
+    const params: unknown[] = [];
+    const rows: string[] = [];
+    for (const e of errors) {
+      const i = params.length;
+      params.push(e.storeId, e.errorType, e.errorMessage ?? null, e.productId ?? null);
+      rows.push(`($${i + 1}, $${i + 2}, $${i + 3}, $${i + 4})`);
+    }
+    await rawQuery(
+      `INSERT INTO scraper_errors (store_id, error_type, error_message, product_id)
+       VALUES ${rows.join(", ")}`,
+      params,
+    );
+  } catch { /* non-fatal */ }
+}
+
+/**
+ * Query alerts for multiple products at once and return them grouped by product.
+ * Replaces per-product getAlertsToNotify() calls.
+ */
+export async function batchGetAlertsToNotify(
+  products: Array<{ productId: string; lowestPrice: number }>,
+): Promise<Map<string, AlertRow[]>> {
+  const result = new Map<string, AlertRow[]>();
+  if (products.length === 0) return result;
+  try {
+    await ready();
+    // Build a VALUES list of (product_id, lowest_price) pairs
+    const params: unknown[] = [];
+    const rows: string[] = [];
+    for (const p of products) {
+      const i = params.length;
+      params.push(p.productId, p.lowestPrice);
+      rows.push(`($${i + 1}, $${i + 2}::int)`);
+    }
+    const res = await rawQuery(
+      `SELECT pa.id, pa.email, pa.threshold, pa.product_id
+       FROM price_alerts pa
+       INNER JOIN (VALUES ${rows.join(", ")}) AS v(pid, lowest)
+         ON pa.product_id = v.pid
+       WHERE pa.threshold >= v.lowest
+         AND (pa.last_notified_at IS NULL OR pa.last_notified_at < NOW() - INTERVAL '24 hours')`,
+      params,
+    );
+    for (const row of res.rows) {
+      const pid = row.product_id as string;
+      if (!result.has(pid)) result.set(pid, []);
+      result.get(pid)!.push({ id: row.id, email: row.email, threshold: row.threshold });
+    }
+  } catch { /* non-fatal */ }
+  return result;
+}
+
+/**
+ * Batch-mark multiple alerts as notified in a single UPDATE.
+ */
+export async function batchMarkAlertsNotified(alertIds: number[]): Promise<void> {
+  if (alertIds.length === 0) return;
+  try {
+    await rawQuery(
+      `UPDATE price_alerts SET last_notified_at = NOW() WHERE id = ANY($1::int[])`,
+      [alertIds],
+    );
   } catch { /* non-fatal */ }
 }
 
