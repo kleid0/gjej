@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { CATEGORIES } from "@/src/domain/catalog/Product";
 import SearchAutocomplete from "./SearchAutocomplete";
 
 export default function Header() {
@@ -17,20 +16,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Category nav */}
-      <nav className="bg-orange-700 border-t border-orange-500 overflow-x-auto">
-        <div className="max-w-7xl mx-auto px-4 flex items-center gap-1 py-1 text-sm">
-          {CATEGORIES.map((cat) => (
-            <Link
-              key={cat.id}
-              href={`/kategori/${cat.id}`}
-              className="whitespace-nowrap px-3 py-1.5 rounded hover:bg-orange-600 transition-colors"
-            >
-              {cat.icon} {cat.name}
-            </Link>
-          ))}
-        </div>
-      </nav>
     </header>
   );
 }
