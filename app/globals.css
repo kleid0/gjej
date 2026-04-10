@@ -29,7 +29,6 @@ body:has(.admin-layout) > footer {
 
 body {
   @apply bg-gray-50 text-gray-900;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .btn-orange {

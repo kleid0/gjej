@@ -88,18 +88,22 @@ export default async function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-orange-600 to-orange-700 text-white py-14 px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-3">Gjej çmimin më të mirë</h1>
-          <p className="text-orange-100 text-lg mb-8">
+      <section className="relative overflow-hidden bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 text-white py-20 sm:py-24 px-4">
+        <div className="absolute top-0 right-0 -translate-y-1/3 translate-x-1/3 w-[500px] h-[500px] rounded-full bg-orange-400/20 blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-[400px] h-[400px] rounded-full bg-orange-800/20 blur-3xl pointer-events-none" />
+        <div className="relative max-w-3xl mx-auto text-center">
+          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4">
+            Gjej çmimin më të mirë
+          </h1>
+          <p className="text-orange-100/80 text-lg max-w-xl mx-auto mb-10">
             Krahaso çmimet nga dyqanet kryesore shqiptare në një vend
           </p>
-          <div className="flex flex-col items-center gap-3">
-            <p className="text-orange-100 text-base font-medium tracking-wide uppercase">
+          <div className="inline-flex flex-col items-center gap-2 bg-white/10 backdrop-blur-sm rounded-2xl px-8 py-6">
+            <p className="text-orange-100/90 text-sm font-medium tracking-wider uppercase">
               Çmimet me të ulëta në
             </p>
             <FlipBoard productCount={allProducts.length} />
-            <p className="text-orange-100 text-base font-medium tracking-wide uppercase">
+            <p className="text-orange-100/90 text-sm font-medium tracking-wider uppercase">
               produkte
             </p>
           </div>
@@ -107,24 +111,30 @@ export default async function Home() {
       </section>
 
       {/* Store badges */}
-      <section className="bg-white border-b border-gray-100 py-4 px-4">
-        <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500">
-          <span className="font-medium text-gray-400 mr-2">Krahasojmë çmimet nga:</span>
+      <section className="bg-white border-b border-gray-100 py-5 px-4">
+        <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-3">
+          <span className="text-sm text-gray-400 mr-1">Krahasojmë çmimet nga:</span>
           {["Foleja.al", "Shpresa Group", "Neptun", "PC Store", "Globe Albania"].map((s) => (
-            <span key={s} className="font-semibold text-gray-700">{s}</span>
+            <span key={s} className="text-sm font-medium text-gray-600 bg-gray-50 border border-gray-200 rounded-full px-4 py-1.5">
+              {s}
+            </span>
           ))}
         </div>
       </section>
 
       {/* Featured products */}
-      <section className="max-w-6xl mx-auto px-4 pb-12">
-        <div className="flex items-center justify-between mb-5">
-          <h2 className="text-xl font-bold text-gray-800">Produktet më të kërkuara</h2>
-          <Link href="/kerko" className="text-orange-600 hover:text-orange-700 text-sm font-medium">
-            Shiko të gjitha →
+      <section className="max-w-6xl mx-auto px-4 py-12">
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="text-2xl font-bold text-gray-900">Produktet më të kërkuara</h2>
+          <Link
+            href="/kerko"
+            className="text-sm font-medium text-orange-600 hover:text-orange-700 inline-flex items-center gap-1 transition-colors"
+          >
+            Shiko të gjitha
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
           </Link>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
           {featured.map((p) => (
             <ProductCard
               key={p.id}
@@ -136,10 +146,10 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Disclaimer banner */}
-      <section className="bg-blue-50 border-t border-blue-100 py-4 px-4">
-        <p className="max-w-4xl mx-auto text-center text-xs text-blue-600">
-          ℹ️ Çmimet dhe disponueshmëria e stokut janë siç reklamohen nga secili dyqan.
+      {/* Disclaimer */}
+      <section className="py-6 px-4">
+        <p className="max-w-4xl mx-auto text-center text-xs text-gray-400">
+          Çmimet dhe disponueshmëria e stokut janë siç reklamohen nga secili dyqan.
           Gjej.al nuk garanton saktësinë e këtyre të dhënave dhe nuk verifikon stokun fizik.
         </p>
       </section>
