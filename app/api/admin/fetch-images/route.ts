@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { FileProductRepository } from "@/src/infrastructure/persistence/FileProductRepository";
 import { enrichPhone } from "@/src/infrastructure/enrichment/GSMArenaService";
+import { enrichNonPhoneProduct } from "@/src/infrastructure/enrichment/CategoryEnrichmentService";
 
 // Allow up to 5 minutes — GSMArena fetching takes time
 export const maxDuration = 300;
@@ -57,19 +58,29 @@ export async function POST(req: NextRequest) {
     const isPhone = PHONE_SUBCATEGORIES.has(product.subcategory) || PHONE_CATEGORIES.has(product.category);
     const isLaptop = LAPTOP_SUBCATEGORIES.has(product.subcategory) || LAPTOP_CATEGORIES.has(product.category);
 
-    if (!isPhone && !isLaptop) {
-      skipped++;
-      continue;
-    }
-
     try {
-      const searchName = `${product.brand} ${product.family}`.trim();
-      const result = await enrichPhone(searchName, product.brand || undefined);
+      let imageUrl: string | undefined;
+      let images: string[] | undefined;
 
-      if (result?.officialImages?.[0]) {
+      if (isPhone || isLaptop) {
+        const searchName = `${product.brand} ${product.family}`.trim();
+        const result = await enrichPhone(searchName, product.brand || undefined);
+        if (result?.officialImages?.[0]) {
+          imageUrl = result.officialImages[0];
+          images = result.officialImages;
+        }
+      } else {
+        const result = await enrichNonPhoneProduct(product);
+        if (result?.officialImages?.[0]) {
+          imageUrl = result.officialImages[0];
+          images = result.officialImages;
+        }
+      }
+
+      if (imageUrl) {
         const p = productMap.get(product.id)!;
-        p.imageUrl = result.officialImages[0];
-        if (!p.officialImages) p.officialImages = result.officialImages;
+        p.imageUrl = imageUrl;
+        if (!p.officialImages) p.officialImages = images;
         updated++;
       } else {
         skipped++;

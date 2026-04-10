@@ -141,7 +141,7 @@ export async function searchGSMArena(productName: string, brand?: string): Promi
       if (devicePath) return;
       const link = $(el).find("a").first();
       const href = link.attr("href");
-      const resultName = link.find("strong span").last().text().trim() || link.text().trim();
+      const resultName = link.find("strong").text().trim() || link.text().trim();
 
       // Brand gate: reject results from the wrong manufacturer
       if (expectedBrand && !resultName.toLowerCase().includes(expectedBrand)) return;
