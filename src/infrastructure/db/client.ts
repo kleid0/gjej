@@ -1,12 +1,34 @@
-// Postgres client using pg.Pool — works with both direct and pooled connection strings.
-// Replaces @vercel/postgres sql tag which only accepts pooled URLs.
+// Postgres client using pg.Pool — works with Neon, Vercel Postgres, or any
+// standard PostgreSQL provider.  Replaces @vercel/postgres sql tag which only
+// accepts pooled URLs.
 
 import { Pool } from "pg";
 
 const pool = new Pool({
-  connectionString: process.env.POSTGRES_URL || process.env.POSTGRES_URL_NON_POOLING,
+  connectionString:
+    process.env.DATABASE_URL ||          // Neon (preferred)
+    process.env.POSTGRES_URL ||          // Vercel / Prisma Postgres
+    process.env.POSTGRES_URL_NON_POOLING,
   ssl: process.env.NODE_ENV !== "development" ? { rejectUnauthorized: false } : undefined,
 });
+
+// ── Query monitoring ────────────────────────────────────────────────────────
+// Tracks total queries executed so we can expose usage stats in the admin panel
+// and detect quota-risk situations early.
+
+let _queryCount = 0;
+let _queryCountResetAt = Date.now();
+
+/** Number of queries executed since the last reset. */
+export function getQueryCount(): { count: number; since: string } {
+  return { count: _queryCount, since: new Date(_queryCountResetAt).toISOString() };
+}
+
+/** Reset the query counter (called at the start of each cron run). */
+export function resetQueryCount(): void {
+  _queryCount = 0;
+  _queryCountResetAt = Date.now();
+}
 
 // pg returns untyped rows; callers cast as needed
 // deno-lint-ignore no-explicit-any
@@ -25,6 +47,16 @@ export async function sql(
       text += `$${params.length}`;
     }
   }
+  _queryCount++;
+  return pool.query(text, params);
+}
+
+/**
+ * Execute a raw SQL string with positional parameters.
+ * Used by batch operations that build multi-row VALUES clauses dynamically.
+ */
+export async function rawQuery(text: string, params: unknown[] = []): Promise<SqlResult> {
+  _queryCount++;
   return pool.query(text, params);
 }
 

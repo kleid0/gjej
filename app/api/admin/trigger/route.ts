@@ -3,12 +3,12 @@ import { GET as discoverHandler } from "@/app/api/cron/discover/route";
 import { POST as fetchImagesHandler } from "@/app/api/admin/fetch-images/route";
 import { productCatalog, priceQuery, duplicateFuser } from "@/src/infrastructure/container";
 import {
-  recordPrices,
-  logScraperError,
-  updateProductLowestPrice,
-  markProductLastSeen,
+  batchRecordPrices,
+  batchUpdateProductPrices,
+  batchLogScraperErrors,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
 import type { Product } from "@/src/domain/catalog/Product";
+import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
 export const maxDuration = 300;
 
@@ -21,34 +21,52 @@ const CONCURRENCY = 12;
 async function refreshBatch(products: Product[]): Promise<{ refreshed: number; errors: number }> {
   let errors = 0;
 
-  // Process in parallel chunks of CONCURRENCY to avoid OOM
   for (let i = 0; i < products.length; i += CONCURRENCY) {
     const chunk = products.slice(i, i + CONCURRENCY);
-    await Promise.allSettled(
+
+    // Phase 1: Scrape concurrently
+    const chunkResults: Array<{ product: Product; prices: ScrapedPrice[] } | null> = await Promise.all(
       chunk.map(async (product) => {
         try {
           const { prices } = await priceQuery.getPricesForProduct(product.id, product.searchTerms);
-          await recordPrices(product.id, prices);
-
-          for (const p of prices) {
-            if (p.error && p.error !== "Produkti nuk u gjet" && p.error !== "Ky variant nuk disponohet") {
-              errors++;
-              await logScraperError(p.storeId, "scrape_failed", p.error, product.id);
-            }
-          }
-
-          const found = prices.filter((p) => p.price !== null && !p.suspicious);
-          if (found.length > 0) {
-            await markProductLastSeen(product.id);
-            const lowest = Math.min(...found.map((p) => p.price!));
-            await updateProductLowestPrice(product.id, lowest);
-          }
-          // Do NOT set lowest_price = null on failed scrapes — preserve last known price.
+          return { product, prices };
         } catch {
           errors++;
+          return null;
         }
-      })
+      }),
     );
+
+    // Phase 2: Batch DB writes
+    const priceEntries: Array<{ productId: string; prices: ScrapedPrice[] }> = [];
+    const productUpdates: Array<{ productId: string; lowestPrice: number | null }> = [];
+    const scraperErrors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }> = [];
+
+    for (const result of chunkResults) {
+      if (!result) continue;
+      const { product, prices } = result;
+      priceEntries.push({ productId: product.id, prices });
+
+      for (const p of prices) {
+        if (p.error && p.error !== "Produkti nuk u gjet" && p.error !== "Ky variant nuk disponohet") {
+          errors++;
+          scraperErrors.push({ storeId: p.storeId, errorType: "scrape_failed", errorMessage: p.error, productId: product.id });
+        }
+      }
+
+      const found = prices.filter((p) => p.price !== null && !p.suspicious);
+      if (found.length > 0) {
+        const lowest = Math.min(...found.map((p) => p.price!));
+        productUpdates.push({ productId: product.id, lowestPrice: lowest });
+      }
+      // Do NOT set lowest_price = null on failed scrapes — preserve last known price.
+    }
+
+    await Promise.allSettled([
+      batchRecordPrices(priceEntries),
+      batchUpdateProductPrices(productUpdates),
+      batchLogScraperErrors(scraperErrors),
+    ]);
   }
 
   return { refreshed: products.length, errors };
