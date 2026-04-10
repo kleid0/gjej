@@ -2,10 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-top: 1rem;
+  }
+}
+
 :root {
   --orange: #f57c00;
   --orange-dark: #e65100;
   --orange-light: #fff3e0;
+}
+
+/* Admin layout: hide public chrome */
+body:has(.admin-layout) > header {
+  display: none;
+}
+body:has(.admin-layout) > footer {
+  display: none;
 }
 
 body {
