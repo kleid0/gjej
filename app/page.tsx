@@ -4,7 +4,6 @@ import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepo
 import { STORE_MAP } from "@/src/infrastructure/stores/registry";
 import { readTrendsCache } from "@/src/infrastructure/trends/TrendsService";
 import ProductCard from "@/components/ProductCard";
-import CategoryCard from "@/components/CategoryCard";
 import FlipBoard from "@/components/FlipBoard";
 
 // Revalidate homepage every 30 minutes — cached prices refresh daily
@@ -16,8 +15,6 @@ export default async function Home() {
     priceQuery.getAllCachedPrices(),
     getProductLowestPrices(),
   ]);
-
-  const categories = productCatalog.getCategories();
 
   // Score each product by store coverage and stock as a baseline
   const scoredProducts = allProducts.map((product) => {
@@ -115,16 +112,6 @@ export default async function Home() {
           <span className="font-medium text-gray-400 mr-2">Krahasojmë çmimet nga:</span>
           {["Foleja.al", "Shpresa Group", "Neptun", "PC Store", "Globe Albania"].map((s) => (
             <span key={s} className="font-semibold text-gray-700">{s}</span>
-          ))}
-        </div>
-      </section>
-
-      {/* Categories */}
-      <section className="max-w-6xl mx-auto px-4 py-10">
-        <h2 className="text-xl font-bold text-gray-800 mb-5">Shfleto sipas kategorisë</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3">
-          {categories.map((cat) => (
-            <CategoryCard key={cat.id} category={cat} />
           ))}
         </div>
       </section>
