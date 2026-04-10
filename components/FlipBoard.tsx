@@ -11,7 +11,7 @@ function FlipDigit({ target, delay }: { target: string; delay: number }) {
 
   useEffect(() => {
     stopped.current = false;
-    const totalFlips = 14 + Math.floor(Math.random() * 8);
+    const totalFlips = 30 + Math.floor(Math.random() * 8);
     let count = 0;
 
     const flip = () => {
@@ -21,7 +21,12 @@ function FlipDigit({ target, delay }: { target: string; delay: number }) {
       const next = isLast ? target : DIGITS[Math.floor(Math.random() * 10)];
       setChar(next);
       setAnimKey((k) => k + 1);
-      if (!isLast) setTimeout(flip, Math.min(28 + count * 7, 95));
+      if (!isLast) {
+        // Quadratic ease-out: blazing fast at the start, crawling at the end
+        const progress = count / totalFlips;
+        const interval = 14 + 290 * (progress * progress);
+        setTimeout(flip, interval);
+      }
     };
 
     const tid = setTimeout(flip, delay);
@@ -41,12 +46,13 @@ function FlipDigit({ target, delay }: { target: string; delay: number }) {
 }
 
 export default function FlipBoard({ productCount }: { productCount: number }) {
-  const digits = String(productCount).split('');
   return (
     <div className="flip-board-number">
-      {digits.map((d, i) => (
-        <FlipDigit key={i} target={d} delay={100 + i * 130} />
-      ))}
+      {String(productCount)
+        .split('')
+        .map((d, i) => (
+          <FlipDigit key={i} target={d} delay={i * 55} />
+        ))}
     </div>
   );
 }
