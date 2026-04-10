@@ -4,14 +4,27 @@ import { useEffect, useRef, useState } from 'react';
 
 const DIGITS = '0123456789';
 
-function FlipDigit({ target, delay }: { target: string; delay: number }) {
+// Each digit gets a fixed number of flips; more flips = lands later.
+// With the quadratic ease-out curve, adding 4 flips per position
+// spaces landings ~440 ms apart, so digit 0 locks first, then 1, 2…
+const BASE_FLIPS = 18;
+const FLIPS_PER_DIGIT = 4;
+
+function FlipDigit({
+  target,
+  delay,
+  totalFlips,
+}: {
+  target: string;
+  delay: number;
+  totalFlips: number;
+}) {
   const [char, setChar] = useState('0');
   const [animKey, setAnimKey] = useState(0);
   const stopped = useRef(false);
 
   useEffect(() => {
     stopped.current = false;
-    const totalFlips = 30 + Math.floor(Math.random() * 8);
     let count = 0;
 
     const flip = () => {
@@ -22,7 +35,7 @@ function FlipDigit({ target, delay }: { target: string; delay: number }) {
       setChar(next);
       setAnimKey((k) => k + 1);
       if (!isLast) {
-        // Quadratic ease-out: blazing fast at the start, crawling at the end
+        // Quadratic ease-out: blazing fast at start, slow deliberate ticks at end
         const progress = count / totalFlips;
         const interval = 14 + 290 * (progress * progress);
         setTimeout(flip, interval);
@@ -34,7 +47,7 @@ function FlipDigit({ target, delay }: { target: string; delay: number }) {
       stopped.current = true;
       clearTimeout(tid);
     };
-  }, [target, delay]);
+  }, [target, delay, totalFlips]);
 
   return (
     <span className="flip-digit">
@@ -51,7 +64,12 @@ export default function FlipBoard({ productCount }: { productCount: number }) {
       {String(productCount)
         .split('')
         .map((d, i) => (
-          <FlipDigit key={i} target={d} delay={i * 55} />
+          <FlipDigit
+            key={i}
+            target={d}
+            delay={i * 30}
+            totalFlips={BASE_FLIPS + i * FLIPS_PER_DIGIT}
+          />
         ))}
     </div>
   );
