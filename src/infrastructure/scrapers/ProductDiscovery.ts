@@ -20,6 +20,14 @@ function slugify(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80);
 }
 
+// Reject data: URIs (lazy-load placeholders) and other non-http URLs
+function sanitizeImageUrl(url: string | null | undefined): string {
+  if (!url) return "";
+  if (url.startsWith("data:") || url.includes("base64,")) return "";
+  if (!url.startsWith("http")) return "";
+  return url;
+}
+
 function decodeHtml(text: string): string {
   return text
     .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(parseInt(code, 10)))
@@ -136,7 +144,7 @@ async function fetchShopify(storeId: string, baseUrl: string): Promise<Product[]
       for (const item of items) {
         if (!item.title || item.title.length < 3) continue;
         const { category, subcategory } = guessCategory(item.title, item.tags ?? [], item.product_type ?? "");
-        products.push({ id: `${storeId}-${item.handle ?? slugify(item.title)}`, modelNumber: extractModelNumber(item.title, item.variants?.[0]?.sku ?? ""), family: item.title, brand: extractBrand(item.title, item.vendor), category, subcategory, imageUrl: item.images?.[0]?.src ?? "", storageOptions: [], searchTerms: [item.title] });
+        products.push({ id: `${storeId}-${item.handle ?? slugify(item.title)}`, modelNumber: extractModelNumber(item.title, item.variants?.[0]?.sku ?? ""), family: item.title, brand: extractBrand(item.title, item.vendor), category, subcategory, imageUrl: sanitizeImageUrl(item.images?.[0]?.src), storageOptions: [], searchTerms: [item.title] });
       }
       if (items.length < 250) break;
       page++;
@@ -163,7 +171,7 @@ async function fetchWooCommerce(storeId: string, baseUrl: string, extraHeaders?:
         const name = decodeHtml(item.name);
         const cats = item.categories?.map((c) => c.name) ?? [];
         const { category, subcategory } = guessCategory(name, [], "", cats);
-        products.push({ id: `${storeId}-${item.slug ?? slugify(name)}`, modelNumber: extractModelNumber(name, item.sku ?? ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl: item.images?.[0]?.src ?? "", storageOptions: [], searchTerms: [name] });
+        products.push({ id: `${storeId}-${item.slug ?? slugify(name)}`, modelNumber: extractModelNumber(name, item.sku ?? ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl: sanitizeImageUrl(item.images?.[0]?.src), storageOptions: [], searchTerms: [name] });
       }
       if (items.length < perPage) break;
       page++;
@@ -193,7 +201,7 @@ async function fetchFoleja(): Promise<Product[]> {
           if (!name || name.length < 4 || name.length > 200) return;
           const img = $el.find("img").first();
           const rawSrc = img.attr("src") || img.attr("data-src") || "";
-          const imageUrl = rawSrc ? (rawSrc.startsWith("http") ? rawSrc : `https://www.foleja.al${rawSrc}`) : "";
+          const imageUrl = sanitizeImageUrl(rawSrc.startsWith("http") ? rawSrc : rawSrc ? `https://www.foleja.al${rawSrc}` : "");
           const id = `foleja-${slugify(name)}`;
           if (discovered.has(id)) return;
           const { category, subcategory } = guessCategory(name);
@@ -223,7 +231,7 @@ async function fetchGlobe(): Promise<Product[]> {
         const name = decodeHtml(item.name);
         const cats = item.categories ?? [];
         const { category, subcategory } = guessCategory(name, [], "", cats);
-        const imageUrl = item.image ?? item.images?.[0] ?? "";
+        const imageUrl = sanitizeImageUrl(item.image ?? item.images?.[0]);
         return { id: `globe-${item.id}`, modelNumber: extractModelNumber(name, item.sku ?? ""), family: name, brand: extractBrand(name, item.brand), category, subcategory, imageUrl, storageOptions: [], searchTerms: [name] };
       });
   } catch { return []; }
@@ -320,7 +328,7 @@ async function fetchNeptun(): Promise<Product[]> {
         const name = decodeHtml(item.Title);
         const catNameEn = item.Category?.NameEn ?? item.Category?.Name ?? "";
         const { category, subcategory } = guessCategory(name, [], catNameEn);
-        const imageUrl = item.Thumbnail ? `${NEPTUN_IMAGE_BASE}${item.Thumbnail}` : "";
+        const imageUrl = sanitizeImageUrl(item.Thumbnail ? `${NEPTUN_IMAGE_BASE}${item.Thumbnail}` : "");
         discovered.set(id, {
           id,
           modelNumber: extractModelNumber(name, item.ModelNumber ?? item.ProductCode ?? ""),

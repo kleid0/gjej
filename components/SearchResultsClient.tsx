@@ -300,6 +300,8 @@ export default function SearchResultsClient({
 
 /* ---- Grid card ---- */
 function GridCard({ p }: { p: ProductSummary }) {
+  const [imgSrc, setImgSrc] = useState(p.imageUrl || "/placeholder.svg");
+  const [loaded, setLoaded] = useState(false);
   return (
     <Link
       href={`/produkt/${p.id}`}
@@ -308,12 +310,12 @@ function GridCard({ p }: { p: ProductSummary }) {
       <div className="bg-gray-50 rounded-lg aspect-square flex items-center justify-center overflow-hidden relative">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={p.imageUrl}
+          src={imgSrc}
           alt={p.family}
-          className="max-h-[80%] max-w-[80%] object-contain group-hover:scale-105 transition-transform"
-          onError={(e) => {
-            (e.target as HTMLImageElement).src = "/placeholder.png";
-          }}
+          loading="lazy"
+          className={`max-h-[80%] max-w-[80%] object-contain group-hover:scale-105 transition-all duration-300 ${loaded ? "opacity-100" : "opacity-0"}`}
+          onLoad={() => setLoaded(true)}
+          onError={() => { setImgSrc("/placeholder.svg"); setLoaded(true); }}
         />
         {p.storeCount > 0 && (
           <span className="absolute top-1.5 right-1.5 bg-white/90 backdrop-blur-sm text-[11px] text-gray-600 px-2 py-0.5 rounded-full border border-gray-100 font-medium">
@@ -350,6 +352,8 @@ function GridCard({ p }: { p: ProductSummary }) {
 
 /* ---- List card ---- */
 function ListCard({ p }: { p: ProductSummary }) {
+  const [imgSrc, setImgSrc] = useState(p.imageUrl || "/placeholder.svg");
+  const [loaded, setLoaded] = useState(false);
   return (
     <Link
       href={`/produkt/${p.id}`}
@@ -358,12 +362,12 @@ function ListCard({ p }: { p: ProductSummary }) {
       <div className="bg-gray-50 rounded-lg w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center shrink-0 overflow-hidden">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={p.imageUrl}
+          src={imgSrc}
           alt={p.family}
-          className="max-h-[80%] max-w-[80%] object-contain group-hover:scale-105 transition-transform"
-          onError={(e) => {
-            (e.target as HTMLImageElement).src = "/placeholder.png";
-          }}
+          loading="lazy"
+          className={`max-h-[80%] max-w-[80%] object-contain group-hover:scale-105 transition-all duration-300 ${loaded ? "opacity-100" : "opacity-0"}`}
+          onLoad={() => setLoaded(true)}
+          onError={() => { setImgSrc("/placeholder.svg"); setLoaded(true); }}
         />
       </div>
       <div className="flex-1 min-w-0">
