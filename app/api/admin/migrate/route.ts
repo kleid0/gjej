@@ -23,7 +23,7 @@ export async function GET(req: NextRequest) {
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
     return NextResponse.json(
-      { error: "Schema creation failed", detail: msg, hint: "Check that POSTGRES_URL is set in Vercel environment variables" },
+      { error: "Schema creation failed" },
       { status: 500 }
     );
   }

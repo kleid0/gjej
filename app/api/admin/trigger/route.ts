@@ -127,6 +127,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ error: "Veprim i panjohur" }, { status: 400 });
   } catch (err) {
-    return NextResponse.json({ ok: false, error: String(err) }, { status: 500 });
+    const message = err instanceof Error ? err.message : "Internal server error";
+    return NextResponse.json({ ok: false, error: message }, { status: 500 });
   }
 }

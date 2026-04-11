@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://gjej.al";
+
 export const metadata: Metadata = {
   title: {
     default: "Gjej.al – Krahasimi i Çmimeve në Shqipëri",
@@ -13,9 +15,15 @@ export const metadata: Metadata = {
   },
   description:
     "Gjej çmimin më të mirë për produktet tuaja te dyqanet shqiptare. Krahasoni çmimet nga Foleja, Shpresa, Neptun, PC Store dhe Globe Albania.",
+  metadataBase: new URL(SITE_URL),
   openGraph: {
     siteName: "Gjej.al",
     type: "website",
+    locale: "sq_AL",
+    url: SITE_URL,
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 
