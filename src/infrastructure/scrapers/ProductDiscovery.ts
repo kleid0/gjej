@@ -97,10 +97,12 @@ function extractModelNumber(name: string, fallbackSku: string): string {
 
 function guessCategory(name: string, tags: string[] = [], productType = "", categories: string[] = []): { category: string; subcategory: string } {
   const text = [name, productType, ...tags, ...categories].join(" ").toLowerCase();
-  // Phones: include Albanian prefixes "celular", "smartphone" + known brands/models
-  if (/\b(celular|smartphone|telefon celular)\b|iphone|samsung galaxy [as]\d+|pixel \d|xiaomi \d+|redmi|oneplus|oppo|realme|motorola edge|motorola moto/i.test(text)) return { category: "telefona", subcategory: "Smartphone" };
-  if (/ipad|tablet|samsung tab|lenovo tab|huawei matepad/i.test(text)) return { category: "telefona", subcategory: "Tablet" };
-  if (/macbook|laptop|notebook|thinkpad|chromebook|precision \d{4}|elitebook|thinkbook/i.test(text)) return { category: "kompjutera", subcategory: "Laptop" };
+  // Laptop — check first so "XiaomiBook" in a store "tablet" category isn't miscategorised
+  if (/macbook|laptop|notebook|thinkpad|chromebook|precision \d{4}|elitebook|thinkbook|xiaomibook/i.test(text)) return { category: "kompjutera", subcategory: "Laptop" };
+  // Tablet — check before phones so "iPad Celular" and "Redmi Pad" aren't caught by the phone regex
+  if (/ipad|\btablet\b|galaxy\s+tab|lenovo\s+tab|matepad|redmi\s+pad|xiaomi\s+pad|poco\s+pad/i.test(text)) return { category: "telefona", subcategory: "Tablet" };
+  // Phones: Albanian prefixes + known brands/models
+  if (/\b(celular|smartphone|telefon celular)\b|iphone|samsung galaxy [as]\d+|pixel \d|xiaomi \d+|redmi|oneplus|oppo|realme|motorola|blackview|nothing\s+(phone|cmf)|nubia|poco\b|\bzte\b|\bhonor\b|\boukitel\b/i.test(text)) return { category: "telefona", subcategory: "Smartphone" };
   if (/desktop|pc gaming|all-in-one|imac|\bmini pc\b/i.test(text)) return { category: "kompjutera", subcategory: "Desktop PC" };
   if (/\bmonitor\b/i.test(text)) return { category: "kompjutera", subcategory: "Monitor" };
   if (/printer|printues/i.test(text)) return { category: "kompjutera", subcategory: "Printer" };
