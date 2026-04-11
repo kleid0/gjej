@@ -31,6 +31,15 @@ const BASE_MODEL_PATTERNS: Array<{ regex: RegExp; key: string }> = [
   { regex: /iphone\s*16\s*pro(?!\s*max)/i, key: "iPhone 16 Pro" },
   { regex: /iphone\s*16\s*plus/i, key: "iPhone 16 Plus" },
   { regex: /iphone\s*16(?!\s*(pro|plus|mini))/i, key: "iPhone 16" },
+  // Apple iPhone 15
+  { regex: /iphone\s*15\s*pro\s*max/i, key: "iPhone 15 Pro Max" },
+  { regex: /iphone\s*15\s*pro(?!\s*max)/i, key: "iPhone 15 Pro" },
+  { regex: /iphone\s*15\s*plus/i, key: "iPhone 15 Plus" },
+  { regex: /iphone\s*15(?!\s*(pro|plus|mini))/i, key: "iPhone 15" },
+  // Samsung Galaxy S26
+  { regex: /galaxy\s*s26\s*ultra/i, key: "Galaxy S26 Ultra" },
+  { regex: /galaxy\s*s26\s*(\+|plus)/i, key: "Galaxy S26+" },
+  { regex: /galaxy\s*s26(?!\s*(ultra|\+|plus|fe))/i, key: "Galaxy S26" },
   // Samsung Galaxy S25
   { regex: /galaxy\s*s25\s*ultra/i, key: "Galaxy S25 Ultra" },
   { regex: /galaxy\s*s25\s*edge/i, key: "Galaxy S25 Edge" },
@@ -47,6 +56,10 @@ const BASE_MODEL_PATTERNS: Array<{ regex: RegExp; key: string }> = [
   { regex: /xiaomi\s*15\s*ultra/i, key: "Xiaomi 15 Ultra" },
   { regex: /xiaomi\s*15\s*pro/i, key: "Xiaomi 15 Pro" },
   { regex: /xiaomi\s*15(?!\s*(ultra|pro))/i, key: "Xiaomi 15" },
+  // Google Pixel
+  { regex: /pixel\s*10\s*pro\s*xl/i, key: "Pixel 10 Pro XL" },
+  { regex: /pixel\s*10\s*pro(?!\s*xl)/i, key: "Pixel 10 Pro" },
+  { regex: /pixel\s*10(?!\s*(pro))/i, key: "Pixel 10" },
   // iPad
   { regex: /ipad\s*pro\s*m5/i, key: "iPad Pro M5" },
   { regex: /ipad\s*air\s*m4/i, key: "iPad Air M4" },
@@ -149,6 +162,87 @@ const CONFIGS: Record<string, VariantConfig> = {
     storageOptions: ["256GB", "512GB", "1TB"],
     defaultColour: "Natural Titanium", defaultStorage: "256GB",
   },
+  // ── Apple iPhone 15 ──────────────────────────────────────
+  "iPhone 15": {
+    baseFamily: "iPhone 15",
+    colours: [
+      { name: "E zeze", nameEn: "Black", hex: "#3f4042" },
+      { name: "Blu", nameEn: "Blue", hex: "#7c98ab" },
+      { name: "E gjelber", nameEn: "Green", hex: "#d0d9c8" },
+      { name: "E verdhe", nameEn: "Yellow", hex: "#f0d860" },
+      { name: "Roze", nameEn: "Pink", hex: "#f2c8c4" },
+    ],
+    storageOptions: ["128GB", "256GB", "512GB"],
+    defaultColour: "Black", defaultStorage: "128GB",
+  },
+  "iPhone 15 Plus": {
+    baseFamily: "iPhone 15 Plus",
+    colours: [
+      { name: "E zeze", nameEn: "Black", hex: "#3f4042" },
+      { name: "Blu", nameEn: "Blue", hex: "#7c98ab" },
+      { name: "E gjelber", nameEn: "Green", hex: "#d0d9c8" },
+      { name: "E verdhe", nameEn: "Yellow", hex: "#f0d860" },
+      { name: "Roze", nameEn: "Pink", hex: "#f2c8c4" },
+    ],
+    storageOptions: ["128GB", "256GB", "512GB"],
+    defaultColour: "Black", defaultStorage: "128GB",
+  },
+  "iPhone 15 Pro": {
+    baseFamily: "iPhone 15 Pro",
+    colours: [
+      { name: "Titanium natyral", nameEn: "Natural Titanium", hex: "#b8b0a8" },
+      { name: "Titanium blu", nameEn: "Blue Titanium", hex: "#3e4a5a" },
+      { name: "Titanium i bardhe", nameEn: "White Titanium", hex: "#e3e0da" },
+      { name: "Titanium i zi", nameEn: "Black Titanium", hex: "#3c3c3c" },
+    ],
+    storageOptions: ["128GB", "256GB", "512GB", "1TB"],
+    defaultColour: "Natural Titanium", defaultStorage: "128GB",
+  },
+  "iPhone 15 Pro Max": {
+    baseFamily: "iPhone 15 Pro Max",
+    colours: [
+      { name: "Titanium natyral", nameEn: "Natural Titanium", hex: "#b8b0a8" },
+      { name: "Titanium blu", nameEn: "Blue Titanium", hex: "#3e4a5a" },
+      { name: "Titanium i bardhe", nameEn: "White Titanium", hex: "#e3e0da" },
+      { name: "Titanium i zi", nameEn: "Black Titanium", hex: "#3c3c3c" },
+    ],
+    storageOptions: ["256GB", "512GB", "1TB"],
+    defaultColour: "Natural Titanium", defaultStorage: "256GB",
+  },
+  // ── Samsung Galaxy S26 ───────────────────────────────────
+  "Galaxy S26": {
+    baseFamily: "Galaxy S26",
+    colours: [
+      { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
+      { name: "E bardhe", nameEn: "White", hex: "#f5f5f7" },
+      { name: "Blu qielli", nameEn: "Sky Blue", hex: "#87b5d6" },
+      { name: "Vjollce kobalti", nameEn: "Cobalt Violet", hex: "#6b5ca5" },
+    ],
+    storageOptions: ["256GB", "512GB"],
+    defaultColour: "Black", defaultStorage: "256GB",
+  },
+  "Galaxy S26+": {
+    baseFamily: "Galaxy S26+",
+    colours: [
+      { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
+      { name: "E bardhe", nameEn: "White", hex: "#f5f5f7" },
+      { name: "Blu qielli", nameEn: "Sky Blue", hex: "#87b5d6" },
+      { name: "Vjollce kobalti", nameEn: "Cobalt Violet", hex: "#6b5ca5" },
+    ],
+    storageOptions: ["256GB", "512GB"],
+    defaultColour: "Black", defaultStorage: "256GB",
+  },
+  "Galaxy S26 Ultra": {
+    baseFamily: "Galaxy S26 Ultra",
+    colours: [
+      { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
+      { name: "E bardhe", nameEn: "White", hex: "#f5f5f7" },
+      { name: "Blu qielli", nameEn: "Sky Blue", hex: "#87b5d6" },
+      { name: "Vjollce kobalti", nameEn: "Cobalt Violet", hex: "#6b5ca5" },
+    ],
+    storageOptions: ["256GB", "512GB", "1TB"],
+    defaultColour: "Black", defaultStorage: "256GB",
+  },
   // ── Samsung Galaxy S25 ───────────────────────────────────
   "Galaxy S25": {
     baseFamily: "Galaxy S25", colours: S25_STANDARD,
@@ -173,6 +267,17 @@ const CONFIGS: Record<string, VariantConfig> = {
     ],
     storageOptions: ["256GB", "512GB"],
     defaultColour: "Titanium Black", defaultStorage: "256GB",
+  },
+  "Galaxy S25 FE": {
+    baseFamily: "Galaxy S25 FE",
+    colours: [
+      { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
+      { name: "Blu", nameEn: "Blue", hex: "#4a6ea5" },
+      { name: "Mente", nameEn: "Mint", hex: "#aee4c5" },
+      { name: "Gri", nameEn: "Gray", hex: "#8c8c8c" },
+    ],
+    storageOptions: ["128GB", "256GB"],
+    defaultColour: "Black", defaultStorage: "128GB",
   },
   // ── Samsung Galaxy S24 ───────────────────────────────────
   "Galaxy S24": {
@@ -249,6 +354,40 @@ const CONFIGS: Record<string, VariantConfig> = {
     ],
     storageOptions: ["256GB", "512GB", "1TB"],
     defaultColour: "Black", defaultStorage: "256GB",
+  },
+  // ── Google Pixel ──────────────────────────────────────────
+  "Pixel 10": {
+    baseFamily: "Pixel 10",
+    colours: [
+      { name: "E zeze", nameEn: "Obsidian", hex: "#1d1d1f" },
+      { name: "E bardhe", nameEn: "Frost", hex: "#e8e8e8" },
+      { name: "Indigo", nameEn: "Indigo", hex: "#3f4d7a" },
+      { name: "Lemongrass", nameEn: "Lemongrass", hex: "#c8c878" },
+    ],
+    storageOptions: ["128GB", "256GB"],
+    defaultColour: "Obsidian", defaultStorage: "128GB",
+  },
+  "Pixel 10 Pro": {
+    baseFamily: "Pixel 10 Pro",
+    colours: [
+      { name: "E zeze", nameEn: "Obsidian", hex: "#1d1d1f" },
+      { name: "Porcelain", nameEn: "Porcelain", hex: "#e8e0d8" },
+      { name: "Moonstone", nameEn: "Moonstone", hex: "#b8c0c8" },
+      { name: "Jade", nameEn: "Jade", hex: "#6a8a6a" },
+    ],
+    storageOptions: ["128GB", "256GB", "512GB"],
+    defaultColour: "Obsidian", defaultStorage: "128GB",
+  },
+  "Pixel 10 Pro XL": {
+    baseFamily: "Pixel 10 Pro XL",
+    colours: [
+      { name: "E zeze", nameEn: "Obsidian", hex: "#1d1d1f" },
+      { name: "Porcelain", nameEn: "Porcelain", hex: "#e8e0d8" },
+      { name: "Moonstone", nameEn: "Moonstone", hex: "#b8c0c8" },
+      { name: "Jade", nameEn: "Jade", hex: "#6a8a6a" },
+    ],
+    storageOptions: ["128GB", "256GB", "512GB"],
+    defaultColour: "Obsidian", defaultStorage: "128GB",
   },
   // ── iPad ─────────────────────────────────────────────────
   "iPad Pro M5": {

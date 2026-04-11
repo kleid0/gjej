@@ -19,15 +19,8 @@ export interface ProductSummary {
   refreshedAt: string | null;
 }
 
-export interface StoreInfo {
-  id: string;
-  name: string;
-  color: string;
-}
-
 interface Props {
   products: ProductSummary[];
-  stores: StoreInfo[];
   subcategories: string[];
   query: string;
   category: string;
@@ -50,7 +43,6 @@ const PER_PAGE = 40;
 
 export default function SearchResultsClient({
   products,
-  stores,
   subcategories,
   subcategory,
 }: Props) {
@@ -63,7 +55,6 @@ export default function SearchResultsClient({
     priceMin: null,
     priceMax: null,
     brands: [],
-    stores: [],
     inStockOnly: false,
   });
 
@@ -74,15 +65,6 @@ export default function SearchResultsClient({
       (a, b) => b.count - a.count
     );
   }, [products]);
-
-  const storeCounts = useMemo(
-    () =>
-      stores.map((s) => ({
-        ...s,
-        count: products.filter((p) => p.storeIds.includes(s.id)).length,
-      })),
-    [products, stores]
-  );
 
   const priceRange = useMemo(() => {
     const ps = products
@@ -98,10 +80,6 @@ export default function SearchResultsClient({
     if (activeSub) r = r.filter((p) => p.subcategory === activeSub);
     if (filters.brands.length)
       r = r.filter((p) => filters.brands.includes(p.brand));
-    if (filters.stores.length)
-      r = r.filter((p) =>
-        p.storeIds.some((s) => filters.stores.includes(s))
-      );
     if (filters.priceMin !== null)
       r = r.filter(
         (p) => p.bestPrice !== null && p.bestPrice >= filters.priceMin!
@@ -139,7 +117,6 @@ export default function SearchResultsClient({
 
   const activeFilterCount =
     filters.brands.length +
-    filters.stores.length +
     (filters.priceMin !== null ? 1 : 0) +
     (filters.priceMax !== null ? 1 : 0) +
     (filters.inStockOnly ? 1 : 0);
@@ -148,7 +125,6 @@ export default function SearchResultsClient({
     <div className="flex gap-6 items-start">
       <SearchFilters
         brands={brandCounts}
-        stores={storeCounts}
         priceRange={priceRange}
         filters={filters}
         onChange={(f) => {

@@ -6,7 +6,6 @@ export interface FilterState {
   priceMin: number | null;
   priceMax: number | null;
   brands: string[];
-  stores: string[];
   inStockOnly: boolean;
 }
 
@@ -15,16 +14,8 @@ interface BrandCount {
   count: number;
 }
 
-interface StoreCount {
-  id: string;
-  name: string;
-  color: string;
-  count: number;
-}
-
 interface Props {
   brands: BrandCount[];
-  stores: StoreCount[];
   priceRange: { min: number; max: number };
   filters: FilterState;
   onChange: (f: FilterState) => void;
@@ -35,7 +26,6 @@ interface Props {
 
 export default function SearchFilters({
   brands,
-  stores,
   filters,
   onChange,
   resultCount,
@@ -51,13 +41,6 @@ export default function SearchFilters({
       ? filters.brands.filter((x) => x !== b)
       : [...filters.brands, b];
     onChange({ ...filters, brands: next });
-  }
-
-  function toggleStore(id: string) {
-    const next = filters.stores.includes(id)
-      ? filters.stores.filter((x) => x !== id)
-      : [...filters.stores, id];
-    onChange({ ...filters, stores: next });
   }
 
   function applyPrice() {
@@ -76,7 +59,6 @@ export default function SearchFilters({
       priceMin: null,
       priceMax: null,
       brands: [],
-      stores: [],
       inStockOnly: false,
     });
   }
@@ -85,7 +67,6 @@ export default function SearchFilters({
     filters.priceMin !== null ||
     filters.priceMax !== null ||
     filters.brands.length > 0 ||
-    filters.stores.length > 0 ||
     filters.inStockOnly;
 
   const visibleBrands = brandSearch
@@ -198,34 +179,6 @@ export default function SearchFilters({
           </div>
         </div>
       )}
-
-      {/* Stores */}
-      <div>
-        <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
-          Dyqani
-        </p>
-        <div className="space-y-0.5">
-          {stores.map((s) => (
-            <label
-              key={s.id}
-              className="flex items-center gap-2 px-1.5 py-1 hover:bg-gray-50 rounded-lg cursor-pointer"
-            >
-              <input
-                type="checkbox"
-                checked={filters.stores.includes(s.id)}
-                onChange={() => toggleStore(s.id)}
-                className="rounded border-gray-300 w-3.5 h-3.5"
-              />
-              <span
-                className="w-2.5 h-2.5 rounded-full shrink-0"
-                style={{ backgroundColor: s.color }}
-              />
-              <span className="text-sm text-gray-700 flex-1">{s.name}</span>
-              <span className="text-[11px] text-gray-400">{s.count}</span>
-            </label>
-          ))}
-        </div>
-      </div>
 
       {/* In stock */}
       <label className="flex items-center gap-3 cursor-pointer px-1.5">

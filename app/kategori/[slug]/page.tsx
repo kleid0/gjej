@@ -2,9 +2,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
-import { STORES } from "@/src/infrastructure/stores/registry";
 import SearchResultsClient from "@/components/SearchResultsClient";
-import type { ProductSummary, StoreInfo } from "@/components/SearchResultsClient";
+import type { ProductSummary } from "@/components/SearchResultsClient";
 
 export const dynamic = "force-dynamic";
 
@@ -52,12 +51,6 @@ export default async function CategoryPage({ params }: Props) {
     new Set(products.map((p) => p.subcategory).filter(Boolean))
   ).sort();
 
-  const storeInfos: StoreInfo[] = STORES.map((s) => ({
-    id: s.id,
-    name: s.name,
-    color: s.color,
-  }));
-
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
       <nav className="text-xs text-gray-400 mb-3 flex items-center gap-1">
@@ -78,7 +71,6 @@ export default async function CategoryPage({ params }: Props) {
 
       <SearchResultsClient
         products={summaries}
-        stores={storeInfos}
         subcategories={subcategories}
         query=""
         category={params.slug}
