@@ -2,6 +2,7 @@ import { Sidebar } from "@/components/admin/Sidebar";
 
 export const metadata = {
   title: "Admin | Gjej.al",
+  robots: { index: false, follow: false },
 };
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {

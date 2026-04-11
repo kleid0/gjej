@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
@@ -13,6 +14,15 @@ interface Props {
 
 export async function generateStaticParams() {
   return productCatalog.getCategories().map((c) => ({ slug: c.id }));
+}
+
+export function generateMetadata({ params }: Props): Metadata {
+  const category = productCatalog.getCategoryById(params.slug);
+  if (!category) return {};
+  return {
+    title: `${category.name} – Gjej.al`,
+    description: `Krahaso çmimet për ${category.name.toLowerCase()} nga dyqanet kryesore shqiptare.`,
+  };
 }
 
 export default async function CategoryPage({ params }: Props) {

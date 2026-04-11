@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
@@ -8,6 +9,20 @@ export const dynamic = "force-dynamic";
 
 interface Props {
   searchParams: { q?: string; kat?: string; "nenkat"?: string };
+}
+
+export function generateMetadata({ searchParams }: Props): Metadata {
+  const query = searchParams.q;
+  if (query) {
+    return {
+      title: `"${query}" – Kerko në Gjej.al`,
+      description: `Rezultate për "${query}". Krahaso çmimet nga dyqanet kryesore shqiptare.`,
+    };
+  }
+  return {
+    title: "Kerko Produkte – Gjej.al",
+    description: "Kerko dhe krahaso çmimet e produkteve nga dyqanet kryesore shqiptare.",
+  };
 }
 
 export default async function KerkoPage({ searchParams }: Props) {

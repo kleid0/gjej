@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
@@ -6,6 +7,13 @@ import { readTrendsCache } from "@/src/infrastructure/trends/TrendsService";
 import ProductCard from "@/components/ProductCard";
 import FlipBoard from "@/components/FlipBoard";
 import SearchAutocomplete from "@/components/SearchAutocomplete";
+
+export const metadata: Metadata = {
+  title: "Gjej.al – Krahasimi i Çmimeve në Shqipëri",
+  description:
+    "Gjej çmimin më të mirë për produktet tuaja. Krahaso çmimet nga Foleja, Shpresa, Neptun, PC Store dhe Globe Albania.",
+  alternates: { canonical: "https://gjej.al" },
+};
 
 // Revalidate homepage every 30 minutes — cached prices refresh daily
 export const revalidate = 1800;
