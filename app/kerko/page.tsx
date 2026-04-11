@@ -1,9 +1,8 @@
 import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
-import { STORES } from "@/src/infrastructure/stores/registry";
 import SearchResultsClient from "@/components/SearchResultsClient";
-import type { ProductSummary, StoreInfo } from "@/components/SearchResultsClient";
+import type { ProductSummary } from "@/components/SearchResultsClient";
 
 export const dynamic = "force-dynamic";
 
@@ -54,12 +53,6 @@ export default async function KerkoPage({ searchParams }: Props) {
   const subcategories = Array.from(
     new Set(products.map((p) => p.subcategory).filter(Boolean))
   ).sort();
-
-  const storeInfos: StoreInfo[] = STORES.map((s) => ({
-    id: s.id,
-    name: s.name,
-    color: s.color,
-  }));
 
   const categories = productCatalog.getCategories();
   const category = kat ? categories.find((c) => c.id === kat) : null;
@@ -132,7 +125,6 @@ export default async function KerkoPage({ searchParams }: Props) {
 
       <SearchResultsClient
         products={summaries}
-        stores={storeInfos}
         subcategories={subcategories}
         query={query}
         category={kat}
