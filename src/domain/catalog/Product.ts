@@ -42,7 +42,7 @@ export interface Category {
 
 export const CATEGORIES: Category[] = [
   { id: "telefona",    name: "Telefona & Tablets",  icon: "📱", subcategories: ["Smartphone", "Tablet", "Smartwatch", "Aksesore Telefoni", "Karikues & Kabllo", "Kufje", "Mbrojtese & Kover"] },
-  { id: "kompjutera",  name: "Kompjutera",          icon: "💻", subcategories: ["Laptop", "Desktop PC", "Monitor", "Printer", "Aksesore PC", "Mouse & Tastiere", "Karte Grafike", "SSD & RAM", "Rrjete & WiFi"] },
+  { id: "kompjutera",  name: "Kompjutera",          icon: "💻", subcategories: ["Laptop", "Desktop PC", "Monitor", "Printer", "Printer 3D", "Aksesore PC", "Mouse & Tastiere", "Karte Grafike", "SSD & RAM", "Rrjete & WiFi"] },
   { id: "elektronike", name: "Elektronike",         icon: "🔌", subcategories: ["TV", "Audio & Altoparlant", "Kamera", "Gaming", "Konsola", "Shtepiake", "Dron", "Projektor", "Aksesore"] },
   { id: "shtepi",      name: "Shtepi & Kopsht",     icon: "🏠", subcategories: ["Pajisje Kuzhine", "Pastrimi", "Aspirapluhar", "Ndricim", "Kopsht", "Mobilje", "Dekorim"] },
   { id: "sporte",      name: "Sporte & Outdoor",    icon: "⚽", subcategories: ["Fitness", "Veshje Sportive", "Bicikleta", "Camping", "Trotinet Elektrik", "Peshkim"] },

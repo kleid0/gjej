@@ -121,11 +121,12 @@ function guessCategory(name: string, tags: string[] = [], productType = "", cate
   if (/kamera|camera|dslr|mirrorless|gopro|drone/i.test(text)) return { category: "elektronike", subcategory: "Kamera" };
   if (/lavatrice|frigorifer|lavastovilje|mikroval|kondicionier|furr|aspirator|\btharëse\b|hand dryer|airblade/i.test(text)) return { category: "elektronike", subcategory: "Shtëpiake" };
   if (/charger|karikues|power bank|kavo|adapter|\bups\b|toner/i.test(text)) return { category: "elektronike", subcategory: "Aksesorë" };
+  if (/elegoo|anycubic|creality|bambu\s+lab|3d\s*print|\bfilament\b|\bresin\b/i.test(text)) return { category: "kompjutera", subcategory: "Printer 3D" };
   if (/parfum|eau de toilette/i.test(text)) return { category: "bukuri", subcategory: "Parfum" };
   if (/skincare|moisturizer|serum|krema|maska/i.test(text)) return { category: "bukuri", subcategory: "Kujdes Lëkure" };
   if (/hair dryer|hekur flokesh|shaver|epilator|airwrap|airstrait|straightener/i.test(text)) return { category: "bukuri", subcategory: "Elektrik" };
   if (/lego|toys|barbie|hot wheels|puzzle|lodra|funko/i.test(text)) return { category: "lodra", subcategory: "Lodra" };
-  if (/nike|adidas|puma|veshje sportive/i.test(text)) return { category: "sporte", subcategory: "Veshje Sportive" };
+  if (/\bnike\b|\badidas\b|\bpuma\b|veshje sportive/i.test(text)) return { category: "sporte", subcategory: "Veshje Sportive" };
   if (/fitness|tapis roulant|elliptical/i.test(text)) return { category: "sporte", subcategory: "Fitness" };
   return { category: "elektronike", subcategory: "Aksesorë" };
 }
