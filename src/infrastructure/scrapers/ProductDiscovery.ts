@@ -103,7 +103,7 @@ function extractModelNumber(name: string, fallbackSku: string): string {
   return "";
 }
 
-function guessCategory(name: string, tags: string[] = [], productType = "", categories: string[] = []): { category: string; subcategory: string } {
+export function guessCategory(name: string, tags: string[] = [], productType = "", categories: string[] = []): { category: string; subcategory: string } {
   const text = [name, productType, ...tags, ...categories].join(" ").toLowerCase();
 
   // ── Computers ──────────────────────────────────────────────────────────────
