@@ -8,10 +8,10 @@ export const maxDuration = 300;
 // POST /api/admin/recategorize
 // Re-runs guessCategory on every product in the DB using the stored product
 // name (family field) and writes the corrected category + subcategory back.
-// Protected by CRON_SECRET.
+// Protected by CRON_SECRET (same key used by the admin trigger panel).
 export async function POST(req: NextRequest) {
-  const auth = req.headers.get("authorization");
-  if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
+  const body = await req.json().catch(() => ({})) as { key?: string };
+  if (!process.env.CRON_SECRET || body.key !== process.env.CRON_SECRET) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
