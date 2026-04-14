@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 
-type Action = "refresh-prices" | "discover" | "fetch-images" | "fuse-duplicates";
+type Action = "refresh-prices" | "discover" | "fetch-images" | "fuse-duplicates" | "recategorize";
 
 interface Result {
   action: Action;
@@ -17,6 +17,7 @@ const FALLBACK_DURATION: Record<Action, number> = {
   discover: 60,
   "fetch-images": 90,
   "fuse-duplicates": 15,
+  recategorize: 20,
 };
 
 const HISTORY_KEY = "admin_run_history";
@@ -77,6 +78,8 @@ const actionIcons: Record<Action, string> = {
     "m2.25 15.75 5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5a2.25 2.25 0 002.25-2.25V5.25a2.25 2.25 0 00-2.25-2.25H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z",
   "fuse-duplicates":
     "M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244",
+  recategorize:
+    "M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L9.568 3zM6 6h.008v.008H6V6z",
 };
 
 /* ─── Progress Bar ─── */
@@ -273,6 +276,21 @@ export function AdminTriggers() {
           ok: true,
           data: { updated: totalUpdated, skipped: totalSkipped, total: initialTotal },
         });
+      } else if (action === "recategorize") {
+        const res = await fetch("/api/admin/recategorize", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ key: key.trim() }),
+        });
+        const json = await res.json();
+        const durationSecs = (Date.now() - started) / 1000;
+
+        if (!res.ok || !json.ok) {
+          setError(json.error ?? "Gabim i panjohur");
+        } else {
+          saveRunDuration(action, durationSecs);
+          setResult({ action, ok: true, data: json });
+        }
       } else {
         const res = await fetch(`/api/admin/trigger?action=${action}`, {
           method: "POST",
@@ -321,6 +339,11 @@ export function AdminTriggers() {
       action: "fuse-duplicates",
       label: "Bashko Dublikatat",
       desc: "Gjej dhe bashko produktet e njëjta",
+    },
+    {
+      action: "recategorize",
+      label: "Rikategorizim",
+      desc: "Riapliko rregullat e kategorisë në DB",
     },
   ];
 
