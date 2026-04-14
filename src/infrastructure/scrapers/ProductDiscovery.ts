@@ -103,31 +103,78 @@ function extractModelNumber(name: string, fallbackSku: string): string {
   return "";
 }
 
-function guessCategory(name: string, tags: string[] = [], productType = "", categories: string[] = []): { category: string; subcategory: string } {
+export function guessCategory(name: string, tags: string[] = [], productType = "", categories: string[] = []): { category: string; subcategory: string } {
   const text = [name, productType, ...tags, ...categories].join(" ").toLowerCase();
-  // Laptop — check first so "XiaomiBook" in a store "tablet" category isn't miscategorised
-  if (/macbook|laptop|notebook|thinkpad|chromebook|precision \d{4}|elitebook|thinkbook|xiaomibook/i.test(text)) return { category: "kompjutera", subcategory: "Laptop" };
-  // Tablet — check before phones so "iPad Celular" and "Redmi Pad" aren't caught by the phone regex
-  if (/ipad|\btablet\b|galaxy\s+tab|lenovo\s+tab|matepad|redmi\s+pad|xiaomi\s+pad|poco\s+pad/i.test(text)) return { category: "telefona", subcategory: "Tablet" };
-  // Phones: Albanian prefixes + known brands/models
-  if (/\b(celular|smartphone|telefon celular)\b|iphone|samsung galaxy [as]\d+|pixel \d|xiaomi \d+|redmi|oneplus|oppo|realme|motorola|blackview|nothing\s+(phone|cmf)|nubia|poco\b|\bzte\b|\bhonor\b|\boukitel\b/i.test(text)) return { category: "telefona", subcategory: "Smartphone" };
-  if (/desktop|pc gaming|all-in-one|imac|\bmini pc\b/i.test(text)) return { category: "kompjutera", subcategory: "Desktop PC" };
+
+  // ── Computers ──────────────────────────────────────────────────────────────
+  // Laptop first — so "XiaomiBook" in a store "tablet" category isn't miscategorised
+  if (/\b(macbook|thinkpad|chromebook|elitebook|thinkbook|vivobook|zenbook|probook|ideapad|xiaomibook|inspiron|latitude|pavilion|legion|zephyrus|predator|precision\s+\d{4})\b|\blaptop\b|\bnotebook\b/i.test(text)) return { category: "kompjutera", subcategory: "Laptop" };
+  if (/\b(imac|desktop)\b|\ball-in-one\b|\bmini\s+pc\b|pc\s+gaming(?!\s+chair)/i.test(text)) return { category: "kompjutera", subcategory: "Desktop PC" };
   if (/\bmonitor\b/i.test(text)) return { category: "kompjutera", subcategory: "Monitor" };
-  if (/printer|printues/i.test(text)) return { category: "kompjutera", subcategory: "Printer" };
-  if (/keyboard|tastier|mouse|webcam|headset pc|usb hub|\bssd\b|hard disk|\bram\b|procesor|\bgpu\b/i.test(text)) return { category: "kompjutera", subcategory: "Aksesore PC" };
-  if (/televizor|smart tv|oled tv|qled tv|4k tv/i.test(text)) return { category: "elektronike", subcategory: "TV" };
-  if (/headphone|kufje|speaker|soundbar|earbuds|airpods|earphones|subwoofer/i.test(text)) return { category: "elektronike", subcategory: "Audio" };
-  if (/playstation|xbox|nintendo|ps5|ps4|gaming chair|controller|joystick/i.test(text)) return { category: "elektronike", subcategory: "Gaming" };
-  if (/kamera|camera|dslr|mirrorless|gopro|drone/i.test(text)) return { category: "elektronike", subcategory: "Kamera" };
-  if (/lavatrice|frigorifer|lavastovilje|mikroval|kondicionier|furr|aspirator|\btharëse\b|hand dryer|airblade/i.test(text)) return { category: "elektronike", subcategory: "Shtëpiake" };
-  if (/charger|karikues|power bank|kavo|adapter|\bups\b|toner/i.test(text)) return { category: "elektronike", subcategory: "Aksesorë" };
-  if (/parfum|eau de toilette/i.test(text)) return { category: "bukuri", subcategory: "Parfum" };
-  if (/skincare|moisturizer|serum|krema|maska/i.test(text)) return { category: "bukuri", subcategory: "Kujdes Lëkure" };
-  if (/hair dryer|hekur flokesh|shaver|epilator|airwrap|airstrait|straightener/i.test(text)) return { category: "bukuri", subcategory: "Elektrik" };
-  if (/lego|toys|barbie|hot wheels|puzzle|lodra|funko/i.test(text)) return { category: "lodra", subcategory: "Lodra" };
-  if (/nike|adidas|puma|veshje sportive/i.test(text)) return { category: "sporte", subcategory: "Veshje Sportive" };
-  if (/fitness|tapis roulant|elliptical/i.test(text)) return { category: "sporte", subcategory: "Fitness" };
-  return { category: "elektronike", subcategory: "Aksesorë" };
+  if (/\b(rtx\s*\d{3,4}|gtx\s*\d{3,4}|radeon\s+rx\b|graphics\s+card|video\s+card|karte\s+grafike)\b/i.test(text)) return { category: "kompjutera", subcategory: "Karte Grafike" };
+  if (/\b(wifi\s+router|wireless\s+router|access\s+point|mesh\s+(?:wifi|network)|rrjet[eë]|network\s+switch|ethernet\s+switch)\b|\btp-?link\b|\bmikrotik\b/i.test(text)) return { category: "kompjutera", subcategory: "Rrjete & WiFi" };
+  // 3D printing before regular printer — "Creality Ender 3D Printer" must not match the printer rule first
+  if (/\b(elegoo|anycubic|creality|bambu\s+lab)\b|3d\s*print|\bfilament\b|\bresin\b/i.test(text)) return { category: "kompjutera", subcategory: "Printer 3D" };
+  if (/\b(printer|printues)\b/i.test(text)) return { category: "kompjutera", subcategory: "Printer" };
+  if (/\b(keyboard|tastier[eë]|webcam|headset\s+pc|usb\s+hub|procesor|motherboard)\b|\b(ssd|nvme|hdd)\b|\bram\s+\d/i.test(text)) return { category: "kompjutera", subcategory: "Aksesore PC" };
+
+  // ── Phones & Tablets ───────────────────────────────────────────────────────
+  // Tablet before phone — so "iPad Celular" and "Redmi Pad" aren't caught by the phone regex
+  if (/\bipad\b|\btablet\b|galaxy\s+tab\b|lenovo\s+tab\b|\bmatepad\b|redmi\s+pad|xiaomi\s+pad|poco\s+pad/i.test(text)) return { category: "telefona", subcategory: "Tablet" };
+  if (/\b(celular|smartphone|telefon\s+celular)\b|iphone|samsung\s+galaxy\s+[as]\d|\bpixel\s+\d|\bxiaomi\s+\d+\b|\bredmi\b|\boneplus\b|\boppo\b|\brealme\b|\bmotorola\b|\bblackview\b|\bnubia\b|\bpoco\b|\bzte\b|\bhonor\b|\boukitel\b|nothing\s+(?:phone|cmf)/i.test(text)) return { category: "telefona", subcategory: "Smartphone" };
+  if (/\bsmart\s*watch\b|\bsmartwatch\b|\bgalaxy\s+watch\b|\bapple\s+watch\b|\bfitbit\b|\bgarmin\b|\bamazfit\b|\bmi\s+band\b|\bhuawei\s+watch\b|fitness\s+tracker|\bwear\s+os\b/i.test(text)) return { category: "telefona", subcategory: "Smartwatch" };
+
+  // ── TV ─────────────────────────────────────────────────────────────────────
+  if (/\b(televizor|smart\s+tv|oled\s+tv|qled\s+tv|4k\s+tv)\b|\b\d{2,3}["″]\s*(?:tv|televizor)/i.test(text)) return { category: "elektronike", subcategory: "TV" };
+
+  // ── Audio ──────────────────────────────────────────────────────────────────
+  if (/\b(headphone|kufje|earbuds|earphones|airpods|subwoofer|soundbar|headset|bluetooth\s+speaker)\b|\b(jbl|bose|sonos|sennheiser|jabra)\b|\bspeaker\b/i.test(text)) return { category: "elektronike", subcategory: "Audio & Altoparlant" };
+
+  // ── Gaming ─────────────────────────────────────────────────────────────────
+  if (/\b(playstation|ps5|ps4|xbox|nintendo|gaming\s+chair|joystick|gamepad|dualsense|dualshock|game\s+controller|racing\s+wheel)\b/i.test(text)) return { category: "elektronike", subcategory: "Gaming" };
+
+  // ── Cameras & Drones ───────────────────────────────────────────────────────
+  if (/\b(drone|dron)\b/i.test(text)) return { category: "elektronike", subcategory: "Dron" };
+  if (/\b(kamera|camera|dslr|mirrorless|gopro|action\s+cam)\b/i.test(text)) return { category: "elektronike", subcategory: "Kamera" };
+
+  // ── Projector ──────────────────────────────────────────────────────────────
+  if (/\b(projektor|projector)\b/i.test(text)) return { category: "elektronike", subcategory: "Projektor" };
+
+  // ── Home Appliances (large) ────────────────────────────────────────────────
+  if (/\b(lavatrice|washing\s+machine|frigorifer|refrigerator|lavastovilje|dishwasher|mikroval|microwave|kondicionier|air\s+conditioner|furr[eë]?|aspirator|vacuum\s+cleaner|robot\s+vacuum|thar[eë]se|tumble\s+dryer|hand\s+dryer|airblade)\b/i.test(text)) return { category: "elektronike", subcategory: "Shtepiake" };
+
+  // ── Kitchen Appliances (small) ─────────────────────────────────────────────
+  if (/\b(coffee\s+maker|kafemakine|blender|toaster|air\s+fryer|food\s+processor|electric\s+kettle|juicer|slow\s+cooker)\b/i.test(text)) return { category: "shtepi", subcategory: "Pajisje Kuzhine" };
+
+  // ── Accessories / Cables ───────────────────────────────────────────────────
+  if (/\b(charger|karikues|power\s+bank|kavo|adapter|toner)\b|\bups\b/i.test(text)) return { category: "elektronike", subcategory: "Aksesore" };
+
+  // ── Beauty & Health ────────────────────────────────────────────────────────
+  if (/\b(parfum|eau\s+de\s+toilette|cologne)\b/i.test(text)) return { category: "bukuri", subcategory: "Parfum" };
+  if (/\b(skincare|moisturizer|serum|krema|maska|sunscreen)\b/i.test(text)) return { category: "bukuri", subcategory: "Kujdes Lekure" };
+  if (/\b(lipstick|mascara|foundation|makeup|eyeliner|eyeshadow|concealer)\b/i.test(text)) return { category: "bukuri", subcategory: "Makeup" };
+  if (/\b(hair\s+dryer|hekur\s+flokesh|airwrap|airstrait|straightener|curling\s+iron)\b/i.test(text)) return { category: "bukuri", subcategory: "Kujdes Flokesh" };
+  if (/\b(shaver|epilator|electric\s+razor)\b/i.test(text)) return { category: "bukuri", subcategory: "Rruajtje" };
+
+  // ── Toys ───────────────────────────────────────────────────────────────────
+  if (/\blego\b/i.test(text)) return { category: "lodra", subcategory: "LEGO" };
+  if (/\b(barbie|hot\s+wheels|puzzle|lodra|funko|action\s+figure|playmobil|nerf)\b|\btoys\b/i.test(text)) return { category: "lodra", subcategory: "Lodra" };
+
+  // ── Sports ─────────────────────────────────────────────────────────────────
+  if (/\b(trotinet|e.?scooter|electric\s+scooter|kick\s+scooter)\b/i.test(text)) return { category: "sporte", subcategory: "Trotinet Elektrik" };
+  if (/\b(biciklet[eë]|mountain\s+bike|road\s+bike|e.?bike|electric\s+bike)\b/i.test(text)) return { category: "sporte", subcategory: "Bicikleta" };
+  if (/\b(camping|sleeping\s+bag|hiking|trekking)\b/i.test(text)) return { category: "sporte", subcategory: "Camping" };
+  if (/\b(peshkim|fishing\s+rod|spinning\s+reel)\b/i.test(text)) return { category: "sporte", subcategory: "Peshkim" };
+  if (/\b(fitness|treadmill|tapis\s+roulant|elliptical|dumbbell|barbell|yoga\s+mat)\b/i.test(text)) return { category: "sporte", subcategory: "Fitness" };
+  if (/\b(veshje\s+sportive|jersey)\b|\bnike\b|\badidas\b|\bpuma\b|\breebok\b/i.test(text)) return { category: "sporte", subcategory: "Veshje Sportive" };
+
+  // ── Home ───────────────────────────────────────────────────────────────────
+  if (/\b(llambë?|desk\s+lamp|floor\s+lamp|led\s+strip|smart\s+bulb|ndricim)\b/i.test(text)) return { category: "shtepi", subcategory: "Ndricim" };
+  if (/\b(kopsht|lawn\s+mower|garden\s+hose|hedge\s+trimmer|pressure\s+washer)\b/i.test(text)) return { category: "shtepi", subcategory: "Kopsht" };
+  if (/\b(dekorim|picture\s+frame|wall\s+art)\b/i.test(text)) return { category: "shtepi", subcategory: "Dekorim" };
+
+  // ── Default ────────────────────────────────────────────────────────────────
+  return { category: "elektronike", subcategory: "Aksesore" };
 }
 
 // ── Shopify ───────────────────────────────────────────────────────────────────
