@@ -37,19 +37,94 @@ function decodeHtml(text: string): string {
 }
 
 const KNOWN_BRANDS = [
-  "Samsung", "Apple", "Xiaomi", "Huawei", "Sony", "LG", "Dell", "HP", "Lenovo",
-  "ASUS", "Acer", "Microsoft", "Nokia", "Motorola", "OnePlus", "Oppo", "Realme",
+  // ── Multi-word brands (checked first — order matters for regex) ──
+  "Be Quiet", "Green Lion", "Green Cell", "Cooler Master", "XD Design",
+  "Port Designs", "Lian Li", "LC Power",
+  // ── Phones & tablets ──
+  "Samsung", "Apple", "Xiaomi", "Huawei", "Sony", "LG", "Nokia", "Motorola",
+  "OnePlus", "Oppo", "Realme", "Blackview", "Redmi", "Honor", "ZTE", "Oukitel",
+  "Google", "Nothing", "CMF", "Meta",
+  // ── Computers & components ──
+  "Dell", "HP", "HPE", "Lenovo", "ASUS", "Acer", "Microsoft", "MSI", "Gigabyte",
+  "NZXT", "Corsair", "Kingston", "Intel", "AMD", "Crucial", "G.Skill", "Seagate",
+  "WD", "SanDisk", "Lexar", "PNY", "Verbatim", "Intenso", "Toshiba", "QNAP",
+  "Synology", "Thermaltake", "DeepCool", "ASRock",
+  // ── Peripherals & accessories ──
+  "Logitech", "Razer", "Redragon", "A4Tech", "Cherry", "Bloody", "HAVIT",
+  "Gembird", "Wacom", "Elgato", "Trust", "OCOM",
+  // ── Networking ──
+  "TP-Link", "D-Link", "Cisco", "Lindy", "Belkin", "Mercusys",
+  // ── Printers & scanners ──
+  "Epson", "Brother", "Canon", "Xerox", "Zebra", "Bixolon", "Rongta", "Phomemo",
+  // ── Audio ──
+  "JBL", "Bose", "Marshall", "Jabra", "Anker", "Boya", "Saramonic", "QCY",
+  "Sennheiser", "HiFuture",
+  // ── Camera & video ──
+  "DJI", "GoPro", "Insta360", "Fujifilm", "FeelWorld", "Godox", "Kodak",
+  "Nikon", "Hohem",
+  // ── Monitors & displays ──
+  "ViewSonic", "AOC", "BenQ", "iiyama", "Avtek",
+  // ── Power & charging ──
+  "Baseus", "Ugreen", "Makelsan", "APC", "Schneider", "Hoco",
+  "Mcdodo", "Earldom", "Wiwu",
+  // ── Mobile accessories ──
+  "Puluz", "Haweel", "Targus",
+  // ── Home & appliances ──
   "Philips", "Bosch", "Siemens", "Dyson", "iRobot", "Whirlpool", "Indesit",
-  "Nintendo", "Dior", "Chanel", "Nike", "Adidas", "Braun", "Oral-B", "Redragon",
-  "Logitech", "Razer", "MSI", "Gigabyte", "NZXT", "Corsair", "Kingston",
+  "Kärcher", "Braun", "Oral-B",
+  // ── Gaming ──
+  "Nintendo", "Hori", "Sihoo", "Huzaro",
+  // ── Beauty & fashion ──
+  "Dior", "Chanel", "Nike", "Adidas",
+  // ── Toys & hobby ──
+  "LEGO", "CaDA", "ENGINO", "Playmobil",
+  // ── Streaming & content ──
+  "Amazon", "Kindle",
+  // ── Other ──
+  "Garmin", "Fitbit", "Laifen", "Zhiyun", "Kingsmith", "Honeywell",
+  "Potensic", "Creative", "Delock", "GP",
 ];
+
+// Words that are product types / Albanian nouns — never a valid brand.
+// Used by the extractBrand fallback to skip generic first words.
+const NON_BRAND_WORDS = new Set([
+  // Albanian product-type nouns
+  "celular", "telefon", "televizor", "laptop", "notebook", "monitor", "printer",
+  "kufje", "maus", "tastierë", "tastiere", "altoparlant", "ekran", "kamera",
+  "çantë", "çante", "xham", "bateri", "mbrojtës", "mbrojtes", "mbajtëse",
+  "mbajtese", "mbajtës", "mbajtes", "kartelë", "kartele", "karikues", "kabllo",
+  "kondicioner", "frigorifer", "lavatrice", "aspirator", "furrë", "furre",
+  "hekur", "llambe", "llambë", "sirtar", "dollap", "karrige", "kontroller",
+  "kontrollues", "kompjuter", "furnizues", "filtër", "filter", "kornizë",
+  "kornize", "lojë", "loje", "mauspad", "kasë", "kase", "boks", "timon",
+  "udhëzues", "udhezues", "mbështjellës", "mbeshtjelles",
+  // English product-type nouns
+  "smartphone", "tablet", "printer", "webcam", "headset", "powerbank",
+  "cable", "adapter", "router", "controller", "gamepad", "joystick",
+  "processor", "motherboard", "speaker", "charger", "battery", "batterie",
+  "toner", "ink", "filament", "stickers", "backpack", "bottle", "figure",
+  "doll", "plush", "playset", "conditioner", "scooter", "case", "photo",
+  "frame", "desk", "desktop", "adjustable", "vehicle", "disk", "display",
+  "switch", "universal", "cpu", "build",
+  // Generic / non-brand prefixes
+  "ssd", "usb", "psu", "ram", "pc", "tv", "mini", "power", "custom",
+  "gaming", "smart", "digital", "electric", "air", "wall", "set", "port",
+  "assembled", "shopping", "noel", "green", "little", "sword", "be",
+  // Fragrance prefixes
+  "eau", "parfum",
+]);
 
 function extractBrand(name: string, vendor?: string): string {
   if (vendor && vendor !== "Others" && vendor !== "Unknown") return vendor;
   for (const brand of KNOWN_BRANDS) {
     if (new RegExp(`\\b${brand}\\b`, "i").test(name)) return brand;
   }
-  return name.split(/\s+/)[0] ?? "Unknown";
+  // Fallback: use the first word that isn't a generic product-type term
+  const words = name.replace(/[,;()]/g, " ").split(/\s+/).filter(Boolean);
+  for (const w of words) {
+    if (!NON_BRAND_WORDS.has(w.toLowerCase().replace(/[®™©]/g, ""))) return w;
+  }
+  return words[0] ?? "Unknown";
 }
 
 // Known manufacturer model number patterns (e.g. SM-G991B, RTX 4090, i7-13700K)
