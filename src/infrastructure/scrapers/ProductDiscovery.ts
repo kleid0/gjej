@@ -546,7 +546,7 @@ export class ProductDiscoveryService implements IProductDiscoveryService {
     for (const result of results) {
       if (result.status === "fulfilled") {
         for (const p of result.value) {
-          if (!seen.has(p.id)) {
+          if (!seen.has(p.id) && p.brand !== "Unknown") {
             seen.add(p.id);
             all.push(p);
           }
