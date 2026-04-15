@@ -39,50 +39,76 @@ function decodeHtml(text: string): string {
 const KNOWN_BRANDS = [
   // ── Multi-word brands (checked first — order matters for regex) ──
   "Be Quiet", "Green Lion", "Green Cell", "Cooler Master", "XD Design",
-  "Port Designs", "Lian Li", "LC Power",
+  "Port Designs", "Lian Li", "LC Power", "Cross Gear", "Mad Catz",
+  "Fisher Price", "Owl Labs", "Harman Kardon", "Western Digital",
+  "Fractal Design", "Wild Man", "Icy Box", "Innovation IT",
+  "Hot Wheels",
   // ── Phones & tablets ──
   "Samsung", "Apple", "Xiaomi", "Huawei", "Sony", "LG", "Nokia", "Motorola",
   "OnePlus", "Oppo", "Realme", "Blackview", "Redmi", "Honor", "ZTE", "Oukitel",
-  "Google", "Nothing", "CMF", "Meta",
+  "Google", "Nothing", "CMF", "Meta", "Nubia", "Mijia", "Oculus",
   // ── Computers & components ──
   "Dell", "HP", "HPE", "Lenovo", "ASUS", "Acer", "Microsoft", "MSI", "Gigabyte",
   "NZXT", "Corsair", "Kingston", "Intel", "AMD", "Crucial", "G.Skill", "Seagate",
   "WD", "SanDisk", "Lexar", "PNY", "Verbatim", "Intenso", "Toshiba", "QNAP",
-  "Synology", "Thermaltake", "DeepCool", "ASRock",
+  "Synology", "Thermaltake", "DeepCool", "ASRock", "INNO3D", "ZOTAC", "Biostar",
+  "Palit", "Kioxia", "Alienware", "Fujitsu", "TeamGroup", "Patriot", "Chieftec",
+  "Xilence", "Arctic", "Valkyrie", "Jonsbo", "Enermax", "FSP", "Hyte",
   // ── Peripherals & accessories ──
   "Logitech", "Razer", "Redragon", "A4Tech", "Cherry", "Bloody", "HAVIT",
-  "Gembird", "Wacom", "Elgato", "Trust", "OCOM",
+  "Gembird", "Wacom", "Elgato", "Trust", "OCOM", "SteelSeries", "HyperX",
+  "3Dconnexion", "MotoSpeed", "Endorfy", "CONCEPTRONIC", "Bakker",
+  "Ednet", "i-tec", "Axis", "Landberg", "EIA",
   // ── Networking ──
-  "TP-Link", "D-Link", "Cisco", "Lindy", "Belkin", "Mercusys",
+  "TP-Link", "D-Link", "Cisco", "Lindy", "Belkin", "Mercusys", "Linksys",
   // ── Printers & scanners ──
   "Epson", "Brother", "Canon", "Xerox", "Zebra", "Bixolon", "Rongta", "Phomemo",
+  "Ricoh", "Citizen", "Tysso", "Plustek", "Avision", "Datalogic",
   // ── Audio ──
   "JBL", "Bose", "Marshall", "Jabra", "Anker", "Boya", "Saramonic", "QCY",
-  "Sennheiser", "HiFuture",
+  "Sennheiser", "HiFuture", "Beats", "Blaupunkt", "RODE", "Tascam",
+  "GravaStar", "SoundCore", "Picun",
   // ── Camera & video ──
   "DJI", "GoPro", "Insta360", "Fujifilm", "FeelWorld", "Godox", "Kodak",
-  "Nikon", "Hohem",
+  "Nikon", "Hohem", "Hollyland", "Telesin", "Moza", "LanParte", "Zeniko",
+  "Olympus", "AVerMedia",
   // ── Monitors & displays ──
-  "ViewSonic", "AOC", "BenQ", "iiyama", "Avtek",
+  "ViewSonic", "AOC", "BenQ", "iiyama", "Avtek", "Optoma", "XGIMI",
   // ── Power & charging ──
   "Baseus", "Ugreen", "Makelsan", "APC", "Schneider", "Hoco",
-  "Mcdodo", "Earldom", "Wiwu",
+  "Mcdodo", "Earldom", "Wiwu", "Socomec", "Awei", "Moxom", "Davin",
   // ── Mobile accessories ──
-  "Puluz", "Haweel", "Targus",
+  "Puluz", "Haweel", "Targus", "Benks", "Nillkin", "Pitaka", "3mk",
   // ── Home & appliances ──
   "Philips", "Bosch", "Siemens", "Dyson", "iRobot", "Whirlpool", "Indesit",
-  "Kärcher", "Braun", "Oral-B",
+  "Kärcher", "Braun", "Oral-B", "Gree", "Shark", "HUTT", "Lobod",
   // ── Gaming ──
-  "Nintendo", "Hori", "Sihoo", "Huzaro",
+  "Nintendo", "Hori", "Sihoo", "Huzaro", "AeroCool", "Diablo",
+  "Thrustmaster", "ROG", "TUF", "Maxx",
   // ── Beauty & fashion ──
-  "Dior", "Chanel", "Nike", "Adidas",
+  "Dior", "Chanel", "Nike", "Adidas", "YSL", "Armani", "L'Oréal",
+  "L\u00B4Oréal",
   // ── Toys & hobby ──
-  "LEGO", "CaDA", "ENGINO", "Playmobil",
+  "LEGO", "CaDA", "ENGINO", "Playmobil", "Crayola", "Funko", "Chicco",
+  "Tomy", "Numberblocks", "Barbie", "Beyblade", "Monopoly", "Panini",
+  "Spybot",
   // ── Streaming & content ──
   "Amazon", "Kindle",
+  // ── Transport ──
+  "Segway", "Ninebot", "KuKirin", "Ouxi", "Honda", "ZWheel", "F-Wheel",
+  // ── Security & software ──
+  "Kaspersky", "Webroot", "EZVIZ", "EA",
+  // ── Telecom & conferencing ──
+  "Gigaset", "Grandstream", "Poly",
   // ── Other ──
   "Garmin", "Fitbit", "Laifen", "Zhiyun", "Kingsmith", "Honeywell",
-  "Potensic", "Creative", "Delock", "GP",
+  "Potensic", "Creative", "Delock", "GP", "LaCie", "Transcend", "FD",
+  "Sbox", "Logilink", "Digitus", "Sandberg", "StarTech", "Lanberg",
+  "Akyga", "Kieslect", "Mibro", "Amazfit", "Petrust", "Starlink",
+  "Esperanza", "Huion", "Mi", "Instax", "Romsat", "XO", "Konig",
+  "Millenium", "Beltou", "Mimd", "Interphone", "Argus", "TIBO",
+  "Tring", "Gonggi", "Bitty", "SkyHawk", "Steam", "A4-Tech", "Osmo",
+  "XiaomiBook", "Intuos", "SmartConnect", "Dicote", "Brähler",
 ];
 
 // Words that are product types / Albanian nouns — never a valid brand.
@@ -90,26 +116,59 @@ const KNOWN_BRANDS = [
 const NON_BRAND_WORDS = new Set([
   // Albanian product-type nouns
   "celular", "telefon", "televizor", "laptop", "notebook", "monitor", "printer",
-  "kufje", "maus", "tastierë", "tastiere", "altoparlant", "ekran", "kamera",
-  "çantë", "çante", "xham", "bateri", "mbrojtës", "mbrojtes", "mbajtëse",
-  "mbajtese", "mbajtës", "mbajtes", "kartelë", "kartele", "karikues", "kabllo",
-  "kondicioner", "frigorifer", "lavatrice", "aspirator", "furrë", "furre",
-  "hekur", "llambe", "llambë", "sirtar", "dollap", "karrige", "kontroller",
-  "kontrollues", "kompjuter", "furnizues", "filtër", "filter", "kornizë",
-  "kornize", "lojë", "loje", "mauspad", "kasë", "kase", "boks", "timon",
-  "udhëzues", "udhezues", "mbështjellës", "mbeshtjelles",
+  "kufje", "maus", "tastierë", "tastiere", "altoparlant", "altoparlantë",
+  "ekran", "ekrani", "kamera", "kamerë",
+  "çantë", "çante", "çanta", "xham", "xhama", "bateri", "mbrojtës", "mbrojtes",
+  "mbrojtëse", "mbajtëse", "mbajtese", "mbajtës", "mbajtes", "kartelë",
+  "kartele", "karikues", "kabllo", "kabull", "kabëll",
+  "kondicioner", "frigorifer", "frigoriferi", "lavatrice", "lavatriqe",
+  "aspirator", "furrë", "furre",
+  "hekur", "llambe", "llambë", "lampë", "sirtar", "dollap", "karrige",
+  "kontroller", "kontrollues", "kontrolli", "kompjuter", "furnizues",
+  "filtër", "filter", "filtro", "filtru", "kornizë", "kornize",
+  "lojë", "loje", "loja", "mauspad", "mousepad", "kasë", "kase",
+  "boks", "timon", "udhëzues", "udhezues", "mbështjellës", "mbeshtjelles",
+  "mbështjellëse", "telekomandë", "komodë", "komodinë", "mobilje", "mobil",
+  "dritë", "drita", "kutia", "kuti", "kutí", "mausi", "stacion",
+  "aksesor", "stilolaps", "bazë", "jastëk", "tapet", "raft", "lidhës",
+  "vitrinë", "blende", "montues", "senzor", "pajisje", "ventilator",
+  "papuqe", "kabinet", "mbushes", "bravë", "stendë", "panel",
+  "përshtatës", "qëndrim", "ngjyrë", "zëvendësues", "aromatizues",
+  "magnetizues", "aromë", "ftohës",
   // English product-type nouns
-  "smartphone", "tablet", "printer", "webcam", "headset", "powerbank",
-  "cable", "adapter", "router", "controller", "gamepad", "joystick",
-  "processor", "motherboard", "speaker", "charger", "battery", "batterie",
-  "toner", "ink", "filament", "stickers", "backpack", "bottle", "figure",
-  "doll", "plush", "playset", "conditioner", "scooter", "case", "photo",
-  "frame", "desk", "desktop", "adjustable", "vehicle", "disk", "display",
-  "switch", "universal", "cpu", "build",
+  "smartphone", "tablet", "printer", "webcam", "headset", "headphone",
+  "powerbank", "cable", "adapter", "adaptor", "router", "controller",
+  "gamepad", "joystick", "processor", "motherboard", "speaker", "charger",
+  "battery", "batterie", "toner", "ink", "filament", "stickers", "backpack",
+  "bottle", "figure", "doll", "plush", "playset", "conditioner", "scooter",
+  "case", "photo", "frame", "desk", "desktop", "adjustable", "vehicle",
+  "disk", "display", "switch", "universal", "cpu", "build", "wireless",
+  "soundbar", "karaoke", "microphone", "carrying", "resin", "rucksack",
+  "patchcable", "mug", "bellows", "bezel", "stylus", "keyboard", "dock",
+  "docking", "tripod", "robot", "drum", "portable", "vacuum", "extender",
+  "binoculars", "puzzle", "thermal",
   // Generic / non-brand prefixes
   "ssd", "usb", "psu", "ram", "pc", "tv", "mini", "power", "custom",
   "gaming", "smart", "digital", "electric", "air", "wall", "set", "port",
   "assembled", "shopping", "noel", "green", "little", "sword", "be",
+  "led", "lcd", "ip", "3d", "2d", "ftp",
+  // Game / toy / collectible generic words
+  "christmas", "light", "mural", "tumbler", "decorative", "premium",
+  "canvas", "framed", "vertical", "horizontal", "belt", "back",
+  "playing", "card", "deck", "game", "super", "keychain", "tin",
+  "colouring", "peeling", "beach", "moon", "crystal", "ghost",
+  "dual", "number", "multifunction", "waterproof", "outdoor", "short",
+  "silicone", "table", "hammer", "shale",
+  // Platform / console / sub-brand prefixes
+  "ps5", "ps4", "xbox", "u-ps5", "u-ps4", "playstation", "iphone",
+  "galaxy", "surface", "geforce",
+  // More generic words
+  "jump", "the", "ac", "ultra", "cruzer", "extreme", "pad", "tastier",
+  "tws", "midi", "streaming", "tea", "lite", "mortal", "devil",
+  "life", "silent", "astro", "fifa", "kids", "global", "on-ear",
+  "space", "hi", "uav", "shake", "operation", "shimmer",
+  "ms", "hot", "cat6e", "two-sided", "a4", "electric", "digital",
+  "desktop/rackmount", "morph's", "streaming",
   // Fragrance prefixes
   "eau", "parfum",
 ]);
@@ -124,7 +183,7 @@ function extractBrand(name: string, vendor?: string): string {
   for (const w of words) {
     if (!NON_BRAND_WORDS.has(w.toLowerCase().replace(/[®™©]/g, ""))) return w;
   }
-  return words[0] ?? "Unknown";
+  return "Unknown";
 }
 
 // Known manufacturer model number patterns (e.g. SM-G991B, RTX 4090, i7-13700K)
