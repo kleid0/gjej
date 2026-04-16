@@ -13,6 +13,11 @@ const HEADERS = {
   "Accept-Language": "sq-AL,sq;q=0.9,en-US;q=0.8,en;q=0.7",
   "Cache-Control": "no-cache",
 };
+// PC Store blocks standard UAs via WAF — same Googlebot UA accepted by their server
+const GOOGLEBOT_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+  "Accept": "application/json",
+};
 
 function notFound(storeId: string, error: string): ScrapedPrice {
   return {
@@ -651,8 +656,10 @@ async function scrapeShopify(
 
   // Direct handle lookup — only works when product was discovered from this store
   const ownPrefix = `${store.id}-`;
-  if (productId.startsWith(ownPrefix)) {
-    const handle = productId.slice(ownPrefix.length);
+  // Hoisted so the Cloudflare fallback loop can also try the exact handle
+  const ownHandle = productId.startsWith(ownPrefix) ? productId.slice(ownPrefix.length) : null;
+  if (ownHandle !== null) {
+    const handle = ownHandle;
     try {
       const { data } = await axios.get(`${store.url}/products/${handle}.json`, {
         timeout: 8000,
@@ -715,15 +722,18 @@ async function scrapeShopify(
       // If response is HTML (Cloudflare redirect / no JSON API), fall back to
       // handle inference: try /products/{slugified-term}.json directly.
       if (typeof data !== "object" || !data?.resources) {
-        // Generate candidate handles: full term, without brand prefix, shortened
+        // Generate candidate handles: exact own-store handle first (if applicable),
+        // then term-derived handles (full term, without brand prefix, shortened)
         const candidateHandles: string[] = [];
-        candidateHandles.push(toShopifyHandle(term));
+        if (ownHandle) candidateHandles.push(ownHandle);
+        const termHandle = toShopifyHandle(term);
+        if (!candidateHandles.includes(termHandle)) candidateHandles.push(termHandle);
         // AlbaGame stores Nintendo games as "Switch 2 {game}" not "Nintendo Switch 2 {game}"
         const withoutNintendo = toShopifyHandle(term.replace(/^nintendo\s+/i, ""));
-        if (withoutNintendo !== candidateHandles[0]) candidateHandles.push(withoutNintendo);
+        if (!candidateHandles.includes(withoutNintendo)) candidateHandles.push(withoutNintendo);
         // Also try without "Nintendo Switch 2 " prefix → just the game/product name
         const withoutNS2 = toShopifyHandle(term.replace(/^nintendo\s+switch\s+2\s*/i, ""));
-        if (withoutNS2 !== candidateHandles[0] && withoutNS2 !== withoutNintendo && withoutNS2.length > 3) {
+        if (!candidateHandles.includes(withoutNS2) && withoutNS2.length > 3) {
           candidateHandles.push(withoutNS2);
         }
         for (const h of candidateHandles) {
@@ -814,6 +824,8 @@ async function scrapeWooCommerce(
   productId: string
 ): Promise<ScrapedPrice> {
   const lastChecked = new Date().toISOString();
+  // PC Store's WAF blocks standard browser UAs — use Googlebot UA instead
+  const storeHeaders = store.id === "pcstore" ? GOOGLEBOT_HEADERS : HEADERS;
 
   type WooVariationAttr = { name: string; value: string };
   type WooVariation = { id: number; attributes?: WooVariationAttr[] };
@@ -887,7 +899,7 @@ async function scrapeWooCommerce(
       try {
         const { data: fullParent } = await axios.get<WooItem>(
           `${store.url}/wp-json/wc/store/v1/products/${parent.id}`,
-          { timeout: 8000, headers: HEADERS }
+          { timeout: 8000, headers: storeHeaders }
         );
         variationsWithAttrs = (fullParent.variations ?? []).filter(
           (v): v is WooVariation =>
@@ -927,7 +939,7 @@ async function scrapeWooCommerce(
     try {
       const { data: varData } = await axios.get<VarData>(
         `${store.url}/wp-json/wc/store/v1/products/${matchedVar.id}`,
-        { timeout: 8000, headers: HEADERS }
+        { timeout: 8000, headers: storeHeaders }
       );
       const minorUnit = varData.prices?.currency_minor_unit ?? 0;
       const divisor = minorUnit > 0 ? Math.pow(10, minorUnit) : 1;
@@ -973,7 +985,7 @@ async function scrapeWooCommerce(
         const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
           params: { slug, per_page: 1 },
           timeout: 8000,
-          headers: HEADERS,
+          headers: storeHeaders,
         });
         const items: WooItem[] = Array.isArray(data) ? data : [];
         if (debugMode) {
@@ -1015,7 +1027,7 @@ async function scrapeWooCommerce(
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
         params: { search: term, per_page: 20 },
         timeout: 8000,
-        headers: HEADERS,
+        headers: storeHeaders,
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
       if (debugMode) {
@@ -1066,7 +1078,7 @@ async function scrapeWooCommerce(
       const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
         params: { slug, per_page: 1 },
         timeout: 6000,
-        headers: HEADERS,
+        headers: storeHeaders,
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
       if (!items.length) continue;
