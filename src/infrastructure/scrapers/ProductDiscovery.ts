@@ -20,6 +20,13 @@ function slugify(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80);
 }
 
+// AlbaGame lists used console games under prefixes like "U-PS5", "U-PS4",
+// "U-Switch", "U-Xbox" (see /collections/u-ps5). We only catalog new products,
+// so these are filtered out at discovery time.
+function isUsedProduct(title: string): boolean {
+  return /^\s*u-(ps[45]|xbox|switch|nintendo)\b/i.test(title);
+}
+
 // Reject data: URIs (lazy-load placeholders) and other non-http URLs
 function sanitizeImageUrl(url: string | null | undefined): string {
   if (!url) return "";
@@ -329,6 +336,7 @@ async function fetchShopify(storeId: string, baseUrl: string): Promise<Product[]
       if (!items.length) break;
       for (const item of items) {
         if (!item.title || item.title.length < 3) continue;
+        if (isUsedProduct(item.title)) continue;
         const { category, subcategory } = guessCategory(item.title, item.tags ?? [], item.product_type ?? "");
         products.push({ id: `${storeId}-${item.handle ?? slugify(item.title)}`, modelNumber: extractModelNumber(item.title, item.variants?.[0]?.sku ?? ""), family: item.title, brand: extractBrand(item.title, item.vendor), category, subcategory, imageUrl: sanitizeImageUrl(item.images?.[0]?.src), storageOptions: [], searchTerms: [item.title] });
       }
@@ -354,6 +362,7 @@ async function fetchWooCommerce(storeId: string, baseUrl: string, extraHeaders?:
       if (!items.length) break;
       for (const item of items) {
         if (!item.name || item.name.length < 3) continue;
+        if (isUsedProduct(item.name)) continue;
         const name = decodeHtml(item.name);
         const cats = item.categories?.map((c) => c.name) ?? [];
         const { category, subcategory } = guessCategory(name, [], "", cats);
@@ -385,6 +394,7 @@ async function fetchFoleja(): Promise<Product[]> {
           if (!href) return;
           const name = ($el.find(".product-name, h2, h3, .name").first().text().trim() || link.text().trim() || "").replace(/\s+/g, " ").trim();
           if (!name || name.length < 4 || name.length > 200) return;
+          if (isUsedProduct(name)) return;
           const img = $el.find("img").first();
           const rawSrc = img.attr("src") || img.attr("data-src") || "";
           const imageUrl = sanitizeImageUrl(rawSrc.startsWith("http") ? rawSrc : rawSrc ? `https://www.foleja.al${rawSrc}` : "");
@@ -412,7 +422,7 @@ async function fetchGlobe(): Promise<Product[]> {
     const { data } = await axios.get<GlobeProduct[]>("https://www.globe.al/api/products", { timeout: 20000, headers: JSON_HEADERS });
     if (!Array.isArray(data)) return [];
     return data
-      .filter((item) => item.name && item.name.length >= 3)
+      .filter((item) => item.name && item.name.length >= 3 && !isUsedProduct(item.name))
       .map((item) => {
         const name = decodeHtml(item.name);
         const cats = item.categories ?? [];
@@ -509,6 +519,7 @@ async function fetchNeptun(): Promise<Product[]> {
       const items = await fetchNeptunCategory(catId);
       for (const item of items) {
         if (!item.Title || item.Title.length < 3) continue;
+        if (isUsedProduct(item.Title)) continue;
         const id = `neptun-${item.Id}`;
         if (discovered.has(id)) continue;
         const name = decodeHtml(item.Title);
