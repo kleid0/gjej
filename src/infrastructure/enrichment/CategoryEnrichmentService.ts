@@ -427,6 +427,23 @@ function getManufacturerSearchUrls(
   return urls;
 }
 
+// Returns true when the product name represents a gaming console itself,
+// not a game or accessory that merely mentions the platform.
+// "PS5" / "PS5 Slim" / "PS5 Digital Edition" / "PS5 + DualSense" → console.
+// "PS5 Until Dawn" / "Controller PS5 Sony Media Remote" → not a console.
+function isConsoleHardware(family: string): boolean {
+  const base = family.split(/\s*\+\s*/)[0];
+  const stripped = base
+    .replace(/\b(ps[45]|u-ps[45]|playstation\s*[45]|xbox\s*(?:series\s*[xs]|one)|nintendo\s*switch)\b/gi, "")
+    .replace(/\b(console|konsol[eë]?|slim|pro|digital|edition|bundle|pakete?|controller|kontrolle?r?|dualsense|dualshock|media|remote|station|charging)\b/gi, "")
+    .replace(/\b\d+\s*(gb|tb)\b/gi, "")
+    .replace(/\b(oled|lite|2)\b/gi, "")
+    .replace(/[^a-z\s]/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return stripped.length < 3;
+}
+
 // ── Spec parser from product name ──────────────────────────────────────────────
 // Albanian stores embed detailed specs in product names (e.g.
 // "Dell Latitude 7410 14″, 16GB, 512GB SSD, Core i5").
@@ -537,21 +554,21 @@ function parseSpecsFromName(product: Product): CategoryEnrichmentResult | null {
       specs["Hapësira"] = "32 GB";
       specs["Lidhja"] = "Wi-Fi, Bluetooth 4.1, USB-C";
       specs["Pesha"] = "275g";
-    } else if (/ps5|playstation\s*5/i.test(family)) {
+    } else if (/ps5|playstation\s*5/i.test(family) && isConsoleHardware(family)) {
       specs["Procesori"] = "AMD Zen 2, 8 bërthama, 3.5 GHz";
       specs["GPU"] = "AMD RDNA 2, 10.28 TFLOPS";
       specs["Memoria: RAM"] = "16 GB GDDR6";
       specs["Hapësira"] = "825 GB SSD";
       specs["Rezolucioni"] = "Deri 4K @ 120Hz";
       specs["Lidhja"] = "Wi-Fi 6, Bluetooth 5.1, HDMI 2.1";
-    } else if (/xbox\s*series\s*x/i.test(family)) {
+    } else if (/xbox\s*series\s*x/i.test(family) && isConsoleHardware(family)) {
       specs["Procesori"] = "AMD Zen 2, 8 bërthama, 3.8 GHz";
       specs["GPU"] = "AMD RDNA 2, 12 TFLOPS";
       specs["Memoria: RAM"] = "16 GB GDDR6";
       specs["Hapësira"] = "1 TB SSD";
       specs["Rezolucioni"] = "Deri 4K @ 120Hz";
       specs["Lidhja"] = "Wi-Fi, HDMI 2.1, USB 3.1";
-    } else if (/xbox\s*series\s*s/i.test(family)) {
+    } else if (/xbox\s*series\s*s/i.test(family) && isConsoleHardware(family)) {
       specs["Procesori"] = "AMD Zen 2, 8 bërthama, 3.6 GHz";
       specs["GPU"] = "AMD RDNA 2, 4 TFLOPS";
       specs["Memoria: RAM"] = "10 GB GDDR6";

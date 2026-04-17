@@ -178,6 +178,11 @@ function extractBrand(name: string, vendor?: string): string {
   for (const brand of KNOWN_BRANDS) {
     if (new RegExp(`\\b${brand}\\b`, "i").test(name)) return brand;
   }
+  // Gaming-platform fallback: titles like "PS5 Until Dawn" have no brand token,
+  // and the first-word fallback would pick the game title ("Until"). Attribute
+  // to the platform maker so duplicates across stores fuse on the same brand.
+  if (/^\s*(ps[45]|u-ps[45]|playstation\s*[45])\b/i.test(name)) return "Sony";
+  if (/^\s*xbox\b/i.test(name)) return "Microsoft";
   // Fallback: use the first word that isn't a generic product-type term
   const words = name.replace(/[,;()]/g, " ").split(/\s+/).filter(Boolean);
   for (const w of words) {
