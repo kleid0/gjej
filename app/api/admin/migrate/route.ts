@@ -18,8 +18,10 @@ export async function GET(req: NextRequest) {
   }
 
   // 1. Create all tables (price_history, price_alerts, products)
+  // force=true so this route works even when DB_SCHEMA_READY=1 is set —
+  // creating the schema is the entire point of this endpoint.
   try {
-    await ensureSchema();
+    await ensureSchema(true);
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
     return NextResponse.json(
