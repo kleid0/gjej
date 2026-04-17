@@ -62,8 +62,15 @@ export async function rawQuery(text: string, params: unknown[] = []): Promise<Sq
 
 let schemaEnsured = false;
 
-export async function ensureSchema(): Promise<void> {
+// In production, schema is stable — set DB_SCHEMA_READY=1 to skip the 17
+// idempotent DDL round-trips that otherwise run on every serverless cold
+// start. Cron routes that need a fresh schema can call ensureSchema(true).
+export async function ensureSchema(force = false): Promise<void> {
   if (schemaEnsured) return;
+  if (!force && process.env.DB_SCHEMA_READY === "1") {
+    schemaEnsured = true;
+    return;
+  }
 
   await sql`
     CREATE TABLE IF NOT EXISTS price_history (

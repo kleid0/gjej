@@ -1,9 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidateTag } from "next/cache";
 import { catalogDiscovery } from "@/src/infrastructure/container";
 import {
   markDiscontinuedProducts,
   logDiscoveryRun,
+  ADMIN_STATS_TAG,
+  LOWEST_PRICES_TAG,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
+import { ensureSchema } from "@/src/infrastructure/db/client";
 
 export const maxDuration = 300;
 
@@ -17,6 +21,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
+  await ensureSchema(true);
   const { discovered, total, fused } = await catalogDiscovery.run();
 
   // Mark products not seen in 30+ days as discontinued (preserves price history)
@@ -35,6 +40,10 @@ export async function GET(req: NextRequest) {
     pendingReview,
     discontinued,
   });
+
+  // Discontinued flag affects getProductLowestPrices output; stats change too.
+  revalidateTag(LOWEST_PRICES_TAG);
+  revalidateTag(ADMIN_STATS_TAG);
 
   return NextResponse.json({
     discovered,
