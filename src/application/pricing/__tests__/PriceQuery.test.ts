@@ -68,9 +68,7 @@ describe("PriceQuery — match validation", () => {
     expect(prices[1].error).toBe("Produkti nuk u gjet");
   });
 
-  it("rejects a higher-generation product (iPhone 17 result vs iPhone 16 query)", async () => {
-    // Space between model and number gives extractGenNums a word boundary to
-    // work with, so 16 vs 17 is correctly rejected.
+  it("rejects a higher-generation product — number with word boundary (iPhone 17 vs 16)", async () => {
     const repo = makeRepo();
     const scraper = makeScraper({
       a: { price: 800, matchedName: "iPhone 17 128GB" },
@@ -78,6 +76,19 @@ describe("PriceQuery — match validation", () => {
     const pq = new PriceQuery(repo, scraper, [store("a")]);
 
     const { prices } = await pq.getPricesForProduct("p1", ["iPhone 16"]);
+    expect(prices[0].price).toBeNull();
+  });
+
+  it("rejects a higher-generation product — digit glued to letter (S25 result vs S24 query)", async () => {
+    // extractGenNums previously used \\b which has no boundary between [a-z] and
+    // \\d, so 'S24' and 'S25' looked identical. Fixed to use (?<!\\d)/(?!\\d).
+    const repo = makeRepo();
+    const scraper = makeScraper({
+      a: { price: 800, matchedName: "Samsung Galaxy S25 128GB" },
+    });
+    const pq = new PriceQuery(repo, scraper, [store("a")]);
+
+    const { prices } = await pq.getPricesForProduct("p1", ["Galaxy S24"]);
     expect(prices[0].price).toBeNull();
   });
 

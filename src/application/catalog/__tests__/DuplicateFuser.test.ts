@@ -76,6 +76,14 @@ describe("fusionKey", () => {
     expect(a).not.toBe(b);
   });
 
+  it("strips RAM+storage specs like 12+256GB before the general storage strip", () => {
+    // Bug: STORAGE_PATTERN previously ran first and ate '256GB', leaving '12+'
+    // which the RAM regex couldn't match. Fix: RAM strip now runs first.
+    const a = fusionKey(makeProduct({ family: "Xiaomi 15 12+256GB" }));
+    const b = fusionKey(makeProduct({ family: "Xiaomi 15 8+128GB" }));
+    expect(a).toBe(b);
+  });
+
   it("normalises brand trademark symbols", () => {
     const a = fusionKey(makeProduct({ brand: "Lexar®" }));
     const b = fusionKey(makeProduct({ brand: "lexar" }));

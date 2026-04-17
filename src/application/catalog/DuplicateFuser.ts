@@ -50,6 +50,10 @@ export function fusionKey(p: Product): string {
   // Strip colours
   cleaned = cleaned.replace(COLOURS, "");
 
+  // Strip RAM+storage combos like "12+256GB" BEFORE the general storage strip
+  // so the full pattern (N+M GB/TB) is still intact when matched.
+  cleaned = cleaned.replace(/\b\d+\s*\+\s*\d+\s*(gb|tb)\b/gi, "");
+
   // Strip storage sizes only for variant categories (phones/tablets)
   if (STORAGE_VARIANT_CATEGORIES.has(p.category)) {
     cleaned = cleaned.replace(STORAGE_PATTERN, "");
@@ -62,9 +66,6 @@ export function fusionKey(p: Product): string {
   if (SCREEN_SIZE_VARIANT_CATEGORIES.has(p.category)) {
     cleaned = cleaned.replace(/\b\d+([.,]\d+)?\s*["″'']\s*/g, "");
   }
-
-  // Strip RAM specs like "12+256GB" or "6+128GB"
-  cleaned = cleaned.replace(/\b\d+\s*\+\s*\d+\s*(gb|tb)\b/gi, "");
 
   // Bundle noise: strip " + <addon>" only when the "+" appears late in the
   // name (word index >= 3), indicating a bundle add-on like "Switch 2 + Mario Kart".
