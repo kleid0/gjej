@@ -1,7 +1,12 @@
 // Repository for time-series price data and alert subscriptions
 
+import { unstable_cache } from "next/cache";
 import { sql, rawQuery, ensureSchema } from "./client";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
+
+// Cache tags used to invalidate wrapped queries after cron writes
+export const LOWEST_PRICES_TAG = "product-lowest-prices";
+export const ADMIN_STATS_TAG   = "admin-stats";
 
 let schemaReady = false;
 
@@ -67,14 +72,19 @@ export interface DailyPriceRow {
   [storeId: string]: string | number | null;
 }
 
+// 90 days is the longest range the product chart can usefully render;
+// a year of daily rows × N stores is 10x the data for no visible benefit.
+const MAX_PRICE_HISTORY_DAYS = 90;
+
 export async function getPriceHistory(
   productId: string,
   days: number
 ): Promise<{ rows: DailyPriceRow[]; daysOldest: number }> {
   await ready();
 
+  const clampedDays = Math.min(Math.max(days, 1), MAX_PRICE_HISTORY_DAYS);
   const since = new Date();
-  since.setDate(since.getDate() - days);
+  since.setDate(since.getDate() - clampedDays);
   const sinceStr = since.toISOString().split("T")[0];
 
   const result = await sql`
@@ -252,29 +262,22 @@ export async function getStoreLastRecorded(): Promise<Record<string, string>> {
  * Returns a map of productId → lowest_price for all products that have a
  * recorded lowest price in the DB. Used as a fallback when prices.json has
  * not yet been populated by the cron/admin trigger.
+ *
+ * Wrapped in unstable_cache so the full-catalogue LATERAL JOIN runs at most
+ * once per hour per edge instead of once per page request. Cron invalidates
+ * the tag after writes so fresh data is picked up immediately.
  */
-export async function getProductLowestPrices(): Promise<Record<string, number>> {
+async function _getProductLowestPrices(): Promise<Record<string, number>> {
   try {
     await ready();
-    // Single query: COALESCE products.lowest_price with the latest price_history
-    // fallback for products whose lowest_price was cleared by a failed cron run.
+    // products.lowest_price is always maintained by the cron batch update;
+    // a simple indexed scan is all we need. The prior LATERAL fallback was
+    // the single most expensive query in the app.
     const result = await sql`
-      SELECT p.id,
-             COALESCE(p.lowest_price, hist.lowest_price) AS lowest_price
-      FROM products p
-      LEFT JOIN LATERAL (
-        SELECT MIN(ph.price) AS lowest_price
-        FROM price_history ph
-        WHERE ph.product_id = p.id
-          AND ph.price IS NOT NULL
-          AND ph.recorded_at = (
-            SELECT MAX(ph2.recorded_at)
-            FROM price_history ph2
-            WHERE ph2.product_id = p.id AND ph2.price IS NOT NULL
-          )
-      ) hist ON p.lowest_price IS NULL
-      WHERE p.lowest_price IS NOT NULL
-         OR hist.lowest_price IS NOT NULL
+      SELECT id, lowest_price
+      FROM products
+      WHERE lowest_price IS NOT NULL
+        AND catalogue_status != 'discontinued'
     `;
     return Object.fromEntries(
       result.rows.map((r) => [r.id as string, r.lowest_price as number]),
@@ -283,6 +286,12 @@ export async function getProductLowestPrices(): Promise<Record<string, number>> 
     return {};
   }
 }
+
+export const getProductLowestPrices = unstable_cache(
+  _getProductLowestPrices,
+  ["product-lowest-prices-v1"],
+  { revalidate: 3600, tags: [LOWEST_PRICES_TAG] },
+);
 
 // ── Product catalogue helpers ─────────────────────────────────────────────────
 
@@ -438,7 +447,7 @@ export interface AdminStats {
   recentErrors: number;
 }
 
-export async function getAdminStats(): Promise<AdminStats> {
+async function _getAdminStats(): Promise<AdminStats> {
   await ready();
   const [totals, errCount] = await Promise.all([
     sql`
@@ -473,3 +482,11 @@ export async function getAdminStats(): Promise<AdminStats> {
     recentErrors: Number(errCount.rows[0]?.cnt ?? 0),
   };
 }
+
+// Admin dashboard stats change at most once per cron run (daily). A short
+// TTL keeps the panel reactive when the admin triggers a manual refresh.
+export const getAdminStats = unstable_cache(
+  _getAdminStats,
+  ["admin-stats-v1"],
+  { revalidate: 600, tags: [ADMIN_STATS_TAG] },
+);

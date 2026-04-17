@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidateTag } from "next/cache";
 import { priceQuery, productCatalog } from "@/src/infrastructure/container";
 import {
   batchRecordPrices,
@@ -6,8 +7,10 @@ import {
   batchLogScraperErrors,
   batchGetAlertsToNotify,
   batchMarkAlertsNotified,
+  LOWEST_PRICES_TAG,
+  ADMIN_STATS_TAG,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
-import { resetQueryCount, getQueryCount } from "@/src/infrastructure/db/client";
+import { resetQueryCount, getQueryCount, ensureSchema } from "@/src/infrastructure/db/client";
 import type { Product } from "@/src/domain/catalog/Product";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
@@ -31,6 +34,9 @@ export async function GET(req: NextRequest) {
   }
 
   resetQueryCount();
+  // Schema is skipped on read paths via DB_SCHEMA_READY; cron still ensures
+  // it so added columns/indexes get applied on the first nightly run.
+  await ensureSchema(true);
   const allProducts = await productCatalog.getAllProducts();
   let refreshed = 0;
   let errorCount = 0;
@@ -107,6 +113,11 @@ export async function GET(req: NextRequest) {
       await batchMarkAlertsNotified(notifiedIds);
     }
   }
+
+  // Invalidate edge caches so fresh lowest-prices / admin-stats are picked
+  // up by the next page request instead of waiting for the 1h TTL.
+  revalidateTag(LOWEST_PRICES_TAG);
+  revalidateTag(ADMIN_STATS_TAG);
 
   const { count: queryCount } = getQueryCount();
   return NextResponse.json({

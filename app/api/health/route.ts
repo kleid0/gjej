@@ -1,52 +1,32 @@
 import { NextResponse } from "next/server";
-import { sql } from "@/src/infrastructure/db/client";
 import { priceQuery } from "@/src/infrastructure/container";
 import { STORES } from "@/src/infrastructure/stores/registry";
 
 export const dynamic = "force-dynamic";
 
 // GET /api/health
-// Returns status of database, all scrapers, and last price update time.
+// Returns status of all scrapers and last price update time.
+// DB liveness is NOT probed on every call — uptime monitors hitting this
+// endpoint would otherwise consume a significant share of the Neon query
+// quota. A stalled cron (lastPriceUpdate > 24h) surfaces DB issues anyway.
 export async function GET() {
-  const checks = await Promise.allSettled([
-    checkDatabase(),
-    checkPriceCache(),
-  ]);
+  const cacheResult = await checkPriceCache().catch(() => null);
 
-  const dbResult   = checks[0];
-  const cacheResult = checks[1];
+  const lastPriceUpdate = cacheResult?.lastUpdate ?? null;
+  const storeStatuses = cacheResult?.storeStatuses
+    ?? STORES.map((s) => ({ storeId: s.id, name: s.name, lastSeen: null, ok: false }));
 
-  const dbOk    = dbResult.status === "fulfilled" && dbResult.value.ok;
-  const cacheOk = cacheResult.status === "fulfilled";
-
-  const lastPriceUpdate = cacheResult.status === "fulfilled"
-    ? cacheResult.value.lastUpdate
-    : null;
-
-  const storeStatuses = cacheResult.status === "fulfilled"
-    ? cacheResult.value.storeStatuses
-    : STORES.map((s) => ({ storeId: s.id, name: s.name, lastSeen: null, ok: false }));
-
-  const allOk = dbOk && storeStatuses.every((s) => s.ok);
+  const allOk = storeStatuses.every((s) => s.ok);
 
   return NextResponse.json(
     {
       status: allOk ? "ok" : "degraded",
       timestamp: new Date().toISOString(),
-      database: {
-        ok: dbOk,
-        error: dbResult.status === "rejected" ? String(dbResult.reason) : undefined,
-      },
       lastPriceUpdate,
       stores: storeStatuses,
     },
     { status: allOk ? 200 : 503 },
   );
-}
-
-async function checkDatabase(): Promise<{ ok: boolean }> {
-  await sql`SELECT 1`;
-  return { ok: true };
 }
 
 async function checkPriceCache(): Promise<{
