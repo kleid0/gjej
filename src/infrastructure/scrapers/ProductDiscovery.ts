@@ -4,6 +4,7 @@ import axios from "axios";
 import * as cheerio from "cheerio";
 import type { IProductDiscoveryService } from "@/src/application/catalog/CatalogDiscovery";
 import type { Product } from "@/src/domain/catalog/Product";
+import { STORE_MAP } from "@/src/infrastructure/stores/registry";
 
 const HEADERS = {
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -550,14 +551,19 @@ export class ProductDiscoveryService implements IProductDiscoveryService {
     const all: Product[] = [];
     const seen = new Set<string>();
 
-    const results = await Promise.allSettled([
-      fetchShopify("albagame", "https://www.albagame.al"),
-      fetchWooCommerce("shpresa", "https://shpresa.al"),
-      fetchWooCommerce("pcstore", "https://www.pcstore.al", GOOGLEBOT_HEADERS),
-      fetchFoleja(),
-      fetchGlobe(),
-      fetchNeptun(),
-    ]);
+    const sources: Array<[string, () => Promise<Product[]>]> = [
+      ["albagame", () => fetchShopify("albagame", "https://www.albagame.al")],
+      ["shpresa",  () => fetchWooCommerce("shpresa", "https://shpresa.al")],
+      ["pcstore",  () => fetchWooCommerce("pcstore", "https://www.pcstore.al", GOOGLEBOT_HEADERS)],
+      ["foleja",   () => fetchFoleja()],
+      ["globe",    () => fetchGlobe()],
+      ["neptun",   () => fetchNeptun()],
+    ];
+    const results = await Promise.allSettled(
+      sources
+        .filter(([id]) => STORE_MAP[id]?.enabled !== false)
+        .map(([, run]) => run()),
+    );
 
     for (const result of results) {
       if (result.status === "fulfilled") {
