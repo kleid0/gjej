@@ -49,7 +49,9 @@ function extractGenNums(text: string): Set<string> {
     .replace(/\b\d+\.\d+\b/g, "")                         // bare decimals like 23.8
     .replace(/\bcore\s+(?:ultra\s*)?i?\s*\d+[a-z0-9]*\b/gi, "")  // Core Ultra 7, Core i7
     .replace(/\b(?:ryzen|xeon|celeron|pentium|athlon)\s+\w*\s*\d+\b/gi, ""); // Ryzen 7, etc.
-  return new Set(c.match(/\b\d{1,4}\b/g) ?? []);
+  // Use (?<!\d) / (?!\d) instead of \b so digits glued to letters
+  // (e.g. "S24", "A56") are captured — \b has no boundary between [a-z] and \d.
+  return new Set(c.match(/(?<!\d)\d{1,4}(?!\d)/g) ?? []);
 }
 
 /** Extract a product name from the URL slug (fallback when matchedName is absent). */
