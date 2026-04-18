@@ -45,8 +45,8 @@ export default function RrethNeshPage() {
             <li><a href="https://foleja.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">Foleja.al</a></li>
             <li><a href="https://shpresa.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">Shpresa Group</a></li>
             <li><a href="https://neptun.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">Neptun</a></li>
-            <li><a href="https://pcstore.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">PC Store</a></li>
             <li><a href="https://globe.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">Globe Albania</a></li>
+            <li><a href="https://albagame.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">AlbaGame</a></li>
           </ul>
         </section>
 

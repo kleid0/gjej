@@ -198,5 +198,16 @@ export async function ensureSchema(force = false): Promise<void> {
     )
   `;
 
+  // Service probe state: one row per disabled-store health probe so we
+  // only fire a notification when the status flips up→down or down→up.
+  await sql`
+    CREATE TABLE IF NOT EXISTS service_probes (
+      service       TEXT        PRIMARY KEY,
+      last_status   TEXT        NOT NULL,
+      last_checked  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+      last_notified TIMESTAMPTZ
+    )
+  `;
+
   schemaEnsured = true;
 }

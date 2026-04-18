@@ -11,7 +11,7 @@ import SearchAutocomplete from "@/components/SearchAutocomplete";
 export const metadata: Metadata = {
   title: "Gjej.al – Krahasimi i Çmimeve në Shqipëri",
   description:
-    "Gjej çmimin më të mirë për produktet tuaja. Krahaso çmimet nga Foleja, Shpresa, Neptun, PC Store dhe Globe Albania.",
+    "Gjej çmimin më të mirë për produktet tuaja. Krahaso çmimet nga Foleja, Shpresa, Neptun, Globe Albania dhe AlbaGame.",
   alternates: { canonical: "https://gjej.al" },
 };
 
@@ -132,7 +132,7 @@ export default async function Home() {
       <section className="bg-white border-b border-gray-100 py-5 px-4">
         <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-3">
           <span className="text-sm text-gray-400 mr-1">Krahasojmë çmimet nga:</span>
-          {["Foleja.al", "Shpresa Group", "Neptun", "PC Store", "Globe Albania"].map((s) => (
+          {["Foleja.al", "Shpresa Group", "Neptun", "Globe Albania", "AlbaGame"].map((s) => (
             <span key={s} className="text-sm font-medium text-gray-600 bg-gray-50 border border-gray-200 rounded-full px-4 py-1.5">
               {s}
             </span>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Gjej çmimin më të mirë për produktet tuaja te dyqanet shqiptare. Krahasoni çmimet nga Foleja, Shpresa, Neptun, PC Store dhe Globe Albania.",
+    "Gjej çmimin më të mirë për produktet tuaja te dyqanet shqiptare. Krahasoni çmimet nga Foleja, Shpresa, Neptun, Globe Albania dhe AlbaGame.",
   metadataBase: new URL(SITE_URL),
   openGraph: {
     siteName: "Gjej.al",
