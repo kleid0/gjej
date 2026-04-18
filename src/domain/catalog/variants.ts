@@ -85,6 +85,13 @@ const APPLE_TITANIUM: ColourOption[] = [
   { name: "Titanium shkretetire", nameEn: "Desert Titanium", hex: "#c5a778" },
 ];
 
+// iPhone 17 Pro / Pro Max — aluminium unibody, three colours only.
+const IPHONE_17_PRO_COLOURS: ColourOption[] = [
+  { name: "Argjendi", nameEn: "Silver", hex: "#e3e3e3" },
+  { name: "Portokalli kozmik", nameEn: "Cosmic Orange", hex: "#e87324" },
+  { name: "Blu e thelle", nameEn: "Deep Blue", hex: "#2a3d5e" },
+];
+
 const S25_STANDARD: ColourOption[] = [
   { name: "Navy", nameEn: "Navy", hex: "#1b2a4a" },
   { name: "Hije argjendi", nameEn: "Silver Shadow", hex: "#c8c8c8" },
@@ -107,14 +114,14 @@ const CONFIGS: Record<string, VariantConfig> = {
     defaultColour: "Black", defaultStorage: "256GB",
   },
   "iPhone 17 Pro": {
-    baseFamily: "iPhone 17 Pro", colours: APPLE_TITANIUM,
+    baseFamily: "iPhone 17 Pro", colours: IPHONE_17_PRO_COLOURS,
     storageOptions: ["256GB", "512GB", "1TB"],
-    defaultColour: "Natural Titanium", defaultStorage: "256GB",
+    defaultColour: "Silver", defaultStorage: "256GB",
   },
   "iPhone 17 Pro Max": {
-    baseFamily: "iPhone 17 Pro Max", colours: APPLE_TITANIUM,
+    baseFamily: "iPhone 17 Pro Max", colours: IPHONE_17_PRO_COLOURS,
     storageOptions: ["256GB", "512GB", "1TB"],
-    defaultColour: "Natural Titanium", defaultStorage: "256GB",
+    defaultColour: "Silver", defaultStorage: "256GB",
   },
   "iPhone 17 Air": {
     baseFamily: "iPhone 17 Air",
