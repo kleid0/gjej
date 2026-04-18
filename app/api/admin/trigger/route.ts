@@ -39,7 +39,7 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
 
     // Phase 2: Batch DB writes
     const priceEntries: Array<{ productId: string; prices: ScrapedPrice[] }> = [];
-    const productUpdates: Array<{ productId: string; lowestPrice: number | null }> = [];
+    const productUpdates: Array<{ productId: string; lowestPrice: number | null; storeCount?: number }> = [];
     const scraperErrors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }> = [];
 
     for (const result of chunkResults) {
@@ -57,7 +57,7 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
       const found = prices.filter((p) => p.price !== null && !p.suspicious);
       if (found.length > 0) {
         const lowest = Math.min(...found.map((p) => p.price!));
-        productUpdates.push({ productId: product.id, lowestPrice: lowest });
+        productUpdates.push({ productId: product.id, lowestPrice: lowest, storeCount: found.length });
       }
       // Do NOT set lowest_price = null on failed scrapes — preserve last known price.
     }

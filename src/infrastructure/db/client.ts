@@ -141,6 +141,7 @@ export async function ensureSchema(force = false): Promise<void> {
   await sql`ALTER TABLE products ADD COLUMN IF NOT EXISTS last_seen_at TIMESTAMPTZ`;
   await sql`ALTER TABLE products ADD COLUMN IF NOT EXISTS lowest_price INTEGER`;
   await sql`ALTER TABLE products ADD COLUMN IF NOT EXISTS lowest_price_updated_at TIMESTAMPTZ`;
+  await sql`ALTER TABLE products ADD COLUMN IF NOT EXISTS store_count SMALLINT`;
 
   // Store mappings: persist store→catalogue product mapping decisions
   await sql`

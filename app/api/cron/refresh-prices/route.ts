@@ -63,7 +63,7 @@ export async function GET(req: NextRequest) {
 
     // Phase 2: Batch all DB writes for the chunk
     const priceEntries: Array<{ productId: string; prices: ScrapedPrice[] }> = [];
-    const productUpdates: Array<{ productId: string; lowestPrice: number | null }> = [];
+    const productUpdates: Array<{ productId: string; lowestPrice: number | null; storeCount?: number }> = [];
     const errors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }> = [];
     const alertLookups: Array<{ productId: string; lowestPrice: number; product: Product }> = [];
 
@@ -83,7 +83,7 @@ export async function GET(req: NextRequest) {
       const found = prices.filter((p) => p.price !== null && !p.suspicious);
       if (found.length > 0) {
         const lowest = Math.min(...found.map((p) => p.price!));
-        productUpdates.push({ productId: product.id, lowestPrice: lowest });
+        productUpdates.push({ productId: product.id, lowestPrice: lowest, storeCount: found.length });
         alertLookups.push({ productId: product.id, lowestPrice: lowest, product });
       }
       // Do NOT set lowest_price = null on failed scrapes — preserve the
