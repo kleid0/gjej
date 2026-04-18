@@ -2,6 +2,7 @@
 
 import { unstable_cache } from "next/cache";
 import { sql, rawQuery, ensureSchema } from "./client";
+import { FileProductRepository } from "@/src/infrastructure/persistence/FileProductRepository";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
 // Cache tags used to invalidate wrapped queries after cron writes
@@ -447,20 +448,23 @@ export interface AdminStats {
   recentErrors: number;
 }
 
+const productRepoForStats = new FileProductRepository();
+
 async function _getAdminStats(): Promise<AdminStats> {
   await ready();
-  const [totals, errCount] = await Promise.all([
-    sql`
-      SELECT
-        COUNT(*) FILTER (WHERE catalogue_status != 'discontinued') AS total,
-        COUNT(*) FILTER (WHERE enriched_at IS NOT NULL) AS enriched,
-        COUNT(*) FILTER (WHERE catalogue_status = 'discontinued') AS discontinued,
-        COUNT(*) FILTER (WHERE (image_url IS NULL OR image_url = '') AND catalogue_status != 'discontinued') AS missing_image
-      FROM products
-    `,
+
+  // Catalogue counters come from the JSON catalogue (source of truth).
+  // The Postgres `products` table is a sparse denormalised cache populated
+  // only by the one-shot /admin/migrate endpoint, so counting rows there
+  // reported zeros even when the catalogue had thousands of items.
+  const [products, errCount, discontinuedRes] = await Promise.all([
+    productRepoForStats.getAll(),
     sql`
       SELECT COUNT(*) AS cnt FROM scraper_errors
       WHERE occurred_at > NOW() - INTERVAL '24 hours'
+    `,
+    sql`
+      SELECT COUNT(*) AS cnt FROM products WHERE catalogue_status = 'discontinued'
     `,
   ]);
 
@@ -472,12 +476,18 @@ async function _getAdminStats(): Promise<AdminStats> {
     pendingMappings = Number(mappingResult.rows[0]?.cnt ?? 0);
   } catch { /* table may not exist yet */ }
 
-  const t = totals.rows[0];
+  let enriched = 0;
+  let missingImage = 0;
+  for (const p of products) {
+    if (p.enrichedAt) enriched++;
+    if (!p.imageUrl) missingImage++;
+  }
+
   return {
-    totalProducts: Number(t?.total ?? 0),
-    enrichedProducts: Number(t?.enriched ?? 0),
-    discontinuedProducts: Number(t?.discontinued ?? 0),
-    missingImageProducts: Number(t?.missing_image ?? 0),
+    totalProducts: products.length,
+    enrichedProducts: enriched,
+    discontinuedProducts: Number(discontinuedRes.rows[0]?.cnt ?? 0),
+    missingImageProducts: missingImage,
     pendingReviewMappings: pendingMappings,
     recentErrors: Number(errCount.rows[0]?.cnt ?? 0),
   };
@@ -490,3 +500,49 @@ export const getAdminStats = unstable_cache(
   ["admin-stats-v1"],
   { revalidate: 600, tags: [ADMIN_STATS_TAG] },
 );
+
+// ── Service probes (disabled-store health checks) ──────────────────────────
+
+export interface ServiceProbeState {
+  lastStatus: "up" | "down";
+  lastNotified: Date | null;
+}
+
+export async function getServiceProbeState(service: string): Promise<ServiceProbeState | null> {
+  await ready();
+  const result = await sql`
+    SELECT last_status, last_notified FROM service_probes WHERE service = ${service}
+  `;
+  const row = result.rows[0];
+  if (!row) return null;
+  return {
+    lastStatus: row.last_status === "up" ? "up" : "down",
+    lastNotified: row.last_notified ? new Date(row.last_notified as string) : null,
+  };
+}
+
+export async function recordServiceProbe(
+  service: string,
+  status: "up" | "down",
+  notified: boolean,
+): Promise<void> {
+  await ready();
+  if (notified) {
+    await sql`
+      INSERT INTO service_probes (service, last_status, last_checked, last_notified)
+      VALUES (${service}, ${status}, NOW(), NOW())
+      ON CONFLICT (service) DO UPDATE
+        SET last_status = EXCLUDED.last_status,
+            last_checked = NOW(),
+            last_notified = NOW()
+    `;
+  } else {
+    await sql`
+      INSERT INTO service_probes (service, last_status, last_checked)
+      VALUES (${service}, ${status}, NOW())
+      ON CONFLICT (service) DO UPDATE
+        SET last_status = EXCLUDED.last_status,
+            last_checked = NOW()
+    `;
+  }
+}

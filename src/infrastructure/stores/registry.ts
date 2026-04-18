@@ -2,7 +2,10 @@
 
 import type { Store } from "@/src/domain/pricing/Store";
 
-export const STORES: Store[] = [
+// All stores the app has ever known about. Kept for STORE_MAP so historical
+// price rows / discovered products with a disabled store's prefix still
+// resolve to a human-readable name.
+const ALL_STORES: Store[] = [
   {
     id: "foleja",
     name: "Foleja.al",
@@ -34,6 +37,10 @@ export const STORES: Store[] = [
     logo: "/logos/pcstore.png",
     color: "#ff6600",
     platform: "woocommerce",
+    // Cloudflare WAF blocks all automated requests to pcstore.al (including
+    // the Googlebot UA workaround); scraping produces only errors and no
+    // recorded prices. Disabled until a reliable access method is found.
+    enabled: false,
   },
   {
     id: "globe",
@@ -53,4 +60,6 @@ export const STORES: Store[] = [
   },
 ];
 
-export const STORE_MAP = Object.fromEntries(STORES.map((s) => [s.id, s]));
+export const STORES: Store[] = ALL_STORES.filter((s) => s.enabled !== false);
+
+export const STORE_MAP = Object.fromEntries(ALL_STORES.map((s) => [s.id, s]));

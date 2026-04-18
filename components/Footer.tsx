@@ -17,8 +17,8 @@ export default function Footer() {
               <li><a href="https://foleja.al" target="_blank" rel="noopener noreferrer" className="hover:text-white">Foleja.al</a></li>
               <li><a href="https://shpresa.al" target="_blank" rel="noopener noreferrer" className="hover:text-white">Shpresa Group</a></li>
               <li><a href="https://neptun.al" target="_blank" rel="noopener noreferrer" className="hover:text-white">Neptun</a></li>
-              <li><a href="https://pcstore.al" target="_blank" rel="noopener noreferrer" className="hover:text-white">PC Store</a></li>
               <li><a href="https://globe.al" target="_blank" rel="noopener noreferrer" className="hover:text-white">Globe Albania</a></li>
+              <li><a href="https://albagame.al" target="_blank" rel="noopener noreferrer" className="hover:text-white">AlbaGame</a></li>
             </ul>
           </div>
           <div>

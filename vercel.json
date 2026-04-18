@@ -11,6 +11,10 @@
     {
       "path": "/api/cron/trends",
       "schedule": "0 7 * * *"
+    },
+    {
+      "path": "/api/cron/check-pcstore",
+      "schedule": "0 5 * * 1"
     }
   ]
 }
