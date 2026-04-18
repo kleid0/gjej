@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { GET as discoverHandler } from "@/app/api/cron/discover/route";
 import { POST as fetchImagesHandler } from "@/app/api/admin/fetch-images/route";
 import { productCatalog, priceQuery, duplicateFuser } from "@/src/infrastructure/container";
+import { computeProductPriceSummary } from "@/src/application/pricing/PriceQuery";
 import {
   batchRecordPrices,
   batchUpdateProductPrices,
@@ -54,10 +55,9 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
         }
       }
 
-      const found = prices.filter((p) => p.price !== null && !p.suspicious);
-      if (found.length > 0) {
-        const lowest = Math.min(...found.map((p) => p.price!));
-        productUpdates.push({ productId: product.id, lowestPrice: lowest, storeCount: found.length });
+      const summary = computeProductPriceSummary(prices);
+      if (summary) {
+        productUpdates.push({ productId: product.id, lowestPrice: summary.lowestPrice, storeCount: summary.storeCount });
       }
       // Do NOT set lowest_price = null on failed scrapes — preserve last known price.
     }

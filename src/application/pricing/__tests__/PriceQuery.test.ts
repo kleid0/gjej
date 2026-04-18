@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
-import { PriceQuery, type IPriceScraper } from "../PriceQuery";
+import { PriceQuery, computeProductPriceSummary, type IPriceScraper } from "../PriceQuery";
 import type { IPriceRepository } from "@/src/domain/pricing/IPriceRepository";
 import type { ScrapedPrice, PriceRecord } from "@/src/domain/pricing/Price";
 import type { Store } from "@/src/domain/pricing/Store";
@@ -388,5 +388,74 @@ describe("PriceQuery — resilience", () => {
     const pq = new PriceQuery(repo, makeScraper({}), []);
     const all = await pq.getAllCachedPrices();
     expect(Object.keys(all)).toEqual(["p1"]);
+  });
+});
+
+// ── computeProductPriceSummary ────────────────────────────────────────────────
+// Cron/admin use this to decide what lowest_price + store_count to persist.
+// The key invariant: suspicious prices must never inflate the visible store
+// count, otherwise the comparison grid shows stores whose match was rejected.
+
+describe("computeProductPriceSummary", () => {
+  const price = (overrides: Partial<ScrapedPrice>): ScrapedPrice => ({
+    storeId: "x",
+    price: null,
+    inStock: null,
+    stockLabel: "",
+    productUrl: null,
+    lastChecked: "",
+    ...overrides,
+  });
+
+  it("counts each store with a valid price", () => {
+    const summary = computeProductPriceSummary([
+      price({ storeId: "a", price: 1000 }),
+      price({ storeId: "b", price: 1200 }),
+      price({ storeId: "c", price: null }),
+    ]);
+    expect(summary).toEqual({ lowestPrice: 1000, storeCount: 2 });
+  });
+
+  it("excludes suspicious prices from both lowest and count", () => {
+    const summary = computeProductPriceSummary([
+      price({ storeId: "a", price: 1000 }),
+      price({ storeId: "b", price: 1200 }),
+      // 300 is 40%+ below average — flagged as suspicious upstream
+      price({ storeId: "c", price: 300, suspicious: true }),
+    ]);
+    expect(summary).toEqual({ lowestPrice: 1000, storeCount: 2 });
+  });
+
+  it("keeps overpriced entries — only suspicious is filtered", () => {
+    // overpriced signals admin review, not a bad match; still a real offer.
+    const summary = computeProductPriceSummary([
+      price({ storeId: "a", price: 1000 }),
+      price({ storeId: "b", price: 3000, overpriced: true }),
+    ]);
+    expect(summary).toEqual({ lowestPrice: 1000, storeCount: 2 });
+  });
+
+  it("returns null when every price is null or suspicious", () => {
+    const summary = computeProductPriceSummary([
+      price({ storeId: "a", price: null }),
+      price({ storeId: "b", price: 100, suspicious: true }),
+    ]);
+    expect(summary).toBeNull();
+  });
+
+  it("returns null for an empty scrape result", () => {
+    expect(computeProductPriceSummary([])).toBeNull();
+  });
+
+  it("reports storeCount=1 when only one store survives", () => {
+    // Reproduces the common case the user complained about: most products
+    // resolve to a single store after null/suspicious filtering.
+    const summary = computeProductPriceSummary([
+      price({ storeId: "a", price: 999 }),
+      price({ storeId: "b", price: null }),
+      price({ storeId: "c", price: null }),
+      price({ storeId: "d", price: 200, suspicious: true }),
+    ]);
+    expect(summary).toEqual({ lowestPrice: 999, storeCount: 1 });
   });
 });

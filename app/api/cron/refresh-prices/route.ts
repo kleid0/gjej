@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { revalidateTag } from "next/cache";
 import { priceQuery, productCatalog } from "@/src/infrastructure/container";
+import { computeProductPriceSummary } from "@/src/application/pricing/PriceQuery";
 import {
   batchRecordPrices,
   batchUpdateProductPrices,
@@ -80,11 +81,10 @@ export async function GET(req: NextRequest) {
         }
       }
 
-      const found = prices.filter((p) => p.price !== null && !p.suspicious);
-      if (found.length > 0) {
-        const lowest = Math.min(...found.map((p) => p.price!));
-        productUpdates.push({ productId: product.id, lowestPrice: lowest, storeCount: found.length });
-        alertLookups.push({ productId: product.id, lowestPrice: lowest, product });
+      const summary = computeProductPriceSummary(prices);
+      if (summary) {
+        productUpdates.push({ productId: product.id, lowestPrice: summary.lowestPrice, storeCount: summary.storeCount });
+        alertLookups.push({ productId: product.id, lowestPrice: summary.lowestPrice, product });
       }
       // Do NOT set lowest_price = null on failed scrapes — preserve the
       // last known good price so the homepage can still display something.
