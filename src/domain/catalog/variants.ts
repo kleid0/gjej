@@ -51,11 +51,28 @@ const BASE_MODEL_PATTERNS: Array<{ regex: RegExp; key: string }> = [
   { regex: /galaxy\s*s24(?!\s*(ultra|\+|plus|fe))/i, key: "Galaxy S24" },
   // Samsung Galaxy A
   { regex: /galaxy\s*a56/i, key: "Galaxy A56" },
+  { regex: /galaxy\s*a55/i, key: "Galaxy A55" },
   { regex: /galaxy\s*a36/i, key: "Galaxy A36" },
+  { regex: /galaxy\s*a35/i, key: "Galaxy A35" },
   // Xiaomi
   { regex: /xiaomi\s*15\s*ultra/i, key: "Xiaomi 15 Ultra" },
   { regex: /xiaomi\s*15\s*pro/i, key: "Xiaomi 15 Pro" },
   { regex: /xiaomi\s*15(?!\s*(ultra|pro))/i, key: "Xiaomi 15" },
+  // Redmi
+  { regex: /redmi\s*note\s*14\s*pro\s*(?:\+|plus)/i, key: "Redmi Note 14 Pro+" },
+  // OnePlus
+  { regex: /oneplus\s*13\s*r/i, key: "OnePlus 13R" },
+  { regex: /oneplus\s*13(?!\s*r)/i, key: "OnePlus 13" },
+  // Nothing
+  { regex: /nothing\s*phone\s*\(?3\)?/i, key: "Nothing Phone 3" },
+  // Motorola
+  { regex: /\bedge\s*50\s*pro\b/i, key: "Motorola Edge 50 Pro" },
+  // Honor
+  { regex: /honor\s*magic\s*7\s*pro/i, key: "Honor Magic7 Pro" },
+  // Sony Xperia
+  { regex: /xperia\s*1\s*(?:vii|7)\b/i, key: "Xperia 1 VII" },
+  // Realme
+  { regex: /\bgt\s*7\s*pro\b/i, key: "Realme GT 7 Pro" },
   // Google Pixel
   { regex: /pixel\s*10\s*pro\s*xl/i, key: "Pixel 10 Pro XL" },
   { regex: /pixel\s*10\s*pro(?!\s*xl)/i, key: "Pixel 10 Pro" },
@@ -92,6 +109,14 @@ const IPHONE_17_PRO_COLOURS: ColourOption[] = [
   { name: "Blu e thelle", nameEn: "Deep Blue", hex: "#2a3d5e" },
 ];
 
+// Samsung Galaxy A35 / A55 shared "Awesome" palette
+const GALAXY_A_AWESOME: ColourOption[] = [
+  { name: "Navy", nameEn: "Awesome Navy", hex: "#1b2a4a" },
+  { name: "Blu akulli", nameEn: "Awesome Iceblue", hex: "#b3d4e8" },
+  { name: "Lila", nameEn: "Awesome Lilac", hex: "#c8b8d8" },
+  { name: "Limoni", nameEn: "Awesome Lemon", hex: "#f0e060" },
+];
+
 const S25_STANDARD: ColourOption[] = [
   { name: "Navy", nameEn: "Navy", hex: "#1b2a4a" },
   { name: "Hije argjendi", nameEn: "Silver Shadow", hex: "#c8c8c8" },
@@ -126,13 +151,13 @@ const CONFIGS: Record<string, VariantConfig> = {
   "iPhone 17 Air": {
     baseFamily: "iPhone 17 Air",
     colours: [
-      { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
-      { name: "Starlight", nameEn: "Starlight", hex: "#f5eeda" },
-      { name: "Blu", nameEn: "Blue", hex: "#5b7fa5" },
-      { name: "E gjelber", nameEn: "Green", hex: "#4a6741" },
+      { name: "E zeze hapsinore", nameEn: "Space Black", hex: "#1d1d1f" },
+      { name: "E bardhe re", nameEn: "Cloud White", hex: "#f0f0f0" },
+      { name: "Blu qielli", nameEn: "Sky Blue", hex: "#7ab8e8" },
+      { name: "Ar i lehte", nameEn: "Light Gold", hex: "#c8a878" },
     ],
     storageOptions: ["128GB", "256GB", "512GB"],
-    defaultColour: "Black", defaultStorage: "128GB",
+    defaultColour: "Space Black", defaultStorage: "128GB",
   },
   // ── Apple iPhone 16 ──────────────────────────────────────
   "iPhone 16": {
@@ -269,29 +294,30 @@ const CONFIGS: Record<string, VariantConfig> = {
   "Galaxy S25 Edge": {
     baseFamily: "Galaxy S25 Edge",
     colours: [
-      { name: "Titanium i zi", nameEn: "Titanium Black", hex: "#2c2c2c" },
+      { name: "Titanium jet i zi", nameEn: "Titanium Jet Black", hex: "#2c2c2c" },
       { name: "Titanium argjendi", nameEn: "Titanium Silver", hex: "#c0c0c0" },
+      { name: "Titanium blu akulli", nameEn: "Titanium Icy Blue", hex: "#a8c4e0" },
     ],
     storageOptions: ["256GB", "512GB"],
-    defaultColour: "Titanium Black", defaultStorage: "256GB",
+    defaultColour: "Titanium Jet Black", defaultStorage: "256GB",
   },
   "Galaxy S25 FE": {
     baseFamily: "Galaxy S25 FE",
     colours: [
-      { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
-      { name: "Blu", nameEn: "Blue", hex: "#4a6ea5" },
-      { name: "Mente", nameEn: "Mint", hex: "#aee4c5" },
-      { name: "Gri", nameEn: "Gray", hex: "#8c8c8c" },
+      { name: "Jet i zi", nameEn: "Jet Black", hex: "#1a1a1a" },
+      { name: "Navy", nameEn: "Navy", hex: "#1b2a4a" },
+      { name: "Blu akulli", nameEn: "Icy Blue", hex: "#b3d4e8" },
+      { name: "E bardhe", nameEn: "White", hex: "#f5f5f7" },
     ],
     storageOptions: ["128GB", "256GB"],
-    defaultColour: "Black", defaultStorage: "128GB",
+    defaultColour: "Jet Black", defaultStorage: "128GB",
   },
   // ── Samsung Galaxy S24 ───────────────────────────────────
   "Galaxy S24": {
     baseFamily: "Galaxy S24",
     colours: [
       { name: "Vjollce", nameEn: "Cobalt Violet", hex: "#6b5ca5" },
-      { name: "Hiri", nameEn: "Amber Gray", hex: "#9c8c7c" },
+      { name: "Gri mermeri", nameEn: "Marble Gray", hex: "#9c8c7c" },
       { name: "Verdhe", nameEn: "Amber Yellow", hex: "#e8c840" },
       { name: "E zeze", nameEn: "Onyx Black", hex: "#1d1d1f" },
     ],
@@ -313,23 +339,34 @@ const CONFIGS: Record<string, VariantConfig> = {
   "Galaxy A56": {
     baseFamily: "Galaxy A56",
     colours: [
-      { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
-      { name: "Blu e lehte", nameEn: "Light Blue", hex: "#a8c8e8" },
-      { name: "Limoni", nameEn: "Lime", hex: "#c8e840" },
-      { name: "Lila", nameEn: "Lilac", hex: "#c8a8d8" },
+      { name: "Grafit", nameEn: "Awesome Graphite", hex: "#3e3e40" },
+      { name: "Gri e lehte", nameEn: "Awesome Light Gray", hex: "#d0d0d0" },
+      { name: "Ulliri", nameEn: "Awesome Olive", hex: "#6b7c5c" },
+      { name: "Roze", nameEn: "Awesome Pink", hex: "#f0b0b0" },
     ],
     storageOptions: ["128GB", "256GB"],
-    defaultColour: "Black", defaultStorage: "128GB",
+    defaultColour: "Awesome Graphite", defaultStorage: "128GB",
+  },
+  "Galaxy A55": {
+    baseFamily: "Galaxy A55", colours: GALAXY_A_AWESOME,
+    storageOptions: ["128GB", "256GB"],
+    defaultColour: "Awesome Navy", defaultStorage: "128GB",
   },
   "Galaxy A36": {
     baseFamily: "Galaxy A36",
     colours: [
-      { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
-      { name: "Blu e lehte", nameEn: "Light Blue", hex: "#a8c8e8" },
-      { name: "Lavande", nameEn: "Lavender", hex: "#c8b8d8" },
+      { name: "E zeze", nameEn: "Awesome Black", hex: "#1d1d1f" },
+      { name: "Lavande", nameEn: "Awesome Lavender", hex: "#c8b8d8" },
+      { name: "Gjelber lime", nameEn: "Awesome Lime", hex: "#a8d048" },
+      { name: "E bardhe", nameEn: "Awesome White", hex: "#f5f5f7" },
     ],
     storageOptions: ["128GB", "256GB"],
-    defaultColour: "Black", defaultStorage: "128GB",
+    defaultColour: "Awesome Black", defaultStorage: "128GB",
+  },
+  "Galaxy A35": {
+    baseFamily: "Galaxy A35", colours: GALAXY_A_AWESOME,
+    storageOptions: ["128GB", "256GB"],
+    defaultColour: "Awesome Navy", defaultStorage: "128GB",
   },
   // ── Xiaomi ───────────────────────────────────────────────
   "Xiaomi 15": {
@@ -338,6 +375,7 @@ const CONFIGS: Record<string, VariantConfig> = {
       { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
       { name: "E bardhe", nameEn: "White", hex: "#f5f5f7" },
       { name: "E gjelber", nameEn: "Green", hex: "#4a6741" },
+      { name: "Argjend liqan", nameEn: "Liquid Silver", hex: "#b8c4d0" },
     ],
     storageOptions: ["256GB", "512GB"],
     defaultColour: "Black", defaultStorage: "256GB",
@@ -422,7 +460,7 @@ const CONFIGS: Record<string, VariantConfig> = {
     baseFamily: "Galaxy Tab S10",
     colours: [
       { name: "Moonstone Gray", nameEn: "Moonstone Gray", hex: "#8c8c8c" },
-      { name: "Storm Blue", nameEn: "Storm Blue", hex: "#3a4d63" },
+      { name: "Argjend platini", nameEn: "Platinum Silver", hex: "#d8d8d0" },
     ],
     storageOptions: ["128GB", "256GB"],
     defaultColour: "Moonstone Gray", defaultStorage: "128GB",
@@ -431,10 +469,94 @@ const CONFIGS: Record<string, VariantConfig> = {
     baseFamily: "Galaxy Tab S10 Ultra",
     colours: [
       { name: "Moonstone Gray", nameEn: "Moonstone Gray", hex: "#8c8c8c" },
-      { name: "Storm Blue", nameEn: "Storm Blue", hex: "#3a4d63" },
+      { name: "Argjend platini", nameEn: "Platinum Silver", hex: "#d8d8d0" },
     ],
     storageOptions: ["256GB", "512GB", "1TB"],
     defaultColour: "Moonstone Gray", defaultStorage: "256GB",
+  },
+  // ── OnePlus ──────────────────────────────────────────────────
+  "OnePlus 13": {
+    baseFamily: "OnePlus 13",
+    colours: [
+      { name: "Eklips i zi", nameEn: "Black Eclipse", hex: "#1a1a1a" },
+      { name: "Agim arktik", nameEn: "Arctic Dawn", hex: "#e8e8f0" },
+      { name: "Oqean mesnatë", nameEn: "Midnight Ocean", hex: "#1e3a5c" },
+    ],
+    storageOptions: ["256GB", "512GB"],
+    defaultColour: "Black Eclipse", defaultStorage: "256GB",
+  },
+  "OnePlus 13R": {
+    baseFamily: "OnePlus 13R",
+    colours: [
+      { name: "Nebuloze e zeze", nameEn: "Nebula Noir", hex: "#1d1d1f" },
+      { name: "Shtegtimi yjor", nameEn: "Astral Trail", hex: "#8a7a9c" },
+    ],
+    storageOptions: ["256GB"],
+    defaultColour: "Nebula Noir", defaultStorage: "256GB",
+  },
+  // ── Nothing ──────────────────────────────────────────────────
+  "Nothing Phone 3": {
+    baseFamily: "Nothing Phone 3",
+    colours: [
+      { name: "E zeze", nameEn: "Black", hex: "#1d1d1f" },
+      { name: "E bardhe", nameEn: "White", hex: "#f5f5f7" },
+    ],
+    storageOptions: ["256GB", "512GB"],
+    defaultColour: "Black", defaultStorage: "256GB",
+  },
+  // ── Motorola ─────────────────────────────────────────────────
+  "Motorola Edge 50 Pro": {
+    baseFamily: "Motorola Edge 50 Pro",
+    colours: [
+      { name: "E zeze bukuroshe", nameEn: "Black Beauty", hex: "#1a1a1a" },
+      { name: "Lavande luksoz", nameEn: "Luxe Lavender", hex: "#b0a0c0" },
+      { name: "Perla hëne", nameEn: "Moonlight Pearl", hex: "#e8e0d8" },
+    ],
+    storageOptions: ["512GB"],
+    defaultColour: "Black Beauty", defaultStorage: "512GB",
+  },
+  // ── Redmi ────────────────────────────────────────────────────
+  "Redmi Note 14 Pro+": {
+    baseFamily: "Redmi Note 14 Pro+",
+    colours: [
+      { name: "E zeze mesnatë", nameEn: "Midnight Black", hex: "#1a1a1a" },
+      { name: "Vjollce lavande", nameEn: "Lavender Purple", hex: "#9080b0" },
+      { name: "Jeshile korali", nameEn: "Coral Green", hex: "#5a8c6a" },
+    ],
+    storageOptions: ["256GB", "512GB"],
+    defaultColour: "Midnight Black", defaultStorage: "256GB",
+  },
+  // ── Honor ────────────────────────────────────────────────────
+  "Honor Magic7 Pro": {
+    baseFamily: "Honor Magic7 Pro",
+    colours: [
+      { name: "Gri hije hëne", nameEn: "Lunar Shadow Grey", hex: "#6c7080" },
+      { name: "E zeze", nameEn: "Black", hex: "#1a1a1a" },
+      { name: "Blu flladi", nameEn: "Breeze Blue", hex: "#8ab8d8" },
+    ],
+    storageOptions: ["512GB", "1TB"],
+    defaultColour: "Lunar Shadow Grey", defaultStorage: "512GB",
+  },
+  // ── Sony Xperia ──────────────────────────────────────────────
+  "Xperia 1 VII": {
+    baseFamily: "Xperia 1 VII",
+    colours: [
+      { name: "E zeze slate", nameEn: "Slate Black", hex: "#2c2c30" },
+      { name: "Jeshile myshku", nameEn: "Moss Green", hex: "#6a7a5a" },
+      { name: "Vjollce orkide", nameEn: "Orchid Purple", hex: "#9878b0" },
+    ],
+    storageOptions: ["256GB", "512GB"],
+    defaultColour: "Slate Black", defaultStorage: "256GB",
+  },
+  // ── Realme ───────────────────────────────────────────────────
+  "Realme GT 7 Pro": {
+    baseFamily: "Realme GT 7 Pro",
+    colours: [
+      { name: "Portokalli Mars", nameEn: "Mars Orange", hex: "#e05820" },
+      { name: "Gri galaktike", nameEn: "Galaxy Grey", hex: "#5a6070" },
+    ],
+    storageOptions: ["256GB", "512GB"],
+    defaultColour: "Galaxy Grey", defaultStorage: "256GB",
   },
 };
 
