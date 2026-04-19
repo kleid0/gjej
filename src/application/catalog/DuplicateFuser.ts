@@ -91,6 +91,19 @@ export function fusionKey(p: Product): string {
   return `${normBrand(p.brand)}::${cleaned}`;
 }
 
+/**
+ * Secondary equivalence key: identical brand + non-empty modelNumber means
+ * same SKU even when store-supplied family strings differ wildly (e.g.
+ * "Celular Samsung Galaxy S24 Ultra SM-S928B 512GB" vs "Galaxy S24 Ultra
+ * 512GB i zi"). Returns null when no model number is available, in which
+ * case fusion falls back entirely to the family-based key.
+ */
+export function modelKey(p: Product): string | null {
+  const m = p.modelNumber?.trim();
+  if (!m) return null;
+  return `${normBrand(p.brand)}::model::${m.toLowerCase().replace(/\s+/g, "")}`;
+}
+
 // ── Merge logic ──────────────────────────────────────────────────────────────
 
 /** Pick the best product from a group and merge search terms from all */
@@ -176,20 +189,47 @@ export class DuplicateFuser {
     products: Product[],
     includeFused: boolean
   ): FuseResult & { _fused?: Product[] } {
-    // Group by fusion key
-    const groups = new Map<string, Product[]>();
-    for (const p of products) {
-      const key = fusionKey(p);
-      const group = groups.get(key);
-      if (group) group.push(p);
-      else groups.set(key, [p]);
+    // Union-find: group products that share EITHER the family-based fusionKey
+    // OR the brand+modelNumber-based modelKey.
+    const parent = products.map((_, i) => i);
+    const find = (x: number): number =>
+      parent[x] === x ? x : (parent[x] = find(parent[x]));
+    const union = (a: number, b: number) => {
+      const ra = find(a),
+        rb = find(b);
+      if (ra !== rb) parent[ra] = rb;
+    };
+
+    const keyToFirst = new Map<string, number>();
+    const addKey = (key: string, idx: number) => {
+      const existing = keyToFirst.get(key);
+      if (existing !== undefined) {
+        union(existing, idx);
+      } else {
+        keyToFirst.set(key, idx);
+      }
+    };
+
+    for (let i = 0; i < products.length; i++) {
+      addKey(`fam::${fusionKey(products[i])}`, i);
+      const mk = modelKey(products[i]);
+      if (mk) addKey(mk, i);
+    }
+
+    // Collect equivalence classes
+    const classMap = new Map<number, Product[]>();
+    for (let i = 0; i < products.length; i++) {
+      const root = find(i);
+      const cls = classMap.get(root);
+      if (cls) cls.push(products[i]);
+      else classMap.set(root, [products[i]]);
     }
 
     const fused: Product[] = [];
     const samples: FuseResult["samples"] = [];
     let groupsFused = 0;
 
-    for (const group of Array.from(groups.values())) {
+    for (const group of Array.from(classMap.values())) {
       const canonical = fuseGroup(group);
       if (includeFused) fused.push(canonical);
 
@@ -199,8 +239,8 @@ export class DuplicateFuser {
           samples.push({
             kept: canonical.family,
             absorbed: group
-              .filter((p) => p.id !== canonical.id)
-              .map((p) => p.family),
+              .filter((p: Product) => p.id !== canonical.id)
+              .map((p: Product) => p.family),
           });
         }
       }
@@ -208,8 +248,8 @@ export class DuplicateFuser {
 
     return {
       before: products.length,
-      after: groups.size,
-      eliminated: products.length - groups.size,
+      after: classMap.size,
+      eliminated: products.length - classMap.size,
       groupsFused,
       samples,
       ...(includeFused ? { _fused: fused } : {}),
