@@ -22,7 +22,7 @@ on:
       base_url:
         description: "Site base URL"
         required: false
-        default: "https://gjej.al"
+        default: "https://gjej.vercel.app"
 
 permissions:
   contents: write
