@@ -2,7 +2,7 @@
 
 import { unstable_cache } from "next/cache";
 import { sql, rawQuery, ensureSchema } from "./client";
-import { FileProductRepository } from "@/src/infrastructure/persistence/FileProductRepository";
+import { DbProductRepository } from "@/src/infrastructure/persistence/DbProductRepository";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
 // Cache tags used to invalidate wrapped queries after cron writes
@@ -455,15 +455,15 @@ export interface AdminStats {
   recentErrors: number;
 }
 
-const productRepoForStats = new FileProductRepository();
+const productRepoForStats = new DbProductRepository();
 
 async function _getAdminStats(): Promise<AdminStats> {
   await ready();
 
-  // Catalogue counters come from the JSON catalogue (source of truth).
-  // The Postgres `products` table is a sparse denormalised cache populated
-  // only by the one-shot /admin/migrate endpoint, so counting rows there
-  // reported zeros even when the catalogue had thousands of items.
+  // Catalogue counters come from the products table (source of truth
+  // post-Fix-D). DbProductRepository falls back to the committed JSON
+  // snapshot when the DB is empty, which keeps counts correct on fresh
+  // deploys before /admin/migrate runs.
   const [products, errCount, discontinuedRes] = await Promise.all([
     productRepoForStats.getAll(),
     sql`
