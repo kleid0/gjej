@@ -1,0 +1,42 @@
+name: DB Migrate (seed products table)
+
+# Calls /api/admin/migrate which reads the committed product JSON and
+# upserts every row into the Postgres `products` table. The daily cron
+# only UPDATEs, so if the table is empty (e.g. fresh DB, migration
+# never ran) store_count and lowest_price never get written. Run this
+# once whenever the DB is empty, or after schema changes that drop
+# rows. Bearer-authed with CRON_SECRET.
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Site base URL"
+        required: false
+        default: "https://gjej.vercel.app"
+
+jobs:
+  migrate:
+    name: Run migrate
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST /api/admin/migrate
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          BASE_URL: ${{ inputs.base_url }}
+        run: |
+          set -eu
+          if [ -z "${CRON_SECRET:-}" ]; then
+            echo "::error::CRON_SECRET secret is not set on the repository."
+            exit 1
+          fi
+          url="${BASE_URL}/api/admin/migrate"
+          echo "Requesting: ${url}"
+          # Migrate can take minutes on a full catalogue — curl max 5min,
+          # matches the route's maxDuration.
+          curl -LsS --fail-with-body \
+            --max-time 300 \
+            -H "Authorization: Bearer ${CRON_SECRET}" \
+            -H "User-Agent: gjej-db-migrate/1.0" \
+            -w "\nHTTP_STATUS=%{http_code}\n" \
+            "${url}"
