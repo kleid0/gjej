@@ -1,0 +1,40 @@
+name: Refresh Prices (on-demand)
+
+# Manually triggers the daily /api/cron/refresh-prices endpoint. Useful
+# after seeding the DB (when the products table has rows but no prices
+# yet) or to force a fresh snapshot without waiting for the 06:00 UTC
+# cron. Bearer-authed with CRON_SECRET.
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Site base URL"
+        required: false
+        default: "https://gjej.vercel.app"
+
+jobs:
+  refresh:
+    name: Run refresh-prices
+    runs-on: ubuntu-latest
+    steps:
+      - name: GET /api/cron/refresh-prices
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          BASE_URL: ${{ inputs.base_url }}
+        run: |
+          set -eu
+          if [ -z "${CRON_SECRET:-}" ]; then
+            echo "::error::CRON_SECRET secret is not set on the repository."
+            exit 1
+          fi
+          url="${BASE_URL}/api/cron/refresh-prices"
+          echo "Requesting: ${url}"
+          # Route has maxDuration=300 (5min). Give curl a little headroom
+          # and still print whatever response came back.
+          curl -LsS --fail-with-body \
+            --max-time 310 \
+            -H "Authorization: Bearer ${CRON_SECRET}" \
+            -H "User-Agent: gjej-refresh-prices/1.0" \
+            -w "\nHTTP_STATUS=%{http_code}\n" \
+            "${url}"
