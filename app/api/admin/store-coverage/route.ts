@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { sql } from "@/src/infrastructure/db/client";
+import { sql, ensureSchema } from "@/src/infrastructure/db/client";
 
 export const dynamic = "force-dynamic";
 
@@ -21,75 +21,85 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const result = await sql`
-    SELECT COALESCE(store_count, 0) AS buckets, COUNT(*)::int AS products
-    FROM products
-    WHERE catalogue_status != 'discontinued'
-      AND lowest_price IS NOT NULL
-    GROUP BY COALESCE(store_count, 0)
-    ORDER BY COALESCE(store_count, 0)
-  `;
+  try {
+    // Force DDL so the store_count column exists even when DB_SCHEMA_READY=1
+    // is set in the Vercel env (which normally gates ensureSchema off).
+    await ensureSchema(true);
 
-  const distribution: Record<string, number> = {};
-  let total = 0;
-  let multiStore = 0;
-  for (const row of result.rows) {
-    const bucket = Number(row.buckets);
-    const count = Number(row.products);
-    distribution[String(bucket)] = count;
-    total += count;
-    if (bucket >= 2) multiStore += count;
+    const result = await sql`
+      SELECT COALESCE(store_count, 0) AS buckets, COUNT(*)::int AS products
+      FROM products
+      WHERE catalogue_status != 'discontinued'
+        AND lowest_price IS NOT NULL
+      GROUP BY COALESCE(store_count, 0)
+      ORDER BY COALESCE(store_count, 0)
+    `;
+
+    const distribution: Record<string, number> = {};
+    let total = 0;
+    let multiStore = 0;
+    for (const row of result.rows) {
+      const bucket = Number(row.buckets);
+      const count = Number(row.products);
+      distribution[String(bucket)] = count;
+      total += count;
+      if (bucket >= 2) multiStore += count;
+    }
+
+    const summary = {
+      distribution,
+      total,
+      multiStore,
+      singleStore: distribution["1"] ?? 0,
+      unpopulated: distribution["0"] ?? 0,
+    };
+
+    if (req.nextUrl.searchParams.get("detail") !== "1") {
+      return NextResponse.json(summary);
+    }
+
+    const rawLimit = Number(req.nextUrl.searchParams.get("limit") ?? 500);
+    const limit = Math.min(5000, Math.max(1, Number.isFinite(rawLimit) ? rawLimit : 500));
+    const rawMax = req.nextUrl.searchParams.get("max");
+    const max = rawMax !== null && Number.isFinite(Number(rawMax)) ? Number(rawMax) : null;
+
+    const detail = max !== null
+      ? await sql`
+          SELECT id, brand, family, category,
+                 COALESCE(store_count, 0)::int AS store_count,
+                 lowest_price::int AS lowest_price
+          FROM products
+          WHERE catalogue_status != 'discontinued'
+            AND lowest_price IS NOT NULL
+            AND COALESCE(store_count, 0) <= ${max}
+          ORDER BY COALESCE(store_count, 0) ASC, brand ASC, family ASC
+          LIMIT ${limit}
+        `
+      : await sql`
+          SELECT id, brand, family, category,
+                 COALESCE(store_count, 0)::int AS store_count,
+                 lowest_price::int AS lowest_price
+          FROM products
+          WHERE catalogue_status != 'discontinued'
+            AND lowest_price IS NOT NULL
+          ORDER BY COALESCE(store_count, 0) ASC, brand ASC, family ASC
+          LIMIT ${limit}
+        `;
+
+    return NextResponse.json({
+      ...summary,
+      products: detail.rows.map((r) => ({
+        id: r.id as string,
+        brand: r.brand as string,
+        family: r.family as string,
+        category: r.category as string,
+        storeCount: r.store_count as number,
+        lowestPrice: r.lowest_price as number,
+      })),
+    });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    console.error("[store-coverage] failed:", err);
+    return NextResponse.json({ error: message }, { status: 500 });
   }
-
-  const summary = {
-    distribution,
-    total,
-    multiStore,
-    singleStore: distribution["1"] ?? 0,
-    unpopulated: distribution["0"] ?? 0,
-  };
-
-  if (req.nextUrl.searchParams.get("detail") !== "1") {
-    return NextResponse.json(summary);
-  }
-
-  const rawLimit = Number(req.nextUrl.searchParams.get("limit") ?? 500);
-  const limit = Math.min(5000, Math.max(1, Number.isFinite(rawLimit) ? rawLimit : 500));
-  const rawMax = req.nextUrl.searchParams.get("max");
-  const max = rawMax !== null && Number.isFinite(Number(rawMax)) ? Number(rawMax) : null;
-
-  const detail = max !== null
-    ? await sql`
-        SELECT id, brand, family, category,
-               COALESCE(store_count, 0)::int AS store_count,
-               lowest_price::int AS lowest_price
-        FROM products
-        WHERE catalogue_status != 'discontinued'
-          AND lowest_price IS NOT NULL
-          AND COALESCE(store_count, 0) <= ${max}
-        ORDER BY COALESCE(store_count, 0) ASC, brand ASC, family ASC
-        LIMIT ${limit}
-      `
-    : await sql`
-        SELECT id, brand, family, category,
-               COALESCE(store_count, 0)::int AS store_count,
-               lowest_price::int AS lowest_price
-        FROM products
-        WHERE catalogue_status != 'discontinued'
-          AND lowest_price IS NOT NULL
-        ORDER BY COALESCE(store_count, 0) ASC, brand ASC, family ASC
-        LIMIT ${limit}
-      `;
-
-  return NextResponse.json({
-    ...summary,
-    products: detail.rows.map((r) => ({
-      id: r.id as string,
-      brand: r.brand as string,
-      family: r.family as string,
-      category: r.category as string,
-      storeCount: r.store_count as number,
-      lowestPrice: r.lowest_price as number,
-    })),
-  });
 }
