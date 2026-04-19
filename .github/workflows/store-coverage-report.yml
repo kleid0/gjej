@@ -44,7 +44,7 @@ jobs:
             echo "::error::CRON_SECRET secret is not set on the repository."
             exit 1
           fi
-          query="detail=1&limit=${LIMIT}"
+          query="detail=1&debug=1&limit=${LIMIT}"
           if [ -n "${MAX}" ]; then
             query="${query}&max=${MAX}"
           fi

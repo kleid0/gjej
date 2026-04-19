@@ -54,8 +54,31 @@ export async function GET(req: NextRequest) {
       unpopulated: distribution["0"] ?? 0,
     };
 
+    // ?debug=1 adds raw row counts so we can tell which filter is emptying
+    // the result set (e.g. catalogue_status NULL vs lowest_price NULL).
+    let debug: Record<string, number> | undefined;
+    if (req.nextUrl.searchParams.get("debug") === "1") {
+      const diag = await sql`
+        SELECT
+          COUNT(*)::int AS all_rows,
+          COUNT(*) FILTER (WHERE catalogue_status IS NOT NULL)::int AS with_status,
+          COUNT(*) FILTER (WHERE catalogue_status != 'discontinued')::int AS not_discontinued,
+          COUNT(*) FILTER (WHERE lowest_price IS NOT NULL)::int AS with_price,
+          COUNT(*) FILTER (WHERE store_count IS NOT NULL)::int AS with_store_count
+        FROM products
+      `;
+      const row = diag.rows[0] ?? {};
+      debug = {
+        allRows: Number(row.all_rows ?? 0),
+        withStatus: Number(row.with_status ?? 0),
+        notDiscontinued: Number(row.not_discontinued ?? 0),
+        withPrice: Number(row.with_price ?? 0),
+        withStoreCount: Number(row.with_store_count ?? 0),
+      };
+    }
+
     if (req.nextUrl.searchParams.get("detail") !== "1") {
-      return NextResponse.json(summary);
+      return NextResponse.json(debug ? { ...summary, debug } : summary);
     }
 
     const rawLimit = Number(req.nextUrl.searchParams.get("limit") ?? 500);
@@ -88,6 +111,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({
       ...summary,
+      ...(debug ? { debug } : {}),
       products: detail.rows.map((r) => ({
         id: r.id as string,
         brand: r.brand as string,
