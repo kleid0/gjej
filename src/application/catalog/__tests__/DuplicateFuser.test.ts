@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { DuplicateFuser, fusionKey, fuseGroup } from "../DuplicateFuser";
+import { DuplicateFuser, fusionKey, fuseGroup, modelKey } from "../DuplicateFuser";
 import type { Product } from "@/src/domain/catalog/Product";
 import type { IProductRepository } from "@/src/domain/catalog/IProductRepository";
 
@@ -124,6 +124,55 @@ describe("fusionKey", () => {
   it("produces different keys for different brands", () => {
     const a = fusionKey(makeProduct({ brand: "Apple", family: "17 Pro" }));
     const b = fusionKey(makeProduct({ brand: "Xiaomi", family: "17 Pro" }));
+    expect(a).not.toBe(b);
+  });
+});
+
+// ── modelKey ──────────────────────────────────────────────────────────────────
+
+describe("modelKey", () => {
+  it("returns null when modelNumber is empty", () => {
+    expect(modelKey(makeProduct({ modelNumber: "" }))).toBeNull();
+  });
+
+  it("returns null when modelNumber is whitespace-only", () => {
+    expect(modelKey(makeProduct({ modelNumber: "   " }))).toBeNull();
+  });
+
+  it("builds a brand+model key for non-empty modelNumber", () => {
+    const k = modelKey(
+      makeProduct({ brand: "Samsung", modelNumber: "SM-S928B" }),
+    );
+    expect(k).toBe("samsung::model::sm-s928b");
+  });
+
+  it("normalises trademark symbols in the brand component", () => {
+    const a = modelKey(
+      makeProduct({ brand: "Lexar®", modelNumber: "LMS45" }),
+    );
+    const b = modelKey(
+      makeProduct({ brand: "lexar", modelNumber: "LMS45" }),
+    );
+    expect(a).toBe(b);
+  });
+
+  it("collapses whitespace and lowercases the model number", () => {
+    const a = modelKey(
+      makeProduct({ brand: "Samsung", modelNumber: "SM S928 B" }),
+    );
+    const b = modelKey(
+      makeProduct({ brand: "Samsung", modelNumber: "sms928b" }),
+    );
+    expect(a).toBe(b);
+  });
+
+  it("produces different keys for same model under different brands", () => {
+    const a = modelKey(
+      makeProduct({ brand: "Apple", modelNumber: "A2111" }),
+    );
+    const b = modelKey(
+      makeProduct({ brand: "Samsung", modelNumber: "A2111" }),
+    );
     expect(a).not.toBe(b);
   });
 });
@@ -286,6 +335,88 @@ describe("DuplicateFuser.fuse", () => {
 
     const result = await fuser.fuse();
     expect("_fused" in result).toBe(false);
+  });
+
+  it("fuses products sharing brand+modelNumber even with divergent family strings", async () => {
+    // These two family strings share no meaningful tokens after normalisation,
+    // so the family-based fusionKey alone wouldn't group them. The shared
+    // modelNumber (SM-S928B) should bring them together via union-find.
+    const products = [
+      makeProduct({
+        id: "1",
+        brand: "Samsung",
+        modelNumber: "SM-S928B",
+        family: "Celular Samsung Galaxy S24 Ultra SM-S928B 512GB",
+      }),
+      makeProduct({
+        id: "2",
+        brand: "Samsung",
+        modelNumber: "SM-S928B",
+        family: "Galaxy Ultra 24 i zi",
+      }),
+    ];
+    const repo = makeRepo(products);
+    const fuser = new DuplicateFuser(repo);
+
+    const result = await fuser.detect();
+    expect(result.before).toBe(2);
+    expect(result.after).toBe(1);
+    expect(result.groupsFused).toBe(1);
+  });
+
+  it("does NOT fuse when modelNumber differs even if family is similar", async () => {
+    const products = [
+      makeProduct({
+        id: "1",
+        brand: "Samsung",
+        modelNumber: "SM-S928B",
+        family: "Galaxy S24 Ultra",
+      }),
+      makeProduct({
+        id: "2",
+        brand: "Samsung",
+        modelNumber: "SM-S938B",
+        family: "Galaxy S25 Ultra",
+      }),
+    ];
+    const repo = makeRepo(products);
+    const fuser = new DuplicateFuser(repo);
+
+    const result = await fuser.detect();
+    expect(result.after).toBe(2);
+    expect(result.groupsFused).toBe(0);
+  });
+
+  it("transitively fuses via family OR model when products chain through shared keys", async () => {
+    // A ↔ B share family (fusionKey). B ↔ C share modelNumber.
+    // Union-find should put all three in one class.
+    const products = [
+      makeProduct({
+        id: "a",
+        brand: "Samsung",
+        modelNumber: "",
+        family: "Galaxy S24 Ultra Black",
+      }),
+      makeProduct({
+        id: "b",
+        brand: "Samsung",
+        modelNumber: "SM-S928B",
+        family: "Galaxy S24 Ultra White",
+      }),
+      makeProduct({
+        id: "c",
+        brand: "Samsung",
+        modelNumber: "SM-S928B",
+        family: "Celular Samsung SM-S928B 512GB i kuq",
+      }),
+    ];
+    const repo = makeRepo(products);
+    const fuser = new DuplicateFuser(repo);
+
+    const result = await fuser.detect();
+    expect(result.before).toBe(3);
+    expect(result.after).toBe(1);
+    expect(result.groupsFused).toBe(1);
   });
 
   it("caps samples at 20 even when many groups are fused", async () => {
