@@ -3,15 +3,17 @@ import { NextRequest } from "next/server";
 
 // ── Shared mock repo instance ──────────────────────────────────────────────────
 
-const mockRepo = {
-  getAll: vi.fn(),
-  saveAll: vi.fn().mockResolvedValue(undefined),
-};
+// vi.mock is hoisted above top-level `const`s, so the mock factory can't close
+// over locals. vi.hoisted gives us an initialized binding at hoist time.
+const { mockRepo } = vi.hoisted(() => ({
+  mockRepo: {
+    getAll: vi.fn(),
+    saveAll: vi.fn().mockResolvedValue(undefined),
+  },
+}));
 
-vi.mock("@/src/infrastructure/persistence/FileProductRepository", () => ({
-  FileProductRepository: vi.fn().mockImplementation(function () {
-    return mockRepo;
-  }),
+vi.mock("@/src/infrastructure/container", () => ({
+  productRepo: mockRepo,
 }));
 
 vi.mock("@/src/infrastructure/enrichment/GSMArenaService", () => ({

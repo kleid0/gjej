@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { FileProductRepository } from "@/src/infrastructure/persistence/FileProductRepository";
+import { productRepo } from "@/src/infrastructure/container";
 import { enrichPhone } from "@/src/infrastructure/enrichment/GSMArenaService";
 import { enrichNonPhoneProduct } from "@/src/infrastructure/enrichment/CategoryEnrichmentService";
 
@@ -21,8 +21,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const repo = new FileProductRepository();
-  const allProducts = await repo.getAll();
+  const allProducts = await productRepo.getAll();
 
   const missing = allProducts.filter((p) => !p.imageUrl);
   if (missing.length === 0) {
@@ -91,7 +90,7 @@ export async function POST(req: NextRequest) {
   }
 
   if (updated > 0) {
-    await repo.saveAll(Array.from(productMap.values()));
+    await productRepo.saveAll(Array.from(productMap.values()));
   }
 
   return NextResponse.json({
