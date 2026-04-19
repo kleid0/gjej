@@ -179,6 +179,11 @@ const NON_BRAND_WORDS = new Set([
   "desktop/rackmount", "morph's", "streaming",
   // Fragrance prefixes
   "eau", "parfum",
+  // Prepositions / connectives — Albanian, French, English. Foleja titles
+  // often read "Mobil për TV", "Çantë për smartphone"; without these the
+  // first-word fallback picks "për" as the brand.
+  "për", "per", "pour", "de", "la", "le", "les", "me", "dhe", "and",
+  "with", "for",
 ]);
 
 function extractBrand(name: string, vendor?: string): string {
@@ -349,7 +354,7 @@ async function fetchShopify(storeId: string, baseUrl: string): Promise<Product[]
 }
 
 // ── WooCommerce ───────────────────────────────────────────────────────────────
-interface WooProduct { name: string; slug: string; sku: string; categories: Array<{ name: string }>; images: Array<{ src: string }>; }
+interface WooProduct { name: string; slug: string; sku: string; categories: Array<{ name: string }>; images: Array<{ src: string }>; brands?: Array<{ name: string }>; }
 
 async function fetchWooCommerce(storeId: string, baseUrl: string, extraHeaders?: Record<string, string>): Promise<Product[]> {
   const products: Product[] = [];
@@ -367,7 +372,8 @@ async function fetchWooCommerce(storeId: string, baseUrl: string, extraHeaders?:
         const name = decodeHtml(item.name);
         const cats = item.categories?.map((c) => c.name) ?? [];
         const { category, subcategory } = guessCategory(name, [], "", cats);
-        products.push({ id: `${storeId}-${item.slug ?? slugify(name)}`, modelNumber: extractModelNumber(name, item.sku ?? ""), family: name, brand: extractBrand(name), category, subcategory, imageUrl: sanitizeImageUrl(item.images?.[0]?.src), storageOptions: [], searchTerms: [name] });
+        const wooVendor = item.brands?.[0]?.name;
+        products.push({ id: `${storeId}-${item.slug ?? slugify(name)}`, modelNumber: extractModelNumber(name, item.sku ?? ""), family: name, brand: extractBrand(name, wooVendor), category, subcategory, imageUrl: sanitizeImageUrl(item.images?.[0]?.src), storageOptions: [], searchTerms: [name] });
       }
       if (items.length < perPage) break;
       page++;
