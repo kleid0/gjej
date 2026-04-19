@@ -72,7 +72,7 @@ export default async function Home() {
   }
 
   // Build lowest-price map: prefer fresh file cache, fall back to DB lowest_price
-  const lowestPriceMap: Record<string, { price: number; storeName: string; storeCount: number } | null> = {};
+  const lowestPriceMap: Record<string, { price: number; storeName: string } | null> = {};
   for (const product of allProducts) {
     const record = allPrices[product.id];
     if (record) {
@@ -82,15 +82,15 @@ export default async function Home() {
       if (valid.length) {
         const best = valid.reduce((a, b) => a.price! < b.price! ? a : b);
         const store = STORE_MAP[best.storeId];
-        lowestPriceMap[product.id] = { price: best.price!, storeName: store?.name ?? best.storeId, storeCount: valid.length };
+        lowestPriceMap[product.id] = { price: best.price!, storeName: store?.name ?? best.storeId };
       } else {
         // File cache has no valid prices — fall back to DB last-known price
         const info = dbPrices[product.id] ?? null;
-        lowestPriceMap[product.id] = info !== null ? { price: info.price, storeName: "", storeCount: info.storeCount } : null;
+        lowestPriceMap[product.id] = info !== null ? { price: info.price, storeName: "" } : null;
       }
     } else {
       const info = dbPrices[product.id] ?? null;
-      lowestPriceMap[product.id] = info !== null ? { price: info.price, storeName: "", storeCount: info.storeCount } : null;
+      lowestPriceMap[product.id] = info !== null ? { price: info.price, storeName: "" } : null;
     }
   }
 
@@ -159,7 +159,6 @@ export default async function Home() {
               product={p}
               lowestPrice={lowestPriceMap[p.id]?.price ?? null}
               lowestPriceStore={lowestPriceMap[p.id]?.storeName ?? null}
-              storeCount={lowestPriceMap[p.id]?.storeCount ?? 0}
             />
           ))}
         </div>

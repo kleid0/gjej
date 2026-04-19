@@ -9,13 +9,11 @@ interface Props {
   product: Product;
   lowestPrice?: number | null;
   lowestPriceStore?: string | null;
-  storeCount?: number;
 }
 
-export default function ProductCard({ product, lowestPrice: initialPrice, lowestPriceStore: initialStore, storeCount: initialStoreCount }: Props) {
+export default function ProductCard({ product, lowestPrice: initialPrice, lowestPriceStore: initialStore }: Props) {
   const [lowestPrice, setLowestPrice] = useState<number | null>(initialPrice ?? null);
   const [lowestPriceStore, setLowestPriceStore] = useState<string | null>(initialStore ?? null);
-  const [storeCount, setStoreCount] = useState<number>(initialStoreCount ?? 0);
   const [loading, setLoading] = useState(initialPrice == null);
 
   useEffect(() => {
@@ -32,7 +30,6 @@ export default function ProductCard({ product, lowestPrice: initialPrice, lowest
           const best = valid.reduce((a, b) => a.price! < b.price! ? a : b);
           setLowestPrice(best.price);
           setLowestPriceStore(STORE_MAP[best.storeId]?.name ?? best.storeId);
-          setStoreCount(valid.length);
         }
         setLoading(false);
       })
@@ -45,7 +42,7 @@ export default function ProductCard({ product, lowestPrice: initialPrice, lowest
       href={`/produkt/${product.id}`}
       className="group bg-white rounded-xl border border-gray-200/60 hover:border-orange-200 hover:shadow-lg transition-all duration-200 flex flex-col overflow-hidden"
     >
-      <div className="bg-gray-50 p-4 flex items-center justify-center aspect-square relative">
+      <div className="bg-gray-50 p-4 flex items-center justify-center aspect-square">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={product.imageUrl || "/placeholder.svg"}
@@ -56,11 +53,6 @@ export default function ProductCard({ product, lowestPrice: initialPrice, lowest
             (e.target as HTMLImageElement).src = "/placeholder.svg";
           }}
         />
-        {storeCount > 0 && (
-          <span className="absolute top-1.5 right-1.5 bg-white/90 backdrop-blur-sm text-[11px] text-gray-600 px-2 py-0.5 rounded-full border border-gray-100 font-medium">
-            {storeCount} {storeCount === 1 ? "dyqan" : "dyqane"}
-          </span>
-        )}
       </div>
       <div className="flex-1 flex flex-col p-4">
         <p className="text-xs text-gray-400">{product.brand}</p>
