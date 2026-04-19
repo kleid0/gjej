@@ -49,26 +49,43 @@ jobs:
             query="${query}&max=${MAX}"
           fi
           mkdir -p out
+
+          echo "--- DNS / TLS reachability probe for apex + www ---"
+          for host in "gjej.al" "www.gjej.al"; do
+            echo "[${host}] dig:"
+            getent hosts "${host}" || echo "  (no A record)"
+            echo "[${host}] openssl s_client (5s, first cert subject/issuer):"
+            ( timeout 5 openssl s_client -servername "${host}" -connect "${host}:443" </dev/null 2>/dev/null \
+              | openssl x509 -noout -subject -issuer -dates 2>/dev/null ) \
+              || echo "  (handshake failed or no cert)"
+            echo
+          done
+
           url="${BASE_URL}/api/admin/store-coverage?${query}"
           echo "Requesting: ${url}"
-          # -L   follow redirects (Vercel may redirect apex → www)
+          # -L   follow redirects (apex → www, http → https)
           # -sS  silent but show errors
           # --fail-with-body  non-zero exit on 4xx/5xx, still capture body
+          # --trace-time + -v → full TLS negotiation detail, including the exact SSL error
           set +e
-          curl -LsS --fail-with-body \
+          curl -LsS --fail-with-body -v --trace-time \
             -H "Authorization: Bearer ${CRON_SECRET}" \
             -H "User-Agent: gjej-coverage-report/1.0" \
             -D out/headers.txt \
             -o out/store-coverage.json \
             -w "HTTP_STATUS=%{http_code}\nREDIRECTS=%{num_redirects}\nFINAL_URL=%{url_effective}\n" \
-            "${url}"
+            "${url}" 2> out/curl-verbose.log
           curl_exit=$?
           set -e
           echo "curl exit code: ${curl_exit}"
+          if [ "${curl_exit}" -ne 0 ]; then
+            echo "--- curl verbose log (last 80 lines) ---"
+            tail -n 80 out/curl-verbose.log || true
+          fi
           echo "--- response headers ---"
-          cat out/headers.txt || true
+          cat out/headers.txt 2>/dev/null || echo "(no headers — TLS likely failed)"
           echo "--- response body (first 2KB) ---"
-          head -c 2048 out/store-coverage.json || true
+          head -c 2048 out/store-coverage.json 2>/dev/null || echo "(no body)"
           echo
           if [ "${curl_exit}" -ne 0 ]; then
             echo "::error::curl failed with exit ${curl_exit}"
