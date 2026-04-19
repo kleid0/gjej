@@ -268,20 +268,25 @@ export async function getStoreLastRecorded(): Promise<Record<string, string>> {
  * once per hour per edge instead of once per page request. Cron invalidates
  * the tag after writes so fresh data is picked up immediately.
  */
-async function _getProductLowestPrices(): Promise<Record<string, number>> {
+export interface ProductPriceInfo {
+  price: number;
+  storeCount: number;
+}
+
+async function _getProductLowestPrices(): Promise<Record<string, ProductPriceInfo>> {
   try {
     await ready();
-    // products.lowest_price is always maintained by the cron batch update;
-    // a simple indexed scan is all we need. The prior LATERAL fallback was
-    // the single most expensive query in the app.
     const result = await sql`
-      SELECT id, lowest_price
+      SELECT id, lowest_price, store_count
       FROM products
       WHERE lowest_price IS NOT NULL
         AND catalogue_status != 'discontinued'
     `;
     return Object.fromEntries(
-      result.rows.map((r) => [r.id as string, r.lowest_price as number]),
+      result.rows.map((r) => [
+        r.id as string,
+        { price: r.lowest_price as number, storeCount: (r.store_count as number | null) ?? 1 },
+      ]),
     );
   } catch {
     return {};
@@ -324,26 +329,28 @@ export async function markProductLastSeen(productId: string): Promise<void> {
  * calls — saves ~2 queries per product.
  */
 export async function batchUpdateProductPrices(
-  updates: Array<{ productId: string; lowestPrice: number | null }>,
+  updates: Array<{ productId: string; lowestPrice: number | null; storeCount?: number }>,
 ): Promise<void> {
   if (updates.length === 0) return;
   try {
     await ready();
-    // Use unnest to batch-update in a single query
     const ids: string[] = [];
     const prices: (number | null)[] = [];
+    const counts: (number | null)[] = [];
     for (const u of updates) {
       ids.push(u.productId);
       prices.push(u.lowestPrice);
+      counts.push(u.storeCount ?? null);
     }
     await rawQuery(
       `UPDATE products
        SET last_seen_at = NOW(),
            lowest_price = batch.price,
-           lowest_price_updated_at = NOW()
-       FROM (SELECT unnest($1::text[]) AS id, unnest($2::int[]) AS price) AS batch
+           lowest_price_updated_at = NOW(),
+           store_count = COALESCE(batch.cnt, store_count)
+       FROM (SELECT unnest($1::text[]) AS id, unnest($2::int[]) AS price, unnest($3::smallint[]) AS cnt) AS batch
        WHERE products.id = batch.id`,
-      [ids, prices],
+      [ids, prices, counts],
     );
   } catch { /* non-fatal */ }
 }

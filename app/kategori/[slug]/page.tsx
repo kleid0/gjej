@@ -38,9 +38,10 @@ export default async function CategoryPage({ params }: Props) {
   const summaries: ProductSummary[] = products.map((p) => {
     const record = allPrices[p.id];
     const valid = record?.prices.filter((pr) => pr.price !== null) ?? [];
+    const dbInfo = dbPrices[p.id] ?? null;
     const bestPrice = valid.length
       ? Math.min(...valid.map((pr) => pr.price!))
-      : (dbPrices[p.id] ?? null);
+      : (dbInfo?.price ?? null);
     return {
       id: p.id,
       family: p.family,
@@ -50,7 +51,7 @@ export default async function CategoryPage({ params }: Props) {
       imageUrl: p.imageUrl,
       modelNumber: p.modelNumber,
       bestPrice,
-      storeCount: valid.length,
+      storeCount: valid.length || (dbInfo?.storeCount ?? 0),
       storeIds: valid.map((pr) => pr.storeId),
       hasStock: record?.prices.some((pr) => pr.inStock === true) ?? false,
       refreshedAt: record?.refreshedAt ?? null,

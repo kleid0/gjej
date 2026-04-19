@@ -128,6 +128,26 @@ function markStalePrices(prices: ScrapedPrice[], refreshedAt: string): ScrapedPr
   return prices.map((p) => (p.price !== null ? { ...p, stale: true } : p));
 }
 
+/**
+ * Compute the persistable summary of a product's scraped prices:
+ *   • lowestPrice  — min of all non-null, non-suspicious prices
+ *   • storeCount   — how many stores returned a non-null, non-suspicious price
+ *
+ * Returns null if nothing survives filtering, signalling that lowest_price /
+ * store_count should be left at their previous values (never blanked out on
+ * a bad scrape).
+ */
+export function computeProductPriceSummary(
+  prices: ScrapedPrice[],
+): { lowestPrice: number; storeCount: number } | null {
+  const found = prices.filter((p) => p.price !== null && !p.suspicious);
+  if (found.length === 0) return null;
+  return {
+    lowestPrice: Math.min(...found.map((p) => p.price!)),
+    storeCount: found.length,
+  };
+}
+
 export class PriceQuery {
   constructor(
     private readonly priceRepo: IPriceRepository,

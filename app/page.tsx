@@ -37,7 +37,7 @@ export default async function Home() {
       storeCount = valid.length;
       hasStock = valid.some((p) => p.inStock === true);
     } else if (dbPrices[product.id]) {
-      storeCount = 1;
+      storeCount = dbPrices[product.id].storeCount;
     }
     return { product, storeCount, hasStock };
   });
@@ -85,12 +85,12 @@ export default async function Home() {
         lowestPriceMap[product.id] = { price: best.price!, storeName: store?.name ?? best.storeId };
       } else {
         // File cache has no valid prices — fall back to DB last-known price
-        const price = dbPrices[product.id] ?? null;
-        lowestPriceMap[product.id] = price !== null ? { price, storeName: "" } : null;
+        const info = dbPrices[product.id] ?? null;
+        lowestPriceMap[product.id] = info !== null ? { price: info.price, storeName: "" } : null;
       }
     } else {
-      const price = dbPrices[product.id] ?? null;
-      lowestPriceMap[product.id] = price !== null ? { price, storeName: "" } : null;
+      const info = dbPrices[product.id] ?? null;
+      lowestPriceMap[product.id] = info !== null ? { price: info.price, storeName: "" } : null;
     }
   }
 
