@@ -8,6 +8,13 @@ export const dynamic = "force-dynamic";
 // recorded lowest price.  Suspicious prices are already excluded upstream
 // (cron filters them before writing store_count), so each bucket reflects
 // "stores a visitor actually sees on the product page".
+//
+// Query params (all optional):
+//   ?detail=1   — also return a per-product list, sorted by store_count ASC
+//                 then brand/family, so worst-covered products surface first.
+//   ?limit=<n>  — cap the detail list (default 500, max 5000).
+//   ?max=<n>    — include only products with store_count <= n in the detail
+//                 list (e.g. ?max=1 to audit single/zero-store products).
 export async function GET(req: NextRequest) {
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
@@ -34,11 +41,55 @@ export async function GET(req: NextRequest) {
     if (bucket >= 2) multiStore += count;
   }
 
-  return NextResponse.json({
+  const summary = {
     distribution,
     total,
     multiStore,
     singleStore: distribution["1"] ?? 0,
     unpopulated: distribution["0"] ?? 0,
+  };
+
+  if (req.nextUrl.searchParams.get("detail") !== "1") {
+    return NextResponse.json(summary);
+  }
+
+  const rawLimit = Number(req.nextUrl.searchParams.get("limit") ?? 500);
+  const limit = Math.min(5000, Math.max(1, Number.isFinite(rawLimit) ? rawLimit : 500));
+  const rawMax = req.nextUrl.searchParams.get("max");
+  const max = rawMax !== null && Number.isFinite(Number(rawMax)) ? Number(rawMax) : null;
+
+  const detail = max !== null
+    ? await sql`
+        SELECT id, brand, family, category,
+               COALESCE(store_count, 0)::int AS store_count,
+               lowest_price::int AS lowest_price
+        FROM products
+        WHERE catalogue_status != 'discontinued'
+          AND lowest_price IS NOT NULL
+          AND COALESCE(store_count, 0) <= ${max}
+        ORDER BY COALESCE(store_count, 0) ASC, brand ASC, family ASC
+        LIMIT ${limit}
+      `
+    : await sql`
+        SELECT id, brand, family, category,
+               COALESCE(store_count, 0)::int AS store_count,
+               lowest_price::int AS lowest_price
+        FROM products
+        WHERE catalogue_status != 'discontinued'
+          AND lowest_price IS NOT NULL
+        ORDER BY COALESCE(store_count, 0) ASC, brand ASC, family ASC
+        LIMIT ${limit}
+      `;
+
+  return NextResponse.json({
+    ...summary,
+    products: detail.rows.map((r) => ({
+      id: r.id as string,
+      brand: r.brand as string,
+      family: r.family as string,
+      category: r.category as string,
+      storeCount: r.store_count as number,
+      lowestPrice: r.lowest_price as number,
+    })),
   });
 }
