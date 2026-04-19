@@ -40,8 +40,8 @@ jobs:
           LIMIT: ${{ inputs.limit }}
         run: |
           set -eu
-          if [ -z "${CRON_SECRET}" ]; then
-            echo "CRON_SECRET secret is not set on the repository." >&2
+          if [ -z "${CRON_SECRET:-}" ]; then
+            echo "::error::CRON_SECRET secret is not set on the repository."
             exit 1
           fi
           query="detail=1&limit=${LIMIT}"
@@ -49,14 +49,30 @@ jobs:
             query="${query}&max=${MAX}"
           fi
           mkdir -p out
-          status=$(curl -sS -o out/store-coverage.json -w "%{http_code}" \
+          url="${BASE_URL}/api/admin/store-coverage?${query}"
+          echo "Requesting: ${url}"
+          # -L   follow redirects (Vercel may redirect apex → www)
+          # -sS  silent but show errors
+          # --fail-with-body  non-zero exit on 4xx/5xx, still capture body
+          set +e
+          curl -LsS --fail-with-body \
             -H "Authorization: Bearer ${CRON_SECRET}" \
-            "${BASE_URL}/api/admin/store-coverage?${query}")
-          echo "HTTP ${status}"
-          if [ "${status}" != "200" ]; then
-            echo "Non-200 response:" >&2
-            cat out/store-coverage.json >&2 || true
-            exit 1
+            -H "User-Agent: gjej-coverage-report/1.0" \
+            -D out/headers.txt \
+            -o out/store-coverage.json \
+            -w "HTTP_STATUS=%{http_code}\nREDIRECTS=%{num_redirects}\nFINAL_URL=%{url_effective}\n" \
+            "${url}"
+          curl_exit=$?
+          set -e
+          echo "curl exit code: ${curl_exit}"
+          echo "--- response headers ---"
+          cat out/headers.txt || true
+          echo "--- response body (first 2KB) ---"
+          head -c 2048 out/store-coverage.json || true
+          echo
+          if [ "${curl_exit}" -ne 0 ]; then
+            echo "::error::curl failed with exit ${curl_exit}"
+            exit "${curl_exit}"
           fi
           # Pretty-print for easier diffs / MCP reads
           jq '.' out/store-coverage.json > out/store-coverage.pretty.json
