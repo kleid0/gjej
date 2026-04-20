@@ -309,6 +309,12 @@ function confidenceRatio(resultName: string, queryTerms: string[]): number {
 
 const MIN_CONFIDENCE = 0.6;
 
+/** Integer 0–100 version of confidenceRatio, attached to ScrapedPrice so
+ *  store_mappings can persist the match quality for admin review (Fix E). */
+function confidencePercent(resultName: string, queryTerms: string[]): number {
+  return Math.round(confidenceRatio(resultName, queryTerms) * 100);
+}
+
 /**
  * Strict-then-fuzzy scorer.
  * Returns 0 for hard mismatches (wrong generation, wrong tier, storage conflict,
@@ -805,6 +811,8 @@ async function scrapeShopify(
         productUrl: crossUrl,
         lastChecked,
         matchedName: product?.title,
+        storeProductId: handle,
+        matchConfidence: confidencePercent(best.title, [term]),
       };
     } catch {
       continue;
@@ -1042,13 +1050,18 @@ async function scrapeWooCommerce(
       const best = scored.filter((x) => x.score > 0).sort((a, b) => b.score - a.score)[0]?.item;
       if (!best) continue;
 
+      const matchInfo = {
+        storeProductId: best.id != null ? String(best.id) : best.slug,
+        matchConfidence: confidencePercent(best.name, [term]),
+      };
+
       // For variable products (e.g. Shpresa): resolve the specific colour variation
       if (best.type === "variable") {
         const varResult = await resolveVariation(best);
-        if (varResult !== undefined) return varResult;
+        if (varResult !== undefined) return { ...varResult, ...matchInfo };
       }
 
-      return parseWooItem(best);
+      return { ...parseWooItem(best), ...matchInfo };
     } catch (e) {
       if (debugMode) {
         console.error(`[WooScraper] name search exception: term="${term}" err=${e instanceof Error ? e.message : String(e)}`);
@@ -1084,11 +1097,15 @@ async function scrapeWooCommerce(
       if (!items.length) continue;
       const item = items[0];
       if (strictMatchScore(item.name, [term]) <= 0) continue;
+      const matchInfo = {
+        storeProductId: item.id != null ? String(item.id) : item.slug,
+        matchConfidence: confidencePercent(item.name, [term]),
+      };
       if (item.type === "variable") {
         const varResult = await resolveVariation(item);
-        if (varResult !== undefined) return varResult;
+        if (varResult !== undefined) return { ...varResult, ...matchInfo };
       }
-      return parseWooItem(item);
+      return { ...parseWooItem(item), ...matchInfo };
     } catch {
       continue;
     }
@@ -1263,6 +1280,15 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
 
       // Validate colour from the candidate name + URL before returning any price.
       const candidateText = `${best.name} ${best.url}`;
+      // Shopware exposes no stable numeric ID in its public HTML — use the URL
+      // path as the canonical per-store identifier for the mapping cache.
+      const shopwareId = (() => {
+        try { return new URL(best.url).pathname; } catch { return best.url; }
+      })();
+      const matchInfo = {
+        storeProductId: shopwareId,
+        matchConfidence: confidencePercent(best.name, [term]),
+      };
 
       // Use listing price if available (saves a second HTTP request)
       if (best.listingPrice !== null && best.listingPrice > 0) {
@@ -1274,12 +1300,13 @@ async function scrapeShopware(store: Store, searchTerms: string[]): Promise<Scra
           productUrl: best.url,
           lastChecked: new Date().toISOString(),
           matchedName: best.name,
+          ...matchInfo,
         };
         return validateColour(requestedColour, candidateText, baseResult, store.id);
       }
 
       const result = await scrapeShopwareProductPage(best.url, store.id);
-      if (result) return validateColour(requestedColour, candidateText, { ...result, matchedName: best.name }, store.id);
+      if (result) return validateColour(requestedColour, candidateText, { ...result, matchedName: best.name, ...matchInfo }, store.id);
     } catch {
       continue;
     }
@@ -1346,6 +1373,8 @@ async function scrapeGlobe(store: Store, searchTerms: string[]): Promise<Scraped
         productUrl: `${store.url}/products/${best.id}`,
         lastChecked,
         matchedName: best.name,
+        storeProductId: String(best.id),
+        matchConfidence: confidencePercent(best.name, [term]),
       };
       // Globe doesn't always include colour in product names; use strict=false so a
       // no-colour-info result passes through rather than being rejected outright.
@@ -1391,6 +1420,7 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
   // e.g. "Apple iPhone 17" returns cases, "iPhone 17" returns actual phones).
   let bestItem: NeptunItem | null = null;
   let bestScore = 0;
+  let bestTerm = "";
 
   for (const term of buildQueries(searchTerms)) {
     try {
@@ -1416,6 +1446,7 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
         if (score > bestScore) {
           bestScore = score;
           bestItem = r;
+          bestTerm = term;
         }
       }
     } catch {
@@ -1466,6 +1497,10 @@ async function scrapeNeptun(store: Store, searchTerms: string[]): Promise<Scrape
     productUrl,
     lastChecked,
     matchedName: bestItem.Title,
+    // Neptun exposes no stable numeric ID in the public search response — its
+    // SEO URL (e.g. /product-name-12345) is the canonical per-store identifier.
+    storeProductId: bestItem.Url,
+    matchConfidence: confidencePercent(bestItem.Title, [bestTerm]),
   };
   return validateColour(extractColourFromTerms(searchTerms), `${bestItem.Title} ${bestItem.Url}`, baseResult, store.id);
 }
