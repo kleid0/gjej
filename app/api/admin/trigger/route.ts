@@ -7,6 +7,8 @@ import {
   batchRecordPrices,
   batchUpdateProductPrices,
   batchLogScraperErrors,
+  batchRecordStoreMappings,
+  type StoreMappingRecord,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
 import type { Product } from "@/src/domain/catalog/Product";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
@@ -42,6 +44,7 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
     const priceEntries: Array<{ productId: string; prices: ScrapedPrice[] }> = [];
     const productUpdates: Array<{ productId: string; lowestPrice: number | null; storeCount?: number }> = [];
     const scraperErrors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }> = [];
+    const mappings: StoreMappingRecord[] = [];
 
     for (const result of chunkResults) {
       if (!result) continue;
@@ -52,6 +55,16 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
         if (p.error && p.error !== "Produkti nuk u gjet" && p.error !== "Ky variant nuk disponohet") {
           errors++;
           scraperErrors.push({ storeId: p.storeId, errorType: "scrape_failed", errorMessage: p.error, productId: product.id });
+        }
+        // Fix E: persist cross-store matches to the mapping cache.
+        if (p.storeProductId && p.matchConfidence !== undefined) {
+          mappings.push({
+            storeId: p.storeId,
+            storeProductId: p.storeProductId,
+            storeProductName: p.matchedName ?? null,
+            catalogueProductId: product.id,
+            confidence: p.matchConfidence,
+          });
         }
       }
 
@@ -66,6 +79,7 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
       batchRecordPrices(priceEntries),
       batchUpdateProductPrices(productUpdates),
       batchLogScraperErrors(scraperErrors),
+      batchRecordStoreMappings(mappings),
     ]);
   }
 

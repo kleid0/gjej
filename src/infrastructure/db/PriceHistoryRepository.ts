@@ -380,6 +380,67 @@ export async function batchLogScraperErrors(
   } catch { /* non-fatal */ }
 }
 
+export interface StoreMappingRecord {
+  storeId: string;
+  storeProductId: string;
+  storeProductName: string | null;
+  catalogueProductId: string;
+  confidence: number;
+  matchMethod?: string;
+}
+
+/**
+ * Batch-UPSERT store→catalogue mappings captured by the price scraper.
+ *
+ * Fix E: previously store_mappings had a schema but zero writers, so the
+ * admin panel's pending-mappings review queue was permanently empty and
+ * every cron run repeated identical cross-store matching work.  After each
+ * refresh-prices chunk, scraper results with a non-zero strictMatchScore
+ * are collected and persisted here so (a) the admin can audit/approve
+ * matches, and (b) subsequent runs can short-circuit to the approved
+ * store_product_id instead of re-scoring the store's entire search
+ * results.  status='pending' keeps auto-matches out of the trusted set
+ * until manual review; manual approval flips it to 'approved'.
+ */
+export async function batchRecordStoreMappings(
+  mappings: StoreMappingRecord[],
+): Promise<void> {
+  if (mappings.length === 0) return;
+  try {
+    await ready();
+    const params: unknown[] = [];
+    const rows: string[] = [];
+    for (const m of mappings) {
+      const i = params.length;
+      params.push(
+        m.storeId,
+        m.storeProductId,
+        m.storeProductName ?? null,
+        m.catalogueProductId,
+        m.matchMethod ?? "name_match",
+        Math.max(0, Math.min(100, Math.round(m.confidence))),
+      );
+      rows.push(
+        `($${i + 1}, $${i + 2}, $${i + 3}, $${i + 4}, $${i + 5}, $${i + 6})`,
+      );
+    }
+    await rawQuery(
+      `INSERT INTO store_mappings
+         (store_id, store_product_id, store_product_name,
+          catalogue_product_id, match_method, confidence)
+       VALUES ${rows.join(", ")}
+       ON CONFLICT (store_id, store_product_id) DO UPDATE SET
+         store_product_name   = EXCLUDED.store_product_name,
+         catalogue_product_id = EXCLUDED.catalogue_product_id,
+         match_method         = EXCLUDED.match_method,
+         confidence           = EXCLUDED.confidence,
+         updated_at           = NOW()
+       WHERE store_mappings.status = 'pending'`,
+      params,
+    );
+  } catch { /* non-fatal */ }
+}
+
 /**
  * Query alerts for multiple products at once and return them grouped by product.
  * Replaces per-product getAlertsToNotify() calls.

@@ -6,10 +6,12 @@ import {
   batchRecordPrices,
   batchUpdateProductPrices,
   batchLogScraperErrors,
+  batchRecordStoreMappings,
   batchGetAlertsToNotify,
   batchMarkAlertsNotified,
   LOWEST_PRICES_TAG,
   ADMIN_STATS_TAG,
+  type StoreMappingRecord,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { resetQueryCount, getQueryCount, ensureSchema } from "@/src/infrastructure/db/client";
 import type { Product } from "@/src/domain/catalog/Product";
@@ -109,6 +111,7 @@ export async function GET(req: NextRequest) {
     const productUpdates: Array<{ productId: string; lowestPrice: number | null; storeCount?: number }> = [];
     const errors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }> = [];
     const alertLookups: Array<{ productId: string; lowestPrice: number; product: Product }> = [];
+    const mappings: StoreMappingRecord[] = [];
 
     for (const result of chunkResults) {
       if (!result) continue;
@@ -120,6 +123,19 @@ export async function GET(req: NextRequest) {
         if (p.error && p.error !== "Produkti nuk u gjet" && p.error !== "Ky variant nuk disponohet") {
           errorCount++;
           errors.push({ storeId: p.storeId, errorType: "scrape_failed", errorMessage: p.error, productId: product.id });
+        }
+        // Fix E: capture cross-store matches produced by strictMatchScore so
+        // the admin review queue fills up and subsequent runs can short-
+        // circuit to the approved store_product_id instead of re-scoring the
+        // whole search result set.
+        if (p.storeProductId && p.matchConfidence !== undefined) {
+          mappings.push({
+            storeId: p.storeId,
+            storeProductId: p.storeProductId,
+            storeProductName: p.matchedName ?? null,
+            catalogueProductId: product.id,
+            confidence: p.matchConfidence,
+          });
         }
       }
 
@@ -137,6 +153,7 @@ export async function GET(req: NextRequest) {
       batchRecordPrices(priceEntries),
       batchUpdateProductPrices(productUpdates),
       batchLogScraperErrors(errors),
+      batchRecordStoreMappings(mappings),
     ]);
 
     // Alerts: batch-query, then send emails, then batch-mark notified
