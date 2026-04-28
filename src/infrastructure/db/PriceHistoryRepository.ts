@@ -1,71 +1,108 @@
-// Repository for time-series price data and alert subscriptions
+// Storage layer for price history, scraper logs, store mappings, catalogue
+// state, service probes — all file-backed (committed to git via the cron's
+// commitDataFiles helper). Alerts remain on Postgres because they're the
+// only user-write path that needs concurrent low-latency writes.
+//
+// Public function names are preserved from the previous Postgres-backed
+// implementation so callers don't need to change.
 
-import { unstable_cache } from "next/cache";
-import { sql, rawQuery, ensureSchema } from "./client";
-import { DbProductRepository } from "@/src/infrastructure/persistence/DbProductRepository";
+import { sql } from "./client";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
+import { FileProductRepository } from "@/src/infrastructure/persistence/FileProductRepository";
+import {
+  PRICE_HISTORY_FILE,
+  SCRAPER_ERRORS_FILE,
+  DISCOVERY_LOG_FILE,
+  STORE_MAPPINGS_FILE,
+  SERVICE_PROBES_FILE,
+  CATALOGUE_STATE_FILE,
+} from "@/src/infrastructure/persistence/paths";
+import {
+  readJsonFile,
+  writeJsonFile,
+  markDirty,
+} from "@/src/infrastructure/persistence/JsonStore";
 
-// Cache tags used to invalidate wrapped queries after cron writes
+// Cache tags retained for backward compatibility with cron routes that
+// call revalidateTag. With everything served from local files, the wraps
+// are no-ops, but the tags themselves are still safe to revalidate.
 export const LOWEST_PRICES_TAG = "product-lowest-prices";
-export const ADMIN_STATS_TAG   = "admin-stats";
+export const ADMIN_STATS_TAG = "admin-stats";
 
-let schemaReady = false;
+const PRICE_HISTORY_DAYS = 90;
+const MAX_PRICE_HISTORY_DAYS = 90;
+const MAX_SCRAPER_ERRORS = 200;
+const MAX_DISCOVERY_LOG_ROWS = 30;
+const DISCONTINUED_AFTER_DAYS = 30;
 
-async function ready(): Promise<void> {
-  if (!schemaReady) {
-    await ensureSchema();
-    schemaReady = true;
-  }
+function todayUtc(): string {
+  return new Date().toISOString().split("T")[0];
+}
+
+function daysAgoIso(days: number): string {
+  const d = new Date();
+  d.setDate(d.getDate() - days);
+  return d.toISOString().split("T")[0];
 }
 
 // ── Price history ────────────────────────────────────────────────────────────
 
-export async function recordPrices(productId: string, prices: ScrapedPrice[]): Promise<void> {
-  await ready();
-  if (prices.length === 0) return;
-  // Single multi-row INSERT instead of N individual queries
-  const params: unknown[] = [];
-  const rows: string[] = [];
-  for (const p of prices) {
-    const i = params.length;
-    params.push(productId, p.storeId, p.price, p.inStock);
-    rows.push(`($${i + 1}, $${i + 2}, $${i + 3}, $${i + 4}, CURRENT_DATE)`);
-  }
-  await rawQuery(
-    `INSERT INTO price_history (product_id, store_id, price, in_stock, recorded_at)
-     VALUES ${rows.join(", ")}
-     ON CONFLICT (product_id, store_id, recorded_at)
-     DO UPDATE SET price = EXCLUDED.price, in_stock = EXCLUDED.in_stock`,
-    params,
-  );
+interface PriceHistoryFile {
+  updatedAt: string;
+  /** byProduct[productId][YYYY-MM-DD][storeId] = price | null */
+  byProduct: Record<string, Record<string, Record<string, number | null>>>;
 }
 
-/**
- * Batch-record prices for multiple products in a single INSERT.
- * Used by cron/admin to collapse an entire chunk (e.g. 12 products × 6 stores
- * = 72 rows) into one query instead of 72.
- */
+async function readPriceHistory(): Promise<PriceHistoryFile> {
+  return readJsonFile<PriceHistoryFile>(PRICE_HISTORY_FILE, {
+    updatedAt: new Date(0).toISOString(),
+    byProduct: {},
+  });
+}
+
+function pruneOldDays(file: PriceHistoryFile): void {
+  const cutoff = daysAgoIso(PRICE_HISTORY_DAYS);
+  for (const productId of Object.keys(file.byProduct)) {
+    const days = file.byProduct[productId];
+    for (const date of Object.keys(days)) {
+      if (date < cutoff) delete days[date];
+    }
+    if (Object.keys(days).length === 0) delete file.byProduct[productId];
+  }
+}
+
+export async function recordPrices(productId: string, prices: ScrapedPrice[]): Promise<void> {
+  if (prices.length === 0) return;
+  const file = await readPriceHistory();
+  const today = todayUtc();
+  const productDays = (file.byProduct[productId] ??= {});
+  const dayBucket = (productDays[today] ??= {});
+  for (const p of prices) {
+    dayBucket[p.storeId] = p.price;
+  }
+  pruneOldDays(file);
+  file.updatedAt = new Date().toISOString();
+  await writeJsonFile(PRICE_HISTORY_FILE, file);
+  markDirty(PRICE_HISTORY_FILE);
+}
+
 export async function batchRecordPrices(
   entries: Array<{ productId: string; prices: ScrapedPrice[] }>,
 ): Promise<void> {
-  await ready();
-  const params: unknown[] = [];
-  const rows: string[] = [];
+  if (entries.length === 0) return;
+  const file = await readPriceHistory();
+  const today = todayUtc();
   for (const { productId, prices } of entries) {
+    const productDays = (file.byProduct[productId] ??= {});
+    const dayBucket = (productDays[today] ??= {});
     for (const p of prices) {
-      const i = params.length;
-      params.push(productId, p.storeId, p.price, p.inStock);
-      rows.push(`($${i + 1}, $${i + 2}, $${i + 3}, $${i + 4}, CURRENT_DATE)`);
+      dayBucket[p.storeId] = p.price;
     }
   }
-  if (rows.length === 0) return;
-  await rawQuery(
-    `INSERT INTO price_history (product_id, store_id, price, in_stock, recorded_at)
-     VALUES ${rows.join(", ")}
-     ON CONFLICT (product_id, store_id, recorded_at)
-     DO UPDATE SET price = EXCLUDED.price, in_stock = EXCLUDED.in_stock`,
-    params,
-  );
+  pruneOldDays(file);
+  file.updatedAt = new Date().toISOString();
+  await writeJsonFile(PRICE_HISTORY_FILE, file);
+  markDirty(PRICE_HISTORY_FILE);
 }
 
 export interface DailyPriceRow {
@@ -73,59 +110,73 @@ export interface DailyPriceRow {
   [storeId: string]: string | number | null;
 }
 
-// 90 days is the longest range the product chart can usefully render;
-// a year of daily rows × N stores is 10x the data for no visible benefit.
-const MAX_PRICE_HISTORY_DAYS = 90;
-
 export async function getPriceHistory(
   productId: string,
-  days: number
+  days: number,
 ): Promise<{ rows: DailyPriceRow[]; daysOldest: number }> {
-  await ready();
-
   const clampedDays = Math.min(Math.max(days, 1), MAX_PRICE_HISTORY_DAYS);
-  const since = new Date();
-  since.setDate(since.getDate() - clampedDays);
-  const sinceStr = since.toISOString().split("T")[0];
-
-  const result = await sql`
-    SELECT store_id, price, in_stock, recorded_at::text AS date
-    FROM price_history
-    WHERE product_id = ${productId}
-      AND recorded_at >= ${sinceStr}::date
-    ORDER BY recorded_at ASC, store_id
-  `;
-
-  // Pivot: rows keyed by date, columns keyed by store_id
-  const byDate = new Map<string, Record<string, number | null>>();
-  for (const row of result.rows) {
-    if (!byDate.has(row.date)) byDate.set(row.date, {});
-    byDate.get(row.date)![row.store_id] = row.price as number | null;
-  }
-
-  const rows: DailyPriceRow[] = Array.from(byDate.entries()).map(([date, storeData]) => ({
-    date,
-    ...storeData,
-  }));
-
+  const since = daysAgoIso(clampedDays);
+  const file = await readPriceHistory();
+  const productDays = file.byProduct[productId] ?? {};
+  const dates = Object.keys(productDays).filter((d) => d >= since).sort();
+  const rows: DailyPriceRow[] = dates.map((date) => ({ date, ...productDays[date] }));
   const daysOldest =
-    result.rows.length > 0
-      ? Math.floor(
-          (Date.now() - new Date(result.rows[0].date + "T00:00:00Z").getTime()) / 86_400_000
-        )
+    rows.length > 0
+      ? Math.floor((Date.now() - new Date(rows[0].date + "T00:00:00Z").getTime()) / 86_400_000)
       : 0;
-
   return { rows, daysOldest };
 }
 
-// ── Price alerts ─────────────────────────────────────────────────────────────
+/** Returns the most recent recorded date per store across all products. */
+export async function getStoreLastRecorded(): Promise<Record<string, string>> {
+  const file = await readPriceHistory();
+  const out: Record<string, string> = {};
+  for (const productDays of Object.values(file.byProduct)) {
+    for (const [date, stores] of Object.entries(productDays)) {
+      for (const [storeId, price] of Object.entries(stores)) {
+        if (price === null) continue;
+        if (!out[storeId] || date > out[storeId]) out[storeId] = date;
+      }
+    }
+  }
+  return out;
+}
+
+// ── Price alerts (Postgres) ──────────────────────────────────────────────────
+
+export interface AlertRow {
+  id: number;
+  email: string;
+  threshold: number;
+}
+
+let alertSchemaReady = false;
+async function ensureAlertSchema(): Promise<void> {
+  if (alertSchemaReady) return;
+  if (process.env.DB_SCHEMA_READY === "1") {
+    alertSchemaReady = true;
+    return;
+  }
+  await sql`
+    CREATE TABLE IF NOT EXISTS price_alerts (
+      id               SERIAL PRIMARY KEY,
+      product_id       TEXT        NOT NULL,
+      email            TEXT        NOT NULL,
+      threshold        INTEGER     NOT NULL,
+      created_at       TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+      last_notified_at TIMESTAMPTZ,
+      UNIQUE(product_id, email)
+    )
+  `;
+  alertSchemaReady = true;
+}
 
 export async function saveAlert(
   productId: string,
   email: string,
-  threshold: number
+  threshold: number,
 ): Promise<void> {
-  await ready();
+  await ensureAlertSchema();
   await sql`
     INSERT INTO price_alerts (product_id, email, threshold)
     VALUES (${productId}, ${email}, ${threshold})
@@ -134,17 +185,11 @@ export async function saveAlert(
   `;
 }
 
-export interface AlertRow {
-  id: number;
-  email: string;
-  threshold: number;
-}
-
 export async function getAlertsToNotify(
   productId: string,
-  currentLowest: number
+  currentLowest: number,
 ): Promise<AlertRow[]> {
-  await ready();
+  await ensureAlertSchema();
   const result = await sql`
     SELECT id, email, threshold
     FROM price_alerts
@@ -161,24 +206,45 @@ export async function markAlertNotified(alertId: number): Promise<void> {
   `;
 }
 
-// ── Scraper error logging ─────────────────────────────────────────────────────
-
-export async function logScraperError(
-  storeId: string,
-  errorType: string,
-  errorMessage?: string,
-  productId?: string,
-): Promise<void> {
+export async function batchGetAlertsToNotify(
+  products: Array<{ productId: string; lowestPrice: number }>,
+): Promise<Map<string, AlertRow[]>> {
+  const result = new Map<string, AlertRow[]>();
+  if (products.length === 0) return result;
   try {
-    await ready();
-    await sql`
-      INSERT INTO scraper_errors (store_id, error_type, error_message, product_id)
-      VALUES (${storeId}, ${errorType}, ${errorMessage ?? null}, ${productId ?? null})
+    await ensureAlertSchema();
+    const ids = products.map((p) => p.productId);
+    const lowest = products.map((p) => p.lowestPrice);
+    const res = await sql`
+      SELECT pa.id, pa.email, pa.threshold, pa.product_id
+      FROM price_alerts pa
+      INNER JOIN UNNEST(${ids}::text[], ${lowest}::int[]) AS v(pid, lowest)
+        ON pa.product_id = v.pid
+      WHERE pa.threshold >= v.lowest
+        AND (pa.last_notified_at IS NULL OR pa.last_notified_at < NOW() - INTERVAL '24 hours')
     `;
+    for (const row of res.rows) {
+      const pid = row.product_id as string;
+      if (!result.has(pid)) result.set(pid, []);
+      result.get(pid)!.push({ id: row.id, email: row.email, threshold: row.threshold });
+    }
   } catch {
-    // Don't let logging failures break the scraper
+    /* non-fatal */
+  }
+  return result;
+}
+
+export async function batchMarkAlertsNotified(alertIds: number[]): Promise<void> {
+  if (alertIds.length === 0) return;
+  try {
+    await ensureAlertSchema();
+    await sql`UPDATE price_alerts SET last_notified_at = NOW() WHERE id = ANY(${alertIds}::int[])`;
+  } catch {
+    /* non-fatal */
   }
 }
+
+// ── Scraper errors ────────────────────────────────────────────────────────────
 
 export interface ScraperErrorRow {
   id: number;
@@ -189,34 +255,73 @@ export interface ScraperErrorRow {
   occurred_at: string;
 }
 
+interface ScraperErrorsFile {
+  updatedAt: string;
+  errors: ScraperErrorRow[];
+  nextId: number;
+}
+
+async function readScraperErrors(): Promise<ScraperErrorsFile> {
+  return readJsonFile<ScraperErrorsFile>(SCRAPER_ERRORS_FILE, {
+    updatedAt: new Date(0).toISOString(),
+    errors: [],
+    nextId: 1,
+  });
+}
+
+export async function logScraperError(
+  storeId: string,
+  errorType: string,
+  errorMessage?: string,
+  productId?: string,
+): Promise<void> {
+  const file = await readScraperErrors();
+  file.errors.unshift({
+    id: file.nextId++,
+    store_id: storeId,
+    error_type: errorType,
+    error_message: errorMessage ?? null,
+    product_id: productId ?? null,
+    occurred_at: new Date().toISOString(),
+  });
+  if (file.errors.length > MAX_SCRAPER_ERRORS) {
+    file.errors.length = MAX_SCRAPER_ERRORS;
+  }
+  file.updatedAt = new Date().toISOString();
+  await writeJsonFile(SCRAPER_ERRORS_FILE, file);
+  markDirty(SCRAPER_ERRORS_FILE);
+}
+
+export async function batchLogScraperErrors(
+  errors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }>,
+): Promise<void> {
+  if (errors.length === 0) return;
+  const file = await readScraperErrors();
+  const occurredAt = new Date().toISOString();
+  for (const e of errors) {
+    file.errors.unshift({
+      id: file.nextId++,
+      store_id: e.storeId,
+      error_type: e.errorType,
+      error_message: e.errorMessage ?? null,
+      product_id: e.productId ?? null,
+      occurred_at: occurredAt,
+    });
+  }
+  if (file.errors.length > MAX_SCRAPER_ERRORS) {
+    file.errors.length = MAX_SCRAPER_ERRORS;
+  }
+  file.updatedAt = occurredAt;
+  await writeJsonFile(SCRAPER_ERRORS_FILE, file);
+  markDirty(SCRAPER_ERRORS_FILE);
+}
+
 export async function getRecentScraperErrors(limit = 100): Promise<ScraperErrorRow[]> {
-  await ready();
-  const result = await sql`
-    SELECT id, store_id, error_type, error_message, product_id,
-           occurred_at AT TIME ZONE 'Europe/Tirane' AS occurred_at
-    FROM scraper_errors
-    ORDER BY occurred_at DESC
-    LIMIT ${limit}
-  `;
-  return result.rows as ScraperErrorRow[];
+  const file = await readScraperErrors();
+  return file.errors.slice(0, limit);
 }
 
 // ── Discovery log ─────────────────────────────────────────────────────────────
-
-export async function logDiscoveryRun(stats: {
-  totalDiscovered: number;
-  autoAdded: number;
-  pendingReview: number;
-  discontinued: number;
-}): Promise<void> {
-  try {
-    await ready();
-    await sql`
-      INSERT INTO discovery_log (total_discovered, auto_added, pending_review, discontinued)
-      VALUES (${stats.totalDiscovered}, ${stats.autoAdded}, ${stats.pendingReview}, ${stats.discontinued})
-    `;
-  } catch { /* non-fatal */ }
-}
 
 export interface DiscoveryLogRow {
   id: number;
@@ -227,158 +332,47 @@ export interface DiscoveryLogRow {
   discontinued: number;
 }
 
+interface DiscoveryLogFile {
+  updatedAt: string;
+  runs: DiscoveryLogRow[];
+  nextId: number;
+}
+
+async function readDiscoveryLog(): Promise<DiscoveryLogFile> {
+  return readJsonFile<DiscoveryLogFile>(DISCOVERY_LOG_FILE, {
+    updatedAt: new Date(0).toISOString(),
+    runs: [],
+    nextId: 1,
+  });
+}
+
+export async function logDiscoveryRun(stats: {
+  totalDiscovered: number;
+  autoAdded: number;
+  pendingReview: number;
+  discontinued: number;
+}): Promise<void> {
+  const file = await readDiscoveryLog();
+  file.runs.unshift({
+    id: file.nextId++,
+    run_at: new Date().toISOString(),
+    total_discovered: stats.totalDiscovered,
+    auto_added: stats.autoAdded,
+    pending_review: stats.pendingReview,
+    discontinued: stats.discontinued,
+  });
+  if (file.runs.length > MAX_DISCOVERY_LOG_ROWS) file.runs.length = MAX_DISCOVERY_LOG_ROWS;
+  file.updatedAt = new Date().toISOString();
+  await writeJsonFile(DISCOVERY_LOG_FILE, file);
+  markDirty(DISCOVERY_LOG_FILE);
+}
+
 export async function getDiscoveryLog(limit = 30): Promise<DiscoveryLogRow[]> {
-  await ready();
-  const result = await sql`
-    SELECT id, run_at AT TIME ZONE 'Europe/Tirane' AS run_at,
-           total_discovered, auto_added, pending_review, discontinued
-    FROM discovery_log
-    ORDER BY run_at DESC
-    LIMIT ${limit}
-  `;
-  return result.rows as DiscoveryLogRow[];
+  const file = await readDiscoveryLog();
+  return file.runs.slice(0, limit);
 }
 
-// ── Store health ──────────────────────────────────────────────────────────────
-
-/** Returns the most recent recorded_at date string per store (from price_history). */
-export async function getStoreLastRecorded(): Promise<Record<string, string>> {
-  try {
-    await ready();
-    const result = await sql`
-      SELECT store_id, MAX(recorded_at)::text AS last_recorded
-      FROM price_history
-      WHERE price IS NOT NULL
-      GROUP BY store_id
-    `;
-    return Object.fromEntries(result.rows.map((r) => [r.store_id as string, r.last_recorded as string]));
-  } catch {
-    return {};
-  }
-}
-
-// ── Bulk lowest-price lookup (used as fallback when file cache is empty) ──────
-
-/**
- * Returns a map of productId → lowest_price for all products that have a
- * recorded lowest price in the DB. Used as a fallback when prices.json has
- * not yet been populated by the cron/admin trigger.
- *
- * Wrapped in unstable_cache so the full-catalogue LATERAL JOIN runs at most
- * once per hour per edge instead of once per page request. Cron invalidates
- * the tag after writes so fresh data is picked up immediately.
- */
-export interface ProductPriceInfo {
-  price: number;
-  storeCount: number;
-}
-
-async function _getProductLowestPrices(): Promise<Record<string, ProductPriceInfo>> {
-  try {
-    await ready();
-    const result = await sql`
-      SELECT id, lowest_price, store_count
-      FROM products
-      WHERE lowest_price IS NOT NULL
-        AND catalogue_status != 'discontinued'
-    `;
-    return Object.fromEntries(
-      result.rows.map((r) => [
-        r.id as string,
-        { price: r.lowest_price as number, storeCount: (r.store_count as number | null) ?? 1 },
-      ]),
-    );
-  } catch {
-    return {};
-  }
-}
-
-export const getProductLowestPrices = unstable_cache(
-  _getProductLowestPrices,
-  ["product-lowest-prices-v1"],
-  { revalidate: 3600, tags: [LOWEST_PRICES_TAG] },
-);
-
-// ── Product catalogue helpers ─────────────────────────────────────────────────
-
-export async function updateProductLowestPrice(
-  productId: string,
-  lowestPrice: number | null,
-): Promise<void> {
-  try {
-    await ready();
-    await sql`
-      UPDATE products
-      SET lowest_price = ${lowestPrice},
-          lowest_price_updated_at = NOW()
-      WHERE id = ${productId}
-    `;
-  } catch { /* non-fatal */ }
-}
-
-export async function markProductLastSeen(productId: string): Promise<void> {
-  try {
-    await ready();
-    await sql`UPDATE products SET last_seen_at = NOW() WHERE id = ${productId}`;
-  } catch { /* non-fatal */ }
-}
-
-/**
- * Batch-update last_seen_at + lowest_price for multiple products in a single
- * query. Replaces per-product markProductLastSeen() + updateProductLowestPrice()
- * calls — saves ~2 queries per product.
- */
-export async function batchUpdateProductPrices(
-  updates: Array<{ productId: string; lowestPrice: number | null; storeCount?: number }>,
-): Promise<void> {
-  if (updates.length === 0) return;
-  try {
-    await ready();
-    const ids: string[] = [];
-    const prices: (number | null)[] = [];
-    const counts: (number | null)[] = [];
-    for (const u of updates) {
-      ids.push(u.productId);
-      prices.push(u.lowestPrice);
-      counts.push(u.storeCount ?? null);
-    }
-    await rawQuery(
-      `UPDATE products
-       SET last_seen_at = NOW(),
-           lowest_price = batch.price,
-           lowest_price_updated_at = NOW(),
-           store_count = COALESCE(batch.cnt, store_count)
-       FROM (SELECT unnest($1::text[]) AS id, unnest($2::int[]) AS price, unnest($3::smallint[]) AS cnt) AS batch
-       WHERE products.id = batch.id`,
-      [ids, prices, counts],
-    );
-  } catch { /* non-fatal */ }
-}
-
-/**
- * Batch-insert scraper errors in a single INSERT.
- * Replaces per-error logScraperError() calls.
- */
-export async function batchLogScraperErrors(
-  errors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }>,
-): Promise<void> {
-  if (errors.length === 0) return;
-  try {
-    await ready();
-    const params: unknown[] = [];
-    const rows: string[] = [];
-    for (const e of errors) {
-      const i = params.length;
-      params.push(e.storeId, e.errorType, e.errorMessage ?? null, e.productId ?? null);
-      rows.push(`($${i + 1}, $${i + 2}, $${i + 3}, $${i + 4})`);
-    }
-    await rawQuery(
-      `INSERT INTO scraper_errors (store_id, error_type, error_message, product_id)
-       VALUES ${rows.join(", ")}`,
-      params,
-    );
-  } catch { /* non-fatal */ }
-}
+// ── Store mappings ────────────────────────────────────────────────────────────
 
 export interface StoreMappingRecord {
   storeId: string;
@@ -389,123 +383,189 @@ export interface StoreMappingRecord {
   matchMethod?: string;
 }
 
-/**
- * Batch-UPSERT store→catalogue mappings captured by the price scraper.
- *
- * Fix E: previously store_mappings had a schema but zero writers, so the
- * admin panel's pending-mappings review queue was permanently empty and
- * every cron run repeated identical cross-store matching work.  After each
- * refresh-prices chunk, scraper results with a non-zero strictMatchScore
- * are collected and persisted here so (a) the admin can audit/approve
- * matches, and (b) subsequent runs can short-circuit to the approved
- * store_product_id instead of re-scoring the store's entire search
- * results.  status='pending' keeps auto-matches out of the trusted set
- * until manual review; manual approval flips it to 'approved'.
- */
+interface StoreMappingEntry {
+  storeId: string;
+  storeProductId: string;
+  storeProductName: string | null;
+  catalogueProductId: string;
+  matchMethod: string;
+  confidence: number;
+  status: "pending" | "approved" | "rejected";
+  createdAt: string;
+  updatedAt: string;
+}
+
+interface StoreMappingsFile {
+  updatedAt: string;
+  /** mapping[`${storeId}:${storeProductId}`] = StoreMappingEntry */
+  mappings: Record<string, StoreMappingEntry>;
+}
+
+async function readStoreMappings(): Promise<StoreMappingsFile> {
+  return readJsonFile<StoreMappingsFile>(STORE_MAPPINGS_FILE, {
+    updatedAt: new Date(0).toISOString(),
+    mappings: {},
+  });
+}
+
 export async function batchRecordStoreMappings(
   mappings: StoreMappingRecord[],
 ): Promise<void> {
   if (mappings.length === 0) return;
-  try {
-    await ready();
-    const params: unknown[] = [];
-    const rows: string[] = [];
-    for (const m of mappings) {
-      const i = params.length;
-      params.push(
-        m.storeId,
-        m.storeProductId,
-        m.storeProductName ?? null,
-        m.catalogueProductId,
-        m.matchMethod ?? "name_match",
-        Math.max(0, Math.min(100, Math.round(m.confidence))),
-      );
-      rows.push(
-        `($${i + 1}, $${i + 2}, $${i + 3}, $${i + 4}, $${i + 5}, $${i + 6})`,
-      );
-    }
-    await rawQuery(
-      `INSERT INTO store_mappings
-         (store_id, store_product_id, store_product_name,
-          catalogue_product_id, match_method, confidence)
-       VALUES ${rows.join(", ")}
-       ON CONFLICT (store_id, store_product_id) DO UPDATE SET
-         store_product_name   = EXCLUDED.store_product_name,
-         catalogue_product_id = EXCLUDED.catalogue_product_id,
-         match_method         = EXCLUDED.match_method,
-         confidence           = EXCLUDED.confidence,
-         updated_at           = NOW()
-       WHERE store_mappings.status = 'pending'`,
-      params,
-    );
-  } catch { /* non-fatal */ }
+  const file = await readStoreMappings();
+  const now = new Date().toISOString();
+  for (const m of mappings) {
+    const key = `${m.storeId}:${m.storeProductId}`;
+    const existing = file.mappings[key];
+    // Postgres semantics: ON CONFLICT DO UPDATE ... WHERE status = 'pending'.
+    // Don't overwrite an admin-approved mapping with a fresh auto-match.
+    if (existing && existing.status !== "pending") continue;
+    file.mappings[key] = {
+      storeId: m.storeId,
+      storeProductId: m.storeProductId,
+      storeProductName: m.storeProductName,
+      catalogueProductId: m.catalogueProductId,
+      matchMethod: m.matchMethod ?? "name_match",
+      confidence: Math.max(0, Math.min(100, Math.round(m.confidence))),
+      status: existing?.status ?? "pending",
+      createdAt: existing?.createdAt ?? now,
+      updatedAt: now,
+    };
+  }
+  file.updatedAt = now;
+  await writeJsonFile(STORE_MAPPINGS_FILE, file);
+  markDirty(STORE_MAPPINGS_FILE);
 }
 
-/**
- * Query alerts for multiple products at once and return them grouped by product.
- * Replaces per-product getAlertsToNotify() calls.
- */
-export async function batchGetAlertsToNotify(
-  products: Array<{ productId: string; lowestPrice: number }>,
-): Promise<Map<string, AlertRow[]>> {
-  const result = new Map<string, AlertRow[]>();
-  if (products.length === 0) return result;
-  try {
-    await ready();
-    // Build a VALUES list of (product_id, lowest_price) pairs
-    const params: unknown[] = [];
-    const rows: string[] = [];
-    for (const p of products) {
-      const i = params.length;
-      params.push(p.productId, p.lowestPrice);
-      rows.push(`($${i + 1}, $${i + 2}::int)`);
-    }
-    const res = await rawQuery(
-      `SELECT pa.id, pa.email, pa.threshold, pa.product_id
-       FROM price_alerts pa
-       INNER JOIN (VALUES ${rows.join(", ")}) AS v(pid, lowest)
-         ON pa.product_id = v.pid
-       WHERE pa.threshold >= v.lowest
-         AND (pa.last_notified_at IS NULL OR pa.last_notified_at < NOW() - INTERVAL '24 hours')`,
-      params,
-    );
-    for (const row of res.rows) {
-      const pid = row.product_id as string;
-      if (!result.has(pid)) result.set(pid, []);
-      result.get(pid)!.push({ id: row.id, email: row.email, threshold: row.threshold });
-    }
-  } catch { /* non-fatal */ }
-  return result;
+async function countPendingMappings(): Promise<number> {
+  const file = await readStoreMappings();
+  let count = 0;
+  for (const m of Object.values(file.mappings)) {
+    if (m.status === "pending") count++;
+  }
+  return count;
 }
 
-/**
- * Batch-mark multiple alerts as notified in a single UPDATE.
- */
-export async function batchMarkAlertsNotified(alertIds: number[]): Promise<void> {
-  if (alertIds.length === 0) return;
-  try {
-    await rawQuery(
-      `UPDATE price_alerts SET last_notified_at = NOW() WHERE id = ANY($1::int[])`,
-      [alertIds],
-    );
-  } catch { /* non-fatal */ }
+// ── Catalogue state (per-product lowest price + coverage) ────────────────────
+
+export interface ProductPriceInfo {
+  price: number;
+  storeCount: number;
+}
+
+interface CatalogueStateEntry {
+  lowestPrice: number | null;
+  storeCount: number | null;
+  lastSeenAt: string | null;
+  status: "discovered" | "discontinued";
+  lowestPriceUpdatedAt: string | null;
+}
+
+interface CatalogueStateFile {
+  updatedAt: string;
+  products: Record<string, CatalogueStateEntry>;
+}
+
+async function readCatalogueState(): Promise<CatalogueStateFile> {
+  return readJsonFile<CatalogueStateFile>(CATALOGUE_STATE_FILE, {
+    updatedAt: new Date(0).toISOString(),
+    products: {},
+  });
+}
+
+function ensureProductEntry(
+  file: CatalogueStateFile,
+  productId: string,
+): CatalogueStateEntry {
+  let entry = file.products[productId];
+  if (!entry) {
+    entry = {
+      lowestPrice: null,
+      storeCount: null,
+      lastSeenAt: null,
+      status: "discovered",
+      lowestPriceUpdatedAt: null,
+    };
+    file.products[productId] = entry;
+  }
+  return entry;
+}
+
+export async function getProductLowestPrices(): Promise<Record<string, ProductPriceInfo>> {
+  const file = await readCatalogueState();
+  const out: Record<string, ProductPriceInfo> = {};
+  for (const [id, entry] of Object.entries(file.products)) {
+    if (entry.status === "discontinued") continue;
+    if (entry.lowestPrice == null) continue;
+    out[id] = {
+      price: entry.lowestPrice,
+      storeCount: entry.storeCount ?? 1,
+    };
+  }
+  return out;
+}
+
+export async function updateProductLowestPrice(
+  productId: string,
+  lowestPrice: number | null,
+): Promise<void> {
+  const file = await readCatalogueState();
+  const entry = ensureProductEntry(file, productId);
+  entry.lowestPrice = lowestPrice;
+  entry.lowestPriceUpdatedAt = new Date().toISOString();
+  file.updatedAt = new Date().toISOString();
+  await writeJsonFile(CATALOGUE_STATE_FILE, file);
+  markDirty(CATALOGUE_STATE_FILE);
+}
+
+export async function markProductLastSeen(productId: string): Promise<void> {
+  const file = await readCatalogueState();
+  const entry = ensureProductEntry(file, productId);
+  entry.lastSeenAt = new Date().toISOString();
+  file.updatedAt = new Date().toISOString();
+  await writeJsonFile(CATALOGUE_STATE_FILE, file);
+  markDirty(CATALOGUE_STATE_FILE);
+}
+
+export async function batchUpdateProductPrices(
+  updates: Array<{ productId: string; lowestPrice: number | null; storeCount?: number }>,
+): Promise<void> {
+  if (updates.length === 0) return;
+  const file = await readCatalogueState();
+  const now = new Date().toISOString();
+  for (const u of updates) {
+    const entry = ensureProductEntry(file, u.productId);
+    entry.lowestPrice = u.lowestPrice;
+    entry.lowestPriceUpdatedAt = now;
+    entry.lastSeenAt = now;
+    if (u.storeCount != null) entry.storeCount = u.storeCount;
+  }
+  file.updatedAt = now;
+  await writeJsonFile(CATALOGUE_STATE_FILE, file);
+  markDirty(CATALOGUE_STATE_FILE);
 }
 
 export async function markDiscontinuedProducts(): Promise<number> {
-  try {
-    await ready();
-    const result = await sql`
-      UPDATE products
-      SET catalogue_status = 'discontinued'
-      WHERE catalogue_status NOT IN ('discontinued')
-        AND (last_seen_at IS NULL OR last_seen_at < NOW() - INTERVAL '30 days')
-      RETURNING id
-    `;
-    return result.rows.length;
-  } catch {
-    return 0;
+  const file = await readCatalogueState();
+  const cutoff = Date.now() - DISCONTINUED_AFTER_DAYS * 86_400_000;
+  let count = 0;
+  for (const entry of Object.values(file.products)) {
+    if (entry.status === "discontinued") continue;
+    const seen = entry.lastSeenAt ? new Date(entry.lastSeenAt).getTime() : 0;
+    if (seen < cutoff) {
+      entry.status = "discontinued";
+      count++;
+    }
   }
+  if (count > 0) {
+    file.updatedAt = new Date().toISOString();
+    await writeJsonFile(CATALOGUE_STATE_FILE, file);
+    markDirty(CATALOGUE_STATE_FILE);
+  }
+  return count;
 }
+
+// ── Admin stats ───────────────────────────────────────────────────────────────
 
 export interface AdminStats {
   totalProducts: number;
@@ -516,33 +576,15 @@ export interface AdminStats {
   recentErrors: number;
 }
 
-const productRepoForStats = new DbProductRepository();
+const productRepoForStats = new FileProductRepository();
 
-async function _getAdminStats(): Promise<AdminStats> {
-  await ready();
-
-  // Catalogue counters come from the products table (source of truth
-  // post-Fix-D). DbProductRepository falls back to the committed JSON
-  // snapshot when the DB is empty, which keeps counts correct on fresh
-  // deploys before /admin/migrate runs.
-  const [products, errCount, discontinuedRes] = await Promise.all([
+export async function getAdminStats(): Promise<AdminStats> {
+  const [products, errFile, catalogueState, pendingMappings] = await Promise.all([
     productRepoForStats.getAll(),
-    sql`
-      SELECT COUNT(*) AS cnt FROM scraper_errors
-      WHERE occurred_at > NOW() - INTERVAL '24 hours'
-    `,
-    sql`
-      SELECT COUNT(*) AS cnt FROM products WHERE catalogue_status = 'discontinued'
-    `,
+    readScraperErrors(),
+    readCatalogueState(),
+    countPendingMappings(),
   ]);
-
-  let pendingMappings = 0;
-  try {
-    const mappingResult = await sql`
-      SELECT COUNT(*) AS cnt FROM store_mappings WHERE status = 'pending'
-    `;
-    pendingMappings = Number(mappingResult.rows[0]?.cnt ?? 0);
-  } catch { /* table may not exist yet */ }
 
   let enriched = 0;
   let missingImage = 0;
@@ -551,41 +593,60 @@ async function _getAdminStats(): Promise<AdminStats> {
     if (!p.imageUrl) missingImage++;
   }
 
+  let discontinued = 0;
+  for (const entry of Object.values(catalogueState.products)) {
+    if (entry.status === "discontinued") discontinued++;
+  }
+
+  const cutoff = Date.now() - 24 * 60 * 60 * 1000;
+  let recentErrors = 0;
+  for (const e of errFile.errors) {
+    if (new Date(e.occurred_at).getTime() > cutoff) recentErrors++;
+    else break; // errors are stored newest-first
+  }
+
   return {
     totalProducts: products.length,
     enrichedProducts: enriched,
-    discontinuedProducts: Number(discontinuedRes.rows[0]?.cnt ?? 0),
+    discontinuedProducts: discontinued,
     missingImageProducts: missingImage,
     pendingReviewMappings: pendingMappings,
-    recentErrors: Number(errCount.rows[0]?.cnt ?? 0),
+    recentErrors,
   };
 }
 
-// Admin dashboard stats change at most once per cron run (daily). A short
-// TTL keeps the panel reactive when the admin triggers a manual refresh.
-export const getAdminStats = unstable_cache(
-  _getAdminStats,
-  ["admin-stats-v1"],
-  { revalidate: 600, tags: [ADMIN_STATS_TAG] },
-);
-
-// ── Service probes (disabled-store health checks) ──────────────────────────
+// ── Service probes ────────────────────────────────────────────────────────────
 
 export interface ServiceProbeState {
   lastStatus: "up" | "down";
   lastNotified: Date | null;
 }
 
+interface ServiceProbeEntry {
+  lastStatus: "up" | "down";
+  lastChecked: string;
+  lastNotified: string | null;
+}
+
+interface ServiceProbesFile {
+  updatedAt: string;
+  services: Record<string, ServiceProbeEntry>;
+}
+
+async function readServiceProbes(): Promise<ServiceProbesFile> {
+  return readJsonFile<ServiceProbesFile>(SERVICE_PROBES_FILE, {
+    updatedAt: new Date(0).toISOString(),
+    services: {},
+  });
+}
+
 export async function getServiceProbeState(service: string): Promise<ServiceProbeState | null> {
-  await ready();
-  const result = await sql`
-    SELECT last_status, last_notified FROM service_probes WHERE service = ${service}
-  `;
-  const row = result.rows[0];
-  if (!row) return null;
+  const file = await readServiceProbes();
+  const entry = file.services[service];
+  if (!entry) return null;
   return {
-    lastStatus: row.last_status === "up" ? "up" : "down",
-    lastNotified: row.last_notified ? new Date(row.last_notified as string) : null,
+    lastStatus: entry.lastStatus,
+    lastNotified: entry.lastNotified ? new Date(entry.lastNotified) : null,
   };
 }
 
@@ -594,23 +655,15 @@ export async function recordServiceProbe(
   status: "up" | "down",
   notified: boolean,
 ): Promise<void> {
-  await ready();
-  if (notified) {
-    await sql`
-      INSERT INTO service_probes (service, last_status, last_checked, last_notified)
-      VALUES (${service}, ${status}, NOW(), NOW())
-      ON CONFLICT (service) DO UPDATE
-        SET last_status = EXCLUDED.last_status,
-            last_checked = NOW(),
-            last_notified = NOW()
-    `;
-  } else {
-    await sql`
-      INSERT INTO service_probes (service, last_status, last_checked)
-      VALUES (${service}, ${status}, NOW())
-      ON CONFLICT (service) DO UPDATE
-        SET last_status = EXCLUDED.last_status,
-            last_checked = NOW()
-    `;
-  }
+  const file = await readServiceProbes();
+  const now = new Date().toISOString();
+  const existing = file.services[service];
+  file.services[service] = {
+    lastStatus: status,
+    lastChecked: now,
+    lastNotified: notified ? now : existing?.lastNotified ?? null,
+  };
+  file.updatedAt = now;
+  await writeJsonFile(SERVICE_PROBES_FILE, file);
+  markDirty(SERVICE_PROBES_FILE);
 }

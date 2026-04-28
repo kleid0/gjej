@@ -10,6 +10,9 @@ import {
   batchRecordStoreMappings,
   type StoreMappingRecord,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
+import { takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
+import { commitDirtyFiles } from "@/src/infrastructure/git/commitDataFiles";
+import { PRICES_FILE } from "@/src/infrastructure/persistence/paths";
 import type { Product } from "@/src/domain/catalog/Product";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
@@ -27,7 +30,6 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
   for (let i = 0; i < products.length; i += CONCURRENCY) {
     const chunk = products.slice(i, i + CONCURRENCY);
 
-    // Phase 1: Scrape concurrently
     const chunkResults: Array<{ product: Product; prices: ScrapedPrice[] } | null> = await Promise.all(
       chunk.map(async (product) => {
         try {
@@ -40,7 +42,6 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
       }),
     );
 
-    // Phase 2: Batch DB writes
     const priceEntries: Array<{ productId: string; prices: ScrapedPrice[] }> = [];
     const productUpdates: Array<{ productId: string; lowestPrice: number | null; storeCount?: number }> = [];
     const scraperErrors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }> = [];
@@ -56,7 +57,6 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
           errors++;
           scraperErrors.push({ storeId: p.storeId, errorType: "scrape_failed", errorMessage: p.error, productId: product.id });
         }
-        // Fix E: persist cross-store matches to the mapping cache.
         if (p.storeProductId && p.matchConfidence !== undefined) {
           mappings.push({
             storeId: p.storeId,
@@ -72,7 +72,6 @@ async function refreshBatch(products: Product[]): Promise<{ refreshed: number; e
       if (summary) {
         productUpdates.push({ productId: product.id, lowestPrice: summary.lowestPrice, storeCount: summary.storeCount });
       }
-      // Do NOT set lowest_price = null on failed scrapes — preserve last known price.
     }
 
     await Promise.allSettled([
@@ -113,9 +112,18 @@ export async function POST(req: NextRequest) {
       const { refreshed, errors } = await refreshBatch(batch);
       const nextIndex = startIndex + refreshed;
       const remaining = Math.max(0, allProducts.length - nextIndex);
+      const dirty = takeDirtyFiles();
+      if (!dirty.includes(PRICES_FILE)) dirty.push(PRICES_FILE);
+      const commitSha = await commitDirtyFiles(
+        dirty,
+        `chore(data): admin refresh ${startIndex}-${nextIndex}`,
+      ).catch((err) => {
+        console.error("[admin/trigger refresh-prices] commit failed:", err);
+        return null;
+      });
       return NextResponse.json({
         ok: true,
-        data: { refreshed, errors, total: allProducts.length, nextIndex, remaining },
+        data: { refreshed, errors, total: allProducts.length, nextIndex, remaining, commitSha },
       });
     }
 
@@ -136,7 +144,11 @@ export async function POST(req: NextRequest) {
       const data = mode === "detect"
         ? await duplicateFuser.detect()
         : await duplicateFuser.fuse();
-      return NextResponse.json({ ok: true, data });
+      const commitSha = await commitDirtyFiles(
+        takeDirtyFiles(),
+        `chore(data): admin fuse-duplicates`,
+      ).catch(() => null);
+      return NextResponse.json({ ok: true, data, commitSha });
     }
 
     return NextResponse.json({ error: "Veprim i panjohur" }, { status: 400 });

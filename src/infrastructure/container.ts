@@ -1,7 +1,7 @@
 // Dependency injection container — wires domain interfaces to infrastructure implementations
 // Import from here in API routes and server components (never import infra directly from UI).
 
-import { DbProductRepository } from "./persistence/DbProductRepository";
+import { FileProductRepository } from "./persistence/FileProductRepository";
 import { FilePriceRepository } from "./persistence/FilePriceRepository";
 import { ProductDiscoveryService } from "./scrapers/ProductDiscovery";
 import { PriceScraper } from "./scrapers/PriceScraper";
@@ -12,11 +12,12 @@ import { DuplicateFuser } from "@/src/application/catalog/DuplicateFuser";
 import { PriceQuery } from "@/src/application/pricing/PriceQuery";
 
 // Repositories
-// Products live in Postgres (Fix D): file-backed storage didn't survive
-// Vercel's /tmp recycling, so discovery writes never reached the homepage.
-// DbProductRepository falls back to data/discovered-products.json when the
-// DB is empty/unreachable, keeping local dev and fresh deploys working.
-export const productRepo = new DbProductRepository();
+// Products and the read-mostly state files (catalogue-state, price-history,
+// scraper-errors, etc.) live as JSON files in /data, committed to git by
+// the cron via commitDataFiles(). Vercel redeploys on every commit so the
+// next invocation reads the up-to-date snapshot. Only price_alerts remains
+// in Postgres because it's the lone user-write path.
+export const productRepo = new FileProductRepository();
 const priceRepo = new FilePriceRepository();
 
 // Services

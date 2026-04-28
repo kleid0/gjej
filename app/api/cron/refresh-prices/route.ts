@@ -13,7 +13,9 @@ import {
   ADMIN_STATS_TAG,
   type StoreMappingRecord,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
-import { resetQueryCount, getQueryCount, ensureSchema } from "@/src/infrastructure/db/client";
+import { takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
+import { commitDirtyFiles } from "@/src/infrastructure/git/commitDataFiles";
+import { PRICES_FILE } from "@/src/infrastructure/persistence/paths";
 import type { Product } from "@/src/domain/catalog/Product";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
@@ -26,23 +28,15 @@ const CONCURRENCY = 12;
 // How many products to refresh per invocation. Tuned so one call fits
 // comfortably inside maxDuration even on slow days; the cron then
 // self-chains to the next slice (see selfInvoke below) until the whole
-// catalogue is covered. Keep aligned with BATCH_SIZE in the admin
-// trigger route so both paths behave the same.
+// catalogue is covered.
 const BATCH_SIZE = 80;
 
 async function selfInvoke(req: NextRequest, startIndex: number): Promise<void> {
-  // Prefer VERCEL_URL (canonical deployment host) so the next invocation
-  // lands on the same build; fall back to the request origin for local dev.
   const base = process.env.VERCEL_URL
     ? `https://${process.env.VERCEL_URL}`
     : req.nextUrl.origin;
   const url = `${base}/api/cron/refresh-prices?startIndex=${startIndex}`;
 
-  // Fire-and-forget: we need the NEXT Vercel invocation to start, but we
-  // must NOT await its full response (that would pin this invocation to
-  // the downstream's 5-min budget and defeat pagination). Dispatch the
-  // request, give it ~1.5s to reach the edge, then abort our side —
-  // the downstream continues in its own container.
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 1500);
   try {
@@ -59,23 +53,15 @@ async function selfInvoke(req: NextRequest, startIndex: number): Promise<void> {
 
 // GET /api/cron/refresh-prices
 // Called daily by Vercel Cron at 06:00 UTC. Scrapes BATCH_SIZE products
-// per invocation (the catalogue is too large to fit in one 5-min call),
-// writes results to the DB, fires price alerts, and logs scraper errors.
-// When more products remain, self-chains by firing a fresh request with
-// ?startIndex=<nextIndex>.
-//
-// DB-optimised: all per-product operations are batched per chunk, reducing
-// total queries from ~9 per product to ~4 per chunk of 12.
+// per invocation, accumulates writes into JSON files in /tmp, then commits
+// all touched files to GitHub in one commit so the next deploy serves the
+// fresh data. When more products remain, self-chains via ?startIndex=.
 export async function GET(req: NextRequest) {
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  resetQueryCount();
-  // Schema is skipped on read paths via DB_SCHEMA_READY; cron still ensures
-  // it so added columns/indexes get applied on the first nightly run.
-  await ensureSchema(true);
   const allProducts = await productCatalog.getAllProducts();
 
   const startIndex = Math.max(
@@ -89,7 +75,6 @@ export async function GET(req: NextRequest) {
   for (let i = 0; i < batch.length; i += CONCURRENCY) {
     const chunk = batch.slice(i, i + CONCURRENCY);
 
-    // Phase 1: Scrape all products in the chunk concurrently
     const chunkResults: Array<{
       product: Product;
       prices: ScrapedPrice[];
@@ -106,7 +91,6 @@ export async function GET(req: NextRequest) {
       }),
     );
 
-    // Phase 2: Batch all DB writes for the chunk
     const priceEntries: Array<{ productId: string; prices: ScrapedPrice[] }> = [];
     const productUpdates: Array<{ productId: string; lowestPrice: number | null; storeCount?: number }> = [];
     const errors: Array<{ storeId: string; errorType: string; errorMessage?: string; productId?: string }> = [];
@@ -124,10 +108,6 @@ export async function GET(req: NextRequest) {
           errorCount++;
           errors.push({ storeId: p.storeId, errorType: "scrape_failed", errorMessage: p.error, productId: product.id });
         }
-        // Fix E: capture cross-store matches produced by strictMatchScore so
-        // the admin review queue fills up and subsequent runs can short-
-        // circuit to the approved store_product_id instead of re-scoring the
-        // whole search result set.
         if (p.storeProductId && p.matchConfidence !== undefined) {
           mappings.push({
             storeId: p.storeId,
@@ -144,11 +124,8 @@ export async function GET(req: NextRequest) {
         productUpdates.push({ productId: product.id, lowestPrice: summary.lowestPrice, storeCount: summary.storeCount });
         alertLookups.push({ productId: product.id, lowestPrice: summary.lowestPrice, product });
       }
-      // Do NOT set lowest_price = null on failed scrapes — preserve the
-      // last known good price so the homepage can still display something.
     }
 
-    // Execute batched DB operations (~4 queries per chunk instead of ~9 per product)
     await Promise.allSettled([
       batchRecordPrices(priceEntries),
       batchUpdateProductPrices(productUpdates),
@@ -156,7 +133,6 @@ export async function GET(req: NextRequest) {
       batchRecordStoreMappings(mappings),
     ]);
 
-    // Alerts: batch-query, then send emails, then batch-mark notified
     if (alertLookups.length > 0) {
       const alertMap = await batchGetAlertsToNotify(
         alertLookups.map((a) => ({ productId: a.productId, lowestPrice: a.lowestPrice })),
@@ -176,28 +152,35 @@ export async function GET(req: NextRequest) {
   const nextIndex = startIndex + batch.length;
   const remaining = Math.max(0, allProducts.length - nextIndex);
 
-  // Only invalidate caches on the final link in the chain — intermediate
-  // invocations would just cause repeated full-page recomputes for no
-  // benefit since more writes are still coming.
+  // Persist this invocation's slice of writes to GitHub before chaining.
+  // prices.json is also written by the scraper so include it explicitly.
+  const dirty = takeDirtyFiles();
+  if (!dirty.includes(PRICES_FILE)) dirty.push(PRICES_FILE);
+  let commitSha: string | null = null;
+  try {
+    commitSha = await commitDirtyFiles(
+      dirty,
+      `chore(data): refresh prices ${startIndex}-${nextIndex}`,
+    );
+  } catch (err) {
+    console.error("[refresh-prices] commit failed:", err);
+  }
+
   if (remaining === 0) {
     revalidateTag(LOWEST_PRICES_TAG);
     revalidateTag(ADMIN_STATS_TAG);
   } else {
-    // Kick off the next slice. Don't await the downstream work — this is
-    // the whole point of self-chaining (see selfInvoke). The downstream
-    // has its own fresh 5-min execution budget.
     await selfInvoke(req, nextIndex);
   }
 
-  const { count: queryCount } = getQueryCount();
   return NextResponse.json({
     refreshed,
     errors: errorCount,
-    dbQueries: queryCount,
     total: allProducts.length,
     startIndex,
     nextIndex,
     remaining,
+    commitSha,
     timestamp: new Date().toISOString(),
   });
 }
