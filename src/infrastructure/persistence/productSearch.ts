@@ -1,6 +1,6 @@
-// Shared product search scoring used by both FileProductRepository and
-// DbProductRepository. Extracted so swapping the persistence layer doesn't
-// change search behaviour.
+// Shared product search scoring used by FileProductRepository — extracted
+// so callers of the search use case don't need to know about the storage
+// layer.
 
 import type { Product } from "@/src/domain/catalog/Product";
 

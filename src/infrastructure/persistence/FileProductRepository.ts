@@ -5,6 +5,7 @@ import path from "path";
 import type { IProductRepository } from "@/src/domain/catalog/IProductRepository";
 import type { Product } from "@/src/domain/catalog/Product";
 import { DISCOVERED_PRODUCTS_FILE, getDiscoveredProductsReadPath } from "./paths";
+import { markDirty } from "./JsonStore";
 import { scoreAndSortProducts } from "./productSearch";
 
 export class FileProductRepository implements IProductRepository {
@@ -52,5 +53,6 @@ export class FileProductRepository implements IProductRepository {
   async saveAll(products: Product[]): Promise<void> {
     await fs.mkdir(path.dirname(DISCOVERED_PRODUCTS_FILE), { recursive: true });
     await fs.writeFile(DISCOVERED_PRODUCTS_FILE, JSON.stringify(products, null, 2));
+    markDirty(DISCOVERED_PRODUCTS_FILE);
   }
 }

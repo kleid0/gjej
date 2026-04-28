@@ -4,6 +4,8 @@ import {
   getServiceProbeState,
   recordServiceProbe,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
+import { takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
+import { commitDirtyFiles } from "@/src/infrastructure/git/commitDataFiles";
 
 export const maxDuration = 30;
 
@@ -36,11 +38,22 @@ export async function GET(req: NextRequest) {
 
   await recordServiceProbe(SERVICE, status, notified);
 
+  let commitSha: string | null = null;
+  try {
+    commitSha = await commitDirtyFiles(
+      takeDirtyFiles(),
+      `chore(data): pcstore probe ${status}`,
+    );
+  } catch (err) {
+    console.error("[check-pcstore] commit failed:", err);
+  }
+
   return NextResponse.json({
     service: SERVICE,
     status,
     previousStatus: previous?.lastStatus ?? null,
     notified,
+    commitSha,
   });
 }
 

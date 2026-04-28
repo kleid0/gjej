@@ -1,12 +1,14 @@
 # Release Preparation
 
-## Git-as-DB Migration (2026-04-20) — PLANNING
+## Git-as-DB Migration (2026-04-20) — DONE
 Branch: `claude/optimize-database-usage-DpFrN`. Triggered by hitting 100% of
 Neon free tier. Prior round (e0e2P) of caching/quota-trimming wasn't enough.
 
 ### Goal
-Eliminate Neon entirely by (a) committing cron-written data as JSON files in
-the repo and (b) moving user-writable alerts to Upstash Redis (free tier).
+Move all read-mostly / cron-written data into JSON files committed to git
+(via the cron's GitHub Git Data API helper). Keep `price_alerts` on Neon
+because it's the only user-write path and its volume is trivial — Neon
+usage drops to a handful of queries per cron run.
 
 ### Current DB surface (8 tables)
 
@@ -21,46 +23,58 @@ the repo and (b) moving user-writable alerts to Upstash Redis (free tier).
 | `price_alerts` | **user** + cron | cron | **Upstash Redis** |
 | schema itself | cron (`ensureSchema`) | — | delete |
 
-### Plan (phased, each phase ships independently)
+### What shipped
+- [x] `src/infrastructure/persistence/JsonStore.ts` — generic JSON load/save
+      with snapshot fallback (data/ on disk → /tmp on Vercel) and a
+      `markDirty/takeDirtyFiles` registry the cron uses at end-of-run.
+- [x] `src/infrastructure/git/commitDataFiles.ts` — multi-file commit via
+      the GitHub Git Data API. Retries on 422 (concurrent ref move). No-op
+      when `GITHUB_TOKEN`/repo is unconfigured (local dev writes data/
+      directly).
+- [x] `PriceHistoryRepository.ts` rewritten as a thin layer over JSON files
+      for: price history, scraper errors, discovery log, store mappings,
+      service probes, catalogue state (replaces products.lowest_price /
+      store_count / last_seen_at / catalogue_status). Public exports are
+      unchanged so callers don't break.
+- [x] `saveAlert` / `getAlertsToNotify` / `markAlertNotified` /
+      `batchGetAlertsToNotify` / `batchMarkAlertsNotified` stay on
+      Postgres. Their `ensureAlertSchema` only creates the `price_alerts`
+      table (the previous global `ensureSchema` is gone).
+- [x] `DbProductRepository` deleted; `container.ts` uses
+      `FileProductRepository` directly.
+- [x] Cron routes (`refresh-prices`, `discover`, `check-pcstore`) and
+      admin trigger call `commitDirtyFiles(takeDirtyFiles(), …)` after
+      writes. `prices.json` is force-included in the refresh cron's
+      commit list so the website cache stays fresh.
+- [x] Deleted `app/api/admin/migrate/route.ts` (one-time DB migration —
+      no longer applicable) and `app/api/admin/db-usage/route.ts` (query
+      counter is meaningless now).
+- [x] Rewrote `app/api/admin/recategorize/route.ts` and
+      `app/api/admin/store-coverage/route.ts` to read the file-backed
+      catalogue + commit via the GitHub helper.
+- [x] `src/infrastructure/db/client.ts` slimmed to just the `pg.Pool` +
+      `sql` tag — no more 17-statement schema bootstrap.
+- [x] Deleted `src/infrastructure/db/__tests__/batchRecordStoreMappings.test.ts`
+      (asserted SQL shape that no longer exists).
+- [x] `package.json`: dropped `@vercel/postgres` (was unused after the
+      pg.Pool migration). Kept `pg` + `@types/pg` for alerts.
 
-**Phase A — alerts to Upstash** (unblocks site even if Neon stays paused)
-- [ ] Add `@upstash/redis` dep.
-- [ ] Export existing alerts from Neon if DB accessible; else start fresh (probably empty or tiny).
-- [ ] New `UpstashAlertRepository` implementing existing alert interface.
-- [ ] Swap `POST /api/price-alerts` + cron alert-fanout to use it.
-- [ ] Keys: `alert:<uuid>` hash; index set `alerts:by-product:<productId>` for cron lookup.
+### Required env in Vercel
+- `GITHUB_TOKEN` — fine-grained PAT, contents:write on `kleid0/gjej`.
+- `VERCEL_GIT_REPO_OWNER` / `VERCEL_GIT_REPO_SLUG` — already injected by Vercel.
+- `DATABASE_URL` — keep, only the alerts table uses it.
 
-**Phase B — cron writes JSON + commits to GitHub**
-- [ ] Add `GITHUB_TOKEN` (fine-grained PAT, `contents:write` on this repo only).
-- [ ] Helper: `commitDataFiles(files, message)` uses GitHub Contents API — one commit per cron run (~4/day, trivial).
-- [ ] `refresh-prices` cron now writes: `price_history.json`, `discovered-products.json` (with merged lowest_price/store_count), `scraper_errors.json`, `store_mappings.json`, `service_probes.json`.
-- [ ] `discover` cron updates `discovery_log.json` + `discovered-products.json`.
-- [ ] Each JSON has a simple `{ updatedAt, data }` envelope.
+### Risks accepted
+- Commit volume: ~6–8 commits/day from refresh-prices self-chain plus 1
+  for discover. Acceptable; data commits are mixed in with code on main.
+- First deploy after the migration: state files start empty. First cron
+  run populates them; admin panel shows empty stats until then.
 
-**Phase C — app reads from files, not DB**
-- [ ] `getProductLowestPrices()` → read `discovered-products.json`.
-- [ ] `getAdminStats()` / `getRecentScraperErrors()` / `getDiscoveryLog()` / `getStoreLastRecorded()` → read the corresponding JSON.
-- [ ] `getPriceHistory()` → read `price_history.json`, filter by product + date.
-- [ ] Drop all the `unstable_cache` wrappers around DB calls (file reads are fast; Next.js fetch layer caches the file anyway).
-
-**Phase D — remove Neon**
-- [ ] Delete `src/infrastructure/db/client.ts`, `PriceHistoryRepository.ts` DB code paths, `ensureSchema`.
-- [ ] Remove `pg` from `package.json`.
-- [ ] Remove `DATABASE_URL` / `POSTGRES_URL` from docs.
-
-### Risks / open questions
-1. **Commit volume**: 4 cron runs/day → ~1.5k commits/yr. Acceptable but noisy. Mitigation: keep the data branch separate? (Decision needed — default is commit to same branch, it's fine for a small project.)
-2. **Deploy-time freshness**: Vercel picks up the latest commit on deploy. If cron commits during a deploy there's no race — next request sees old committed file until next cron/deploy. Fine.
-3. **Alerts data loss**: if Neon is already paused, we can't export existing alerts. Need to check with user — may be zero or small.
-4. **Build size**: `price_history.json` at 90 days × ~300 products × 6 stores ≈ 1–3 MB. Fine.
-5. **First-deploy seeding**: Phase B ships empty JSONs initially; first cron run populates them. Admin panel will look empty for ~24h. Acceptable?
-
-### Verification at end
-- [ ] `npx tsc --noEmit` + `npm run lint` + `npm test` pass
-- [ ] Local: run cron endpoint, confirm JSON files update + commit lands
-- [ ] Homepage, search, category, product detail all render with no `DATABASE_URL` set
-- [ ] `package.json` has no `pg`
-- [ ] Sanity check: site builds + renders with `DATABASE_URL=""`
+### Verification
+- [x] `npx tsc --noEmit` clean
+- [x] `npm run lint` clean
+- [x] `npm test` — 7 files, 120 tests pass
+- [x] `DATABASE_URL='' npx next build` builds all routes without error
 
 ## Neon DB Usage Optimization (2026-04-17) — DONE
 Branch: `claude/optimize-database-usage-e0e2P`. Triggered by hitting 75% of
