@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T17:56:03.324Z",
+  "updatedAt": "2026-04-30T17:56:24.929Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -11137,23 +11137,23 @@
       "storeId": "shpresa",
       "storeProductId": "187114",
       "storeProductName": "Lenovo ThinkPad E16 Gen 2, 16″ Touchscreen, 16GB, 512GB SSD, Core™ Ultra 7",
-      "catalogueProductId": "pcstore-lenovo-thinkpad-e16-gen-3-intel-core-ultra-5-225u",
+      "catalogueProductId": "foleja-laptop-lenovo-thinkpad-e16-16-amd-ryzen-5-16gb-ram-512-gb-ssd-amd-radeon-graphic",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:17.437Z",
-      "updatedAt": "2026-04-30T16:56:17.437Z"
+      "updatedAt": "2026-04-30T17:56:19.253Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-THINKPAD-E16-GEN-2-LP2030": {
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-LENOVO-THINKPAD-E16-GEN-2-LP2030",
       "storeProductName": "LAPTOP LENOVO THINKPAD E16 GEN 2",
-      "catalogueProductId": "pcstore-lenovo-thinkpad-e16-gen-3-intel-core-ultra-5-225u",
+      "catalogueProductId": "foleja-laptop-lenovo-thinkpad-e16-16-amd-ryzen-5-16gb-ram-512-gb-ssd-amd-radeon-graphic",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:17.437Z",
-      "updatedAt": "2026-04-30T16:56:17.437Z"
+      "updatedAt": "2026-04-30T17:56:19.253Z"
     },
     "neptun:/categories/BOXE-LOGITECH-Z533-2-1-BLACK": {
       "storeId": "neptun",
@@ -16483,12 +16483,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/TASTIERE-GAMING-LOGITECH-G515-TKL-TA0493",
       "storeProductName": "TASTIERE GAMING LOGITECH G515 TKL",
-      "catalogueProductId": "albagame-keyboard-logitech-g515-tkl-lightsync-rgb-lightspeed-wireless-or-bluetooth-or-usb-wired-connection-mechanical-switches-tactile-us-layout-black-920-012539",
+      "catalogueProductId": "foleja-tastier-gaming-logitech-g515-tkl-mekanike-rgb-qwertz-e-zez",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:22:09.479Z",
-      "updatedAt": "2026-04-30T17:22:09.479Z"
+      "updatedAt": "2026-04-30T17:56:24.929Z"
     },
     "foleja:/AXR-200005146/Tastiere-gaming-HyperX-Alloy-Rise-7G7A3AA-ABA-madhesi-standard-layout-US-Intl-RGB-e-zeze": {
       "storeId": "foleja",
@@ -20768,6 +20768,17 @@
       "status": "pending",
       "createdAt": "2026-04-30T17:56:03.324Z",
       "updatedAt": "2026-04-30T17:56:03.324Z"
+    },
+    "globe:76863": {
+      "storeId": "globe",
+      "storeProductId": "76863",
+      "storeProductName": "Tastiere Gaming Trust GXT 830-RW Avonn",
+      "catalogueProductId": "foleja-tastatur-gaming-trust-gxt-836-evocx-usb-qwerty-us-english-e-zez",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:56:19.253Z",
+      "updatedAt": "2026-04-30T17:56:19.253Z"
     }
   }
 }
