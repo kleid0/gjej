@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T16:50:31.312Z",
+  "updatedAt": "2026-04-30T16:50:57.112Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -1446,12 +1446,12 @@
       "storeId": "foleja",
       "storeProductId": "/AXR-200001648/Kufje-gaming-me-mikrofon-Logitech-G435-Lightspeed-981-001074-wireless-me-dongle-USB-te-bardha",
       "storeProductName": "Kufje gaming me mikrofon, Logitech, G435 Lightspeed (981-001074), wireless me dongle USB, të bardha",
-      "catalogueProductId": "shpresa-logitech-g435-lightspeed-wireless-gaming-headset",
+      "catalogueProductId": "pcstore-logitech-gaming-headset-g-g435-wireless",
       "matchMethod": "name_match",
-      "confidence": 83,
+      "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-30T15:56:02.818Z",
-      "updatedAt": "2026-04-30T15:56:02.818Z"
+      "updatedAt": "2026-04-30T16:50:47.697Z"
     },
     "foleja:/ERG-200000146/Apple-Pencil-USB-C": {
       "storeId": "foleja",
@@ -2216,23 +2216,23 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200057217/Kase-DELL-PRO-TOWER-QCT1250-180W-TPM-e-zeze",
       "storeProductName": "Kasë DELL PRO TOWER QCT1250, 180W, TPM, e zezë",
-      "catalogueProductId": "shpresa-dell-pro-tower-desktop-32gb-512gb-ssd-core-ultra-5",
+      "catalogueProductId": "pcstore-dell-pro-tower-qct1250-mt-core-ultra-7-265",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:50.423Z",
-      "updatedAt": "2026-04-30T15:58:55.760Z"
+      "updatedAt": "2026-04-30T16:50:38.610Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-LEGION-PRO-5-16ADR10-LP2039": {
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-LENOVO-LEGION-PRO-5-16ADR10-LP2039",
       "storeProductName": "LAPTOP LENOVO GAMING LEGION PRO 5 16ADR10",
-      "catalogueProductId": "shpresa-lenovo-legion-pro-5-16-32gb-1tb-ssd-core-ultra-9",
+      "catalogueProductId": "pcstore-lenovo-legion-5-ryzen-9-894hx-rtx-5060-8gb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:55.760Z",
-      "updatedAt": "2026-04-30T15:58:55.760Z"
+      "updatedAt": "2026-04-30T16:50:57.112Z"
     },
     "foleja:/INP-200005403/Gimbal-Hohem-iSteady-M6-Kit-per-celular-400g-i-zi": {
       "storeId": "foleja",
@@ -4086,12 +4086,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/SSD-SAMSUNG-990-PRO-NVMe-1TB-HD00197",
       "storeProductName": "SSD SAMSUNG 990 PRO NVMe 1TB",
-      "catalogueProductId": "foleja-disk-ssd-samsung-990-pro-1tb-m-2-2280-pci-e-x4-gen4-nvme",
+      "catalogueProductId": "pcstore-samsung-990-pro-ssd-4tb-nvme",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:20:29.839Z",
-      "updatedAt": "2026-04-30T16:20:43.172Z"
+      "updatedAt": "2026-04-30T16:50:43.380Z"
     },
     "neptun:/categories/SSD-SAMSUNG-EVO-870-500GB-INTERNAL-HD00153": {
       "storeId": "neptun",
@@ -8959,12 +8959,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200044023/Pllake-ame-Gigabyte-Z890M-Aorus-Elite-WF7-ICE-mATX-DDR5-e-bardhe",
       "storeProductName": "Pllakë amë Gigabyte Z890M Aorus Elite WF7 ICE, mATX, DDR5, e bardhë",
-      "catalogueProductId": "pcstore-gigabyte-b860m-a-elite-socket-1851",
+      "catalogueProductId": "pcstore-gigabyte-aorus-elite-wf7-ice-motherboard-b850-am5",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:17.443Z",
-      "updatedAt": "2026-04-30T16:50:17.443Z"
+      "updatedAt": "2026-04-30T16:50:47.697Z"
     },
     "foleja:/ACN-300309546/Laptop-gaming-MSI-Cyborg-15-B2RWFKG-038XPL-15.6-Intel-Core-7-240H-16-GB-RAM-512-GB-SSD-NVIDIA-RTX-5060-Zi": {
       "storeId": "foleja",
@@ -9152,6 +9152,116 @@
       "status": "pending",
       "createdAt": "2026-04-30T16:50:31.312Z",
       "updatedAt": "2026-04-30T16:50:31.312Z"
+    },
+    "foleja:/KST-200048472/NAS-Synology-DS425-4-bay-2GB-RAM-80TB-max-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200048472/NAS-Synology-DS425-4-bay-2GB-RAM-80TB-max-e-zeze",
+      "storeProductName": "NAS Synology DS425+ 4-bay, 2GB RAM, 80TB max, e zezë",
+      "catalogueProductId": "pcstore-synology-nas-4-bay-ds423-2",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:38.610Z",
+      "updatedAt": "2026-04-30T16:50:38.610Z"
+    },
+    "neptun:/categories/KARRIGE-GAMING-PLAYSEAT-EVOLUTION-RACING-SUEDE-PL4451": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/KARRIGE-GAMING-PLAYSEAT-EVOLUTION-RACING-SUEDE-PL4451",
+      "storeProductName": "KARRIGE GAMING PLAYSEAT EVOLUTION RACING SUEDE",
+      "catalogueProductId": "pcstore-gaming-chair-playseat-evolution-pro-racing-seat",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:38.610Z",
+      "updatedAt": "2026-04-30T16:50:38.610Z"
+    },
+    "foleja:/KST-200050388/RAM-Memorje-Corsair-Vengeance-RGB-64GB-2x32GB-DDR5-6000MHz-shumengjyreshe": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200050388/RAM-Memorje-Corsair-Vengeance-RGB-64GB-2x32GB-DDR5-6000MHz-shumengjyreshe",
+      "storeProductName": "RAM Memorje Corsair Vengeance RGB 64GB (2x32GB) DDR5 6000MHz, shumëngjyrëshe",
+      "catalogueProductId": "pcstore-corsair-vengeance-rgb-ddr5-64gb-6000mhz",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:43.380Z",
+      "updatedAt": "2026-04-30T16:50:43.380Z"
+    },
+    "foleja:/ACN-300007177/Disk-SSD-Kingston-A400-480GB-2.5": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300007177/Disk-SSD-Kingston-A400-480GB-2.5",
+      "storeProductName": "Disk SSD Kingston A400, 480GB, 2.5''",
+      "catalogueProductId": "pcstore-kingston-a400-ssd-480-gb",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:47.697Z",
+      "updatedAt": "2026-04-30T16:50:47.697Z"
+    },
+    "foleja:/KST-200014501/Kartele-grafike-PNY-Quadro-RTX-A2000-16GB-ADA-Power-Low-Profile": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200014501/Kartele-grafike-PNY-Quadro-RTX-A2000-16GB-ADA-Power-Low-Profile",
+      "storeProductName": "Kartelë grafike PNY Quadro RTX A2000 16GB ADA Power Low Profile",
+      "catalogueProductId": "pcstore-pny-quadro-rtx-a2000-ada-16gb",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:52.235Z",
+      "updatedAt": "2026-04-30T16:50:52.235Z"
+    },
+    "foleja:/KST-200003922/Ftohes-ajri-Be-Quiet-Dark-Rock-Elite-13.5-cm-11-dB-25.8-dB-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200003922/Ftohes-ajri-Be-Quiet-Dark-Rock-Elite-13.5-cm-11-dB-25.8-dB-i-zi",
+      "storeProductName": "Ftohës ajri Be Quiet! Dark Rock Elite, 13.5 cm, 11 dB, 25.8 dB, i zi",
+      "catalogueProductId": "pcstore-be-quiet-dark-rock-elite-am4",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:52.235Z",
+      "updatedAt": "2026-04-30T16:50:52.235Z"
+    },
+    "foleja:/KST-200005459/Procesor-Intel-Core-i5-14600KF": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200005459/Procesor-Intel-Core-i5-14600KF",
+      "storeProductName": "Procesor Intel Core i5-14600KF",
+      "catalogueProductId": "pcstore-intel-processor-core-i5-14600k-14gen",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:52.235Z",
+      "updatedAt": "2026-04-30T16:50:52.235Z"
+    },
+    "foleja:/KST-200004617/Skaner-ADF-Fujitsu-Ricoh-ScanSnap-iX1400-216-x-360-mm-600-x-600-DPI-40-ppm-i-bardhe": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200004617/Skaner-ADF-Fujitsu-Ricoh-ScanSnap-iX1400-216-x-360-mm-600-x-600-DPI-40-ppm-i-bardhe",
+      "storeProductName": "Skaner ADF Fujitsu Ricoh ScanSnap iX1400, 216 x 360 mm, 600 x 600 DPI, 40 ppm, i bardhë",
+      "catalogueProductId": "pcstore-fujitsu-scansnap-ix1300",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:52.235Z",
+      "updatedAt": "2026-04-30T16:50:52.235Z"
+    },
+    "foleja:/KST-200012837/Kase-ujore-be-quiet-LIGHT-LOOP-360mm-ARGB-e-bardhe": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200012837/Kase-ujore-be-quiet-LIGHT-LOOP-360mm-ARGB-e-bardhe",
+      "storeProductName": "Kasë ujore be quiet! LIGHT LOOP 360mm ARGB, e bardhë",
+      "catalogueProductId": "pcstore-be-quiet-light-loop-argb-360mm",
+      "matchMethod": "name_match",
+      "confidence": 86,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:57.112Z",
+      "updatedAt": "2026-04-30T16:50:57.112Z"
+    },
+    "foleja:/KST-200007362/Kase-HDD-Be-Quiet-BGA13-Universal-per-2.5-3.5-e-bardhe-per-Dark-Base-901-701-Shadow-Base-800": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200007362/Kase-HDD-Be-Quiet-BGA13-Universal-per-2.5-3.5-e-bardhe-per-Dark-Base-901-701-Shadow-Base-800",
+      "storeProductName": "Kasë HDD Be Quiet! BGA13, Universal, për 2.5/3.5\", e bardhë, për Dark Base 901/701/Shadow Base 800",
+      "catalogueProductId": "pcstore-be-quiet-dark-shadow-base-800-fx-rgb",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:57.112Z",
+      "updatedAt": "2026-04-30T16:50:57.112Z"
     }
   }
 }
