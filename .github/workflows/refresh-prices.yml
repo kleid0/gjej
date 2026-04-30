@@ -1,9 +1,16 @@
-name: Refresh Prices (on-demand)
+name: Refresh Prices
 
-# Manually triggers the daily /api/cron/refresh-prices endpoint. Useful
-# after seeding the DB (when the products table has rows but no prices
-# yet) or to force a fresh snapshot without waiting for the 06:00 UTC
-# cron. Bearer-authed with CRON_SECRET.
+# Walks the entire price-refresh catalogue by calling
+# /api/cron/refresh-prices repeatedly with ?startIndex=N until the
+# response says remaining=0. Replaces the Vercel-side self-chain that
+# proved unreliable under the new JSON-as-DB regime: each Vercel
+# invocation is a 5-min black box, while a GitHub Actions job has a
+# 6-hour budget and gives us per-batch logs.
+#
+# Triggers:
+#   - workflow_dispatch (manual): customisable starting index + base URL.
+#   - schedule (daily 06:00 UTC): mirrors the old Vercel cron timing.
+# CRON_SECRET must be configured as a repo secret.
 
 on:
   workflow_dispatch:
@@ -12,29 +19,103 @@ on:
         description: "Site base URL"
         required: false
         default: "https://gjej.vercel.app"
+      start_index:
+        description: "Index to resume from (default 0)"
+        required: false
+        default: "0"
+  schedule:
+    - cron: "0 6 * * *"
+
+# Don't pile up overlapping price-refresh runs (e.g. a manual dispatch
+# while the daily cron is mid-walk). The newer one waits, the older one
+# finishes naturally.
+concurrency:
+  group: refresh-prices
+  cancel-in-progress: false
 
 jobs:
   refresh:
-    name: Run refresh-prices
+    name: Walk catalogue
     runs-on: ubuntu-latest
+    timeout-minutes: 350  # ~6h GHA cap minus a safety margin
     steps:
-      - name: GET /api/cron/refresh-prices
+      - name: Loop /api/cron/refresh-prices until remaining=0
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
-          BASE_URL: ${{ inputs.base_url }}
+          BASE_URL: ${{ inputs.base_url || 'https://gjej.vercel.app' }}
+          START_INDEX: ${{ inputs.start_index || '0' }}
         run: |
           set -eu
           if [ -z "${CRON_SECRET:-}" ]; then
             echo "::error::CRON_SECRET secret is not set on the repository."
             exit 1
           fi
-          url="${BASE_URL}/api/cron/refresh-prices"
-          echo "Requesting: ${url}"
-          # Route has maxDuration=300 (5min). Give curl a little headroom
-          # and still print whatever response came back.
-          curl -LsS --fail-with-body \
-            --max-time 310 \
-            -H "Authorization: Bearer ${CRON_SECRET}" \
-            -H "User-Agent: gjej-refresh-prices/1.0" \
-            -w "\nHTTP_STATUS=%{http_code}\n" \
-            "${url}"
+
+          start_index="${START_INDEX}"
+          # Hard upper bound on iterations: 20k catalogue / 80 batch ≈ 250.
+          # 400 leaves headroom for catalogue growth, well below an infinite
+          # loop. If we ever hit it the endpoint isn't advancing — fail loudly.
+          max_iters=400
+          iter=0
+          total_refreshed=0
+          total_errors=0
+
+          while :; do
+            iter=$((iter + 1))
+            if [ "${iter}" -gt "${max_iters}" ]; then
+              echo "::error::Exceeded ${max_iters} iterations (last startIndex=${start_index}). Endpoint likely not advancing."
+              exit 1
+            fi
+
+            url="${BASE_URL}/api/cron/refresh-prices?startIndex=${start_index}"
+            echo "[iter ${iter}] GET ${url}"
+
+            body_file="$(mktemp)"
+            http_status="$(curl -LsS \
+              --max-time 310 \
+              -H "Authorization: Bearer ${CRON_SECRET}" \
+              -H "User-Agent: gjej-refresh-prices/2.0" \
+              -o "${body_file}" \
+              -w "%{http_code}" \
+              "${url}" || echo "000")"
+
+            echo "  HTTP ${http_status}"
+            if [ "${http_status}" != "200" ]; then
+              echo "::error::Non-200 response (status=${http_status}) at startIndex=${start_index}."
+              echo "  body:"
+              head -c 4096 "${body_file}" || true
+              echo
+              exit 1
+            fi
+
+            # Parse the JSON shape returned by the route handler.
+            refreshed="$(jq -r '.refreshed // 0' "${body_file}")"
+            errors="$(jq -r '.errors // 0' "${body_file}")"
+            next_index="$(jq -r '.nextIndex // empty' "${body_file}")"
+            remaining="$(jq -r '.remaining // empty' "${body_file}")"
+            total="$(jq -r '.total // empty' "${body_file}")"
+            commit_sha="$(jq -r '.commitSha // empty' "${body_file}")"
+            rm -f "${body_file}"
+
+            total_refreshed=$((total_refreshed + refreshed))
+            total_errors=$((total_errors + errors))
+            echo "  refreshed=${refreshed} errors=${errors} nextIndex=${next_index} remaining=${remaining} commit=${commit_sha:-none}"
+
+            if [ -z "${next_index}" ] || [ -z "${remaining}" ]; then
+              echo "::error::Response missing nextIndex/remaining; cannot continue safely."
+              exit 1
+            fi
+
+            # Guard against an unmoving cursor (shouldn't happen, but if the
+            # catalogue read returned empty we'd loop forever).
+            if [ "${next_index}" = "${start_index}" ] && [ "${remaining}" -gt 0 ]; then
+              echo "::error::nextIndex did not advance from ${start_index} but remaining=${remaining}. Bailing."
+              exit 1
+            fi
+
+            start_index="${next_index}"
+            if [ "${remaining}" -le 0 ]; then
+              echo "Done. total=${total} refreshed=${total_refreshed} errors=${total_errors} iterations=${iter}"
+              break
+            fi
+          done
