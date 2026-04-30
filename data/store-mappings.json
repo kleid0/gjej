@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T17:10:34.044Z",
+  "updatedAt": "2026-04-30T17:11:25.698Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -13172,12 +13172,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300186619/Set-LEGO-Marvel-76309-Spider-Man-vs.-Venom-Muscle-Car",
       "storeProductName": "Set LEGO Marvel 76309 Spider-Man vs. Venom Muscle Car",
-      "catalogueProductId": "albagame-lego-marvel-spider-man-car-vs-venomized-wolverine-76336",
+      "catalogueProductId": "albagame-figure-spider-man-vs-venom-venom",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-30T17:04:41.992Z",
-      "updatedAt": "2026-04-30T17:08:18.654Z"
+      "updatedAt": "2026-04-30T17:11:15.814Z"
     },
     "neptun:/categories/LEGO-MARVEL-SPIDER-MAN-VS--SANDMAN-76280-PL4817": {
       "storeId": "neptun",
@@ -15059,6 +15059,39 @@
       "status": "pending",
       "createdAt": "2026-04-30T17:10:28.286Z",
       "updatedAt": "2026-04-30T17:10:34.044Z"
+    },
+    "foleja:/ALL-200001528/Set-lodrash-LEGO-Sonic-the-Hedgehog-30676-Kiki-and-Coconut-Attack-42-pjese": {
+      "storeId": "foleja",
+      "storeProductId": "/ALL-200001528/Set-lodrash-LEGO-Sonic-the-Hedgehog-30676-Kiki-and-Coconut-Attack-42-pjese",
+      "storeProductName": "Set lodrash LEGO Sonic the Hedgehog 30676 Kiki and Coconut Attack, 42 pjesë",
+      "catalogueProductId": "albagame-figure-sonic-the-hedgehog-30th-anniversary",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:11:15.814Z",
+      "updatedAt": "2026-04-30T17:11:15.814Z"
+    },
+    "foleja:/LBR-200000104/Krevat-Duchess-per-dyshek-160x200cm-ngjyre-antracit-220.5x181x135": {
+      "storeId": "foleja",
+      "storeProductId": "/LBR-200000104/Krevat-Duchess-per-dyshek-160x200cm-ngjyre-antracit-220.5x181x135",
+      "storeProductName": "Krevat Duchess për dyshek 160x200cm, ngjyrë antracit, 220.5x181x135",
+      "catalogueProductId": "albagame-chess",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:11:18.802Z",
+      "updatedAt": "2026-04-30T17:11:18.802Z"
+    },
+    "foleja:/ACN-300186696/Set-LEGO-Marvel-76314-Captain-America-Civil-War-Battle": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300186696/Set-LEGO-Marvel-76314-Captain-America-Civil-War-Battle",
+      "storeProductName": "Set LEGO Marvel 76314 Captain America: Civil War Battle",
+      "catalogueProductId": "albagame-puzzle-marvel-captain-america-xxl-100-pcs",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:11:25.698Z",
+      "updatedAt": "2026-04-30T17:11:25.698Z"
     }
   }
 }
