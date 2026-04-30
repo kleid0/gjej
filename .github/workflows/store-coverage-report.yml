@@ -10,6 +10,9 @@ name: Store Coverage Report
 #   - schedule (daily 08:30 UTC): runs ~2.5h after the Vercel price-refresh
 #     cron at 06:00 UTC, by which point the self-chaining refresh has
 #     normally walked the whole catalogue. Uses the dispatch defaults.
+#   - push to main on .github/triggers/store-coverage.txt: lets a Claude
+#     session re-run the report on demand by bumping that sentinel file
+#     via the GitHub MCP create_or_update_file tool.
 # CRON_SECRET must be configured as a repo secret.
 
 on:
@@ -32,6 +35,14 @@ on:
     # self-chaining loop normally finishes the whole catalogue inside 90 min,
     # so 2.5 h gives comfortable headroom on slow days.
     - cron: "30 8 * * *"
+  push:
+    branches: [main]
+    # Sentinel file used as an on-demand trigger: any commit that updates
+    # this file (e.g. via the GitHub MCP `create_or_update_file` from a
+    # Claude session) re-runs the report. Path-scoped so unrelated pushes
+    # to main don't fire it.
+    paths:
+      - ".github/triggers/store-coverage.txt"
 
 permissions:
   contents: write
