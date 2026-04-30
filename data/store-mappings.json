@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T18:01:10.329Z",
+  "updatedAt": "2026-04-30T18:02:01.158Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -225,12 +225,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PC-HP-AIO-ProOne-240-G10-PC1813",
       "storeProductName": "PC HP AIO ProOne 240 G10 A55A3ET",
-      "catalogueProductId": "pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-n200",
+      "catalogueProductId": "neptun-28683",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:27.759Z",
-      "updatedAt": "2026-04-30T16:58:25.065Z"
+      "updatedAt": "2026-04-30T18:01:34.022Z"
     },
     "foleja:/ERG-200004014/Celular-Samsung-Galaxy-A17-8GB-256GB-5G-gri": {
       "storeId": "foleja",
@@ -1633,12 +1633,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PC-HP-AIO-27-CR1015NA-C4DN0EA-PC1828",
       "storeProductName": "PC HP AIO 27-CR1015NA C4DN0EA",
-      "catalogueProductId": "shpresa-hp-aio-27-cr1015na-27-16gb-512gb-ssd-core-ultra-5",
+      "catalogueProductId": "neptun-30150",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:57:00.707Z",
-      "updatedAt": "2026-04-30T15:57:00.707Z"
+      "updatedAt": "2026-04-30T18:01:34.022Z"
     },
     "foleja:/THM-200003258/Altoparlant-portabel-Bluetooth-Sony-SRS-XB100-16-ore-bateri-IP67-portokalli": {
       "storeId": "foleja",
@@ -1787,23 +1787,23 @@
       "storeId": "foleja",
       "storeProductId": "/HRT-200012524/Folie-Paper-Feeling-per-tablet-Samsung-Galaxy-Tab-A9-3mk-Protection-2-cope-mat",
       "storeProductName": "Folie Paper Feeling për tablet Samsung Galaxy Tab A9, 3mk Protection, 2 copë, mat",
-      "catalogueProductId": "neptun-24194",
+      "catalogueProductId": "shpresa-samsung-galaxy-tab-a9-11-2023",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T15:57:22.970Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
+      "updatedAt": "2026-04-30T16:03:03.884Z"
     },
     "neptun:/categories/SAMSUNG-GALAXY-TAB-A9--WIFI-64GB-GRAY-TB0656": {
       "storeId": "neptun",
       "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A9--WIFI-64GB-GRAY-TB0656",
       "storeProductName": "SAMSUNG GALAXY TAB A9+ WIFI 64GB GRAY",
-      "catalogueProductId": "neptun-24194",
+      "catalogueProductId": "shpresa-samsung-galaxy-tab-a9-11-2023",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:57:22.970Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
+      "updatedAt": "2026-04-30T16:03:03.884Z"
     },
     "neptun:/categories/PS5-DualSense-Charging-Station-PL2069": {
       "storeId": "neptun",
@@ -2073,34 +2073,34 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
       "storeProductName": "Kompjuter AIO Lenovo IdeaCentre AIO 24IRH9, 24\", Intel Core i5, 16GB RAM, 1TB SSD",
-      "catalogueProductId": "shpresa-pc-lenovo-aio-ideacentre-3-24alc6-23-8%e2%80%b3-16gb-512gb-ssd-amd-ryzen-7-2",
+      "catalogueProductId": "neptun-20733",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:42.991Z",
-      "updatedAt": "2026-04-30T17:52:39.833Z"
+      "updatedAt": "2026-04-30T18:01:34.022Z"
     },
     "shpresa:170865": {
       "storeId": "shpresa",
       "storeProductId": "170865",
       "storeProductName": "Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7",
-      "catalogueProductId": "shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-1tb-ssd-core-5",
+      "catalogueProductId": "neptun-19200",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:42.991Z",
-      "updatedAt": "2026-04-30T15:58:42.991Z"
+      "updatedAt": "2026-04-30T18:01:34.022Z"
     },
     "neptun:/categories/PC-LENOVO-AIO-IDEACENTRE-3-27ITL6-PC1529": {
       "storeId": "neptun",
       "storeProductId": "/categories/PC-LENOVO-AIO-IDEACENTRE-3-27ITL6-PC1529",
       "storeProductName": "PC AIO LENOVO IDEACENTRE 27ITL6",
-      "catalogueProductId": "globe-75093",
+      "catalogueProductId": "neptun-19200",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:42.991Z",
-      "updatedAt": "2026-04-30T16:38:04.244Z"
+      "updatedAt": "2026-04-30T18:01:34.022Z"
     },
     "foleja:/YLL-200007993/Amazon-Fire-TV-Stick-HD-Alexa-me-telekomande": {
       "storeId": "foleja",
@@ -2260,23 +2260,23 @@
       "storeId": "neptun",
       "storeProductId": "/categories/MONITOR-XIAOMI-A24i-100Hz-MO0977",
       "storeProductName": "MONITOR XIAOMI A24i 100Hz",
-      "catalogueProductId": "shpresa-xiaomi-monitor-a24i-23-8%e2%80%b3",
+      "catalogueProductId": "neptun-31109",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:59.817Z",
-      "updatedAt": "2026-04-30T15:58:59.817Z"
+      "updatedAt": "2026-04-30T18:01:38.841Z"
     },
     "foleja:/ERG-200004765/Smartwatch-Apple-Watch-Ultra-3-Cellular-49mm-blu": {
       "storeId": "foleja",
       "storeProductId": "/ERG-200004765/Smartwatch-Apple-Watch-Ultra-3-Cellular-49mm-blu",
       "storeProductName": "Smartwatch Apple Watch Ultra 3 Cellular 49mm blu",
-      "catalogueProductId": "neptun-29464",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3-ocean-band",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:59.817Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
+      "updatedAt": "2026-04-30T17:51:55.556Z"
     },
     "neptun:/categories/Apple-Watch-Ultra-3-Blk--Titan-Milanese-Loop-L-SM0251": {
       "storeId": "neptun",
@@ -2304,12 +2304,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200056795/Kompjuter-Lenovo-ThinkPad-E16-G3-Ryzen-5-32GB-1TB-SSD-zi",
       "storeProductName": "Kompjuter Lenovo ThinkPad E16 G3 Ryzen 5 32GB 1TB SSD, zi",
-      "catalogueProductId": "neptun-30231",
+      "catalogueProductId": "shpresa-lenovo-thinkpad-e14-g3-14-16gb-512gb-ssd-ryzen-5",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T15:59:03.351Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
+      "updatedAt": "2026-04-30T15:59:03.351Z"
     },
     "foleja:/KST-200045849/Karte-memorie-SanDisk-Ultra-32GB-microSDHC-Class-10-UHS-I-gri-kuqe": {
       "storeId": "foleja",
@@ -2469,23 +2469,23 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200017585/Laptop-Lenovo-V17-G4-IRU-i5-13420H-16GB-512SSD-Iron-Grey",
       "storeProductName": "Laptop Lenovo V17 G4 IRU i5 13420H 16GB 512SSD Iron Grey",
-      "catalogueProductId": "neptun-28861",
+      "catalogueProductId": "shpresa-lenovo-v15-g4-15-6-8gb-512gb-ssd-ryzen-5",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T16:01:08.107Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
+      "updatedAt": "2026-04-30T16:01:08.107Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-V15-G4-IRU---CANTE-LP2055": {
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-LENOVO-V15-G4-IRU---CANTE-LP2055",
       "storeProductName": "LAPTOP LENOVO V15 G4 IRU + CANTE",
-      "catalogueProductId": "neptun-28861",
+      "catalogueProductId": "pcstore-lenovo-v15-g4-notebook-pc-i5-13420h-2",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:01:08.107Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
+      "updatedAt": "2026-04-30T16:51:44.932Z"
     },
     "foleja:/KST-200057752/Tablet-Amazon-Fire-HD-8-Kids-32GB-WiFi-kalter": {
       "storeId": "foleja",
@@ -2502,12 +2502,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/TABLET-XIAOMI-REDMI-PAD-2-128GB-GRAPHITE-GRAY-TB0755",
       "storeProductName": "TABLET XIAOMI REDMI PAD 2 128GB GRAPHITE GRAY",
-      "catalogueProductId": "neptun-30302",
+      "catalogueProductId": "foleja-tablet-xiaomi-redmi-pad-2-pro-12-1-inch-6-128gb-wifi-gri-me-smartpen",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:01:15.095Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
+      "updatedAt": "2026-04-30T17:53:32.701Z"
     },
     "neptun:/categories/MOUSE-MARATHON-M705-WIRELESS-CHARCOAL-MS0962": {
       "storeId": "neptun",
@@ -3327,23 +3327,23 @@
       "storeId": "shpresa",
       "storeProductId": "124550",
       "storeProductName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
-      "catalogueProductId": "neptun-24194",
+      "catalogueProductId": "foleja-tablet-samsung-galaxy-tab-s10-fe-13-1-8gb-128gb-gri",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:06:27.809Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
+      "updatedAt": "2026-04-30T17:52:54.089Z"
     },
     "neptun:/categories/SAMSUNG-GALAXY-TAB-S6-LITE-LTE-64GB-GRAY-TB0594": {
       "storeId": "neptun",
       "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S6-LITE-LTE-64GB-GRAY-TB0594",
       "storeProductName": "SAMSUNG GALAXY TAB S6 LITE LTE 64GB GRAY",
-      "catalogueProductId": "neptun-20358",
+      "catalogueProductId": "foleja-s-pen-samsung-galaxy-tab-s6-lite-gri",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:06:27.809Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
+      "updatedAt": "2026-04-30T16:06:27.809Z"
     },
     "shpresa:143755": {
       "storeId": "shpresa",
@@ -3448,12 +3448,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/Laptop-Xiaomi--RedmiBook-14--LP1694",
       "storeProductName": "Laptop Xiaomi  RedmiBook 14?",
-      "catalogueProductId": "neptun-17255",
+      "catalogueProductId": "foleja-xham-mbrojt-s-3mk-hardglass-max-lite-p-r-xiaomi-14",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:08:16.331Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
+      "updatedAt": "2026-04-30T16:08:21.682Z"
     },
     "shpresa:148159": {
       "storeId": "shpresa",
@@ -3712,12 +3712,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-DELL-MOBILE-PRECISION-3470-LP1805",
       "storeProductName": "LAPTOP DELL MOBILE PRECISION 3470",
-      "catalogueProductId": "neptun-25371",
+      "catalogueProductId": "foleja-karikues-green-cell-pro-p-r-laptop-dell-precision",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:10:43.618Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
+      "updatedAt": "2026-04-30T16:10:43.618Z"
     },
     "shpresa:136636": {
       "storeId": "shpresa",
@@ -4911,12 +4911,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LENOVO-TABLET-TAB-M8-4G-LTE-3-32GB-ARCTIC-GRAY-TB0679",
       "storeProductName": "LENOVO TABLET TAB M8 4G LTE 3/32GB ARCTIC GRAY",
-      "catalogueProductId": "neptun-25624",
+      "catalogueProductId": "globe-71624",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
+      "updatedAt": "2026-04-30T16:27:59.558Z"
     },
     "globe:71624": {
       "storeId": "globe",
@@ -4955,12 +4955,12 @@
       "storeId": "globe",
       "storeProductId": "71635",
       "storeProductName": "Tablet Samsung Galaxy Tab A7 Lite SM-T225N 8.7\" LTE Grey SO",
-      "catalogueProductId": "neptun-17953",
+      "catalogueProductId": "globe-71635",
       "matchMethod": "name_match",
-      "confidence": 71,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
+      "updatedAt": "2026-04-30T16:27:59.558Z"
     },
     "globe:71639": {
       "storeId": "globe",
@@ -5087,12 +5087,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200003613/Tablet-Samsung-Galaxy-Tab-Active5-Wi-Fi-8-128GB-6GB-Android-14-gjelber",
       "storeProductName": "Tablet Samsung Galaxy Tab Active5 Wi-Fi 8\" 128GB 6GB Android 14 gjelbër",
-      "catalogueProductId": "neptun-8854",
+      "catalogueProductId": "globe-71722",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:28:12.408Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
+      "updatedAt": "2026-04-30T16:28:12.408Z"
     },
     "foleja:/KST-200027133/Rrip-stofi-Samsung-Galaxy-Watch-7-S-M-roze-bardhe": {
       "storeId": "foleja",
@@ -6693,12 +6693,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/Apple-iMac-24--M3---Silver-256GB-mqr93ze-a-PC1645",
       "storeProductName": "Apple iMac 24\" M3 - Silver 256GB mqr93ze/a",
-      "catalogueProductId": "globe-74440",
+      "catalogueProductId": "neptun-23917",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:35:57.496Z",
-      "updatedAt": "2026-04-30T16:35:57.496Z"
+      "updatedAt": "2026-04-30T18:01:38.841Z"
     },
     "foleja:/KST-200019759/Mikser-dore-Tefal-Prep-Mix-HT450B-450-W-i-bardhe": {
       "storeId": "foleja",
@@ -7012,34 +7012,34 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-HP-255-G9-AK9Z9AT-LP2042",
       "storeProductName": "LAPTOP HP 255 G9 AK9Z9AT",
-      "catalogueProductId": "neptun-28692",
+      "catalogueProductId": "globe-75415",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:38:02.007Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
+      "updatedAt": "2026-04-30T16:39:55.429Z"
     },
     "foleja:/KST-200061048/Kompjuter-Lenovo-IdeaPad-Slim-3-15IRH10-i5-16GB-1TB-SSD-Luna-Grey": {
       "storeId": "foleja",
       "storeProductId": "/KST-200061048/Kompjuter-Lenovo-IdeaPad-Slim-3-15IRH10-i5-16GB-1TB-SSD-Luna-Grey",
       "storeProductName": "Kompjuter Lenovo IdeaPad Slim 3 15IRH10, i5, 16GB, 1TB SSD, Luna Grey",
-      "catalogueProductId": "neptun-28675",
+      "catalogueProductId": "globe-75396",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:38:02.007Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
+      "updatedAt": "2026-04-30T16:39:49.446Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-5-14IRH10R-83J0006ARM-LP2044": {
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-5-14IRH10R-83J0006ARM-LP2044",
       "storeProductName": "LAPTOP LENOVO IDEAPAD SLIM 5 14IRH10R 83J0006ARM",
-      "catalogueProductId": "neptun-28675",
+      "catalogueProductId": "globe-75396",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:38:02.007Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
+      "updatedAt": "2026-04-30T16:39:49.446Z"
     },
     "foleja:/YLL-200006058/Fshese-robotike-iRobot-Roomba-j9-i-zi": {
       "storeId": "foleja",
@@ -7056,12 +7056,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PC-LENOVO-AIO-A100-23-8--F0J6005WRI-PC1812",
       "storeProductName": "PC AIO LENOVO A100 23.8\" F0J6005WRI",
-      "catalogueProductId": "globe-75092",
+      "catalogueProductId": "neptun-28682",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:38:04.244Z",
-      "updatedAt": "2026-04-30T16:38:04.244Z"
+      "updatedAt": "2026-04-30T18:01:24.485Z"
     },
     "neptun:/categories/PRINTER-HP-LASERJET-MFP-M236dw-PI0548": {
       "storeId": "neptun",
@@ -7331,12 +7331,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-HP-250-G10-AD1V9ET-LP2097",
       "storeProductName": "LAPTOP HP 250 G10 AD1V9ET",
-      "catalogueProductId": "neptun-30387",
+      "catalogueProductId": "pcstore-hp-250-g10-notebook-pc-i5-1334u",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:39:55.429Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
+      "updatedAt": "2026-04-30T16:55:58.586Z"
     },
     "shpresa:172019": {
       "storeId": "shpresa",
@@ -8442,12 +8442,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PC-HP-AiO-ProOne-240-G10-B70VFAT-PC1826",
       "storeProductName": "PC HP AiO ProOne 240 G10 B70VFAT",
-      "catalogueProductId": "globe-24979",
+      "catalogueProductId": "neptun-30148",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:19.682Z",
-      "updatedAt": "2026-04-30T16:49:19.682Z"
+      "updatedAt": "2026-04-30T18:01:24.485Z"
     },
     "foleja:/ERG-200004962/Celular-Apple-iPhone-17-Pro-Max-2TB-Deep-Blue": {
       "storeId": "foleja",
@@ -8541,12 +8541,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-DELL-VOSTRO-3530-N1601PVNB3530EMEA01-LP2048",
       "storeProductName": "LAPTOP DELL VOSTRO 3530 N1601PVNB3530EMEA01",
-      "catalogueProductId": "neptun-28679",
+      "catalogueProductId": "albagame-notebook-15-6-dell-vostro-3530-fhd-1920x1080p-120hz-ips-250cd-m-intel-core-i3-1305u-5c-1p-4e-6t-up-to-4-5ghz-8gb-3200mhz-ddr4-256gb-pcie-m-2-nvme-ssd-uhd-graphics-wifi-bt-free-dos-black-210-bglw-3y",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:23.666Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
+      "updatedAt": "2026-04-30T17:20:41.150Z"
     },
     "foleja:/ALL-200000262/Printer-Canon-Inkjet-PIXMA-TS3550i-Wi-Fi-e-zeze": {
       "storeId": "foleja",
@@ -8618,12 +8618,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200061063/Kompjuter-Lenovo-V15-G5-i7-13620H-16GB-512GB-FHD-Business-Black",
       "storeProductName": "Kompjuter Lenovo V15 G5 i7-13620H 16GB 512GB FHD Business Black",
-      "catalogueProductId": "neptun-29935",
+      "catalogueProductId": "pcstore-lenovo-v15-g5-notebook-pc-i3-1315u",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:27.119Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
+      "updatedAt": "2026-04-30T16:49:27.119Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-V15-G5-IRL-83GW007URI-LP2140": {
       "storeId": "neptun",
@@ -8673,12 +8673,12 @@
       "storeId": "foleja",
       "storeProductId": "/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi",
       "storeProductName": "Monitor, Samsung, ViewFinity S70D LS27D700EAUXEN, 27 inç, zi",
-      "catalogueProductId": "pcstore-samsung-monitor-viewfinity-s7-s70d-31-5-4k",
+      "catalogueProductId": "neptun-26785",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:39.173Z",
-      "updatedAt": "2026-04-30T16:50:04.477Z"
+      "updatedAt": "2026-04-30T18:02:01.158Z"
     },
     "foleja:/ACN-300053259/Disk-SSD-Kioxia-Exceria-2.5-serie-ATA-III-TLC-960GB": {
       "storeId": "foleja",
@@ -8805,12 +8805,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-HP-PROBOOK-460-G11-A23BCEA-LP2100",
       "storeProductName": "LAPTOP HP PROBOOK 460 G11 A23BCEA",
-      "catalogueProductId": "neptun-30391",
+      "catalogueProductId": "pcstore-hp-probook-460-g11-intel-core-ultra-5-125u",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:58.520Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
+      "updatedAt": "2026-04-30T16:50:22.152Z"
     },
     "foleja:/ACN-300256678/Kartele-grafike-MSI-GeForce-RTX-5070-GAMING-TRIO-OC-12-GB-GDDR7-e-zeze": {
       "storeId": "foleja",
@@ -9751,12 +9751,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-PRO-5-16IAH10-LP2062",
       "storeProductName": "LAPTOP LENOVO IDEAPAD PRO 5 16IAH10",
-      "catalogueProductId": "neptun-30215",
+      "catalogueProductId": "pcstore-lenovo-ideapad-pro-5-14%e2%80%b3-intel-ultra-7-255h",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:52:18.957Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
+      "updatedAt": "2026-04-30T16:52:18.957Z"
     },
     "foleja:/KST-200065234/Laptop-Samsung-Galaxy-Book4-Core-i5-120U-16GB-512GB-gri": {
       "storeId": "foleja",
@@ -9850,12 +9850,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-HP-250R-G9-AD2Q1ET-LP2098",
       "storeProductName": "LAPTOP HP 250R G9 AD2Q1ET",
-      "catalogueProductId": "neptun-30389",
+      "catalogueProductId": "pcstore-hp-250r-g9-notebook-pc-core-ultra-5-120u-10c",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:52:23.562Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
+      "updatedAt": "2026-04-30T16:52:23.562Z"
     },
     "foleja:/YLL-200004197/Kase-kompjuteri-Cooler-Master-MasterBox-520-Mesh-e-bardhe": {
       "storeId": "foleja",
@@ -10367,12 +10367,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300311092/Kase-All-in-One-Lenovo-IdeaCentre-AIO-24IRH9-Intel-Core-i3-1315U-8-GB-RAM-512-GB-SSD-23.8-Gri",
       "storeProductName": "Kasë All-in-One Lenovo IdeaCentre AIO 24IRH9, Intel Core i3-1315U, 8 GB RAM, 512 GB SSD, 23.8\", Gri",
-      "catalogueProductId": "pcstore-lenovo-ideacentre-pc-core-i7-13620h-32-1tb",
+      "catalogueProductId": "neptun-30200",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:53:46.882Z",
-      "updatedAt": "2026-04-30T16:53:46.882Z"
+      "updatedAt": "2026-04-30T18:01:24.485Z"
     },
     "foleja:/KST-200016354/Hard-disk-Western-Digital-Ultrastar-DC-HC580-22-TB-7200-RPM-3.5-Serial-ATA": {
       "storeId": "foleja",
@@ -11016,12 +11016,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/MONITOR-HP-SERIES-5-527SW-27--94F46E9-MO0860",
       "storeProductName": "MONITOR HP SERIES 5 527SW 27\" 94F46E9",
-      "catalogueProductId": "pcstore-hp-monitor-5-527sw-27-white",
+      "catalogueProductId": "neptun-26950",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:55:46.942Z",
-      "updatedAt": "2026-04-30T16:55:46.942Z"
+      "updatedAt": "2026-04-30T18:01:56.485Z"
     },
     "neptun:/categories/SanDisk-ImageMate-PRO-USB-C-Reader-Writer-FL1249": {
       "storeId": "neptun",
@@ -11038,12 +11038,12 @@
       "storeId": "globe",
       "storeProductId": "71856",
       "storeProductName": "Laptop HP NoteBook 250 G10 AK9P6AT",
-      "catalogueProductId": "neptun-31107",
+      "catalogueProductId": "pcstore-hp-250-g10-notebook-pc-i5-1334u",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T16:55:58.586Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
+      "updatedAt": "2026-04-30T16:55:58.586Z"
     },
     "shpresa:107711": {
       "storeId": "shpresa",
@@ -11071,12 +11071,12 @@
       "storeId": "foleja",
       "storeProductId": "/AXR-200005148/Monitor-Dell-E2425HM-210-BRDN-i-zi",
       "storeProductName": "Monitor, Dell, E2425HM 210-BRDN, i zi",
-      "catalogueProductId": "pcstore-dell-monitor-23-8-e2425h",
+      "catalogueProductId": "neptun-21470",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:11.329Z",
-      "updatedAt": "2026-04-30T16:56:11.329Z"
+      "updatedAt": "2026-04-30T18:01:43.573Z"
     },
     "foleja:/ACN-300264686/Monitor-Dell-E2725HM-27-Full-HD-LCD-i-zi": {
       "storeId": "foleja",
@@ -11137,23 +11137,23 @@
       "storeId": "shpresa",
       "storeProductId": "187114",
       "storeProductName": "Lenovo ThinkPad E16 Gen 2, 16″ Touchscreen, 16GB, 512GB SSD, Core™ Ultra 7",
-      "catalogueProductId": "neptun-30231",
+      "catalogueProductId": "foleja-laptop-lenovo-thinkpad-e16-16-amd-ryzen-5-16gb-ram-512-gb-ssd-amd-radeon-graphic",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:17.437Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
+      "updatedAt": "2026-04-30T17:56:19.253Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-THINKPAD-E16-GEN-2-LP2030": {
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-LENOVO-THINKPAD-E16-GEN-2-LP2030",
       "storeProductName": "LAPTOP LENOVO THINKPAD E16 GEN 2",
-      "catalogueProductId": "neptun-28579",
+      "catalogueProductId": "foleja-laptop-lenovo-thinkpad-e16-16-amd-ryzen-5-16gb-ram-512-gb-ssd-amd-radeon-graphic",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:17.437Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
+      "updatedAt": "2026-04-30T17:56:19.253Z"
     },
     "neptun:/categories/BOXE-LOGITECH-Z533-2-1-BLACK": {
       "storeId": "neptun",
@@ -11434,12 +11434,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-LENOVO-THINKBOOK-16-G8-IAL-21SK007YRI-LP2084",
       "storeProductName": "LAPTOP LENOVO THINKBOOK 16 G8 IAL 21SK007YRI",
-      "catalogueProductId": "neptun-30196",
+      "catalogueProductId": "pcstore-lenovo-thinkbook-16-g8-16-intel-core-ultra-7-255h",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:57:21.111Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
+      "updatedAt": "2026-04-30T16:57:21.111Z"
     },
     "neptun:/categories/MOUSE-LOGITECH-M90-WIRED-USB-BLACK-MS0853": {
       "storeId": "neptun",
@@ -14569,12 +14569,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/Apple-iMac-24--M3---Pink-256GB-mqrd3ze-a-PC1647",
       "storeProductName": "Apple iMac 24\" M3 - Pink 256GB mqrd3ze/a",
-      "catalogueProductId": "foleja-tablet-ipad-apple-11-128gb-silver",
+      "catalogueProductId": "neptun-23919",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:08:34.338Z",
-      "updatedAt": "2026-04-30T17:37:52.880Z"
+      "updatedAt": "2026-04-30T18:01:38.841Z"
     },
     "neptun:/categories/LOJE-PS5-HOGWARTS-LEGACY-PL3815": {
       "storeId": "neptun",
@@ -15702,23 +15702,23 @@
       "storeId": "shpresa",
       "storeProductId": "176206",
       "storeProductName": "Xiaomi Redmi Pad 2",
-      "catalogueProductId": "neptun-30302",
+      "catalogueProductId": "foleja-tablet-xiaomi-redmi-pad-2-pro-12-1-inch-6-128gb-wifi-gri-me-smartpen",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:16:29.777Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
+      "updatedAt": "2026-04-30T17:53:32.701Z"
     },
     "neptun:/categories/TABLET-XIAOMI-REDMI-PAD-SE-8-7--4G-GRAY-128GB-TB0701": {
       "storeId": "neptun",
       "storeProductId": "/categories/TABLET-XIAOMI-REDMI-PAD-SE-8-7--4G-GRAY-128GB-TB0701",
       "storeProductName": "TABLET XIAOMI REDMI PAD SE 8.7\" 4G GRAY 128GB",
-      "catalogueProductId": "neptun-27377",
+      "catalogueProductId": "albagame-tablet-11-xiaomi-redmi-pad-se-fhd-1920x1200p-207-ppi-400-cd-m-qualcomm-snapdragon-680-4gb-ram-lpddr4x-sdram-128gb-storage-android-13-camera-resolution-rear-front-8-2-2-mp-graphite-grey",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:16:29.777Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
+      "updatedAt": "2026-04-30T17:16:29.777Z"
     },
     "foleja:/ACN-300320331/Set-LEGO-Wednesday-Thing-s-Apartment-76785-828-pjese-per-femije-10": {
       "storeId": "foleja",
@@ -16065,12 +16065,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PC-HP-AIO-24-cb1307nh-PC1605",
       "storeProductName": "PC HP AIO 24-cb1307nh 796S7EA Touch",
-      "catalogueProductId": "albagame-aio-pc-23-8-hp-24-cb1307nh-23-8-fhd-touch-1920x1080p-ips-ag-intel-core-i5-1235u-10c-2p-8e-12t-up-to-4-4ghz-8gb-ram-1x8gb-3200mhz-ddr4-512gb-pcie-nvme-m-2-ssd",
+      "catalogueProductId": "neptun-21257",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:18:13.208Z",
-      "updatedAt": "2026-04-30T17:18:13.208Z"
+      "updatedAt": "2026-04-30T18:01:34.022Z"
     },
     "neptun:/categories/LOJE-PS4-EA-SPORTS-FC-25-PL4199": {
       "storeId": "neptun",
@@ -16252,12 +16252,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PC-HP-AIO-24-CR0012NH-93F49EA-PC1671",
       "storeProductName": "PC HP AIO 24-CR0012NH 93F49EA",
-      "catalogueProductId": "albagame-aio-pc-23-8-hp-24-cr0012nh-fhd-1920x1080p-ips-250nits-ag-99-srgb-intel-core-i5-1335u-10c-2p-8e-12t-up-to-4-6ghz-8gb-ram-3200mhz-ddr4-512gb-ssd-m-2-nvme-pcie-white-93f49ea",
+      "catalogueProductId": "neptun-24597",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:20:41.150Z",
-      "updatedAt": "2026-04-30T17:20:41.150Z"
+      "updatedAt": "2026-04-30T18:01:24.485Z"
     },
     "foleja:/KOM-200204316/Maus-Logitech-POP-ICON-Bluetooth-Grafit": {
       "storeId": "foleja",
@@ -17396,12 +17396,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-27IRH9-PC1799",
       "storeProductName": "PC AIO LENOVO IDEACENTRE 27IRH9",
-      "catalogueProductId": "albagame-aio-pc-27-fhd-lenovo-ideacentre-27irh9-intel-core-i5-13420h-16gb-ram-512gb-ssd-nvme",
+      "catalogueProductId": "neptun-28285",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:32:07.975Z",
-      "updatedAt": "2026-04-30T17:32:07.975Z"
+      "updatedAt": "2026-04-30T18:01:34.022Z"
     },
     "neptun:/categories/LOJE-PS4-PRINCE-OF-PERSIA-THE-LOST-CROWN-PL3999": {
       "storeId": "neptun",
@@ -17957,23 +17957,23 @@
       "storeId": "neptun",
       "storeProductId": "/categories/MONITOR-HP-V24ie-G5-6D8H0AA-MO0736",
       "storeProductName": "MONITOR HP V24ie G5 6D8H0AA",
-      "catalogueProductId": "shpresa-monitor-hp-v24i-24",
+      "catalogueProductId": "neptun-24138",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:34:49.773Z",
-      "updatedAt": "2026-04-30T17:52:32.812Z"
+      "updatedAt": "2026-04-30T18:01:43.573Z"
     },
     "neptun:/categories/MONITOR-HP-V24v-G5-65P62AA-MO0753": {
       "storeId": "neptun",
       "storeProductId": "/categories/MONITOR-HP-V24v-G5-65P62AA-MO0753",
       "storeProductName": "MONITOR HP V24v G5 65P62AA",
-      "catalogueProductId": "albagame-monitor-23-8-hp-v24v-fhd-1920x1080p-ips-250nits-ag-75hz-1x-vga-1x-hdmi-vesa-amd-freesync-black-65p62e9-1y",
+      "catalogueProductId": "neptun-24139",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:34:49.773Z",
-      "updatedAt": "2026-04-30T17:34:49.773Z"
+      "updatedAt": "2026-04-30T18:01:51.058Z"
     },
     "foleja:/KST-200044217/Switch-Cisco-Catalyst-IE3300-16-porta-Gigabit-i-zi": {
       "storeId": "foleja",
@@ -18529,12 +18529,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S11-ULTRA-256GB-GRAY-TB0744",
       "storeProductName": "SAMSUNG GALAXY TAB S11 ULTRA 256GB GRAY",
-      "catalogueProductId": "neptun-29670",
+      "catalogueProductId": "foleja-mbrojt-s-ekrani-anti-reflektues-samsung-tab-s11-ultra",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:37:52.880Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
+      "updatedAt": "2026-04-30T17:37:52.880Z"
     },
     "neptun:/categories/SAMSUNG-GALAXY-TAB-S10-FE-WIFI-128GB-SILVER-TB0717": {
       "storeId": "neptun",
@@ -19794,12 +19794,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/MacBook-Air-15-3''-M4-Starlight-256gb-mw1j3ze-a-LP2002",
       "storeProductName": "MacBook Air 15.3'' M4 Starlight 256gb mw1j3ze/a",
-      "catalogueProductId": "neptun-27496",
+      "catalogueProductId": "shpresa-apple-macbook-air-15-3-24gb-1tb-ssd-m5-2026",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:37.093Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
+      "updatedAt": "2026-04-30T17:51:37.093Z"
     },
     "neptun:/categories/Xiaomi--Mi-WiFi-Range-Extender-AC1200-EU-41335-PC1638": {
       "storeId": "neptun",
@@ -19827,12 +19827,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200025207/Laptop-ASUS-Vivobook-S-14-OLED-S5406SA-QD151W-Intel-Core-Ultra-7-16-GB-RAM-1-TB-Neutral-Black",
       "storeProductName": "Laptop ASUS Vivobook S 14 OLED S5406SA-QD151W, Intel Core Ultra 7, 16 GB RAM, 1 TB, Neutral Black",
-      "catalogueProductId": "neptun-21052",
+      "catalogueProductId": "shpresa-asus-vivobook-14-14-12gb-512gb-ssd-core-i7",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:40.677Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
+      "updatedAt": "2026-04-30T17:51:40.677Z"
     },
     "foleja:/INP-200006184/Filter-CPL-Freewell-per-DJI-Air-3S-i-zi": {
       "storeId": "foleja",
@@ -19926,12 +19926,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-HP-OMNIBOOK-5-FLIP-x360-14-FP0029NN-BX8A8EA-LP2052",
       "storeProductName": "LAPTOP HP OMNIBOOK 5 FLIP x360 14-FP0029NN BX8A8EA",
-      "catalogueProductId": "neptun-28852",
+      "catalogueProductId": "shpresa-hp-omnibook-x-flip-14-touchscreen-24gb-1tb-ssd-ryzen-ai-7",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:53.821Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
+      "updatedAt": "2026-04-30T17:51:53.821Z"
     },
     "foleja:/KST-200056029/Kase-Deepcool-CG580-4F-V2-Midi-Tower-xham-i-temperuar-RGB-e-zeze": {
       "storeId": "foleja",
@@ -19959,12 +19959,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/Apple-Watch-Ultra-3-Nat--Titan-Milanese-Loop-M-SM0261",
       "storeProductName": "Apple Watch Ultra 3?Nat. Titan-Milanese Loop M",
-      "catalogueProductId": "neptun-29475",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3-alpine-loop",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:55.556Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
+      "updatedAt": "2026-04-30T17:51:55.556Z"
     },
     "neptun:/categories/Apple-Watch-Ultra-3-Blk--Titan-Black-Ocean-Band-SM0259": {
       "storeId": "neptun",
@@ -20256,12 +20256,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/MICROSOFT-SURFACE-PRO-7--LP1770",
       "storeProductName": "MICROSOFT SURFACE PRO 7+",
-      "catalogueProductId": "neptun-19106",
+      "catalogueProductId": "foleja-tablet-microsoft-surface-pro-ultra5-16gb-256gb-win11pro-platinum",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:52:36.249Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
+      "updatedAt": "2026-04-30T17:57:16.637Z"
     },
     "neptun:/categories/SOUNDBAR-JBL-BAR-500-MK2-DV1139": {
       "storeId": "neptun",
@@ -20355,12 +20355,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-3-27ALC6-F0FY00PCRI-PC1815",
       "storeProductName": "PC AIO LENOVO IDEACENTRE 3 27ALC6 F0FY00PCRI",
-      "catalogueProductId": "shpresa-pc-lenovo-aio-ideacentre-3-24alc6-23-8%e2%80%b3-16gb-512gb-ssd-amd-ryzen-7-2",
+      "catalogueProductId": "neptun-28685",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:52:39.833Z",
-      "updatedAt": "2026-04-30T17:52:39.833Z"
+      "updatedAt": "2026-04-30T18:01:24.485Z"
     },
     "foleja:/ACN-300043555/Kabllo-USB-Gembird-3m-USB-2.0-A-B-M-e-zeza": {
       "storeId": "foleja",
@@ -20509,12 +20509,12 @@
       "storeId": "globe",
       "storeProductId": "184372",
       "storeProductName": "Laptop Apple MacBook Neo A18 Pro 13\" 512GB MHFC4ZE/A Silver",
-      "catalogueProductId": "foleja-kompjuter-apple-macbook-pro-16-m5-pro-24gb-1tb-space-black",
+      "catalogueProductId": "neptun-30984",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T17:53:44.037Z",
-      "updatedAt": "2026-04-30T17:53:44.037Z"
+      "updatedAt": "2026-04-30T18:01:24.485Z"
     },
     "globe:184377": {
       "storeId": "globe",
@@ -20938,12 +20938,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200005768/Kompjuter-Apple-MacBook-Neo-2026-13-A18-Pro-8-512GB-Silver",
       "storeProductName": "Kompjuter Apple MacBook Neo 2026, 13\", A18 Pro, 8/512GB, Silver",
-      "catalogueProductId": "neptun-31003",
+      "catalogueProductId": "globe-184372",
       "matchMethod": "name_match",
-      "confidence": 83,
+      "confidence": 86,
       "status": "pending",
       "createdAt": "2026-04-30T17:57:35.730Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
+      "updatedAt": "2026-04-30T17:57:35.730Z"
     },
     "foleja:/KST-200007008/Celular-Samsung-Galaxy-XCover7-6.6-6-128GB-5G-i-zi": {
       "storeId": "foleja",
@@ -21198,1842 +21198,907 @@
       "createdAt": "2026-04-30T17:57:55.209Z",
       "updatedAt": "2026-04-30T17:57:55.209Z"
     },
-    "globe:75260": {
-      "storeId": "globe",
-      "storeProductId": "75260",
-      "storeProductName": "Apple Watch Ultra 3 Cellular 49mm MF0J4QH/A Black Ocean Band",
-      "catalogueProductId": "neptun-29464",
-      "matchMethod": "name_match",
-      "confidence": 75,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "neptun:/categories/Apple-Watch-Ultra-3-Blk--Titan-Milanese-Loop-M-SM0252": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-Watch-Ultra-3-Blk--Titan-Milanese-Loop-M-SM0252",
-      "storeProductName": "Apple Watch Ultra 3?Blk. Titan-Milanese Loop M",
-      "catalogueProductId": "neptun-29464",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "shpresa:172884": {
-      "storeId": "shpresa",
-      "storeProductId": "172884",
-      "storeProductName": "Apple Watch Ultra 3",
-      "catalogueProductId": "neptun-29475",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "neptun:/categories/TELEFON-PHILIPS-M110B-GRS-TL3667": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TELEFON-PHILIPS-M110B-GRS-TL3667",
-      "storeProductName": "TELEFON PHILIPS M110B/GRS",
-      "catalogueProductId": "neptun-20115",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "neptun:/categories/Motorola-CT202-Black-TL3759": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Motorola-CT202-Black-TL3759",
-      "storeProductName": "Motorola CT202 Black",
-      "catalogueProductId": "neptun-20706",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "globe:71021": {
-      "storeId": "globe",
-      "storeProductId": "71021",
-      "storeProductName": "Bokse Bluetooth MOTOROLA ROKR 600 BLACK",
-      "catalogueProductId": "neptun-20706",
-      "matchMethod": "name_match",
-      "confidence": 67,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "foleja:/ACN-300311166/Monitor-Xiaomi-G27Qi-27-2K-IPS-180-Hz-i-zi": {
-      "storeId": "foleja",
-      "storeProductId": "/ACN-300311166/Monitor-Xiaomi-G27Qi-27-2K-IPS-180-Hz-i-zi",
-      "storeProductName": "Monitor Xiaomi G27Qi, 27\", 2K, IPS, 180 Hz, i zi",
-      "catalogueProductId": "neptun-25432",
-      "matchMethod": "name_match",
-      "confidence": 67,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "shpresa:46329": {
-      "storeId": "shpresa",
-      "storeProductId": "46329",
-      "storeProductName": "Xiaomi Mi LCD Writing Tablet 13.5&#8243;",
-      "catalogueProductId": "neptun-25432",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "neptun:/categories/TABLET-SHKRIMI-XIAOMI-MI-LCD-13-5--TB0497": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-SHKRIMI-XIAOMI-MI-LCD-13-5--TB0497",
-      "storeProductName": "TABLET SHKRIMI XIAOMI MI LCD 13.5\"",
-      "catalogueProductId": "neptun-18810",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "neptun:/categories/TABLET-SHKRIMI-XIAOMI-MI-LCD-13-5--ME-NGJYRA-TB0675": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-SHKRIMI-XIAOMI-MI-LCD-13-5--ME-NGJYRA-TB0675",
-      "storeProductName": "TABLET SHKRIMI XIAOMI MI LCD 13.5\" ME NGJYRA",
-      "catalogueProductId": "neptun-25432",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "neptun:/categories/TABLET-FUEGO-FGTB8-4-64GB-TB0721": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-FUEGO-FGTB8-4-64GB-TB0721",
-      "storeProductName": "TABLET FUEGO FGTB8 4+64GB",
-      "catalogueProductId": "neptun-27614",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "neptun:/categories/TABLET-FUEGO-FGTBK8-4-64GB-KIDS-BLUE-TB0719": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-FUEGO-FGTBK8-4-64GB-KIDS-BLUE-TB0719",
-      "storeProductName": "TABLET FUEGO FGTBK8 4+64GB KIDS BLUE",
-      "catalogueProductId": "neptun-27612",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "neptun:/categories/SAMSUNG-GALAXY-TAB-A7-LITE-WIFI-64GB-GRAY-TB0660": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A7-LITE-WIFI-64GB-GRAY-TB0660",
-      "storeProductName": "SAMSUNG GALAXY TAB A7 LITE WIFI 64GB GRAY",
-      "catalogueProductId": "neptun-17953",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:37.878Z",
-      "updatedAt": "2026-04-30T17:59:37.878Z"
-    },
-    "neptun:/categories/TABLET-FUEGO-FGTB10-4-64GB-TB0722": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-FUEGO-FGTB10-4-64GB-TB0722",
-      "storeProductName": "TABLET FUEGO FGTB10 4+64GB",
-      "catalogueProductId": "neptun-27668",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "neptun:/categories/Samsung-Galaxy-Tab-A7-T225-Gray-TB0487": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Samsung-Galaxy-Tab-A7-T225-Gray-TB0487",
-      "storeProductName": "SAMSUNG GALAXY TAB A7 LITE LTE 32GB GRAY",
-      "catalogueProductId": "neptun-17955",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "foleja:/ERG-200005818/Tablet-Xiaomi-Redmi-Pad-8-11.2-inch-8-128GB-WiFi-blu": {
-      "storeId": "foleja",
-      "storeProductId": "/ERG-200005818/Tablet-Xiaomi-Redmi-Pad-8-11.2-inch-8-128GB-WiFi-blu",
-      "storeProductName": "Tablet Xiaomi Redmi Pad 8 11.2 inch 8+128GB WiFi blu",
-      "catalogueProductId": "neptun-30302",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "foleja:/KST-200016641/Tablet-Lenovo-Tab-G1-64GB-4RAM-LTE-4G-grey": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200016641/Tablet-Lenovo-Tab-G1-64GB-4RAM-LTE-4G-grey",
-      "storeProductName": "Tablet Lenovo Tab G1 64GB 4RAM LTE 4G grey",
-      "catalogueProductId": "neptun-28114",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "neptun:/categories/TABLET-LENOVO-TAB-M11--PEN-8-128GB-TB0731": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-LENOVO-TAB-M11--PEN-8-128GB-TB0731",
-      "storeProductName": "TABLET LENOVO TAB M11 +PEN 8/128GB",
-      "catalogueProductId": "neptun-28115",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/TABLET-FUEGO-FGTB10-6-128GB-4G-TB0723": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-FUEGO-FGTB10-6-128GB-4G-TB0723",
-      "storeProductName": "TABLET FUEGO FGTB10 6+128GB 4G",
-      "catalogueProductId": "neptun-27615",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "neptun:/categories/TABLET-AMAZON-EBOOK-READER-KINDLE-GEN--11-BLACK-TB0764": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-AMAZON-EBOOK-READER-KINDLE-GEN--11-BLACK-TB0764",
-      "storeProductName": "TABLET AMAZON EBOOK READER KINDLE GEN. 11 BLACK",
-      "catalogueProductId": "neptun-30891",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "foleja:/HRT-200003963/Xham-i-temperuar-Wozinsky-per-Samsung-Galaxy-Tab-A8-10.5-2021-9H": {
-      "storeId": "foleja",
-      "storeProductId": "/HRT-200003963/Xham-i-temperuar-Wozinsky-per-Samsung-Galaxy-Tab-A8-10.5-2021-9H",
-      "storeProductName": "Xham i temperuar Wozinsky për Samsung Galaxy Tab A8 10.5'' 2021, 9H",
-      "catalogueProductId": "neptun-20968",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "neptun:/categories/SAMSUNG-GALAXY-TAB-A8-WIFI-32GB-GRAY-TB0612": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A8-WIFI-32GB-GRAY-TB0612",
-      "storeProductName": "SAMSUNG GALAXY TAB A8 WIFI 32GB GRAY",
-      "catalogueProductId": "neptun-20968",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "foleja:/ERG-200004808/Tablet-Samsung-Galaxy-Tab-A11-8GB-256GB-11-inch-gri": {
-      "storeId": "foleja",
-      "storeProductId": "/ERG-200004808/Tablet-Samsung-Galaxy-Tab-A11-8GB-256GB-11-inch-gri",
-      "storeProductName": "Tablet Samsung Galaxy Tab A11+ 8GB 256GB 11 inch gri",
-      "catalogueProductId": "neptun-29897",
-      "matchMethod": "name_match",
-      "confidence": 80,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "shpresa:174871": {
-      "storeId": "shpresa",
-      "storeProductId": "174871",
-      "storeProductName": "Samsung Galaxy Tab A11 8.7&#8243; WiFi",
-      "catalogueProductId": "neptun-29898",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/SAMSUNG-GALAXY-TAB-A11-64GB-GRAY-TB0745": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-GRAY-TB0745",
-      "storeProductName": "SAMSUNG GALAXY TAB A11 64GB GRAY",
-      "catalogueProductId": "neptun-29897",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "neptun:/categories/LENOVO-TABLET-M10-Wifi-4-64GB-STORM-GRAY-TB0639": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LENOVO-TABLET-M10-Wifi-4-64GB-STORM-GRAY-TB0639",
-      "storeProductName": "LENOVO TABLET TAB M10 Wifi 4/64GB STORM GRAY",
-      "catalogueProductId": "neptun-23100",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "neptun:/categories/TABLET-FUEGO-FGTB10-10-4''-2K-8GB-256GB-WiFi-4G-LT-TB0735": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-FUEGO-FGTB10-10-4''-2K-8GB-256GB-WiFi-4G-LT-TB0735",
-      "storeProductName": "TABLET FUEGO FGTB10 10.4'' 2K 8GB/256GB WiFi+4G LT",
-      "catalogueProductId": "neptun-30332",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:46.938Z",
-      "updatedAt": "2026-04-30T17:59:46.938Z"
-    },
-    "neptun:/categories/TABLET-FUEGO-FGTB10-10-4''-2K-8GB-256GB-WiFi-4G-TB0757": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-FUEGO-FGTB10-10-4''-2K-8GB-256GB-WiFi-4G-TB0757",
-      "storeProductName": "TABLET FUEGO FGTB10 10.4'' 2K 8GB/256GB WiFi+4G",
-      "catalogueProductId": "neptun-30361",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/TABLET-SAMSUNG-TAB-ACTIVE-2-SM-395": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-SAMSUNG-TAB-ACTIVE-2-SM-395",
-      "storeProductName": "TABLET SAMSUNG TAB ACTIVE 2 SM-395",
-      "catalogueProductId": "neptun-8854",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "foleja:/HRT-200012475/Xham-mbrojtes-hibrid-3mk-FlexibleGlass-per-Lenovo-Tab-M11": {
-      "storeId": "foleja",
-      "storeProductId": "/HRT-200012475/Xham-mbrojtes-hibrid-3mk-FlexibleGlass-per-Lenovo-Tab-M11",
-      "storeProductName": "Xham mbrojtës hibrid 3mk FlexibleGlass për Lenovo Tab M11",
-      "catalogueProductId": "neptun-28115",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "foleja:/KST-200058135/Tablet-Samsung-Galaxy-Tab-S11-12GB-RAM-128GB-LTE-gri": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200058135/Tablet-Samsung-Galaxy-Tab-S11-12GB-RAM-128GB-LTE-gri",
-      "storeProductName": "Tablet Samsung Galaxy Tab S11 12GB RAM 128GB LTE gri",
-      "catalogueProductId": "neptun-29898",
-      "matchMethod": "name_match",
-      "confidence": 67,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/SAMSUNG-GALAXY-TAB-A11-64GB-LTE-GRAY-TB0747": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-LTE-GRAY-TB0747",
-      "storeProductName": "SAMSUNG GALAXY TAB A11 64GB LTE GRAY",
-      "catalogueProductId": "neptun-29898",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "foleja:/HRT-200025965/Xham-mbrojtes-hibrid-3mk-FlexibleGlass-per-Samsung-Galaxy-Tab-S6-10.5": {
-      "storeId": "foleja",
-      "storeProductId": "/HRT-200025965/Xham-mbrojtes-hibrid-3mk-FlexibleGlass-per-Samsung-Galaxy-Tab-S6-10.5",
-      "storeProductName": "Xham mbrojtës hibrid 3mk FlexibleGlass për Samsung Galaxy Tab S6 10.5\"",
-      "catalogueProductId": "neptun-20358",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "shpresa:21349": {
-      "storeId": "shpresa",
-      "storeProductId": "21349",
-      "storeProductName": "Samsung Galaxy Tab S6",
-      "catalogueProductId": "neptun-20358",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/SAMSUNG-GALAXY-TAB-S6-LITE-WIFI-64GB-BLUE-TB0592": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S6-LITE-WIFI-64GB-BLUE-TB0592",
-      "storeProductName": "SAMSUNG GALAXY TAB S6 LITE WIFI 64GB BLUE",
-      "catalogueProductId": "neptun-20356",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/TABLET-AMAZON-EBOOK-READER-B0CX8YKQ2H-TB0753": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-AMAZON-EBOOK-READER-B0CX8YKQ2H-TB0753",
-      "storeProductName": "TABLET AMAZON EBOOK READER B0CX8YKQ2H",
-      "catalogueProductId": "neptun-29937",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/TABLET-AMAZON-EBOOK-READER-B09BS5XWNS-TB0752": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-AMAZON-EBOOK-READER-B09BS5XWNS-TB0752",
-      "storeProductName": "TABLET AMAZON EBOOK READER B09BS5XWNS",
-      "catalogueProductId": "neptun-29936",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "foleja:/KST-200062789/Tablet-Samsung-Galaxy-Tab-S9-128GB-8RAM-LTE-graphite": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200062789/Tablet-Samsung-Galaxy-Tab-S9-128GB-8RAM-LTE-graphite",
-      "storeProductName": "Tablet Samsung Galaxy Tab S9 128GB 8RAM LTE graphite",
-      "catalogueProductId": "neptun-26886",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/SAMSUNG-GALAXY-TAB-S9-FE-128GB-GREY-TB0699": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S9-FE-128GB-GREY-TB0699",
-      "storeProductName": "SAMSUNG GALAXY TAB S9 FE 128GB GREY",
-      "catalogueProductId": "neptun-26886",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/TABLET-SAMSUNG-TAB-S7-LTE-MYSTIC-SILVER-TB0421": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/TABLET-SAMSUNG-TAB-S7-LTE-MYSTIC-SILVER-TB0421",
-      "storeProductName": "TABLET SAMSUNG TAB S7 LTE MYSTIC SILVER",
-      "catalogueProductId": "neptun-15240",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Blue-TB0705": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Blue-TB0705",
-      "storeProductName": "Apple 11-inch iPad (A16) Wi-Fi 128GB Blue",
-      "catalogueProductId": "neptun-27363",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T17:59:53.249Z",
-      "updatedAt": "2026-04-30T17:59:53.249Z"
-    },
-    "neptun:/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Yellow-TB0706": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Yellow-TB0706",
-      "storeProductName": "Apple 11-inch iPad (A16) Wi-Fi 128GB Yellow",
-      "catalogueProductId": "neptun-27364",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/SAMSUNG-GALAXY-TAB-S10-FE-WIFI-128GB-GRAY-TB0716": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10-FE-WIFI-128GB-GRAY-TB0716",
-      "storeProductName": "SAMSUNG GALAXY TAB S10 FE WIFI 128GB GRAY",
-      "catalogueProductId": "neptun-27758",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "foleja:/KST-200020283/Tablet-Apple-iPad-Air-11-M3-256GB-Wi-Fi-Cellular-spacegrau": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200020283/Tablet-Apple-iPad-Air-11-M3-256GB-Wi-Fi-Cellular-spacegrau",
-      "storeProductName": "Tablet Apple iPad Air 11 M3 256GB Wi-Fi + Cellular spacegrau",
-      "catalogueProductId": "neptun-27368",
-      "matchMethod": "name_match",
-      "confidence": 63,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/Apple-11-inch-iPad-Air--M3--Wi-Fi-128GB-Space-Grey-TB0710": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-11-inch-iPad-Air--M3--Wi-Fi-128GB-Space-Grey-TB0710",
-      "storeProductName": "Apple 11-inch iPad Air (M3) Wi-Fi 128GB Space Grey",
-      "catalogueProductId": "neptun-27368",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "foleja:/KST-200020270/Tablet-Apple-iPad-Air-11-inch-256GB-Purple": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200020270/Tablet-Apple-iPad-Air-11-inch-256GB-Purple",
-      "storeProductName": "Tablet Apple iPad Air 11-inch 256GB, Purple",
-      "catalogueProductId": "neptun-31005",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/Apple-11-inch-iPad-Air--M3--Wi-Fi-128GB-Purple-TB0728": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-11-inch-iPad-Air--M3--Wi-Fi-128GB-Purple-TB0728",
-      "storeProductName": "Apple 11-inch iPad Air (M3) Wi-Fi 128GB Purple",
-      "catalogueProductId": "neptun-28143",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/Apple-11-inch-iPad-Air-M4-Wi-Fi-128GB---Blue-TB0770": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-11-inch-iPad-Air-M4-Wi-Fi-128GB---Blue-TB0770",
-      "storeProductName": "Apple 11-inch iPad Air (M4) Wi-Fi 128GB - Blue",
-      "catalogueProductId": "neptun-30986",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/Apple-11-inch-iPad-Air--M4--Wi-Fi-256GB---Space-Grey-TB0775": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-11-inch-iPad-Air--M4--Wi-Fi-256GB---Space-Grey-TB0775",
-      "storeProductName": "Apple 11-inch iPad Air M4 Wi-Fi 256GB Space Grey",
-      "catalogueProductId": "neptun-31005",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
-      "storeProductName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
-      "catalogueProductId": "neptun-25873",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "foleja:/KST-200020298/Tablet-Apple-iPad-Air-13-inch-Wi-Fi-128GB-Purple": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200020298/Tablet-Apple-iPad-Air-13-inch-Wi-Fi-128GB-Purple",
-      "storeProductName": "Tablet Apple iPad Air 13-inch Wi-Fi 128GB, Purple",
-      "catalogueProductId": "neptun-27369",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Blue-TB0780": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Blue-TB0780",
-      "storeProductName": "Apple 13-inch iPad Air (M4) Wi-Fi 256GB - Blue",
-      "catalogueProductId": "neptun-30991",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Space-Grey-TB0782": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Space-Grey-TB0782",
-      "storeProductName": "Apple 13-inch iPad Air M4 Wi-Fi 256GB Space Grey",
-      "catalogueProductId": "neptun-31008",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/Apple-13-inch-iPad-Air--M3--Wi-Fi-256GB-Space-Grey-TB0713": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-13-inch-iPad-Air--M3--Wi-Fi-256GB-Space-Grey-TB0713",
-      "storeProductName": "Apple 13-inch iPad Air (M3) Wi-Fi 256GB Space Grey",
-      "catalogueProductId": "neptun-27369",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "foleja:/KST-200058387/Tablet-Samsung-Galaxy-Tab-S11-Ultra-12GB-256GB-gri": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200058387/Tablet-Samsung-Galaxy-Tab-S11-Ultra-12GB-256GB-gri",
-      "storeProductName": "Tablet Samsung Galaxy Tab S11 Ultra 12GB 256GB gri",
-      "catalogueProductId": "neptun-29670",
-      "matchMethod": "name_match",
-      "confidence": 83,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "shpresa:183549": {
-      "storeId": "shpresa",
-      "storeProductId": "183549",
-      "storeProductName": "Samsung Galaxy Tab S11 Ultra 5G",
-      "catalogueProductId": "neptun-30362",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/SET-SAMSUNG-GALAXY-TAB-S11-ULTRA-256GB---COVER-TB0758": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SET-SAMSUNG-GALAXY-TAB-S11-ULTRA-256GB---COVER-TB0758",
-      "storeProductName": "SET SAMSUNG GALAXY TAB S11 ULTRA 256GB + COVER",
-      "catalogueProductId": "neptun-30362",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "neptun:/categories/SAMSUNG-GALAXY-TAB-S10-ULTRA-WIFI-256GB-GRAY-PLATI-TB0684": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10-ULTRA-WIFI-256GB-GRAY-PLATI-TB0684",
-      "storeProductName": "SAMSUNG GALAXY TAB S10 ULTRA WIFI 256GB GRAY PLATI",
-      "catalogueProductId": "neptun-25875",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:02.062Z",
-      "updatedAt": "2026-04-30T18:00:02.062Z"
-    },
-    "foleja:/KST-200017904/Tablet-Apple-iPad-Pro-11-512GB-WiFi-M4-Chip-Ultra-Retina-XDR-Display-Black": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200017904/Tablet-Apple-iPad-Pro-11-512GB-WiFi-M4-Chip-Ultra-Retina-XDR-Display-Black",
-      "storeProductName": "Tablet Apple iPad Pro 11 512GB WiFi M4 Chip Ultra Retina XDR Display Black",
-      "catalogueProductId": "neptun-29899",
-      "matchMethod": "name_match",
-      "confidence": 75,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:12.929Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "neptun:/categories/Apple-11-inch-iPad-Pro-M4-WiFi-256GB-Silver-TB0667": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-11-inch-iPad-Pro-M4-WiFi-256GB-Silver-TB0667",
-      "storeProductName": "Apple 11-inch iPad Pro M4 WiFi 256GB Silver",
-      "catalogueProductId": "neptun-25098",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:12.929Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "neptun:/categories/Apple-11-inch-iPad-Pro-M5-WiFi-256GB-Space-Black-TB0748": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-11-inch-iPad-Pro-M5-WiFi-256GB-Space-Black-TB0748",
-      "storeProductName": "Apple 11-inch iPad Pro M5 WiFi 256GB Space Black",
-      "catalogueProductId": "neptun-29899",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:12.929Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "neptun:/categories/Apple-13-inch-iPad-Pro-M5-WiFi-256GB-Space-Black-TB0749": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-13-inch-iPad-Pro-M5-WiFi-256GB-Space-Black-TB0749",
-      "storeProductName": "Apple 13-inch iPad Pro M5 WiFi 256GB Space Black",
-      "catalogueProductId": "neptun-29900",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:12.929Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-1-15IJL7---USB-32GB-LP2056": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-1-15IJL7---USB-32GB-LP2056",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD 1 15IJL7",
-      "catalogueProductId": "neptun-28841",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:12.929Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15IAN8-82XB00JQRM-LP2106": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15IAN8-82XB00JQRM-LP2106",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD SLIM 3 15IAN8 82XB00JQRM",
-      "catalogueProductId": "neptun-30722",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:12.929Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-VIVOBOOK-X1504VA-BQ312-LP1864": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-VIVOBOOK-X1504VA-BQ312-LP1864",
-      "storeProductName": "LAPTOP ASUS VIVOBOOK X1504VA-BQ312",
-      "catalogueProductId": "neptun-23134",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:12.929Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-1-15AMN7-82VG00SBRM-LP1958": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-1-15AMN7-82VG00SBRM-LP1958",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD 1 15AMN7 82VG00SBRM",
-      "catalogueProductId": "neptun-26352",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:12.929Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15AMN8-LP2061": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15AMN8-LP2061",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD SLIM 3 15AMN8 82XQ00RPRM",
-      "catalogueProductId": "neptun-30210",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:12.929Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-P1512CEA-EJ0296-LP1814": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-P1512CEA-EJ0296-LP1814",
-      "storeProductName": "LAPTOP ASUS P1512CEA-EJ0296",
-      "catalogueProductId": "neptun-20717",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:12.929Z",
-      "updatedAt": "2026-04-30T18:00:12.929Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-X515EA-EJ312-LP1777": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-X515EA-EJ312-LP1777",
-      "storeProductName": "LAPTOP ASUS X515EA-EJ312",
-      "catalogueProductId": "neptun-20127",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-X1502ZA-BQ312-LP1808": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-X1502ZA-BQ312-LP1808",
-      "storeProductName": "LAPTOP ASUS VIVOBOOK X1502ZA-BQ312",
-      "catalogueProductId": "neptun-20880",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "neptun:/categories/Laptop-Huawei-MateBook-D15-LP1696": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Laptop-Huawei-MateBook-D15-LP1696",
-      "storeProductName": "Laptop Huawei MateBook D15",
-      "catalogueProductId": "neptun-17257",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "neptun:/categories/LAPTOP-HP-250-G9-B3AA6AT-LP2083": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-250-G9-B3AA6AT-LP2083",
-      "storeProductName": "LAPTOP HP 250 G9 B3AA6AT",
-      "catalogueProductId": "neptun-30174",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "globe:71900": {
-      "storeId": "globe",
-      "storeProductId": "71900",
-      "storeProductName": "Laptop HP NoteBook 250 G9 9B9X4EA",
-      "catalogueProductId": "neptun-30174",
-      "matchMethod": "name_match",
-      "confidence": 75,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "neptun:/categories/LAPTOP-HP-15-FD0139NIA-B88NQEA-LP2014": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-15-FD0139NIA-B88NQEA-LP2014",
-      "storeProductName": "LAPTOP HP 15-FD0139NIA B88NQEA",
-      "catalogueProductId": "neptun-27563",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "neptun:/categories/LAPTOP-HP-15-FD0031NN-BJ9H7EA-LP2035": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-15-FD0031NN-BJ9H7EA-LP2035",
-      "storeProductName": "LAPTOP HP 15-FD0031NN BJ9H7EA",
-      "catalogueProductId": "neptun-28563",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-X1605ZA-MB321-LP1846": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-X1605ZA-MB321-LP1846",
-      "storeProductName": "LAPTOP ASUS VIVOBOOK X1605ZA-MB321",
-      "catalogueProductId": "neptun-21316",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-1-15ALC7-82R400Q3RM-LP1988": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-1-15ALC7-82R400Q3RM-LP1988",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD 1 15ALC7 82R400Q3RM",
-      "catalogueProductId": "neptun-27319",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-1-15ALC7-82R400XBRM-LP1977": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-1-15ALC7-82R400XBRM-LP1977",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD 1 15ALC7 82R400XBRM",
-      "catalogueProductId": "neptun-26632",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "neptun:/categories/LAPTOP-HP-255R-G10-C5MC0AT-LP2116": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-255R-G10-C5MC0AT-LP2116",
-      "storeProductName": "LAPTOP HP 255R G10 C5MC0AT",
-      "catalogueProductId": "neptun-31015",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "globe:71866": {
-      "storeId": "globe",
-      "storeProductId": "71866",
-      "storeProductName": "Laptop HP Notebook 255 G9 9M3H2AT",
-      "catalogueProductId": "neptun-28692",
-      "matchMethod": "name_match",
-      "confidence": 75,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:18.566Z",
-      "updatedAt": "2026-04-30T18:00:18.566Z"
-    },
-    "neptun:/categories/LAPTOP-DELL-VOSTRO-3530-LP1924": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-DELL-VOSTRO-3530-LP1924",
-      "storeProductName": "LAPTOP DELL VOSTRO 3530 N1603PVNB3530EMEA01",
-      "catalogueProductId": "neptun-24577",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:23.293Z",
-      "updatedAt": "2026-04-30T18:00:23.293Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15AMN8-82XQ00UKRM-LP2070": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15AMN8-82XQ00UKRM-LP2070",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD SLIM 3 15AMN8 82XQ00UKRM",
-      "catalogueProductId": "neptun-30211",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:23.293Z",
-      "updatedAt": "2026-04-30T18:00:23.293Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15ABR8-82XM00VWRM-LP2046": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15ABR8-82XM00VWRM-LP2046",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD SLIM 3 15ABR8 82XM00VWRM",
-      "catalogueProductId": "neptun-28677",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:23.293Z",
-      "updatedAt": "2026-04-30T18:00:23.293Z"
-    },
-    "neptun:/categories/LAPTOP-DELL-VOSTRO-3520-LP1882": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-DELL-VOSTRO-3520-LP1882",
-      "storeProductName": "LAPTOP DELL VOSTRO 3520 N2062PVNB3520EMEA",
-      "catalogueProductId": "neptun-22737",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:23.293Z",
-      "updatedAt": "2026-04-30T18:00:23.293Z"
-    },
-    "shpresa:120646": {
-      "storeId": "shpresa",
-      "storeProductId": "120646",
-      "storeProductName": "Lenovo V15 G4 15.6&#8243;, 8GB, 512GB SSD, Ryzen™ 5",
-      "catalogueProductId": "neptun-28861",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:23.293Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-V15-G4-IR-83A1008XRM-LP1947": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-V15-G4-IR-83A1008XRM-LP1947",
-      "storeProductName": "LAPTOP LENOVO V15 G4 IRU 83A1008XRM",
-      "catalogueProductId": "neptun-25462",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:23.293Z",
-      "updatedAt": "2026-04-30T18:00:23.293Z"
-    },
-    "neptun:/categories/LAPTOP-HP-250-G10-9B997EA-LP2019": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-250-G10-9B997EA-LP2019",
-      "storeProductName": "LAPTOP HP 250 G10 9B997EA",
-      "catalogueProductId": "neptun-27766",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:23.293Z",
-      "updatedAt": "2026-04-30T18:00:23.293Z"
-    },
-    "neptun:/categories/LAPTOP-DELL-INSPIRON-15-3535-LP2017": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-DELL-INSPIRON-15-3535-LP2017",
-      "storeProductName": "LAPTOP DELL INSPIRON 15 3535",
-      "catalogueProductId": "neptun-27812",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:23.293Z",
-      "updatedAt": "2026-04-30T18:00:23.293Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS--X515EA-BQ511-LP1794": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS--X515EA-BQ511-LP1794",
-      "storeProductName": "LAPTOP ASUS X515EA-BQ511",
-      "catalogueProductId": "neptun-20307",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:23.293Z",
-      "updatedAt": "2026-04-30T18:00:23.293Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15AMN8-82XQ00U4RM-LP2107": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15AMN8-82XQ00U4RM-LP2107",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD SLIM 3 15AMN8 82XQ00U4RM",
-      "catalogueProductId": "neptun-30723",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-HP-250R-G9-B39ZCAT-LP2093": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-250R-G9-B39ZCAT-LP2093",
-      "storeProductName": "LAPTOP HP 250R G9 B39ZCAT",
-      "catalogueProductId": "neptun-30230",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-EXPERTBOOK-B1500CEAE-BQ3055-LP1816": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-EXPERTBOOK-B1500CEAE-BQ3055-LP1816",
-      "storeProductName": "LAPTOP ASUS EXPERTBOOK B1500CEAE-BQ3055",
-      "catalogueProductId": "neptun-20719",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-DELL-VOSTRO-3530-N3409PVNB3530EMEA01-LP1953": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-DELL-VOSTRO-3530-N3409PVNB3530EMEA01-LP1953",
-      "storeProductName": "LAPTOP DELL VOSTRO 3530 N3409PVNB3530EMEA01",
-      "catalogueProductId": "neptun-25557",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "globe:71843": {
-      "storeId": "globe",
-      "storeProductId": "71843",
-      "storeProductName": "Laptop Dell Vostro 3530 i5-1334U N3409PVNB3530EMEA01",
-      "catalogueProductId": "neptun-25557",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-HP-15-FC0046NN-D14PJEA-LP2115": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-15-FC0046NN-D14PJEA-LP2115",
-      "storeProductName": "LAPTOP HP 15-FC0046NN D14PJEA",
-      "catalogueProductId": "neptun-31017",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-VIVOBOOK-X1704VA-AU511-LP1862": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-VIVOBOOK-X1704VA-AU511-LP1862",
-      "storeProductName": "LAPTOP ASUS VIVOBOOK X1704VA-AU511",
-      "catalogueProductId": "neptun-23142",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-HP-255R-G10-B39STAT-LP2117": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-255R-G10-B39STAT-LP2117",
-      "storeProductName": "LAPTOP HP 255R G10 B39STAT",
-      "catalogueProductId": "neptun-31107",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15ABR8-82XM013TRM-LP2047": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15ABR8-82XM013TRM-LP2047",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD SLIM 3 15ABR8 82XM013TRM",
-      "catalogueProductId": "neptun-28678",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-V15-G4-IRU-83A1008WRM-LP2043": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-V15-G4-IRU-83A1008WRM-LP2043",
-      "storeProductName": "LAPTOP LENOVO V15 G4 IRU 83A1008WRM",
-      "catalogueProductId": "neptun-28693",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-DELL-PRO-15-ESSENTIAL-PV15255-LP2092": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-DELL-PRO-15-ESSENTIAL-PV15255-LP2092",
-      "storeProductName": "LAPTOP DELL PRO 15 ESSENTIAL PV15255",
-      "catalogueProductId": "neptun-30299",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-VIVOBOOK-X1505VA-OLED-L511-LP1863": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-VIVOBOOK-X1505VA-OLED-L511-LP1863",
-      "storeProductName": "LAPTOP ASUS VIVOBOOK X1505VA-OLED-L511",
-      "catalogueProductId": "neptun-23143",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:33.583Z",
-      "updatedAt": "2026-04-30T18:00:33.583Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-X1505ZA-OLED-L511-LP1830": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-X1505ZA-OLED-L511-LP1830",
-      "storeProductName": "LAPTOP ASUS VIVOBOOK X1505ZA-OLED-L511",
-      "catalogueProductId": "neptun-21052",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "foleja:/KST-200045213/Laptop-ASUS-ExpertBook-B3-16-U5-125H-16GB-512GB-i-zi": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200045213/Laptop-ASUS-ExpertBook-B3-16-U5-125H-16GB-512GB-i-zi",
-      "storeProductName": "Laptop ASUS ExpertBook B3 16 U5-125H 16GB 512GB i zi",
-      "catalogueProductId": "neptun-19300",
-      "matchMethod": "name_match",
-      "confidence": 67,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-K513EA-OLED-L512-LP1776": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-K513EA-OLED-L512-LP1776",
-      "storeProductName": "LAPTOP ASUS VIVOBOOK K513EA-OLED-L512",
-      "catalogueProductId": "neptun-19300",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15ARP10-83K700F9RM-LP2108": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15ARP10-83K700F9RM-LP2108",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD SLIM 3 15ARP10 83K700F9RM",
-      "catalogueProductId": "neptun-30724",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15ARP10-83K700DGRM-LP2071": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15ARP10-83K700DGRM-LP2071",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD SLIM 3 15ARP10 83K700DGRM",
-      "catalogueProductId": "neptun-30212",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "shpresa:191915": {
-      "storeId": "shpresa",
-      "storeProductId": "191915",
-      "storeProductName": "Lenovo V15 G5 IRL 15.6&#8243;, 16GB, 512GB SSD, Core i3",
-      "catalogueProductId": "neptun-29935",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-V15-G5-IRL-BLACK-83GW008URI-LP2073": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-V15-G5-IRL-BLACK-83GW008URI-LP2073",
-      "storeProductName": "LAPTOP LENOVO V15 G5 IRL BLACK 83GW008URI",
-      "catalogueProductId": "neptun-29935",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-UM3402YAR-KP511W-LP1847": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-UM3402YAR-KP511W-LP1847",
-      "storeProductName": "LAPTOP ASUS ZENBOOK UM3402YAR-KP511W",
-      "catalogueProductId": "neptun-21317",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15ARP10-83K7002RRM-LP2110": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-SLIM-3-15ARP10-83K7002RRM-LP2110",
-      "storeProductName": "LAPTOP LENOVO IDEAPAD SLIM 3 15ARP10 83K7002RRM",
-      "catalogueProductId": "neptun-30733",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-V15-G4-IRU-83A100QNRM-LP2029": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-V15-G4-IRU-83A100QNRM-LP2029",
-      "storeProductName": "LAPTOP LENOVO V15 G4 IRU 83A100QNRM",
-      "catalogueProductId": "neptun-28578",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "neptun:/categories/LAPTOP-HP-PROBOOK-450-G10-85B70EA-LP1925": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-PROBOOK-450-G10-85B70EA-LP1925",
-      "storeProductName": "LAPTOP HP PROBOOK 450 G10 85B70EA",
-      "catalogueProductId": "neptun-24466",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "neptun:/categories/LAPTOP-HP-250-G10-725H0EA-LP1897": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-250-G10-725H0EA-LP1897",
-      "storeProductName": "LAPTOP HP 250 G10 725H0EA",
-      "catalogueProductId": "neptun-23882",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:42.379Z",
-      "updatedAt": "2026-04-30T18:00:42.379Z"
-    },
-    "foleja:/ERG-200005663/Kompjuter-Apple-MacBook-Neo-2026-13-A18-Pro-8-512GB-Indigo": {
-      "storeId": "foleja",
-      "storeProductId": "/ERG-200005663/Kompjuter-Apple-MacBook-Neo-2026-13-A18-Pro-8-512GB-Indigo",
-      "storeProductName": "Kompjuter Apple MacBook Neo 2026, 13\", A18 Pro, 8/512GB, Indigo",
-      "catalogueProductId": "neptun-31004",
-      "matchMethod": "name_match",
-      "confidence": 83,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "neptun:/categories/MacBook-Neo-13--A18-Pro-Blush-256gb-mhfh4ze-a-LP2132": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Neo-13--A18-Pro-Blush-256gb-mhfh4ze-a-LP2132",
-      "storeProductName": "MacBook Neo 13\" A18 Pro Blush 256gb mhfh4ze/a",
-      "catalogueProductId": "neptun-30998",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "neptun:/categories/MacBook-Neo-13--A18-Pro-Citrus-256gb-mhfd4ze-a-LP2134": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Neo-13--A18-Pro-Citrus-256gb-mhfd4ze-a-LP2134",
-      "storeProductName": "MacBook Neo 13\" A18 Pro Citrus 256gb mhfd4ze/a",
-      "catalogueProductId": "neptun-31000",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "neptun:/categories/MacBook-Neo-13--A18-Pro-Silver-256gb-mhfa4ze-a-LP2131": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Neo-13--A18-Pro-Silver-256gb-mhfa4ze-a-LP2131",
-      "storeProductName": "MacBook Neo 13\" A18 Pro Silver 256gb mhfa4ze/a",
-      "catalogueProductId": "neptun-30997",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "neptun:/categories/MacBook-Neo-13--A18-Pro-Indigo-256gb-mhff4ze-a-LP2133": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Neo-13--A18-Pro-Indigo-256gb-mhff4ze-a-LP2133",
-      "storeProductName": "MacBook Neo 13\" A18 Pro Indigo 256gb mhff4ze/a",
-      "catalogueProductId": "neptun-30999",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "neptun:/categories/LAPTOP-HP-250R-G9-C80ZZET-LP2118": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-250R-G9-C80ZZET-LP2118",
-      "storeProductName": "LAPTOP HP 250R G9 C80ZZET",
-      "catalogueProductId": "neptun-31028",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "neptun:/categories/LAPTOP-HP-OMNIBOOK-5-16-BA1009NN-C2AH8EA-LP2051": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-OMNIBOOK-5-16-BA1009NN-C2AH8EA-LP2051",
-      "storeProductName": "LAPTOP HP OMNIBOOK 5 16-BA1009NN C2AH8EA",
-      "catalogueProductId": "neptun-28691",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "neptun:/categories/LAPTOP-DELL-LATITUDE-3440-LP1990": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-DELL-LATITUDE-3440-LP1990",
-      "storeProductName": "LAPTOP DELL LATITUDE 3440",
-      "catalogueProductId": "neptun-26908",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "neptun:/categories/MacBook-Neo-13--A18-Pro-Blush-512gb-mhfj4ze-a-LP2135": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Neo-13--A18-Pro-Blush-512gb-mhfj4ze-a-LP2135",
-      "storeProductName": "MacBook Neo 13\" A18 Pro Blush 512gb mhfj4ze/a",
-      "catalogueProductId": "neptun-31001",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "foleja:/ERG-200005767/Kompjuter-Apple-MacBook-Neo-2026-13-A18-Pro-8-512GB-Citrus": {
-      "storeId": "foleja",
-      "storeProductId": "/ERG-200005767/Kompjuter-Apple-MacBook-Neo-2026-13-A18-Pro-8-512GB-Citrus",
-      "storeProductName": "Kompjuter Apple MacBook Neo 2026, 13\", A18 Pro, 8/512GB, Citrus",
-      "catalogueProductId": "neptun-31002",
-      "matchMethod": "name_match",
-      "confidence": 83,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "neptun:/categories/MacBook-Neo-13--A18-Pro-Citrus-512gb-mhfe4ze-a-LP2136": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Neo-13--A18-Pro-Citrus-512gb-mhfe4ze-a-LP2136",
-      "storeProductName": "MacBook Neo 13\" A18 Pro Citrus 512gb mhfe4ze/a",
-      "catalogueProductId": "neptun-31002",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "neptun:/categories/MacBook-Neo-13--A18-Pro-Silver-512gb-mhfc4ze-a-LP2137": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Neo-13--A18-Pro-Silver-512gb-mhfc4ze-a-LP2137",
-      "storeProductName": "MacBook Neo 13\" A18 Pro Silver 512gb mhfc4ze/a",
-      "catalogueProductId": "neptun-31003",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:47.289Z",
-      "updatedAt": "2026-04-30T18:00:47.289Z"
-    },
-    "neptun:/categories/MacBook-Neo-13--A18-Pro-Indigo-512gb-mhfg4ze-a-LP2138": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Neo-13--A18-Pro-Indigo-512gb-mhfg4ze-a-LP2138",
-      "storeProductName": "MacBook Neo 13\" A18 Pro Indigo 512gb mhfg4ze/a",
-      "catalogueProductId": "neptun-31004",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "neptun:/categories/LAPTOP-HP-PROBOOK-460-G1i-CS7D0ET-LP2101": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-PROBOOK-460-G1i-CS7D0ET-LP2101",
-      "storeProductName": "LAPTOP HP PROBOOK 460 G1i CS7D0ET",
-      "catalogueProductId": "neptun-30392",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "foleja:/ACN-300155474/Laptop-HP-Pavilion-16-af0006nw-Intel-Core-Ultra-5-16-GB-RAM-512-GB-SSD-Argjendte": {
-      "storeId": "foleja",
-      "storeProductId": "/ACN-300155474/Laptop-HP-Pavilion-16-af0006nw-Intel-Core-Ultra-5-16-GB-RAM-512-GB-SSD-Argjendte",
-      "storeProductName": "Laptop HP Pavilion 16-af0006nw, Intel Core Ultra 5, 16 GB RAM, 512 GB SSD, Argjendtë",
-      "catalogueProductId": "neptun-26350",
-      "matchMethod": "name_match",
-      "confidence": 67,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "neptun:/categories/LAPTOP-HP-PAVILION-16-AF0009NN-A73TREA-LP1964": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-PAVILION-16-AF0009NN-A73TREA-LP1964",
-      "storeProductName": "LAPTOP HP PAVILION 16-AF0009NN A73TREA",
-      "catalogueProductId": "neptun-26339",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "foleja:/KST-200049989/Kompjuter-Lenovo-ThinkBook-16-G8-Ultra5-225U-32GB-512GB-Arctic-Grey": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200049989/Kompjuter-Lenovo-ThinkBook-16-G8-Ultra5-225U-32GB-512GB-Arctic-Grey",
-      "storeProductName": "Kompjuter Lenovo ThinkBook 16 G8 Ultra5 225U 32GB 512GB Arctic Grey",
-      "catalogueProductId": "neptun-30196",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-THINKBOOK-16-G7-IML-LP2063": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-THINKBOOK-16-G7-IML-LP2063",
-      "storeProductName": "LAPTOP LENOVO THINKBOOK 16 G7 IML",
-      "catalogueProductId": "neptun-30216",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "neptun:/categories/LAPTOP-HP-OMNIBOOK-5-16-AF1013NN-C2AF6EA-LP2053": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-OMNIBOOK-5-16-AF1013NN-C2AF6EA-LP2053",
-      "storeProductName": "LAPTOP HP OMNIBOOK 5 16-AF1013NN C2AF6EA",
-      "catalogueProductId": "neptun-28853",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-THINKBOOK-16-G7-IML-21MS004TRM-LP1967": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-THINKBOOK-16-G7-IML-21MS004TRM-LP1967",
-      "storeProductName": "LAPTOP LENOVO THINKBOOK 16 G7 IML 21MS004TRM",
-      "catalogueProductId": "neptun-26356",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "neptun:/categories/LAPTOP-HP-ELITEBOOK-660-G11-9C075EA-LP2102": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-ELITEBOOK-660-G11-9C075EA-LP2102",
-      "storeProductName": "LAPTOP HP ELITEBOOK 660 G11 9C075EA",
-      "catalogueProductId": "neptun-30393",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "neptun:/categories/LAPTOP-HP-OMNIBOOK-5-Flip-14-FP0030NN-C2AH4EA-LP2050": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-OMNIBOOK-5-Flip-14-FP0030NN-C2AH4EA-LP2050",
-      "storeProductName": "LAPTOP HP OMNIBOOK 5 Flip 14-FP0030NN C2AH4EA",
-      "catalogueProductId": "neptun-28690",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-THINKBOOK-16-G7-IML-21MS006RRM-LP1989": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-THINKBOOK-16-G7-IML-21MS006RRM-LP1989",
-      "storeProductName": "LAPTOP LENOVO THINKBOOK 16 G7 IML 21MS006RRM",
-      "catalogueProductId": "neptun-26907",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:00:54.030Z",
-      "updatedAt": "2026-04-30T18:00:54.030Z"
-    },
-    "neptun:/categories/LAPTOP-HP-ELITEBOOK-840-G9-5P6S0EA-LP1850": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-ELITEBOOK-840-G9-5P6S0EA-LP1850",
-      "storeProductName": "LAPTOP HP ELITEBOOK 840 G9 5P6S0EA",
-      "catalogueProductId": "neptun-21324",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:00.603Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "neptun:/categories/LAPTOP-HP-OMNIBOOK-5-AI-16-AF1010NN-C2AF5EA-LP2054": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-OMNIBOOK-5-AI-16-AF1010NN-C2AF5EA-LP2054",
-      "storeProductName": "LAPTOP HP OMNIBOOK 5 AI 16-AF1010NN C2AF5EA",
-      "catalogueProductId": "neptun-28854",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:00.603Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "neptun:/categories/LAPTOP-HP-PAVILION-16-AF0005NN-A73TQEA-LP1965": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-PAVILION-16-AF0005NN-A73TQEA-LP1965",
-      "storeProductName": "LAPTOP HP PAVILION 16-AF0005NN A73TQEA",
-      "catalogueProductId": "neptun-26350",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:00.603Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "neptun:/categories/LAPTOP-HP-ELITEBOOK-650-G10-85B15EA-WIN11P-LP2008": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-ELITEBOOK-650-G10-85B15EA-WIN11P-LP2008",
-      "storeProductName": "LAPTOP HP ELITEBOOK 650 G10 85B15EA WIN11P",
-      "catalogueProductId": "neptun-27765",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:00.603Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "neptun:/categories/MacBook-Air-13-6''-M2-Starlight-256GB-mc7w4ze-a-LP2016": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-13-6''-M2-Starlight-256GB-mc7w4ze-a-LP2016",
-      "storeProductName": "MacBook Air 13.6'' M2 Starlight 256GB mc7w4ze/a",
-      "catalogueProductId": "neptun-27898",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:00.603Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "neptun:/categories/MacBook-Air-13-6''-M4-Sky-Blue-256gb-mc6t4ze-a-LP1997": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-13-6''-M4-Sky-Blue-256gb-mc6t4ze-a-LP1997",
-      "storeProductName": "MacBook Air 13.6'' M4 Sky Blue 256gb mc6t4ze/a",
-      "catalogueProductId": "neptun-27350",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:00.603Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "neptun:/categories/MacBook-Air-13-6''-M4-Midnight-256gb-mw123ze-a-LP2000": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-13-6''-M4-Midnight-256gb-mw123ze-a-LP2000",
-      "storeProductName": "MacBook Air 13.6'' M4 Midnight 256gb mw123ze/a",
-      "catalogueProductId": "neptun-27353",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:00.603Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "neptun:/categories/LAPTOP-HP-PROBOOK-x360-435-G10-816F1EA-LP2099": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-PROBOOK-x360-435-G10-816F1EA-LP2099",
-      "storeProductName": "LAPTOP HP PROBOOK x360 435 G10 816F1EA",
-      "catalogueProductId": "neptun-30390",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:00.603Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "neptun:/categories/LAPTOP-LENOVO-THINKPAD-E16-GEN-3-21SR007MRI-LP2095": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-LENOVO-THINKPAD-E16-GEN-3-21SR007MRI-LP2095",
-      "storeProductName": "LAPTOP LENOVO THINKPAD E16 GEN 3 21SR007MRI",
-      "catalogueProductId": "neptun-30231",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:00.603Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "neptun:/categories/LAPTOP-ASUS-EXPERTBOOK-B9400CBA-KC0150X-LP1812": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-ASUS-EXPERTBOOK-B9400CBA-KC0150X-LP1812",
-      "storeProductName": "LAPTOP ASUS EXPERTBOOK B9400CBA-KC0150X",
-      "catalogueProductId": "neptun-20920",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:00.603Z",
-      "updatedAt": "2026-04-30T18:01:00.603Z"
-    },
-    "foleja:/HRT-200021964/Xham-mbrojtes-hibrid-3mk-FlexibleGlass-per-Lenovo-IdeaTab-Pro": {
-      "storeId": "foleja",
-      "storeProductId": "/HRT-200021964/Xham-mbrojtes-hibrid-3mk-FlexibleGlass-per-Lenovo-IdeaTab-Pro",
-      "storeProductName": "Xham mbrojtës hibrid 3mk FlexibleGlass për Lenovo IdeaTab Pro",
-      "catalogueProductId": "neptun-30215",
-      "matchMethod": "name_match",
-      "confidence": 67,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "neptun:/categories/MacBook-Air-13-6''-M5-Starlight-512gb-mdha4ze-a-LP2120": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-13-6''-M5-Starlight-512gb-mdha4ze-a-LP2120",
-      "storeProductName": "MacBook Air 13.6'' M5 Starlight 512gb mdha4ze/a",
-      "catalogueProductId": "neptun-30975",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "neptun:/categories/MacBook-Air-13-6''-M5-Sky-Blue-512gb-mdhh4ze-a-LP2122": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-13-6''-M5-Sky-Blue-512gb-mdhh4ze-a-LP2122",
-      "storeProductName": "MacBook Air 13.6'' M5 Sky Blue 512gb mdhh4ze/a",
-      "catalogueProductId": "neptun-30977",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "neptun:/categories/MacBook-Air-13-6''-M5-Midnight-512gb-mdhe4ze-a-LP2121": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-13-6''-M5-Midnight-512gb-mdhe4ze-a-LP2121",
-      "storeProductName": "MacBook Air 13.6'' M5 Midnight 512gb mdhe4ze/a",
-      "catalogueProductId": "neptun-30976",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "neptun:/categories/MacBook-Air-13-6''-M5-Silver-512gb-mdh74ze-a-LP2119": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-13-6''-M5-Silver-512gb-mdh74ze-a-LP2119",
-      "storeProductName": "MacBook Air 13.6'' M5 Silver 512gb mdh74ze/a",
-      "catalogueProductId": "neptun-30974",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "foleja:/HRT-200024543/Xham-mbrojtes-hibrid-3mk-FlexibleGlass-per-Microsoft-Surface-Pro-7-deri-13": {
-      "storeId": "foleja",
-      "storeProductId": "/HRT-200024543/Xham-mbrojtes-hibrid-3mk-FlexibleGlass-per-Microsoft-Surface-Pro-7-deri-13",
-      "storeProductName": "Xham mbrojtës hibrid 3mk FlexibleGlass për Microsoft Surface Pro 7+, deri 13\"",
-      "catalogueProductId": "neptun-19106",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "neptun:/categories/MacBook-Air-15-3''-M4-Midnight-256gb-mw1l3ze-a-LP2003": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-15-3''-M4-Midnight-256gb-mw1l3ze-a-LP2003",
-      "storeProductName": "MacBook Air 15.3'' M4 Midnight 256gb mw1l3ze/a",
-      "catalogueProductId": "neptun-27355",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "neptun:/categories/MacBook-Air-15-3''-M4-Sky-Blue-256gb-mc7a4ze-a-LP2001": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-15-3''-M4-Sky-Blue-256gb-mc7a4ze-a-LP2001",
-      "storeProductName": "MacBook Air 15.3'' M4 Sky Blue 256gb mc7a4ze/a",
-      "catalogueProductId": "neptun-27354",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "neptun:/categories/MacBook-Air-15-3''-M5-Starlight-512gb-mdvd4ze-a-LP2124": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-15-3''-M5-Starlight-512gb-mdvd4ze-a-LP2124",
-      "storeProductName": "MacBook Air 15.3'' M5 Starlight 512gb mdvd4ze/a",
-      "catalogueProductId": "neptun-30979",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "neptun:/categories/MacBook-Air-15-3''-M5-Silver-512gb-mdv94ze-a-LP2123": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-15-3''-M5-Silver-512gb-mdv94ze-a-LP2123",
-      "storeProductName": "MacBook Air 15.3'' M5 Silver 512gb mdv94ze/a",
-      "catalogueProductId": "neptun-30978",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "neptun:/categories/MacBook-Air-15-3''-M5-Midnight-512gb-mdvh4ze-a-LP2125": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-15-3''-M5-Midnight-512gb-mdvh4ze-a-LP2125",
-      "storeProductName": "MacBook Air 15.3'' M5 Midnight 512gb mdvh4ze/a",
-      "catalogueProductId": "neptun-30980",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:06.392Z",
-      "updatedAt": "2026-04-30T18:01:06.392Z"
-    },
-    "neptun:/categories/MacBook-Air-15-3''-M5-Sky-Blue-512gb-mdvq4ze-a-LP2126": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Air-15-3''-M5-Sky-Blue-512gb-mdvq4ze-a-LP2126",
-      "storeProductName": "MacBook Air 15.3'' M5 Sky Blue 512gb mdvq4ze/a",
-      "catalogueProductId": "neptun-30981",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:10.329Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
-    },
-    "neptun:/categories/LAPTOP-HP-Spectre-x360-14-ef0009nn-6M4V8EA-LP1853": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAPTOP-HP-Spectre-x360-14-ef0009nn-6M4V8EA-LP1853",
-      "storeProductName": "LAPTOP HP SPECTRE x360 14-ef0009nn 6M4V8EA",
-      "catalogueProductId": "neptun-21327",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:10.329Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
-    },
     "foleja:/ERG-200005585/Kompjuter-Apple-MacBook-Pro-16-M5-Pro-24GB-1TB-Space-Black": {
       "storeId": "foleja",
       "storeProductId": "/ERG-200005585/Kompjuter-Apple-MacBook-Pro-16-M5-Pro-24GB-1TB-Space-Black",
       "storeProductName": "Kompjuter Apple MacBook Pro 16 M5 Pro 24GB/1TB Space Black",
-      "catalogueProductId": "neptun-30985",
-      "matchMethod": "name_match",
-      "confidence": 86,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:10.329Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
-    },
-    "neptun:/categories/MacBook-Pro-14--M5-Space-Black-512GB-mde04ze-a-LP2077": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Pro-14--M5-Space-Black-512GB-mde04ze-a-LP2077",
-      "storeProductName": "MacBook Pro 14\" M5 Space Black 512GB mde04ze/a",
-      "catalogueProductId": "neptun-29890",
+      "catalogueProductId": "neptun-30984",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T18:01:10.329Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
     },
-    "foleja:/ERG-200005581/Kompjuter-Apple-MacBook-Pro-2026-14-M5-Pro-16GB-1TB-Silver": {
+    "neptun:/categories/MacBook-Pro-16--M5-Pro-Silver-1TB-mge44ze-a-LP2129": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MacBook-Pro-16--M5-Pro-Silver-1TB-mge44ze-a-LP2129",
+      "storeProductName": "MacBook Pro 16\" M5 Pro Silver 1TB mge44ze/a",
+      "catalogueProductId": "neptun-30984",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "globe:75092": {
+      "storeId": "globe",
+      "storeProductId": "75092",
+      "storeProductName": "Kompjuter Lenovo AIO A100 i3-N305 24\" F0J6005WRI",
+      "catalogueProductId": "neptun-28682",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "neptun:/categories/PC-LENOVO-AIO-IDEACENTRE-3-24IAP7-PC1768": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-LENOVO-AIO-IDEACENTRE-3-24IAP7-PC1768",
+      "storeProductName": "PC AIO LENOVO IDEACENTRE 3 24IAP7",
+      "catalogueProductId": "neptun-27046",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "globe:71953": {
+      "storeId": "globe",
+      "storeProductId": "71953",
+      "storeProductName": "Kompjuter Lenovo AIO IdeaCentre 3 24ALC6 F0G1013VRI",
+      "catalogueProductId": "neptun-30201",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "globe:24979": {
+      "storeId": "globe",
+      "storeProductId": "24979",
+      "storeProductName": "Kompjuter HP AiO ProOne 240 G10 B70VFAT",
+      "catalogueProductId": "neptun-30148",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "neptun:/categories/PC-AIO-LENOVO-IDEACENTRE-3-24ALC6-F0G1013WRI-PC1814": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-3-24ALC6-F0G1013WRI-PC1814",
+      "storeProductName": "PC AIO LENOVO IDEACENTRE 3 24ALC6 F0G1013WRI",
+      "catalogueProductId": "neptun-28684",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "globe:75093": {
+      "storeId": "globe",
+      "storeProductId": "75093",
+      "storeProductName": "Kompjuter Lenovo AIO IdeaCentre 3 24ALC6 Ryzen 5 F0G1013WRI",
+      "catalogueProductId": "neptun-28684",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "neptun:/categories/PC-AIO-LENOVO-IDEACENTRE-24ARR9-F0HR000VRI-PC1852": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-24ARR9-F0HR000VRI-PC1852",
+      "storeProductName": "PC AIO LENOVO IDEACENTRE 24ARR9 F0HR000VRI",
+      "catalogueProductId": "neptun-30198",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "neptun:/categories/PC-LENOVO-AIO-IDEACENTRE-3-24ALC6-PC1769": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-LENOVO-AIO-IDEACENTRE-3-24ALC6-PC1769",
+      "storeProductName": "PC AIO LENOVO IDEACENTRE 3 24ALC6 F0G1012RRI",
+      "catalogueProductId": "neptun-27047",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "neptun:/categories/PC-AIO-LENOVO-IDEACENTRE-24IRH9-F0HN00JTRI-PC1816": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-24IRH9-F0HN00JTRI-PC1816",
+      "storeProductName": "PC AIO LENOVO IDEACENTRE 24IRH9 F0HN00JTRI",
+      "catalogueProductId": "neptun-28686",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "neptun:/categories/PC-AIO-LENOVO-IDEACENTRE-24ARR9-F0HR000WRI-PC1854": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-24ARR9-F0HR000WRI-PC1854",
+      "storeProductName": "PC AIO LENOVO IDEACENTRE 24ARR9 F0HR000WRI",
+      "catalogueProductId": "neptun-30200",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "neptun:/categories/PC-AIO-LENOVO-IDEACENTRE-27IRH9-F0HM001MRI-PC1855": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-27IRH9-F0HM001MRI-PC1855",
+      "storeProductName": "PC AIO LENOVO IDEACENTRE 27IRH9 F0HM001MRI",
+      "catalogueProductId": "neptun-30201",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:24.485Z",
+      "updatedAt": "2026-04-30T18:01:24.485Z"
+    },
+    "neptun:/categories/PC-AIO-LENOVO-IDEACENTRE-27IRH9-F0HM00SXRI-PC1817": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-27IRH9-F0HM00SXRI-PC1817",
+      "storeProductName": "PC AIO LENOVO IDEACENTRE 27IRH9 F0HM00SXRI",
+      "catalogueProductId": "neptun-28687",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:34.022Z",
+      "updatedAt": "2026-04-30T18:01:34.022Z"
+    },
+    "neptun:/categories/PC-HP-AIO-24-CR1019N-C3FB2EA-PC1827": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-HP-AIO-24-CR1019N-C3FB2EA-PC1827",
+      "storeProductName": "PC HP AIO 24-CR1019N C3FB2EA",
+      "catalogueProductId": "neptun-30149",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:34.022Z",
+      "updatedAt": "2026-04-30T18:01:34.022Z"
+    },
+    "neptun:/categories/PC-HP-AIO-27-CR0013NH-9U599EA-PC1785": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-HP-AIO-27-CR0013NH-9U599EA-PC1785",
+      "storeProductName": "PC HP AIO 27-CR0013NH 9U599EA",
+      "catalogueProductId": "neptun-28012",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:34.022Z",
+      "updatedAt": "2026-04-30T18:01:34.022Z"
+    },
+    "neptun:/categories/PC-AIO-LENOVO-IDEACENTRE-24IRH9-PC1803": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-24IRH9-PC1803",
+      "storeProductName": "PC AIO LENOVO IDEACENTRE 24IRH9 F0HN00JWRI Touch",
+      "catalogueProductId": "neptun-28239",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:34.022Z",
+      "updatedAt": "2026-04-30T18:01:34.022Z"
+    },
+    "neptun:/categories/PC-LENOVO-AIO-IDEACENTER-3-27IAP7-PC1586": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-LENOVO-AIO-IDEACENTER-3-27IAP7-PC1586",
+      "storeProductName": "PC LENOVO AIO IDEACENTER 3 27IAP7",
+      "catalogueProductId": "neptun-20733",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:34.022Z",
+      "updatedAt": "2026-04-30T18:01:34.022Z"
+    },
+    "neptun:/categories/PC-AIO-LENOVO-YOGA-27IAH10-F0J2001XRI-PC1860": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/PC-AIO-LENOVO-YOGA-27IAH10-F0J2001XRI-PC1860",
+      "storeProductName": "PC AIO LENOVO YOGA 27IAH10 F0J2001XRI",
+      "catalogueProductId": "neptun-30232",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:34.022Z",
+      "updatedAt": "2026-04-30T18:01:34.022Z"
+    },
+    "foleja:/KST-200014431/iMac-Apple-24-inch-M4-16GB-256GB-SSD-Blu": {
       "storeId": "foleja",
-      "storeProductId": "/ERG-200005581/Kompjuter-Apple-MacBook-Pro-2026-14-M5-Pro-16GB-1TB-Silver",
-      "storeProductName": "Kompjuter Apple MacBook Pro 2026 14\" M5 Pro 16GB 1TB Silver",
-      "catalogueProductId": "neptun-30982",
-      "matchMethod": "name_match",
-      "confidence": 83,
-      "status": "pending",
-      "createdAt": "2026-04-30T18:01:10.329Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
-    },
-    "neptun:/categories/MacBook-Pro-14--M5-Silver-512GB-mde44ze-a-LP2078": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Pro-14--M5-Silver-512GB-mde44ze-a-LP2078",
-      "storeProductName": "MacBook Pro 14\" M5 Silver 512GB mde44ze/a",
-      "catalogueProductId": "neptun-29891",
+      "storeProductId": "/KST-200014431/iMac-Apple-24-inch-M4-16GB-256GB-SSD-Blu",
+      "storeProductName": "iMac Apple 24-inch M4, 16GB, 256GB SSD, Blu",
+      "catalogueProductId": "neptun-26453",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T18:01:10.329Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
+      "createdAt": "2026-04-30T18:01:34.022Z",
+      "updatedAt": "2026-04-30T18:01:34.022Z"
     },
-    "foleja:/ERG-200005582/Kompjuter-Apple-MacBook-Pro-14-M5-Pro-16GB-1TB-Space-Black": {
+    "neptun:/categories/Apple-iMac-24--M4---Blue-256GB-mwv13ze-a-PC1747": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/Apple-iMac-24--M4---Blue-256GB-mwv13ze-a-PC1747",
+      "storeProductName": "Apple iMac 24\" M4 - Blue 256GB mwv13ze/a",
+      "catalogueProductId": "neptun-26453",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:34.022Z",
+      "updatedAt": "2026-04-30T18:01:34.022Z"
+    },
+    "neptun:/categories/Apple-iMac-24--M3---Green-256GB-mqra3ze-a-PC1646": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/Apple-iMac-24--M3---Green-256GB-mqra3ze-a-PC1646",
+      "storeProductName": "Apple iMac 24\" M3 - Green 256GB mqra3ze/a",
+      "catalogueProductId": "neptun-23918",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:38.841Z"
+    },
+    "neptun:/categories/Apple-MAC-MINI-LATE-2020-PC1444": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/Apple-MAC-MINI-LATE-2020-PC1444",
+      "storeProductName": "Apple MAC MINI LATE 2020",
+      "catalogueProductId": "neptun-16319",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:38.841Z"
+    },
+    "neptun:/categories/MONITOR-FUEGO-MD2458-23-8--MO0737": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-FUEGO-MD2458-23-8--MO0737",
+      "storeProductName": "MONITOR FUEGO MD2458/24?Z75FI 23.8\"",
+      "catalogueProductId": "neptun-24058",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:38.841Z"
+    },
+    "foleja:/KOM-200219976/Monitor-Samsung-LS24F330EAUXEN-24-inc-Full-HD-100Hz-i-zi": {
       "storeId": "foleja",
-      "storeProductId": "/ERG-200005582/Kompjuter-Apple-MacBook-Pro-14-M5-Pro-16GB-1TB-Space-Black",
-      "storeProductName": "Kompjuter Apple MacBook Pro 14 M5 Pro 16GB 1TB Space Black",
-      "catalogueProductId": "neptun-30983",
+      "storeProductId": "/KOM-200219976/Monitor-Samsung-LS24F330EAUXEN-24-inc-Full-HD-100Hz-i-zi",
+      "storeProductName": "Monitor Samsung LS24F330EAUXEN 24 inç Full HD 100Hz i zi",
+      "catalogueProductId": "neptun-21440",
       "matchMethod": "name_match",
-      "confidence": 86,
+      "confidence": 67,
       "status": "pending",
-      "createdAt": "2026-04-30T18:01:10.329Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:38.841Z"
     },
-    "neptun:/categories/MacBook-Pro-14--M5-Pro-Space-Black-1TB-mgdr4ze-a-LP2128": {
+    "neptun:/categories/MONITOR-SAMSUNG-LS24F330EAUXEN-MO0960": {
       "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Pro-14--M5-Pro-Space-Black-1TB-mgdr4ze-a-LP2128",
-      "storeProductName": "MacBook Pro 14\" M5 Pro Space Black 1TB mgdr4ze/a",
-      "catalogueProductId": "neptun-30983",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS24F330EAUXEN-MO0960",
+      "storeProductName": "MONITOR SAMSUNG LS24F330EAUXEN",
+      "catalogueProductId": "neptun-30244",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T18:01:10.329Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:38.841Z"
     },
-    "neptun:/categories/MacBook-Pro-14--M5-Pro-Silver-1TB-mgdn4ze-a-LP2127": {
+    "foleja:/ICO-200002233/Monitor-LG-32UN880K-B-32-TFT-LCD-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/ICO-200002233/Monitor-LG-32UN880K-B-32-TFT-LCD-i-zi",
+      "storeProductName": "Monitor LG 32UN880K-B 32\" TFT/LCD i zi",
+      "catalogueProductId": "neptun-27321",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-LG-24MR400-B-MO0883": {
       "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Pro-14--M5-Pro-Silver-1TB-mgdn4ze-a-LP2127",
-      "storeProductName": "MacBook Pro 14\" M5 Pro Silver 1TB mgdn4ze/a",
-      "catalogueProductId": "neptun-30982",
+      "storeProductId": "/categories/MONITOR-LG-24MR400-B-MO0883",
+      "storeProductName": "MONITOR LG 24MR400-B",
+      "catalogueProductId": "neptun-27219",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T18:01:10.329Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:38.841Z"
     },
-    "neptun:/categories/MacBook-Pro-16--M5-Pro-Space-Black-1TB-mgea4ze-a-LP2130": {
+    "neptun:/categories/MONITOR-FUEGO-MD2758-27--MO0738": {
       "storeId": "neptun",
-      "storeProductId": "/categories/MacBook-Pro-16--M5-Pro-Space-Black-1TB-mgea4ze-a-LP2130",
-      "storeProductName": "MacBook Pro 16\" M5 Pro Space Black 1TB mgea4ze/a",
-      "catalogueProductId": "neptun-30985",
+      "storeProductId": "/categories/MONITOR-FUEGO-MD2758-27--MO0738",
+      "storeProductName": "MONITOR FUEGO MD2758/27?Z75FI 27\"",
+      "catalogueProductId": "neptun-24059",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T18:01:10.329Z",
-      "updatedAt": "2026-04-30T18:01:10.329Z"
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:38.841Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS24F320GAUXEN-MO0948": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS24F320GAUXEN-MO0948",
+      "storeProductName": "MONITOR SAMSUNG LS24F320GAUXEN",
+      "catalogueProductId": "neptun-30006",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:38.841Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS24C310EAUXEN-MO0718": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS24C310EAUXEN-MO0718",
+      "storeProductName": "MONITOR SAMSUNG LS24C310EAUXEN",
+      "catalogueProductId": "neptun-21440",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:38.841Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LC24F390FHRXEN-MO0667": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LC24F390FHRXEN-MO0667",
+      "storeProductName": "MONITOR SAMSUNG LC24F390FHRXEN",
+      "catalogueProductId": "neptun-18142",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:38.841Z",
+      "updatedAt": "2026-04-30T18:01:38.841Z"
+    },
+    "neptun:/categories/MONITOR-FUEGO-B24F2FK-MO0941": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-FUEGO-B24F2FK-MO0941",
+      "storeProductName": "MONITOR FUEGO B24F2FK",
+      "catalogueProductId": "neptun-31045",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "neptun:/categories/MONITOR-XIAOMI-A27i-100Hz-MO0978": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-XIAOMI-A27i-100Hz-MO0978",
+      "storeProductName": "MONITOR XIAOMI A27i 100Hz",
+      "catalogueProductId": "neptun-30971",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "neptun:/categories/MONITOR-DELL-23-8''-SE2422H-MO0645": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-DELL-23-8''-SE2422H-MO0645",
+      "storeProductName": "MONITOR DELL 23.8'' SE2422H",
+      "catalogueProductId": "neptun-18096",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "neptun:/categories/MONITOR-LG-24U41YA-B-FHD-120Hz-MO0972": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-LG-24U41YA-B-FHD-120Hz-MO0972",
+      "storeProductName": "MONITOR LG 24U41YA-B FHD 120Hz",
+      "catalogueProductId": "neptun-30899",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS24D400GAUXEN-MO0940": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS24D400GAUXEN-MO0940",
+      "storeProductName": "MONITOR SAMSUNG LS24D400GAUXEN",
+      "catalogueProductId": "neptun-30003",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS27F320GAUXEN-MO0949": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS27F320GAUXEN-MO0949",
+      "storeProductName": "MONITOR SAMSUNG LS27F320GAUXEN",
+      "catalogueProductId": "neptun-30007",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "neptun:/categories/MONITOR-DELL-23-8--E2422HN-MO0726": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-DELL-23-8--E2422HN-MO0726",
+      "storeProductName": "MONITOR DELL 23.8\" E2422HN",
+      "catalogueProductId": "neptun-21470",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "neptun:/categories/MONITOR-FUEGO-B27F2FK-MO0942": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-FUEGO-B27F2FK-MO0942",
+      "storeProductName": "MONITOR FUEGO B27F2FK",
+      "catalogueProductId": "neptun-31046",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "foleja:/AXR-200003357/Monitor-Samsung-S24D364GAU-LS24D364GAUXEN-24-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/AXR-200003357/Monitor-Samsung-S24D364GAU-LS24D364GAUXEN-24-i-zi",
+      "storeProductName": "Monitor Samsung S24D364GAU LS24D364GAUXEN 24\" i zi",
+      "catalogueProductId": "neptun-26447",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS24D300GAUXEN-MO0877": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS24D300GAUXEN-MO0877",
+      "storeProductName": "MONITOR SAMSUNG LS24D300GAUXEN",
+      "catalogueProductId": "neptun-26822",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "neptun:/categories/MONITOR-LG-27MR400-B-MO0884": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-LG-27MR400-B-MO0884",
+      "storeProductName": "MONITOR LG 27MR400-B",
+      "catalogueProductId": "neptun-27316",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LF24T450FQRXEN-MO0730": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LF24T450FQRXEN-MO0730",
+      "storeProductName": "MONITOR SAMSUNG LF24T450FQRXEN",
+      "catalogueProductId": "neptun-21824",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:43.573Z",
+      "updatedAt": "2026-04-30T18:01:43.573Z"
+    },
+    "neptun:/categories/MONITOR-HP-P22-G4-1A7E4AA-MO0623": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-HP-P22-G4-1A7E4AA-MO0623",
+      "storeProductName": "MONITOR HP P22 G4 1A7E4AA",
+      "catalogueProductId": "neptun-19839",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "foleja:/AXR-200004864/Monitor-Samsung-S27C364EAU-LS27C364EAUXEN-27-FHD-75-Hz-VA-i-lakuar-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/AXR-200004864/Monitor-Samsung-S27C364EAU-LS27C364EAUXEN-27-FHD-75-Hz-VA-i-lakuar-i-zi",
+      "storeProductName": "Monitor Samsung S27C364EAU / LS27C364EAUXEN 27\" FHD 75 Hz VA i lakuar i zi",
+      "catalogueProductId": "neptun-26946",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS27C390EAUXEN-MO0787": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS27C390EAUXEN-MO0787",
+      "storeProductName": "MONITOR SAMSUNG LS27C390EAUXEN",
+      "catalogueProductId": "neptun-26946",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/Monitor-HP-V24-MO0643": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/Monitor-HP-V24-MO0643",
+      "storeProductName": "MONITOR HP V24 9SV73AA",
+      "catalogueProductId": "neptun-18110",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS24D360GAUXEN-MO0865": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS24D360GAUXEN-MO0865",
+      "storeProductName": "MONITOR SAMSUNG LS24D360GAUXEN",
+      "catalogueProductId": "neptun-26446",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "foleja:/YLL-200013426/Monitor-TFT-LCD-Samsung-S36GD-LS27D366GAUXEN-27-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/YLL-200013426/Monitor-TFT-LCD-Samsung-S36GD-LS27D366GAUXEN-27-zi",
+      "storeProductName": "Monitor TFT/LCD Samsung S36GD LS27D366GAUXEN 27\" zi",
+      "catalogueProductId": "neptun-26448",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS27D366GAUXEN-MO0867": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D366GAUXEN-MO0867",
+      "storeProductName": "MONITOR SAMSUNG LS27D366GAUXEN",
+      "catalogueProductId": "neptun-26448",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS27D300GAUXEN-MO0928": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D300GAUXEN-MO0928",
+      "storeProductName": "MONITOR SAMSUNG LS27D300GAUXEN",
+      "catalogueProductId": "neptun-27989",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS27D360GAUXEN-MO0866": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D360GAUXEN-MO0866",
+      "storeProductName": "MONITOR SAMSUNG LS27D360GAUXEN",
+      "catalogueProductId": "neptun-26447",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-HP-SERIES-5-524sf-94C17AA-MO0965": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-HP-SERIES-5-524sf-94C17AA-MO0965",
+      "storeProductName": "MONITOR HP SERIES 5 524sf 94C17AA",
+      "catalogueProductId": "neptun-30776",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "foleja:/AXR-200004553/Monitor-Samsung-S27D396GAU-LS27D396GAUXEN-27-inch-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/AXR-200004553/Monitor-Samsung-S27D396GAU-LS27D396GAUXEN-27-inch-e-zeze",
+      "storeProductName": "Monitor, Samsung, S27D396GAU LS27D396GAUXEN, 27 inch, e zezë",
+      "catalogueProductId": "neptun-30774",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS27D390GAUXEN-MO0955": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D390GAUXEN-MO0955",
+      "storeProductName": "MONITOR SAMSUNG LS27D390GAUXEN",
+      "catalogueProductId": "neptun-30774",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS27D400GAUXEN-MO0934": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D400GAUXEN-MO0934",
+      "storeProductName": "MONITOR SAMSUNG LS27D400GAUXEN",
+      "catalogueProductId": "neptun-27990",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-DELL-27-0--SE2722H-MO0727": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-DELL-27-0--SE2722H-MO0727",
+      "storeProductName": "MONITOR DELL 27.0\" SE2722H",
+      "catalogueProductId": "neptun-21471",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:51.058Z",
+      "updatedAt": "2026-04-30T18:01:51.058Z"
+    },
+    "neptun:/categories/MONITOR-HP-V27i-MO0632": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-HP-V27i-MO0632",
+      "storeProductName": "MONITOR HP V27i 9SV94AA",
+      "catalogueProductId": "neptun-17526",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-LG-24MS550-B-FHD-100Hz-SPEAKER-MO0968": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-LG-24MS550-B-FHD-100Hz-SPEAKER-MO0968",
+      "storeProductName": "MONITOR LG 24MS550-B FHD 100Hz SPEAKER",
+      "catalogueProductId": "neptun-30896",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-LG-32MR50C-B--MO0885": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-LG-32MR50C-B--MO0885",
+      "storeProductName": "MONITOR LG 32MR50C-B.",
+      "catalogueProductId": "neptun-27321",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "foleja:/ACN-300311744/Monitor-LG-29U511A-B-29-UltraWide-WFHD-IPS-HDR-100Hz-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300311744/Monitor-LG-29U511A-B-29-UltraWide-WFHD-IPS-HDR-100Hz-i-zi",
+      "storeProductName": "Monitor LG 29U511A-B, 29\", UltraWide WFHD, IPS, HDR, 100Hz, i zi",
+      "catalogueProductId": "neptun-31108",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-LG-29U511A-B-FHD-100Hz-MO0971": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-LG-29U511A-B-FHD-100Hz-MO0971",
+      "storeProductName": "MONITOR LG 29U511A-B FHD 100Hz",
+      "catalogueProductId": "neptun-31108",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-FUEGO-B32X3QK-MO0943": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-FUEGO-B32X3QK-MO0943",
+      "storeProductName": "MONITOR FUEGO B32X3QK",
+      "catalogueProductId": "neptun-31047",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-LG-27U41YA-B-FHD-120Hz-MO0970": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-LG-27U41YA-B-FHD-120Hz-MO0970",
+      "storeProductName": "MONITOR LG 27U41YA-B FHD 120Hz",
+      "catalogueProductId": "neptun-30898",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-LG-27MS550-B-FHD-100Hz-SPEAKER-MO0969": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-LG-27MS550-B-FHD-100Hz-SPEAKER-MO0969",
+      "storeProductName": "MONITOR LG 27MS550-B FHD 100Hz SPEAKER",
+      "catalogueProductId": "neptun-30897",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LC27F390FHRXDU-MO0671": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LC27F390FHRXDU-MO0671",
+      "storeProductName": "MONITOR SAMSUNG LC27F390FHRXDU",
+      "catalogueProductId": "neptun-18762",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS27DM500EUXDU-MO0853": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS27DM500EUXDU-MO0853",
+      "storeProductName": "MONITOR SAMSUNG LS27DM500EUXDU",
+      "catalogueProductId": "neptun-26520",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LC27T550FDRXEN-MO0635": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LC27T550FDRXEN-MO0635",
+      "storeProductName": "MONITOR SAMSUNG LC27T550FDRXEN",
+      "catalogueProductId": "neptun-21897",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "foleja:/AXR-200004554/Monitor-Samsung-S32D396GAU-LS32D396GAUXEN-32-i-lakuar-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/AXR-200004554/Monitor-Samsung-S32D396GAU-LS32D396GAUXEN-32-i-lakuar-e-zeze",
+      "storeProductName": "Monitor Samsung S32D396GAU / LS32D396GAUXEN 32\" i lakuar, e zezë",
+      "catalogueProductId": "neptun-30775",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS32D390GAUXEN-MO0956": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS32D390GAUXEN-MO0956",
+      "storeProductName": "MONITOR SAMSUNG LS32D390GAUXEN",
+      "catalogueProductId": "neptun-30775",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:01:56.485Z",
+      "updatedAt": "2026-04-30T18:01:56.485Z"
+    },
+    "foleja:/ICO-200002260/Monitor-LG-UltraWide-34WQ650-W-34-TFT-LCD-argjend-zi-bardhe": {
+      "storeId": "foleja",
+      "storeProductId": "/ICO-200002260/Monitor-LG-UltraWide-34WQ650-W-34-TFT-LCD-argjend-zi-bardhe",
+      "storeProductName": "Monitor LG UltraWide 34WQ650-W 34\" TFT/LCD, argjend/zi/bardhë",
+      "catalogueProductId": "neptun-27322",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
+    },
+    "neptun:/categories/MONITOR-LG-ULTRAWIDE-29WQ600-W-MO0889": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-LG-ULTRAWIDE-29WQ600-W-MO0889",
+      "storeProductName": "MONITOR LG ULTRAWIDE 29WQ600-W",
+      "catalogueProductId": "neptun-27322",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
+    },
+    "neptun:/categories/MONITOR-HP-E27-G4-9VG71AA-MO0705": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-HP-E27-G4-9VG71AA-MO0705",
+      "storeProductName": "MONITOR HP E27 G4 9VG71AA",
+      "catalogueProductId": "neptun-25275",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS27A700NWUXEN-MO0686": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS27A700NWUXEN-MO0686",
+      "storeProductName": "MONITOR SAMSUNG LS27A700NWUXEN",
+      "catalogueProductId": "neptun-20788",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS27D700EAUXEN-MO0849": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D700EAUXEN-MO0849",
+      "storeProductName": "MONITOR SAMSUNG LS27D700EAUXEN",
+      "catalogueProductId": "neptun-26785",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
+    },
+    "foleja:/KST-200002927/Monitor-DELL-UltraSharp-32-4K-USB-C-Hub-U3223QE-80-cm-31.5-3840-x-2160-pixels-4K-Ultra-HD-LCD-8-ms-Argjendte": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200002927/Monitor-DELL-UltraSharp-32-4K-USB-C-Hub-U3223QE-80-cm-31.5-3840-x-2160-pixels-4K-Ultra-HD-LCD-8-ms-Argjendte",
+      "storeProductName": "Monitor DELL UltraSharp 32 4K USB-C Hub - U3223QE, 80 cm (31.5\"), 3840 x 2160 pixels, 4K Ultra HD, LCD, 8 ms, Argjendtë",
+      "catalogueProductId": "neptun-17167",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
+    },
+    "neptun:/categories/Dell-Monitor-Ultra-Sharp-U2421HE-MO0610": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/Dell-Monitor-Ultra-Sharp-U2421HE-MO0610",
+      "storeProductName": "MONITOR DELL ULTRA SHARP U2421HE",
+      "catalogueProductId": "neptun-17167",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
+    },
+    "foleja:/AXR-200002155/Monitor-Samsung-LS32D701EAUXEN-ViewFinity-S7-27-inch-i-bardhe": {
+      "storeId": "foleja",
+      "storeProductId": "/AXR-200002155/Monitor-Samsung-LS32D701EAUXEN-ViewFinity-S7-27-inch-i-bardhe",
+      "storeProductName": "Monitor, Samsung, LS32D701EAUXEN ViewFinity S7, 27 inch, i bardhë",
+      "catalogueProductId": "neptun-26784",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS32D701EAUXEN-MO0878": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS32D701EAUXEN-MO0878",
+      "storeProductName": "MONITOR SAMSUNG LS32D701EAUXEN",
+      "catalogueProductId": "neptun-26823",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS32D700EAUXEN-MO0848": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS32D700EAUXEN-MO0848",
+      "storeProductName": "MONITOR SAMSUNG LS32D700EAUXEN",
+      "catalogueProductId": "neptun-26784",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
+    },
+    "neptun:/categories/MONITOR-SAMSUNG-LS34C500GAUXEN-MO0793": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-SAMSUNG-LS34C500GAUXEN-MO0793",
+      "storeProductName": "MONITOR SAMSUNG LS34C500GAUXEN",
+      "catalogueProductId": "neptun-25323",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:02:01.158Z",
+      "updatedAt": "2026-04-30T18:02:01.158Z"
     }
   }
 }
