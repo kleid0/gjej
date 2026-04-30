@@ -10,6 +10,10 @@ name: Refresh Prices
 # Triggers:
 #   - workflow_dispatch (manual): customisable starting index + base URL.
 #   - schedule (daily 06:00 UTC): mirrors the old Vercel cron timing.
+#   - push to main on .github/triggers/refresh-prices.txt: lets a Claude
+#     session kick off an on-demand walk by bumping that sentinel file
+#     via the GitHub MCP create_or_update_file tool. start_index defaults
+#     to 0 in this path; use workflow_dispatch when resuming partway.
 # CRON_SECRET must be configured as a repo secret.
 
 on:
@@ -25,6 +29,10 @@ on:
         default: "0"
   schedule:
     - cron: "0 6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/triggers/refresh-prices.txt"
 
 # Don't pile up overlapping price-refresh runs (e.g. a manual dispatch
 # while the daily cron is mid-walk). The newer one waits, the older one

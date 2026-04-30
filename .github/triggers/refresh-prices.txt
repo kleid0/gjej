@@ -1,0 +1,8 @@
+Updating this file (path: .github/triggers/refresh-prices.txt) re-runs the
+Refresh Prices workflow on demand. The contents don't matter — only the
+fact that the file changed. Replace with the current ISO timestamp.
+
+start_index defaults to 0 on this trigger; use workflow_dispatch with
+inputs.start_index if you need to resume partway.
+
+Last triggered: 2026-04-30T00:00:00Z
