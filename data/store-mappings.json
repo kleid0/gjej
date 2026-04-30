@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T16:49:30.622Z",
+  "updatedAt": "2026-04-30T16:50:08.442Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -214,23 +214,23 @@
       "storeId": "shpresa",
       "storeProductId": "171949",
       "storeProductName": "HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5",
-      "catalogueProductId": "shpresa-hp-proone-240-g10-aio-23-8%e2%80%b3-16gb-512gb-ssd-core-i5",
+      "catalogueProductId": "pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-i3-n300",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:27.759Z",
-      "updatedAt": "2026-04-30T06:19:02.139Z"
+      "updatedAt": "2026-04-30T16:49:49.308Z"
     },
     "neptun:/categories/PC-HP-AIO-ProOne-240-G10-PC1813": {
       "storeId": "neptun",
       "storeProductId": "/categories/PC-HP-AIO-ProOne-240-G10-PC1813",
       "storeProductName": "PC HP AIO ProOne 240 G10 A55A3ET",
-      "catalogueProductId": "shpresa-hp-proone-240-g10-aio-23-8%e2%80%b3-16gb-512gb-ssd-core-i5",
+      "catalogueProductId": "pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-i3-n300",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:27.759Z",
-      "updatedAt": "2026-04-30T06:19:02.139Z"
+      "updatedAt": "2026-04-30T16:49:49.308Z"
     },
     "foleja:/ERG-200004014/Celular-Samsung-Galaxy-A17-8GB-256GB-5G-gri": {
       "storeId": "foleja",
@@ -8668,6 +8668,248 @@
       "status": "pending",
       "createdAt": "2026-04-30T16:49:30.622Z",
       "updatedAt": "2026-04-30T16:49:30.622Z"
+    },
+    "foleja:/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi",
+      "storeProductName": "Monitor, Samsung, ViewFinity S70D LS27D700EAUXEN, 27 inç, zi",
+      "catalogueProductId": "pcstore-samsung-monitor-viewfinity-s7-s70d-31-5-4k",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:39.173Z",
+      "updatedAt": "2026-04-30T16:50:04.477Z"
+    },
+    "foleja:/ACN-300053259/Disk-SSD-Kioxia-Exceria-2.5-serie-ATA-III-TLC-960GB": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300053259/Disk-SSD-Kioxia-Exceria-2.5-serie-ATA-III-TLC-960GB",
+      "storeProductName": "Disk SSD Kioxia Exceria, 2.5\", serie ATA III TLC, 960GB",
+      "catalogueProductId": "pcstore-kioxia-exceria-960gb-ssd-2-5-sata",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:39.173Z",
+      "updatedAt": "2026-04-30T16:49:39.173Z"
+    },
+    "foleja:/KST-200045655/Kompjuter-Lenovo-X1-Carbon-G13-Ultra7-32GB-1TB-14-2.8K-5G-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200045655/Kompjuter-Lenovo-X1-Carbon-G13-Ultra7-32GB-1TB-14-2.8K-5G-i-zi",
+      "storeProductName": "Kompjuter Lenovo X1 Carbon G13 Ultra7 32GB 1TB 14\" 2.8K 5G i zi",
+      "catalogueProductId": "pcstore-lenovo-x1-carbon-g13-aura_edition-core-ultra-7-258v",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:43.821Z",
+      "updatedAt": "2026-04-30T16:49:43.821Z"
+    },
+    "foleja:/KST-200050801/Kompjuter-Lenovo-ThinkPad-T14-G6-CU7-255U-16GB-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200050801/Kompjuter-Lenovo-ThinkPad-T14-G6-CU7-255U-16GB-i-zi",
+      "storeProductName": "Kompjuter Lenovo ThinkPad T14 G6 CU7-255U 16GB, i zi",
+      "catalogueProductId": "pcstore-lenovo-thinkpad-t14-g6-core-ultra-7-255u",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:43.821Z",
+      "updatedAt": "2026-04-30T16:49:43.821Z"
+    },
+    "foleja:/KST-200050373/RAM-Memorje-Crucial-32GB-2x16GB-DDR5-5600MHz-SO-DIMM-per-laptop": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200050373/RAM-Memorje-Crucial-32GB-2x16GB-DDR5-5600MHz-SO-DIMM-per-laptop",
+      "storeProductName": "RAM Memorje Crucial 32GB (2x16GB) DDR5 5600MHz SO-DIMM për laptop",
+      "catalogueProductId": "pcstore-crucial-memory-ddr5-1x32gb-5600mhz-2",
+      "matchMethod": "name_match",
+      "confidence": 60,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:43.821Z",
+      "updatedAt": "2026-04-30T16:49:43.821Z"
+    },
+    "foleja:/ACN-300311090/Kase-All-in-One-Lenovo-IdeaCentre-AIO-24IRH9-Intel-Core-i5-13420H-16-GB-RAM-1-TB-SSD-23.8-FHD-Gri": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300311090/Kase-All-in-One-Lenovo-IdeaCentre-AIO-24IRH9-Intel-Core-i5-13420H-16-GB-RAM-1-TB-SSD-23.8-FHD-Gri",
+      "storeProductName": "Kasë All-in-One Lenovo IdeaCentre AIO 24IRH9, Intel Core i5-13420H, 16 GB RAM, 1 TB SSD, 23.8\" FHD, Gri",
+      "catalogueProductId": "pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-icore-5-210h",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:49.308Z",
+      "updatedAt": "2026-04-30T16:49:53.864Z"
+    },
+    "foleja:/KST-200008992/Kase-Thermaltake-View-380-TG-ARGB-Midi-Tower-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200008992/Kase-Thermaltake-View-380-TG-ARGB-Midi-Tower-e-zeze",
+      "storeProductName": "Kasë Thermaltake View 380 TG ARGB, Midi Tower, e zezë",
+      "catalogueProductId": "pcstore-thermaltake-view-tower-380-mini-tower-argb",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:49.308Z",
+      "updatedAt": "2026-04-30T16:49:49.308Z"
+    },
+    "foleja:/KST-200065426/Kompjuter-ASUS-ROG-Zephyrus-G16-GA605KM-QR003W-16-OLED-AI7-RTX5060-16GB-1TB-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200065426/Kompjuter-ASUS-ROG-Zephyrus-G16-GA605KM-QR003W-16-OLED-AI7-RTX5060-16GB-1TB-e-zeze",
+      "storeProductName": "Kompjuter ASUS ROG Zephyrus G16 GA605KM-QR003W, 16\" OLED, AI7, RTX5060, 16GB/1TB, e zezë",
+      "catalogueProductId": "pcstore-asus-rog-zephyrus-g14-amd-ryzen-ai-9-hx370-5070ti",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:53.864Z",
+      "updatedAt": "2026-04-30T16:49:53.864Z"
+    },
+    "foleja:/KST-200015419/Mikrofon-tavoline-Cherry-UM-9.0-PRO-RGB-24-bit-192-kHz-USB-i-zi-baker": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200015419/Mikrofon-tavoline-Cherry-UM-9.0-PRO-RGB-24-bit-192-kHz-USB-i-zi-baker",
+      "storeProductName": "Mikrofon tavoline Cherry UM 9.0 PRO RGB, 24 bit, 192 kHz, USB, i zi, bakër",
+      "catalogueProductId": "pcstore-cherry-um-9-0-pro-rgb-illuminated",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:53.864Z",
+      "updatedAt": "2026-04-30T16:49:53.864Z"
+    },
+    "foleja:/KST-200050885/Kase-Dell-Pro-Max-Tower-T2-FCT2250-Core-Ultra-9-285K-64GB-1TB-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200050885/Kase-Dell-Pro-Max-Tower-T2-FCT2250-Core-Ultra-9-285K-64GB-1TB-e-zeze",
+      "storeProductName": "Kasë Dell Pro Max Tower T2 FCT2250, Core Ultra 9 285K, 64GB, 1TB, e zezë",
+      "catalogueProductId": "pcstore-dell-pro-max-t2-fct2250-ultra-7-265-rtx-a4000-16gb",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:53.864Z",
+      "updatedAt": "2026-04-30T16:49:53.864Z"
+    },
+    "foleja:/AXR-200002841/Maus-Logitech-G-Pro-X-Superlight-2-roze": {
+      "storeId": "foleja",
+      "storeProductId": "/AXR-200002841/Maus-Logitech-G-Pro-X-Superlight-2-roze",
+      "storeProductName": "Maus Logitech G Pro X Superlight 2, rozë",
+      "catalogueProductId": "pcstore-logitech-pro-x-superlight-2-lightspeed",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:53.864Z",
+      "updatedAt": "2026-04-30T16:49:53.864Z"
+    },
+    "foleja:/ACN-300055857/Tastiere-HP-350-Compact-Multi-Device-Bluetooth-e-bardhe": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300055857/Tastiere-HP-350-Compact-Multi-Device-Bluetooth-e-bardhe",
+      "storeProductName": "Tastierë HP 350 Compact Multi-Device Bluetooth, e bardhë",
+      "catalogueProductId": "pcstore-hp-multi-device-keyboard-350",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:58.520Z",
+      "updatedAt": "2026-04-30T16:49:58.520Z"
+    },
+    "neptun:/categories/LAPTOP-HP-PROBOOK-460-G11-A23BCEA-LP2100": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LAPTOP-HP-PROBOOK-460-G11-A23BCEA-LP2100",
+      "storeProductName": "LAPTOP HP PROBOOK 460 G11 A23BCEA",
+      "catalogueProductId": "pcstore-hp-probook-460-g11-intel-core-ultra-7-155u-2",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:58.520Z",
+      "updatedAt": "2026-04-30T16:49:58.520Z"
+    },
+    "foleja:/ACN-300256678/Kartele-grafike-MSI-GeForce-RTX-5070-GAMING-TRIO-OC-12-GB-GDDR7-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300256678/Kartele-grafike-MSI-GeForce-RTX-5070-GAMING-TRIO-OC-12-GB-GDDR7-e-zeze",
+      "storeProductName": "Kartelë grafike MSI GeForce RTX 5070 GAMING TRIO OC, 12 GB GDDR7, e zezë",
+      "catalogueProductId": "pcstore-msi-gaming-oc-nvidia-rtx-5060-ti-16gb-gddr7",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:58.520Z",
+      "updatedAt": "2026-04-30T16:49:58.520Z"
+    },
+    "foleja:/KST-200005304/Pllake-ame-Gigabyte-B550M-AORUS-ELITE-mATX": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200005304/Pllake-ame-Gigabyte-B550M-AORUS-ELITE-mATX",
+      "storeProductName": "Pllakë amë Gigabyte B550M AORUS ELITE mATX",
+      "catalogueProductId": "pcstore-psu-gigabyte-aorus-elite-p1000w-pg5-platinum",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:49:58.520Z",
+      "updatedAt": "2026-04-30T16:49:58.520Z"
+    },
+    "foleja:/KST-200058611/Tablet-Microsoft-Surface-Pro-10-5G-Ultra5-8GB-256GB-13-inc-Platinum": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200058611/Tablet-Microsoft-Surface-Pro-10-5G-Ultra5-8GB-256GB-13-inc-Platinum",
+      "storeProductName": "Tablet Microsoft Surface Pro 10 5G, Ultra5, 8GB, 256GB, 13 inç, Platinum",
+      "catalogueProductId": "pcstore-microsoft-surface-pro-10-core-ultra-7-165u-16-1tb",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:04.477Z",
+      "updatedAt": "2026-04-30T16:50:04.477Z"
+    },
+    "foleja:/AXR-200001848/Monitor-Dell-P2423DE-210-BDDW-23.8-inch-2560-1440-IPS-60-Hz-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/AXR-200001848/Monitor-Dell-P2423DE-210-BDDW-23.8-inch-2560-1440-IPS-60-Hz-i-zi",
+      "storeProductName": "Monitor, Dell, P2423DE (210-BDDW), 23.8 inch, 2560×1440, IPS, 60 Hz, i zi",
+      "catalogueProductId": "pcstore-dell-monitor-p3223de-31-5-ips-qhd",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:04.477Z",
+      "updatedAt": "2026-04-30T16:50:04.477Z"
+    },
+    "foleja:/KST-200004413/SSD-Crucial-T705-2TB-M.2-PCIe-Gen5-NVMe-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200004413/SSD-Crucial-T705-2TB-M.2-PCIe-Gen5-NVMe-i-zi",
+      "storeProductName": "SSD Crucial T705 2TB M.2 PCIe Gen5 NVMe i zi",
+      "catalogueProductId": "pcstore-crucial-t705-4tb-nvme-pcie-gen-5-0",
+      "matchMethod": "name_match",
+      "confidence": 83,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:04.477Z",
+      "updatedAt": "2026-04-30T16:50:04.477Z"
+    },
+    "foleja:/ICO-200002258/Monitor-OLED-gaming-LG-UltraGear-27GS95QE-B-27-inc-i-sheshte-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/ICO-200002258/Monitor-OLED-gaming-LG-UltraGear-27GS95QE-B-27-inc-i-sheshte-e-zeze",
+      "storeProductName": "Monitor OLED gaming, LG UltraGear 27GS95QE-B 27 inç, i sheshtë, e zezë",
+      "catalogueProductId": "pcstore-lg-monitor-ultragear-gaming-27-nano-ips-qhd-180hz",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:08.442Z",
+      "updatedAt": "2026-04-30T16:50:08.442Z"
+    },
+    "neptun:/categories/MONITOR-GAMING-LG-ULTRAGEAR-32GS95UV-B-MO0922": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MONITOR-GAMING-LG-ULTRAGEAR-32GS95UV-B-MO0922",
+      "storeProductName": "MONITOR GAMING LG ULTRAGEAR 32GS95UV-B",
+      "catalogueProductId": "pcstore-lg-monitor-ultragear-gaming-27-nano-ips-qhd-180hz",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:08.442Z",
+      "updatedAt": "2026-04-30T16:50:08.442Z"
+    },
+    "foleja:/ACN-300248988/Kartele-grafike-MSI-VENTUS-GeForce-RTX-5080-16G-3X-OC-16-GB-Gri": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300248988/Kartele-grafike-MSI-VENTUS-GeForce-RTX-5080-16G-3X-OC-16-GB-Gri",
+      "storeProductName": "Kartelë grafike MSI VENTUS GeForce RTX 5080 16G 3X OC, 16 GB, Gri",
+      "catalogueProductId": "pcstore-msi-ventus-3x-oc-rtx-5090-32gb",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:08.442Z",
+      "updatedAt": "2026-04-30T16:50:08.442Z"
+    },
+    "foleja:/KST-200050459/Monitor-Dell-P2725DE-27-inc-QHD-LCD-USB-C-i-argjendte": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200050459/Monitor-Dell-P2725DE-27-inc-QHD-LCD-USB-C-i-argjendte",
+      "storeProductName": "Monitor Dell P2725DE 27 inç, QHD, LCD, USB-C, i argjendtë",
+      "catalogueProductId": "pcstore-dell-monitor-p2725de-27-qhd",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:50:08.442Z",
+      "updatedAt": "2026-04-30T16:50:08.442Z"
     }
   }
 }
