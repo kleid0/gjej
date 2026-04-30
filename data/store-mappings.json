@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T18:18:58.850Z",
+  "updatedAt": "2026-04-30T18:19:04.547Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -43483,6 +43483,28 @@
       "status": "pending",
       "createdAt": "2026-04-30T18:18:58.850Z",
       "updatedAt": "2026-04-30T18:18:58.850Z"
+    },
+    "foleja:/ACN-300119978/Toner-Xerox-106R02773-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300119978/Toner-Xerox-106R02773-i-zi",
+      "storeProductName": "Toner Xerox 106R02773, i zi",
+      "catalogueProductId": "neptun-968",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:19:04.547Z",
+      "updatedAt": "2026-04-30T18:19:04.547Z"
+    },
+    "neptun:/categories/HEKUR-MIELE-B-4847-HK1011": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/HEKUR-MIELE-B-4847-HK1011",
+      "storeProductName": "HEKUR MIELE B 4847",
+      "catalogueProductId": "neptun-31182",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T18:19:04.547Z",
+      "updatedAt": "2026-04-30T18:19:04.547Z"
     }
   }
 }

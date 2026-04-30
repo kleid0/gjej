@@ -1400,5 +1400,109 @@
       }
     ],
     "refreshedAt": "2026-04-30T18:18:58.818Z"
+  },
+  "neptun-968": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 7100,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300119978/Toner-Xerox-106R02773-i-zi",
+        "lastChecked": "2026-04-30T18:19:04.506Z",
+        "matchedName": "Toner Xerox 106R02773, i zi",
+        "storeProductId": "/ACN-300119978/Toner-Xerox-106R02773-i-zi",
+        "matchConfidence": 75
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:19:04.453Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:19:03.744Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:19:03.706Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:19:03.734Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:19:04.507Z"
+  },
+  "neptun-31182": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:19:03.909Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:19:04.513Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 229390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/HEKUR-MIELE-B-4847-HK1011",
+        "lastChecked": "2026-04-30T18:19:03.614Z",
+        "matchedName": "HEKUR MIELE B 4847",
+        "storeProductId": "/categories/HEKUR-MIELE-B-4847-HK1011",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:19:03.701Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:19:03.656Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:19:04.514Z"
   }
 }
