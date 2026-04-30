@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T16:00:24.312Z",
+  "updatedAt": "2026-04-30T16:00:55.047Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -643,12 +643,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200058627/Smartwatch-Samsung-Galaxy-Watch8-40mm-LTE-32GB-grafit",
       "storeProductName": "Smartwatch Samsung Galaxy Watch8 40mm LTE, 32GB, grafit",
-      "catalogueProductId": "shpresa-samsung-galaxy-watch8-40mm",
+      "catalogueProductId": "shpresa-samsung-galaxy-watch7-40mm-lte",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:45.598Z",
-      "updatedAt": "2026-04-30T06:19:17.436Z"
+      "updatedAt": "2026-04-30T16:00:49.516Z"
     },
     "neptun:/categories/Samsung-Galaxy-Watch8-40mm-Silver-SM0227": {
       "storeId": "neptun",
@@ -995,12 +995,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200004344/Multi-styler-flokesh-Dyson-Airwrap-ID-Straight-Wavy-1300W-Cipria-Rose-Gold",
       "storeProductName": "Multi-styler flokësh Dyson Airwrap ID Straight+Wavy 1300W Cipria/Rose Gold",
-      "catalogueProductId": "shpresa-dyson-airwrap-i-d-multi-styler-and-dryer-ceramic-pink-rose-gold",
+      "catalogueProductId": "shpresa-dyson-airwrap-i-d-multi-styler-and-dryer-curly-coily-ceramic-patina-topaz",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T15:54:26.544Z",
-      "updatedAt": "2026-04-30T15:58:39.260Z"
+      "updatedAt": "2026-04-30T16:00:49.516Z"
     },
     "foleja:/ERG-200001683/Fshese-me-korrent-Dyson-V15-Detect-Absolute": {
       "storeId": "foleja",
@@ -1270,12 +1270,12 @@
       "storeId": "foleja",
       "storeProductId": "/ICO-200000043/Monitor-gaming-AOC-CQ32G4VE-31.5-QHD-2560x1440-180Hz-VA-i-lakuar-1500R-1ms-GtG-HDR10-zi-gri",
       "storeProductName": "Monitor gaming, AOC, CQ32G4VE, 31.5\" QHD 2560x1440 180Hz, VA i lakuar 1500R 1ms GtG HDR10, zi/gri",
-      "catalogueProductId": "shpresa-aoc-27-qhd-gaming-monitor-180hz-q27g42xne",
+      "catalogueProductId": "shpresa-aoc-23-8-qhd-gaming-monitor-180hz",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:55:46.580Z",
-      "updatedAt": "2026-04-30T15:55:46.580Z"
+      "updatedAt": "2026-04-30T16:00:49.516Z"
     },
     "foleja:/ERG-200003682/Powerbank-Xiaomi-10000mAh-33W-kabllo-USB-C-tan": {
       "storeId": "foleja",
@@ -2326,12 +2326,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200029926/Laptop-Lenovo-ThinkPad-T14s-Gen-5-Intel-Core-Ultra-7-16-GB-RAM-512-GB-SSD-14-inch-Black",
       "storeProductName": "Laptop Lenovo ThinkPad T14s Gen 5, Intel Core Ultra 7, 16 GB RAM, 512 GB SSD, 14 inch, Black",
-      "catalogueProductId": "shpresa-lenovo-thinkpad-t14-gen-1-14-8gb-256gb-ssd-core-i5",
+      "catalogueProductId": "shpresa-lenovo-thinkpad-e16-gen-2-16%e2%80%b3-touchscreen-16gb-512gb-ssd-core-ultra-7",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:00:05.593Z",
-      "updatedAt": "2026-04-30T16:00:24.312Z"
+      "updatedAt": "2026-04-30T16:00:35.042Z"
     },
     "foleja:/KOM-200218355/Multicooker-Xiaomi-Multifunctional-Hot-Pot-Cooker-6L-e-zeze": {
       "storeId": "foleja",
@@ -2442,6 +2442,336 @@
       "status": "pending",
       "createdAt": "2026-04-30T16:00:24.312Z",
       "updatedAt": "2026-04-30T16:00:24.312Z"
+    },
+    "foleja:/KST-200049989/Kompjuter-Lenovo-ThinkBook-16-G8-Ultra5-225U-32GB-512GB-Arctic-Grey": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200049989/Kompjuter-Lenovo-ThinkBook-16-G8-Ultra5-225U-32GB-512GB-Arctic-Grey",
+      "storeProductName": "Kompjuter Lenovo ThinkBook 16 G8 Ultra5 225U 32GB 512GB Arctic Grey",
+      "catalogueProductId": "shpresa-lenovo-thinkbook-16-g8-16touchscreen-16gb-512gb-ssd-core-5",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:31.853Z",
+      "updatedAt": "2026-04-30T16:00:31.853Z"
+    },
+    "neptun:/categories/LAPTOP-LENOVO-THINKBOOK-16-G8-IAL-21SK007YRI-LP2084": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LAPTOP-LENOVO-THINKBOOK-16-G8-IAL-21SK007YRI-LP2084",
+      "storeProductName": "LAPTOP LENOVO THINKBOOK 16 G8 IAL 21SK007YRI",
+      "catalogueProductId": "shpresa-lenovo-thinkbook-16-g8-16touchscreen-16gb-512gb-ssd-core-5",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:31.853Z",
+      "updatedAt": "2026-04-30T16:00:31.853Z"
+    },
+    "foleja:/ERG-200005805/Celular-Apple-iPhone-16-Plus-256GB-6.7-teal": {
+      "storeId": "foleja",
+      "storeProductId": "/ERG-200005805/Celular-Apple-iPhone-16-Plus-256GB-6.7-teal",
+      "storeProductName": "Celular Apple iPhone 16 Plus 256GB 6.7\" teal",
+      "catalogueProductId": "shpresa-dell-16-plus-16-2-5k-16gb-1tb-ssd-intel-core-ultra-7",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:31.853Z",
+      "updatedAt": "2026-04-30T16:00:31.853Z"
+    },
+    "neptun:/categories/iPhone-16-Plus-128GB-Black-TL4146": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/iPhone-16-Plus-128GB-Black-TL4146",
+      "storeProductName": "iPhone 16 Plus 128GB Black",
+      "catalogueProductId": "shpresa-dell-16-plus-16-2-5k-16gb-1tb-ssd-intel-core-ultra-7",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:31.853Z",
+      "updatedAt": "2026-04-30T16:00:31.853Z"
+    },
+    "shpresa:187114": {
+      "storeId": "shpresa",
+      "storeProductId": "187114",
+      "storeProductName": "Lenovo ThinkPad E16 Gen 2, 16″ Touchscreen, 16GB, 512GB SSD, Core™ Ultra 7",
+      "catalogueProductId": "shpresa-lenovo-thinkpad-e16-gen-2-16%e2%80%b3-touchscreen-16gb-512gb-ssd-core-ultra-7",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:35.042Z",
+      "updatedAt": "2026-04-30T16:00:35.042Z"
+    },
+    "neptun:/categories/LAPTOP-LENOVO-THINKPAD-E16-GEN-2-LP2030": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LAPTOP-LENOVO-THINKPAD-E16-GEN-2-LP2030",
+      "storeProductName": "LAPTOP LENOVO THINKPAD E16 GEN 2",
+      "catalogueProductId": "shpresa-lenovo-thinkpad-e16-gen-2-16%e2%80%b3-touchscreen-16gb-512gb-ssd-core-ultra-7",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:35.042Z",
+      "updatedAt": "2026-04-30T16:00:35.042Z"
+    },
+    "foleja:/KST-200053645/Kompjuter-Lenovo-ThinkPad-T14s-AMD-Ryzen-7-32GB-RAM-1TB-SSD-14-inc-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200053645/Kompjuter-Lenovo-ThinkPad-T14s-AMD-Ryzen-7-32GB-RAM-1TB-SSD-14-inc-e-zeze",
+      "storeProductName": "Kompjuter Lenovo ThinkPad T14s AMD Ryzen 7, 32GB RAM, 1TB SSD, 14 inç, e zezë",
+      "catalogueProductId": "shpresa-lenovo-thinkpad-t14s-14-16gb-1tb-ssd-core-ultra-7",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:35.042Z",
+      "updatedAt": "2026-04-30T16:00:35.042Z"
+    },
+    "neptun:/categories/LAPTOP-LENOVO-LEGION-PRO-5-16ADR10-LP2039": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LAPTOP-LENOVO-LEGION-PRO-5-16ADR10-LP2039",
+      "storeProductName": "LAPTOP LENOVO GAMING LEGION PRO 5 16ADR10",
+      "catalogueProductId": "shpresa-lenovo-legion-pro-5-16-16gb-1tb-ssd-core-ultra-7",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:35.042Z",
+      "updatedAt": "2026-04-30T16:00:35.042Z"
+    },
+    "foleja:/ERG-200003705/Loje-PS5-Death-Stranding-2-On-The-Beach": {
+      "storeId": "foleja",
+      "storeProductId": "/ERG-200003705/Loje-PS5-Death-Stranding-2-On-The-Beach",
+      "storeProductName": "Lojë PS5 Death Stranding 2 On The Beach",
+      "catalogueProductId": "shpresa-sony-ps5-death-stranding-2-on-the-beach",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:35.042Z",
+      "updatedAt": "2026-04-30T16:00:35.042Z"
+    },
+    "foleja:/ERG-200003575/Loje-Nintendo-Switch-2-Mario-Kart-World": {
+      "storeId": "foleja",
+      "storeProductId": "/ERG-200003575/Loje-Nintendo-Switch-2-Mario-Kart-World",
+      "storeProductName": "Lojë Nintendo Switch 2 Mario Kart World",
+      "catalogueProductId": "shpresa-nintendo-switch-mario-kart-world",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:35.042Z",
+      "updatedAt": "2026-04-30T16:00:35.042Z"
+    },
+    "foleja:/ERG-200003787/Loje-Nintendo-Switch-Donkey-Kong-Bananza": {
+      "storeId": "foleja",
+      "storeProductId": "/ERG-200003787/Loje-Nintendo-Switch-Donkey-Kong-Bananza",
+      "storeProductName": "Lojë Nintendo Switch Donkey Kong Bananza",
+      "catalogueProductId": "shpresa-nintendo-switch-donkey-kong-bananza",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:37.850Z",
+      "updatedAt": "2026-04-30T16:00:37.850Z"
+    },
+    "foleja:/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+      "storeProductName": "Laptop Apple MacBook Pro 16.2 Apple M4 Pro 24GB 512GB Silver",
+      "catalogueProductId": "shpresa-apple-macbook-pro-16-48gb-512gb-ssd-m4-pro-2024",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:37.850Z",
+      "updatedAt": "2026-04-30T16:00:37.850Z"
+    },
+    "neptun:/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
+      "storeProductName": "ADAPTOR APPLE USB-C 96W MacBook Pro 16\" mw2l3zm/a",
+      "catalogueProductId": "shpresa-apple-macbook-pro-16-48gb-512gb-ssd-m4-pro-2024",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:37.850Z",
+      "updatedAt": "2026-04-30T16:00:37.850Z"
+    },
+    "neptun:/categories/STARLINK-STANDARD-KIT---WHITE-PC1726": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/STARLINK-STANDARD-KIT---WHITE-PC1726",
+      "storeProductName": "STARLINK STANDARD KIT - WHITE",
+      "catalogueProductId": "shpresa-starlink-standard-kit-2",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:37.850Z",
+      "updatedAt": "2026-04-30T16:00:37.850Z"
+    },
+    "foleja:/HRT-200006756/Mbrojtes-ekrani-3mk-FlexibleGlass-per-iPad-10.9-10th-Gen-Transparent": {
+      "storeId": "foleja",
+      "storeProductId": "/HRT-200006756/Mbrojtes-ekrani-3mk-FlexibleGlass-per-iPad-10.9-10th-Gen-Transparent",
+      "storeProductName": "Mbrojtës ekrani 3mk FlexibleGlass për iPad 10.9\" (10th Gen), Transparent",
+      "catalogueProductId": "shpresa-apple-ipad-10th-gen-10-9-wi-fi-cellular-64gb-2022",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:37.850Z",
+      "updatedAt": "2026-04-30T16:00:37.850Z"
+    },
+    "foleja:/ACN-300161068/Kartele-grafike-MSI-GeForce-GT-1030-4-GB-GDDR4": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300161068/Kartele-grafike-MSI-GeForce-GT-1030-4-GB-GDDR4",
+      "storeProductName": "Kartelë grafike MSI GeForce GT 1030, 4 GB GDDR4",
+      "catalogueProductId": "shpresa-msi-geforce-gt-1030-4gd4-lp-oc",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:41.343Z",
+      "updatedAt": "2026-04-30T16:00:41.343Z"
+    },
+    "foleja:/KST-200013473/Pllake-ame-ASUS-ROG-STRIX-X870E-E-GAMING-WIFI-AMD-Socket-AM5-DDR5-192-GB": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200013473/Pllake-ame-ASUS-ROG-STRIX-X870E-E-GAMING-WIFI-AMD-Socket-AM5-DDR5-192-GB",
+      "storeProductName": "Pllakë amë ASUS ROG STRIX X870E-E GAMING WIFI, AMD, Socket AM5, DDR5, 192 GB",
+      "catalogueProductId": "shpresa-motherboard-asus-rog-strix-x870e-e-gaming-wifi",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:41.343Z",
+      "updatedAt": "2026-04-30T16:00:41.343Z"
+    },
+    "foleja:/AXR-200003427/Pllake-ame-Gigabyte-X870-EAGLE-WIFI7-chipset-X870-Wi-Fi-7-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/AXR-200003427/Pllake-ame-Gigabyte-X870-EAGLE-WIFI7-chipset-X870-Wi-Fi-7-e-zeze",
+      "storeProductName": "Pllakë amë, Gigabyte X870 EAGLE WIFI7, chipset X870, Wi‑Fi 7, e zezë",
+      "catalogueProductId": "shpresa-gigabyte-x870-eagle-wifi7",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:41.343Z",
+      "updatedAt": "2026-04-30T16:00:41.343Z"
+    },
+    "foleja:/KST-200045849/Karte-memorie-SanDisk-Ultra-32GB-microSDHC-Class-10-UHS-I-gri-kuqe": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200045849/Karte-memorie-SanDisk-Ultra-32GB-microSDHC-Class-10-UHS-I-gri-kuqe",
+      "storeProductName": "Kartë memorie SanDisk Ultra 32GB microSDHC, Class 10, UHS-I, gri/kuqe",
+      "catalogueProductId": "shpresa-sandisk-ultra-microsdhc-card-16-gb",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:41.343Z",
+      "updatedAt": "2026-04-30T16:00:41.343Z"
+    },
+    "foleja:/ALL-200000214/Pllake-ame-Gigabyte-B860M-GAMING-X-LGA1851-WiFi6E": {
+      "storeId": "foleja",
+      "storeProductId": "/ALL-200000214/Pllake-ame-Gigabyte-B860M-GAMING-X-LGA1851-WiFi6E",
+      "storeProductName": "Pllakë amë Gigabyte B860M GAMING X, LGA1851, WiFi6E",
+      "catalogueProductId": "shpresa-gigabyte-b860-gaming-x-wifi6e",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:49.516Z",
+      "updatedAt": "2026-04-30T16:00:49.516Z"
+    },
+    "foleja:/KST-200002645/Kufje-Logitech-H540-USB-me-kabllo-per-zyre-qender-thirrjesh-20-20000-Hz-120-g-te-zeza": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200002645/Kufje-Logitech-H540-USB-me-kabllo-per-zyre-qender-thirrjesh-20-20000-Hz-120-g-te-zeza",
+      "storeProductName": "Kufje Logitech H540 USB, me kabllo, për zyrë/qendër thirrjesh, 20 - 20000 Hz, 120 g, të zeza",
+      "catalogueProductId": "shpresa-logitech-h540-usb-computer-headset",
+      "matchMethod": "name_match",
+      "confidence": 60,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:49.516Z",
+      "updatedAt": "2026-04-30T16:00:49.516Z"
+    },
+    "neptun:/categories/Samsung-Galaxy-Watch7-40mm-Beige-SM0150": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/Samsung-Galaxy-Watch7-40mm-Beige-SM0150",
+      "storeProductName": "Samsung Galaxy Watch7 40mm Beige",
+      "catalogueProductId": "shpresa-samsung-galaxy-watch7-40mm-lte",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:49.516Z",
+      "updatedAt": "2026-04-30T16:00:49.516Z"
+    },
+    "neptun:/categories/Xiaomi-Redmi-Note-15-4G--8-256GB-Black-TL4485": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/Xiaomi-Redmi-Note-15-4G--8-256GB-Black-TL4485",
+      "storeProductName": "Xiaomi Redmi Note 15 4G  8/256GB Black",
+      "catalogueProductId": "shpresa-xiaomi-redmi-note-15-pro-5g",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:49.516Z",
+      "updatedAt": "2026-04-30T16:00:49.516Z"
+    },
+    "foleja:/ERG-200005041/Celular-Xiaomi-Redmi-Note-15-8GB-256GB-Glacier-Blue": {
+      "storeId": "foleja",
+      "storeProductId": "/ERG-200005041/Celular-Xiaomi-Redmi-Note-15-8GB-256GB-Glacier-Blue",
+      "storeProductName": "Celular Xiaomi Redmi Note 15 8GB 256GB Glacier Blue",
+      "catalogueProductId": "shpresa-xiaomi-redmi-note-15-4g",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:49.516Z",
+      "updatedAt": "2026-04-30T16:00:55.047Z"
+    },
+    "neptun:/categories/KUFJE-XIAOMI-REDMI-BUDS-8-LITE-WHITE-71619-KU1852": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/KUFJE-XIAOMI-REDMI-BUDS-8-LITE-WHITE-71619-KU1852",
+      "storeProductName": "XIAOMI REDMI BUDS 8 LITE WHITE 71619",
+      "catalogueProductId": "shpresa-xiaomi-redmi-buds-8-lite",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:53.437Z",
+      "updatedAt": "2026-04-30T16:00:53.437Z"
+    },
+    "foleja:/KST-200049343/Pllake-ame-ASUS-ROG-CROSSHAIR-X870E-APEX-AMD-AM5-DDR5-ATX": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200049343/Pllake-ame-ASUS-ROG-CROSSHAIR-X870E-APEX-AMD-AM5-DDR5-ATX",
+      "storeProductName": "Pllakë amë ASUS ROG CROSSHAIR X870E APEX, AMD AM5, DDR5, ATX",
+      "catalogueProductId": "shpresa-motherboard-asus-rog-crosshair-x870e-hero",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:53.437Z",
+      "updatedAt": "2026-04-30T16:00:53.437Z"
+    },
+    "foleja:/INP-200007929/Kabllo-USB-C-ne-Lightning-Mcdodo-CA-6670-1.2m-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/INP-200007929/Kabllo-USB-C-ne-Lightning-Mcdodo-CA-6670-1.2m-e-zeze",
+      "storeProductName": "Kabllo USB-C në Lightning Mcdodo CA-6670, 1.2m, e zezë",
+      "catalogueProductId": "shpresa-mcdodo-usb-c-to-usb-c-power-visible-adapter",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:53.437Z",
+      "updatedAt": "2026-04-30T16:00:55.047Z"
+    },
+    "foleja:/INP-200005656/Kabllo-Mcdodo-CA-5250-USB-A-ne-Lightning-1.2m-me-ekran-LED-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/INP-200005656/Kabllo-Mcdodo-CA-5250-USB-A-ne-Lightning-1.2m-me-ekran-LED-e-zeze",
+      "storeProductName": "Kabllo Mcdodo CA-5250 USB-A në Lightning, 1.2m, me ekran LED, e zezë",
+      "catalogueProductId": "shpresa-mcdodo-usb-a-to-lightning-convertor",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:55.047Z",
+      "updatedAt": "2026-04-30T16:00:55.047Z"
+    },
+    "foleja:/ACN-300048236/Router-TP-LINK-Archer-AX12-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300048236/Router-TP-LINK-Archer-AX12-i-zi",
+      "storeProductName": "Router TP-LINK Archer AX12, i zi",
+      "catalogueProductId": "shpresa-router-tp-link-archer-ax12-ax1500-wifi-6",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:55.047Z",
+      "updatedAt": "2026-04-30T16:00:55.047Z"
+    },
+    "neptun:/categories/ROUTER-TP-LINK-ARCHER-AX12-AX1500--Wi-Fi-6--PC1670": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/ROUTER-TP-LINK-ARCHER-AX12-AX1500--Wi-Fi-6--PC1670",
+      "storeProductName": "ROUTER TP-LINK ARCHER AX12 AX1500 (Wi-Fi 6)",
+      "catalogueProductId": "shpresa-router-tp-link-archer-ax12-ax1500-wifi-6",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:00:55.047Z",
+      "updatedAt": "2026-04-30T16:00:55.047Z"
     }
   }
 }
