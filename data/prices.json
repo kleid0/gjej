@@ -1,15 +1,379 @@
 {
-  "neptun-20881": {
+  "neptun-28424": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ACN-300263882/Maus-wireless-HP-Z3700-Gold",
-        "lastChecked": "2026-04-30T18:05:15.412Z",
-        "matchedName": "Maus wireless HP Z3700, Gold",
-        "storeProductId": "/ACN-300263882/Maus-wireless-HP-Z3700-Gold",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:49.676Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:49.882Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1090,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-S-LINK-30W-TYPE-C-SL-EC65-KR0644",
+        "lastChecked": "2026-04-30T18:05:47.435Z",
+        "matchedName": "KARIKUES S-LINK 30W TYPE C SL-EC65",
+        "storeProductId": "/categories/KARIKUES-S-LINK-30W-TYPE-C-SL-EC65-KR0644",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.470Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.559Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:49.884Z"
+  },
+  "neptun-18684": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:49.646Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:50.071Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1097,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-SWISSTEN-USB-C-25W-BLACK-KR0523",
+        "lastChecked": "2026-04-30T18:05:47.438Z",
+        "matchedName": "KARIKUES SWISSTEN USB-C 25W BLACK",
+        "storeProductId": "/categories/KARIKUES-SWISSTEN-USB-C-25W-BLACK-KR0523",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.469Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.549Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:50.072Z"
+  },
+  "neptun-24178": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:49.474Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:50.091Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-HYTECH-HY-XE40PD-20W-KABELL-LIGHTNING-KR0530",
+        "lastChecked": "2026-04-30T18:05:47.449Z",
+        "matchedName": "KARIKUES HYTECH HY-XE40PD 20W+KABELL LIGHTNING",
+        "storeProductId": "/categories/KARIKUES-HYTECH-HY-XE40PD-20W-KABELL-LIGHTNING-KR0530",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.472Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.553Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:50.091Z"
+  },
+  "neptun-27414": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:49.404Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:50.093Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-FUEGO-FG20W-FAST-CHARGE-KR0587",
+        "lastChecked": "2026-04-30T18:05:47.423Z",
+        "matchedName": "KARIKUES FUEGO FG20W FAST CHARGE",
+        "storeProductId": "/categories/KARIKUES-FUEGO-FG20W-FAST-CHARGE-KR0587",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.468Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.573Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:50.093Z"
+  },
+  "neptun-16482": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:49.519Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:50.252Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1090,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-SWISSTEN-2x-USB-2-1A---USB-C-1-2M-W-KR0466",
+        "lastChecked": "2026-04-30T18:05:47.430Z",
+        "matchedName": "KARIKUES SWISSTEN 2x USB 2.1A + USB-C 1.2M W",
+        "storeProductId": "/categories/KARIKUES-SWISSTEN-2x-USB-2-1A---USB-C-1-2M-W-KR0466",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.469Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.546Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:50.253Z"
+  },
+  "neptun-21860": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:49.420Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:50.258Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-MAKINE-HAMA-TYPE-C-20W-201637-KR0565",
+        "lastChecked": "2026-04-30T18:05:47.427Z",
+        "matchedName": "KARIKUES MAKINE HAMA TYPE-C 20W 201637",
+        "storeProductId": "/categories/KARIKUES-MAKINE-HAMA-TYPE-C-20W-201637-KR0565",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.468Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.538Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:50.258Z"
+  },
+  "neptun-4668": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:50.688Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.525Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1197,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-SAMSUNG--KABEL-TYPE-C",
+        "lastChecked": "2026-04-30T18:05:47.443Z",
+        "matchedName": "KARIKUES SAMSUNG 15W+KABELL TYPE-C EP-TA20EBECGWW",
+        "storeProductId": "/categories/KARIKUES-SAMSUNG--KABEL-TYPE-C",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.471Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.653Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:51.525Z"
+  },
+  "neptun-19503": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200005296/Kabllo-USB-C-ne-USB-C-Xiaomi-6A-120W-1m-bardhe",
+        "lastChecked": "2026-04-30T18:05:49.186Z",
+        "matchedName": "Kabllo USB-C në USB-C Xiaomi 6A, 120W, 1m, bardhë",
+        "storeProductId": "/ERG-200005296/Kabllo-USB-C-ne-USB-C-Xiaomi-6A-120W-1m-bardhe",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -19,7 +383,1329 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:15.223Z",
+        "lastChecked": "2026-04-30T18:05:51.641Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-XIAOMI-MI-20W-USB-C-31569-KR0542",
+        "lastChecked": "2026-04-30T18:05:47.441Z",
+        "matchedName": "KARIKUES XIAOMI MI 20W USB-C 31569",
+        "storeProductId": "/categories/KARIKUES-XIAOMI-MI-20W-USB-C-31569-KR0542",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.470Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:47.634Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:51.642Z"
+  },
+  "neptun-28087": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:52.698Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:53.645Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-ANKER-30W-USB-C-WHITE-KR0640",
+        "lastChecked": "2026-04-30T18:05:51.759Z",
+        "matchedName": "KARIKUES ANKER 30W USB-C?WHITE",
+        "storeProductId": "/categories/KARIKUES-ANKER-30W-USB-C-WHITE-KR0640",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.811Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.799Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:53.645Z"
+  },
+  "neptun-29733": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:52.713Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:53.747Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1790,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-CELLY-20W-UPTC1USBC20WWH-KR0662",
+        "lastChecked": "2026-04-30T18:05:51.751Z",
+        "matchedName": "KARIKUES CELLY 20W UPTC1USBC20WWH",
+        "storeProductId": "/categories/KARIKUES-CELLY-20W-UPTC1USBC20WWH-KR0662",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.802Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.795Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:53.747Z"
+  },
+  "neptun-27417": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:52.590Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:53.844Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-FUEGO-FGC20W---KABELL-USB-C-KR0590",
+        "lastChecked": "2026-04-30T18:05:51.731Z",
+        "matchedName": "KARIKUES FUEGO FGC20W + KABELL USB-C",
+        "storeProductId": "/categories/KARIKUES-FUEGO-FGC20W---KABELL-USB-C-KR0590",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.765Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.796Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:53.845Z"
+  },
+  "neptun-27413": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:52.768Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:54.483Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-FUEGO-FG35W-FAST-CHARGE-KR0586",
+        "lastChecked": "2026-04-30T18:05:51.734Z",
+        "matchedName": "KARIKUES FUEGO FG35W FAST CHARGE",
+        "storeProductId": "/categories/KARIKUES-FUEGO-FG35W-FAST-CHARGE-KR0586",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.766Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.827Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:54.484Z"
+  },
+  "neptun-24042": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:53.254Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:54.587Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-HAMA-USB-C---KABELL-TYPE-C-25W-KR0571",
+        "lastChecked": "2026-04-30T18:05:51.744Z",
+        "matchedName": "KARIKUES HAMA USB-C+KABELL TYPE-C 25W",
+        "storeProductId": "/categories/KARIKUES-HAMA-USB-C---KABELL-TYPE-C-25W-KR0571",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.797Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.839Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:54.588Z"
+  },
+  "neptun-26929": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:53.072Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:54.636Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-S-LINK-KABELL-SL-EC62TP-USB-C-20W-KR0602",
+        "lastChecked": "2026-04-30T18:05:51.741Z",
+        "matchedName": "KARIKUES S-LINK+KABELL SL-EC62TP USB-C 20W",
+        "storeProductId": "/categories/KARIKUES-S-LINK-KABELL-SL-EC62TP-USB-C-20W-KR0602",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.777Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.855Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:54.636Z"
+  },
+  "neptun-18220": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:53.030Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:54.707Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-S-LINK-SL-EC62-1PD-20W-KR0515",
+        "lastChecked": "2026-04-30T18:05:51.746Z",
+        "matchedName": "KARIKUES S-LINK TYPE-C SL-EC62 1PD 20W",
+        "storeProductId": "/categories/KARIKUES-S-LINK-SL-EC62-1PD-20W-KR0515",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.795Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.849Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:54.707Z"
+  },
+  "neptun-21373": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:53.367Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:54.833Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1790,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-QUALCOMM-3-0-4xUSB-A-33W-BLACK-201629-KR0559",
+        "lastChecked": "2026-04-30T18:05:51.748Z",
+        "matchedName": "KARIKUES QUALCOMM 3.0 4xUSB-A 33W BLACK 201629",
+        "storeProductId": "/categories/KARIKUES-QUALCOMM-3-0-4xUSB-A-33W-BLACK-201629-KR0559",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.789Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.826Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:54.833Z"
+  },
+  "neptun-27542": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:52.991Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:54.871Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-ANKER-25W-USB-C-BLACK-KR0611",
+        "lastChecked": "2026-04-30T18:05:51.761Z",
+        "matchedName": "KARIKUES ANKER 25W USB-C BLACK",
+        "storeProductId": "/categories/KARIKUES-ANKER-25W-USB-C-BLACK-KR0611",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.812Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.836Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:54.871Z"
+  },
+  "neptun-26569": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:53.057Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:54.962Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1790,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-SWISSTEN-GaN-USB-C-35W-BLACK-KR0595",
+        "lastChecked": "2026-04-30T18:05:51.753Z",
+        "matchedName": "KARIKUES SWISSTEN GaN USB-C 35W BLACK",
+        "storeProductId": "/categories/KARIKUES-SWISSTEN-GaN-USB-C-35W-BLACK-KR0595",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.810Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.834Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:54.963Z"
+  },
+  "neptun-28083": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200020393/Karikues-Anker-A2348G21-20W-USB-PD-i-bardhe",
+        "lastChecked": "2026-04-30T18:05:53.034Z",
+        "matchedName": "Karikues Anker A2348G21, 20W, USB PD, i bardhë",
+        "storeProductId": "/KST-200020393/Karikues-Anker-A2348G21-20W-USB-PD-i-bardhe",
+        "matchConfidence": 60,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.370Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-ANKER-20W-USB-C-WHITE-KR0635",
+        "lastChecked": "2026-04-30T18:05:51.739Z",
+        "matchedName": "KARIKUES ANKER 20W USB-C WHITE",
+        "storeProductId": "/categories/KARIKUES-ANKER-20W-USB-C-WHITE-KR0635",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.789Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.872Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:55.370Z"
+  },
+  "neptun-19133": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 1200,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/AXR-200005441/Karikues-muri-Samsung-EP-T1510-15W-USB-C-PD-i-bardhe",
+        "lastChecked": "2026-04-30T18:05:53.862Z",
+        "matchedName": "Karikues muri, Samsung EP-T1510 (15W USB-C PD), i bardhë",
+        "storeProductId": "/AXR-200005441/Karikues-muri-Samsung-EP-T1510-15W-USB-C-PD-i-bardhe",
+        "matchConfidence": 80
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.642Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-SAMSUNG-15W-USB-C-EP-T1510NWEGEU-KR0535",
+        "lastChecked": "2026-04-30T18:05:51.737Z",
+        "matchedName": "KARIKUES SAMSUNG 15W USB-C EP-T1510NWEGEU",
+        "storeProductId": "/categories/KARIKUES-SAMSUNG-15W-USB-C-EP-T1510NWEGEU-KR0535",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.766Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:51.894Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:55.643Z"
+  },
+  "neptun-29738": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.751Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:57.024Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-CELLY-25W-UPTC1USB1USBC25-KR0663",
+        "lastChecked": "2026-04-30T18:05:55.916Z",
+        "matchedName": "KARIKUES CELLY 25W UPTC1USB1USBC25",
+        "storeProductId": "/categories/KARIKUES-CELLY-25W-UPTC1USB1USBC25-KR0663",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.935Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.984Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:57.165Z"
+  },
+  "neptun-29734": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.889Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:57.313Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-CELLY-25W-UPTC1USB1USBC25-KR0663",
+        "lastChecked": "2026-04-30T18:05:55.905Z",
+        "matchedName": "KARIKUES CELLY 25W UPTC1USB1USBC25",
+        "storeProductId": "/categories/KARIKUES-CELLY-25W-UPTC1USB1USBC25-KR0663",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.930Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.985Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:57.314Z"
+  },
+  "neptun-27415": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.953Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:58.086Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-FUEGO-FG65W-SUPER-FAST-CHARGE-KR0588",
+        "lastChecked": "2026-04-30T18:05:55.913Z",
+        "matchedName": "KARIKUES FUEGO FG65W SUPER FAST CHARGE",
+        "storeProductId": "/categories/KARIKUES-FUEGO-FG65W-SUPER-FAST-CHARGE-KR0588",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.932Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.011Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:58.087Z"
+  },
+  "neptun-16941": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:57.189Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:58.543Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2197,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-KSIX-MAGCHARGE-15W-1M-KR0497",
+        "lastChecked": "2026-04-30T18:05:55.910Z",
+        "matchedName": "KARIKUES KSIX MAGCHARGE 15W 1M",
+        "storeProductId": "/categories/KARIKUES-KSIX-MAGCHARGE-15W-1M-KR0497",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.929Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.993Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:58.543Z"
+  },
+  "neptun-21370": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KOM-200147293/Karikues-makine-Hama-USB-C-25W-i-zi",
+        "lastChecked": "2026-04-30T18:05:57.659Z",
+        "matchedName": "Karikues makine Hama, USB-C, 25W, i zi",
+        "storeProductId": "/KOM-200147293/Karikues-makine-Hama-USB-C-25W-i-zi",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:58.824Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIUES-MAKINE-HAMA-USB-C-USB-A-QC-38W-METAL-KR0556",
+        "lastChecked": "2026-04-30T18:05:55.908Z",
+        "matchedName": "KARIKUES MAKINE HAMA USB-C/USB-A QC 38W METAL",
+        "storeProductId": "/categories/KARIUES-MAKINE-HAMA-USB-C-USB-A-QC-38W-METAL-KR0556",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.931Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.004Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:58.825Z"
+  },
+  "neptun-24050": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:57.328Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:58.828Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-WIRELESS-HAMA-QI-FC10-METAL-KR0570",
+        "lastChecked": "2026-04-30T18:05:55.902Z",
+        "matchedName": "KARIKUES WIRELESS HAMA QI-FC10 METAL",
+        "storeProductId": "/categories/KARIKUES-WIRELESS-HAMA-QI-FC10-METAL-KR0570",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.925Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.019Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:58.828Z"
+  },
+  "neptun-28092": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:57.426Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:58.833Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-ANKER-512-20W-WHITE-KR0636",
+        "lastChecked": "2026-04-30T18:05:55.884Z",
+        "matchedName": "KARIKUES ANKER 512 20W WHITE",
+        "storeProductId": "/categories/KARIKUES-ANKER-512-20W-WHITE-KR0636",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.921Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.991Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:58.833Z"
+  },
+  "neptun-17561": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200024412/Karikues-makine-Tech-Protect-CC06-me-3-porta-transmetues-FM-Bluetooth-i-zi",
+        "lastChecked": "2026-04-30T18:05:57.742Z",
+        "matchedName": "Karikues makine Tech-Protect CC06 me 3 porta, transmetues FM Bluetooth, i zi",
+        "storeProductId": "/HRT-200024412/Karikues-makine-Tech-Protect-CC06-me-3-porta-transmetues-FM-Bluetooth-i-zi",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:58.852Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-MAKINE-ME-BLUETOOTH-2-USB-HAMA-14164-KR0511",
+        "lastChecked": "2026-04-30T18:05:55.887Z",
+        "matchedName": "KARIKUES MAKINE ME BLUETOOTH 2 USB HAMA 14164",
+        "storeProductId": "/categories/KARIKUES-MAKINE-ME-BLUETOOTH-2-USB-HAMA-14164-KR0511",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.922Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.028Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:58.853Z"
+  },
+  "neptun-27539": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200020393/Karikues-Anker-A2348G21-20W-USB-PD-i-bardhe",
+        "lastChecked": "2026-04-30T18:05:56.936Z",
+        "matchedName": "Karikues Anker A2348G21, 20W, USB PD, i bardhë",
+        "storeProductId": "/KST-200020393/Karikues-Anker-A2348G21-20W-USB-PD-i-bardhe",
+        "matchConfidence": 60,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:59.051Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-ANKER-20W-2USB-A-C-WHITE-KR0608",
+        "lastChecked": "2026-04-30T18:05:55.899Z",
+        "matchedName": "KARIKUES ANKER 20W 2USB-A/C WHITE",
+        "storeProductId": "/categories/KARIKUES-ANKER-20W-2USB-A-C-WHITE-KR0608",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.924Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.025Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:05:59.052Z"
+  },
+  "neptun-19661": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200003682/Powerbank-Xiaomi-10000mAh-33W-kabllo-USB-C-tan",
+        "lastChecked": "2026-04-30T18:05:57.208Z",
+        "matchedName": "Powerbank Xiaomi 10000mAh 33W, kabllo USB-C, tan",
+        "storeProductId": "/ERG-200003682/Powerbank-Xiaomi-10000mAh-33W-kabllo-USB-C-tan",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:00.493Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2090,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-XIAOMI-MI-33W---Type-A--Type-C--EU-32427-KR0545",
+        "lastChecked": "2026-04-30T18:05:55.890Z",
+        "matchedName": "KARIKUES XIAOMI MI 33W (Type-A+Type-C) EU 32427",
+        "storeProductId": "/categories/KARIKUES-XIAOMI-MI-33W---Type-A--Type-C--EU-32427-KR0545",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.923Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.120Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:06:00.494Z"
+  },
+  "neptun-24594": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 1752,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/AXR-200005080/Karikues-muri-Samsung-EP-T2510-25W-USB-C-i-bardhe",
+        "lastChecked": "2026-04-30T18:05:58.192Z",
+        "matchedName": "Karikues muri Samsung EP-T2510 25W USB-C, i bardhë",
+        "storeProductId": "/AXR-200005080/Karikues-muri-Samsung-EP-T2510-25W-USB-C-i-bardhe",
+        "matchConfidence": 67
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:00.627Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-SAMSUNG-25W-USB-C-WHITE-EP-T2510NWEGEU-KR0576",
+        "lastChecked": "2026-04-30T18:05:55.896Z",
+        "matchedName": "KARIKUES SAMSUNG 25W USB-C WHITE EP-T2510NWEGEU",
+        "storeProductId": "/categories/KARIKUES-SAMSUNG-25W-USB-C-WHITE-EP-T2510NWEGEU-KR0576",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.924Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.086Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:06:00.627Z"
+  },
+  "neptun-24593": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 1800,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/AXR-200002960/Karikues-muri-Samsung-EP-T2510NBEGEU-Super-Fast-Charging-25W-USB-C-EU-e-zeze",
+        "lastChecked": "2026-04-30T18:05:58.094Z",
+        "matchedName": "Karikues muri, Samsung, EP-T2510NBEGEU, Super Fast Charging 25W, USB-C, EU, e zezë",
+        "storeProductId": "/AXR-200002960/Karikues-muri-Samsung-EP-T2510NBEGEU-Super-Fast-Charging-25W-USB-C-EU-e-zeze",
+        "matchConfidence": 83
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:00.955Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-SAMSUNG-25W-USB-C-BALCK-EP-T2510NBEGEU-KR0575",
+        "lastChecked": "2026-04-30T18:05:55.893Z",
+        "matchedName": "KARIKUES SAMSUNG 25W USB-C BALCK EP-T2510NBEGEU",
+        "storeProductId": "/categories/KARIKUES-SAMSUNG-25W-USB-C-BALCK-EP-T2510NBEGEU-KR0575",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:55.923Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:05:56.100Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:06:00.955Z"
+  },
+  "neptun-29735": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:01.855Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:02.143Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -27,10 +1713,10 @@
         "price": 2690,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-WIRELESS-HP-Z3700-DARK-BLUE-MS0849",
-        "lastChecked": "2026-04-30T18:05:13.789Z",
-        "matchedName": "MOUSE HP Z3700 WIRELESS 7UH88AA DARK BLUE",
-        "storeProductId": "/categories/MOUSE-WIRELESS-HP-Z3700-DARK-BLUE-MS0849",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-CELLY-30W-UPTC1USBC30WWH-KR0664",
+        "lastChecked": "2026-04-30T18:06:01.068Z",
+        "matchedName": "KARIKUES CELLY 30W UPTC1USBC30WWH",
+        "storeProductId": "/categories/KARIKUES-CELLY-30W-UPTC1USBC30WWH-KR0664",
         "matchConfidence": 100
       },
       {
@@ -39,7 +1725,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:13.818Z",
+        "lastChecked": "2026-04-30T18:06:01.186Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -48,25 +1734,24 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:14.015Z",
+        "lastChecked": "2026-04-30T18:06:01.102Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T18:05:15.426Z"
+    "refreshedAt": "2026-04-30T18:06:02.144Z"
   },
-  "neptun-14670": {
+  "neptun-27546": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ACN-300263882/Maus-wireless-HP-Z3700-Gold",
-        "lastChecked": "2026-04-30T18:05:15.425Z",
-        "matchedName": "Maus wireless HP Z3700, Gold",
-        "storeProductId": "/ACN-300263882/Maus-wireless-HP-Z3700-Gold",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
+        "price": 4183,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200048445/Karikues-Anker-30W-GaN-USB-C-i-zi",
+        "lastChecked": "2026-04-30T18:06:02.225Z",
+        "matchedName": "Karikues Anker 30W, GaN, USB-C, i zi",
+        "storeProductId": "/KST-200048445/Karikues-Anker-30W-GaN-USB-C-i-zi",
+        "matchConfidence": 100
       },
       {
         "storeId": "shpresa",
@@ -74,7 +1759,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:15.082Z",
+        "lastChecked": "2026-04-30T18:06:02.482Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -82,10 +1767,10 @@
         "price": 2690,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-WIRELESS-HP-Z3700-Gold-MS0764",
-        "lastChecked": "2026-04-30T18:05:13.781Z",
-        "matchedName": "MOUSE HP Z3700 WIRELESS X7Q43AA GOLD",
-        "storeProductId": "/categories/MOUSE-WIRELESS-HP-Z3700-Gold-MS0764",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-ANKER-USB-C-30W-KR0615",
+        "lastChecked": "2026-04-30T18:06:01.065Z",
+        "matchedName": "KARIKUES ANKER USB-C 30W",
+        "storeProductId": "/categories/KARIKUES-ANKER-USB-C-30W-KR0615",
         "matchConfidence": 100
       },
       {
@@ -94,7 +1779,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:13.817Z",
+        "lastChecked": "2026-04-30T18:06:01.185Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -103,53 +1788,51 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:13.994Z",
+        "lastChecked": "2026-04-30T18:06:01.116Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T18:05:15.427Z"
+    "refreshedAt": "2026-04-30T18:06:02.484Z"
   },
-  "neptun-21348": {
+  "neptun-29737": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ACN-300063323/Mausi-Wireless-HP-220-Optik",
-        "lastChecked": "2026-04-30T18:05:15.430Z",
-        "matchedName": "Mausi Wireless HP 220, Optik",
-        "storeProductId": "/ACN-300063323/Mausi-Wireless-HP-220-Optik",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:01.836Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:02.588Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-CELLY-20W-UPTC1USBC20WWH-KR0662",
+        "lastChecked": "2026-04-30T18:06:01.071Z",
+        "matchedName": "KARIKUES CELLY 20W UPTC1USBC20WWH",
+        "storeProductId": "/categories/KARIKUES-CELLY-20W-UPTC1USBC20WWH-KR0662",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:14.901Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-HP-220-WIRELESS-BLACK-3FV66AA-MS0859",
-        "lastChecked": "2026-04-30T18:05:13.762Z",
-        "matchedName": "MOUSE HP 220 WIRELESS BLACK 3FV66AA",
-        "storeProductId": "/categories/MOUSE-HP-220-WIRELESS-BLACK-3FV66AA-MS0859",
-        "matchConfidence": 100
-      },
-      {
         "storeId": "globe",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:13.795Z",
+        "lastChecked": "2026-04-30T18:06:01.207Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -158,13 +1841,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:13.999Z",
+        "lastChecked": "2026-04-30T18:06:01.124Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T18:05:15.433Z"
+    "refreshedAt": "2026-04-30T18:06:02.590Z"
   },
-  "neptun-27449": {
+  "neptun-26538": {
     "prices": [
       {
         "storeId": "foleja",
@@ -172,7 +1855,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:16.124Z",
+        "lastChecked": "2026-04-30T18:06:02.091Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -181,59 +1864,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:14.891Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-PEBBLE-2-M350S-TONAL-ROSE-BT-MS0957",
-        "lastChecked": "2026-04-30T18:05:13.774Z",
-        "matchedName": "MOUSE PEBBLE 2 M350S TONAL ROSE BT",
-        "storeProductId": "/categories/MOUSE-PEBBLE-2-M350S-TONAL-ROSE-BT-MS0957",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:13.798Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:13.993Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:16.125Z"
-  },
-  "neptun-26232": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:16.476Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:14.891Z",
+        "lastChecked": "2026-04-30T18:06:03.147Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -241,10 +1872,10 @@
         "price": 2590,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-HP-280-SILENT-WIRELESS-BLACK-19U64AA-MS0913",
-        "lastChecked": "2026-04-30T18:05:13.771Z",
-        "matchedName": "MOUSE HP 280 SILENT WIRELESS BLACK 19U64AA",
-        "storeProductId": "/categories/MOUSE-HP-280-SILENT-WIRELESS-BLACK-19U64AA-MS0913",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-WIRELESS-SWISSTEN-15W-BLACK-KR0598",
+        "lastChecked": "2026-04-30T18:06:01.055Z",
+        "matchedName": "KARIKUES WIRELESS SWISSTEN 15W BLACK",
+        "storeProductId": "/categories/KARIKUES-WIRELESS-SWISSTEN-15W-BLACK-KR0598",
         "matchConfidence": 100
       },
       {
@@ -253,7 +1884,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:13.797Z",
+        "lastChecked": "2026-04-30T18:06:01.208Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -262,24 +1893,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:13.998Z",
+        "lastChecked": "2026-04-30T18:06:01.145Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T18:05:16.527Z"
+    "refreshedAt": "2026-04-30T18:06:03.148Z"
   },
-  "neptun-24780": {
+  "neptun-26924": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ACN-300263882/Maus-wireless-HP-Z3700-Gold",
-        "lastChecked": "2026-04-30T18:05:15.432Z",
-        "matchedName": "Maus wireless HP Z3700, Gold",
-        "storeProductId": "/ACN-300263882/Maus-wireless-HP-Z3700-Gold",
-        "matchConfidence": 100,
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:02.587Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -288,7 +1916,59 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:15.082Z",
+        "lastChecked": "2026-04-30T18:06:03.169Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-LIGHTING-HAMA-PD-20W-1M-KR0600",
+        "lastChecked": "2026-04-30T18:06:01.052Z",
+        "matchedName": "KARIKUES LIGHTING HAMA PD 20W 1M",
+        "storeProductId": "/categories/KARIKUES-LIGHTING-HAMA-PD-20W-1M-KR0600",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:01.185Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:01.161Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T18:06:03.170Z"
+  },
+  "neptun-27544": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:02.672Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:03.872Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -296,10 +1976,10 @@
         "price": 2690,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-HP-Z3700-WIRELESS-BLACK--BLUE-V0L81AA-MS0915",
-        "lastChecked": "2026-04-30T18:05:13.791Z",
-        "matchedName": "MOUSE HP Z3700 WIRELESS BLACK/ BLUE V0L81AA",
-        "storeProductId": "/categories/MOUSE-HP-Z3700-WIRELESS-BLACK--BLUE-V0L81AA-MS0915",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-ANKER-33W-2USB-A-C-WHITE-KR0613",
+        "lastChecked": "2026-04-30T18:06:01.058Z",
+        "matchedName": "KARIKUES ANKER 33W 2USB-A/C WHITE",
+        "storeProductId": "/categories/KARIKUES-ANKER-33W-2USB-A-C-WHITE-KR0613",
         "matchConfidence": 100
       },
       {
@@ -308,7 +1988,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:13.812Z",
+        "lastChecked": "2026-04-30T18:06:01.194Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -317,335 +1997,23 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.127Z",
+        "lastChecked": "2026-04-30T18:06:01.188Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T18:05:21.129Z"
+    "refreshedAt": "2026-04-30T18:06:03.873Z"
   },
-  "neptun-27460": {
+  "neptun-15691": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:22.487Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:23.818Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 8490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-MX-ANYWHERE-3S-ROSE-MS0964",
-        "lastChecked": "2026-04-30T18:05:21.280Z",
-        "matchedName": "MOUSE MX ANYWHERE 3S ROSE",
-        "storeProductId": "/categories/MOUSE-MX-ANYWHERE-3S-ROSE-MS0964",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.351Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.415Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:23.818Z"
-  },
-  "neptun-27452": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:22.465Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:23.919Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 4190,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-M330-SILENT-PLUS-BLACK-MS0960",
-        "lastChecked": "2026-04-30T18:05:21.262Z",
-        "matchedName": "MOUSE M330 SILENT PLUS BLACK",
-        "storeProductId": "/categories/MOUSE-M330-SILENT-PLUS-BLACK-MS0960",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.348Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.397Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:23.919Z"
-  },
-  "neptun-6852": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:22.727Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:23.939Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-LOGITECH-M235-RED",
-        "lastChecked": "2026-04-30T18:05:21.229Z",
-        "matchedName": "MOUSE LOGITECH M235 RED",
-        "storeProductId": "/categories/MOUSE-LOGITECH-M235-RED",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.334Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.398Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:23.939Z"
-  },
-  "neptun-27458": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:22.506Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:24.057Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 5590,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-MARATHON-M705-WIRELESS-CHARCOAL-MS0962",
-        "lastChecked": "2026-04-30T18:05:21.266Z",
-        "matchedName": "MOUSE MARATHON M705 WIRELESS CHARCOAL",
-        "storeProductId": "/categories/MOUSE-MARATHON-M705-WIRELESS-CHARCOAL-MS0962",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.342Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.391Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:24.058Z"
-  },
-  "neptun-27459": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:22.772Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:24.220Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 6790,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-LIFT-VERTICAL-ERGONOMIC-GRPH-BLACK-MS0963",
-        "lastChecked": "2026-04-30T18:05:21.271Z",
-        "matchedName": "MOUSE LIFT VERTICAL ERGONOMIC GRPH/BLACK",
-        "storeProductId": "/categories/MOUSE-LIFT-VERTICAL-ERGONOMIC-GRPH-BLACK-MS0963",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.344Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.409Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:24.220Z"
-  },
-  "neptun-27451": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:22.301Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:24.229Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-ADVANCED-CORDED-M500S-BLACK-MS0959",
-        "lastChecked": "2026-04-30T18:05:21.246Z",
-        "matchedName": "MOUSE ADVANCED CORDED M500S BLACK",
-        "storeProductId": "/categories/MOUSE-ADVANCED-CORDED-M500S-BLACK-MS0959",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.333Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.401Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:24.230Z"
-  },
-  "neptun-24221": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200010771/Maus-HP-Z3700-Dual-Silver",
-        "lastChecked": "2026-04-30T18:05:22.662Z",
-        "matchedName": "Maus HP Z3700 Dual Silver",
-        "storeProductId": "/YLL-200010771/Maus-HP-Z3700-Dual-Silver",
+        "productUrl": "https://www.foleja.al/YLL-200007850/Degjuese-Xiaomi-Buds-5-Wireless-te-zeza",
+        "lastChecked": "2026-04-30T18:06:02.593Z",
+        "matchedName": "Dëgjuese Xiaomi Buds 5, Wireless, të zeza",
+        "storeProductId": "/YLL-200007850/Degjuese-Xiaomi-Buds-5-Wireless-te-zeza",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -655,18 +2023,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:25.562Z",
+        "lastChecked": "2026-04-30T18:06:04.471Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 2990,
+        "price": 2590,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-HP-Z3700-DUAL-WIRELESS-758A9AA-SILVER-MS0890",
-        "lastChecked": "2026-04-30T18:05:21.241Z",
-        "matchedName": "MOUSE HP Z3700 DUAL WIRELESS 758A9AA SILVER",
-        "storeProductId": "/categories/MOUSE-HP-Z3700-DUAL-WIRELESS-758A9AA-SILVER-MS0890",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-XIAOMI-MI-WIRELESS-STAND-20W-KR0487",
+        "lastChecked": "2026-04-30T18:06:01.048Z",
+        "matchedName": "KARIKUES XIAOMI MI WIRELESS STAND 20W",
+        "storeProductId": "/categories/KARIKUES-XIAOMI-MI-WIRELESS-STAND-20W-KR0487",
         "matchConfidence": 100
       },
       {
@@ -675,7 +2043,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.347Z",
+        "lastChecked": "2026-04-30T18:06:01.195Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -684,24 +2052,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.674Z",
+        "lastChecked": "2026-04-30T18:06:01.226Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T18:05:25.563Z"
+    "refreshedAt": "2026-04-30T18:06:04.472Z"
   },
-  "neptun-24781": {
+  "neptun-27543": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ACN-300263882/Maus-wireless-HP-Z3700-Gold",
-        "lastChecked": "2026-04-30T18:05:22.364Z",
-        "matchedName": "Maus wireless HP Z3700, Gold",
-        "storeProductId": "/ACN-300263882/Maus-wireless-HP-Z3700-Gold",
-        "matchConfidence": 100,
+        "productUrl": null,
+        "lastChecked": "2026-04-30T18:06:03.349Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -710,292 +2075,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:25.863Z",
+        "lastChecked": "2026-04-30T18:06:04.542Z",
         "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2890,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-HP-Z3700-WIRELESS-WHITE-PINK-4VY82AA-MS0916",
-        "lastChecked": "2026-04-30T18:05:21.224Z",
-        "matchedName": "MOUSE HP Z3700 WIRELESS WHITE/PINK 4VY82AA",
-        "storeProductId": "/categories/MOUSE-HP-Z3700-WIRELESS-WHITE-PINK-4VY82AA-MS0916",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.350Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.563Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:25.863Z"
-  },
-  "neptun-24155": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200010771/Maus-HP-Z3700-Dual-Silver",
-        "lastChecked": "2026-04-30T18:05:22.667Z",
-        "matchedName": "Maus HP Z3700 Dual Silver",
-        "storeProductId": "/YLL-200010771/Maus-HP-Z3700-Dual-Silver",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:25.909Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-HP-Z3700-DUAL-WIRELESS-758A8AA-BLACK-MS0889",
-        "lastChecked": "2026-04-30T18:05:21.234Z",
-        "matchedName": "MOUSE HP Z3700 DUAL WIRELESS 758A8AA BLACK",
-        "storeProductId": "/categories/MOUSE-HP-Z3700-DUAL-WIRELESS-758A8AA-BLACK-MS0889",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.325Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.629Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:25.910Z"
-  },
-  "neptun-27457": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200000488/Maus-Logitech-B330-Silent-Plus-910-004913-pa-kabell-klikim-i-qete-me-bateri-i-zi",
-        "lastChecked": "2026-04-30T18:05:22.607Z",
-        "matchedName": "Maus Logitech B330 Silent Plus 910-004913 pa kabëll, klikim i qetë, me bateri, i zi",
-        "storeProductId": "/AXR-200000488/Maus-Logitech-B330-Silent-Plus-910-004913-pa-kabell-klikim-i-qete-me-bateri-i-zi",
-        "matchConfidence": 80,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.069Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 4190,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-LOGITECH-B330-SILENT-PLUS-BLACK-MS0961",
-        "lastChecked": "2026-04-30T18:05:21.257Z",
-        "matchedName": "MOUSE LOGITECH B330 SILENT PLUS BLACK",
-        "storeProductId": "/categories/MOUSE-LOGITECH-B330-SILENT-PLUS-BLACK-MS0961",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.332Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.625Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:26.070Z"
-  },
-  "neptun-25046": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ACN-300263882/Maus-wireless-HP-Z3700-Gold",
-        "lastChecked": "2026-04-30T18:05:21.709Z",
-        "matchedName": "Maus wireless HP Z3700, Gold",
-        "storeProductId": "/ACN-300263882/Maus-wireless-HP-Z3700-Gold",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.087Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2890,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-HP-Z3700-WIRELESS-WHITE-SILVER-171D8AA-MS0917",
-        "lastChecked": "2026-04-30T18:05:21.218Z",
-        "matchedName": "MOUSE HP Z3700 WIRELESS WHITE/SILVER 171D8AA",
-        "storeProductId": "/categories/MOUSE-HP-Z3700-WIRELESS-WHITE-SILVER-171D8AA-MS0917",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.339Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.638Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:26.088Z"
-  },
-  "neptun-14668": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:23.113Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.098Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-HP-Envy-500-Rechargeable-MS0762",
-        "lastChecked": "2026-04-30T18:05:21.250Z",
-        "matchedName": "MOUSE HP ENVY 500 RECHARGEABLE 2LX92AA",
-        "storeProductId": "/categories/MOUSE-HP-Envy-500-Rechargeable-MS0762",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.334Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:21.567Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:26.099Z"
-  },
-  "neptun-22191": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200005922/Kamere-Logitech-C270-HD-3-MP-1280-x-720-pixels-30-fps-720p-550-USB-2.0-e-zeze",
-        "lastChecked": "2026-04-30T18:05:27.016Z",
-        "matchedName": "Kamerë Logitech C270 HD, 3 MP, 1280 x 720 pixels, 30 fps, 720p, 55°, USB 2.0, e zezë",
-        "storeProductId": "/KST-200005922/Kamere-Logitech-C270-HD-3-MP-1280-x-720-pixels-30-fps-720p-550-USB-2.0-e-zeze",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 2290,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/logitech-c270-hd-webcam/",
-        "lastChecked": "2026-04-30T18:05:26.208Z",
-        "matchedName": "Logitech C270 HD Webcam",
-        "storeProductId": "76067",
-        "matchConfidence": 100
       },
       {
         "storeId": "neptun",
         "price": 2690,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/WEBCAMERA-LOGITECH-C270-KM0674",
-        "lastChecked": "2026-04-30T18:05:26.208Z",
-        "matchedName": "WEBCAMERA LOGITECH C270",
-        "storeProductId": "/categories/WEBCAMERA-LOGITECH-C270-KM0674",
+        "productUrl": "https://www.neptun.al/categories/KARIKUES-ANKER-NANO-USB-C-30W-GREEN-KR0612",
+        "lastChecked": "2026-04-30T18:06:01.062Z",
+        "matchedName": "KARIKUES ANKER NANO USB-C 30W GREEN",
+        "storeProductId": "/categories/KARIKUES-ANKER-NANO-USB-C-30W-GREEN-KR0612",
         "matchConfidence": 100
       },
       {
@@ -1004,7 +2095,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.241Z",
+        "lastChecked": "2026-04-30T18:06:01.195Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1013,375 +2104,10 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.277Z",
+        "lastChecked": "2026-04-30T18:06:01.286Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T18:05:27.020Z"
-  },
-  "neptun-30609": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.934Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:27.508Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TASTIERE-GAMING-RAZER-DEATHSTALKER-V2-TA0484",
-        "lastChecked": "2026-04-30T18:05:26.200Z",
-        "matchedName": "TASTIERE GAMING RAZER DEATHSTALKER V2",
-        "storeProductId": "/categories/TASTIERE-GAMING-RAZER-DEATHSTALKER-V2-TA0484",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.235Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.262Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:27.550Z"
-  },
-  "neptun-16407": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.578Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:27.874Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 1497,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Kamera-Trust-SpotLight-Pro-KM0723",
-        "lastChecked": "2026-04-30T18:05:26.205Z",
-        "matchedName": "Kamera Trust SpotLight Pro",
-        "storeProductId": "/categories/Kamera-Trust-SpotLight-Pro-KM0723",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.237Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.257Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:27.875Z"
-  },
-  "neptun-27461": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.735Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:28.526Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 9490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-MX-ANYWHERE-3S-FOR-B2B-GRAPHITE-BT-MS0965",
-        "lastChecked": "2026-04-30T18:05:26.189Z",
-        "matchedName": "MOUSE MX ANYWHERE 3S FOR B2B GRAPHITE BT",
-        "storeProductId": "/categories/MOUSE-MX-ANYWHERE-3S-FOR-B2B-GRAPHITE-BT-MS0965",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.211Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.271Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:28.527Z"
-  },
-  "neptun-8666": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:27.199Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:28.682Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2297,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TRUST-SMART-TV-KEYBOARD-WIRELE",
-        "lastChecked": "2026-04-30T18:05:26.198Z",
-        "matchedName": "TRUST SMART TV KEYBOARD WIRELE",
-        "storeProductId": "/categories/TRUST-SMART-TV-KEYBOARD-WIRELE",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.248Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.332Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:28.683Z"
-  },
-  "neptun-28486": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:27.720Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:28.860Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 22990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-Magic-Keyboard--2024--w-Touch-ID-and-Numeric-TA0482",
-        "lastChecked": "2026-04-30T18:05:26.203Z",
-        "matchedName": "Apple Magic Keyboard (2024) w Touch ID and Numeric",
-        "storeProductId": "/categories/Apple-Magic-Keyboard--2024--w-Touch-ID-and-Numeric-TA0482",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.240Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.331Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:28.860Z"
-  },
-  "neptun-26234": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:27.938Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:30.188Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 11990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-HP-925-ERGONOMIC-WIRELESS-6H1A5AA-MS0920",
-        "lastChecked": "2026-04-30T18:05:26.195Z",
-        "matchedName": "MOUSE HP 925 ERGONOMIC WIRELESS 6H1A5AA",
-        "storeProductId": "/categories/MOUSE-HP-925-ERGONOMIC-WIRELESS-6H1A5AA-MS0920",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.219Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.453Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:30.189Z"
-  },
-  "neptun-29893": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:28.559Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:31.124Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 13990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-Magic-Mouse-2024-Black-Multi-Touch-Surface-MS0996",
-        "lastChecked": "2026-04-30T18:05:26.192Z",
-        "matchedName": "Apple Magic Mouse 2024 Black Multi-Touch Surface",
-        "storeProductId": "/categories/Apple-Magic-Mouse-2024-Black-Multi-Touch-Surface-MS0996",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.212Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T18:05:26.449Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T18:05:31.162Z"
+    "refreshedAt": "2026-04-30T18:06:04.543Z"
   }
 }
