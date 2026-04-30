@@ -1,26 +1,288 @@
 {
-  "shpresa-logitech-c270-hd-webcam": {
+  "shpresa-apple-watch-ultra-3-alpine-loop": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200005922/Kamere-Logitech-C270-HD-3-MP-1280-x-720-pixels-30-fps-720p-550-USB-2.0-e-zeze",
-        "lastChecked": "2026-04-30T17:51:41.337Z",
-        "matchedName": "Kamerë Logitech C270 HD, 3 MP, 1280 x 720 pixels, 30 fps, 720p, 55°, USB 2.0, e zezë",
-        "storeProductId": "/KST-200005922/Kamere-Logitech-C270-HD-3-MP-1280-x-720-pixels-30-fps-720p-550-USB-2.0-e-zeze",
+        "productUrl": "https://www.foleja.al/KST-200059936/Smartwatch-Apple-Watch-Ultra-3-Titanium-Cellular-49mm-Alpine-Loop-e-zeze",
+        "lastChecked": "2026-04-30T17:51:54.953Z",
+        "matchedName": "Smartwatch Apple Watch Ultra 3 Titanium Cellular 49mm Alpine Loop e zezë",
+        "storeProductId": "/KST-200059936/Smartwatch-Apple-Watch-Ultra-3-Titanium-Cellular-49mm-Alpine-Loop-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 64990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-watch-ultra-3-alpine-loop/",
+        "lastChecked": "2026-04-30T17:51:53.890Z",
+        "matchedName": "Apple Watch Ultra 3 Alpine Loop"
+      },
+      {
+        "storeId": "neptun",
+        "price": 130990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Apple-Watch-Ultra-3-Nat--Titan-Milanese-Loop-M-SM0261",
+        "lastChecked": "2026-04-30T17:51:53.891Z",
+        "matchedName": "Apple Watch Ultra 3?Nat. Titan-Milanese Loop M",
+        "storeProductId": "/categories/Apple-Watch-Ultra-3-Nat--Titan-Milanese-Loop-M-SM0261",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:53.919Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:54.111Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:54.955Z"
+  },
+  "shpresa-xiaomi-tv-s-mini-led-75-2025": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:54.983Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 94990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-tv-s-mini-led-75-2025/",
+        "lastChecked": "2026-04-30T17:51:53.901Z",
+        "matchedName": "Xiaomi TV S Mini LED 75 2025"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:54.401Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:53.923Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:54.106Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:54.984Z"
+  },
+  "shpresa-xiaomi-tv-s-mini-led-55-2025": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.071Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 64990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-tv-s-mini-led-55-2025/",
+        "lastChecked": "2026-04-30T17:51:53.899Z",
+        "matchedName": "Xiaomi TV S Mini LED 55 2025"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:54.368Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:53.920Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:54.113Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:55.127Z"
+  },
+  "shpresa-apple-watch-ultra-3-trail-loop": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200059931/Smartwatch-Apple-Watch-Ultra-3-Titanium-Cellular-49mm-Trail-Loop-blu-hellblau-M-L",
+        "lastChecked": "2026-04-30T17:51:55.204Z",
+        "matchedName": "Smartwatch Apple Watch Ultra 3 Titanium Cellular 49mm Trail Loop blu/hellblau M/L",
+        "storeProductId": "/KST-200059931/Smartwatch-Apple-Watch-Ultra-3-Titanium-Cellular-49mm-Trail-Loop-blu-hellblau-M-L",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 69990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-watch-ultra-3-trail-loop/",
+        "lastChecked": "2026-04-30T17:51:53.885Z",
+        "matchedName": "Apple Watch Ultra 3 Trail Loop"
+      },
+      {
+        "storeId": "neptun",
+        "price": 130990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Apple-Watch-Ultra-3-Nat--Titan-Milanese-Loop-M-SM0261",
+        "lastChecked": "2026-04-30T17:51:53.885Z",
+        "matchedName": "Apple Watch Ultra 3?Nat. Titan-Milanese Loop M",
+        "storeProductId": "/categories/Apple-Watch-Ultra-3-Nat--Titan-Milanese-Loop-M-SM0261",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:53.918Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:54.071Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:55.205Z"
+  },
+  "shpresa-sony-ps5-doom-the-dark-ages": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.227Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 5990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/sony-ps5-doom-the-dark-ages/",
+        "lastChecked": "2026-04-30T17:51:53.910Z",
+        "matchedName": "Sony PS5 DOOM: The Dark Ages"
+      },
+      {
+        "storeId": "neptun",
+        "price": 6990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LOJE-PS5-DOOM:-The-Dark-Ages-PL4668",
+        "lastChecked": "2026-04-30T17:51:53.910Z",
+        "matchedName": "LOJE PS5 DOOM: The Dark Ages",
+        "storeProductId": "/categories/LOJE-PS5-DOOM:-The-Dark-Ages-PL4668",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:53.936Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:54.074Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:55.228Z"
+  },
+  "shpresa-deepcool-cg560-v2-pc-case": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200056029/Kase-Deepcool-CG580-4F-V2-Midi-Tower-xham-i-temperuar-RGB-e-zeze",
+        "lastChecked": "2026-04-30T17:51:55.291Z",
+        "matchedName": "Kasë Deepcool CG580 4F V2, Midi Tower, xham i temperuar, RGB, e zezë",
+        "storeProductId": "/KST-200056029/Kase-Deepcool-CG580-4F-V2-Midi-Tower-xham-i-temperuar-RGB-e-zeze",
         "matchConfidence": 75,
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 2290,
+        "price": 8990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/logitech-c270-hd-webcam/",
-        "lastChecked": "2026-04-30T17:51:40.752Z",
-        "matchedName": "Logitech C270 HD Webcam"
+        "productUrl": "https://shpresa.al/product/deepcool-cg560-v2-pc-case/",
+        "lastChecked": "2026-04-30T17:51:53.882Z",
+        "matchedName": "DeepCool CG560 V2 PC Case"
       },
       {
         "storeId": "neptun",
@@ -28,7 +290,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.950Z",
+        "lastChecked": "2026-04-30T17:51:54.157Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -37,7 +299,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.766Z",
+        "lastChecked": "2026-04-30T17:51:53.918Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -46,13 +308,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.826Z",
+        "lastChecked": "2026-04-30T17:51:54.070Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T17:51:41.541Z"
+    "refreshedAt": "2026-04-30T17:51:55.292Z"
   },
-  "shpresa-xiaomi-massage-gun-2": {
+  "shpresa-xiaomi-212w-hypercharge-power-bank-25000": {
     "prices": [
       {
         "storeId": "foleja",
@@ -60,17 +322,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:41.541Z",
+        "lastChecked": "2026-04-30T17:51:55.346Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 6990,
+        "price": 8990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-massage-gun-2/",
-        "lastChecked": "2026-04-30T17:51:40.743Z",
-        "matchedName": "Xiaomi Massage Gun 2"
+        "productUrl": "https://shpresa.al/product/xiaomi-212w-hypercharge-power-bank-25000/",
+        "lastChecked": "2026-04-30T17:51:53.878Z",
+        "matchedName": "Xiaomi 212W HyperCharge Power Bank 25000"
       },
       {
         "storeId": "neptun",
@@ -78,7 +340,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.965Z",
+        "lastChecked": "2026-04-30T17:51:54.333Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -87,7 +349,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.761Z",
+        "lastChecked": "2026-04-30T17:51:53.917Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -96,13 +358,68 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.861Z",
+        "lastChecked": "2026-04-30T17:51:54.109Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T17:51:41.544Z"
+    "refreshedAt": "2026-04-30T17:51:55.346Z"
   },
-  "shpresa-xilence-xc061-m705d-cpu-cooler": {
+  "shpresa-apple-watch-ultra-3-ocean-band": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ERG-200004765/Smartwatch-Apple-Watch-Ultra-3-Cellular-49mm-blu",
+        "lastChecked": "2026-04-30T17:51:55.503Z",
+        "matchedName": "Smartwatch Apple Watch Ultra 3 Cellular 49mm blu",
+        "storeProductId": "/ERG-200004765/Smartwatch-Apple-Watch-Ultra-3-Cellular-49mm-blu",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 64990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-watch-ultra-3-ocean-band/",
+        "lastChecked": "2026-04-30T17:51:53.887Z",
+        "matchedName": "Apple Watch Ultra 3 Ocean Band"
+      },
+      {
+        "storeId": "neptun",
+        "price": 115990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Apple-Watch-Ultra-3-Blk--Titan-Black-Ocean-Band-SM0259",
+        "lastChecked": "2026-04-30T17:51:53.888Z",
+        "matchedName": "Apple Watch Ultra 3?Blk. Titan-Black Ocean Band",
+        "storeProductId": "/categories/Apple-Watch-Ultra-3-Blk--Titan-Black-Ocean-Band-SM0259",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:53.919Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:54.091Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:55.504Z"
+  },
+  "shpresa-sony-ps5-metal-gear-solid-%ce%b4-snake-eater": {
     "prices": [
       {
         "storeId": "foleja",
@@ -110,7 +427,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:41.559Z",
+        "lastChecked": "2026-04-30T17:51:55.537Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -118,9 +435,11 @@
         "price": 4990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xilence-xc061-m705d-cpu-cooler/",
-        "lastChecked": "2026-04-30T17:51:40.746Z",
-        "matchedName": "Xilence XC061 M705D CPU Cooler"
+        "productUrl": "https://shpresa.al/product/sony-ps5-metal-gear-solid-%ce%b4-snake-eater/",
+        "lastChecked": "2026-04-30T17:51:53.906Z",
+        "matchedName": "Sony PS5 Metal Gear Solid Δ: Snake Eater",
+        "storeProductId": "192669",
+        "matchConfidence": 100
       },
       {
         "storeId": "neptun",
@@ -128,7 +447,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.953Z",
+        "lastChecked": "2026-04-30T17:51:54.405Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -137,7 +456,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.762Z",
+        "lastChecked": "2026-04-30T17:51:53.924Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -146,13 +465,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.836Z",
+        "lastChecked": "2026-04-30T17:51:54.111Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T17:51:41.561Z"
+    "refreshedAt": "2026-04-30T17:51:55.538Z"
   },
-  "shpresa-xiaomi-precision-screwdriver-kit": {
+  "shpresa-havit-eye-massager-em1601": {
     "prices": [
       {
         "storeId": "foleja",
@@ -160,17 +479,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:41.742Z",
+        "lastChecked": "2026-04-30T17:51:56.075Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 1490,
+        "price": 4990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-precision-screwdriver-kit/",
-        "lastChecked": "2026-04-30T17:51:40.749Z",
-        "matchedName": "Xiaomi Precision Screwdriver Kit"
+        "productUrl": "https://shpresa.al/product/havit-eye-massager-em1601/",
+        "lastChecked": "2026-04-30T17:51:55.614Z",
+        "matchedName": "HAVIT Eye Massager EM1601"
       },
       {
         "storeId": "neptun",
@@ -178,7 +497,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:41.012Z",
+        "lastChecked": "2026-04-30T17:51:55.724Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -187,7 +506,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.765Z",
+        "lastChecked": "2026-04-30T17:51:55.646Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -196,13 +515,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.884Z",
+        "lastChecked": "2026-04-30T17:51:55.686Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T17:51:41.806Z"
+    "refreshedAt": "2026-04-30T17:51:56.391Z"
   },
-  "shpresa-dyson-airstrait-straightener-strawberry-bronze-blush-pink": {
+  "shpresa-blackview-xplore-1": {
     "prices": [
       {
         "storeId": "foleja",
@@ -210,17 +529,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:41.990Z",
+        "lastChecked": "2026-04-30T17:51:55.991Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 35990,
+        "price": 25990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/dyson-airstrait-straightener-strawberry-bronze-blush-pink/",
-        "lastChecked": "2026-04-30T17:51:40.736Z",
-        "matchedName": "Dyson Airstrait™ Straightener (Strawberry Bronze/Blush Pink)"
+        "productUrl": "https://shpresa.al/product/blackview-xplore-1/",
+        "lastChecked": "2026-04-30T17:51:55.625Z",
+        "matchedName": "Blackview Xplore 1"
       },
       {
         "storeId": "neptun",
@@ -228,7 +547,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:41.071Z",
+        "lastChecked": "2026-04-30T17:51:55.728Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -237,7 +556,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.759Z",
+        "lastChecked": "2026-04-30T17:51:55.648Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -246,13 +565,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.879Z",
+        "lastChecked": "2026-04-30T17:51:55.669Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T17:51:41.992Z"
+    "refreshedAt": "2026-04-30T17:51:56.392Z"
   },
-  "shpresa-xiaomi-massage-gun-mini-2": {
+  "shpresa-havit-m9048-smart-watch": {
     "prices": [
       {
         "storeId": "foleja",
@@ -260,17 +579,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:42.009Z",
+        "lastChecked": "2026-04-30T17:51:56.176Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 5490,
+        "price": 2490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-massage-gun-mini-2/",
-        "lastChecked": "2026-04-30T17:51:40.740Z",
-        "matchedName": "Xiaomi Massage Gun Mini 2"
+        "productUrl": "https://shpresa.al/product/havit-m9048-smart-watch/",
+        "lastChecked": "2026-04-30T17:51:55.628Z",
+        "matchedName": "HAVIT M9048 Smart Watch"
       },
       {
         "storeId": "neptun",
@@ -278,7 +597,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:41.116Z",
+        "lastChecked": "2026-04-30T17:51:55.728Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -287,7 +606,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.761Z",
+        "lastChecked": "2026-04-30T17:51:55.649Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -296,10 +615,712 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T17:51:40.882Z",
+        "lastChecked": "2026-04-30T17:51:55.681Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T17:51:42.010Z"
+    "refreshedAt": "2026-04-30T17:51:56.451Z"
+  },
+  "shpresa-havit-air-purifier-hap215": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:56.309Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 5990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-air-purifier-hap215/",
+        "lastChecked": "2026-04-30T17:51:55.642Z",
+        "matchedName": "Havit Air Purifier HAP215"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.743Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.662Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.695Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:56.533Z"
+  },
+  "shpresa-tp-link-16-port-gigabit-desktop-rackmount-switch-ls1016g": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:56.755Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 6990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/tp-link-16-port-gigabit-desktop-rackmount-switch-ls1016g/",
+        "lastChecked": "2026-04-30T17:51:55.630Z",
+        "matchedName": "Tp-Link 16-Port Gigabit Desktop/Rackmount Switch LS1016G"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.874Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.649Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.715Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:56.757Z"
+  },
+  "shpresa-xiaomi-tritan-water-bottle": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:56.406Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-tritan-water-bottle/",
+        "lastChecked": "2026-04-30T17:51:55.637Z",
+        "matchedName": "Xiaomi Tritan Water Bottle"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.831Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.653Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.723Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:56.759Z"
+  },
+  "shpresa-havit-rgb-gaming-mouse-ms955wb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:56.659Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 2990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-rgb-gaming-mouse-ms955wb/",
+        "lastChecked": "2026-04-30T17:51:55.623Z",
+        "matchedName": "Havit RGB Gaming Mouse MS955WB"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.891Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.648Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.707Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:56.773Z"
+  },
+  "shpresa-xiaomi-electric-scooter-riding-gloves-xl": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:56.964Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-electric-scooter-riding-gloves-xl/",
+        "lastChecked": "2026-04-30T17:51:55.632Z",
+        "matchedName": "Xiaomi Electric Scooter Riding Gloves XL"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:56.034Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.650Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.752Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:56.964Z"
+  },
+  "shpresa-nintendo-switch-hyrule-warriors-age-of-imprisonment": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 8100,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ERG-200004546/Loje-Nintendo-Switch-Hyrule-Warriors-L-era-dell-esilio",
+        "lastChecked": "2026-04-30T17:51:57.297Z",
+        "matchedName": "Lojë Nintendo Switch Hyrule Warriors: L'era dell'esilio",
+        "storeProductId": "/ERG-200004546/Loje-Nintendo-Switch-Hyrule-Warriors-L-era-dell-esilio",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": 7490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/nintendo-switch-hyrule-warriors-age-of-imprisonment/",
+        "lastChecked": "2026-04-30T17:51:55.620Z",
+        "matchedName": "Nintendo Switch Hyrule Warriors: Age of Imprisonment"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.978Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.647Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.726Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:51:57.298Z"
+  },
+  "shpresa-havit-m9060-smart-watch": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:56.324Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 3990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-m9060-smart-watch/",
+        "lastChecked": "2026-04-30T17:51:55.635Z",
+        "matchedName": "HAVIT M9060 Smart Watch"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.758Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:51:55.650Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:03.639Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:52:03.640Z"
+  },
+  "shpresa-havit-bluetooth-selfie-stick-st7600": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.855Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-bluetooth-selfie-stick-st7600/",
+        "lastChecked": "2026-04-30T17:52:03.797Z",
+        "matchedName": "HAVIT Bluetooth Selfie Stick ST7600"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.177Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:03.923Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.969Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:52:04.971Z"
+  },
+  "shpresa-havit-travel-charger-uc142-30w": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.520Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 1190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-travel-charger-uc142-30w/",
+        "lastChecked": "2026-04-30T17:52:03.728Z",
+        "matchedName": "HAVIT Travel Charger UC142 30W"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.075Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:03.925Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:05.039Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:52:05.039Z"
+  },
+  "shpresa-ray-ban-meta-wayfarer-gen-2": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.343Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 53990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/ray-ban-meta-wayfarer-gen-2/",
+        "lastChecked": "2026-04-30T17:52:03.718Z",
+        "matchedName": "RAY-BAN Meta Wayfarer Gen 2"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.078Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:03.917Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:05.043Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:52:05.044Z"
+  },
+  "shpresa-havit-power-bank-pb50-140w": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.538Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 4490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-power-bank-pb50-140w/",
+        "lastChecked": "2026-04-30T17:52:03.747Z",
+        "matchedName": "HAVIT Power Bank PB50 140W"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.104Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:03.915Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:05.110Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:52:05.111Z"
+  },
+  "shpresa-zte-nubia-red-magic-11-pro-5g": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.841Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 69990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/zte-nubia-red-magic-11-pro-5g/?attribute_pa_color=cryo",
+        "lastChecked": "2026-04-30T17:52:03.752Z",
+        "matchedName": "ZTE Nubia Red Magic 11 Pro 5G"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.175Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:03.912Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:05.173Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:52:05.174Z"
+  },
+  "shpresa-xiaomi-oscillation-electric-toothbrush-pro": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.889Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 3990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-oscillation-electric-toothbrush-pro/",
+        "lastChecked": "2026-04-30T17:52:03.733Z",
+        "matchedName": "Xiaomi Oscillation Electric Toothbrush Pro"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.299Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:03.918Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:05.462Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:52:05.462Z"
+  },
+  "shpresa-xiaomi-oscillation-electric-toothbrush": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.624Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 2990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-oscillation-electric-toothbrush/",
+        "lastChecked": "2026-04-30T17:52:03.724Z",
+        "matchedName": "Xiaomi Oscillation Electric Toothbrush"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:04.117Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:03.922Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T17:52:05.490Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T17:52:05.491Z"
   }
 }

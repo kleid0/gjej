@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T17:51:42.031Z",
+  "updatedAt": "2026-04-30T17:52:03.658Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -764,12 +764,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-LENOVO-LEGION-5-15AKP10-83F1003LRM-LP2141",
       "storeProductName": "LAPTOP LENOVO LEGION 5 15AKP10 83F1003LRM",
-      "catalogueProductId": "shpresa-lenovo-legion-5-15-16gb-512gb-ssd-ryzen-7",
+      "catalogueProductId": "shpresa-lenovo-legion-5-16-32gb-1tb-ssd-core-ultra-9",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T06:19:09.900Z",
-      "updatedAt": "2026-04-30T06:19:09.900Z"
+      "updatedAt": "2026-04-30T17:51:48.286Z"
     },
     "foleja:/ACN-300027752/Furnizues-energjie-MSI-Mag-A550BN-550W-i-zi": {
       "storeId": "foleja",
@@ -2271,12 +2271,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200004765/Smartwatch-Apple-Watch-Ultra-3-Cellular-49mm-blu",
       "storeProductName": "Smartwatch Apple Watch Ultra 3 Cellular 49mm blu",
-      "catalogueProductId": "shpresa-apple-watch-ultra-3-natural-light-blue",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3-ocean-band",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:59.817Z",
-      "updatedAt": "2026-04-30T15:58:59.817Z"
+      "updatedAt": "2026-04-30T17:51:55.556Z"
     },
     "neptun:/categories/Apple-Watch-Ultra-3-Blk--Titan-Milanese-Loop-L-SM0251": {
       "storeId": "neptun",
@@ -3646,12 +3646,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-DELL-G15-5530-LP1891",
       "storeProductName": "LAPTOP DELL G15 5530",
-      "catalogueProductId": "foleja-bateri-p-r-laptop-green-cell-de77-dell",
+      "catalogueProductId": "shpresa-dell-24-p2421-monitor",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:10:24.482Z",
-      "updatedAt": "2026-04-30T16:10:24.482Z"
+      "updatedAt": "2026-04-30T17:51:50.460Z"
     },
     "globe:71943": {
       "storeId": "globe",
@@ -11302,23 +11302,23 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200029996/Tablet-Lenovo-ThinkPad-X12-Detachable-Gen-2-Intel-Core-Ultra-7-32-GB-1-TB-e-zeze",
       "storeProductName": "Tablet Lenovo ThinkPad X12 Detachable Gen 2, Intel Core Ultra 7, 32 GB, 1 TB, e zezë",
-      "catalogueProductId": "pcstore-lenovo-thinkpad-x13-gen-3-13-3%e2%80%b3-i7-1270p",
+      "catalogueProductId": "shpresa-lenovo-thinkpad-x13-gen-5-13%e2%80%b3-touch-16gb-1tb-ssd-core-ultra-7",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:58.578Z",
-      "updatedAt": "2026-04-30T16:56:58.578Z"
+      "updatedAt": "2026-04-30T17:51:50.460Z"
     },
     "shpresa:163254": {
       "storeId": "shpresa",
       "storeProductId": "163254",
       "storeProductName": "Lenovo ThinkPad X13 Gen 5, 13″ Touch, 16GB, 1TB SSD, Core™ Ultra 7",
-      "catalogueProductId": "pcstore-lenovo-thinkpad-x13-gen-3-13-3%e2%80%b3-i7-1270p",
+      "catalogueProductId": "shpresa-lenovo-thinkpad-x13-gen-5-13%e2%80%b3-touch-16gb-1tb-ssd-core-ultra-7",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:58.578Z",
-      "updatedAt": "2026-04-30T16:56:58.578Z"
+      "updatedAt": "2026-04-30T17:51:50.460Z"
     },
     "foleja:/KST-200005225/Pllake-ame-ASUS-ROG-STRIX-B760-A-GAMING-WIFI-Intel-LGA-1700-DDR5-ATX-Wi-Fi-bardhe-argjend": {
       "storeId": "foleja",
@@ -13986,12 +13986,12 @@
       "storeId": "shpresa",
       "storeProductId": "192669",
       "storeProductName": "Sony PS5 Metal Gear Solid Δ: Snake Eater",
-      "catalogueProductId": "albagame-ps5-metal-gear-solid-collection-vol-1",
+      "catalogueProductId": "shpresa-sony-ps5-metal-gear-solid-%ce%b4-snake-eater",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:06:57.095Z",
-      "updatedAt": "2026-04-30T17:21:11.332Z"
+      "updatedAt": "2026-04-30T17:51:55.556Z"
     },
     "neptun:/categories/LOJE-PS5-METAL-GEAR-SOLID-DELTA-SNAKE-EATER-DELUXE-PL4181": {
       "storeId": "neptun",
@@ -19844,6 +19844,182 @@
       "status": "pending",
       "createdAt": "2026-04-30T17:51:40.677Z",
       "updatedAt": "2026-04-30T17:51:40.677Z"
+    },
+    "foleja:/KST-200005920/Kamere-Logitech-HD-Pro-Webcam-C920-3-MP-1920-x-1080-pixels-Full-HD-30-fps-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200005920/Kamere-Logitech-HD-Pro-Webcam-C920-3-MP-1920-x-1080-pixels-Full-HD-30-fps-e-zeze",
+      "storeProductName": "Kamerë Logitech HD Pro Webcam C920, 3 MP, 1920 x 1080 pixels, Full HD, 30 fps, e zezë",
+      "catalogueProductId": "shpresa-logitech-c920-pro-hd-webcam",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:48.286Z",
+      "updatedAt": "2026-04-30T17:51:48.286Z"
+    },
+    "foleja:/INP-200006513/Cante-ruajtje-per-dron-Sunnylife-NE-B936-pershtatur-per-DJI-Neo-Motion-Fly-More-Combo-me-insert-te-formesuar-dhe-rrip-shpatulle": {
+      "storeId": "foleja",
+      "storeProductId": "/INP-200006513/Cante-ruajtje-per-dron-Sunnylife-NE-B936-pershtatur-per-DJI-Neo-Motion-Fly-More-Combo-me-insert-te-formesuar-dhe-rrip-shpatulle",
+      "storeProductName": "Çantë ruajtje për dron, Sunnylife NE-B936, përshtatur për DJI Neo Motion Fly More Combo, me insert të formësuar dhe rrip shpatulle",
+      "catalogueProductId": "shpresa-dji-neo-motion-fly-more-combo",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:48.286Z",
+      "updatedAt": "2026-04-30T17:51:48.286Z"
+    },
+    "neptun:/categories/DRON-DJI-NEO-MOTION-FLY-MORE-COMBO-DR0046": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/DRON-DJI-NEO-MOTION-FLY-MORE-COMBO-DR0046",
+      "storeProductName": "DRON DJI NEO MOTION FLY MORE COMBO",
+      "catalogueProductId": "shpresa-dji-neo-motion-fly-more-combo",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:48.286Z",
+      "updatedAt": "2026-04-30T17:51:48.286Z"
+    },
+    "foleja:/GAR-200000094/Rrip-per-smartwatch-Garmin-Instinct-3-45mm-Twilight": {
+      "storeId": "foleja",
+      "storeProductId": "/GAR-200000094/Rrip-per-smartwatch-Garmin-Instinct-3-45mm-Twilight",
+      "storeProductName": "Rrip për smartwatch Garmin Instinct® 3 – 45mm, Twilight",
+      "catalogueProductId": "shpresa-garmin-instinct-3-45-mm-amoled",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:48.286Z",
+      "updatedAt": "2026-04-30T17:51:48.286Z"
+    },
+    "foleja:/GAR-200000038/Smartwatch-Garmin-Instinct-3-Solar-Twilight-with-Solstice-Silicone-Strap-50-mm": {
+      "storeId": "foleja",
+      "storeProductId": "/GAR-200000038/Smartwatch-Garmin-Instinct-3-Solar-Twilight-with-Solstice-Silicone-Strap-50-mm",
+      "storeProductName": "Smartwatch Garmin Instinct® 3 Solar – Twilight with Solstice Silicone Strap, 50 mm",
+      "catalogueProductId": "shpresa-garmin-instinct-3-50-mm-amoled",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:48.286Z",
+      "updatedAt": "2026-04-30T17:51:48.286Z"
+    },
+    "foleja:/KOM-200109718/Mi-Dell-MS3320W-Roze": {
+      "storeId": "foleja",
+      "storeProductId": "/KOM-200109718/Mi-Dell-MS3320W-Roze",
+      "storeProductName": "Mi Dell MS3320W, Rozë",
+      "catalogueProductId": "shpresa-dell-24-p2421-monitor",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:50.460Z",
+      "updatedAt": "2026-04-30T17:51:50.460Z"
+    },
+    "foleja:/KST-200059268/Smartwatch-Nothing-CMF-Watch-3-Pro-light-grey": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200059268/Smartwatch-Nothing-CMF-Watch-3-Pro-light-grey",
+      "storeProductName": "Smartwatch Nothing CMF Watch 3 Pro light grey",
+      "catalogueProductId": "shpresa-nothing-cmf-watch-pro",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:51.999Z",
+      "updatedAt": "2026-04-30T17:51:51.999Z"
+    },
+    "neptun:/categories/LAPTOP-HP-OMNIBOOK-5-FLIP-x360-14-FP0029NN-BX8A8EA-LP2052": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LAPTOP-HP-OMNIBOOK-5-FLIP-x360-14-FP0029NN-BX8A8EA-LP2052",
+      "storeProductName": "LAPTOP HP OMNIBOOK 5 FLIP x360 14-FP0029NN BX8A8EA",
+      "catalogueProductId": "shpresa-hp-omnibook-x-flip-14-touchscreen-24gb-1tb-ssd-ryzen-ai-7",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:53.821Z",
+      "updatedAt": "2026-04-30T17:51:53.821Z"
+    },
+    "foleja:/KST-200056029/Kase-Deepcool-CG580-4F-V2-Midi-Tower-xham-i-temperuar-RGB-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200056029/Kase-Deepcool-CG580-4F-V2-Midi-Tower-xham-i-temperuar-RGB-e-zeze",
+      "storeProductName": "Kasë Deepcool CG580 4F V2, Midi Tower, xham i temperuar, RGB, e zezë",
+      "catalogueProductId": "shpresa-deepcool-cg560-v2-pc-case",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:55.556Z",
+      "updatedAt": "2026-04-30T17:51:55.556Z"
+    },
+    "foleja:/KST-200059931/Smartwatch-Apple-Watch-Ultra-3-Titanium-Cellular-49mm-Trail-Loop-blu-hellblau-M-L": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200059931/Smartwatch-Apple-Watch-Ultra-3-Titanium-Cellular-49mm-Trail-Loop-blu-hellblau-M-L",
+      "storeProductName": "Smartwatch Apple Watch Ultra 3 Titanium Cellular 49mm Trail Loop blu/hellblau M/L",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3-trail-loop",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:55.556Z",
+      "updatedAt": "2026-04-30T17:51:55.556Z"
+    },
+    "neptun:/categories/Apple-Watch-Ultra-3-Nat--Titan-Milanese-Loop-M-SM0261": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/Apple-Watch-Ultra-3-Nat--Titan-Milanese-Loop-M-SM0261",
+      "storeProductName": "Apple Watch Ultra 3?Nat. Titan-Milanese Loop M",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3-alpine-loop",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:55.556Z",
+      "updatedAt": "2026-04-30T17:51:55.556Z"
+    },
+    "neptun:/categories/Apple-Watch-Ultra-3-Blk--Titan-Black-Ocean-Band-SM0259": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/Apple-Watch-Ultra-3-Blk--Titan-Black-Ocean-Band-SM0259",
+      "storeProductName": "Apple Watch Ultra 3?Blk. Titan-Black Ocean Band",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3-ocean-band",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:55.556Z",
+      "updatedAt": "2026-04-30T17:51:55.556Z"
+    },
+    "foleja:/KST-200059936/Smartwatch-Apple-Watch-Ultra-3-Titanium-Cellular-49mm-Alpine-Loop-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200059936/Smartwatch-Apple-Watch-Ultra-3-Titanium-Cellular-49mm-Alpine-Loop-e-zeze",
+      "storeProductName": "Smartwatch Apple Watch Ultra 3 Titanium Cellular 49mm Alpine Loop e zezë",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3-alpine-loop",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:55.556Z",
+      "updatedAt": "2026-04-30T17:51:55.556Z"
+    },
+    "neptun:/categories/LOJE-PS5-DOOM:-The-Dark-Ages-PL4668": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LOJE-PS5-DOOM:-The-Dark-Ages-PL4668",
+      "storeProductName": "LOJE PS5 DOOM: The Dark Ages",
+      "catalogueProductId": "shpresa-sony-ps5-doom-the-dark-ages",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:55.556Z",
+      "updatedAt": "2026-04-30T17:51:55.556Z"
+    },
+    "foleja:/ERG-200004736/Loje-Nintendo-Switch-Metroid-Prime-4-Beyond": {
+      "storeId": "foleja",
+      "storeProductId": "/ERG-200004736/Loje-Nintendo-Switch-Metroid-Prime-4-Beyond",
+      "storeProductName": "Lojë Nintendo Switch Metroid Prime 4 Beyond",
+      "catalogueProductId": "shpresa-nintendo-switch-metroid-prime-4-beyond",
+      "matchMethod": "name_match",
+      "confidence": 83,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:51:55.556Z",
+      "updatedAt": "2026-04-30T17:51:55.556Z"
+    },
+    "foleja:/ERG-200004546/Loje-Nintendo-Switch-Hyrule-Warriors-L-era-dell-esilio": {
+      "storeId": "foleja",
+      "storeProductId": "/ERG-200004546/Loje-Nintendo-Switch-Hyrule-Warriors-L-era-dell-esilio",
+      "storeProductName": "Lojë Nintendo Switch Hyrule Warriors: L'era dell'esilio",
+      "catalogueProductId": "shpresa-nintendo-switch-hyrule-warriors-age-of-imprisonment",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T17:52:03.658Z",
+      "updatedAt": "2026-04-30T17:52:03.658Z"
     }
   }
 }
