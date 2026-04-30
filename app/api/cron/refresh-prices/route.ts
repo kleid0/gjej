@@ -26,36 +26,22 @@ export const maxDuration = 300;
 const CONCURRENCY = 12;
 
 // How many products to refresh per invocation. Tuned so one call fits
-// comfortably inside maxDuration even on slow days; the cron then
-// self-chains to the next slice (see selfInvoke below) until the whole
-// catalogue is covered.
+// comfortably inside maxDuration even on slow days. Orchestration is
+// handled externally by .github/workflows/refresh-prices.yml, which
+// loops through the catalogue 80 products at a time until remaining=0.
+// (We previously self-chained inside Vercel by aborted-fetch'ing the
+// next slice, but that proved flaky once the cron also committed JSON
+// files back to git — too many ways for the chain to silently break.
+// Moving orchestration to GHA gives us a 6-hour budget per run and
+// per-batch logs we can actually inspect.)
 const BATCH_SIZE = 80;
 
-async function selfInvoke(req: NextRequest, startIndex: number): Promise<void> {
-  const base = process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : req.nextUrl.origin;
-  const url = `${base}/api/cron/refresh-prices?startIndex=${startIndex}`;
-
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 1500);
-  try {
-    await fetch(url, {
-      headers: { Authorization: `Bearer ${process.env.CRON_SECRET}` },
-      signal: controller.signal,
-    });
-  } catch {
-    // Expected: AbortError. The downstream invocation has been kicked off.
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
 // GET /api/cron/refresh-prices
-// Called daily by Vercel Cron at 06:00 UTC. Scrapes BATCH_SIZE products
-// per invocation, accumulates writes into JSON files in /tmp, then commits
-// all touched files to GitHub in one commit so the next deploy serves the
-// fresh data. When more products remain, self-chains via ?startIndex=.
+// Processes one BATCH_SIZE slice starting from ?startIndex= (default 0),
+// commits the resulting JSON files to GitHub, and returns
+// { nextIndex, remaining, ... } so the GHA orchestrator knows where to
+// resume from. When remaining=0 the response also revalidates the
+// lowest-prices / admin-stats cache tags.
 export async function GET(req: NextRequest) {
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
@@ -152,8 +138,8 @@ export async function GET(req: NextRequest) {
   const nextIndex = startIndex + batch.length;
   const remaining = Math.max(0, allProducts.length - nextIndex);
 
-  // Persist this invocation's slice of writes to GitHub before chaining.
-  // prices.json is also written by the scraper so include it explicitly.
+  // Persist this invocation's slice of writes to GitHub. prices.json is
+  // also written by the scraper so include it explicitly.
   const dirty = takeDirtyFiles();
   if (!dirty.includes(PRICES_FILE)) dirty.push(PRICES_FILE);
   let commitSha: string | null = null;
@@ -169,8 +155,6 @@ export async function GET(req: NextRequest) {
   if (remaining === 0) {
     revalidateTag(LOWEST_PRICES_TAG);
     revalidateTag(ADMIN_STATS_TAG);
-  } else {
-    await selfInvoke(req, nextIndex);
   }
 
   return NextResponse.json({
