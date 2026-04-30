@@ -5,8 +5,12 @@ name: Store Coverage Report
 # file). Lets Claude read current per-product store-count data via MCP
 # without needing outbound HTTP from its sandbox.
 #
-# Trigger: manual (workflow_dispatch). Inputs control max storeCount filter
-# and result limit. CRON_SECRET must be configured as a repo secret.
+# Triggers:
+#   - workflow_dispatch (manual): customisable max/limit/base_url inputs.
+#   - schedule (daily 08:30 UTC): runs ~2.5h after the Vercel price-refresh
+#     cron at 06:00 UTC, by which point the self-chaining refresh has
+#     normally walked the whole catalogue. Uses the dispatch defaults.
+# CRON_SECRET must be configured as a repo secret.
 
 on:
   workflow_dispatch:
@@ -23,6 +27,11 @@ on:
         description: "Site base URL"
         required: false
         default: "https://gjej.vercel.app"
+  schedule:
+    # 08:30 UTC daily — Vercel price-refresh cron fires at 06:00 UTC and the
+    # self-chaining loop normally finishes the whole catalogue inside 90 min,
+    # so 2.5 h gives comfortable headroom on slow days.
+    - cron: "30 8 * * *"
 
 permissions:
   contents: write
@@ -35,9 +44,11 @@ jobs:
       - name: Fetch store-coverage detail
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
-          BASE_URL: ${{ inputs.base_url }}
-          MAX: ${{ inputs.max }}
-          LIMIT: ${{ inputs.limit }}
+          # `inputs.*` is empty on schedule triggers — fall back to the same
+          # defaults the workflow_dispatch form exposes.
+          BASE_URL: ${{ inputs.base_url || 'https://gjej.vercel.app' }}
+          MAX: ${{ inputs.max || '1' }}
+          LIMIT: ${{ inputs.limit || '500' }}
         run: |
           set -eu
           if [ -z "${CRON_SECRET:-}" ]; then
@@ -97,9 +108,9 @@ jobs:
 
       - name: Write metadata
         env:
-          MAX: ${{ inputs.max }}
-          LIMIT: ${{ inputs.limit }}
-          BASE_URL: ${{ inputs.base_url }}
+          MAX: ${{ inputs.max || '1' }}
+          LIMIT: ${{ inputs.limit || '500' }}
+          BASE_URL: ${{ inputs.base_url || 'https://gjej.vercel.app' }}
         run: |
           cat > out/meta.json <<EOF
           {
