@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T16:30:57.126Z",
+  "updatedAt": "2026-04-30T16:31:22.718Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -3052,23 +3052,23 @@
       "storeId": "shpresa",
       "storeProductId": "169723",
       "storeProductName": "Samsung Galaxy Watch8 40MM",
-      "catalogueProductId": "globe-71724",
+      "catalogueProductId": "foleja-smartwatch-samsung-galaxy-watch-sm-l300nzgaeue-40-mm-e-zez",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:06:16.653Z",
-      "updatedAt": "2026-04-30T16:28:12.408Z"
+      "updatedAt": "2026-04-30T16:06:41.399Z"
     },
     "neptun:/categories/Samsung-Galaxy-Watch8-44mm-Silver-SM0229": {
       "storeId": "neptun",
       "storeProductId": "/categories/Samsung-Galaxy-Watch8-44mm-Silver-SM0229",
       "storeProductName": "Samsung Galaxy Watch8 44mm Silver",
-      "catalogueProductId": "globe-71724",
+      "catalogueProductId": "foleja-smartwatch-samsung-galaxy-watch-sm-l300nzgaeue-40-mm-e-zez",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:06:16.653Z",
-      "updatedAt": "2026-04-30T16:28:12.408Z"
+      "updatedAt": "2026-04-30T16:06:41.399Z"
     },
     "globe:71730": {
       "storeId": "globe",
@@ -3327,12 +3327,12 @@
       "storeId": "shpresa",
       "storeProductId": "124550",
       "storeProductName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
-      "catalogueProductId": "globe-71642",
+      "catalogueProductId": "foleja-tablet-samsung-galaxy-tab-s11-ultra-12gb-256gb-gri",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:06:27.809Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
+      "updatedAt": "2026-04-30T16:06:41.399Z"
     },
     "neptun:/categories/SAMSUNG-GALAXY-TAB-S6-LITE-LTE-64GB-GRAY-TB0594": {
       "storeId": "neptun",
@@ -3371,12 +3371,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
       "storeProductName": "SAMSUNG GALAXY TAB A11 64GB SILVER",
-      "catalogueProductId": "globe-71642",
+      "catalogueProductId": "foleja-tablet-samsung-galaxy-tab-s11-ultra-12gb-256gb-gri",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:06:27.809Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
+      "updatedAt": "2026-04-30T16:06:41.399Z"
     },
     "shpresa:190949": {
       "storeId": "shpresa",
@@ -4625,12 +4625,12 @@
       "storeId": "foleja",
       "storeProductId": "/THM-200002838/Televizor-Samsung-QE75QN85FAUXXH-75-Neo-QLED-4K",
       "storeProductName": "Televizor Samsung QE75QN85FAUXXH 75\" Neo QLED 4K",
-      "catalogueProductId": "globe-71306",
+      "catalogueProductId": "globe-183982",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:25:56.825Z",
-      "updatedAt": "2026-04-30T16:26:32.667Z"
+      "updatedAt": "2026-04-30T16:25:56.825Z"
     },
     "neptun:/categories/SOUNDBAR-SAMSUNG-HW-B450F-EN-DV1136": {
       "storeId": "neptun",
@@ -4698,1094 +4698,555 @@
       "createdAt": "2026-04-30T16:26:05.065Z",
       "updatedAt": "2026-04-30T16:26:05.065Z"
     },
-    "foleja:/THM-200002800/Soundbar-Samsung-HW-Q930F-EN-9.1.4-Dolby-Atmos-me-subwoofer-2-altoparlante-te-pasem-Titan-Black-set": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002800/Soundbar-Samsung-HW-Q930F-EN-9.1.4-Dolby-Atmos-me-subwoofer-2-altoparlante-te-pasem-Titan-Black-set",
-      "storeProductName": "Soundbar Samsung HW-Q930F/EN 9.1.4 Dolby Atmos me subwoofer + 2 altoparlantë të pasëm, Titan Black, set",
-      "catalogueProductId": "globe-71075",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:16.533Z",
-      "updatedAt": "2026-04-30T16:26:16.533Z"
-    },
-    "neptun:/categories/SOUNDBAR-SAMSUNG-HW-Q930F-EN-DV1132": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SOUNDBAR-SAMSUNG-HW-Q930F-EN-DV1132",
-      "storeProductName": "SOUNDBAR SAMSUNG HW-Q930F/EN",
-      "catalogueProductId": "globe-71075",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:16.533Z",
-      "updatedAt": "2026-04-30T16:26:16.533Z"
-    },
-    "globe:71075": {
+    "globe:71492": {
       "storeId": "globe",
-      "storeProductId": "71075",
-      "storeProductName": "Soundbar Samsung HW-Q930F/EN",
-      "catalogueProductId": "globe-71075",
+      "storeProductId": "71492",
+      "storeProductName": "Bateri Lithium GPBL CR2025-U5",
+      "catalogueProductId": "globe-71492",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:26:16.533Z",
-      "updatedAt": "2026-04-30T16:26:16.533Z"
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
     },
-    "globe:71080": {
+    "globe:71494": {
       "storeId": "globe",
-      "storeProductId": "71080",
-      "storeProductName": "Soundbar Samsung HW-C450/EN",
-      "catalogueProductId": "globe-71080",
+      "storeProductId": "71494",
+      "storeProductName": "Bateri Kodak Lithium MAX CR2016 30411555 x5",
+      "catalogueProductId": "globe-71494",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:26:16.533Z",
-      "updatedAt": "2026-04-30T16:26:16.533Z"
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
     },
-    "globe:71081": {
+    "globe:71495": {
       "storeId": "globe",
-      "storeProductId": "71081",
-      "storeProductName": "Soundbar Samsung HW-J6000R/EN",
-      "catalogueProductId": "globe-71081",
+      "storeProductId": "71495",
+      "storeProductName": "Bateri Kodak Lithium MAX CR2025 30411562 x5",
+      "catalogueProductId": "globe-71495",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:26:16.533Z",
-      "updatedAt": "2026-04-30T16:26:16.533Z"
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
     },
-    "globe:71091": {
+    "globe:71497": {
       "storeId": "globe",
-      "storeProductId": "71091",
-      "storeProductName": "Soundbar Samsung HW-S41T/EN",
-      "catalogueProductId": "globe-71091",
+      "storeProductId": "71497",
+      "storeProductName": "Bateri Kodak Alkalin MAX 6LR61 30952850 9Vx1",
+      "catalogueProductId": "globe-71497",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:26:16.533Z",
-      "updatedAt": "2026-04-30T16:26:16.533Z"
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
     },
-    "foleja:/THM-200002360/Televizor-Philips-48OLED820-12-48-OLED-4K-UHD-Ambilight-Google-TV-144-Hz": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002360/Televizor-Philips-48OLED820-12-48-OLED-4K-UHD-Ambilight-Google-TV-144-Hz",
-      "storeProductName": "Televizor Philips 48OLED820/12 48\" OLED 4K UHD, Ambilight, Google TV, 144 Hz",
-      "catalogueProductId": "globe-71234",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:20.680Z",
-      "updatedAt": "2026-04-30T16:26:29.815Z"
-    },
-    "foleja:/THM-200002361/Televizor-Philips-50PUS7000-12-50-4K-UHD-LED-Smart-HDMI-2.1-VRR": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002361/Televizor-Philips-50PUS7000-12-50-4K-UHD-LED-Smart-HDMI-2.1-VRR",
-      "storeProductName": "Televizor Philips 50PUS7000/12 50\" 4K UHD LED Smart, HDMI 2.1, VRR",
-      "catalogueProductId": "globe-71282",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:25.592Z",
-      "updatedAt": "2026-04-30T16:26:31.506Z"
-    },
-    "foleja:/THM-200002355/Televizor-Philips-43PUS7000-12-43-4K-UHD-LED-Smart-HDR10-HDMI-2.1-VRR-Dolby-Atmos": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002355/Televizor-Philips-43PUS7000-12-43-4K-UHD-LED-Smart-HDR10-HDMI-2.1-VRR-Dolby-Atmos",
-      "storeProductName": "Televizor Philips 43PUS7000/12 43\" 4K UHD LED Smart HDR10+ HDMI 2.1 VRR Dolby Atmos",
-      "catalogueProductId": "globe-71134",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:25.592Z",
-      "updatedAt": "2026-04-30T16:26:25.592Z"
-    },
-    "foleja:/THM-200002846/Televizor-LED-Samsung-UE50U8092FUXXH-50-UHD-4K": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002846/Televizor-LED-Samsung-UE50U8092FUXXH-50-UHD-4K",
-      "storeProductName": "Televizor LED Samsung UE50U8092FUXXH 50\\\" UHD 4K",
-      "catalogueProductId": "globe-71279",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:25.592Z",
-      "updatedAt": "2026-04-30T16:26:31.506Z"
-    },
-    "foleja:/THM-200002842/Televizor-LED-Samsung-UE43U8072FUXXH-43-UHD-4K-Smart-TV-Tizen": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002842/Televizor-LED-Samsung-UE43U8072FUXXH-43-UHD-4K-Smart-TV-Tizen",
-      "storeProductName": "Televizor LED, Samsung, UE43U8072FUXXH, 43\", UHD 4K, Smart TV Tizen",
-      "catalogueProductId": "globe-71148",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:25.592Z",
-      "updatedAt": "2026-04-30T16:26:25.592Z"
-    },
-    "foleja:/THM-200002847/Televizor-Samsung-UE55U8072FUXXH-55-LED-Crystal-UHD-4K-Smart-TV-i-zi": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002847/Televizor-Samsung-UE55U8072FUXXH-55-LED-Crystal-UHD-4K-Smart-TV-i-zi",
-      "storeProductName": "Televizor Samsung UE55U8072FUXXH 55\" LED Crystal UHD 4K Smart TV, i zi",
-      "catalogueProductId": "globe-71212",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:29.815Z",
-      "updatedAt": "2026-04-30T16:26:29.815Z"
-    },
-    "foleja:/THM-200002854/Televizor-LED-UHD-4K-Smart-Samsung-UE75U8072FUXXH-HDR10-75": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002854/Televizor-LED-UHD-4K-Smart-Samsung-UE75U8072FUXXH-HDR10-75",
-      "storeProductName": "Televizor LED UHD 4K Smart, Samsung, UE75U8072FUXXH, HDR10+, 75\"",
-      "catalogueProductId": "globe-71266",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:29.815Z",
-      "updatedAt": "2026-04-30T16:26:31.506Z"
-    },
-    "foleja:/THM-200002857/Televizor-Samsung-UE85U8072FUXXH-85-4K-UHD-LED-HDR-Smart-Tizen": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002857/Televizor-Samsung-UE85U8072FUXXH-85-4K-UHD-LED-HDR-Smart-Tizen",
-      "storeProductName": "Televizor, Samsung, UE85U8072FUXXH, 85\" 4K UHD LED, HDR, Smart Tizen",
-      "catalogueProductId": "globe-71277",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:31.506Z",
-      "updatedAt": "2026-04-30T16:26:31.506Z"
-    },
-    "foleja:/THM-200002823/Televizor-Samsung-QE55QN85FAUXXH-55-Neo-QLED-4K-144Hz": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002823/Televizor-Samsung-QE55QN85FAUXXH-55-Neo-QLED-4K-144Hz",
-      "storeProductName": "Televizor Samsung QE55QN85FAUXXH 55\" Neo QLED 4K 144Hz",
-      "catalogueProductId": "globe-71294",
-      "matchMethod": "name_match",
-      "confidence": 67,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:26:32.667Z",
-      "updatedAt": "2026-04-30T16:26:32.667Z"
-    },
-    "globe:71605": {
+    "globe:71498": {
       "storeId": "globe",
-      "storeProductId": "71605",
-      "storeProductName": "Apple iPad 11\" Wifi A16 128GB MD3Y4HC/A Silver",
-      "catalogueProductId": "globe-71605",
+      "storeProductId": "71498",
+      "storeProductName": "Bateri Kodak Alkalin MAX LR14 30952836 Cx2",
+      "catalogueProductId": "globe-71498",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
     },
-    "globe:71606": {
+    "globe:71499": {
       "storeId": "globe",
-      "storeProductId": "71606",
-      "storeProductName": "Apple iPad 11\" Wifi A16 128GB MD4A4HC/A Blue",
-      "catalogueProductId": "globe-71606",
+      "storeProductId": "71499",
+      "storeProductName": "Bateri Kodak Alkalin MAX LR20 30952843 Dx2",
+      "catalogueProductId": "globe-71499",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
     },
-    "foleja:/YLL-200001987/Tablet-Apple-iPad-9-10.2-256GB-Wi-Fi-Cellular-argjend": {
+    "foleja:/ACN-300005684/Bateri-Kodak-XTRALIFE-AA-4-cope": {
       "storeId": "foleja",
-      "storeProductId": "/YLL-200001987/Tablet-Apple-iPad-9-10.2-256GB-Wi-Fi-Cellular-argjend",
-      "storeProductName": "Tablet Apple iPad 9, 10.2\", 256GB, Wi-Fi + Cellular, argjend",
-      "catalogueProductId": "globe-71612",
-      "matchMethod": "name_match",
-      "confidence": 67,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
-    },
-    "globe:71612": {
-      "storeId": "globe",
-      "storeProductId": "71612",
-      "storeProductName": "Apple iPad 9 Wifi + Celular 10.2\" 64GB MK493HC/A Silver",
-      "catalogueProductId": "globe-71612",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
-    },
-    "neptun:/categories/LENOVO-TABLET-TAB-M8-4G-LTE-3-32GB-ARCTIC-GRAY-TB0679": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LENOVO-TABLET-TAB-M8-4G-LTE-3-32GB-ARCTIC-GRAY-TB0679",
-      "storeProductName": "LENOVO TABLET TAB M8 4G LTE 3/32GB ARCTIC GRAY",
-      "catalogueProductId": "globe-71624",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
-    },
-    "globe:71624": {
-      "storeId": "globe",
-      "storeProductId": "71624",
-      "storeProductName": "Tablet Lenovo Tab M8 4th Gen 3/32GB 8\" LTE Arctic Grey",
-      "catalogueProductId": "globe-71624",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
-    },
-    "foleja:/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
-      "storeProductName": "S Pen Samsung Galaxy Tab S8, e zezë",
-      "catalogueProductId": "globe-71642",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
-    },
-    "globe:71628": {
-      "storeId": "globe",
-      "storeProductId": "71628",
-      "storeProductName": "Tablet Samsung Galaxy Tab A9 64GB SM-X110N 8.7\" Wi-Fi Grey",
-      "catalogueProductId": "globe-71628",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
-    },
-    "globe:71635": {
-      "storeId": "globe",
-      "storeProductId": "71635",
-      "storeProductName": "Tablet Samsung Galaxy Tab A7 Lite SM-T225N 8.7\" LTE Grey SO",
-      "catalogueProductId": "globe-71635",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
-    },
-    "globe:71639": {
-      "storeId": "globe",
-      "storeProductId": "71639",
-      "storeProductName": "Tablet Samsung Galaxy Tab S10 Ultra 256GB X920NR 14.6\" Wifi Grey",
-      "catalogueProductId": "globe-71639",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
-    },
-    "globe:71642": {
-      "storeId": "globe",
-      "storeProductId": "71642",
-      "storeProductName": "Tablet Samsung Galaxy Tab S6 Lite SM-P625 10.4\" LTE Grey",
-      "catalogueProductId": "globe-71642",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
-    },
-    "globe:71646": {
-      "storeId": "globe",
-      "storeProductId": "71646",
-      "storeProductName": "Telefon Cordless MaxCom MC6800 Black",
-      "catalogueProductId": "globe-71646",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-04-30T16:27:59.558Z"
-    },
-    "foleja:/ERG-200004838/Smartwatch-Apple-Watch-Serie-10-42mm-Jet-Black": {
-      "storeId": "foleja",
-      "storeProductId": "/ERG-200004838/Smartwatch-Apple-Watch-Serie-10-42mm-Jet-Black",
-      "storeProductName": "Smartwatch Apple Watch Serie 10 42mm Jet Black",
-      "catalogueProductId": "globe-71659",
+      "storeProductId": "/ACN-300005684/Bateri-Kodak-XTRALIFE-AA-4-cope",
+      "storeProductName": "Bateri Kodak, XTRALIFE, AA, 4 copë",
+      "catalogueProductId": "globe-71502",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
-      "createdAt": "2026-04-30T16:28:04.611Z",
-      "updatedAt": "2026-04-30T16:28:04.611Z"
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
     },
-    "neptun:/categories/Apple-Watch-S10-42mm-Silver-Denim-Band-S-M-SM0181": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-Watch-S10-42mm-Silver-Denim-Band-S-M-SM0181",
-      "storeProductName": "Apple Watch S10 42mm Silver-Denim Band S/M",
-      "catalogueProductId": "globe-71659",
+    "globe:71502": {
+      "storeId": "globe",
+      "storeProductId": "71502",
+      "storeProductName": "Bateri Kodak Alkalin XTRALIFE LR20 30952058 Dx2",
+      "catalogueProductId": "globe-71502",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:28:04.611Z",
-      "updatedAt": "2026-04-30T16:28:04.611Z"
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
     },
-    "foleja:/KST-200059971/Smartwatch-Apple-Watch-S11-Titan-46mm-Cellular-Milanaise-schiefer": {
+    "globe:71504": {
+      "storeId": "globe",
+      "storeProductId": "71504",
+      "storeProductName": "Bateri Duracell Lithium DU/CR 2016 1x2 5000394045736",
+      "catalogueProductId": "globe-71504",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
+    },
+    "globe:71505": {
+      "storeId": "globe",
+      "storeProductId": "71505",
+      "storeProductName": "Bateri Duracell Lithium DU/CR 2025 1x2 5000394045514",
+      "catalogueProductId": "globe-71505",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
+    },
+    "globe:71506": {
+      "storeId": "globe",
+      "storeProductId": "71506",
+      "storeProductName": "Bateri Premium Alkaline LR03M4B/10 Energy 4 AAA",
+      "catalogueProductId": "globe-71506",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
+    },
+    "globe:71508": {
+      "storeId": "globe",
+      "storeProductId": "71508",
+      "storeProductName": "Bateri Mini Lithium CR2016/01B",
+      "catalogueProductId": "globe-71508",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
+    },
+    "globe:71509": {
+      "storeId": "globe",
+      "storeProductId": "71509",
+      "storeProductName": "Bateri Mini Lithium CR2025/01B",
+      "catalogueProductId": "globe-71509",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:27:24.972Z",
+      "updatedAt": "2026-04-30T16:27:24.972Z"
+    },
+    "foleja:/ALB-200000187/Bateri-Maxell-Super-Alkaline-XL-AAA-4-cope": {
       "storeId": "foleja",
-      "storeProductId": "/KST-200059971/Smartwatch-Apple-Watch-S11-Titan-46mm-Cellular-Milanaise-schiefer",
-      "storeProductName": "Smartwatch Apple Watch S11 Titan 46mm Cellular Milanaise schiefer",
-      "catalogueProductId": "globe-71661",
+      "storeProductId": "/ALB-200000187/Bateri-Maxell-Super-Alkaline-XL-AAA-4-cope",
+      "storeProductName": "Bateri Maxell Super Alkaline XL AAA, 4 copë",
+      "catalogueProductId": "globe-71518",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
-      "createdAt": "2026-04-30T16:28:04.611Z",
-      "updatedAt": "2026-04-30T16:28:04.611Z"
+      "createdAt": "2026-04-30T16:27:28.453Z",
+      "updatedAt": "2026-04-30T16:27:28.453Z"
     },
-    "neptun:/categories/Apple-Watch-S10-46mm-Silver-Denim-Band-M-L-SM0191": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/Apple-Watch-S10-46mm-Silver-Denim-Band-M-L-SM0191",
-      "storeProductName": "Apple Watch S10 46mm Silver-Denim Band M/L",
-      "catalogueProductId": "globe-71661",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:04.611Z",
-      "updatedAt": "2026-04-30T16:28:04.611Z"
-    },
-    "shpresa:66490": {
-      "storeId": "shpresa",
-      "storeProductId": "66490",
-      "storeProductName": "Apple Watch Series 7",
-      "catalogueProductId": "globe-71663",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:04.611Z",
-      "updatedAt": "2026-04-30T16:28:04.611Z"
-    },
-    "shpresa:109406": {
-      "storeId": "shpresa",
-      "storeProductId": "109406",
-      "storeProductName": "Apple Watch Series 8 45mm",
-      "catalogueProductId": "globe-71665",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:04.611Z",
-      "updatedAt": "2026-04-30T16:28:04.611Z"
-    },
-    "foleja:/ALL-200000062/Smartwatch-Apple-Watch-SE-2023-40mm-midnight": {
+    "foleja:/KPC-200000346/Bateri-AA-alkaline-Aiwa-AB-AALR6-4-LR6-1.5V-Ultra-Long-Power-paket-48-cope-12x4": {
       "storeId": "foleja",
-      "storeProductId": "/ALL-200000062/Smartwatch-Apple-Watch-SE-2023-40mm-midnight",
-      "storeProductName": "Smartwatch Apple Watch SE (2023), 40mm, midnight",
-      "catalogueProductId": "globe-71672",
+      "storeProductId": "/KPC-200000346/Bateri-AA-alkaline-Aiwa-AB-AALR6-4-LR6-1.5V-Ultra-Long-Power-paket-48-cope-12x4",
+      "storeProductName": "Bateri AA alkaline Aiwa AB-AALR6/4, LR6 1.5V, Ultra Long Power, paket 48 copë (12x4)",
+      "catalogueProductId": "globe-71527",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
-      "createdAt": "2026-04-30T16:28:12.408Z",
-      "updatedAt": "2026-04-30T16:28:12.408Z"
+      "createdAt": "2026-04-30T16:27:33.091Z",
+      "updatedAt": "2026-04-30T16:27:33.091Z"
     },
-    "neptun:/categories/Apple-Watch-SE2-v3-40mm-Starlight-Green-Sport-Loop-SM0171": {
+    "neptun:/categories/PS5-PLAYSTATION-5-SLIM-DISC-FORTNITE-1TB-PL4837": {
       "storeId": "neptun",
-      "storeProductId": "/categories/Apple-Watch-SE2-v3-40mm-Starlight-Green-Sport-Loop-SM0171",
-      "storeProductName": "Apple Watch SE2 v3 40mm Starlight-Green Sport Loop",
-      "catalogueProductId": "globe-71672",
+      "storeProductId": "/categories/PS5-PLAYSTATION-5-SLIM-DISC-FORTNITE-1TB-PL4837",
+      "storeProductName": "PS5 PLAYSTATION 5 SLIM DISC FORTNITE 1TB",
+      "catalogueProductId": "globe-71588",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:28:12.408Z",
-      "updatedAt": "2026-04-30T16:28:12.408Z"
+      "createdAt": "2026-04-30T16:27:48.936Z",
+      "updatedAt": "2026-04-30T16:27:48.936Z"
     },
-    "foleja:/KST-200003613/Tablet-Samsung-Galaxy-Tab-Active5-Wi-Fi-8-128GB-6GB-Android-14-gjelber": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200003613/Tablet-Samsung-Galaxy-Tab-Active5-Wi-Fi-8-128GB-6GB-Android-14-gjelber",
-      "storeProductName": "Tablet Samsung Galaxy Tab Active5 Wi-Fi 8\" 128GB 6GB Android 14 gjelbër",
-      "catalogueProductId": "globe-71722",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:12.408Z",
-      "updatedAt": "2026-04-30T16:28:12.408Z"
-    },
-    "foleja:/KST-200027133/Rrip-stofi-Samsung-Galaxy-Watch-7-S-M-roze-bardhe": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200027133/Rrip-stofi-Samsung-Galaxy-Watch-7-S-M-roze-bardhe",
-      "storeProductName": "Rrip stofi Samsung Galaxy Watch 7 S/M, rozë/bardhë",
-      "catalogueProductId": "globe-71743",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:12.408Z",
-      "updatedAt": "2026-04-30T16:28:18.564Z"
-    },
-    "foleja:/KST-200017968/Smartwatch-Samsung-Galaxy-Fit3-AMOLED-0.256-GB-Silver": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200017968/Smartwatch-Samsung-Galaxy-Fit3-AMOLED-0.256-GB-Silver",
-      "storeProductName": "Smartwatch Samsung Galaxy Fit3, AMOLED, 0.256 GB, Silver",
-      "catalogueProductId": "globe-71727",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:12.408Z",
-      "updatedAt": "2026-04-30T16:28:12.408Z"
-    },
-    "neptun:/categories/SAMSUNG-GALAXY-FIT3-SILVER-SM0148": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/SAMSUNG-GALAXY-FIT3-SILVER-SM0148",
-      "storeProductName": "SAMSUNG GALAXY FIT3 SILVER",
-      "catalogueProductId": "globe-71727",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:12.408Z",
-      "updatedAt": "2026-04-30T16:28:12.408Z"
-    },
-    "foleja:/KST-200062902/Smartwatch-Samsung-Galaxy-Watch-6-R945-LTE-44mm-16GB-graphite": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200062902/Smartwatch-Samsung-Galaxy-Watch-6-R945-LTE-44mm-16GB-graphite",
-      "storeProductName": "Smartwatch Samsung Galaxy Watch 6 R945 LTE 44mm, 16GB, graphite",
-      "catalogueProductId": "globe-71739",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:18.564Z",
-      "updatedAt": "2026-04-30T16:28:18.564Z"
-    },
-    "foleja:/ACN-300110191/Kartele-memorje-SanDisk-SDSQQNR-512G-GN6IA-512-GB-MicroSDXC-Class-10-e-bardhe": {
-      "storeId": "foleja",
-      "storeProductId": "/ACN-300110191/Kartele-memorje-SanDisk-SDSQQNR-512G-GN6IA-512-GB-MicroSDXC-Class-10-e-bardhe",
-      "storeProductName": "Kartelë memorje SanDisk SDSQQNR-512G-GN6IA 512 GB MicroSDXC Class 10 e bardhë",
-      "catalogueProductId": "globe-71752",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:18.564Z",
-      "updatedAt": "2026-04-30T16:28:18.564Z"
-    },
-    "foleja:/KST-200065741/Kartele-memorie-ADATA-SDHC-32GB-UHS-I-Class-10": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200065741/Kartele-memorie-ADATA-SDHC-32GB-UHS-I-Class-10",
-      "storeProductName": "Kartelë memorie ADATA SDHC 32GB UHS-I Class 10",
-      "catalogueProductId": "globe-71753",
-      "matchMethod": "name_match",
-      "confidence": 75,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:18.564Z",
-      "updatedAt": "2026-04-30T16:28:18.564Z"
-    },
-    "foleja:/KST-200024934/Kartele-SDHC-Intenso-3411470-16-GB-Class-10-E-zeze": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200024934/Kartele-SDHC-Intenso-3411470-16-GB-Class-10-E-zeze",
-      "storeProductName": "Kartelë SDHC Intenso 3411470, 16 GB, Class 10, E zezë",
-      "catalogueProductId": "globe-71755",
-      "matchMethod": "name_match",
-      "confidence": 60,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:23.024Z",
-      "updatedAt": "2026-04-30T16:28:23.024Z"
-    },
-    "foleja:/KST-200043406/Kartele-memorie-Intenso-SDXC-UHS-I-64-GB-Class-10-90-MB-s-e-kalter": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200043406/Kartele-memorie-Intenso-SDXC-UHS-I-64-GB-Class-10-90-MB-s-e-kalter",
-      "storeProductName": "Kartelë memorie Intenso SDXC UHS-I 64 GB, Class 10, 90 MB/s, e kaltër",
-      "catalogueProductId": "globe-71756",
-      "matchMethod": "name_match",
-      "confidence": 60,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:23.024Z",
-      "updatedAt": "2026-04-30T16:28:23.024Z"
-    },
-    "foleja:/KST-200024976/Kartele-SDHC-Intenso-3411460-8-GB-Class-10-E-zeze": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200024976/Kartele-SDHC-Intenso-3411460-8-GB-Class-10-E-zeze",
-      "storeProductName": "Kartelë SDHC Intenso 3411460, 8 GB, Class 10, E zezë",
-      "catalogueProductId": "globe-71757",
-      "matchMethod": "name_match",
-      "confidence": 60,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:23.024Z",
-      "updatedAt": "2026-04-30T16:28:23.024Z"
-    },
-    "foleja:/KST-200031661/Printer-multifunksional-Canon-PIXMA-TS5150-ngjyre-e-zeze": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200031661/Printer-multifunksional-Canon-PIXMA-TS5150-ngjyre-e-zeze",
-      "storeProductName": "Printer multifunksional Canon PIXMA TS5150, ngjyrë e zezë",
-      "catalogueProductId": "globe-71763",
-      "matchMethod": "name_match",
-      "confidence": 60,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:23.024Z",
-      "updatedAt": "2026-04-30T16:28:23.024Z"
-    },
-    "foleja:/YLL-200013007/Printer-shumefunksional-HP-Smart-Tank-790-hiri": {
-      "storeId": "foleja",
-      "storeProductId": "/YLL-200013007/Printer-shumefunksional-HP-Smart-Tank-790-hiri",
-      "storeProductName": "Printer shumëfunksional HP, Smart Tank 790, hiri",
-      "catalogueProductId": "globe-71776",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:23.024Z",
-      "updatedAt": "2026-04-30T16:28:23.024Z"
-    },
-    "neptun:/categories/HP-AIO-670-,-Wireless-PI0526": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/HP-AIO-670-,-Wireless-PI0526",
-      "storeProductName": "PRINTER HP SMART TANK 670 AIO 6UU48A",
-      "catalogueProductId": "globe-71776",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:23.024Z",
-      "updatedAt": "2026-04-30T16:28:23.024Z"
-    },
-    "foleja:/ICO-200001170/Toner-HP-507A-CE403A-LaserJet-rendiment-5-500-8-800-faqe-magenta": {
-      "storeId": "foleja",
-      "storeProductId": "/ICO-200001170/Toner-HP-507A-CE403A-LaserJet-rendiment-5-500-8-800-faqe-magenta",
-      "storeProductName": "Toner HP 507A CE403A LaserJet rendiment 5,500–8,800 faqe magenta",
-      "catalogueProductId": "globe-71784",
-      "matchMethod": "name_match",
-      "confidence": 67,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-04-30T16:28:30.436Z"
-    },
-    "neptun:/categories/PRINTER-HP-LASERJET-M111A-PI0549": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/PRINTER-HP-LASERJET-M111A-PI0549",
-      "storeProductName": "PRINTER HP LASERJET M111A",
-      "catalogueProductId": "globe-71787",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-04-30T16:28:30.436Z"
-    },
-    "foleja:/ACN-300092365/Printer-HP-LaserJet-MFP-M140w-i-bardhe-e-zi": {
-      "storeId": "foleja",
-      "storeProductId": "/ACN-300092365/Printer-HP-LaserJet-MFP-M140w-i-bardhe-e-zi",
-      "storeProductName": "Printer HP LaserJet MFP M140w, i bardhë e zi",
-      "catalogueProductId": "globe-71797",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-04-30T16:28:30.436Z"
-    },
-    "neptun:/categories/PRINTER-HP-LASERJET--MFP-M141W-PI0550": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/PRINTER-HP-LASERJET--MFP-M141W-PI0550",
-      "storeProductName": "PRINTER HP LASERJET MFP M141W 7MD74A",
-      "catalogueProductId": "globe-71792",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-04-30T16:28:30.436Z"
-    },
-    "neptun:/categories/PRINTER-HP-LASERJET-MFP-M236d-PI0529": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/PRINTER-HP-LASERJET-MFP-M236d-PI0529",
-      "storeProductName": "PRINTER HP LASERJET MFP M236d",
-      "catalogueProductId": "globe-71793",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-04-30T16:28:30.436Z"
-    },
-    "foleja:/ACN-300021189/Printer-HP-LaserJet-Pro-M501-i-zi": {
-      "storeId": "foleja",
-      "storeProductId": "/ACN-300021189/Printer-HP-LaserJet-Pro-M501-i-zi",
-      "storeProductName": "Printer HP LaserJet Pro M501, i zi",
-      "catalogueProductId": "globe-71795",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-04-30T16:28:30.436Z"
-    },
-    "neptun:/categories/PRINTER-HP-M203DN": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/PRINTER-HP-M203DN",
-      "storeProductName": "PRINTER HP LASERJET PRO M203dn",
-      "catalogueProductId": "globe-71795",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-04-30T16:28:30.436Z"
-    },
-    "neptun:/categories/PRINTER-HP-LASERJET-MFP-M236SDW-PI0530": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/PRINTER-HP-LASERJET-MFP-M236SDW-PI0530",
-      "storeProductName": "PRINTER HP LASERJET MFP M236sdw",
-      "catalogueProductId": "globe-71797",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-04-30T16:28:30.436Z"
-    },
-    "foleja:/ACN-300025867/Toner-per-printer-Xerox-Activejet-ATX-C400BNXX-Laser-Printing-i-zi": {
-      "storeId": "foleja",
-      "storeProductId": "/ACN-300025867/Toner-per-printer-Xerox-Activejet-ATX-C400BNXX-Laser-Printing-i-zi",
-      "storeProductName": "Toner për printer Xerox Activejet ATX-C400BNXX, Laser Printing, i zi",
-      "catalogueProductId": "globe-71805",
-      "matchMethod": "name_match",
-      "confidence": 75,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-04-30T16:28:32.883Z"
-    },
-    "foleja:/ERG-200005572/Kompjuter-Apple-MacBook-Air-13-M5-16-512GB-Starlight": {
-      "storeId": "foleja",
-      "storeProductId": "/ERG-200005572/Kompjuter-Apple-MacBook-Air-13-M5-16-512GB-Starlight",
-      "storeProductName": "Kompjuter Apple MacBook Air 13\" M5 16/512GB Starlight",
-      "catalogueProductId": "globe-71821",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-04-30T16:28:32.883Z"
-    },
-    "shpresa:190602": {
-      "storeId": "shpresa",
-      "storeProductId": "190602",
-      "storeProductName": "Apple MacBook Air 13.6&#8243;, 16GB, 512GB SSD, M5 (2026)",
-      "catalogueProductId": "globe-71821",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-04-30T16:28:32.883Z"
-    },
-    "foleja:/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver": {
-      "storeId": "foleja",
-      "storeProductId": "/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
-      "storeProductName": "Laptop Apple MacBook Pro 16.2 Apple M4 Pro 24GB 512GB Silver",
-      "catalogueProductId": "globe-71822",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-04-30T16:28:32.883Z"
-    },
-    "shpresa:190526": {
-      "storeId": "shpresa",
-      "storeProductId": "190526",
-      "storeProductName": "Apple MacBook Pro 14.2&#8243;, 32GB, 1TB SSD, M5, 2026",
-      "catalogueProductId": "globe-71822",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-04-30T16:28:32.883Z"
-    },
-    "neptun:/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
-      "storeProductName": "ADAPTOR APPLE USB-C 96W MacBook Pro 16\" mw2l3zm/a",
-      "catalogueProductId": "globe-71822",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-04-30T16:28:32.883Z"
-    },
-    "globe:72472": {
+    "globe:72228": {
       "storeId": "globe",
-      "storeProductId": "72472",
-      "storeProductName": "Frigorifer I kombinuar Hisense RB372N4AC2",
-      "catalogueProductId": "globe-72472",
+      "storeProductId": "72228",
+      "storeProductName": "Rubinet Keto FA Gold",
+      "catalogueProductId": "globe-72228",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72473": {
+    "globe:72229": {
       "storeId": "globe",
-      "storeProductId": "72473",
-      "storeProductName": "Frigorifer I kombinuar Hisense RB390N4BW20",
-      "catalogueProductId": "globe-72473",
+      "storeProductId": "72229",
+      "storeProductName": "Rubinet COSMO FA CROMA",
+      "catalogueProductId": "globe-72229",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72474": {
+    "globe:72230": {
       "storeId": "globe",
-      "storeProductId": "72474",
-      "storeProductName": "Frigorifer I kombinuar Hisense RT267D4AWE",
-      "catalogueProductId": "globe-72474",
+      "storeProductId": "72230",
+      "storeProductName": "Rubinet COSMO FA ALPINA",
+      "catalogueProductId": "globe-72230",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72477": {
+    "globe:72231": {
       "storeId": "globe",
-      "storeProductId": "72477",
-      "storeProductName": "Frigorifer banak Hisense FC184D4AWLYE",
-      "catalogueProductId": "globe-72477",
+      "storeProductId": "72231",
+      "storeProductName": "Rubinet COSMO FA NERO",
+      "catalogueProductId": "globe-72231",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72478": {
+    "globe:72232": {
       "storeId": "globe",
-      "storeProductId": "72478",
-      "storeProductName": "Frigorifer banak Hisense FC247D4AWLE",
-      "catalogueProductId": "globe-72478",
+      "storeProductId": "72232",
+      "storeProductName": "Rubinet Cosmo SA Croma 121",
+      "catalogueProductId": "globe-72232",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72479": {
+    "globe:72233": {
       "storeId": "globe",
-      "storeProductId": "72479",
-      "storeProductName": "Frigorifer banak Hisense FC321D4AWLE",
-      "catalogueProductId": "globe-72479",
+      "storeProductId": "72233",
+      "storeProductName": "Rubinet Cosmo SA Alpina 121",
+      "catalogueProductId": "globe-72233",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72481": {
+    "globe:72234": {
       "storeId": "globe",
-      "storeProductId": "72481",
-      "storeProductName": "Frigorifer banak Hisense FC386D4AWLYE",
-      "catalogueProductId": "globe-72481",
+      "storeProductId": "72234",
+      "storeProductName": "Rubinet Cosmo SA Croma",
+      "catalogueProductId": "globe-72234",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72483": {
+    "globe:72235": {
       "storeId": "globe",
-      "storeProductId": "72483",
-      "storeProductName": "Frigorifer I kombinuar Hisense RB388N4AC10UK",
-      "catalogueProductId": "globe-72483",
+      "storeProductId": "72235",
+      "storeProductName": "Rubinet Cosmo SA Alpina",
+      "catalogueProductId": "globe-72235",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72484": {
+    "globe:72236": {
       "storeId": "globe",
-      "storeProductId": "72484",
-      "storeProductName": "Frigorifer I kombinuar Hisense RB388N4BC10UK",
-      "catalogueProductId": "globe-72484",
+      "storeProductId": "72236",
+      "storeProductName": "Rubinet COSMO SA NERO",
+      "catalogueProductId": "globe-72236",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72485": {
+    "globe:72237": {
       "storeId": "globe",
-      "storeProductId": "72485",
-      "storeProductName": "Frigorifer I kombinuar Hisense RB388N4BW10UK",
-      "catalogueProductId": "globe-72485",
+      "storeProductId": "72237",
+      "storeProductName": "Rubinet CONOS PRO",
+      "catalogueProductId": "globe-72237",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72486": {
+    "globe:72238": {
       "storeId": "globe",
-      "storeProductId": "72486",
-      "storeProductName": "Frigorifer I kombinuar Hisense RB390N4WCE",
-      "catalogueProductId": "globe-72486",
+      "storeProductId": "72238",
+      "storeProductName": "Rubinet Prima Inox",
+      "catalogueProductId": "globe-72238",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "globe:72487": {
+    "globe:72239": {
       "storeId": "globe",
-      "storeProductId": "72487",
-      "storeProductName": "Frigorifer Hisense RB395N4WCE",
-      "catalogueProductId": "globe-72487",
+      "storeProductId": "72239",
+      "storeProductName": "Rubinet Prima Nero",
+      "catalogueProductId": "globe-72239",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:13.983Z",
-      "updatedAt": "2026-04-30T16:30:13.983Z"
+      "createdAt": "2026-04-30T16:29:23.082Z",
+      "updatedAt": "2026-04-30T16:29:23.082Z"
     },
-    "foleja:/THM-200002699/Frigorifer-side-by-side-Samsung-SBS-RS70F64KETEO-635-L-dispenser-uje-dhe-akull-Wi-Fi-SmartThings-AI-Energy-klase-E-e-zeze-matte-metal": {
+    "neptun:/categories/LAVATRICE-SAMSUNG-WW80CGC0EDTELE-LV1312": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LAVATRICE-SAMSUNG-WW80CGC0EDTELE-LV1312",
+      "storeProductName": "LAVATRICE SAMSUNG WW80CGC0EDTELE",
+      "catalogueProductId": "globe-72828",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "globe:72828": {
+      "storeId": "globe",
+      "storeProductId": "72828",
+      "storeProductName": "Lavatrice Samsung WW80CGC0EDTELE",
+      "catalogueProductId": "globe-72828",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "neptun:/categories/LAVATRICE-SAMSUNG-WW80T4020EE1LE-LV1104": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LAVATRICE-SAMSUNG-WW80T4020EE1LE-LV1104",
+      "storeProductName": "LAVATRICE SAMSUNG WW80T4020EE1LE",
+      "catalogueProductId": "globe-72829",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "globe:72829": {
+      "storeId": "globe",
+      "storeProductId": "72829",
+      "storeProductName": "Lavatrice Samsung WW80T4020EE1LE",
+      "catalogueProductId": "globe-72829",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "neptun:/categories/LAVATRICE-SAMSUNG-WW90CGC04DAELE-LV1425": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LAVATRICE-SAMSUNG-WW90CGC04DAELE-LV1425",
+      "storeProductName": "LAVATRICE SAMSUNG WW90CGC04DAELE",
+      "catalogueProductId": "globe-72831",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "globe:72831": {
+      "storeId": "globe",
+      "storeProductId": "72831",
+      "storeProductName": "Lavatrice Samsung WW90CGC04DAELE",
+      "catalogueProductId": "globe-72831",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "neptun:/categories/LAVATRICE-SAMSUNG-WW90DB7U94GEU4-LV1388": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LAVATRICE-SAMSUNG-WW90DB7U94GEU4-LV1388",
+      "storeProductName": "LAVATRICE SAMSUNG WW90DB7U94GEU4",
+      "catalogueProductId": "globe-72832",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "globe:72832": {
+      "storeId": "globe",
+      "storeProductId": "72832",
+      "storeProductName": "Lavatrice Samsung WW90DB7U94GEU4",
+      "catalogueProductId": "globe-72832",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "globe:72837": {
+      "storeId": "globe",
+      "storeProductId": "72837",
+      "storeProductName": "Lavatrice Samsung WW90T854DBT/S7",
+      "catalogueProductId": "globe-72837",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "foleja:/THM-200003711/Makine-larese-Whirlpool-W6X-W845WB-EE-8kg-1400rpm-klasa-B-e-bardhe": {
       "storeId": "foleja",
-      "storeProductId": "/THM-200002699/Frigorifer-side-by-side-Samsung-SBS-RS70F64KETEO-635-L-dispenser-uje-dhe-akull-Wi-Fi-SmartThings-AI-Energy-klase-E-e-zeze-matte-metal",
-      "storeProductName": "Frigorifer side-by-side Samsung SBS RS70F64KETEO 635 L, dispenser ujë dhe akull, Wi‑Fi SmartThings, AI Energy, klasë E, e zezë matte metal",
-      "catalogueProductId": "globe-72595",
-      "matchMethod": "name_match",
-      "confidence": 75,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:29.346Z",
-      "updatedAt": "2026-04-30T16:30:29.346Z"
-    },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-RS70F64KEFEO-FG1581": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RS70F64KEFEO-FG1581",
-      "storeProductName": "FRIGORIFER SAMSUNG RS70F64KEFEO",
-      "catalogueProductId": "globe-72595",
+      "storeProductId": "/THM-200003711/Makine-larese-Whirlpool-W6X-W845WB-EE-8kg-1400rpm-klasa-B-e-bardhe",
+      "storeProductName": "Makinë larëse Whirlpool W6X W845WB EE 8kg 1400rpm klasa B, e bardhë",
+      "catalogueProductId": "globe-72843",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:29.346Z",
-      "updatedAt": "2026-04-30T16:30:29.346Z"
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
     },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-RS90F66BEFEO-FG1569": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RS90F66BEFEO-FG1569",
-      "storeProductName": "FRIGORIFER SAMSUNG RS90F66BEFEO",
-      "catalogueProductId": "globe-72597",
+    "globe:72843": {
+      "storeId": "globe",
+      "storeProductId": "72843",
+      "storeProductName": "Lavatrice Whirlpool W6X W845WB EE",
+      "catalogueProductId": "globe-72843",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:29.346Z",
-      "updatedAt": "2026-04-30T16:30:29.346Z"
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
     },
-    "foleja:/THM-200002674/Frigorifer-i-kombinuar-Samsung-RB34C602ES9-EK-344L-No-Frost-Wi-Fi-Klasa-energjise-E-Inoks": {
+    "globe:72845": {
+      "storeId": "globe",
+      "storeProductId": "72845",
+      "storeProductName": "Inverter Outdoor Gree Tokesor 09 Btu GEH09AA-K6DNA1F/O",
+      "catalogueProductId": "globe-72845",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "globe:72846": {
+      "storeId": "globe",
+      "storeProductId": "72846",
+      "storeProductName": "Inverter Outdoor Gree Free Match R32 18 BTU GWHD(18)NK6OO",
+      "catalogueProductId": "globe-72846",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "globe:72847": {
+      "storeId": "globe",
+      "storeProductId": "72847",
+      "storeProductName": "Inverter Outdoor Gree Free Match R32 21 BTU GWHD(21)NK6OO",
+      "catalogueProductId": "globe-72847",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "globe:72848": {
+      "storeId": "globe",
+      "storeProductId": "72848",
+      "storeProductName": "Inverter Outdoor Gree Free Match R32 24 BTU GWHD(24)NK6OO",
+      "catalogueProductId": "globe-72848",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "globe:72849": {
+      "storeId": "globe",
+      "storeProductId": "72849",
+      "storeProductName": "Inverter Outdoor Gree Free Match R32 28 BTU GWHD(28)NK6OO",
+      "catalogueProductId": "globe-72849",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "globe:72850": {
+      "storeId": "globe",
+      "storeProductId": "72850",
+      "storeProductName": "Inverter Outdoor Gree Free Match R32 36 BTU GWHD(36)NK6OO",
+      "catalogueProductId": "globe-72850",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:07.268Z",
+      "updatedAt": "2026-04-30T16:31:07.268Z"
+    },
+    "neptun:/categories/ASPIRATOR-SAMSUNG-NK24C7070WB-UR-AS0532": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/ASPIRATOR-SAMSUNG-NK24C7070WB-UR-AS0532",
+      "storeProductName": "ASPIRATOR SAMSUNG NK24C7070WB/UR",
+      "catalogueProductId": "globe-72888",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:31:14.634Z",
+      "updatedAt": "2026-04-30T16:31:14.634Z"
+    },
+    "foleja:/THM-200004194/Tharese-rrobash-Samsung-DV90DG52A0AELE-9-kg-A-me-pompe-nxehtesie-WiFi-SmartThings-e-bardhe": {
       "storeId": "foleja",
-      "storeProductId": "/THM-200002674/Frigorifer-i-kombinuar-Samsung-RB34C602ES9-EK-344L-No-Frost-Wi-Fi-Klasa-energjise-E-Inoks",
-      "storeProductName": "Frigorifer i kombinuar Samsung RB34C602ES9/EK, 344L, No Frost, Wi‑Fi, Klasa energjisë E, Inoks",
-      "catalogueProductId": "globe-72613",
+      "storeProductId": "/THM-200004194/Tharese-rrobash-Samsung-DV90DG52A0AELE-9-kg-A-me-pompe-nxehtesie-WiFi-SmartThings-e-bardhe",
+      "storeProductName": "Tharëse rrobash Samsung DV90DG52A0AELE 9 kg A+++ me pompë nxehtësie, WiFi SmartThings, e bardhë",
+      "catalogueProductId": "globe-72952",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:31.762Z",
-      "updatedAt": "2026-04-30T16:30:31.762Z"
+      "createdAt": "2026-04-30T16:31:20.198Z",
+      "updatedAt": "2026-04-30T16:31:20.198Z"
     },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-RB34C602ES9-EK-FG1470": {
+    "neptun:/categories/THARESE-RROBASH-SAMSUNG-DV90DG52A0AELE-LV1428": {
       "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RB34C602ES9-EK-FG1470",
-      "storeProductName": "FRIGORIFER SAMSUNG RB34C602ES9/EK",
-      "catalogueProductId": "globe-72613",
+      "storeProductId": "/categories/THARESE-RROBASH-SAMSUNG-DV90DG52A0AELE-LV1428",
+      "storeProductName": "THARESE RROBASH SAMSUNG DV90DG52A0AELE",
+      "catalogueProductId": "globe-72952",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:31.762Z",
-      "updatedAt": "2026-04-30T16:30:31.762Z"
+      "createdAt": "2026-04-30T16:31:20.198Z",
+      "updatedAt": "2026-04-30T16:31:20.198Z"
     },
-    "foleja:/THM-200002675/Frigorifer-kombine-Samsung-RB34C652EB1-EK-SpaceMax-All-Around-Cooling-dozues-uji-ekran-digjital-i-zi": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002675/Frigorifer-kombine-Samsung-RB34C652EB1-EK-SpaceMax-All-Around-Cooling-dozues-uji-ekran-digjital-i-zi",
-      "storeProductName": "Frigorifer kombinë, Samsung RB34C652EB1/EK, SpaceMax, All‑Around Cooling, dozues uji, ekran digjital, i zi",
-      "catalogueProductId": "globe-72615",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:31.762Z",
-      "updatedAt": "2026-04-30T16:30:31.762Z"
-    },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-RB34C652EB1-EK-FG1444": {
+    "neptun:/categories/THARESE-RROBASH-SAMSUNG-DV90F09F4SU4-LV1478": {
       "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RB34C652EB1-EK-FG1444",
-      "storeProductName": "FRIGORIFER SAMSUNG RB34C652EB1/EK",
-      "catalogueProductId": "globe-72615",
+      "storeProductId": "/categories/THARESE-RROBASH-SAMSUNG-DV90F09F4SU4-LV1478",
+      "storeProductName": "THARESE RROBASH SAMSUNG DV90F09F4SU4",
+      "catalogueProductId": "globe-72953",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:31.762Z",
-      "updatedAt": "2026-04-30T16:30:31.762Z"
+      "createdAt": "2026-04-30T16:31:20.198Z",
+      "updatedAt": "2026-04-30T16:31:20.198Z"
     },
-    "foleja:/THM-200002677/Frigorifer-kombine-Samsung-RB34C652ESA-EK-385L-SpaceMax-ftohje-e-njetrajtshme-shperndares-uji-Metal-Graphite": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002677/Frigorifer-kombine-Samsung-RB34C652ESA-EK-385L-SpaceMax-ftohje-e-njetrajtshme-shperndares-uji-Metal-Graphite",
-      "storeProductName": "Frigorifer kombinë Samsung RB34C652ESA/EK 385L SpaceMax, ftohje e njëtrajtshme, shpërndarës uji, Metal Graphite",
-      "catalogueProductId": "globe-72616",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:31.762Z",
-      "updatedAt": "2026-04-30T16:30:31.762Z"
-    },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-RB34C652ESA-EK-FG1435": {
+    "neptun:/categories/ASPIRATOR-ELECTROLUX-LFG716X-AS0516": {
       "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RB34C652ESA-EK-FG1435",
-      "storeProductName": "FRIGORIFER SAMSUNG RB34C652ESA/EK",
-      "catalogueProductId": "globe-72616",
+      "storeProductId": "/categories/ASPIRATOR-ELECTROLUX-LFG716X-AS0516",
+      "storeProductName": "ASPIRATOR ELECTROLUX LFG716X",
+      "catalogueProductId": "globe-72983",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
-      "createdAt": "2026-04-30T16:30:31.762Z",
-      "updatedAt": "2026-04-30T16:30:31.762Z"
-    },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-RB34C672ES9-EK-FG1469": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RB34C672ES9-EK-FG1469",
-      "storeProductName": "FRIGORIFER SAMSUNG RB34C672ES9/EK",
-      "catalogueProductId": "globe-72617",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:31.762Z",
-      "updatedAt": "2026-04-30T16:30:31.762Z"
-    },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-RB34C672EWW-EK-FG1512": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RB34C672EWW-EK-FG1512",
-      "storeProductName": "FRIGORIFER SAMSUNG RB34C672EWW/EK",
-      "catalogueProductId": "globe-72618",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:31.762Z",
-      "updatedAt": "2026-04-30T16:30:31.762Z"
-    },
-    "foleja:/THM-200002680/Frigorifer-kombine-Samsung-RB34C7B5DS9-EF-BESPOKE-modul-i-rregullueshem-600-mm-thellesi-standard-Inox": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002680/Frigorifer-kombine-Samsung-RB34C7B5DS9-EF-BESPOKE-modul-i-rregullueshem-600-mm-thellesi-standard-Inox",
-      "storeProductName": "Frigorifer kombinë Samsung RB34C7B5DS9/EF BESPOKE, modul i rregullueshëm, 600 mm thellësi standard, Inox",
-      "catalogueProductId": "globe-72619",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:31.762Z",
-      "updatedAt": "2026-04-30T16:30:31.762Z"
-    },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-RB34C7B5DS9-EF-FG1408": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RB34C7B5DS9-EF-FG1408",
-      "storeProductName": "FRIGORIFER SAMSUNG RB34C7B5DS9/EF",
-      "catalogueProductId": "globe-72619",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:31.762Z",
-      "updatedAt": "2026-04-30T16:30:31.762Z"
-    },
-    "foleja:/THM-200002681/Frigorifer-i-kombinuar-Samsung-RB34C7B5E12-EF-390L-BESPOKE-klasa-energjike-E-Clean-White": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002681/Frigorifer-i-kombinuar-Samsung-RB34C7B5E12-EF-390L-BESPOKE-klasa-energjike-E-Clean-White",
-      "storeProductName": "Frigorifer i kombinuar Samsung RB34C7B5E12/EF 390L BESPOKE klasa energjike E Clean White",
-      "catalogueProductId": "globe-72620",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:40.327Z",
-      "updatedAt": "2026-04-30T16:30:40.327Z"
-    },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-RB34C7B5E22-EF-FG1455": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RB34C7B5E22-EF-FG1455",
-      "storeProductName": "FRIGORIFER SAMSUNG RB34C7B5E22/EF",
-      "catalogueProductId": "globe-72621",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:40.327Z",
-      "updatedAt": "2026-04-30T16:30:40.327Z"
-    },
-    "foleja:/THM-200002692/Frigorifer-kombine-Samsung-RB50DG602EB1EO-508-L-192-76-cm-AI-Energy-Mode-SpaceMax-i-zi": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002692/Frigorifer-kombine-Samsung-RB50DG602EB1EO-508-L-192-76-cm-AI-Energy-Mode-SpaceMax-i-zi",
-      "storeProductName": "Frigorifer kombinë, Samsung RB50DG602EB1EO, 508 L, 192/76 cm, AI Energy Mode, SpaceMax, i zi",
-      "catalogueProductId": "globe-72640",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:40.327Z",
-      "updatedAt": "2026-04-30T16:30:40.327Z"
-    },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-RB50DG602EB1EO-FG1611": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RB50DG602EB1EO-FG1611",
-      "storeProductName": "FRIGORIFER SAMSUNG RB50DG602EB1EO",
-      "catalogueProductId": "globe-72640",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:40.327Z",
-      "updatedAt": "2026-04-30T16:30:40.327Z"
-    },
-    "foleja:/THM-200002693/Frigorifer-kombinim-Samsung-RB50DG602ES9EO-508-L-No-Frost-Wi-Fi-192-76-cm-inox-i-rafinuar": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002693/Frigorifer-kombinim-Samsung-RB50DG602ES9EO-508-L-No-Frost-Wi-Fi-192-76-cm-inox-i-rafinuar",
-      "storeProductName": "Frigorifer kombinim Samsung RB50DG602ES9EO 508 L No Frost Wi‑Fi 192/76 cm inox i rafinuar",
-      "catalogueProductId": "globe-72641",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:40.327Z",
-      "updatedAt": "2026-04-30T16:30:40.327Z"
-    },
-    "neptun:/categories/FRIGORIFER-SAMSUNG-BMF-RB50DG602ES9EO-FG1605": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/FRIGORIFER-SAMSUNG-BMF-RB50DG602ES9EO-FG1605",
-      "storeProductName": "FRIGORIFER SAMSUNG BMF RB50DG602ES9EO",
-      "catalogueProductId": "globe-72641",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:40.327Z",
-      "updatedAt": "2026-04-30T16:30:40.327Z"
-    },
-    "neptun:/categories/LAVATRICE-ELECTROLUX-EW6F1481E-LV1376": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAVATRICE-ELECTROLUX-EW6F1481E-LV1376",
-      "storeProductName": "LAVATRICE ELECTROLUX EW6F1481E",
-      "catalogueProductId": "globe-72755",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:54.359Z",
-      "updatedAt": "2026-04-30T16:30:54.359Z"
-    },
-    "neptun:/categories/LAVATRICE-ELECTROLUX-EW6F2412E-LV1378": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAVATRICE-ELECTROLUX-EW6F2412E-LV1378",
-      "storeProductName": "LAVATRICE ELECTROLUX EW6F2412E",
-      "catalogueProductId": "globe-72758",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:54.359Z",
-      "updatedAt": "2026-04-30T16:30:54.359Z"
-    },
-    "neptun:/categories/LAVATRICE-SAMSUNG-WF90F09C4SU4-LV1424": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAVATRICE-SAMSUNG-WF90F09C4SU4-LV1424",
-      "storeProductName": "LAVATRICE SAMSUNG WF90F09C4SU4",
-      "catalogueProductId": "globe-72819",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:57.126Z",
-      "updatedAt": "2026-04-30T16:30:57.126Z"
-    },
-    "foleja:/THM-200002778/Lavatrice-Samsung-WW11DB7B9EGBU4-11-kg-1400-rpm-klase-energjie-A-Wi-Fi-AI-Control-e-zeze": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002778/Lavatrice-Samsung-WW11DB7B9EGBU4-11-kg-1400-rpm-klase-energjie-A-Wi-Fi-AI-Control-e-zeze",
-      "storeProductName": "Lavatrice Samsung WW11DB7B9EGBU4 11 kg 1400 rpm klasë energjie A Wi‑Fi AI Control e zezë",
-      "catalogueProductId": "globe-72824",
-      "matchMethod": "name_match",
-      "confidence": 67,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:57.126Z",
-      "updatedAt": "2026-04-30T16:30:57.126Z"
-    },
-    "neptun:/categories/LAVATRICE-SAMSUNG-WW11DB7B94GEU4-LV1429": {
-      "storeId": "neptun",
-      "storeProductId": "/categories/LAVATRICE-SAMSUNG-WW11DB7B94GEU4-LV1429",
-      "storeProductName": "LAVATRICE SAMSUNG WW11DB7B94GEU4",
-      "catalogueProductId": "globe-72824",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:57.126Z",
-      "updatedAt": "2026-04-30T16:30:57.126Z"
-    },
-    "foleja:/THM-200002782/Lavatrice-Samsung-WW11DG6B25LEU4-11-kg-AI-SmartThings-EcoBubble-klasa-energjetike-A-10-e-bardhe": {
-      "storeId": "foleja",
-      "storeProductId": "/THM-200002782/Lavatrice-Samsung-WW11DG6B25LEU4-11-kg-AI-SmartThings-EcoBubble-klasa-energjetike-A-10-e-bardhe",
-      "storeProductName": "Lavatriçe Samsung WW11DG6B25LEU4 11 kg AI SmartThings EcoBubble klasa energjetike A-10% e bardhë",
-      "catalogueProductId": "globe-72825",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-04-30T16:30:57.126Z",
-      "updatedAt": "2026-04-30T16:30:57.126Z"
+      "createdAt": "2026-04-30T16:31:22.718Z",
+      "updatedAt": "2026-04-30T16:31:22.718Z"
     }
   }
 }
