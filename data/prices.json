@@ -1,458 +1,428 @@
 {
-  "shpresa-lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-512gb-ssd-core-i7-2": {
+  "shpresa-apple-macbook-air-15-3-24gb-512gb-ssd-m4-2025": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 122400,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200005572/Kompjuter-Apple-MacBook-Air-13-M5-16-512GB-Starlight",
+        "lastChecked": "2026-04-30T15:58:18.436Z",
+        "matchedName": "Kompjuter Apple MacBook Air 13\" M5 16/512GB Starlight",
+        "storeProductId": "/ERG-200005572/Kompjuter-Apple-MacBook-Air-13-M5-16-512GB-Starlight",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-macbook-air-15-3-24gb-512gb-ssd-m4-2025/?attribute_pa_color=silver",
+        "lastChecked": "2026-04-30T15:58:16.860Z",
+        "matchedName": "Apple MacBook Air 15.3&#8243;, 24GB, 512GB SSD, M4 (2025)",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MacBook-Air-15-3''-M4-Starlight-256gb-mw1j3ze-a-LP2002",
+        "lastChecked": "2026-04-30T15:58:16.860Z",
+        "matchedName": "MacBook Air 15.3'' M4 Starlight 256gb mw1j3ze/a",
+        "storeProductId": "/categories/MacBook-Air-15-3''-M4-Starlight-256gb-mw1j3ze-a-LP2002",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.888Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.969Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T15:58:18.451Z"
+  },
+  "shpresa-apple-imac-24-4-5k-16gb-512gb-ssd-m4-10-core-gpu": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200014425/Kompjuter-Apple-iMac-23.5-Retina-4.5K-Apple-M-16GB-RAM-256GB-blu",
+        "lastChecked": "2026-04-30T15:58:18.447Z",
+        "matchedName": "Kompjuter Apple iMac 23.5\" Retina 4.5K, Apple M, 16GB RAM, 256GB, blu",
+        "storeProductId": "/KST-200014425/Kompjuter-Apple-iMac-23.5-Retina-4.5K-Apple-M-16GB-RAM-256GB-blu",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-imac-24-4-5k-16gb-512gb-ssd-m4-10-core-gpu/",
+        "lastChecked": "2026-04-30T15:58:16.863Z",
+        "matchedName": "Apple iMac 24&#8243; 4.5K, 16GB, 512GB SSD, M4, 10-Core GPU",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:17.032Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.890Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.971Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T15:58:18.467Z"
+  },
+  "shpresa-apple-macbook-air-15-3-16gb-256gb-ssd-m4-2025": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200005572/Kompjuter-Apple-MacBook-Air-13-M5-16-512GB-Starlight",
+        "lastChecked": "2026-04-30T15:58:18.469Z",
+        "matchedName": "Kompjuter Apple MacBook Air 13\" M5 16/512GB Starlight",
+        "storeProductId": "/ERG-200005572/Kompjuter-Apple-MacBook-Air-13-M5-16-512GB-Starlight",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-macbook-air-15-3-16gb-256gb-ssd-m4-2025/",
+        "lastChecked": "2026-04-30T15:58:16.848Z",
+        "matchedName": "Apple MacBook Air 15.3&#8243;, 16GB, 256GB SSD, M4 (2025)",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MacBook-Air-15-3''-M4-Starlight-256gb-mw1j3ze-a-LP2002",
+        "lastChecked": "2026-04-30T15:58:16.848Z",
+        "matchedName": "MacBook Air 15.3'' M4 Starlight 256gb mw1j3ze/a",
+        "storeProductId": "/categories/MacBook-Air-15-3''-M4-Starlight-256gb-mw1j3ze-a-LP2002",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.885Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.966Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T15:58:18.473Z"
+  },
+  "shpresa-apple-imac-24-4-5k-24gb-512gb-ssd-m4-10-core-gpu": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200014425/Kompjuter-Apple-iMac-23.5-Retina-4.5K-Apple-M-16GB-RAM-256GB-blu",
+        "lastChecked": "2026-04-30T15:58:18.453Z",
+        "matchedName": "Kompjuter Apple iMac 23.5\" Retina 4.5K, Apple M, 16GB RAM, 256GB, blu",
+        "storeProductId": "/KST-200014425/Kompjuter-Apple-iMac-23.5-Retina-4.5K-Apple-M-16GB-RAM-256GB-blu",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-imac-24-4-5k-24gb-512gb-ssd-m4-10-core-gpu/",
+        "lastChecked": "2026-04-30T15:58:16.867Z",
+        "matchedName": "Apple iMac 24&#8243; 4.5K, 24GB, 512GB SSD, M4, 10-Core GPU",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:17.041Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.889Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.976Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T15:58:18.507Z"
+  },
+  "shpresa-apple-macbook-pro-14-24gb-1tb-ssd-m4-2024": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+        "lastChecked": "2026-04-30T15:58:18.495Z",
+        "matchedName": "Laptop Apple MacBook Pro 16.2 Apple M4 Pro 24GB 512GB Silver",
+        "storeProductId": "/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-macbook-pro-14-24gb-1tb-ssd-m4-2024/",
+        "lastChecked": "2026-04-30T15:58:16.874Z",
+        "matchedName": "Apple MacBook Pro 14&#8243;, 24GB, 1TB SSD, M4, 2024",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
+        "lastChecked": "2026-04-30T15:58:16.874Z",
+        "matchedName": "ADAPTOR APPLE USB-C 96W MacBook Pro 16\" mw2l3zm/a",
+        "storeProductId": "/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.890Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:17.016Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T15:58:18.508Z"
+  },
+  "shpresa-apple-macbook-pro-14-24gb-1tb-ssd-m4-pro-2024": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+        "lastChecked": "2026-04-30T15:58:18.511Z",
+        "matchedName": "Laptop Apple MacBook Pro 16.2 Apple M4 Pro 24GB 512GB Silver",
+        "storeProductId": "/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-macbook-pro-14-24gb-1tb-ssd-m4-pro-2024/",
+        "lastChecked": "2026-04-30T15:58:16.880Z",
+        "matchedName": "Apple MacBook Pro 14&#8243;, 24GB, 1TB SSD, M4 Pro, 2024",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
+        "lastChecked": "2026-04-30T15:58:16.880Z",
+        "matchedName": "ADAPTOR APPLE USB-C 96W MacBook Pro 16\" mw2l3zm/a",
+        "storeProductId": "/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.894Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.957Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T15:58:18.512Z"
+  },
+  "shpresa-apple-macbook-pro-14-36gb-1tb-ssd-m4-max-2024": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+        "lastChecked": "2026-04-30T15:58:18.506Z",
+        "matchedName": "Laptop Apple MacBook Pro 16.2 Apple M4 Pro 24GB 512GB Silver",
+        "storeProductId": "/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-macbook-pro-14-36gb-1tb-ssd-m4-max-2024/",
+        "lastChecked": "2026-04-30T15:58:16.877Z",
+        "matchedName": "Apple MacBook Pro 14&#8243;, 36GB, 1TB SSD, M4 MAX, 2024",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
+        "lastChecked": "2026-04-30T15:58:16.877Z",
+        "matchedName": "ADAPTOR APPLE USB-C 96W MacBook Pro 16\" mw2l3zm/a",
+        "storeProductId": "/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.896Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:16.988Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T15:58:22.004Z"
+  },
+  "shpresa-lenovo-loq-gaming-15-6-16gb-512gb-ssd-ryzen-7-3": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 215942,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "lastChecked": "2026-04-30T15:57:43.881Z",
-        "matchedName": "Kompjuter AIO Lenovo IdeaCentre AIO 24IRH9, 24\", Intel Core i5, 16GB RAM, 1TB SSD",
-        "storeProductId": "/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "matchConfidence": 100
+        "productUrl": "https://www.foleja.al/KST-200065965/Kompjuter-Lenovo-LOQ-17IRX10-Core-i7-14700HX-16GB-1TB-SSD-RTX5070-17-inc-gri",
+        "lastChecked": "2026-04-30T15:58:22.420Z",
+        "matchedName": "Kompjuter Lenovo LOQ 17IRX10, Core i7-14700HX, 16GB/1TB SSD, RTX5070, 17 inç, gri",
+        "storeProductId": "/KST-200065965/Kompjuter-Lenovo-LOQ-17IRX10-Core-i7-14700HX-16GB-1TB-SSD-RTX5070-17-inc-gri",
+        "matchConfidence": 67
       },
       {
         "storeId": "shpresa",
         "price": 99990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-ryzen-7/",
-        "lastChecked": "2026-04-30T15:57:43.391Z",
-        "matchedName": "Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7",
-        "storeProductId": "170865",
-        "matchConfidence": 100
+        "productUrl": "https://shpresa.al/product/lenovo-loq-gaming-15-6-16gb-512gb-ssd-ryzen-7-3/",
+        "lastChecked": "2026-04-30T15:58:22.035Z",
+        "matchedName": "Lenovo LOQ Gaming 15.6&#8243;, 16GB, 512GB SSD, Ryzen™ 7"
       },
       {
         "storeId": "neptun",
-        "price": 99997,
+        "price": 144990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-LENOVO-AIO-IDEACENTRE-3-27ITL6-PC1529",
-        "lastChecked": "2026-04-30T15:57:43.393Z",
-        "matchedName": "PC AIO LENOVO IDEACENTRE 27ITL6",
-        "storeProductId": "/categories/PC-LENOVO-AIO-IDEACENTRE-3-27ITL6-PC1529",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:43.505Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:43.566Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:45.443Z"
-  },
-  "shpresa-xiaomi-14-ultra": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/HRT-200012553/Folje-mbrojtese-3mk-SilverProtection-per-Xiaomi-14-Ultra-Transparent",
-        "lastChecked": "2026-04-30T15:57:46.570Z",
-        "matchedName": "Folje mbrojtëse 3mk SilverProtection+ për Xiaomi 14 Ultra, Transparent",
-        "storeProductId": "/HRT-200012553/Folje-mbrojtese-3mk-SilverProtection-per-Xiaomi-14-Ultra-Transparent",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 84990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-14-ultra/",
-        "lastChecked": "2026-04-30T15:57:45.455Z",
-        "matchedName": "Xiaomi 14 Ultra"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.654Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.487Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.576Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:46.571Z"
-  },
-  "shpresa-xiaomi-poco-f7-pro": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/HRT-200023334/Xham-i-temperuar-3mk-HardGlass-per-Xiaomi-Poco-F7-Pro-Xiaomi-Poco-F7-Ultra",
-        "lastChecked": "2026-04-30T15:57:46.578Z",
-        "matchedName": "Xham i temperuar 3mk HardGlass për Xiaomi Poco F7 Pro / Xiaomi Poco F7 Ultra",
-        "storeProductId": "/HRT-200023334/Xham-i-temperuar-3mk-HardGlass-per-Xiaomi-Poco-F7-Pro-Xiaomi-Poco-F7-Ultra",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 39990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-poco-f7-pro/?attribute_pa_color=black",
-        "lastChecked": "2026-04-30T15:57:45.472Z",
-        "matchedName": "Xiaomi Poco F7 Pro"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.705Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.490Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.596Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:46.622Z"
-  },
-  "shpresa-intel-core-i3-14100f-cpu-box": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:46.760Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 12990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/intel-core-i3-14100f-cpu-box/",
-        "lastChecked": "2026-04-30T15:57:45.467Z",
-        "matchedName": "Intel® Core™ i3-14100F CPU Box"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.703Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.488Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.592Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:46.760Z"
-  },
-  "shpresa-xiaomi-poco-pad": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:46.783Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 19990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-poco-pad/?attribute_pa_color=blue",
-        "lastChecked": "2026-04-30T15:57:45.464Z",
-        "matchedName": "Xiaomi Poco Pad"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.620Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.489Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.594Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:46.784Z"
-  },
-  "shpresa-apple-ipad-air-13-256gb-wi-fi-m2-chip-2024": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200020276/Tablet-Apple-iPad-Air-11-1TB-Blu",
-        "lastChecked": "2026-04-30T15:57:45.928Z",
-        "matchedName": "Tablet Apple iPad Air 11, 1TB, Blu",
-        "storeProductId": "/KST-200020276/Tablet-Apple-iPad-Air-11-1TB-Blu",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-air-13-256gb-wi-fi-m2-chip-2024/",
-        "lastChecked": "2026-04-30T15:57:45.461Z",
-        "matchedName": "Apple iPad Air 13&#8243;, 256GB, Wi-Fi, M2 Chip (2024)",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-IPAD-AIR-11--M3-BLACK-TA0514",
-        "lastChecked": "2026-04-30T15:57:45.461Z",
-        "matchedName": "TASTIERE APPLE MAGIC IPAD AIR 11\" M4/3 BLACK",
-        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-AIR-11--M3-BLACK-TA0514",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.488Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.631Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:46.786Z"
-  },
-  "shpresa-psu-be-quiet-system-power-11-550w-80bronze": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:46.950Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 6490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/psu-be-quiet-system-power-11-550w-80bronze/",
-        "lastChecked": "2026-04-30T15:57:45.484Z",
-        "matchedName": "PSU Be Quiet System Power 11 550W 80+Bronze"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.772Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.501Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.591Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:46.951Z"
-  },
-  "shpresa-google-pixel-9-pro": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KOM-200195337/Xham-mbrojtes-SPIGEN-Google-Pixel-9-Pro-transparent",
-        "lastChecked": "2026-04-30T15:57:46.977Z",
-        "matchedName": "Xham mbrojtës SPIGEN Google Pixel 9 Pro, transparent",
-        "storeProductId": "/KOM-200195337/Xham-mbrojtes-SPIGEN-Google-Pixel-9-Pro-transparent",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 72990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/google-pixel-9-pro/",
-        "lastChecked": "2026-04-30T15:57:45.478Z",
-        "matchedName": "Google Pixel 9 Pro"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.614Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.492Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.537Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:46.978Z"
-  },
-  "shpresa-samsung-galaxy-tab-a11-8-7-wifi": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 21949,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200062667/Tablet-Samsung-Galaxy-Tab-A11-8.7-Wi-Fi-4GB-64GB-silver",
-        "lastChecked": "2026-04-30T15:57:47.029Z",
-        "matchedName": "Tablet Samsung Galaxy Tab A11 8.7 Wi-Fi 4GB 64GB silver",
-        "storeProductId": "/KST-200062667/Tablet-Samsung-Galaxy-Tab-A11-8.7-Wi-Fi-4GB-64GB-silver",
-        "matchConfidence": 80
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-tab-a11-8-7-wifi/?attribute_pa_color=silver",
-        "lastChecked": "2026-04-30T15:57:45.481Z",
-        "matchedName": "Samsung Galaxy Tab A11 8.7&#8243; WiFi",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 21990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-A11--WIFI-128GB-GRAY-TB0762",
-        "lastChecked": "2026-04-30T15:57:45.481Z",
-        "matchedName": "SAMSUNG GALAXY TAB A11+ WIFI 128GB GRAY",
-        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11--WIFI-128GB-GRAY-TB0762",
+        "productUrl": "https://www.neptun.al/categories/LAPTOP-LENOVO-NB-LOQ-15AHP10-LP2059",
+        "lastChecked": "2026-04-30T15:58:22.035Z",
+        "matchedName": "LAPTOP LENOVO GAMING LOQ 15AHP10",
+        "storeProductId": "/categories/LAPTOP-LENOVO-NB-LOQ-15AHP10-LP2059",
         "matchConfidence": 100
       },
       {
@@ -461,7 +431,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.493Z",
+        "lastChecked": "2026-04-30T15:58:22.112Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -470,31 +440,34 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.774Z",
+        "lastChecked": "2026-04-30T15:58:22.172Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T15:57:47.030Z"
+    "refreshedAt": "2026-04-30T15:58:22.731Z"
   },
-  "shpresa-xiaomi-redmi-15-4g": {
+  "shpresa-xiaomi-poco-f6-pro": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.094Z",
+        "productUrl": "https://www.foleja.al/HRT-200017282/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Xiaomi-Poco-F6-Pro",
+        "lastChecked": "2026-04-30T15:58:22.796Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Xiaomi Poco F6 Pro",
+        "storeProductId": "/HRT-200017282/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Xiaomi-Poco-F6-Pro",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 13990,
+        "price": 37990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-redmi-15-4g/?attribute_pa_color=midnight-black&attribute_pa_ram=8gb&attribute_pa_memory=256gb",
-        "lastChecked": "2026-04-30T15:57:45.475Z",
-        "matchedName": "Xiaomi Redmi 15 4G"
+        "productUrl": "https://shpresa.al/product/xiaomi-poco-f6-pro/",
+        "lastChecked": "2026-04-30T15:58:22.038Z",
+        "matchedName": "Xiaomi Poco F6 Pro"
       },
       {
         "storeId": "neptun",
@@ -502,7 +475,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.721Z",
+        "lastChecked": "2026-04-30T15:58:22.228Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -511,7 +484,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.492Z",
+        "lastChecked": "2026-04-30T15:58:22.113Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -520,97 +493,46 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.604Z",
+        "lastChecked": "2026-04-30T15:58:22.119Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T15:57:47.096Z"
+    "refreshedAt": "2026-04-30T15:58:23.007Z"
   },
-  "shpresa-msi-pro-h610m-e-ddr5": {
+  "shpresa-apple-macbook-pro-16-36gb-1tb-ssd-m4-max-2024": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200049442/RAM-Memorje-Crucial-Pro-32GB-2x16GB-DDR5-6400MHz-CL38-e-zeze",
-        "lastChecked": "2026-04-30T15:57:47.308Z",
-        "matchedName": "RAM Memorje Crucial Pro 32GB (2x16GB) DDR5 6400MHz CL38, e zezë",
-        "storeProductId": "/KST-200049442/RAM-Memorje-Crucial-Pro-32GB-2x16GB-DDR5-6400MHz-CL38-e-zeze",
-        "matchConfidence": 67,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+        "lastChecked": "2026-04-30T15:58:22.338Z",
+        "matchedName": "Laptop Apple MacBook Pro 16.2 Apple M4 Pro 24GB 512GB Silver",
+        "storeProductId": "/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 9990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/msi-pro-h610m-e-ddr5/",
-        "lastChecked": "2026-04-30T15:57:45.469Z",
-        "matchedName": "MSI Pro H610M-E DDR5"
-      },
-      {
-        "storeId": "neptun",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.677Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.490Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.552Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:47.309Z"
-  },
-  "shpresa-apple-ipad-gen-9th-10-2%e2%80%b3-64gb-wi-fi-2021": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200010538/Xham-mbrojtes-3mk-HardGlass-per-iPad-10.9-10-gen-9H",
-        "lastChecked": "2026-04-30T15:57:47.378Z",
-        "matchedName": "Xham mbrojtës 3mk HardGlass për iPad 10.9\" (10 gen), 9H",
-        "storeProductId": "/HRT-200010538/Xham-mbrojtes-3mk-HardGlass-per-iPad-10.9-10-gen-9H",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 22990,
-        "inStock": false,
         "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-gen-9th-10-2%e2%80%b3-64gb-wi-fi-2021/",
-        "lastChecked": "2026-04-30T15:57:45.458Z",
-        "matchedName": "Apple iPad Gen 9th 10.2″, 64GB, Wi-Fi",
-        "storeProductId": "65972",
-        "matchConfidence": 100
+        "productUrl": "https://shpresa.al/product/apple-macbook-pro-16-36gb-1tb-ssd-m4-max-2024/",
+        "lastChecked": "2026-04-30T15:58:22.011Z",
+        "matchedName": "Apple MacBook Pro 16&#8243;, 36GB, 1TB SSD, M4 MAX, 2024",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.665Z",
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
+        "lastChecked": "2026-04-30T15:58:22.011Z",
+        "matchedName": "ADAPTOR APPLE USB-C 96W MacBook Pro 16\" mw2l3zm/a",
+        "storeProductId": "/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -619,7 +541,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.491Z",
+        "lastChecked": "2026-04-30T15:58:22.089Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -628,104 +550,55 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.558Z",
+        "lastChecked": "2026-04-30T15:58:22.125Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T15:57:47.379Z"
+    "refreshedAt": "2026-04-30T15:58:23.015Z"
   },
-  "shpresa-kingston-nvme-pcle-m-2-ssd-snv2s": {
+  "shpresa-apple-macbook-pro-16-48gb-1tb-ssd-m4-max-2024-2": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KOM-200204548/Disk-Kingston-NV3-4TB-M.2-PCIe-4.0-NVMe",
-        "lastChecked": "2026-04-30T15:57:47.809Z",
-        "matchedName": "Disk Kingston NV3, 4TB, M.2 PCIe 4.0, NVMe",
-        "storeProductId": "/KOM-200204548/Disk-Kingston-NV3-4TB-M.2-PCIe-4.0-NVMe",
-        "matchConfidence": 75,
+        "productUrl": "https://www.foleja.al/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+        "lastChecked": "2026-04-30T15:58:22.418Z",
+        "matchedName": "Laptop Apple MacBook Pro 16.2 Apple M4 Pro 24GB 512GB Silver",
+        "storeProductId": "/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 4290,
-        "inStock": false,
+        "price": null,
+        "inStock": null,
         "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/kingston-nvme-pcle-m-2-ssd-snv2s/",
-        "lastChecked": "2026-04-30T15:57:45.452Z",
-        "matchedName": "Kingston NVMe PCle M.2 SSD SNV2S"
+        "productUrl": "https://shpresa.al/product/apple-macbook-pro-16-48gb-1tb-ssd-m4-max-2024-2/",
+        "lastChecked": "2026-04-30T15:58:22.015Z",
+        "matchedName": "Apple MacBook Pro 16&#8243;, 48GB, 1TB SSD, M4 MAX, 2024",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.819Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.489Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:45.587Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:47.810Z"
-  },
-  "shpresa-nillkin-camshield-pro-magnetic-case-for-apple-iphone-17-pro-max": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ERG-200004353/Celular-Apple-iPhone-17-Pro-Max-512GB-Cosmic-Orange",
-        "lastChecked": "2026-04-30T15:57:48.741Z",
-        "matchedName": "Celular Apple iPhone 17 Pro Max 512GB Cosmic Orange",
-        "storeProductId": "/ERG-200004353/Celular-Apple-iPhone-17-Pro-Max-512GB-Cosmic-Orange",
+        "productUrl": "https://www.neptun.al/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
+        "lastChecked": "2026-04-30T15:58:22.016Z",
+        "matchedName": "ADAPTOR APPLE USB-C 96W MacBook Pro 16\" mw2l3zm/a",
+        "storeProductId": "/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
-        "storeId": "shpresa",
-        "price": 1690,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/nillkin-camshield-pro-magnetic-case-for-apple-iphone-17-pro-max/?attribute_pa_color=transparent-black",
-        "lastChecked": "2026-04-30T15:57:47.850Z",
-        "matchedName": "Nillkin CamShield Pro Magnetic Case For Apple Iphone 17 Pro Max"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.390Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
         "storeId": "globe",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.866Z",
+        "lastChecked": "2026-04-30T15:58:22.093Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -734,34 +607,32 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.039Z",
+        "lastChecked": "2026-04-30T15:58:22.094Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T15:57:48.820Z"
+    "refreshedAt": "2026-04-30T15:58:23.043Z"
   },
-  "shpresa-nillkin-super-frosted-shield-pro-magnetic-case-for-apple-iphone-17-pro": {
+  "shpresa-asus-vivobook-15-15-6-touchscreen-16gb-1tb-ssd-core-7": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ERG-200004386/Celular-Apple-iPhone-17-Pro-256GB-Silver",
-        "lastChecked": "2026-04-30T15:57:48.245Z",
-        "matchedName": "Celular Apple iPhone 17 Pro 256GB Silver",
-        "storeProductId": "/ERG-200004386/Celular-Apple-iPhone-17-Pro-256GB-Silver",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T15:58:23.246Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 1490,
-        "inStock": true,
+        "price": null,
+        "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/nillkin-super-frosted-shield-pro-magnetic-case-for-apple-iphone-17-pro/?attribute_pa_color=black",
-        "lastChecked": "2026-04-30T15:57:47.853Z",
-        "matchedName": "Nillkin Super Frosted Shield Pro Magnetic Case For Apple Iphone 17 Pro"
+        "productUrl": "https://shpresa.al/product/asus-vivobook-15-15-6-touchscreen-16gb-1tb-ssd-core-7/",
+        "lastChecked": "2026-04-30T15:58:22.023Z",
+        "matchedName": "Asus Vivobook 15 15.6&#8243; Touchscreen, 16GB, 1TB SSD, Core™ 7",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
@@ -769,7 +640,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.626Z",
+        "lastChecked": "2026-04-30T15:58:22.262Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -778,7 +649,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.869Z",
+        "lastChecked": "2026-04-30T15:58:22.109Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -787,13 +658,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.006Z",
+        "lastChecked": "2026-04-30T15:58:22.125Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T15:57:48.840Z"
+    "refreshedAt": "2026-04-30T15:58:23.246Z"
   },
-  "shpresa-boya-k9-microphone": {
+  "shpresa-sony-ps5-mafia-the-old-country": {
     "prices": [
       {
         "storeId": "foleja",
@@ -801,110 +672,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.452Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/boya-k9-microphone/",
-        "lastChecked": "2026-04-30T15:57:47.838Z",
-        "matchedName": "Boya K9 Microphone"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.999Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.860Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.894Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:48.903Z"
-  },
-  "shpresa-nillkin-camshield-prop-case-for-apple-iphone-17-pro-max": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ERG-200004353/Celular-Apple-iPhone-17-Pro-Max-512GB-Cosmic-Orange",
-        "lastChecked": "2026-04-30T15:57:48.802Z",
-        "matchedName": "Celular Apple iPhone 17 Pro Max 512GB Cosmic Orange",
-        "storeProductId": "/ERG-200004353/Celular-Apple-iPhone-17-Pro-Max-512GB-Cosmic-Orange",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 1890,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/nillkin-camshield-prop-case-for-apple-iphone-17-pro-max/?attribute_pa_color=black",
-        "lastChecked": "2026-04-30T15:57:47.841Z",
-        "matchedName": "Nillkin CamShield Prop Case For Apple Iphone 17 Pro Max"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.604Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.867Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.017Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:48.915Z"
-  },
-  "shpresa-psu-be-quiet-system-power-11-450w-80bronze": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.832Z",
+        "lastChecked": "2026-04-30T15:58:23.509Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -912,9 +680,9 @@
         "price": 5990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/psu-be-quiet-system-power-11-450w-80bronze/",
-        "lastChecked": "2026-04-30T15:57:47.829Z",
-        "matchedName": "PSU Be Quiet System Power 11 450W 80+Bronze"
+        "productUrl": "https://shpresa.al/product/sony-ps5-mafia-the-old-country/",
+        "lastChecked": "2026-04-30T15:58:22.031Z",
+        "matchedName": "Sony PS5 Mafia: The Old Country"
       },
       {
         "storeId": "neptun",
@@ -922,7 +690,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.122Z",
+        "lastChecked": "2026-04-30T15:58:22.414Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -931,7 +699,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.859Z",
+        "lastChecked": "2026-04-30T15:58:22.100Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -940,84 +708,34 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.930Z",
+        "lastChecked": "2026-04-30T15:58:22.167Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T15:57:48.937Z"
+    "refreshedAt": "2026-04-30T15:58:23.510Z"
   },
-  "shpresa-deepcool-le240-v2-cpu-cooler": {
+  "shpresa-tp-link-archer-air-e5-ax3000-dual-band-wi-fi-6-air-range-extender": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.935Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 9990,
-        "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/deepcool-le240-v2-cpu-cooler/",
-        "lastChecked": "2026-04-30T15:57:47.823Z",
-        "matchedName": "DeepCool LE240 V2 CPU Cooler"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.041Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.858Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.937Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:48.938Z"
-  },
-  "shpresa-nillkin-super-frosted-shield-pro-magnetic-case-for-apple-iphone-17": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ERG-200004557/Celular-Apple-iPhone-17-256GB-Lavander",
-        "lastChecked": "2026-04-30T15:57:48.838Z",
-        "matchedName": "Celular Apple iPhone 17 256GB Lavander",
-        "storeProductId": "/ERG-200004557/Celular-Apple-iPhone-17-256GB-Lavander",
+        "productUrl": "https://www.foleja.al/KST-200034581/Repeater-Wi-Fi-TP-Link-Archer-AX3000-Air-E5-Wi-Fi-6-2976-Mbit-s-i-bardhe",
+        "lastChecked": "2026-04-30T15:58:23.647Z",
+        "matchedName": "Repeater Wi-Fi TP-Link Archer AX3000 Air E5, Wi-Fi 6, 2976 Mbit/s, i bardhë",
+        "storeProductId": "/KST-200034581/Repeater-Wi-Fi-TP-Link-Archer-AX3000-Air-E5-Wi-Fi-6-2976-Mbit-s-i-bardhe",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 1690,
+        "price": 8490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/nillkin-super-frosted-shield-pro-magnetic-case-for-apple-iphone-17/",
-        "lastChecked": "2026-04-30T15:57:47.832Z",
-        "matchedName": "Nillkin Super Frosted Shield Pro Magnetic Case For Apple Iphone 17"
+        "productUrl": "https://shpresa.al/product/tp-link-archer-air-e5-ax3000-dual-band-wi-fi-6-air-range-extender/",
+        "lastChecked": "2026-04-30T15:58:22.019Z",
+        "matchedName": "Tp-Link Archer Air E5 AX3000 Dual-Band Wi-Fi 6 Air Range Extender"
       },
       {
         "storeId": "neptun",
@@ -1025,7 +743,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.389Z",
+        "lastChecked": "2026-04-30T15:58:22.412Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1034,7 +752,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.862Z",
+        "lastChecked": "2026-04-30T15:58:22.095Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1043,171 +761,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.001Z",
+        "lastChecked": "2026-04-30T15:58:22.124Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T15:57:48.939Z"
+    "refreshedAt": "2026-04-30T15:58:23.648Z"
   },
-  "shpresa-nillkin-camshield-pro-magnetic-case-for-apple-iphone-17-pro": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ERG-200004386/Celular-Apple-iPhone-17-Pro-256GB-Silver",
-        "lastChecked": "2026-04-30T15:57:48.249Z",
-        "matchedName": "Celular Apple iPhone 17 Pro 256GB Silver",
-        "storeProductId": "/ERG-200004386/Celular-Apple-iPhone-17-Pro-256GB-Silver",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 1690,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/nillkin-camshield-pro-magnetic-case-for-apple-iphone-17-pro/",
-        "lastChecked": "2026-04-30T15:57:47.847Z",
-        "matchedName": "Nillkin CamShield Pro Magnetic Case For Apple Iphone 17 Pro"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.389Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.863Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.021Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:48.941Z"
-  },
-  "shpresa-dyson-airwrap-i-d-multi-styler-and-dryer-amber-silk": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 70600,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ERG-200004344/Multi-styler-flokesh-Dyson-Airwrap-ID-Straight-Wavy-1300W-Cipria-Rose-Gold",
-        "lastChecked": "2026-04-30T15:57:49.455Z",
-        "matchedName": "Multi-styler flokësh Dyson Airwrap ID Straight+Wavy 1300W Cipria/Rose Gold",
-        "storeProductId": "/ERG-200004344/Multi-styler-flokesh-Dyson-Airwrap-ID-Straight-Wavy-1300W-Cipria-Rose-Gold",
-        "matchConfidence": 75
-      },
-      {
-        "storeId": "shpresa",
-        "price": 44990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/dyson-airwrap-i-d-multi-styler-and-dryer-amber-silk/",
-        "lastChecked": "2026-04-30T15:57:47.820Z",
-        "matchedName": "Dyson Airwrap i.d.™ Multi-Styler and Dryer &#8211; Amber Silk"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.389Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.857Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:49.266Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:49.456Z"
-  },
-  "shpresa-dyson-v12s-detect-slim-submarine-complete-gold-gold": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200056487/Fshese-me-bateri-Dyson-V12-Detect-Slim-Absolute-2-ne-1-60-min-runtime-ngjyre-ari",
-        "lastChecked": "2026-04-30T15:57:49.646Z",
-        "matchedName": "Fshesë me bateri Dyson V12 Detect Slim Absolute, 2-në-1, 60 min runtime, ngjyrë ari",
-        "storeProductId": "/KST-200056487/Fshese-me-bateri-Dyson-V12-Detect-Slim-Absolute-2-ne-1-60-min-runtime-ngjyre-ari",
-        "matchConfidence": 75,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 54990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/dyson-v12s-detect-slim-submarine-complete-gold-gold/",
-        "lastChecked": "2026-04-30T15:57:47.835Z",
-        "matchedName": "Dyson V12s Detect Slim Submarine™ Complete (Gold/Gold)"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.390Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.861Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.015Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:49.646Z"
-  },
-  "shpresa-lexar-nq100-2-5-sata-iii-6gb-s-ssd-240gb": {
+  "shpresa-air-conditioner-tcl-18-btu-inverter": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1215,70 +775,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.814Z",
+        "lastChecked": "2026-04-30T15:58:24.085Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.381Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:48.056Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.859Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:47.959Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:50.382Z"
-  },
-  "shpresa-nillkin-camshield-pro-case-for-apple-iphone-air": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KOM-200219224/Celular-Apple-iPhone-17-Air-512GB-ari",
-        "lastChecked": "2026-04-30T15:57:50.729Z",
-        "matchedName": "Celular Apple iPhone 17 Air 512GB ari",
-        "storeProductId": "/KOM-200219224/Celular-Apple-iPhone-17-Air-512GB-ari",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 1690,
+        "price": 39990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/nillkin-camshield-pro-case-for-apple-iphone-air/?attribute_pa_color=black",
-        "lastChecked": "2026-04-30T15:57:50.401Z",
-        "matchedName": "Nillkin CamShield Pro Case For Apple Iphone Air"
+        "productUrl": "https://shpresa.al/product/air-conditioner-tcl-18-btu-inverter/",
+        "lastChecked": "2026-04-30T15:58:22.028Z",
+        "matchedName": "Air Conditioner TCL 18 BTU Inverter"
       },
       {
         "storeId": "neptun",
@@ -1286,7 +793,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.800Z",
+        "lastChecked": "2026-04-30T15:58:22.520Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1295,7 +802,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.418Z",
+        "lastChecked": "2026-04-30T15:58:22.112Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1304,365 +811,10 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.567Z",
+        "lastChecked": "2026-04-30T15:58:22.220Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T15:57:51.202Z"
-  },
-  "shpresa-blackview-tab-70-wi-fi-10-1-3gb-64gb": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.989Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/blackview-tab-70-wi-fi-10-1-3gb-64gb/?attribute_pa_color=grey",
-        "lastChecked": "2026-04-30T15:57:50.404Z",
-        "matchedName": "Blackview Tab 70 Wi-Fi 10.1&#8243;, 3GB, 64GB",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.518Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.418Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.501Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:51.203Z"
-  },
-  "shpresa-jbl-partybox-stage-320-240w-wireless-party-speaker": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:51.284Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 44990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/jbl-partybox-stage-320-240w-wireless-party-speaker/?attribute_pa_color=black",
-        "lastChecked": "2026-04-30T15:57:50.406Z",
-        "matchedName": "JBL PartyBox Stage 320 240W Wireless Party Speaker"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.655Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.425Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.547Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:51.286Z"
-  },
-  "shpresa-kingston-nv3-pcle-m-2-ssd-snv3s-1tb": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 31187,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KOM-200194399/SSD-Kingston-NV3-2TB-M.2-PCIe-4.0-NVMe",
-        "lastChecked": "2026-04-30T15:57:51.356Z",
-        "matchedName": "SSD Kingston NV3 2TB M.2 PCIe 4.0 NVMe",
-        "storeProductId": "/KOM-200194399/SSD-Kingston-NV3-2TB-M.2-PCIe-4.0-NVMe",
-        "matchConfidence": 75
-      },
-      {
-        "storeId": "shpresa",
-        "price": 14990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/kingston-nv3-pcle-m-2-ssd-snv3s-1tb/",
-        "lastChecked": "2026-04-30T15:57:50.392Z",
-        "matchedName": "Kingston NV3 PCle M.2 SSD SNV3S 1TB"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.733Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.416Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.619Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:51.357Z"
-  },
-  "shpresa-baseus-type-c-to-type-c-data-cable": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:51.509Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/baseus-type-c-to-type-c-data-cable/",
-        "lastChecked": "2026-04-30T15:57:50.395Z",
-        "matchedName": "Baseus Type-C To Type-C Data Cable"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.710Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.419Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.546Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:51.518Z"
-  },
-  "shpresa-xiaomi-robot-vacuum-x20-max": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:51.534Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 49990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-robot-vacuum-x20-max/",
-        "lastChecked": "2026-04-30T15:57:50.412Z",
-        "matchedName": "Xiaomi Robot Vacuum X20 Max"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.778Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.424Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.578Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:51.584Z"
-  },
-  "shpresa-xiaomi-mi-bedside-lamp-2": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:51.659Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 3990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-mi-bedside-lamp-2/",
-        "lastChecked": "2026-04-30T15:57:50.398Z",
-        "matchedName": "Xiaomi Mi Bedside Lamp 2"
-      },
-      {
-        "storeId": "neptun",
-        "price": 5590,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/ABAZHUR-XIAOMI-BEDSIDE-LAMP-2-39493-LM0367",
-        "lastChecked": "2026-04-30T15:57:50.398Z",
-        "matchedName": "ABAZHUR XIAOMI BEDSIDE LAMP 2 39493",
-        "storeProductId": "/categories/ABAZHUR-XIAOMI-BEDSIDE-LAMP-2-39493-LM0367",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.417Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.583Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:51.660Z"
-  },
-  "shpresa-ocom-thermal-receipt-printer-ocpp-80t": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:51.395Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:52.789Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.632Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.423Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T15:57:50.539Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-04-30T15:57:52.790Z"
+    "refreshedAt": "2026-04-30T15:58:24.086Z"
   }
 }
