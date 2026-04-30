@@ -1,5 +1,5 @@
 {
-  "globe-76278": {
+  "globe-76281": {
     "prices": [
       {
         "storeId": "foleja",
@@ -7,16 +7,19 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T16:45:32.585Z",
+        "lastChecked": "2026-04-30T16:45:40.767Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T16:45:31.383Z",
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=10694&attribute_pa_color=black",
+        "lastChecked": "2026-04-30T16:45:37.130Z",
+        "matchedName": "Samsung Galaxy S10+",
+        "storeProductId": "12834",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -25,7 +28,7 @@
         "inStock": null,
         "stockLabel": "Në gjendje",
         "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
-        "lastChecked": "2026-04-30T16:45:30.373Z",
+        "lastChecked": "2026-04-30T16:45:37.131Z",
         "matchedName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
         "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
         "matchConfidence": 100,
@@ -33,12 +36,14 @@
       },
       {
         "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-04-30T16:45:30.440Z",
-        "error": "Produkti nuk u gjet"
+        "price": 5190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76281",
+        "lastChecked": "2026-04-30T16:45:37.132Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S10 Plus Leather Cover EF-VG975LREGWW Red",
+        "storeProductId": "76281",
+        "matchConfidence": 100
       },
       {
         "storeId": "albagame",
@@ -46,13 +51,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T16:45:30.547Z",
+        "lastChecked": "2026-04-30T16:45:41.901Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T16:45:32.591Z"
+    "refreshedAt": "2026-04-30T16:45:41.902Z"
   },
-  "globe-76275": {
+  "globe-76292": {
     "prices": [
       {
         "storeId": "foleja",
@@ -60,16 +65,74 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T16:45:32.626Z",
+        "lastChecked": "2026-04-30T16:45:41.453Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
         "price": null,
         "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s20-2/",
+        "lastChecked": "2026-04-30T16:45:37.176Z",
+        "matchedName": "Samsung Galaxy S20",
+        "storeProductId": "121641",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T16:45:32.543Z",
+        "lastChecked": "2026-04-30T16:45:38.633Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 2590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76292",
+        "lastChecked": "2026-04-30T16:45:37.177Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S20 Plus Silicone Cover EF-PG985TBEGEU Black",
+        "storeProductId": "76292",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.998Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:41.999Z"
+  },
+  "globe-76288": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:40.902Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=10694&attribute_pa_color=black",
+        "lastChecked": "2026-04-30T16:45:37.159Z",
+        "matchedName": "Samsung Galaxy S10+",
+        "storeProductId": "12834",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -78,7 +141,3971 @@
         "inStock": null,
         "stockLabel": "Në gjendje",
         "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
-        "lastChecked": "2026-04-30T16:45:30.354Z",
+        "lastChecked": "2026-04-30T16:45:37.160Z",
+        "matchedName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 3690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76288",
+        "lastChecked": "2026-04-30T16:45:37.160Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S10 Standing Cover EF-RG973CBEGWW Black",
+        "storeProductId": "76288",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.978Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:42.083Z"
+  },
+  "globe-76289": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.288Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=10694&attribute_pa_color=black",
+        "lastChecked": "2026-04-30T16:45:37.163Z",
+        "matchedName": "Samsung Galaxy S10+",
+        "storeProductId": "12834",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "lastChecked": "2026-04-30T16:45:37.164Z",
+        "matchedName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 3690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76289",
+        "lastChecked": "2026-04-30T16:45:37.165Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S10 Standing Cover EF-RG973CSEGWW Silver",
+        "storeProductId": "76289",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.937Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:42.955Z"
+  },
+  "globe-76283": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:40.149Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=10694&attribute_pa_color=black",
+        "lastChecked": "2026-04-30T16:45:37.081Z",
+        "matchedName": "Samsung Galaxy S10+",
+        "storeProductId": "12834",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "lastChecked": "2026-04-30T16:45:37.089Z",
+        "matchedName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 5190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76283",
+        "lastChecked": "2026-04-30T16:45:37.112Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S10 Plus Leather Cover EF-VG975LJEGWW Grey",
+        "storeProductId": "76283",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.698Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:43.190Z"
+  },
+  "globe-76282": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.051Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=10694&attribute_pa_color=black",
+        "lastChecked": "2026-04-30T16:45:37.118Z",
+        "matchedName": "Samsung Galaxy S10+",
+        "storeProductId": "12834",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "lastChecked": "2026-04-30T16:45:37.120Z",
+        "matchedName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 5690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76282",
+        "lastChecked": "2026-04-30T16:45:37.121Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S10 Plus Clear View Cover EF-ZG975CGEGWW Green",
+        "storeProductId": "76282",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.584Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:43.290Z"
+  },
+  "globe-76286": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.337Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=10694&attribute_pa_color=black",
+        "lastChecked": "2026-04-30T16:45:37.149Z",
+        "matchedName": "Samsung Galaxy S10+",
+        "storeProductId": "12834",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "lastChecked": "2026-04-30T16:45:37.150Z",
+        "matchedName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 2690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76286",
+        "lastChecked": "2026-04-30T16:45:37.151Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S10 Cover EF-PG973TGEGWW Green",
+        "storeProductId": "76286",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.703Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:43.442Z"
+  },
+  "globe-76285": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:40.714Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=10694&attribute_pa_color=black",
+        "lastChecked": "2026-04-30T16:45:37.140Z",
+        "matchedName": "Samsung Galaxy S10+",
+        "storeProductId": "12834",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "lastChecked": "2026-04-30T16:45:37.141Z",
+        "matchedName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 2690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76285",
+        "lastChecked": "2026-04-30T16:45:37.142Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S10 Plus Cover EF-PG975THEGWW Pink",
+        "storeProductId": "76285",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.926Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:43.488Z"
+  },
+  "globe-76287": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:40.566Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=10694&attribute_pa_color=black",
+        "lastChecked": "2026-04-30T16:45:37.154Z",
+        "matchedName": "Samsung Galaxy S10+",
+        "storeProductId": "12834",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "lastChecked": "2026-04-30T16:45:37.155Z",
+        "matchedName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 2690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76287",
+        "lastChecked": "2026-04-30T16:45:37.155Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S10 Cover EF-PG973THEGWW Pink",
+        "storeProductId": "76287",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.704Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:43.491Z"
+  },
+  "globe-76284": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.084Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=10694&attribute_pa_color=black",
+        "lastChecked": "2026-04-30T16:45:37.135Z",
+        "matchedName": "Samsung Galaxy S10+",
+        "storeProductId": "12834",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "lastChecked": "2026-04-30T16:45:37.136Z",
+        "matchedName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76284",
+        "lastChecked": "2026-04-30T16:45:37.136Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S10 Plus Cover EF-PG975TBEGWW Black",
+        "storeProductId": "76284",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.696Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:43.511Z"
+  },
+  "globe-76290": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.248Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.070Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:38.353Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 3690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76290",
+        "lastChecked": "2026-04-30T16:45:37.169Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S10PLUS Standing Cover EF-RG975CSEGWW Silver",
+        "storeProductId": "76290",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:42.029Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:44.070Z"
+  },
+  "globe-76291": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.580Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.384Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:38.353Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 2990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/76291",
+        "lastChecked": "2026-04-30T16:45:37.173Z",
+        "matchedName": "Kase Celulari Samsung Galaxy S20FE Silicone Cover EF-PG780TWEGEU White",
+        "storeProductId": "76291",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:41.714Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:44.385Z"
+  },
+  "globe-76294": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.135Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s20-2/",
+        "lastChecked": "2026-04-30T16:45:44.456Z",
+        "matchedName": "Samsung Galaxy S20",
+        "storeProductId": "121641",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.157Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.559Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.269Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:47.271Z"
+  },
+  "globe-76293": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.523Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s20-2/",
+        "lastChecked": "2026-04-30T16:45:44.489Z",
+        "matchedName": "Samsung Galaxy S20",
+        "storeProductId": "121641",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.094Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.567Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.029Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:47.592Z"
+  },
+  "globe-76303": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:46.939Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:50.115Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.093Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.559Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.271Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:50.116Z"
+  },
+  "globe-76301": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:46.923Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:50.433Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.045Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.570Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.216Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:50.434Z"
+  },
+  "globe-76295": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:46.927Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.095Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.004Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.558Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.217Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:51.096Z"
+  },
+  "globe-76304": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:47.027Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.142Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.289Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.552Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.138Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:51.143Z"
+  },
+  "globe-76298": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:47.070Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.176Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.157Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.560Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.215Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:51.176Z"
+  },
+  "globe-76300": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:46.916Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.265Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.023Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.554Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.214Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:51.266Z"
+  },
+  "globe-76297": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:46.957Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.331Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.093Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.553Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.292Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:51.332Z"
+  },
+  "globe-76305": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:47.081Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.459Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.157Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.551Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.239Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:51.459Z"
+  },
+  "globe-76302": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:45.753Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.584Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.037Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.561Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.226Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:51.584Z"
+  },
+  "globe-76296": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:45.761Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.598Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:45.040Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:44.560Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:47.090Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:51.598Z"
+  },
+  "globe-76314": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:54.001Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.658Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.659Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.772Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.876Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:56.106Z"
+  },
+  "globe-76317": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:53.992Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.676Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.677Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.759Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.872Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:56.613Z"
+  },
+  "globe-76307": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:53.978Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.624Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.628Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.761Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.856Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:57.157Z"
+  },
+  "globe-76315": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:54.020Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.663Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.663Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.759Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.930Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:57.194Z"
+  },
+  "globe-76313": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:54.016Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.654Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.654Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.760Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.919Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:57.449Z"
+  },
+  "globe-76312": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:54.011Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.650Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.650Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.745Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.862Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:57.495Z"
+  },
+  "globe-76311": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:53.883Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.645Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.646Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.751Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.913Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:57.548Z"
+  },
+  "globe-76309": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:53.996Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.636Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.637Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.747Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.874Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:57.842Z"
+  },
+  "globe-76308": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:54.018Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.632Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.632Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.748Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.929Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:58.113Z"
+  },
+  "globe-76316": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:54.003Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.671Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.672Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.763Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.906Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:58.391Z"
+  },
+  "globe-76306": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "lastChecked": "2026-04-30T16:45:54.014Z",
+        "matchedName": "Mbrojtës ekrani 3mk FlexibleGlass për Samsung Galaxy S21 5G",
+        "storeProductId": "/HRT-200003046/Mbrojtes-ekrani-3mk-FlexibleGlass-per-Samsung-Galaxy-S21-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:58.744Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:52.239Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.744Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.897Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:45:58.746Z"
+  },
+  "globe-76310": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:45:53.990Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:45:51.641Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "lastChecked": "2026-04-30T16:45:51.641Z",
+        "matchedName": "COVER SAMSUNG GALAXY S23+ LEATHER CAMEL",
+        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-S23--LEATHER-CAMEL-CA3671",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.745Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:45:51.912Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:00.317Z"
+  },
+  "globe-76325": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:02.850Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:00.388Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:01.030Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.631Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.787Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:02.855Z"
+  },
+  "globe-76318": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:02.988Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:00.338Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:01.097Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.503Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.776Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:03.109Z"
+  },
+  "globe-76329": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.101Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:00.397Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:01.035Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.631Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.762Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:03.119Z"
+  },
+  "globe-76319": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.175Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:00.344Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:01.097Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.577Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.778Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:03.294Z"
+  },
+  "globe-76320": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.391Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:00.353Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:01.015Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.500Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.742Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:03.394Z"
+  },
+  "globe-76330": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.465Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:00.402Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:01.030Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.579Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.767Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:03.469Z"
+  },
+  "globe-76322": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.502Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:00.363Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:01.051Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.504Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.790Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:03.694Z"
+  },
+  "globe-76323": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.693Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:00.373Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:01.097Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.579Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.770Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:03.696Z"
+  },
+  "globe-76321": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.740Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:00.358Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:01.097Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.578Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.756Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:03.741Z"
+  },
+  "globe-76328": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.781Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:00.393Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:01.027Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.629Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:00.766Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:03.849Z"
+  },
+  "globe-76339": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:06.332Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24/",
+        "lastChecked": "2026-04-30T16:46:03.918Z",
+        "matchedName": "Samsung Galaxy S24",
+        "storeProductId": "129527",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.453Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.970Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.235Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:06.435Z"
+  },
+  "globe-76353": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200054419/Celular-Samsung-Galaxy-Z-Flip7-5G-512GB-jetblack",
+        "lastChecked": "2026-04-30T16:46:05.934Z",
+        "matchedName": "Celular Samsung Galaxy Z Flip7 5G 512GB jetblack",
+        "storeProductId": "/KST-200054419/Celular-Samsung-Galaxy-Z-Flip7-5G-512GB-jetblack",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-z-fold7/",
+        "lastChecked": "2026-04-30T16:46:03.961Z",
+        "matchedName": "Samsung Galaxy Z Fold7",
+        "storeProductId": "169037",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-Z-FOLD7-512GB-NAVY-TL4359",
+        "lastChecked": "2026-04-30T16:46:03.962Z",
+        "matchedName": "SAMSUNG GALAXY Z FOLD7 512GB NAVY",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-Z-FOLD7-512GB-NAVY-TL4359",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.984Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.193Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:06.774Z"
+  },
+  "globe-76350": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:06.367Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:08.357Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.583Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.980Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.178Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:08.358Z"
+  },
+  "globe-76341": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
+        "lastChecked": "2026-04-30T16:46:06.335Z",
+        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
+        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
+        "lastChecked": "2026-04-30T16:46:03.930Z",
+        "matchedName": "Samsung Galaxy S25 128GB",
+        "storeProductId": "160857",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Samsung-Galaxy-S25---512GB-Navy-TL4267",
+        "lastChecked": "2026-04-30T16:46:03.931Z",
+        "matchedName": "Samsung Galaxy S25+  512GB Navy",
+        "storeProductId": "/categories/Samsung-Galaxy-S25---512GB-Navy-TL4267",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.971Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.182Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:08.369Z"
+  },
+  "globe-76346": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:05.571Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:10.186Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.462Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.982Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.199Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:10.187Z"
+  },
+  "globe-76351": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:05.929Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:10.380Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.482Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.983Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.151Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:10.381Z"
+  },
+  "globe-76344": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:05.335Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:10.727Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.583Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.974Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.152Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:10.728Z"
+  },
+  "globe-76345": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:06.295Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:10.767Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.438Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.977Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.187Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:10.768Z"
+  },
+  "globe-76348": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:06.151Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:10.796Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.589Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.980Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.110Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:10.797Z"
+  },
+  "globe-76347": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:05.740Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:10.870Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.582Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.978Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.189Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:10.871Z"
+  },
+  "globe-76352": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003071/Folje-mbrojtese-per-ekran-Samsung-Galaxy-S10e-3mk-ARC-transparente",
+        "lastChecked": "2026-04-30T16:46:04.777Z",
+        "matchedName": "Folje mbrojtëse për ekran Samsung Galaxy S10e 3mk ARC+, transparente",
+        "storeProductId": "/HRT-200003071/Folje-mbrojtese-per-ekran-Samsung-Galaxy-S10e-3mk-ARC-transparente",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.181Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.740Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.985Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.200Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:11.182Z"
+  },
+  "globe-76343": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200062789/Tablet-Samsung-Galaxy-Tab-S9-128GB-8RAM-LTE-graphite",
+        "lastChecked": "2026-04-30T16:46:05.938Z",
+        "matchedName": "Tablet Samsung Galaxy Tab S9 128GB 8RAM LTE graphite",
+        "storeProductId": "/KST-200062789/Tablet-Samsung-Galaxy-Tab-S9-128GB-8RAM-LTE-graphite",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.357Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.740Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:03.974Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:04.181Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:11.358Z"
+  },
+  "globe-76367": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:12.629Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:12.308Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.632Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.577Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.600Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:12.643Z"
+  },
+  "globe-76368": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "lastChecked": "2026-04-30T16:46:13.480Z",
+        "matchedName": "S Pen Samsung Galaxy Tab S8, e zezë",
+        "storeProductId": "/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-tab-a9-8-7-2023/",
+        "lastChecked": "2026-04-30T16:46:11.412Z",
+        "matchedName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
+        "storeProductId": "124550",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "lastChecked": "2026-04-30T16:46:11.413Z",
+        "matchedName": "SAMSUNG GALAXY TAB A11 64GB SILVER",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.577Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.762Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:13.764Z"
+  },
+  "globe-76372": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "lastChecked": "2026-04-30T16:46:13.455Z",
+        "matchedName": "S Pen Samsung Galaxy Tab S8, e zezë",
+        "storeProductId": "/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-tab-a9-8-7-2023/",
+        "lastChecked": "2026-04-30T16:46:11.439Z",
+        "matchedName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
+        "storeProductId": "124550",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "lastChecked": "2026-04-30T16:46:11.439Z",
+        "matchedName": "SAMSUNG GALAXY TAB A11 64GB SILVER",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.579Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.706Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:13.769Z"
+  },
+  "globe-76365": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "lastChecked": "2026-04-30T16:46:13.461Z",
+        "matchedName": "S Pen Samsung Galaxy Tab S8, e zezë",
+        "storeProductId": "/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-tab-a9-8-7-2023/",
+        "lastChecked": "2026-04-30T16:46:11.398Z",
+        "matchedName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
+        "storeProductId": "124550",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "lastChecked": "2026-04-30T16:46:11.398Z",
+        "matchedName": "SAMSUNG GALAXY TAB A11 64GB SILVER",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.584Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.726Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:13.772Z"
+  },
+  "globe-76363": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200054419/Celular-Samsung-Galaxy-Z-Flip7-5G-512GB-jetblack",
+        "lastChecked": "2026-04-30T16:46:13.789Z",
+        "matchedName": "Celular Samsung Galaxy Z Flip7 5G 512GB jetblack",
+        "storeProductId": "/KST-200054419/Celular-Samsung-Galaxy-Z-Flip7-5G-512GB-jetblack",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-z-fold7/",
+        "lastChecked": "2026-04-30T16:46:11.393Z",
+        "matchedName": "Samsung Galaxy Z Fold7",
+        "storeProductId": "169037",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-Z-FOLD7-512GB-NAVY-TL4359",
+        "lastChecked": "2026-04-30T16:46:11.393Z",
+        "matchedName": "SAMSUNG GALAXY Z FOLD7 512GB NAVY",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-Z-FOLD7-512GB-NAVY-TL4359",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.539Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.690Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:13.790Z"
+  },
+  "globe-76366": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "lastChecked": "2026-04-30T16:46:13.450Z",
+        "matchedName": "S Pen Samsung Galaxy Tab S8, e zezë",
+        "storeProductId": "/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-tab-a9-8-7-2023/",
+        "lastChecked": "2026-04-30T16:46:11.403Z",
+        "matchedName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
+        "storeProductId": "124550",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "lastChecked": "2026-04-30T16:46:11.403Z",
+        "matchedName": "SAMSUNG GALAXY TAB A11 64GB SILVER",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.578Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.709Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:14.511Z"
+  },
+  "globe-76370": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "lastChecked": "2026-04-30T16:46:13.478Z",
+        "matchedName": "S Pen Samsung Galaxy Tab S8, e zezë",
+        "storeProductId": "/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-tab-a9-8-7-2023/",
+        "lastChecked": "2026-04-30T16:46:11.429Z",
+        "matchedName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
+        "storeProductId": "124550",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "lastChecked": "2026-04-30T16:46:11.429Z",
+        "matchedName": "SAMSUNG GALAXY TAB A11 64GB SILVER",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.585Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.708Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:15.254Z"
+  },
+  "globe-76371": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "lastChecked": "2026-04-30T16:46:13.755Z",
+        "matchedName": "S Pen Samsung Galaxy Tab S8, e zezë",
+        "storeProductId": "/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-tab-a9-8-7-2023/",
+        "lastChecked": "2026-04-30T16:46:11.434Z",
+        "matchedName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
+        "storeProductId": "124550",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "lastChecked": "2026-04-30T16:46:11.434Z",
+        "matchedName": "SAMSUNG GALAXY TAB A11 64GB SILVER",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.541Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.710Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:15.406Z"
+  },
+  "globe-76373": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "lastChecked": "2026-04-30T16:46:13.459Z",
+        "matchedName": "S Pen Samsung Galaxy Tab S8, e zezë",
+        "storeProductId": "/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-tab-a9-8-7-2023/",
+        "lastChecked": "2026-04-30T16:46:11.444Z",
+        "matchedName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
+        "storeProductId": "124550",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "lastChecked": "2026-04-30T16:46:11.449Z",
+        "matchedName": "SAMSUNG GALAXY TAB A11 64GB SILVER",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.584Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.685Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:15.434Z"
+  },
+  "globe-76369": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "lastChecked": "2026-04-30T16:46:13.457Z",
+        "matchedName": "S Pen Samsung Galaxy Tab S8, e zezë",
+        "storeProductId": "/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-tab-a9-8-7-2023/",
+        "lastChecked": "2026-04-30T16:46:11.420Z",
+        "matchedName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
+        "storeProductId": "124550",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "lastChecked": "2026-04-30T16:46:11.420Z",
+        "matchedName": "SAMSUNG GALAXY TAB A11 64GB SILVER",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.576Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.664Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:15.439Z"
+  },
+  "globe-76356": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200054419/Celular-Samsung-Galaxy-Z-Flip7-5G-512GB-jetblack",
+        "lastChecked": "2026-04-30T16:46:13.778Z",
+        "matchedName": "Celular Samsung Galaxy Z Flip7 5G 512GB jetblack",
+        "storeProductId": "/KST-200054419/Celular-Samsung-Galaxy-Z-Flip7-5G-512GB-jetblack",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.141Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:12.021Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.541Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.713Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:16.142Z"
+  },
+  "globe-76354": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200054419/Celular-Samsung-Galaxy-Z-Flip7-5G-512GB-jetblack",
+        "lastChecked": "2026-04-30T16:46:13.759Z",
+        "matchedName": "Celular Samsung Galaxy Z Flip7 5G 512GB jetblack",
+        "storeProductId": "/KST-200054419/Celular-Samsung-Galaxy-Z-Flip7-5G-512GB-jetblack",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.578Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:12.102Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.540Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:11.711Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:16.579Z"
+  },
+  "globe-76390": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:17.077Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:18.020Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.730Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.710Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.710Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:18.021Z"
+  },
+  "globe-76378": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200052770/Powerbank-Ugreen-10000mAh-30W-gri",
+        "lastChecked": "2026-04-30T16:46:17.897Z",
+        "matchedName": "Powerbank Ugreen 10000mAh 30W, gri",
+        "storeProductId": "/KST-200052770/Powerbank-Ugreen-10000mAh-30W-gri",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:19.267Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.855Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.718Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.773Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:19.268Z"
+  },
+  "globe-76379": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 4142,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200052770/Powerbank-Ugreen-10000mAh-30W-gri",
+        "lastChecked": "2026-04-30T16:46:18.025Z",
+        "matchedName": "Powerbank Ugreen 10000mAh 30W, gri",
+        "storeProductId": "/KST-200052770/Powerbank-Ugreen-10000mAh-30W-gri",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:19.684Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.861Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.699Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.760Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:19.685Z"
+  },
+  "globe-76389": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-04-30T16:46:17.890Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=100871&attribute_pa_color=phantom-black&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:46:16.620Z",
+        "matchedName": "Samsung Galaxy S23",
+        "storeProductId": "106257",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "lastChecked": "2026-04-30T16:46:16.620Z",
+        "matchedName": "XHAM MBROJTES SAMSUNG GALAXY S23",
+        "storeProductId": "/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.715Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.818Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:20.471Z"
+  },
+  "globe-76382": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:18.646Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=10694&attribute_pa_color=black",
+        "lastChecked": "2026-04-30T16:46:16.606Z",
+        "matchedName": "Samsung Galaxy S10+",
+        "storeProductId": "12834",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
+        "lastChecked": "2026-04-30T16:46:16.606Z",
         "matchedName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
         "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
         "matchConfidence": 100,
@@ -90,7 +4117,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T16:45:30.438Z",
+        "lastChecked": "2026-04-30T16:46:16.712Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -99,10 +4126,181 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-04-30T16:45:30.575Z",
+        "lastChecked": "2026-04-30T16:46:16.826Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-04-30T16:45:32.627Z"
+    "refreshedAt": "2026-04-30T16:46:20.974Z"
+  },
+  "globe-76386": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200004055/Xham-mbrojtes-Samsung-Galaxy-A33-5G-3mk-FlexibleGlass-Hibrid-Transparent",
+        "lastChecked": "2026-04-30T16:46:17.893Z",
+        "matchedName": "Xham mbrojtës Samsung Galaxy A33 5G 3mk FlexibleGlass, Hibrid, Transparent",
+        "storeProductId": "/HRT-200004055/Xham-mbrojtes-Samsung-Galaxy-A33-5G-3mk-FlexibleGlass-Hibrid-Transparent",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:21.067Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "lastChecked": "2026-04-30T16:46:16.610Z",
+        "matchedName": "XHAM MBROJTES SAMSUNG GALAXY S23",
+        "storeProductId": "/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.719Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.854Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:21.069Z"
+  },
+  "globe-76388": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200008299/Mbrojtes-ekrani-3mk-Silver-Protection-per-Samsung-Galaxy-A54-5G-Transparent",
+        "lastChecked": "2026-04-30T16:46:18.369Z",
+        "matchedName": "Mbrojtës ekrani 3mk Silver Protection+ për Samsung Galaxy A54 5G, Transparent",
+        "storeProductId": "/HRT-200008299/Mbrojtes-ekrani-3mk-Silver-Protection-per-Samsung-Galaxy-A54-5G-Transparent",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=105499&attribute_pa_color=white&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
+        "lastChecked": "2026-04-30T16:46:16.616Z",
+        "matchedName": "Samsung Galaxy A54",
+        "storeProductId": "105821",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "lastChecked": "2026-04-30T16:46:16.617Z",
+        "matchedName": "XHAM MBROJTES SAMSUNG GALAXY S23",
+        "storeProductId": "/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.713Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.858Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:21.102Z"
+  },
+  "globe-76387": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200008302/Folie-mbrojtese-ekrani-3mk-ARC-per-Samsung-Galaxy-A34-5G-Transparent",
+        "lastChecked": "2026-04-30T16:46:17.631Z",
+        "matchedName": "Folie mbrojtëse ekrani 3mk ARC+ për Samsung Galaxy A34 5G, Transparent",
+        "storeProductId": "/HRT-200008302/Folie-mbrojtese-ekrani-3mk-ARC-per-Samsung-Galaxy-A34-5G-Transparent",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:21.461Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "lastChecked": "2026-04-30T16:46:16.613Z",
+        "matchedName": "XHAM MBROJTES SAMSUNG GALAXY S23",
+        "storeProductId": "/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.666Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-04-30T16:46:16.803Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-04-30T16:46:21.462Z"
   }
 }
