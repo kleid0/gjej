@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T16:02:30.728Z",
+  "updatedAt": "2026-04-30T16:02:49.434Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -1380,12 +1380,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200003894/Ftohes-uji-Thermaltake-TH420-ARGB-Sync-per-CPU-ngjyre-e-bardhe",
       "storeProductName": "Ftohës uji Thermaltake TH420 ARGB Sync, për CPU, ngjyrë e bardhë",
-      "catalogueProductId": "shpresa-thermaltake-th240-argb-sync-aio-liquid-cooler",
+      "catalogueProductId": "shpresa-thermaltake-th420-argb-sync-aio-liquid-cooler",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:55:54.318Z",
-      "updatedAt": "2026-04-30T15:55:54.318Z"
+      "updatedAt": "2026-04-30T16:02:49.434Z"
     },
     "foleja:/KST-200048486/USB-stick-Sandisk-Cruzer-Blade-shumengjyresh": {
       "storeId": "foleja",
@@ -2304,23 +2304,23 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200053634/Kompjuter-Lenovo-ThinkPad-E14-G7-Ryzen-7-16GB-512GB-14-inch-i-zi",
       "storeProductName": "Kompjuter Lenovo ThinkPad E14 G7, Ryzen 7, 16GB/512GB, 14 inch, i zi",
-      "catalogueProductId": "shpresa-lenovo-thinkpad-e14-14-16gb-512gb-ssd-core-i5",
+      "catalogueProductId": "shpresa-lenovo-thinkpad-e14-14-16gb-512gb-ssd-ryzen-5",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:00:05.593Z",
-      "updatedAt": "2026-04-30T16:00:05.593Z"
+      "updatedAt": "2026-04-30T16:02:43.346Z"
     },
     "shpresa:188926": {
       "storeId": "shpresa",
       "storeProductId": "188926",
       "storeProductName": "Lenovo Thinkpad E14 G3 14&#8243;, 16GB, 512GB SSD, Ryzen™ 5",
-      "catalogueProductId": "shpresa-lenovo-thinkpad-e14-14-16gb-512gb-ssd-core-i5",
+      "catalogueProductId": "shpresa-lenovo-thinkpad-e14-14-16gb-512gb-ssd-ryzen-5",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:00:05.593Z",
-      "updatedAt": "2026-04-30T16:00:05.593Z"
+      "updatedAt": "2026-04-30T16:02:43.346Z"
     },
     "foleja:/KST-200029926/Laptop-Lenovo-ThinkPad-T14s-Gen-5-Intel-Core-Ultra-7-16-GB-RAM-512-GB-SSD-14-inch-Black": {
       "storeId": "foleja",
@@ -2997,12 +2997,12 @@
       "storeId": "foleja",
       "storeProductId": "/HRT-200014855/Rrip-celiku-per-Xiaomi-Smart-Band-8-Tech-Protect-MilaneseBand-Roze",
       "storeProductName": "Rrip çeliku për Xiaomi Smart Band 8 Tech-Protect MilaneseBand, Rozë",
-      "catalogueProductId": "shpresa-xiaomi-smart-band-8-pendant",
+      "catalogueProductId": "shpresa-xiaomi-smart-band-8-chain-strap",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:02:23.271Z",
-      "updatedAt": "2026-04-30T16:02:23.271Z"
+      "updatedAt": "2026-04-30T16:02:39.727Z"
     },
     "foleja:/ERG-200000432/Loja-PS5-Koei-Tecmo-Rise-of-the-Ronin": {
       "storeId": "foleja",
@@ -3102,6 +3102,160 @@
       "status": "pending",
       "createdAt": "2026-04-30T16:02:30.728Z",
       "updatedAt": "2026-04-30T16:02:30.728Z"
+    },
+    "foleja:/AXR-200001999/Kamere-instant-Fujifilm-INSTAX-Pal-Gem-16812584-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/AXR-200001999/Kamere-instant-Fujifilm-INSTAX-Pal-Gem-16812584-e-zeze",
+      "storeProductName": "Kamerë instant, Fujifilm, INSTAX Pal Gem, 16812584, e zezë",
+      "catalogueProductId": "shpresa-fujifilm-instax-pal-digital-camera",
+      "matchMethod": "name_match",
+      "confidence": 60,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:36.549Z",
+      "updatedAt": "2026-04-30T16:02:36.549Z"
+    },
+    "foleja:/ALL-200001169/Samsung-SmartTag-2": {
+      "storeId": "foleja",
+      "storeProductId": "/ALL-200001169/Samsung-SmartTag-2",
+      "storeProductName": "Samsung SmartTag 2",
+      "catalogueProductId": "shpresa-anker-powerport-iii-25w-wall-charger-for-samsung",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:36.549Z",
+      "updatedAt": "2026-04-30T16:02:36.549Z"
+    },
+    "neptun:/categories/TV-SAMSUNG-UE98DU9072UXXH-TV5370": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/TV-SAMSUNG-UE98DU9072UXXH-TV5370",
+      "storeProductName": "TV SAMSUNG UE98DU9072UXXH",
+      "catalogueProductId": "shpresa-anker-powerport-iii-25w-wall-charger-for-samsung",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:36.549Z",
+      "updatedAt": "2026-04-30T16:02:36.549Z"
+    },
+    "foleja:/KOM-200217118/Mikrofon-wireless-RODE-Wireless-GO-III-i-kuq": {
+      "storeId": "foleja",
+      "storeProductId": "/KOM-200217118/Mikrofon-wireless-RODE-Wireless-GO-III-i-kuq",
+      "storeProductName": "Mikrofon wireless RODE Wireless GO III i kuq",
+      "catalogueProductId": "shpresa-rode-wireless-go-ii-single-microphone",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:36.549Z",
+      "updatedAt": "2026-04-30T16:02:36.549Z"
+    },
+    "foleja:/ACN-300318760/Pllake-ame-ASUS-TUF-GAMING-B650E-PLUS-WIFI-Socket-AM5-ATX-Wi-Fi-6E-E-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300318760/Pllake-ame-ASUS-TUF-GAMING-B650E-PLUS-WIFI-Socket-AM5-ATX-Wi-Fi-6E-E-zeze",
+      "storeProductName": "Pllakë amë ASUS TUF GAMING B650E-PLUS WIFI, Socket AM5, ATX, Wi-Fi 6E, E zezë",
+      "catalogueProductId": "shpresa-asus-tuf-gaming-b650-plus-wi-fi",
+      "matchMethod": "name_match",
+      "confidence": 80,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:38.124Z",
+      "updatedAt": "2026-04-30T16:02:38.124Z"
+    },
+    "foleja:/HRT-200019554/Mbrojtes-ekrani-FlexibleGlass-3mk-per-Blackview-BV9300-Pro": {
+      "storeId": "foleja",
+      "storeProductId": "/HRT-200019554/Mbrojtes-ekrani-FlexibleGlass-3mk-per-Blackview-BV9300-Pro",
+      "storeProductName": "Mbrojtës ekrani FlexibleGlass 3mk për Blackview BV9300 Pro",
+      "catalogueProductId": "shpresa-blackview-bv9300-pro",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:39.727Z",
+      "updatedAt": "2026-04-30T16:02:39.727Z"
+    },
+    "foleja:/HRT-200010846/Xham-i-temperuar-Wozinsky-per-Xiaomi-14": {
+      "storeId": "foleja",
+      "storeProductId": "/HRT-200010846/Xham-i-temperuar-Wozinsky-per-Xiaomi-14",
+      "storeProductName": "Xham i temperuar Wozinsky për Xiaomi 14",
+      "catalogueProductId": "shpresa-xiaomi-14",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:39.727Z",
+      "updatedAt": "2026-04-30T16:02:39.727Z"
+    },
+    "neptun:/categories/Laptop-Xiaomi--RedmiBook-14--LP1694": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/Laptop-Xiaomi--RedmiBook-14--LP1694",
+      "storeProductName": "Laptop Xiaomi  RedmiBook 14?",
+      "catalogueProductId": "shpresa-xiaomi-14",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:39.727Z",
+      "updatedAt": "2026-04-30T16:02:39.727Z"
+    },
+    "neptun:/categories/LOJE-PS5-NBA-2K24-STANDARD-EDITION-PL3665": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LOJE-PS5-NBA-2K24-STANDARD-EDITION-PL3665",
+      "storeProductName": "LOJE PS5 NBA 2K24 KOBE BRYANT EDITION",
+      "catalogueProductId": "shpresa-sony-ps5-nba-2k24-game",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:43.346Z",
+      "updatedAt": "2026-04-30T16:02:43.346Z"
+    },
+    "foleja:/KOM-200099575/Miun-e-Lojerave-ASUS-ROG-Keris-Wireless-AimPoint-2.0-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KOM-200099575/Miun-e-Lojerave-ASUS-ROG-Keris-Wireless-AimPoint-2.0-e-zeze",
+      "storeProductName": "Miun e Lojërave ASUS ROG Keris Wireless AimPoint 2.0, e zezë",
+      "catalogueProductId": "shpresa-rog-keris-wireless-aimpoint-gaming-mouse",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:43.346Z",
+      "updatedAt": "2026-04-30T16:02:43.346Z"
+    },
+    "neptun:/categories/LOJE-PS5-PRINCE-OF-PERSIA-THE-LOST-CROWN-PL4000": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/LOJE-PS5-PRINCE-OF-PERSIA-THE-LOST-CROWN-PL4000",
+      "storeProductName": "LOJE PS5 PRINCE OF PERSIA THE LOST CROWN",
+      "catalogueProductId": "shpresa-sony-ps5-prince-of-persia-the-lost-crown",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:45.172Z",
+      "updatedAt": "2026-04-30T16:02:45.172Z"
+    },
+    "neptun:/categories/MOUSE-GAMING-RAZER-OROCHI-V2-MS0971": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/MOUSE-GAMING-RAZER-OROCHI-V2-MS0971",
+      "storeProductName": "MOUSE GAMING RAZER OROCHI V2",
+      "catalogueProductId": "shpresa-razer-orochi-v2-mouse",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:45.172Z",
+      "updatedAt": "2026-04-30T16:02:45.172Z"
+    },
+    "foleja:/HRT-200012599/Film-mbrojtes-per-smartwatch-3mk-Protection-Watch-Protection-ARC-per-Samsung-Galaxy-Fit-3-3-cope": {
+      "storeId": "foleja",
+      "storeProductId": "/HRT-200012599/Film-mbrojtes-per-smartwatch-3mk-Protection-Watch-Protection-ARC-per-Samsung-Galaxy-Fit-3-3-cope",
+      "storeProductName": "Film mbrojtës për smartwatch 3mk Protection Watch Protection ARC+ për Samsung Galaxy Fit 3, 3 copë",
+      "catalogueProductId": "shpresa-samaung-galaxy-fit-3",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:45.172Z",
+      "updatedAt": "2026-04-30T16:02:45.172Z"
+    },
+    "shpresa:160361": {
+      "storeId": "shpresa",
+      "storeProductId": "160361",
+      "storeProductName": "HAVIT Gaming Mouse Pad MP849",
+      "catalogueProductId": "shpresa-havit-gaming-mouse-pad-mp838",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-04-30T16:02:47.569Z",
+      "updatedAt": "2026-04-30T16:02:47.569Z"
     }
   }
 }
