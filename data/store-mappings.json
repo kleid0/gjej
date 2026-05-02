@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T12:58:45.186Z",
+  "updatedAt": "2026-05-02T12:59:32.692Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -3877,23 +3877,23 @@
       "storeId": "neptun",
       "storeProductId": "/categories/KUFJE-GAMING-RAZER-BLACKSHARK-V2-KU1615",
       "storeProductName": "KUFJE GAMING RAZER BLACKSHARK V2 X",
-      "catalogueProductId": "foleja-kufje-razer-blackshark-v2-x-playstation-t-zeza",
+      "catalogueProductId": "foleja-kufje-razer-blackshark-v2-x-playstation-me-mikrofon-3-5mm-bardh",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:16:20.900Z",
-      "updatedAt": "2026-05-02T09:17:36.061Z"
+      "updatedAt": "2026-05-02T12:59:32.692Z"
     },
     "neptun:/categories/KUFJE-GAMING-HYPERX-CLOUD-STINGER-2-WIRELESS-KU1721": {
       "storeId": "neptun",
       "storeProductId": "/categories/KUFJE-GAMING-HYPERX-CLOUD-STINGER-2-WIRELESS-KU1721",
       "storeProductName": "KUFJE GAMING HYPERX CLOUD STINGER 2 WIRELESS",
-      "catalogueProductId": "foleja-kufje-hyperx-cloud-stinger-2-xbox-t-bardha",
+      "catalogueProductId": "foleja-kufje-hyperx-cloud-stinger-2-playstation-t-bardha",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:16:20.900Z",
-      "updatedAt": "2026-05-01T08:21:50.721Z"
+      "updatedAt": "2026-05-02T12:59:32.692Z"
     },
     "neptun:/categories/KUFJE-RAZER-BLACKSHARK-V2-PRO-KU1802": {
       "storeId": "neptun",
@@ -13381,12 +13381,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PLAYSTATION-SONY-VR2-PL4250",
       "storeProductName": "PLAYSTATION SONY VR2",
-      "catalogueProductId": "albagame-console-playstation-sony-vr2-1",
+      "catalogueProductId": "foleja-vr-headset-sony-playstation-vr2-2000x2040-oled-120hz-bardh-zi",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:05:26.868Z",
-      "updatedAt": "2026-05-02T08:39:49.445Z"
+      "updatedAt": "2026-05-02T12:59:27.690Z"
     },
     "foleja:/KST-200054755/Mbajtese-kartele-grafike-ASUS-ROG-STRIX-HOLDER-RGB": {
       "storeId": "foleja",
@@ -59763,6 +59763,28 @@
       "status": "pending",
       "createdAt": "2026-05-02T12:54:58.923Z",
       "updatedAt": "2026-05-02T12:54:58.923Z"
+    },
+    "globe:76028": {
+      "storeId": "globe",
+      "storeProductId": "76028",
+      "storeProductName": "Kamera HD Sony PS5",
+      "catalogueProductId": "foleja-playstation-vr2-sony-ps5-bardh",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-05-02T12:59:27.690Z",
+      "updatedAt": "2026-05-02T12:59:27.690Z"
+    },
+    "globe:71585": {
+      "storeId": "globe",
+      "storeProductId": "71585",
+      "storeProductName": "Playstation 5 DIGITAL EDITION SLIM D CHASSIS",
+      "catalogueProductId": "foleja-konzol-sony-playstation-5-slim-edition-1tb-disc-edition",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-05-02T12:59:27.690Z",
+      "updatedAt": "2026-05-02T12:59:27.690Z"
     }
   }
 }
