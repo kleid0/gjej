@@ -1,5 +1,57 @@
 {
-  "neptun-23262": {
+  "neptun-23354": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:11.608Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:13.572Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Cover-Holdit-iPhone-15-Pro-Max-Silicone-Black-CA3810",
+        "lastChecked": "2026-05-02T15:04:10.546Z",
+        "matchedName": "Cover Holdit iPhone 15 Pro Max Silicone Black",
+        "storeProductId": "/categories/Cover-Holdit-iPhone-15-Pro-Max-Silicone-Black-CA3810",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:10.619Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:10.718Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:13.573Z"
+  },
+  "neptun-21128": {
     "prices": [
       {
         "storeId": "foleja",
@@ -7,602 +59,9 @@
         "inStock": null,
         "stockLabel": "Në gjendje",
         "productUrl": "https://www.foleja.al/KST-200047377/Mbeshtjelles-kamere-PanzerGlass-Samsung-Galaxy-A26-5G-xham-i-tejdukshem",
-        "lastChecked": "2026-05-02T15:03:34.135Z",
+        "lastChecked": "2026-05-02T15:04:12.077Z",
         "matchedName": "Mbështjellës kamerë PanzerGlass Samsung Galaxy A26 5G, xham i tejdukshëm",
         "storeProductId": "/KST-200047377/Mbeshtjelles-kamere-PanzerGlass-Samsung-Galaxy-A26-5G-xham-i-tejdukshem",
-        "matchConfidence": 75,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:33.108Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-GALAXY-W6-40mm-CA3732",
-        "lastChecked": "2026-05-02T15:03:32.585Z",
-        "matchedName": "XHAM MBROJTES PANZERGLASS GALAXY W6 40mm",
-        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-GALAXY-W6-40mm-CA3732",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:32.794Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:32.777Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:34.135Z"
-  },
-  "neptun-23263": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200047377/Mbeshtjelles-kamere-PanzerGlass-Samsung-Galaxy-A26-5G-xham-i-tejdukshem",
-        "lastChecked": "2026-05-02T15:03:34.258Z",
-        "matchedName": "Mbështjellës kamerë PanzerGlass Samsung Galaxy A26 5G, xham i tejdukshëm",
-        "storeProductId": "/KST-200047377/Mbeshtjelles-kamere-PanzerGlass-Samsung-Galaxy-A26-5G-xham-i-tejdukshem",
-        "matchConfidence": 75,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:33.101Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-GALAXY-W6-CL-47mm-CA3733",
-        "lastChecked": "2026-05-02T15:03:32.575Z",
-        "matchedName": "XHAM MBROJTES PANZERGLASS GALAXY W6 CL 47mm",
-        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-GALAXY-W6-CL-47mm-CA3733",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:32.762Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:32.781Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:34.259Z"
-  },
-  "neptun-22729": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200007591/Mbeshtjelles-3mk-Clear-Case-per-Samsung-Galaxy-A54-5G-transparent",
-        "lastChecked": "2026-05-02T15:03:34.271Z",
-        "matchedName": "Mbështjellës 3mk Clear Case për Samsung Galaxy A54 5G, transparent",
-        "storeProductId": "/HRT-200007591/Mbeshtjelles-3mk-Clear-Case-per-Samsung-Galaxy-A54-5G-transparent",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:33.626Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-A54-Clear-Case-Transparent-CA3739",
-        "lastChecked": "2026-05-02T15:03:32.598Z",
-        "matchedName": "COVER SAMSUNG A54 Clear Case Transparent",
-        "storeProductId": "/categories/COVER-SAMSUNG-A54-Clear-Case-Transparent-CA3739",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:32.768Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:32.851Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:34.272Z"
-  },
-  "neptun-21774": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200014050/Mbrojtes-ekrani-FlexibleGlass-3mk-Protection-per-Samsung-Galaxy-A14-A14-5G-Transparent",
-        "lastChecked": "2026-05-02T15:03:34.324Z",
-        "matchedName": "Mbrojtës ekrani FlexibleGlass 3mk Protection për Samsung Galaxy A14/A14 5G, Transparent",
-        "storeProductId": "/HRT-200014050/Mbrojtes-ekrani-FlexibleGlass-3mk-Protection-per-Samsung-Galaxy-A14-A14-5G-Transparent",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:33.625Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 690,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-A14--Transparent-CA3698",
-        "lastChecked": "2026-05-02T15:03:32.572Z",
-        "matchedName": "COVER SAMSUNG GALAXY A14  Transparent",
-        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-A14--Transparent-CA3698",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:32.625Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:32.861Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:34.325Z"
-  },
-  "neptun-22726": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.183Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:33.627Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-A14-Black-me-mbajtese-karte-CA3736",
-        "lastChecked": "2026-05-02T15:03:32.593Z",
-        "matchedName": "COVER SAMSUNG A14 Black me mbajtese karte",
-        "storeProductId": "/categories/COVER-SAMSUNG-A14-Black-me-mbajtese-karte-CA3736",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:32.772Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:32.905Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:35.183Z"
-  },
-  "neptun-11955": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.756Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.683Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/VR-3D-BOX-2-0-LENS---REMOTE",
-        "lastChecked": "2026-05-02T15:03:35.452Z",
-        "matchedName": "VR-3D BOX 2.0 LENS + REMOTE",
-        "storeProductId": "/categories/VR-3D-BOX-2-0-LENS---REMOTE",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.510Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.491Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:36.061Z"
-  },
-  "neptun-21467": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200008299/Mbrojtes-ekrani-3mk-Silver-Protection-per-Samsung-Galaxy-A54-5G-Transparent",
-        "lastChecked": "2026-05-02T15:03:36.060Z",
-        "matchedName": "Mbrojtës ekrani 3mk Silver Protection+ për Samsung Galaxy A54 5G, Transparent",
-        "storeProductId": "/HRT-200008299/Mbrojtes-ekrani-3mk-Silver-Protection-per-Samsung-Galaxy-A54-5G-Transparent",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.924Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-SAMSUNG-A54-CA3693",
-        "lastChecked": "2026-05-02T15:03:35.444Z",
-        "matchedName": "XHAM MBROJTES SAMSUNG A54",
-        "storeProductId": "/categories/XHAM-MBROJTES-SAMSUNG-A54-CA3693",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.460Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.532Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:36.081Z"
-  },
-  "neptun-21775": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200014337/Xham-mbrojtes-3mk-HardGlass-per-Samsung-Galaxy-A14-A14-5G-9H",
-        "lastChecked": "2026-05-02T15:03:36.295Z",
-        "matchedName": "Xham mbrojtës 3mk HardGlass për Samsung Galaxy A14 / A14 5G, 9H",
-        "storeProductId": "/HRT-200014337/Xham-mbrojtes-3mk-HardGlass-per-Samsung-Galaxy-A14-A14-5G-9H",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.941Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-SAMSUNG-A14-CA3699",
-        "lastChecked": "2026-05-02T15:03:35.450Z",
-        "matchedName": "XHAM MBROJTES SAMSUNG A14",
-        "storeProductId": "/categories/XHAM-MBROJTES-SAMSUNG-A14-CA3699",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.521Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.554Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:36.298Z"
-  },
-  "neptun-21642": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200008302/Folie-mbrojtese-ekrani-3mk-ARC-per-Samsung-Galaxy-A34-5G-Transparent",
-        "lastChecked": "2026-05-02T15:03:36.298Z",
-        "matchedName": "Folie mbrojtëse ekrani 3mk ARC+ për Samsung Galaxy A34 5G, Transparent",
-        "storeProductId": "/HRT-200008302/Folie-mbrojtese-ekrani-3mk-ARC-per-Samsung-Galaxy-A34-5G-Transparent",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.938Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-SAMSUNG-A34-CA3692",
-        "lastChecked": "2026-05-02T15:03:35.446Z",
-        "matchedName": "XHAM MBROJTES SAMSUNG A34",
-        "storeProductId": "/categories/XHAM-MBROJTES-SAMSUNG-A34-CA3692",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.488Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.535Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:36.299Z"
-  },
-  "neptun-19850": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:36.336Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.674Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-GALAXY-A33-CA3431",
-        "lastChecked": "2026-05-02T15:03:35.448Z",
-        "matchedName": "XHAM MBROJTES GALAXY A33",
-        "storeProductId": "/categories/XHAM-MBROJTES-GALAXY-A33-CA3431",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.525Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.485Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:36.398Z"
-  },
-  "neptun-23276": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:36.509Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.940Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 1190,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Xham-PanzerGlass-Kamera-kellef--iPhone-15Pro-Max-CA3769",
-        "lastChecked": "2026-05-02T15:03:35.457Z",
-        "matchedName": "Xham PanzerGlass Kamera kellef  iPhone 15Pro/Max",
-        "storeProductId": "/categories/Xham-PanzerGlass-Kamera-kellef--iPhone-15Pro-Max-CA3769",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.525Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.531Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T15:03:36.510Z"
-  },
-  "neptun-28603": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200047101/Mbrojtes-lente-PanzerGlass-per-Samsung-A16-transparent",
-        "lastChecked": "2026-05-02T15:03:36.574Z",
-        "matchedName": "Mbrojtës lente PanzerGlass për Samsung A16, transparent",
-        "storeProductId": "/KST-200047101/Mbrojtes-lente-PanzerGlass-per-Samsung-A16-transparent",
         "matchConfidence": 67,
         "error": "Produkti nuk u gjet"
       },
@@ -612,18 +71,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.924Z",
+        "lastChecked": "2026-05-02T15:04:14.159Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 990,
+        "price": 2490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-A16-Clear-CA4024",
-        "lastChecked": "2026-05-02T15:03:35.441Z",
-        "matchedName": "Cover Samsung A16 Clear",
-        "storeProductId": "/categories/Cover-Samsung-A16-Clear-CA4024",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-Z-FOLD4-CA3641",
+        "lastChecked": "2026-05-02T15:04:10.557Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS Z FOLD4",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-Z-FOLD4-CA3641",
         "matchConfidence": 100
       },
       {
@@ -632,7 +91,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.481Z",
+        "lastChecked": "2026-05-02T15:04:10.620Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -641,23 +100,236 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.559Z",
+        "lastChecked": "2026-05-02T15:04:10.703Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T15:03:36.575Z"
+    "refreshedAt": "2026-05-02T15:04:14.159Z"
   },
-  "neptun-25028": {
+  "neptun-21121": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:12.305Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:14.174Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-14-PRO-MAX-CA3634",
+        "lastChecked": "2026-05-02T15:04:10.614Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS IPHONE 14 PRO MAX",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-14-PRO-MAX-CA3634",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:10.679Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:10.706Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:14.174Z"
+  },
+  "neptun-21284": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200047634/Mbrojtes-xhami-kamere-PanzerGlass-Samsung-Galaxy-A36-5G-transparent",
-        "lastChecked": "2026-05-02T15:03:36.727Z",
-        "matchedName": "Mbrojtës xhami kamerë PanzerGlass Samsung Galaxy A36 5G transparent",
-        "storeProductId": "/KST-200047634/Mbrojtes-xhami-kamere-PanzerGlass-Samsung-Galaxy-A36-5G-transparent",
+        "productUrl": "https://www.foleja.al/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "lastChecked": "2026-05-02T15:04:11.862Z",
+        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S23 5G",
+        "storeProductId": "/HRT-200007598/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S23-5G",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.049Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-SAMSUNG-S23-CA3688",
+        "lastChecked": "2026-05-02T15:04:10.560Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS SAMSUNG S23",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-SAMSUNG-S23-CA3688",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:10.620Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:10.734Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:15.049Z"
+  },
+  "neptun-23287": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:12.122Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.304Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Cover-PanzerGlass--iPhone-15--HC-MagSafe-CA3782",
+        "lastChecked": "2026-05-02T15:04:10.564Z",
+        "matchedName": "Cover PanzerGlass  iPhone 15+ HC MagSafe",
+        "storeProductId": "/categories/Cover-PanzerGlass--iPhone-15--HC-MagSafe-CA3782",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:10.635Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:10.764Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:15.304Z"
+  },
+  "neptun-21286": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 500,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/HRT-200010411/Film-mbrojtes-Wozinsky-Invisible-per-Samsung-Galaxy-S23-Ultra-transparent",
+        "lastChecked": "2026-05-02T15:04:12.080Z",
+        "matchedName": "Film mbrojtës Wozinsky Invisible për Samsung Galaxy S23 Ultra, transparent",
+        "storeProductId": "/HRT-200010411/Film-mbrojtes-Wozinsky-Invisible-per-Samsung-Galaxy-S23-Ultra-transparent",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.605Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-SAMSUNG-S23-ULTRA--FP-CA3690",
+        "lastChecked": "2026-05-02T15:04:10.567Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS SAMSUNG S23 ULTRA  FP",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-SAMSUNG-S23-ULTRA--FP-CA3690",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:10.617Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:10.773Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:15.605Z"
+  },
+  "neptun-21109": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KOM-200218465/Mbeshtjelles-xhami-PanzerGlass-Picture-Perfect-per-kamere-Apple-iPhone-17-transparent",
+        "lastChecked": "2026-05-02T15:04:13.412Z",
+        "matchedName": "Mbështjellës xhami PanzerGlass Picture Perfect për kamerë, Apple iPhone 17, transparent",
+        "storeProductId": "/KOM-200218465/Mbeshtjelles-xhami-PanzerGlass-Picture-Perfect-per-kamere-Apple-iPhone-17-transparent",
         "matchConfidence": 75,
         "error": "Produkti nuk u gjet"
       },
@@ -667,18 +339,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:36.081Z",
+        "lastChecked": "2026-05-02T15:04:15.638Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 1190,
+        "price": 2490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Xham-PanzerGlass-Kamera-Galaxy-S24--Black-CA3877",
-        "lastChecked": "2026-05-02T15:03:35.455Z",
-        "matchedName": "Xham PanzerGlass Kamera Galaxy S24+ Black",
-        "storeProductId": "/categories/Xham-PanzerGlass-Kamera-Galaxy-S24--Black-CA3877",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-APPLE-WATCH-8-7-41mm-CA3652",
+        "lastChecked": "2026-05-02T15:04:10.607Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS APPLE WATCH 8/7 41mm",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-APPLE-WATCH-8-7-41mm-CA3652",
         "matchConfidence": 100
       },
       {
@@ -687,7 +359,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.500Z",
+        "lastChecked": "2026-05-02T15:04:10.658Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -696,10 +368,426 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T15:03:35.578Z",
+        "lastChecked": "2026-05-02T15:04:10.797Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T15:03:36.727Z"
+    "refreshedAt": "2026-05-02T15:04:15.639Z"
+  },
+  "neptun-21131": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:17.156Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:17.978Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-14-PRO-CA3644",
+        "lastChecked": "2026-05-02T15:04:15.900Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS IPHONE 14 PRO",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-14-PRO-CA3644",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.968Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.991Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:17.978Z"
+  },
+  "neptun-21132": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:16.947Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:18.013Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-14--13-PRO-MAX-CA3645",
+        "lastChecked": "2026-05-02T15:04:15.908Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS IPHONE 14+/13 PRO MAX",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-14--13-PRO-MAX-CA3645",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.967Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:16.020Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:18.014Z"
+  },
+  "neptun-25931": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:16.488Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:18.061Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-16-Priv--CA3927",
+        "lastChecked": "2026-05-02T15:04:15.903Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS IPHONE 16 Priv.",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-16-Priv--CA3927",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.964Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.998Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:18.062Z"
+  },
+  "neptun-21123": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:16.831Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:18.127Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-S21-FE-CA3636",
+        "lastChecked": "2026-05-02T15:04:15.916Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS S21 FE",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-S21-FE-CA3636",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.967Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.990Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:18.128Z"
+  },
+  "neptun-23302": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:16.669Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:18.215Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Cover-PanzerGlass--iPhone-15-Pro-Max-HC-MagSafe-CA3783",
+        "lastChecked": "2026-05-02T15:04:15.896Z",
+        "matchedName": "Cover PanzerGlass  iPhone 15 Pro Max HC MagSafe",
+        "storeProductId": "/categories/Cover-PanzerGlass--iPhone-15-Pro-Max-HC-MagSafe-CA3783",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.963Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:16.018Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:18.216Z"
+  },
+  "neptun-21129": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:17.117Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:18.289Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-XR-11-CA3642",
+        "lastChecked": "2026-05-02T15:04:15.913Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS IPHONE XR/11",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-XR-11-CA3642",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.964Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.988Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:18.289Z"
+  },
+  "neptun-21126": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:16.814Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:18.333Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-S22-ULTRA-CA3639",
+        "lastChecked": "2026-05-02T15:04:15.905Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS S22 ULTRA",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-S22-ULTRA-CA3639",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.960Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:16.005Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:18.333Z"
+  },
+  "neptun-21118": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:17.077Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:18.575Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-14-13-13-PRO-CA3631",
+        "lastChecked": "2026-05-02T15:04:15.911Z",
+        "matchedName": "XHAM MBROJTES PANZERGLASS IPHONE 14/13/13 PRO",
+        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-IPHONE-14-13-13-PRO-CA3631",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.970Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T15:04:15.987Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T15:04:18.575Z"
   }
 }
