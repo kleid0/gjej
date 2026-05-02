@@ -1,390 +1,32 @@
 {
-  "foleja-stilus-logitech-crayon-p-r-tablet-apple-silver-white": {
+  "foleja-tablet-apple-ipad-mini-128gb-starlight": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 8535,
+        "price": 111000,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200013791/Tablet-Apple-iPad-mini-256-GB-8.3-Purple",
+        "lastChecked": "2026-05-02T07:52:47.598Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 41990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200005890/Stilus-Logitech-Crayon-per-tablet-Apple-Silver-White",
-        "lastChecked": "2026-05-02T07:52:24.173Z",
-        "suspicious": true
-      },
-      {
-        "storeId": "shpresa",
-        "price": 77990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-iphone-17/",
-        "lastChecked": "2026-05-02T07:52:23.850Z",
-        "matchedName": "Apple iPhone 17",
-        "storeProductId": "173687",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "neptun",
-        "price": 209990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iMac-24--M3---Pink-256GB-mqrd3ze-a-PC1647",
-        "lastChecked": "2026-05-02T07:52:23.850Z",
-        "matchedName": "Apple iMac 24\" M3 - Pink 256GB mqrd3ze/a",
-        "storeProductId": "/categories/Apple-iMac-24--M3---Pink-256GB-mqrd3ze-a-PC1647",
-        "matchConfidence": 100,
-        "overpriced": true
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:23.924Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:24.032Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:26.770Z"
-  },
-  "foleja-tablet-lenovo-yoga-tab-plus-16gb-256gb": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 101276,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200059386/Tablet-Lenovo-Yoga-Tab-Plus-16GB-256GB",
-        "lastChecked": "2026-05-02T07:52:24.398Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.106Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:24.195Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:23.920Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:24.180Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:28.106Z"
-  },
-  "foleja-tablet-microsoft-surface-pro10-i7-16-256-5g-lte-platinum": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 240200,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200013228/Tablet-Microsoft-Surface-Pro10-i7-16-256-5G-LTE-Platinum",
-        "lastChecked": "2026-05-02T07:52:24.411Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.292Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:24.269Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:23.943Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:24.062Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:28.292Z"
-  },
-  "foleja-tablet-apple-ipad-air-13-inch-wi-fi-256gb-gri": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 118696,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200020299/Tablet-Apple-iPad-Air-13-inch-Wi-Fi-256GB-Gri",
-        "lastChecked": "2026-05-02T07:52:28.801Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-air-13-128gb-wi-fi-m3-chip-2025/",
-        "lastChecked": "2026-05-02T07:52:28.487Z",
-        "matchedName": "Apple iPad Air 13&#8243;, 128GB, Wi-Fi, M3 Chip (2025)",
-        "storeProductId": "166855",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-IPAD-AIR-11--M3-BLACK-TA0514",
-        "lastChecked": "2026-05-02T07:52:28.488Z",
-        "matchedName": "TASTIERE APPLE MAGIC IPAD AIR 11\" M4/3 BLACK",
-        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-AIR-11--M3-BLACK-TA0514",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.513Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.649Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:29.632Z"
-  },
-  "foleja-ant-tablet-guess-gutb8g4gfbr-8-l-kur-ekologjike-kafe": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 5300,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/HRT-200004529/Cante-tablet-Guess-GUTB8G4GFBR-8-lekure-ekologjike-kafe",
-        "lastChecked": "2026-05-02T07:52:28.745Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:30.184Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.581Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.498Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.528Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:30.185Z"
-  },
-  "foleja-tablet-allnet-primeone-120-12-zoll-8gb-64gb-android-13": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 48900,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200010608/Tablet-ALLNET-PrimeOne-120-12-Zoll-8GB-64GB-Android-13",
-        "lastChecked": "2026-05-02T07:52:28.706Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:30.374Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.556Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.499Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.540Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:30.375Z"
-  },
-  "foleja-tablet-allnet-primeone-140-8gb-64gb-14-zoll-android-13": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 49500,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200010612/Tablet-ALLNET-PrimeOne-140-8GB-64GB-14-Zoll-Android-13",
-        "lastChecked": "2026-05-02T07:52:28.898Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:30.759Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.562Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.500Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.535Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:30.759Z"
-  },
-  "foleja-tablet-apple-ipad-pro-wi-fi-1tb-space-black": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 168500,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200063727/Tablet-Apple-iPad-Pro-Wi-Fi-256GB-Space-Black",
-        "lastChecked": "2026-05-02T07:52:28.955Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 109990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-pro-m5-13-wi-fi-256gb/",
-        "lastChecked": "2026-05-02T07:52:28.491Z",
-        "matchedName": "Apple iPad Pro M5, 13&#8243;, Wi-Fi, 256GB",
-        "storeProductId": "174839",
+        "productUrl": "https://shpresa.al/product/apple-ipad-mini-2024-8-3-wi-fi-128gb/",
+        "lastChecked": "2026-05-02T07:52:47.034Z",
+        "matchedName": "Apple iPad Mini 2024, 8.3&#8243;, Wi-Fi, 128GB",
+        "storeProductId": "152478",
         "matchConfidence": 100
       },
       {
         "storeId": "neptun",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
-        "lastChecked": "2026-05-02T07:52:28.491Z",
-        "matchedName": "TASTIERE APPLE MAGIC IPAD PRO 13\" M4/5 BLACK",
-        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:47.598Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -393,7 +35,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.512Z",
+        "lastChecked": "2026-05-02T07:52:47.209Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -402,148 +44,38 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.679Z",
+        "lastChecked": "2026-05-02T07:52:48.551Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:52:31.025Z"
+    "refreshedAt": "2026-05-02T07:52:48.552Z"
   },
-  "foleja-tablet-apple-ipad-air-13-wi-fi-128gb-starlight": {
+  "foleja-tablet-allnet-x-trail-100-windows-2d-scanner-nfc-lte": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 120587,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200020297/Tablet-Apple-iPad-Air-13-Wi-Fi-128GB-Starlight",
-        "lastChecked": "2026-05-02T07:52:28.735Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-air-13-128gb-wi-fi-m3-chip-2025/",
-        "lastChecked": "2026-05-02T07:52:28.484Z",
-        "matchedName": "Apple iPad Air 13&#8243;, 128GB, Wi-Fi, M3 Chip (2025)",
-        "storeProductId": "166855",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Starlight-TB0783",
-        "lastChecked": "2026-05-02T07:52:28.484Z",
-        "matchedName": "Apple 13-inch iPad Air M4 Wi-Fi 256GB Starlight",
-        "storeProductId": "/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Starlight-TB0783",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.510Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.657Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:31.669Z"
-  },
-  "foleja-korniz-allnet-p-r-tablet-15-in-e-zez": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 8882,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200010931/Kornize-ALLNET-per-tablet-15-inc-e-zeze",
-        "lastChecked": "2026-05-02T07:52:28.521Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:31.686Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.682Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.497Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.592Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:31.687Z"
-  },
-  "foleja-tablet-apple-ipad-air-11-wi-fi-128gb-purple": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 77469,
+        "price": 117700,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200020266/Tablet-Apple-iPad-Air-11-Wi-Fi-128GB-Purple",
-        "lastChecked": "2026-05-02T07:52:28.739Z"
+        "productUrl": "https://www.foleja.al/KST-200010995/Tablet-ALLNET-X-trail-100-Windows-2D-Scanner-NFC-LTE",
+        "lastChecked": "2026-05-02T07:52:47.656Z"
       },
       {
         "storeId": "shpresa",
         "price": null,
         "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-air-13-128gb-wi-fi-m3-chip-2025/",
-        "lastChecked": "2026-05-02T07:52:28.481Z",
-        "matchedName": "Apple iPad Air 13&#8243;, 128GB, Wi-Fi, M3 Chip (2025)",
-        "storeProductId": "166855",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:48.540Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-11-inch-iPad-Air--M4--Wi-Fi-256GB---Starlight-TB0776",
-        "lastChecked": "2026-05-02T07:52:28.481Z",
-        "matchedName": "Apple 11-inch iPad Air M4 Wi-Fi 256GB Starlight",
-        "storeProductId": "/categories/Apple-11-inch-iPad-Air--M4--Wi-Fi-256GB---Starlight-TB0776",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:47.427Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -552,7 +84,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.511Z",
+        "lastChecked": "2026-05-02T07:52:49.887Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -561,127 +93,32 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.686Z",
+        "lastChecked": "2026-05-02T07:52:47.733Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:52:31.700Z"
+    "refreshedAt": "2026-05-02T07:52:49.889Z"
   },
-  "foleja-korniz-allnet-p-r-tablet-12-zoll-e-zez": {
+  "foleja-tablet-microsoft-surface-pro-fb-ultra5-16gb-512gb-win11pro-platinum": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 8606,
+        "price": 191244,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200010965/Kornize-ALLNET-per-tablet-12-Zoll-e-zeze",
-        "lastChecked": "2026-05-02T07:52:28.815Z"
+        "productUrl": "https://www.foleja.al/KST-200018611/Tablet-Microsoft-Surface-Pro-FB-Ultra5-16GB-512GB-Win11Pro-Platinum",
+        "lastChecked": "2026-05-02T07:52:47.591Z"
       },
       {
         "storeId": "shpresa",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:32.049Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.690Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.497Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.600Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:32.049Z"
-  },
-  "foleja-tablet-huawei-matepad-8gb-128gb-wifi-space-gray": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 37700,
-        "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200057764/Tablet-Huawei-MatePad-8GB-128GB-WiFi-Space-Gray",
-        "lastChecked": "2026-05-02T07:52:28.910Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:33.509Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.890Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.498Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.680Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:33.510Z"
-  },
-  "foleja-tablet-apple-ipad-11-inch-256gb-ipados-18-verdh": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 72919,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200020245/Tablet-Apple-iPad-11-inch-256GB-iPadOS-18-verdhe",
-        "lastChecked": "2026-05-02T07:52:28.916Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:33.918Z",
+        "productUrl": "https://shpresa.al/product/microsoft-surface-pro-x-13-8gb-256gb-ssd-sq1-2/",
+        "lastChecked": "2026-05-02T07:52:47.048Z",
+        "matchedName": "Microsoft Surface Pro X 13&#8243;, 8GB, 256GB SSD, SQ1",
+        "storeProductId": "97173",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -689,10 +126,10 @@
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Blue-TB0705",
-        "lastChecked": "2026-05-02T07:52:28.479Z",
-        "matchedName": "Apple 11-inch iPad (A16) Wi-Fi 128GB Blue",
-        "storeProductId": "/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Blue-TB0705",
+        "productUrl": "https://www.neptun.al/categories/MICROSOFT-SURFACE-PRO-7--LP1770",
+        "lastChecked": "2026-05-02T07:52:47.049Z",
+        "matchedName": "MICROSOFT SURFACE PRO 7+",
+        "storeProductId": "/categories/MICROSOFT-SURFACE-PRO-7--LP1770",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -702,7 +139,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.501Z",
+        "lastChecked": "2026-05-02T07:52:47.391Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -711,21 +148,22 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.669Z",
+        "lastChecked": "2026-05-02T07:52:50.043Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:52:33.918Z"
+    "refreshedAt": "2026-05-02T07:52:50.044Z"
   },
-  "foleja-tablet-apple-ipad-11-inch-wi-fi-128gb-i-verdh": {
+  "foleja-xham-privat-sie-tech-protect-glass-spy-p-r-ipad-10-9-2022-ipad-11-2025": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 50100,
-        "inStock": true,
+        "price": null,
+        "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200020241/Tablet-Apple-iPad-11-inch-Wi-Fi-128GB-i-verdhe",
-        "lastChecked": "2026-05-02T07:52:28.524Z"
+        "productUrl": "https://www.foleja.al/HRT-200025913/Xham-privatesie-Tech-Protect-Glass-Spy-per-iPad-10.9-2022-iPad-11-2025",
+        "lastChecked": "2026-05-02T07:52:47.602Z",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
@@ -733,19 +171,16 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.053Z",
+        "lastChecked": "2026-05-02T07:52:50.210Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Blue-TB0705",
-        "lastChecked": "2026-05-02T07:52:28.476Z",
-        "matchedName": "Apple 11-inch iPad (A16) Wi-Fi 128GB Blue",
-        "storeProductId": "/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Blue-TB0705",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:47.650Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -754,7 +189,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.500Z",
+        "lastChecked": "2026-05-02T07:52:49.512Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -763,21 +198,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:28.638Z",
+        "lastChecked": "2026-05-02T07:52:48.204Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:52:34.054Z"
+    "refreshedAt": "2026-05-02T07:52:50.211Z"
   },
-  "foleja-tablet-apple-ipad-mini-128-gb-5g-purple": {
+  "foleja-tablet-apple-ipad-mini-256-gb-ipados-18-beige": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 91115,
+        "price": 104363,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200013787/Tablet-Apple-iPad-mini-128-GB-5G-Purple",
-        "lastChecked": "2026-05-02T07:52:34.652Z"
+        "productUrl": "https://www.foleja.al/KST-200013789/Tablet-Apple-iPad-mini-256-GB-iPadOS-18-Beige",
+        "lastChecked": "2026-05-02T07:52:47.617Z"
       },
       {
         "storeId": "shpresa",
@@ -785,7 +220,7 @@
         "inStock": null,
         "stockLabel": "Në gjendje",
         "productUrl": "https://shpresa.al/product/apple-ipad-mini-2024-8-3-wi-fi-128gb/",
-        "lastChecked": "2026-05-02T07:52:34.334Z",
+        "lastChecked": "2026-05-02T07:52:47.093Z",
         "matchedName": "Apple iPad Mini 2024, 8.3&#8243;, Wi-Fi, 128GB",
         "storeProductId": "152478",
         "matchConfidence": 100,
@@ -797,7 +232,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.566Z",
+        "lastChecked": "2026-05-02T07:52:47.676Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -806,7 +241,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.459Z",
+        "lastChecked": "2026-05-02T07:52:50.765Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -815,21 +250,71 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.470Z",
+        "lastChecked": "2026-05-02T07:52:48.642Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:52:36.095Z"
+    "refreshedAt": "2026-05-02T07:52:50.766Z"
   },
-  "foleja-tablet-apple-ipad-air-13-inch-wi-fi-128gb-blu": {
+  "foleja-mb-shtjell-s-esr-rebound-magnetic-p-r-ipad-pro-12-9-2020-2021-2022-ipad-air-13-2": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 100600,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200025865/Mbeshtjelles-ESR-Rebound-Magnetic-per-iPad-Pro-12.9-2020-2021-2022-iPad-Air-13-2024-2025-Kalter",
+        "lastChecked": "2026-05-02T07:52:47.715Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200020296/Tablet-Apple-iPad-Air-13-inch-Wi-Fi-128GB-Blu",
-        "lastChecked": "2026-05-02T07:52:34.638Z"
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:50.204Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:47.578Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:51.165Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:48.310Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:51.170Z"
+  },
+  "foleja-tablet-apple-ipad-air-11-inch-wi-fi-256gb-starlight": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 89820,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200020269/Tablet-Apple-iPad-Air-11-inch-Wi-Fi-256GB-Starlight",
+        "lastChecked": "2026-05-02T07:52:47.411Z"
       },
       {
         "storeId": "shpresa",
@@ -837,362 +322,7 @@
         "inStock": null,
         "stockLabel": "Jo në gjendje",
         "productUrl": "https://shpresa.al/product/apple-ipad-air-13-128gb-wi-fi-m3-chip-2025/",
-        "lastChecked": "2026-05-02T07:52:34.343Z",
-        "matchedName": "Apple iPad Air 13&#8243;, 128GB, Wi-Fi, M3 Chip (2025)",
-        "storeProductId": "166855",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Blue-TB0780",
-        "lastChecked": "2026-05-02T07:52:34.343Z",
-        "matchedName": "Apple 13-inch iPad Air (M4) Wi-Fi 256GB - Blue",
-        "storeProductId": "/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Blue-TB0780",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.477Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.592Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:36.098Z"
-  },
-  "foleja-tablet-grafik-huion-q620m-wireless-dhe-me-kabllo-266-7x166-7mm-8-butona-programu": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 12871,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/INP-200007711/Tablet-grafik-Huion-Q620M-wireless-dhe-me-kabllo-266.7x166.7mm-8-butona-programues-i-zi",
-        "lastChecked": "2026-05-02T07:52:34.812Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:36.123Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.391Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.567Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.395Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:36.124Z"
-  },
-  "foleja-tablet-allnet-primeone-100-10-zoll-4gb-16gb-android-13": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 47100,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200010582/Tablet-ALLNET-PrimeOne-100-10-Zoll-4GB-16GB-Android-13",
-        "lastChecked": "2026-05-02T07:52:34.670Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:36.182Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.470Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.496Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.399Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:36.183Z"
-  },
-  "foleja-tablet-ordissimo-c-lia-sc9863a-4gb-64gb-wi-fi-graphite": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 38437,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200056944/Tablet-Ordissimo-Celia-SC9863A-4GB-64GB-Wi-Fi-graphite",
-        "lastChecked": "2026-05-02T07:52:34.837Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:36.378Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.631Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.460Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.462Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:36.380Z"
-  },
-  "foleja-mb-shtjell-s-tablet-3mk-protection-soft-tablet-case-p-r-ipad-mini-4-5-i-zi": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 2800,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200015469/Mbeshtjelles-tablete-3mk-Protection-Soft-Tablet-Case-per-iPad-mini-4-5-i-zi",
-        "lastChecked": "2026-05-02T07:52:34.665Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:36.569Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.597Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.439Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.430Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:36.569Z"
-  },
-  "foleja-tablet-apple-ipad-air-13-inch-wi-fi-128gb-purple": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 104400,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200020298/Tablet-Apple-iPad-Air-13-inch-Wi-Fi-128GB-Purple",
-        "lastChecked": "2026-05-02T07:52:34.855Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-air-13-128gb-wi-fi-m3-chip-2025/",
-        "lastChecked": "2026-05-02T07:52:34.347Z",
-        "matchedName": "Apple iPad Air 13&#8243;, 128GB, Wi-Fi, M3 Chip (2025)",
-        "storeProductId": "166855",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Blue-TB0780",
-        "lastChecked": "2026-05-02T07:52:34.348Z",
-        "matchedName": "Apple 13-inch iPad Air (M4) Wi-Fi 256GB - Blue",
-        "storeProductId": "/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Blue-TB0780",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.542Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.599Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:36.616Z"
-  },
-  "foleja-korniz-p-r-tablet-allnet-14-zoll-ngjyr-argjendi": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 8148,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200010921/Kornize-per-tablet-ALLNET-14-Zoll-ngjyre-argjendi",
-        "lastChecked": "2026-05-02T07:52:34.713Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:36.696Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.634Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.460Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.452Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:36.697Z"
-  },
-  "foleja-tablet-apple-ipad-air-11-inch-wi-fi-1tb-gri": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 148158,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200020275/Tablet-Apple-iPad-Air-11-inch-Wi-Fi-1TB-Gri",
-        "lastChecked": "2026-05-02T07:52:34.816Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-air-13-128gb-wi-fi-m3-chip-2025/",
-        "lastChecked": "2026-05-02T07:52:34.329Z",
+        "lastChecked": "2026-05-02T07:52:47.006Z",
         "matchedName": "Apple iPad Air 13&#8243;, 128GB, Wi-Fi, M3 Chip (2025)",
         "storeProductId": "166855",
         "matchConfidence": 100,
@@ -1204,7 +334,1971 @@
         "inStock": null,
         "stockLabel": "Në gjendje",
         "productUrl": "https://www.neptun.al/categories/Apple-11-inch-iPad-Air--M4--Wi-Fi-256GB---Starlight-TB0776",
-        "lastChecked": "2026-05-02T07:52:34.330Z",
+        "lastChecked": "2026-05-02T07:52:47.015Z",
+        "matchedName": "Apple 11-inch iPad Air M4 Wi-Fi 256GB Starlight",
+        "storeProductId": "/categories/Apple-11-inch-iPad-Air--M4--Wi-Fi-256GB---Starlight-TB0776",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/184367",
+        "lastChecked": "2026-05-02T07:52:47.017Z",
+        "matchedName": "Apple iPad Air Wifi 13\" M4 128GB MH5N4HC/A Space Grey",
+        "storeProductId": "184367",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:51.279Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:51.280Z"
+  },
+  "foleja-mb-shtjell-s-belkin-bbz001de-v1-p-r-ipad-pro-11-3rd-gen-ipad-air-11-m2-ipad-pro-": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200022517/Mbeshtjelles-Belkin-BBZ001DE-V1-per-iPad-Pro-11-3rd-Gen-iPad-Air-11-M2-iPad-Pro-11-2.-Gen-iPad-Pro-10-5-ngjyre-e-zeze",
+        "lastChecked": "2026-05-02T07:52:47.595Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:48.929Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:47.427Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:51.572Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:47.975Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:51.613Z"
+  },
+  "foleja-tablet-apple-ipad-11-inch-512gb-ipados-18-e-verdh": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 99033,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200020249/Tablet-Apple-iPad-11-inch-512GB-iPadOS-18-e-verdhe",
+        "lastChecked": "2026-05-02T07:52:47.798Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:51.630Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Blue-TB0705",
+        "lastChecked": "2026-05-02T07:52:47.089Z",
+        "matchedName": "Apple 11-inch iPad (A16) Wi-Fi 128GB Blue",
+        "storeProductId": "/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Blue-TB0705",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:49.234Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:48.411Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:51.631Z"
+  },
+  "foleja-mb-shtjell-s-tucano-magnet-p-r-ipad-air-13-m2-m3-ipad-pro-12-9-plastik-i-zi": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 4821,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200051037/Mbeshtjelles-Tucano-MAGNET-per-iPad-Air-13-M2-M3-iPad-Pro-12.9-plastik-i-zi",
+        "lastChecked": "2026-05-02T07:52:47.759Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:49.599Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:47.641Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:51.828Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:48.350Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:51.829Z"
+  },
+  "foleja-mb-shtjell-s-p-r-ipad-pro-otterbox-hiri": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 5800,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/YLL-200007912/Mbeshtjelles-per-iPad-Pro-OtterBox-hiri",
+        "lastChecked": "2026-05-02T07:52:47.637Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:49.522Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:47.555Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.085Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:48.365Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:52.086Z"
+  },
+  "foleja-tablet-apple-ipad-mini-256-gb-ipados-18-blu": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 104439,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200013790/Tablet-Apple-iPad-mini-256-GB-iPadOS-18-Blu",
+        "lastChecked": "2026-05-02T07:52:52.814Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-mini-2024-8-3-wi-fi-128gb/",
+        "lastChecked": "2026-05-02T07:52:52.405Z",
+        "matchedName": "Apple iPad Mini 2024, 8.3&#8243;, Wi-Fi, 128GB",
+        "storeProductId": "152478",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.593Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.450Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.456Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:53.460Z"
+  },
+  "foleja-mbajt-se-tablet-neomounts-ipad2n-un20black-p-r-ipad-9-7-ipad-air-anti-vjedhje-e-": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 8500,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ALB-200000474/Mbajtese-tablete-Neomounts-IPAD2N-UN20BLACK-per-iPad-9.7-iPad-Air-anti-vjedhje-e-zeze",
+        "lastChecked": "2026-05-02T07:52:52.702Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.748Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.526Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.473Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.966Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:53.749Z"
+  },
+  "foleja-tablet-apple-ipad-mini-128-gb-ipados-18-gri": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 88782,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200013784/Tablet-Apple-iPad-mini-128-GB-iPadOS-18-Gri",
+        "lastChecked": "2026-05-02T07:52:52.651Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-mini-2024-8-3-wi-fi-128gb/",
+        "lastChecked": "2026-05-02T07:52:52.402Z",
+        "matchedName": "Apple iPad Mini 2024, 8.3&#8243;, Wi-Fi, 128GB",
+        "storeProductId": "152478",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.584Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.449Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.296Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:53.999Z"
+  },
+  "foleja-mb-shtjell-s-tablet-3mk-protection-soft-tablet-case-p-r-apple-ipad-pro-7-ipad-pr": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200015538/Mbeshtjelles-tablete-3mk-Protection-Soft-Tablet-Case-per-Apple-iPad-Pro-7-iPad-Pro-13-2024-e-zeze",
+        "lastChecked": "2026-05-02T07:52:52.859Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-pro-m5-13-wi-fi-256gb/",
+        "lastChecked": "2026-05-02T07:52:52.427Z",
+        "matchedName": "Apple iPad Pro M5, 13&#8243;, Wi-Fi, 256GB",
+        "storeProductId": "174839",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
+        "lastChecked": "2026-05-02T07:52:52.427Z",
+        "matchedName": "TASTIERE APPLE MAGIC IPAD PRO 13\" M4/5 BLACK",
+        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.452Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:54.033Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:54.643Z"
+  },
+  "foleja-xham-i-temperuar-baseus-crystal-0-3mm-p-r-ipad-pro-air3-10-2-ipad-7-8-9-2-cop-me": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2300,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/INP-200002068/Xham-i-temperuar-Baseus-Crystal-0.3mm-per-iPad-Pro-Air3-10.2-iPad-7-8-9-2-cope-me-set-pastrimi",
+        "lastChecked": "2026-05-02T07:52:52.752Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:54.772Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.782Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.497Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.417Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:54.774Z"
+  },
+  "foleja-xham-mbrojt-s-panzerglass-super-privacy-p-r-ipad-10-2": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 9300,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200013810/Xham-mbrojtes-PanzerGlass-Super-privacy-per-iPad-10.2",
+        "lastChecked": "2026-05-02T07:52:52.825Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:55.112Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.694Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.491Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.318Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:55.114Z"
+  },
+  "foleja-mb-shtjell-s-me-tastier-tech-protect-smartcase-magnetic-p-r-ipad-pro-12-9-2020-2": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200025891/Mbeshtjelles-me-tastiere-Tech-Protect-Smartcase-Magnetic-per-iPad-Pro-12.9-2020-2021-2022-iPad-Air-13-2024-2025-E-zeze",
+        "lastChecked": "2026-05-02T07:52:52.844Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:55.153Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.748Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.451Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.429Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:55.154Z"
+  },
+  "foleja-mb-shtjell-s-tucano-ipd1022upp-z-p-r-ipad-11-10-9-himmelblau": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200051024/Mbeshtjelles-TUCANO-IPD1022UPP-Z-per-iPad-11-10.9-himmelblau",
+        "lastChecked": "2026-05-02T07:52:52.665Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:55.206Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.641Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.450Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.410Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:55.207Z"
+  },
+  "foleja-mb-shtjell-s-me-tastier-tech-protect-smartcase-magnetic-p-r-ipad-10-9-2022-ipad-": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200025889/Mbeshtjelles-me-tastiere-Tech-Protect-SmartCase-Magnetic-per-iPad-10.9-2022-iPad-11-2025-e-zeze",
+        "lastChecked": "2026-05-02T07:52:52.882Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:55.594Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.715Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.456Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.421Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:55.596Z"
+  },
+  "foleja-mb-shtjell-s-tucano-up-plus-p-r-ipad-11-10-9-gri": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 5837,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200051025/Mbeshtjelles-Tucano-Up-Plus-per-iPad-11-10.9-gri",
+        "lastChecked": "2026-05-02T07:52:52.699Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:55.629Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.670Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.489Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.365Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:55.629Z"
+  },
+  "foleja-mb-shtjell-s-panzerglass-p-r-ipad-11-black-anti-bakterial": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2660,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200047070/Mbeshtjelles-PanzerGlass-per-iPad-11-Black-anti-bakterial",
+        "lastChecked": "2026-05-02T07:52:52.854Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.029Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.608Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.444Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.419Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:56.030Z"
+  },
+  "foleja-mbrojt-s-ekrani-xhami-tech-protect-easy-set-p-r-ipad-10-9-2022-ipad-11-2025-2-co": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200025876/Mbrojtes-ekrani-xhami-Tech-Protect-Easy-Set-per-iPad-10.9-2022-iPad-11-2025-2-cope",
+        "lastChecked": "2026-05-02T07:52:52.669Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.064Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.610Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:52.452Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:53.254Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:56.065Z"
+  },
+  "foleja-tablet-apple-ipad-mini-wi-fi-256gb-21-1-cm-gri": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 95546,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200013776/Tablet-Apple-iPad-mini-Wi-Fi-256GB-21.1-cm-Gri",
+        "lastChecked": "2026-05-02T07:52:56.727Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 41990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-mini-2024-8-3-wi-fi-128gb/",
+        "lastChecked": "2026-05-02T07:52:56.265Z",
+        "matchedName": "Apple iPad Mini 2024, 8.3&#8243;, Wi-Fi, 128GB",
+        "storeProductId": "152478",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.708Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.300Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.487Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:57.345Z"
+  },
+  "foleja-tablet-apple-ipad-pro-wi-fi-2tb-nano-texture-glass-silver": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 288600,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200063726/Tablet-Apple-iPad-Pro-Wi-Fi-2TB-nano-texture-glass-Silver",
+        "lastChecked": "2026-05-02T07:52:56.769Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-pro-m5-13-wi-fi-256gb/",
+        "lastChecked": "2026-05-02T07:52:56.282Z",
+        "matchedName": "Apple iPad Pro M5, 13&#8243;, Wi-Fi, 256GB",
+        "storeProductId": "174839",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 45990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
+        "lastChecked": "2026-05-02T07:52:56.282Z",
+        "matchedName": "TASTIERE APPLE MAGIC IPAD PRO 13\" M4/5 BLACK",
+        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.310Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.503Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:57.779Z"
+  },
+  "foleja-tablet-apple-ipad-mini-wi-fi-512gb-21-1-cm-blu": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 122000,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200013782/Tablet-Apple-iPad-mini-Wi-Fi-512GB-21.1-cm-Blu",
+        "lastChecked": "2026-05-02T07:52:56.710Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 41990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-mini-2024-8-3-wi-fi-128gb/",
+        "lastChecked": "2026-05-02T07:52:56.262Z",
+        "matchedName": "Apple iPad Mini 2024, 8.3&#8243;, Wi-Fi, 128GB",
+        "storeProductId": "152478",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.640Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.291Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.482Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:57.845Z"
+  },
+  "foleja-mbrojt-s-ekrani-paper-like-4smarts-p-r-ipad-11-ipad-10-9-transparent": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200040473/Mbrojtes-ekrani-paper-like-4smarts-per-iPad-11-iPad-10.9-transparent",
+        "lastChecked": "2026-05-02T07:52:56.501Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:58.595Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.463Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.291Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.385Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:58.596Z"
+  },
+  "foleja-tastatur-me-mb-shtjell-s-belkin-pro-p-r-ipad-pro-12-9": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 19694,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200019852/Tastature-me-mbeshtjelles-Belkin-Pro-per-iPad-Pro-12.9",
+        "lastChecked": "2026-05-02T07:52:56.588Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:58.623Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.507Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.311Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.387Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:58.624Z"
+  },
+  "foleja-mbrojt-s-ekrani-panzerglass-graphicpaper-p-r-ipad-10-2-transparent": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 3794,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200047071/Mbrojtes-ekrani-PanzerGlass-GraphicPaper-per-iPad-10.2-transparent",
+        "lastChecked": "2026-05-02T07:52:56.498Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:58.728Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.464Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.290Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.394Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:58.729Z"
+  },
+  "foleja-stilolaps-kapacitiv-aktiv-p-r-ipad-choetech-hg04-i-bardh": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 1800,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/HRT-200001633/Stilolaps-kapacitiv-aktiv-per-iPad-Choetech-HG04-i-bardhe",
+        "lastChecked": "2026-05-02T07:52:56.774Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:59.312Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.539Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.297Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.397Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:59.312Z"
+  },
+  "foleja-mb-shtjell-s-esr-flip-hybrid-p-r-ipad-10-9-11-blue": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2395,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200024404/Mbeshtjelles-ESR-Flip-Hybrid-per-iPad-10.9-11-Blue",
+        "lastChecked": "2026-05-02T07:52:56.494Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:59.474Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.468Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.289Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.399Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:59.475Z"
+  },
+  "foleja-mb-shtjell-s-tech-protect-smartcase-p-r-ipad-10-9-2022-blu": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2300,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200025432/Mbeshtjelles-Tech-Protect-SmartCase-per-iPad-10.9-2022-Blu",
+        "lastChecked": "2026-05-02T07:52:56.654Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:59.632Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.457Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.290Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.404Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:59.632Z"
+  },
+  "foleja-mbrojt-s-ekrani-privacy-panzerglass-p-r-ipad-air-11-10-9-transparent": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2802,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200047390/Mbrojtes-ekrani-privacy-PanzerGlass-per-iPad-Air-11-10.9-transparent",
+        "lastChecked": "2026-05-02T07:52:56.732Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:59.857Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.542Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.310Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.400Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:52:59.858Z"
+  },
+  "foleja-xham-i-temperuar-wozinsky-p-r-ipad-air-11-2024-2025": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200013138/Xham-i-temperuar-Wozinsky-per-iPad-Air-11-2024-2025",
+        "lastChecked": "2026-05-02T07:52:56.515Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.026Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.547Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.295Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.398Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:00.027Z"
+  },
+  "foleja-mb-shtjell-s-tech-protect-smartcase-p-r-ipad-air-10-9-11-roz": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2300,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200015039/Mbeshtjelles-Tech-Protect-SmartCase-per-iPad-Air-10.9-11-roze",
+        "lastChecked": "2026-05-02T07:52:56.647Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.129Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.534Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.289Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:52:56.403Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:00.130Z"
+  },
+  "foleja-tablet-apple-ipad-mini-128-gb-21-1-cm-beige": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 19593,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200005316/Tablet-Apple-iPad-mini-128-GB-21.1-cm-Beige",
+        "lastChecked": "2026-05-02T07:53:00.747Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 41990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-mini-2024-8-3-wi-fi-128gb/",
+        "lastChecked": "2026-05-02T07:53:00.326Z",
+        "matchedName": "Apple iPad Mini 2024, 8.3&#8243;, Wi-Fi, 128GB",
+        "storeProductId": "152478",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.542Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.465Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.486Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:01.026Z"
+  },
+  "foleja-tablet-apple-ipad-pro-11-512-gb-8-gb-ipados-17-silver": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200008287/Tablet-Apple-iPad-Pro-11-512-GB-8-GB-iPadOS-17-Silver",
+        "lastChecked": "2026-05-02T07:53:00.693Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-pro-m5-13-wi-fi-256gb/",
+        "lastChecked": "2026-05-02T07:53:00.364Z",
+        "matchedName": "Apple iPad Pro M5, 13&#8243;, Wi-Fi, 256GB",
+        "storeProductId": "174839",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
+        "lastChecked": "2026-05-02T07:53:00.364Z",
+        "matchedName": "TASTIERE APPLE MAGIC IPAD PRO 13\" M4/5 BLACK",
+        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.463Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.502Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:01.661Z"
+  },
+  "foleja-mb-shtjell-s-stark-4smarts-apple-ipad-10-i-zi-transparent": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 6638,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200027426/Mbeshtjelles-Stark-4smarts-Apple-iPad-10-i-zi-transparent",
+        "lastChecked": "2026-05-02T07:53:00.772Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:01.940Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.455Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.384Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.435Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:01.941Z"
+  },
+  "foleja-xham-i-temperuar-wozinsky-p-r-ipad-mini-8-3-2024": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 900,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200020415/Xham-i-temperuar-Wozinsky-per-iPad-mini-8.3-2024",
+        "lastChecked": "2026-05-02T07:53:00.399Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:02.521Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.596Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.382Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.485Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:02.522Z"
+  },
+  "foleja-tablet-apple-ipad-air-13-wi-fi-128gb-space-grey": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 102800,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200020295/Tablet-Apple-iPad-Air-13-Wi-Fi-128GB-Space-Grey",
+        "lastChecked": "2026-05-02T07:53:00.797Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-air-13-128gb-wi-fi-m3-chip-2025/",
+        "lastChecked": "2026-05-02T07:53:00.376Z",
+        "matchedName": "Apple iPad Air 13&#8243;, 128GB, Wi-Fi, M3 Chip (2025)",
+        "storeProductId": "166855",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Space-Grey-TB0782",
+        "lastChecked": "2026-05-02T07:53:00.377Z",
+        "matchedName": "Apple 13-inch iPad Air M4 Wi-Fi 256GB Space Grey",
+        "storeProductId": "/categories/Apple-13-inch-iPad-Air--M4--Wi-Fi-256GB---Space-Grey-TB0782",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.468Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.539Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:02.705Z"
+  },
+  "foleja-mb-shtjell-s-tech-protect-smartcase-p-r-ipad-9-7-5-6-gjenerat-roz": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2300,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200014663/Mbeshtjelles-Tech-Protect-SmartCase-per-iPad-9.7-5-6-gjenerate-roze",
+        "lastChecked": "2026-05-02T07:53:00.743Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:02.983Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.573Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.384Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.470Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:02.985Z"
+  },
+  "foleja-laps-digjital-logitech-crayon-apple-ipad-6th-ngjyr-portokalli": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 11747,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200005892/Laps-digjital-Logitech-Crayon-Apple-iPad-6th-Ngjyre-portokalli",
+        "lastChecked": "2026-05-02T07:53:00.668Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:02.986Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.558Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.462Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.504Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:02.987Z"
+  },
+  "foleja-mb-shtjell-s-tech-protect-sc-pen-p-r-ipad-10-2022-roz": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2700,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200019124/Mbeshtjelles-Tech-Protect-SC-Pen-per-iPad-10-2022-Roze",
+        "lastChecked": "2026-05-02T07:53:00.618Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:03.106Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.599Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.387Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.493Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:03.107Z"
+  },
+  "foleja-mb-shtjell-s-tech-protect-smartcase-p-r-ipad-air-10-9-11-e-zez": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2300,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200027303/Mbeshtjelles-Tech-Protect-SmartCase-per-iPad-Air-10.9-11-e-zeze",
+        "lastChecked": "2026-05-02T07:53:00.759Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:03.195Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.602Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.464Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.499Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:03.196Z"
+  },
+  "foleja-mb-shtjell-s-spigen-smart-fold-p-r-ipad-10-9-2022-i-zi": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 4500,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200024976/Mbeshtjelles-Spigen-Smart-Fold-per-iPad-10.9-2022-i-zi",
+        "lastChecked": "2026-05-02T07:53:00.808Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:03.354Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.591Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.463Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:00.488Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:03.355Z"
+  },
+  "foleja-ipad-air-apple-11-inch-wi-fi-cellular-128gb-blu": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 89204,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200020280/iPad-Air-Apple-11-inch-Wi-Fi-Cellular-128GB-Blu",
+        "lastChecked": "2026-05-02T07:53:00.636Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:03.721Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Apple-11-inch-iPad-Air--M4--Wi-Fi-256GB---Starlight-TB0776",
+        "lastChecked": "2026-05-02T07:53:00.373Z",
         "matchedName": "Apple 11-inch iPad Air M4 Wi-Fi 256GB Starlight",
         "storeProductId": "/categories/Apple-11-inch-iPad-Air--M4--Wi-Fi-256GB---Starlight-TB0776",
         "matchConfidence": 100,
@@ -1216,7 +2310,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.462Z",
+        "lastChecked": "2026-05-02T07:53:00.464Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1225,32 +2319,29 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.591Z",
+        "lastChecked": "2026-05-02T07:53:00.518Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:52:36.727Z"
+    "refreshedAt": "2026-05-02T07:53:03.722Z"
   },
-  "foleja-tablet-apple-ipad-air-11-inch-wi-fi-256gb-blu": {
+  "foleja-tablet-apple-ipad-11-inch-wi-fi-cellular-512gb-roz": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 85331,
+        "price": 107727,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200020268/Tablet-Apple-iPad-Air-11-inch-Wi-Fi-256GB-Blu",
-        "lastChecked": "2026-05-02T07:52:34.640Z"
+        "productUrl": "https://www.foleja.al/KST-200020262/Tablet-Apple-iPad-11-inch-Wi-Fi-Cellular-512GB-roze",
+        "lastChecked": "2026-05-02T07:53:00.595Z"
       },
       {
         "storeId": "shpresa",
         "price": null,
         "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-air-13-128gb-wi-fi-m3-chip-2025/",
-        "lastChecked": "2026-05-02T07:52:34.325Z",
-        "matchedName": "Apple iPad Air 13&#8243;, 128GB, Wi-Fi, M3 Chip (2025)",
-        "storeProductId": "166855",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.067Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1258,359 +2349,10 @@
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-11-inch-iPad-Air-M4-Wi-Fi-128GB---Blue-TB0770",
-        "lastChecked": "2026-05-02T07:52:34.325Z",
-        "matchedName": "Apple 11-inch iPad Air (M4) Wi-Fi 128GB - Blue",
-        "storeProductId": "/categories/Apple-11-inch-iPad-Air-M4-Wi-Fi-128GB---Blue-TB0770",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.430Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.546Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:36.929Z"
-  },
-  "foleja-tablet-grafik-huion-kamvas-24-plus-5080-lpi-526-85-x-296-35-mm-usb-c-e-zez": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 89400,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ACN-300248872/Tablet-grafik-HUION-Kamvas-24-Plus-5080-lpi-526-85-x-296-35-mm-USB-C-E-zeze",
-        "lastChecked": "2026-05-02T07:52:34.833Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.082Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.620Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.603Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.447Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:37.082Z"
-  },
-  "foleja-bezel-allnet-p-r-tablet-10-inch-e-bardh": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 7598,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200010909/Bezel-ALLNET-per-tablet-10-inch-e-bardhe",
-        "lastChecked": "2026-05-02T07:52:34.900Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.240Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.620Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.585Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:34.454Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:37.240Z"
-  },
-  "foleja-tablet-allnet-primeone-180-8gb-64gb-18-zoll-android-13": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 58400,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200010602/Tablet-ALLNET-PrimeOne-180-8GB-64GB-18-Zoll-Android-13",
-        "lastChecked": "2026-05-02T07:52:37.785Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:38.372Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.610Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.566Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.555Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:38.373Z"
-  },
-  "foleja-tablet-allnet-primeone-210-21-zoll-8gb-64gb-android-13": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 59900,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200010604/Tablet-ALLNET-PrimeOne-210-21-Zoll-8GB-64GB-Android-13",
-        "lastChecked": "2026-05-02T07:52:37.831Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:38.643Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.617Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.556Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.577Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:38.644Z"
-  },
-  "foleja-tablet-allnet-primeone101-l-8gb-64gb-android-13-10-zoll": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 47100,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200011822/Tablet-ALLNET-PrimeOne101-L-8GB-64GB-Android-13-10-Zoll",
-        "lastChecked": "2026-05-02T07:52:37.953Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:38.804Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.611Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.554Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.567Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:38.804Z"
-  },
-  "foleja-tablet-allnet-primeone-150-15-zoll-8gb-64gb-android-13": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 52100,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200010900/Tablet-ALLNET-PrimeOne-150-15-Zoll-8GB-64GB-Android-13",
-        "lastChecked": "2026-05-02T07:52:37.907Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:38.877Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.611Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.552Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.565Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:52:38.878Z"
-  },
-  "foleja-tablet-apple-ipad-air-11-wi-fi-128gb-gri": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 80300,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200020263/Tablet-Apple-iPad-Air-11-Wi-Fi-128GB-Gri",
-        "lastChecked": "2026-05-02T07:52:37.938Z"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-air-13-128gb-wi-fi-m3-chip-2025/",
-        "lastChecked": "2026-05-02T07:52:37.534Z",
-        "matchedName": "Apple iPad Air 13&#8243;, 128GB, Wi-Fi, M3 Chip (2025)",
-        "storeProductId": "166855",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-IPAD-AIR-11--M3-BLACK-TA0514",
-        "lastChecked": "2026-05-02T07:52:37.534Z",
-        "matchedName": "TASTIERE APPLE MAGIC IPAD AIR 11\" M4/3 BLACK",
-        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-AIR-11--M3-BLACK-TA0514",
+        "productUrl": "https://www.neptun.al/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Blue-TB0705",
+        "lastChecked": "2026-05-02T07:53:00.330Z",
+        "matchedName": "Apple 11-inch iPad (A16) Wi-Fi 128GB Blue",
+        "storeProductId": "/categories/Apple-11-inch-iPad--A16--Wi-Fi-128GB-Blue-TB0705",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -1620,7 +2362,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.558Z",
+        "lastChecked": "2026-05-02T07:53:00.383Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1629,31 +2371,31 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.681Z",
+        "lastChecked": "2026-05-02T07:53:00.589Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:52:39.018Z"
+    "refreshedAt": "2026-05-02T07:53:04.068Z"
   },
-  "foleja-tablet-apple-ipad-256-gb-10-2-space-grey": {
+  "foleja-tablet-apple-ipad-mini-wi-fi-256gb-21-1-cm-8-3-blue": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 47700,
+        "price": 88100,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200006546/Tablet-Apple-iPad-256-GB-10.2-Space-Grey",
-        "lastChecked": "2026-05-02T07:52:37.781Z"
+        "productUrl": "https://www.foleja.al/KST-200013778/Tablet-Apple-iPad-mini-Wi-Fi-256GB-21.1-cm-8.3-Blue",
+        "lastChecked": "2026-05-02T07:53:04.805Z"
       },
       {
         "storeId": "shpresa",
-        "price": 26490,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-ipad-pro-10th-gen-10-9-64gb/",
-        "lastChecked": "2026-05-02T07:52:37.522Z",
-        "matchedName": "Apple iPad 10th Gen, 10.9&#8243; 64GB",
-        "storeProductId": "100231",
+        "price": 41990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-mini-2024-8-3-wi-fi-128gb/",
+        "lastChecked": "2026-05-02T07:53:04.360Z",
+        "matchedName": "Apple iPad Mini 2024, 8.3&#8243;, Wi-Fi, 128GB",
+        "storeProductId": "152478",
         "matchConfidence": 100
       },
       {
@@ -1662,7 +2404,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.680Z",
+        "lastChecked": "2026-05-02T07:53:04.772Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1671,7 +2413,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.553Z",
+        "lastChecked": "2026-05-02T07:53:04.500Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1680,21 +2422,128 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.596Z",
+        "lastChecked": "2026-05-02T07:53:04.571Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:52:39.052Z"
+    "refreshedAt": "2026-05-02T07:53:05.809Z"
   },
-  "foleja-korniz-montimi-tablet-allnet-15-in-e-zez": {
+  "foleja-tablet-apple-ipad-pro-11-256-gb-8-gb-ipados-17-e-zez": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 8882,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200008292/Tablet-Apple-iPad-Pro-11-256-GB-8-GB-iPadOS-17-e-zeze",
+        "lastChecked": "2026-05-02T07:53:04.611Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-ipad-pro-m5-13-wi-fi-256gb/",
+        "lastChecked": "2026-05-02T07:53:04.357Z",
+        "matchedName": "Apple iPad Pro M5, 13&#8243;, Wi-Fi, 256GB",
+        "storeProductId": "174839",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
+        "lastChecked": "2026-05-02T07:53:04.357Z",
+        "matchedName": "TASTIERE APPLE MAGIC IPAD PRO 13\" M4/5 BLACK",
+        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.489Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.469Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:06.153Z"
+  },
+  "foleja-tablet-apple-ipad-mini-wi-fi-512gb-8-3-inch-vjollc": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 107700,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200013783/Tablet-Apple-iPad-mini-Wi-Fi-512GB-8.3-inch-vjollce",
+        "lastChecked": "2026-05-02T07:53:04.767Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 41990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200010927/Kornize-montimi-tablet-ALLNET-15-inc-e-zeze",
-        "lastChecked": "2026-05-02T07:52:37.933Z"
+        "productUrl": "https://shpresa.al/product/apple-ipad-mini-2024-8-3-wi-fi-128gb/",
+        "lastChecked": "2026-05-02T07:53:04.322Z",
+        "matchedName": "Apple iPad Mini 2024, 8.3&#8243;, Wi-Fi, 128GB",
+        "storeProductId": "152478",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.761Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.374Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.568Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:06.202Z"
+  },
+  "foleja-xham-i-temperuar-joyroom-jr-mst0158-p-r-ipad-air-pro-9-7-2013-2018": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 1300,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/HRT-200020188/Xham-i-temperuar-Joyroom-JR-MST0158-per-iPad-Air-Pro-9.7-2013-2018",
+        "lastChecked": "2026-05-02T07:53:04.771Z"
       },
       {
         "storeId": "shpresa",
@@ -1702,7 +2551,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:39.644Z",
+        "lastChecked": "2026-05-02T07:53:06.764Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1711,7 +2560,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.726Z",
+        "lastChecked": "2026-05-02T07:53:04.593Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1720,7 +2569,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.538Z",
+        "lastChecked": "2026-05-02T07:53:04.488Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1729,21 +2578,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.603Z",
+        "lastChecked": "2026-05-02T07:53:04.460Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:52:39.644Z"
+    "refreshedAt": "2026-05-02T07:53:06.765Z"
   },
-  "foleja-tablet-lenovo-k11-2nd-gen-8gb-256gb-2-5k-gri": {
+  "foleja-mb-shtjell-s-targus-versavu-p-r-ipad-10-9-tpu-me-kapak-transparent": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 37974,
+        "price": 5123,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200056849/Tablet-Lenovo-K11-2nd-Gen-8GB-256GB-2.5K-gri",
-        "lastChecked": "2026-05-02T07:52:37.787Z"
+        "productUrl": "https://www.foleja.al/KST-200061962/Mbeshtjelles-Targus-Versavu-per-iPad-10.9-TPU-me-kapak-transparent",
+        "lastChecked": "2026-05-02T07:53:04.794Z"
       },
       {
         "storeId": "shpresa",
@@ -1751,7 +2600,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:41.139Z",
+        "lastChecked": "2026-05-02T07:53:06.801Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1760,7 +2609,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.985Z",
+        "lastChecked": "2026-05-02T07:53:04.581Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1769,7 +2618,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.539Z",
+        "lastChecked": "2026-05-02T07:53:04.489Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1778,10 +2627,1378 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:52:37.683Z",
+        "lastChecked": "2026-05-02T07:53:04.478Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:52:41.140Z"
+    "refreshedAt": "2026-05-02T07:53:06.802Z"
+  },
+  "foleja-mb-shtjell-s-esr-flip-hybrid-p-r-ipad-air-13-blue": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 5500,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200022643/Mbeshtjelles-ESR-Flip-Hybrid-per-iPad-Air-13-Blue",
+        "lastChecked": "2026-05-02T07:53:04.827Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:07.026Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.591Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.434Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.482Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:07.027Z"
+  },
+  "foleja-xham-i-temperuar-wozinsky-p-r-ipad-pro-11-2024": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200013140/Xham-i-temperuar-Wozinsky-per-iPad-Pro-11-2024",
+        "lastChecked": "2026-05-02T07:53:04.596Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:07.032Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.630Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.387Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.481Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:07.033Z"
+  },
+  "foleja-mb-shtjell-s-folio-tucano-ipd109upp-dg-p-r-ipad-air-pro-10-9-11-gri": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200051034/Mbeshtjelles-folio-Tucano-IPD109UPP-DG-per-iPad-Air-Pro-10.9-11-gri",
+        "lastChecked": "2026-05-02T07:53:04.820Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:07.426Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.606Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.502Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.474Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:07.427Z"
+  },
+  "foleja-apple-ipad-pro-m4-11-cellular-2tb-standard-glass-silver": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200008299/Apple-iPad-Pro-M4-11-Cellular-2TB-Standard-Glass-Silver",
+        "lastChecked": "2026-05-02T07:53:04.688Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:07.469Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.613Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.487Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.484Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:07.470Z"
+  },
+  "foleja-mb-shtjell-s-tech-protect-smartcase-p-r-ipad-10-9-2022-e-zez": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2300,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200028325/Mbeshtjelles-Tech-Protect-SmartCase-per-iPad-10.9-2022-e-zeze",
+        "lastChecked": "2026-05-02T07:53:04.634Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:07.475Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.540Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.445Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.479Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:07.476Z"
+  },
+  "foleja-mb-shtjell-s-tech-protect-smartcase-p-r-ipad-10-2-2019-2021-i-zi": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2300,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200025728/Mbeshtjelles-Tech-Protect-SmartCase-per-iPad-10.2-2019-2021-i-zi",
+        "lastChecked": "2026-05-02T07:53:04.605Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:07.582Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.594Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.387Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.461Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:07.583Z"
+  },
+  "foleja-karikues-apple-35w-doppia-usb-c-iphone-ipad-watch-mw2k3zm-a": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 8529,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ERG-200000163/Karikues-Apple-35W-Doppia-USB-C-iPhone-iPad-Watch-MW2K3ZM-A",
+        "lastChecked": "2026-05-02T07:53:04.629Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:08.989Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.822Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.500Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:04.575Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:08.990Z"
+  },
+  "foleja-mb-shtjell-s-tech-protect-kevlar-pro-p-r-ipad-10-9-2022-i-zi": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 5300,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200014878/Mbeshtjelles-Tech-Protect-Kevlar-Pro-per-iPad-10.9-2022-i-zi",
+        "lastChecked": "2026-05-02T07:53:09.683Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:12.204Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.553Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.370Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.433Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:12.205Z"
+  },
+  "foleja-mb-shtjell-s-tablet-guess-4g-stripe-p-r-ipad-pro-12-9-kafe": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 7720,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200008378/Mbeshtjelles-tablet-Guess-4G-Stripe-per-iPad-Pro-12.9-kafe",
+        "lastChecked": "2026-05-02T07:53:09.875Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:12.282Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.656Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.396Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.432Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:12.283Z"
+  },
+  "foleja-mb-shtjell-s-tech-protect-sc-pen-p-r-ipad-air-13-2024-violet": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200015038/Mbeshtjelles-Tech-Protect-SC-Pen-per-iPad-Air-13-2024-Violet",
+        "lastChecked": "2026-05-02T07:53:10.021Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:12.564Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.651Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.352Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.439Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:12.565Z"
+  },
+  "foleja-mbrojt-s-ekrani-3mk-flexibleglass-p-r-ipad-air-4-5-gen-10-9": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2300,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/HRT-200003036/Mbrojtes-ekrani-3mk-FlexibleGlass-per-iPad-Air-4-5-gen-10.9",
+        "lastChecked": "2026-05-02T07:53:09.611Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:12.580Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.651Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.352Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.431Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:12.581Z"
+  },
+  "foleja-xham-i-temperuar-joyroom-jr-mst0165-p-r-ipad-pro-13-2024": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200020194/Xham-i-temperuar-Joyroom-JR-MST0165-per-iPad-Pro-13-2024",
+        "lastChecked": "2026-05-02T07:53:09.742Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:13.197Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.653Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.350Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.440Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:13.199Z"
+  },
+  "foleja-mb-shtjell-s-hurtel-p-r-ipad-10-2-2021-a2602-a2604-i-zi": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 600,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200003562/Mbeshtjelles-Hurtel-per-iPad-10.2-2021-A2602-A2604-i-zi",
+        "lastChecked": "2026-05-02T07:53:09.678Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:13.521Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.553Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.351Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.427Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:13.522Z"
+  },
+  "globe-184383": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/THM-200002361/Televizor-Philips-50PUS7000-12-50-4K-UHD-LED-Smart-HDMI-2.1-VRR",
+        "lastChecked": "2026-05-02T07:53:11.079Z",
+        "matchedName": "Televizor Philips 50PUS7000/12 50\" 4K UHD LED Smart, HDMI 2.1, VRR",
+        "storeProductId": "/THM-200002361/Televizor-Philips-50PUS7000-12-50-4K-UHD-LED-Smart-HDMI-2.1-VRR",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:13.588Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.743Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.419Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.491Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:13.589Z"
+  },
+  "globe-184725": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:11.401Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:13.652Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:10.015Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.415Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.514Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:13.653Z"
+  },
+  "globe-184726": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
+        "lastChecked": "2026-05-02T07:53:10.634Z",
+        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
+        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:13.870Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "lastChecked": "2026-05-02T07:53:09.337Z",
+        "matchedName": "XHAM MBROJTES SAMSUNG GALAXY S23",
+        "storeProductId": "/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.417Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.529Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:13.871Z"
+  },
+  "globe-184724": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:11.209Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:14.014Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/POMPE-GJIRI-PHILIPS-AVENT-SCF531-11-BE0186",
+        "lastChecked": "2026-05-02T07:53:09.343Z",
+        "matchedName": "POMPE GJIRI PHILIPS AVENT SCF531/11",
+        "storeProductId": "/categories/POMPE-GJIRI-PHILIPS-AVENT-SCF531-11-BE0186",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.375Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.551Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:14.015Z"
+  },
+  "globe-184727": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
+        "lastChecked": "2026-05-02T07:53:10.592Z",
+        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
+        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:14.626Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "lastChecked": "2026-05-02T07:53:09.334Z",
+        "matchedName": "XHAM MBROJTES SAMSUNG GALAXY S23",
+        "storeProductId": "/categories/XHAM-MBROJTES-SAMSUNG-GALAXY-S23-CA3672",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.366Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.511Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:14.627Z"
+  },
+  "foleja-adapter-apple-usb-c-p-r-apple-pencil-ipad-10-e-bardh": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2928,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200017909/Adapter-Apple-USB-C-per-Apple-Pencil-iPad-10-e-bardhe",
+        "lastChecked": "2026-05-02T07:53:09.680Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:14.716Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.860Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.351Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:09.531Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:14.718Z"
+  },
+  "globe-184023": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.804Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:16.713Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.160Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:14.984Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.041Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:16.714Z"
+  },
+  "globe-184019": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.816Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:16.951Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.180Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:14.987Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.026Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:16.952Z"
+  },
+  "globe-184373": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.626Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:17.349Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.093Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:14.985Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.029Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:17.351Z"
+  },
+  "globe-184021": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.776Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:17.470Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.238Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.003Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.031Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:17.471Z"
+  },
+  "globe-184020": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.792Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:17.705Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.190Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:14.983Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.037Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:17.706Z"
+  },
+  "globe-184010": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/INP-200004403/Kornize-mbrojtese-metalike-Puluz-PU991B-per-Insta360-Ace-Pro-e-zeze",
+        "lastChecked": "2026-05-02T07:53:16.217Z",
+        "matchedName": "Kornizë mbrojtëse metalike Puluz PU991B për Insta360 Ace Pro, e zezë",
+        "storeProductId": "/INP-200004403/Kornize-mbrojtese-metalike-Puluz-PU991B-per-Insta360-Ace-Pro-e-zeze",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:17.871Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.146Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.002Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.024Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:17.872Z"
+  },
+  "globe-184024": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:16.255Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:18.137Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.223Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:14.988Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.069Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:18.138Z"
+  },
+  "globe-184022": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
+        "lastChecked": "2026-05-02T07:53:15.780Z",
+        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
+        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:19.190Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Samsung-Galaxy-S26--512GB-Skyblue-TL4519",
+        "lastChecked": "2026-05-02T07:53:14.926Z",
+        "matchedName": "Samsung Galaxy S26+ 512GB Skyblue",
+        "storeProductId": "/categories/Samsung-Galaxy-S26--512GB-Skyblue-TL4519",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:14.997Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T07:53:15.126Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T07:53:19.191Z"
   }
 }
