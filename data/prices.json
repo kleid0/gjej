@@ -1,15 +1,229 @@
 {
-  "globe-72640": {
+  "globe-72829": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/THM-200002692/Frigorifer-kombine-Samsung-RB50DG602EB1EO-508-L-192-76-cm-AI-Energy-Mode-SpaceMax-i-zi",
-        "lastChecked": "2026-05-02T07:59:26.230Z",
-        "matchedName": "Frigorifer kombinë, Samsung RB50DG602EB1EO, 508 L, 192/76 cm, AI Energy Mode, SpaceMax, i zi",
-        "storeProductId": "/THM-200002692/Frigorifer-kombine-Samsung-RB50DG602EB1EO-508-L-192-76-cm-AI-Energy-Mode-SpaceMax-i-zi",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:08.908Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:10.273Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 34690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LAVATRICE-SAMSUNG-WW80T4020EE1LE-LV1104",
+        "lastChecked": "2026-05-02T08:00:06.836Z",
+        "matchedName": "LAVATRICE SAMSUNG WW80T4020EE1LE",
+        "storeProductId": "/categories/LAVATRICE-SAMSUNG-WW80T4020EE1LE-LV1104",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": 39990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/72829",
+        "lastChecked": "2026-05-02T08:00:06.837Z",
+        "matchedName": "Lavatrice Samsung WW80T4020EE1LE",
+        "storeProductId": "72829",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:08.469Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:10.275Z"
+  },
+  "globe-72832": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:08.418Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:09.984Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 56890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LAVATRICE-SAMSUNG-WW90DB7U94GEU4-LV1388",
+        "lastChecked": "2026-05-02T08:00:06.858Z",
+        "matchedName": "LAVATRICE SAMSUNG WW90DB7U94GEU4",
+        "storeProductId": "/categories/LAVATRICE-SAMSUNG-WW90DB7U94GEU4-LV1388",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": 59990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/72832",
+        "lastChecked": "2026-05-02T08:00:06.859Z",
+        "matchedName": "Lavatrice Samsung WW90DB7U94GEU4",
+        "storeProductId": "72832",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:08.376Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:10.593Z"
+  },
+  "globe-72847": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:08.711Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:10.710Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:07.347Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 129900,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/72847",
+        "lastChecked": "2026-05-02T08:00:06.900Z",
+        "matchedName": "Inverter Outdoor Gree Free Match R32 21 BTU GWHD(21)NK6OO",
+        "storeProductId": "72847",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:08.812Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:10.711Z"
+  },
+  "globe-72831": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:08.751Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:10.728Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 42990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LAVATRICE-SAMSUNG-WW90CGC04DAELE-LV1425",
+        "lastChecked": "2026-05-02T08:00:06.853Z",
+        "matchedName": "LAVATRICE SAMSUNG WW90CGC04DAELE",
+        "storeProductId": "/categories/LAVATRICE-SAMSUNG-WW90CGC04DAELE-LV1425",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": 74990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/72831",
+        "lastChecked": "2026-05-02T08:00:06.854Z",
+        "matchedName": "Lavatrice Samsung WW90CGC04DAELE",
+        "storeProductId": "72831",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:08.573Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:10.729Z"
+  },
+  "globe-72843": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/THM-200003711/Makine-larese-Whirlpool-W6X-W845WB-EE-8kg-1400rpm-klasa-B-e-bardhe",
+        "lastChecked": "2026-05-02T08:00:09.041Z",
+        "matchedName": "Makinë larëse Whirlpool W6X W845WB EE 8kg 1400rpm klasa B, e bardhë",
+        "storeProductId": "/THM-200003711/Makine-larese-Whirlpool-W6X-W845WB-EE-8kg-1400rpm-klasa-B-e-bardhe",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -19,61 +233,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:27.631Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 77890,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/FRIGORIFER-SAMSUNG-RB50DG602EB1EO-FG1611",
-        "lastChecked": "2026-05-02T07:59:24.309Z",
-        "matchedName": "FRIGORIFER SAMSUNG RB50DG602EB1EO",
-        "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RB50DG602EB1EO-FG1611",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": 129990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72640",
-        "lastChecked": "2026-05-02T07:59:24.310Z",
-        "matchedName": "Frigorifer Samsung RB50DG602EB1EO",
-        "storeProductId": "72640",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.282Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:27.632Z"
-  },
-  "globe-72639": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.175Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:28.657Z",
+        "lastChecked": "2026-05-02T08:00:11.748Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -82,329 +242,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:24.968Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": 104990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72639",
-        "lastChecked": "2026-05-02T07:59:24.306Z",
-        "matchedName": "Frigorifer Samsung RB38T650ESA/EK",
-        "storeProductId": "72639",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.001Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:28.658Z"
-  },
-  "globe-72620": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/THM-200002681/Frigorifer-i-kombinuar-Samsung-RB34C7B5E12-EF-390L-BESPOKE-klasa-energjike-E-Clean-White",
-        "lastChecked": "2026-05-02T07:59:26.126Z",
-        "matchedName": "Frigorifer i kombinuar Samsung RB34C7B5E12/EF 390L BESPOKE klasa energjike E Clean White",
-        "storeProductId": "/THM-200002681/Frigorifer-i-kombinuar-Samsung-RB34C7B5E12-EF-390L-BESPOKE-klasa-energjike-E-Clean-White",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:29.473Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:24.539Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": 64990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72620",
-        "lastChecked": "2026-05-02T07:59:24.291Z",
-        "matchedName": "Frigorifer Samsung RB34C7B5E12/EF",
-        "storeProductId": "72620",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.881Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:29.474Z"
-  },
-  "globe-72641": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/THM-200002693/Frigorifer-kombinim-Samsung-RB50DG602ES9EO-508-L-No-Frost-Wi-Fi-192-76-cm-inox-i-rafinuar",
-        "lastChecked": "2026-05-02T07:59:26.354Z",
-        "matchedName": "Frigorifer kombinim Samsung RB50DG602ES9EO 508 L No Frost Wi‑Fi 192/76 cm inox i rafinuar",
-        "storeProductId": "/THM-200002693/Frigorifer-kombinim-Samsung-RB50DG602ES9EO-508-L-No-Frost-Wi-Fi-192-76-cm-inox-i-rafinuar",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:29.517Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 74290,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/FRIGORIFER-SAMSUNG-BMF-RB50DG602ES9EO-FG1605",
-        "lastChecked": "2026-05-02T07:59:24.314Z",
-        "matchedName": "FRIGORIFER SAMSUNG BMF RB50DG602ES9EO",
-        "storeProductId": "/categories/FRIGORIFER-SAMSUNG-BMF-RB50DG602ES9EO-FG1605",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": 119990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72641",
-        "lastChecked": "2026-05-02T07:59:24.314Z",
-        "matchedName": "Frigorifer Samsung RB50DG602ES9EO",
-        "storeProductId": "72641",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:27.085Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:29.518Z"
-  },
-  "globe-72634": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.103Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:31.455Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:24.967Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": 109990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72634",
-        "lastChecked": "2026-05-02T07:59:24.297Z",
-        "matchedName": "Frigorifer Samsung RB38C650EB1/EK",
-        "storeProductId": "72634",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.884Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:31.455Z"
-  },
-  "globe-72644": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:25.916Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:33.726Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:25.091Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": 219990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72644",
-        "lastChecked": "2026-05-02T07:59:24.327Z",
-        "matchedName": "Frigorifer Samsung RS68A8840WW/EZ",
-        "storeProductId": "72644",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.933Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:33.727Z"
-  },
-  "globe-72621": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:25.459Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:34.352Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 63990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/FRIGORIFER-SAMSUNG-RB34C7B5E22-EF-FG1455",
-        "lastChecked": "2026-05-02T07:59:24.261Z",
-        "matchedName": "FRIGORIFER SAMSUNG RB34C7B5E22/EF",
-        "storeProductId": "/categories/FRIGORIFER-SAMSUNG-RB34C7B5E22-EF-FG1455",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": 57990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72621",
-        "lastChecked": "2026-05-02T07:59:24.282Z",
-        "matchedName": "Frigorifer Samsung RB34C7B5E22/EF",
-        "storeProductId": "72621",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.440Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:34.352Z"
-  },
-  "globe-72656": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.927Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:34.430Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:25.387Z",
+        "lastChecked": "2026-05-02T08:00:07.580Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -412,10 +250,10 @@
         "price": 99990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72656",
-        "lastChecked": "2026-05-02T07:59:24.344Z",
-        "matchedName": "Frigorifer Whirlpool W7X 91I OX",
-        "storeProductId": "72656",
+        "productUrl": "https://www.globe.al/products/72843",
+        "lastChecked": "2026-05-02T08:00:06.870Z",
+        "matchedName": "Lavatrice Whirlpool W6X W845WB EE",
+        "storeProductId": "72843",
         "matchConfidence": 100
       },
       {
@@ -424,13 +262,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.968Z",
+        "lastChecked": "2026-05-02T08:00:10.128Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:34.431Z"
+    "refreshedAt": "2026-05-02T08:00:11.749Z"
   },
-  "globe-72654": {
+  "globe-72828": {
     "prices": [
       {
         "storeId": "foleja",
@@ -438,7 +276,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.880Z",
+        "lastChecked": "2026-05-02T08:00:08.443Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -447,79 +285,29 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:35.012Z",
+        "lastChecked": "2026-05-02T08:00:11.005Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:25.383Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": 119990,
+        "price": 37997,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72654",
-        "lastChecked": "2026-05-02T07:59:24.336Z",
-        "matchedName": "Frigorifer Whirlpool W7X 82O K",
-        "storeProductId": "72654",
+        "productUrl": "https://www.neptun.al/categories/LAVATRICE-SAMSUNG-WW80CGC0EDTELE-LV1312",
+        "lastChecked": "2026-05-02T08:00:06.821Z",
+        "matchedName": "LAVATRICE SAMSUNG WW80CGC0EDTELE",
+        "storeProductId": "/categories/LAVATRICE-SAMSUNG-WW80CGC0EDTELE-LV1312",
         "matchConfidence": 100
       },
       {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:27.924Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:35.012Z"
-  },
-  "globe-72643": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.208Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:35.576Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:25.090Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
         "storeId": "globe",
-        "price": 230990,
+        "price": 62990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72643",
-        "lastChecked": "2026-05-02T07:59:24.323Z",
-        "matchedName": "Frigorifer Samsung RS68A8840WW/EF",
-        "storeProductId": "72643",
+        "productUrl": "https://www.globe.al/products/72828",
+        "lastChecked": "2026-05-02T08:00:06.828Z",
+        "matchedName": "Lavatrice Samsung WW80CGC0EDTELE",
+        "storeProductId": "72828",
         "matchConfidence": 100
       },
       {
@@ -528,13 +316,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.493Z",
+        "lastChecked": "2026-05-02T08:00:08.241Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:35.577Z"
+    "refreshedAt": "2026-05-02T08:00:12.625Z"
   },
-  "globe-72655": {
+  "globe-72837": {
     "prices": [
       {
         "storeId": "foleja",
@@ -542,7 +330,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:27.034Z",
+        "lastChecked": "2026-05-02T08:00:08.134Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -551,7 +339,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:35.713Z",
+        "lastChecked": "2026-05-02T08:00:10.788Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -560,18 +348,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:25.384Z",
+        "lastChecked": "2026-05-02T08:00:07.215Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 119990,
+        "price": 134990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72655",
-        "lastChecked": "2026-05-02T07:59:24.340Z",
-        "matchedName": "Frigorifer Whirlpool W7X 83T KS",
-        "storeProductId": "72655",
+        "productUrl": "https://www.globe.al/products/72837",
+        "lastChecked": "2026-05-02T08:00:06.876Z",
+        "matchedName": "Lavatrice Samsung WW90T854DBT/S7",
+        "storeProductId": "72837",
         "matchConfidence": 100
       },
       {
@@ -580,13 +368,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:27.316Z",
+        "lastChecked": "2026-05-02T08:00:09.237Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:35.713Z"
+    "refreshedAt": "2026-05-02T08:00:13.172Z"
   },
-  "globe-72653": {
+  "globe-72849": {
     "prices": [
       {
         "storeId": "foleja",
@@ -594,7 +382,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:26.946Z",
+        "lastChecked": "2026-05-02T08:00:08.465Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -603,7 +391,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:37.930Z",
+        "lastChecked": "2026-05-02T08:00:11.331Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -612,18 +400,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:25.384Z",
+        "lastChecked": "2026-05-02T08:00:07.340Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 119990,
+        "price": 189900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72653",
-        "lastChecked": "2026-05-02T07:59:24.332Z",
-        "matchedName": "Frigorifer Whirlpool W7X 81O OX",
-        "storeProductId": "72653",
+        "productUrl": "https://www.globe.al/products/72849",
+        "lastChecked": "2026-05-02T08:00:06.913Z",
+        "matchedName": "Inverter Outdoor Gree Free Match R32 28 BTU GWHD(28)NK6OO",
+        "storeProductId": "72849",
         "matchConfidence": 100
       },
       {
@@ -632,13 +420,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:27.875Z",
+        "lastChecked": "2026-05-02T08:00:09.092Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:37.931Z"
+    "refreshedAt": "2026-05-02T08:00:13.313Z"
   },
-  "globe-72677": {
+  "globe-72850": {
     "prices": [
       {
         "storeId": "foleja",
@@ -646,7 +434,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:39.247Z",
+        "lastChecked": "2026-05-02T08:00:08.796Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -655,7 +443,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.072Z",
+        "lastChecked": "2026-05-02T08:00:11.063Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -664,18 +452,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.530Z",
+        "lastChecked": "2026-05-02T08:00:07.345Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 288000,
+        "price": 239900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72677",
-        "lastChecked": "2026-05-02T07:59:38.366Z",
-        "matchedName": "Mbajtes vere WB2.0-CE Eurocave",
-        "storeProductId": "72677",
+        "productUrl": "https://www.globe.al/products/72850",
+        "lastChecked": "2026-05-02T08:00:06.920Z",
+        "matchedName": "Inverter Outdoor Gree Free Match R32 36 BTU GWHD(36)NK6OO",
+        "storeProductId": "72850",
         "matchConfidence": 100
       },
       {
@@ -684,13 +472,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:39.638Z",
+        "lastChecked": "2026-05-02T08:00:09.157Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:41.515Z"
+    "refreshedAt": "2026-05-02T08:00:16.591Z"
   },
-  "globe-72666": {
+  "globe-72845": {
     "prices": [
       {
         "storeId": "foleja",
@@ -698,7 +486,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.108Z",
+        "lastChecked": "2026-05-02T08:00:09.030Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -707,7 +495,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:41.648Z",
+        "lastChecked": "2026-05-02T08:00:11.145Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -716,18 +504,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.786Z",
+        "lastChecked": "2026-05-02T08:00:07.275Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 79990,
+        "price": 66000,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72666",
-        "lastChecked": "2026-05-02T07:59:38.331Z",
-        "matchedName": "Frigorifer I kombinuar Hisense RB645N4BFE",
-        "storeProductId": "72666",
+        "productUrl": "https://www.globe.al/products/72845",
+        "lastChecked": "2026-05-02T08:00:06.881Z",
+        "matchedName": "Inverter Outdoor Gree Tokesor 09 Btu GEH09AA-K6DNA1F/O",
+        "storeProductId": "72845",
         "matchConfidence": 100
       },
       {
@@ -736,13 +524,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.300Z",
+        "lastChecked": "2026-05-02T08:00:08.575Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:41.649Z"
+    "refreshedAt": "2026-05-02T08:00:17.407Z"
   },
-  "globe-72663": {
+  "globe-72858": {
     "prices": [
       {
         "storeId": "foleja",
@@ -750,7 +538,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:39.532Z",
+        "lastChecked": "2026-05-02T08:00:19.136Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -759,7 +547,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:41.914Z",
+        "lastChecked": "2026-05-02T08:00:22.127Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -768,18 +556,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.765Z",
+        "lastChecked": "2026-05-02T08:00:18.229Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 54990,
+        "price": 59900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72663",
-        "lastChecked": "2026-05-02T07:59:38.326Z",
-        "matchedName": "Frigorifer I kombinuar Hisense RB390N4WB1",
-        "storeProductId": "72663",
+        "productUrl": "https://www.globe.al/products/72858",
+        "lastChecked": "2026-05-02T08:00:17.868Z",
+        "matchedName": "Inverter Indoor Gree Free Match Duct 12 BTU GFH(12)CA-K6DNA1B/I",
+        "storeProductId": "72858",
         "matchConfidence": 100
       },
       {
@@ -788,13 +576,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.219Z",
+        "lastChecked": "2026-05-02T08:00:19.394Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:41.915Z"
+    "refreshedAt": "2026-05-02T08:00:22.128Z"
   },
-  "globe-72679": {
+  "globe-72854": {
     "prices": [
       {
         "storeId": "foleja",
@@ -802,7 +590,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:39.590Z",
+        "lastChecked": "2026-05-02T08:00:18.965Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -811,7 +599,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:42.319Z",
+        "lastChecked": "2026-05-02T08:00:22.189Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -820,18 +608,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.608Z",
+        "lastChecked": "2026-05-02T08:00:18.186Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 179990,
+        "price": 69900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72679",
-        "lastChecked": "2026-05-02T07:59:38.381Z",
-        "matchedName": "Frigorifer Vere Hisense RW3N230GELF",
-        "storeProductId": "72679",
+        "productUrl": "https://www.globe.al/products/72854",
+        "lastChecked": "2026-05-02T08:00:17.854Z",
+        "matchedName": "Inverter Indoor Gree Free Match Cassette R32 GKH(18)EB-K6DNA5A/I + Kapak Kaset TF05",
+        "storeProductId": "72854",
         "matchConfidence": 100
       },
       {
@@ -840,13 +628,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.179Z",
+        "lastChecked": "2026-05-02T08:00:19.380Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:42.348Z"
+    "refreshedAt": "2026-05-02T08:00:22.190Z"
   },
-  "globe-72678": {
+  "globe-72855": {
     "prices": [
       {
         "storeId": "foleja",
@@ -854,7 +642,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.048Z",
+        "lastChecked": "2026-05-02T08:00:19.233Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -863,7 +651,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:42.504Z",
+        "lastChecked": "2026-05-02T08:00:21.375Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -872,18 +660,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.579Z",
+        "lastChecked": "2026-05-02T08:00:18.225Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 149990,
+        "price": 46900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72678",
-        "lastChecked": "2026-05-02T07:59:38.371Z",
-        "matchedName": "Frigorifer Vere Hisense RW3N122GSLF",
-        "storeProductId": "72678",
+        "productUrl": "https://www.globe.al/products/72855",
+        "lastChecked": "2026-05-02T08:00:17.859Z",
+        "matchedName": "Inverter Indoor Gree Free Match Duct 09 BTU GFH(09)CA-K6DNA1B/I",
+        "storeProductId": "72855",
         "matchConfidence": 100
       },
       {
@@ -892,13 +680,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.214Z",
+        "lastChecked": "2026-05-02T08:00:19.402Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:42.504Z"
+    "refreshedAt": "2026-05-02T08:00:22.223Z"
   },
-  "globe-72667": {
+  "globe-72856": {
     "prices": [
       {
         "storeId": "foleja",
@@ -906,7 +694,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.093Z",
+        "lastChecked": "2026-05-02T08:00:19.178Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -915,7 +703,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:42.798Z",
+        "lastChecked": "2026-05-02T08:00:22.226Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -924,18 +712,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.787Z",
+        "lastChecked": "2026-05-02T08:00:18.217Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 76990,
+        "price": 46900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72667",
-        "lastChecked": "2026-05-02T07:59:38.336Z",
-        "matchedName": "Frigorifer I kombinuar Hisense RB645N4BIE",
-        "storeProductId": "72667",
+        "productUrl": "https://www.globe.al/products/72856",
+        "lastChecked": "2026-05-02T08:00:17.863Z",
+        "matchedName": "Inverter Indoor Gree Free Match Duct 09 BTU GFH(09)EA-K6DNA1B/I",
+        "storeProductId": "72856",
         "matchConfidence": 100
       },
       {
@@ -944,13 +732,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.298Z",
+        "lastChecked": "2026-05-02T08:00:19.098Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:42.799Z"
+    "refreshedAt": "2026-05-02T08:00:22.226Z"
   },
-  "globe-72670": {
+  "globe-72853": {
     "prices": [
       {
         "storeId": "foleja",
@@ -958,7 +746,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.071Z",
+        "lastChecked": "2026-05-02T08:00:19.010Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -967,7 +755,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.103Z",
+        "lastChecked": "2026-05-02T08:00:22.331Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -976,18 +764,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.680Z",
+        "lastChecked": "2026-05-02T08:00:18.259Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 21990,
+        "price": 59900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72670",
-        "lastChecked": "2026-05-02T07:59:38.356Z",
-        "matchedName": "Frigorifer I kombinuar Hisense RT267D4ADE",
-        "storeProductId": "72670",
+        "productUrl": "https://www.globe.al/products/72853",
+        "lastChecked": "2026-05-02T08:00:17.849Z",
+        "matchedName": "Inverter Indoor Gree Free Match Cassette R32 GKH(12)EB-K6DNA5A/I + Kapak Kaset TF05",
+        "storeProductId": "72853",
         "matchConfidence": 100
       },
       {
@@ -996,13 +784,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.263Z",
+        "lastChecked": "2026-05-02T08:00:19.399Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:43.105Z"
+    "refreshedAt": "2026-05-02T08:00:22.331Z"
   },
-  "globe-72669": {
+  "globe-72852": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1010,7 +798,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:39.762Z",
+        "lastChecked": "2026-05-02T08:00:18.664Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1019,7 +807,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.134Z",
+        "lastChecked": "2026-05-02T08:00:21.427Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1028,18 +816,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.786Z",
+        "lastChecked": "2026-05-02T08:00:18.225Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 21990,
+        "price": 259900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72669",
-        "lastChecked": "2026-05-02T07:59:38.351Z",
-        "matchedName": "Frigorifer I kombinuar Hisense RT267D4ABE",
-        "storeProductId": "72669",
+        "productUrl": "https://www.globe.al/products/72852",
+        "lastChecked": "2026-05-02T08:00:17.843Z",
+        "matchedName": "Inverter Outdoor Gree Free Match R32 42 BTU GWHD(42)NK6OO",
+        "storeProductId": "72852",
         "matchConfidence": 100
       },
       {
@@ -1048,13 +836,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.218Z",
+        "lastChecked": "2026-05-02T08:00:18.805Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:43.135Z"
+    "refreshedAt": "2026-05-02T08:00:23.581Z"
   },
-  "globe-72664": {
+  "globe-72864": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1062,7 +850,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:39.742Z",
+        "lastChecked": "2026-05-02T08:00:19.349Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1071,7 +859,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.185Z",
+        "lastChecked": "2026-05-02T08:00:22.289Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1080,18 +868,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.681Z",
+        "lastChecked": "2026-05-02T08:00:18.316Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 36990,
+        "price": 79900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72664",
-        "lastChecked": "2026-05-02T07:59:38.321Z",
-        "matchedName": "Frigorifer I kombinuar Hisense RB390N4WBE",
-        "storeProductId": "72664",
+        "productUrl": "https://www.globe.al/products/72864",
+        "lastChecked": "2026-05-02T08:00:17.898Z",
+        "matchedName": "Inverter Indoor Gree Free Match Cassette R32 GGKH24BC-K6DNA4A/I + Kapak Kaset TC04",
+        "storeProductId": "72864",
         "matchConfidence": 100
       },
       {
@@ -1100,13 +888,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.215Z",
+        "lastChecked": "2026-05-02T08:00:19.371Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:43.186Z"
+    "refreshedAt": "2026-05-02T08:00:25.341Z"
   },
-  "globe-72660": {
+  "globe-72863": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1114,7 +902,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:39.805Z",
+        "lastChecked": "2026-05-02T08:00:18.977Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1123,7 +911,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.211Z",
+        "lastChecked": "2026-05-02T08:00:21.881Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1132,18 +920,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.786Z",
+        "lastChecked": "2026-05-02T08:00:18.306Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 40990,
+        "price": 69900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72660",
-        "lastChecked": "2026-05-02T07:59:38.311Z",
-        "matchedName": "Frigorifer I kombinuar Hisense RB390N4AC2",
-        "storeProductId": "72660",
+        "productUrl": "https://www.globe.al/products/72863",
+        "lastChecked": "2026-05-02T08:00:17.893Z",
+        "matchedName": "Inverter Indoor Gree Free Match Cassette R32 GKH18BB-K6DNA3A/I + Kapak Kaset TC03",
+        "storeProductId": "72863",
         "matchConfidence": 100
       },
       {
@@ -1152,13 +940,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.181Z",
+        "lastChecked": "2026-05-02T08:00:19.397Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:43.211Z"
+    "refreshedAt": "2026-05-02T08:00:25.499Z"
   },
-  "globe-72668": {
+  "globe-72860": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1166,7 +954,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:39.544Z",
+        "lastChecked": "2026-05-02T08:00:19.296Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1175,7 +963,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.265Z",
+        "lastChecked": "2026-05-02T08:00:21.690Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1184,18 +972,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.787Z",
+        "lastChecked": "2026-05-02T08:00:18.246Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 90990,
+        "price": 69900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72668",
-        "lastChecked": "2026-05-02T07:59:38.346Z",
-        "matchedName": "Frigorifer I kombinuar Hisense RB645N4WCF",
-        "storeProductId": "72668",
+        "productUrl": "https://www.globe.al/products/72860",
+        "lastChecked": "2026-05-02T08:00:17.877Z",
+        "matchedName": "Inverter Indoor Gree Free Match Duct 18 BTU GFH(18)CB-K6DNA1B/I",
+        "storeProductId": "72860",
         "matchConfidence": 100
       },
       {
@@ -1204,13 +992,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.205Z",
+        "lastChecked": "2026-05-02T08:00:19.396Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:43.266Z"
+    "refreshedAt": "2026-05-02T08:00:26.011Z"
   },
-  "globe-72662": {
+  "globe-72862": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1218,7 +1006,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:39.637Z",
+        "lastChecked": "2026-05-02T08:00:19.022Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1227,7 +1015,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.466Z",
+        "lastChecked": "2026-05-02T08:00:22.057Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1236,18 +1024,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:38.787Z",
+        "lastChecked": "2026-05-02T08:00:18.265Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": 55990,
+        "price": 79900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/72662",
-        "lastChecked": "2026-05-02T07:59:38.316Z",
-        "matchedName": "Frigorifer I kombinuar Hisense RB390N4GBE",
-        "storeProductId": "72662",
+        "productUrl": "https://www.globe.al/products/72862",
+        "lastChecked": "2026-05-02T08:00:17.887Z",
+        "matchedName": "Inverter Indoor Gree Free Match Duct 24 BTU GFH(24)CC-K6DNA1B/I",
+        "storeProductId": "72862",
         "matchConfidence": 100
       },
       {
@@ -1256,13 +1044,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:40.174Z",
+        "lastChecked": "2026-05-02T08:00:19.373Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:43.466Z"
+    "refreshedAt": "2026-05-02T08:00:26.952Z"
   },
-  "globe-72699": {
+  "globe-72865": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1270,7 +1058,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.065Z",
+        "lastChecked": "2026-05-02T08:00:19.091Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1279,7 +1067,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.823Z",
+        "lastChecked": "2026-05-02T08:00:22.363Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1288,1383 +1076,33 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.751Z",
+        "lastChecked": "2026-05-02T08:00:18.199Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.711Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.714Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:44.824Z"
-  },
-  "globe-72705": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.267Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.949Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.752Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.731Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.746Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:44.950Z"
-  },
-  "globe-72680": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.163Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:45.043Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.770Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.687Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.735Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:45.043Z"
-  },
-  "globe-72689": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.080Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:45.185Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.756Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.723Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.723Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:45.186Z"
-  },
-  "globe-72701": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.147Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:46.585Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.751Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.731Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.762Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:46.585Z"
-  },
-  "globe-72694": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.995Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:46.771Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.769Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.696Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.716Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:46.772Z"
-  },
-  "globe-72710": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.508Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:46.943Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.839Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.763Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.789Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:46.944Z"
-  },
-  "globe-72692": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.386Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:47.462Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.836Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.690Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.771Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:47.462Z"
-  },
-  "globe-72708": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.323Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:47.679Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.822Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.727Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.761Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:47.679Z"
-  },
-  "globe-72690": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.254Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:47.837Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.839Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.689Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.758Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:47.838Z"
-  },
-  "globe-72711": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.673Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:47.860Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.853Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.752Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.764Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:47.861Z"
-  },
-  "globe-72709": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:44.612Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:47.961Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.857Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.695Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:43.775Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:47.961Z"
-  },
-  "globe-72749": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.486Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:49.131Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.197Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.116Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.153Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:49.132Z"
-  },
-  "globe-72739": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.545Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:49.202Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.165Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.110Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.144Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:49.203Z"
-  },
-  "globe-72720": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.699Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:49.276Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.162Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.109Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.139Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:49.277Z"
-  },
-  "globe-72740": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.441Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:49.292Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.159Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.111Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.149Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:49.293Z"
-  },
-  "globe-72738": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.427Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:49.388Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.172Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.110Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.145Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:49.389Z"
-  },
-  "globe-72744": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.501Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:50.503Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.173Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.113Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.152Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:50.522Z"
-  },
-  "globe-72746": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.514Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:50.693Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.205Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.115Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.141Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:50.694Z"
-  },
-  "globe-72742": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.673Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:50.751Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.167Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.112Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.158Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:50.751Z"
-  },
-  "globe-72745": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.568Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:50.792Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.207Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.114Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.142Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:50.792Z"
-  },
-  "globe-72750": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.686Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:50.868Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.207Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.119Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.146Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:50.869Z"
-  },
-  "globe-72751": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.581Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:50.882Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.228Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.119Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.150Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:50.883Z"
-  },
-  "globe-72748": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.661Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:50.887Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.201Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.113Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:48.147Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:50.888Z"
-  },
-  "globe-72757": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.629Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:52.060Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.096Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.025Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.072Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:52.061Z"
-  },
-  "globe-72763": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.539Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:52.070Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.134Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.032Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.056Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:52.071Z"
-  },
-  "globe-72762": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.362Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:52.193Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.100Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.026Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.055Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:52.194Z"
-  },
-  "globe-72755": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.491Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:52.269Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 41390,
+        "price": 79900,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LAVATRICE-ELECTROLUX-EW6F1481E-LV1376",
-        "lastChecked": "2026-05-02T07:59:50.983Z",
-        "matchedName": "LAVATRICE ELECTROLUX EW6F1481E",
-        "storeProductId": "/categories/LAVATRICE-ELECTROLUX-EW6F1481E-LV1376",
+        "productUrl": "https://www.globe.al/products/72865",
+        "lastChecked": "2026-05-02T08:00:17.903Z",
+        "matchedName": "Inverter Indoor Gree Free Match Cassette R32 GKH(24)EC-K6DNA6A/I + Kapak Kaset TF06",
+        "storeProductId": "72865",
         "matchConfidence": 100
       },
       {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.023Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
         "storeId": "albagame",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.057Z",
+        "lastChecked": "2026-05-02T08:00:19.400Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:52.270Z"
+    "refreshedAt": "2026-05-02T08:00:27.186Z"
   },
-  "globe-72774": {
+  "globe-72888": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2672,7 +1110,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.392Z",
+        "lastChecked": "2026-05-02T08:00:28.842Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2681,318 +1119,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:52.304Z",
+        "lastChecked": "2026-05-02T08:00:29.289Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.110Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.035Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.074Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:52.305Z"
-  },
-  "globe-72772": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.436Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:52.383Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.098Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.032Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.088Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:52.384Z"
-  },
-  "globe-72752": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.322Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:52.835Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.093Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.022Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.062Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:52.836Z"
-  },
-  "globe-72756": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.337Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.027Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.101Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.024Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.065Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:53.028Z"
-  },
-  "globe-72771": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.613Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.030Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.097Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.031Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.064Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:53.031Z"
-  },
-  "globe-72759": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.508Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.032Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.096Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.026Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.053Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T07:59:53.033Z"
-  },
-  "globe-72758": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.375Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.085Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 50490,
+        "price": 35890,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LAVATRICE-ELECTROLUX-EW6F2412E-LV1378",
-        "lastChecked": "2026-05-02T07:59:50.992Z",
-        "matchedName": "LAVATRICE ELECTROLUX EW6F2412E",
-        "storeProductId": "/categories/LAVATRICE-ELECTROLUX-EW6F2412E-LV1378",
+        "productUrl": "https://www.neptun.al/categories/ASPIRATOR-SAMSUNG-NK24C7070WB-UR-AS0532",
+        "lastChecked": "2026-05-02T08:00:27.427Z",
+        "matchedName": "ASPIRATOR SAMSUNG NK24C7070WB/UR",
+        "storeProductId": "/categories/ASPIRATOR-SAMSUNG-NK24C7070WB-UR-AS0532",
         "matchConfidence": 100
       },
       {
@@ -3001,7 +1139,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.024Z",
+        "lastChecked": "2026-05-02T08:00:27.512Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3010,13 +1148,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.060Z",
+        "lastChecked": "2026-05-02T08:00:27.526Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:53.086Z"
+    "refreshedAt": "2026-05-02T08:00:29.290Z"
   },
-  "globe-72777": {
+  "globe-72867": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3024,7 +1162,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.525Z",
+        "lastChecked": "2026-05-02T08:00:28.817Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3033,7 +1171,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.096Z",
+        "lastChecked": "2026-05-02T08:00:31.661Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3042,7 +1180,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.146Z",
+        "lastChecked": "2026-05-02T08:00:27.742Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3051,7 +1189,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.036Z",
+        "lastChecked": "2026-05-02T08:00:27.434Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3060,13 +1198,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:51.061Z",
+        "lastChecked": "2026-05-02T08:00:27.514Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:53.097Z"
+    "refreshedAt": "2026-05-02T08:00:31.661Z"
   },
-  "globe-72778": {
+  "globe-72883": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3074,7 +1212,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.898Z",
+        "lastChecked": "2026-05-02T08:00:28.283Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3083,7 +1221,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:54.851Z",
+        "lastChecked": "2026-05-02T08:00:31.839Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3092,7 +1230,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.410Z",
+        "lastChecked": "2026-05-02T08:00:27.770Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3101,7 +1239,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.395Z",
+        "lastChecked": "2026-05-02T08:00:27.502Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3110,13 +1248,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.442Z",
+        "lastChecked": "2026-05-02T08:00:27.561Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:54.852Z"
+    "refreshedAt": "2026-05-02T08:00:31.840Z"
   },
-  "globe-72781": {
+  "globe-72868": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3124,7 +1262,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.732Z",
+        "lastChecked": "2026-05-02T08:00:28.375Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3133,7 +1271,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:55.116Z",
+        "lastChecked": "2026-05-02T08:00:31.887Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3142,7 +1280,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.459Z",
+        "lastChecked": "2026-05-02T08:00:27.744Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3151,7 +1289,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.396Z",
+        "lastChecked": "2026-05-02T08:00:27.435Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3160,13 +1298,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.436Z",
+        "lastChecked": "2026-05-02T08:00:27.527Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:55.118Z"
+    "refreshedAt": "2026-05-02T08:00:31.887Z"
   },
-  "globe-72806": {
+  "globe-72885": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3174,7 +1312,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:54.354Z",
+        "lastChecked": "2026-05-02T08:00:28.804Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3183,7 +1321,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:55.825Z",
+        "lastChecked": "2026-05-02T08:00:31.890Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3192,7 +1330,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.580Z",
+        "lastChecked": "2026-05-02T08:00:27.788Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3201,7 +1339,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.534Z",
+        "lastChecked": "2026-05-02T08:00:27.512Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3210,13 +1348,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.489Z",
+        "lastChecked": "2026-05-02T08:00:27.532Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:55.826Z"
+    "refreshedAt": "2026-05-02T08:00:31.891Z"
   },
-  "globe-72780": {
+  "globe-72880": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3224,7 +1362,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.636Z",
+        "lastChecked": "2026-05-02T08:00:28.206Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3233,7 +1371,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:55.896Z",
+        "lastChecked": "2026-05-02T08:00:32.973Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3242,7 +1380,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.416Z",
+        "lastChecked": "2026-05-02T08:00:27.733Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3251,7 +1389,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.396Z",
+        "lastChecked": "2026-05-02T08:00:27.498Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3260,13 +1398,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.434Z",
+        "lastChecked": "2026-05-02T08:00:27.522Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:55.897Z"
+    "refreshedAt": "2026-05-02T08:00:32.974Z"
   },
-  "globe-72790": {
+  "globe-72879": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3274,7 +1412,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:54.329Z",
+        "lastChecked": "2026-05-02T08:00:28.501Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3283,7 +1421,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:56.175Z",
+        "lastChecked": "2026-05-02T08:00:33.292Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3292,7 +1430,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.501Z",
+        "lastChecked": "2026-05-02T08:00:27.771Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3301,7 +1439,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.547Z",
+        "lastChecked": "2026-05-02T08:00:27.497Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3310,13 +1448,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.490Z",
+        "lastChecked": "2026-05-02T08:00:27.525Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:56.176Z"
+    "refreshedAt": "2026-05-02T08:00:33.293Z"
   },
-  "globe-72792": {
+  "globe-72882": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3324,7 +1462,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:54.303Z",
+        "lastChecked": "2026-05-02T08:00:28.548Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3333,7 +1471,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:56.287Z",
+        "lastChecked": "2026-05-02T08:00:33.358Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3342,7 +1480,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.510Z",
+        "lastChecked": "2026-05-02T08:00:27.840Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3351,7 +1489,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.533Z",
+        "lastChecked": "2026-05-02T08:00:27.497Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3360,13 +1498,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.491Z",
+        "lastChecked": "2026-05-02T08:00:27.533Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:56.288Z"
+    "refreshedAt": "2026-05-02T08:00:33.359Z"
   },
-  "globe-72787": {
+  "globe-72881": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3374,7 +1512,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:54.016Z",
+        "lastChecked": "2026-05-02T08:00:28.790Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3383,7 +1521,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:56.398Z",
+        "lastChecked": "2026-05-02T08:00:33.433Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3392,7 +1530,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.495Z",
+        "lastChecked": "2026-05-02T08:00:27.824Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3401,7 +1539,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.426Z",
+        "lastChecked": "2026-05-02T08:00:27.476Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3410,13 +1548,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.501Z",
+        "lastChecked": "2026-05-02T08:00:27.529Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:56.399Z"
+    "refreshedAt": "2026-05-02T08:00:33.434Z"
   },
-  "globe-72791": {
+  "globe-72886": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3424,7 +1562,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:54.044Z",
+        "lastChecked": "2026-05-02T08:00:28.828Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3433,7 +1571,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:56.515Z",
+        "lastChecked": "2026-05-02T08:00:33.693Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3442,7 +1580,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.511Z",
+        "lastChecked": "2026-05-02T08:00:27.773Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3451,7 +1589,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.534Z",
+        "lastChecked": "2026-05-02T08:00:27.513Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3460,13 +1598,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.498Z",
+        "lastChecked": "2026-05-02T08:00:27.521Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:56.516Z"
+    "refreshedAt": "2026-05-02T08:00:33.694Z"
   },
-  "globe-72785": {
+  "globe-72869": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3474,7 +1612,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:54.341Z",
+        "lastChecked": "2026-05-02T08:00:28.530Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3483,7 +1621,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:56.628Z",
+        "lastChecked": "2026-05-02T08:00:33.820Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3492,7 +1630,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.516Z",
+        "lastChecked": "2026-05-02T08:00:27.709Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3501,7 +1639,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.401Z",
+        "lastChecked": "2026-05-02T08:00:27.475Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3510,13 +1648,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.488Z",
+        "lastChecked": "2026-05-02T08:00:27.535Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:56.629Z"
+    "refreshedAt": "2026-05-02T08:00:33.821Z"
   },
-  "globe-72793": {
+  "globe-72884": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3524,7 +1662,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:54.109Z",
+        "lastChecked": "2026-05-02T08:00:28.388Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3533,7 +1671,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:56.720Z",
+        "lastChecked": "2026-05-02T08:00:33.836Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3542,7 +1680,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.522Z",
+        "lastChecked": "2026-05-02T08:00:27.785Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3551,7 +1689,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.468Z",
+        "lastChecked": "2026-05-02T08:00:27.507Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3560,13 +1698,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.512Z",
+        "lastChecked": "2026-05-02T08:00:27.547Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:56.722Z"
+    "refreshedAt": "2026-05-02T08:00:33.836Z"
   },
-  "globe-72789": {
+  "globe-72895": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3574,7 +1712,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:54.141Z",
+        "lastChecked": "2026-05-02T08:00:34.529Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3583,7 +1721,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:56.875Z",
+        "lastChecked": "2026-05-02T08:00:35.487Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3592,7 +1730,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.511Z",
+        "lastChecked": "2026-05-02T08:00:34.230Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3601,7 +1739,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.467Z",
+        "lastChecked": "2026-05-02T08:00:34.474Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3610,13 +1748,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.492Z",
+        "lastChecked": "2026-05-02T08:00:34.154Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:56.876Z"
+    "refreshedAt": "2026-05-02T08:00:35.490Z"
   },
-  "globe-72784": {
+  "globe-72893": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3624,7 +1762,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:54.093Z",
+        "lastChecked": "2026-05-02T08:00:34.667Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3633,7 +1771,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.496Z",
+        "lastChecked": "2026-05-02T08:00:35.593Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3642,7 +1780,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.495Z",
+        "lastChecked": "2026-05-02T08:00:34.241Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3651,7 +1789,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.397Z",
+        "lastChecked": "2026-05-02T08:00:34.203Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3660,13 +1798,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:53.494Z",
+        "lastChecked": "2026-05-02T08:00:34.152Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:57.497Z"
+    "refreshedAt": "2026-05-02T08:00:35.594Z"
   },
-  "globe-72811": {
+  "globe-72905": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3674,7 +1812,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:58.222Z",
+        "lastChecked": "2026-05-02T08:00:34.714Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3683,7 +1821,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:59.819Z",
+        "lastChecked": "2026-05-02T08:00:35.681Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3692,7 +1830,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.752Z",
+        "lastChecked": "2026-05-02T08:00:34.235Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3701,7 +1839,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.621Z",
+        "lastChecked": "2026-05-02T08:00:34.463Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3710,23 +1848,923 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.680Z",
+        "lastChecked": "2026-05-02T08:00:34.161Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T07:59:59.820Z"
+    "refreshedAt": "2026-05-02T08:00:35.682Z"
   },
-  "globe-72825": {
+  "globe-72925": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.582Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:35.827Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.252Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.470Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.169Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:35.828Z"
+  },
+  "globe-72915": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.517Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:35.830Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.237Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.351Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.165Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:35.831Z"
+  },
+  "globe-72896": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.702Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:35.881Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.223Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.469Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.164Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:35.882Z"
+  },
+  "globe-72892": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.462Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:36.104Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.247Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.204Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.157Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:36.105Z"
+  },
+  "globe-72891": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.689Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:36.410Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.231Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.470Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.162Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:36.410Z"
+  },
+  "globe-72927": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.738Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:36.411Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.264Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.415Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.177Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:36.412Z"
+  },
+  "globe-72904": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:35.008Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:36.724Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.313Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.356Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.206Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:36.725Z"
+  },
+  "globe-72919": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:35.398Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:36.981Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.361Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.469Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.200Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:36.982Z"
+  },
+  "globe-72921": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:35.211Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.096Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.384Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.467Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:34.214Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:37.097Z"
+  },
+  "globe-72929": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.654Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:38.427Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.298Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.236Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.274Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:38.428Z"
+  },
+  "globe-72962": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.862Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:38.476Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.317Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.262Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.267Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:38.476Z"
+  },
+  "globe-72936": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.621Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:38.601Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.324Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.237Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.260Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:38.602Z"
+  },
+  "globe-72931": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.718Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:38.611Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.321Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.235Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.268Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:38.612Z"
+  },
+  "globe-72939": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.850Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:38.639Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.321Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.242Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.289Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:38.640Z"
+  },
+  "globe-72942": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.825Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:38.814Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.320Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.240Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.265Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:38.815Z"
+  },
+  "globe-72959": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.838Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:38.911Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.325Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.258Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.276Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:38.911Z"
+  },
+  "globe-72961": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.636Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:38.916Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.311Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.262Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.280Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:38.917Z"
+  },
+  "globe-72949": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:38.141Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.366Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.387Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.241Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:37.306Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:39.367Z"
+  },
+  "globe-72952": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/THM-200002782/Lavatrice-Samsung-WW11DG6B25LEU4-11-kg-AI-SmartThings-EcoBubble-klasa-energjetike-A-10-e-bardhe",
-        "lastChecked": "2026-05-02T07:59:58.643Z",
-        "matchedName": "Lavatriçe Samsung WW11DG6B25LEU4 11 kg AI SmartThings EcoBubble klasa energjetike A-10% e bardhë",
-        "storeProductId": "/THM-200002782/Lavatrice-Samsung-WW11DG6B25LEU4-11-kg-AI-SmartThings-EcoBubble-klasa-energjetike-A-10-e-bardhe",
+        "productUrl": "https://www.foleja.al/THM-200004194/Tharese-rrobash-Samsung-DV90DG52A0AELE-9-kg-A-me-pompe-nxehtesie-WiFi-SmartThings-e-bardhe",
+        "lastChecked": "2026-05-02T08:00:38.145Z",
+        "matchedName": "Tharëse rrobash Samsung DV90DG52A0AELE 9 kg A+++ me pompë nxehtësie, WiFi SmartThings, e bardhë",
+        "storeProductId": "/THM-200004194/Tharese-rrobash-Samsung-DV90DG52A0AELE-9-kg-A-me-pompe-nxehtesie-WiFi-SmartThings-e-bardhe",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -3736,68 +2774,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T08:00:00.166Z",
+        "lastChecked": "2026-05-02T08:00:39.521Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.766Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.629Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.696Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T08:00:00.167Z"
-  },
-  "globe-72819": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:58.572Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T08:00:00.321Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 92890,
+        "price": 65890,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LAVATRICE-SAMSUNG-WF90F09C4SU4-LV1424",
-        "lastChecked": "2026-05-02T07:59:57.598Z",
-        "matchedName": "LAVATRICE SAMSUNG WF90F09C4SU4",
-        "storeProductId": "/categories/LAVATRICE-SAMSUNG-WF90F09C4SU4-LV1424",
+        "productUrl": "https://www.neptun.al/categories/THARESE-RROBASH-SAMSUNG-DV90DG52A0AELE-LV1428",
+        "lastChecked": "2026-05-02T08:00:37.220Z",
+        "matchedName": "THARESE RROBASH SAMSUNG DV90DG52A0AELE",
+        "storeProductId": "/categories/THARESE-RROBASH-SAMSUNG-DV90DG52A0AELE-LV1428",
         "matchConfidence": 100
       },
       {
@@ -3806,7 +2794,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.621Z",
+        "lastChecked": "2026-05-02T08:00:37.241Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3815,13 +2803,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.685Z",
+        "lastChecked": "2026-05-02T08:00:37.312Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T08:00:00.323Z"
+    "refreshedAt": "2026-05-02T08:00:39.521Z"
   },
-  "globe-72822": {
+  "globe-72953": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3829,7 +2817,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:58.356Z",
+        "lastChecked": "2026-05-02T08:00:37.945Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3838,71 +2826,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T08:00:00.767Z",
+        "lastChecked": "2026-05-02T08:00:39.613Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.765Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.622Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.681Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-02T08:00:00.769Z"
-  },
-  "globe-72824": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/THM-200002778/Lavatrice-Samsung-WW11DB7B9EGBU4-11-kg-1400-rpm-klase-energjie-A-Wi-Fi-AI-Control-e-zeze",
-        "lastChecked": "2026-05-02T07:59:58.988Z",
-        "matchedName": "Lavatrice Samsung WW11DB7B9EGBU4 11 kg 1400 rpm klasë energjie A Wi‑Fi AI Control e zezë",
-        "storeProductId": "/THM-200002778/Lavatrice-Samsung-WW11DB7B9EGBU4-11-kg-1400-rpm-klase-energjie-A-Wi-Fi-AI-Control-e-zeze",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T08:00:00.962Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 74997,
+        "price": 85990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LAVATRICE-SAMSUNG-WW11DB7B94GEU4-LV1429",
-        "lastChecked": "2026-05-02T07:59:57.604Z",
-        "matchedName": "LAVATRICE SAMSUNG WW11DB7B94GEU4",
-        "storeProductId": "/categories/LAVATRICE-SAMSUNG-WW11DB7B94GEU4-LV1429",
+        "productUrl": "https://www.neptun.al/categories/THARESE-RROBASH-SAMSUNG-DV90F09F4SU4-LV1478",
+        "lastChecked": "2026-05-02T08:00:37.223Z",
+        "matchedName": "THARESE RROBASH SAMSUNG DV90F09F4SU4",
+        "storeProductId": "/categories/THARESE-RROBASH-SAMSUNG-DV90F09F4SU4-LV1478",
         "matchConfidence": 100
       },
       {
@@ -3911,7 +2846,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.628Z",
+        "lastChecked": "2026-05-02T08:00:37.258Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3920,13 +2855,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.702Z",
+        "lastChecked": "2026-05-02T08:00:37.318Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T08:00:00.963Z"
+    "refreshedAt": "2026-05-02T08:00:39.614Z"
   },
-  "globe-72807": {
+  "globe-72947": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3934,7 +2869,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:58.283Z",
+        "lastChecked": "2026-05-02T08:00:38.056Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3943,7 +2878,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T08:00:01.144Z",
+        "lastChecked": "2026-05-02T08:00:39.662Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3952,7 +2887,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.772Z",
+        "lastChecked": "2026-05-02T08:00:37.392Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3961,7 +2896,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.632Z",
+        "lastChecked": "2026-05-02T08:00:37.249Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3970,13 +2905,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.711Z",
+        "lastChecked": "2026-05-02T08:00:37.297Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T08:00:01.145Z"
+    "refreshedAt": "2026-05-02T08:00:39.663Z"
   },
-  "globe-72808": {
+  "globe-72984": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3984,7 +2919,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:58.416Z",
+        "lastChecked": "2026-05-02T08:00:40.387Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3993,7 +2928,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T08:00:01.169Z",
+        "lastChecked": "2026-05-02T08:00:41.065Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -4002,7 +2937,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.762Z",
+        "lastChecked": "2026-05-02T08:00:39.947Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -4011,7 +2946,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.616Z",
+        "lastChecked": "2026-05-02T08:00:40.358Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -4020,13 +2955,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.678Z",
+        "lastChecked": "2026-05-02T08:00:39.910Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T08:00:01.170Z"
+    "refreshedAt": "2026-05-02T08:00:41.066Z"
   },
-  "globe-72827": {
+  "globe-72983": {
     "prices": [
       {
         "storeId": "foleja",
@@ -4034,7 +2969,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:58.616Z",
+        "lastChecked": "2026-05-02T08:00:40.239Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -4043,17 +2978,19 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T08:00:01.275Z",
+        "lastChecked": "2026-05-02T08:00:41.206Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.778Z",
-        "error": "Produkti nuk u gjet"
+        "price": 35890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/ASPIRATOR-ELECTROLUX-LFG716X-AS0516",
+        "lastChecked": "2026-05-02T08:00:39.860Z",
+        "matchedName": "ASPIRATOR ELECTROLUX LFG716X",
+        "storeProductId": "/categories/ASPIRATOR-ELECTROLUX-LFG716X-AS0516",
+        "matchConfidence": 100
       },
       {
         "storeId": "globe",
@@ -4061,7 +2998,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.631Z",
+        "lastChecked": "2026-05-02T08:00:40.372Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -4070,10 +3007,910 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-02T07:59:57.692Z",
+        "lastChecked": "2026-05-02T08:00:39.916Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-02T08:00:01.277Z"
+    "refreshedAt": "2026-05-02T08:00:41.207Z"
+  },
+  "globe-72974": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.194Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:41.280Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.923Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.083Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.909Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:41.281Z"
+  },
+  "globe-72977": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.402Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:41.383Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.928Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.271Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.904Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:41.384Z"
+  },
+  "globe-72981": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.286Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:41.434Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.945Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.389Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.900Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:41.435Z"
+  },
+  "globe-72978": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.481Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:41.497Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.945Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.270Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.922Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:41.508Z"
+  },
+  "globe-72985": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.336Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:41.704Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.957Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.468Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.917Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:41.705Z"
+  },
+  "globe-72979": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.505Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:41.813Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.940Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.467Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.902Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:41.814Z"
+  },
+  "globe-72973": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.371Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:41.818Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.944Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.078Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.897Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:41.818Z"
+  },
+  "globe-72963": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.493Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:41.823Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.920Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.147Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.898Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:41.824Z"
+  },
+  "globe-72976": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.310Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:41.859Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.923Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.078Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.908Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:41.860Z"
+  },
+  "globe-72967": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.536Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:41.885Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.977Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:40.079Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:39.992Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:41.886Z"
+  },
+  "globe-72986": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.452Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:43.481Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.132Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.084Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.128Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:43.482Z"
+  },
+  "globe-73002": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:43.087Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:44.214Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.295Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.104Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.139Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:44.218Z"
+  },
+  "globe-73007": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.902Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:44.299Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.292Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.132Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.147Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:44.300Z"
+  },
+  "globe-73003": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.976Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:44.423Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.291Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.104Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.152Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:44.424Z"
+  },
+  "globe-73004": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.797Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:44.460Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.295Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.105Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.144Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:44.461Z"
+  },
+  "globe-73008": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:43.055Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:44.626Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.301Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.130Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.160Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:44.627Z"
+  },
+  "globe-73010": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:43.040Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:44.794Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.347Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.129Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.141Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:44.795Z"
+  },
+  "globe-73011": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:43.111Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:44.872Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.286Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.130Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-02T08:00:42.155Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-02T08:00:44.873Z"
   }
 }
