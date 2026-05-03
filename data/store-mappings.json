@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T08:15:00.082Z",
+  "updatedAt": "2026-05-03T08:15:30.587Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -28242,12 +28242,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/POWERBANK-ANKER-MAGGO-5K-WIRELESS-KR0628",
       "storeProductName": "POWERBANK ANKER MAGGO 5K WIRELESS",
-      "catalogueProductId": "neptun-27559",
+      "catalogueProductId": "foleja-powerbank-baseus-nomos-qi2-p10078800123-00-10000mah-45w-usb-c-magnetik-qi2-me-ek",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T18:06:37.340Z",
-      "updatedAt": "2026-05-02T09:52:01.462Z"
+      "updatedAt": "2026-05-03T08:15:27.037Z"
     },
     "neptun:/categories/POWERBANK-INTENSO-XS-20-000-MAH-BLACK-KR0563": {
       "storeId": "neptun",
@@ -59873,6 +59873,39 @@
       "status": "pending",
       "createdAt": "2026-05-03T08:10:08.182Z",
       "updatedAt": "2026-05-03T08:10:08.182Z"
+    },
+    "globe:76378": {
+      "storeId": "globe",
+      "storeProductId": "76378",
+      "storeProductName": "Power Bank Ugreen 10000 mAh 20W Black",
+      "catalogueProductId": "foleja-power-bank-puro-power-mag-5000mah-20w-pd-usb-c-magsafe-e-bardh",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-05-03T08:15:13.591Z",
+      "updatedAt": "2026-05-03T08:15:13.591Z"
+    },
+    "shpresa:128334": {
+      "storeId": "shpresa",
+      "storeProductId": "128334",
+      "storeProductName": "HAVIT PowerBank 10000mAh",
+      "catalogueProductId": "foleja-powerbank-baseus-nomos-qi2-p10078800123-00-10000mah-45w-usb-c-magnetik-qi2-me-ek",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-05-03T08:15:27.037Z",
+      "updatedAt": "2026-05-03T08:15:27.037Z"
+    },
+    "neptun:/categories/POWERBANK-SAMSUNG-25W-10,000-MAH-EB-U2510XUEGEU-KR0574": {
+      "storeId": "neptun",
+      "storeProductId": "/categories/POWERBANK-SAMSUNG-25W-10,000-MAH-EB-U2510XUEGEU-KR0574",
+      "storeProductName": "POWERBANK SAMSUNG 25W 10,000 MAH EB-U2510XUEGEU",
+      "catalogueProductId": "foleja-powerbank-samsung-eb-u2510xuegeu-10000-mah-wireless-beige",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-05-03T08:15:30.587Z",
+      "updatedAt": "2026-05-03T08:15:30.587Z"
     }
   }
 }
