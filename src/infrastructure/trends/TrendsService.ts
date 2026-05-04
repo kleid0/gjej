@@ -1,6 +1,6 @@
 import axios from "axios";
 import fs from "fs";
-import { TRENDS_FILE } from "@/src/infrastructure/persistence/paths";
+import { TRENDS_FILE, snapshotReadPath } from "@/src/infrastructure/persistence/paths";
 
 const EXPLORE_URL = "https://trends.google.com/trends/api/explore";
 const MULTILINE_URL = "https://trends.google.com/trends/api/widgetdata/multiline";
@@ -113,7 +113,7 @@ export async function fetchTrendsScores(
 
 export function readTrendsCache(): TrendsCache | null {
   try {
-    const raw = fs.readFileSync(TRENDS_FILE, "utf-8");
+    const raw = fs.readFileSync(snapshotReadPath(TRENDS_FILE), "utf-8");
     const cache = JSON.parse(raw) as TrendsCache;
     // Expire after 25 hours so a daily cron always serves fresh data
     const age = Date.now() - new Date(cache.updatedAt).getTime();

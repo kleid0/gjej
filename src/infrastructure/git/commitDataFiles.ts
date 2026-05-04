@@ -3,8 +3,9 @@
 // The cron runs in Vercel where the filesystem is read-only outside /tmp,
 // so price history, scraper errors, etc. are written to /tmp during a run
 // and then persisted as a single commit on the repo's default branch.
-// Vercel auto-redeploys on push, which serves the new files to the next
-// cold-started cron invocation.
+// vercel.json's ignoreCommand skips deploys for chore(data): commits, so
+// the bundled data/ snapshot only refreshes on real code deploys; reads
+// fall back from /tmp to the bundle via paths.snapshotReadPath().
 //
 // Concurrency: each invocation in the refresh-prices self-chain calls this
 // independently with its own slice of changes. We always rebase on the

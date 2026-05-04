@@ -4,14 +4,14 @@ import { promises as fs } from "fs";
 import path from "path";
 import type { IPriceRepository } from "@/src/domain/pricing/IPriceRepository";
 import type { ScrapedPrice, PriceRecord } from "@/src/domain/pricing/Price";
-import { PRICES_FILE } from "./paths";
+import { PRICES_FILE, snapshotReadPath } from "./paths";
 
 type PriceFile = Record<string, PriceRecord>;
 
 export class FilePriceRepository implements IPriceRepository {
   private async readFile(): Promise<PriceFile> {
     try {
-      return JSON.parse(await fs.readFile(PRICES_FILE, "utf-8")) as PriceFile;
+      return JSON.parse(await fs.readFile(snapshotReadPath(PRICES_FILE), "utf-8")) as PriceFile;
     } catch {
       return {};
     }

@@ -14,9 +14,10 @@ import { PriceQuery } from "@/src/application/pricing/PriceQuery";
 // Repositories
 // Products and the read-mostly state files (catalogue-state, price-history,
 // scraper-errors, etc.) live as JSON files in /data, committed to git by
-// the cron via commitDataFiles(). Vercel redeploys on every commit so the
-// next invocation reads the up-to-date snapshot. Only price_alerts remains
-// in Postgres because it's the lone user-write path.
+// the cron via commitDataFiles(). vercel.json's ignoreCommand skips deploys
+// on chore(data): commits, so reads on Vercel use snapshotReadPath() to
+// fall back from the empty /tmp to the bundled data/ snapshot. Only
+// price_alerts remains in Postgres because it's the lone user-write path.
 export const productRepo = new FileProductRepository();
 const priceRepo = new FilePriceRepository();
 
