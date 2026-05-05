@@ -1,5 +1,5 @@
 {
-  "neptun-23300": {
+  "neptun-18478": {
     "prices": [
       {
         "storeId": "foleja",
@@ -7,7 +7,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:19.698Z",
+        "lastChecked": "2026-05-05T10:25:12.042Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -16,7 +16,163 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:21.686Z",
+        "lastChecked": "2026-05-05T10:25:11.797Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1297,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/FILTER-FSHESE-PHILIPS-FC5005-01-FI0116",
+        "lastChecked": "2026-05-05T10:25:11.326Z",
+        "matchedName": "FILTER FSHESE PHILIPS FC5005/01",
+        "storeProductId": "/categories/FILTER-FSHESE-PHILIPS-FC5005-01-FI0116",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.436Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.451Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:12.191Z"
+  },
+  "neptun-29424": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:12.278Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.798Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SET-FURCASH-KARCHER-2-863-264-0-BLACK-YELLOW-AC3457",
+        "lastChecked": "2026-05-05T10:25:11.338Z",
+        "matchedName": "SET FURCASH KARCHER 2.863-264.0 BLACK/YELLOW",
+        "storeProductId": "/categories/SET-FURCASH-KARCHER-2-863-264-0-BLACK-YELLOW-AC3457",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.441Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.439Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:12.279Z"
+  },
+  "neptun-29421": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:12.293Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.796Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/FURCE-E-RRUMBULLAKET-KARCHER-2-863-022-0-AC3453",
+        "lastChecked": "2026-05-05T10:25:11.330Z",
+        "matchedName": "FURCE E RRUMBULLAKET KARCHER 2.863-022.0",
+        "storeProductId": "/categories/FURCE-E-RRUMBULLAKET-KARCHER-2-863-022-0-AC3453",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.432Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.449Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:12.293Z"
+  },
+  "neptun-28410": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:12.332Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.815Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -24,10 +180,10 @@
         "price": 2490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-PanzerGlass--iPhone-15-Pro-HC-MagSafe-CA3781",
-        "lastChecked": "2026-05-05T10:24:18.272Z",
-        "matchedName": "Cover PanzerGlass  iPhone 15 Pro HC MagSafe",
-        "storeProductId": "/categories/Cover-PanzerGlass--iPhone-15-Pro-HC-MagSafe-CA3781",
+        "productUrl": "https://www.neptun.al/categories/AKSESOR-FSHESE-ROBOROCK-DISPOSABLE-DUST-BAG-AC3396",
+        "lastChecked": "2026-05-05T10:25:11.353Z",
+        "matchedName": "AKSESOR FSHESE ROBOROCK DISPOSABLE DUST BAG",
+        "storeProductId": "/categories/AKSESOR-FSHESE-ROBOROCK-DISPOSABLE-DUST-BAG-AC3396",
         "matchConfidence": 100
       },
       {
@@ -36,7 +192,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:19.448Z",
+        "lastChecked": "2026-05-05T10:25:11.447Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -45,58 +201,51 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.451Z",
+        "lastChecked": "2026-05-05T10:25:11.468Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:21.690Z"
+    "refreshedAt": "2026-05-05T10:25:12.333Z"
   },
-  "neptun-21770": {
+  "neptun-2998": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:12.413Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.866Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200008299/Mbrojtes-ekrani-3mk-Silver-Protection-per-Samsung-Galaxy-A54-5G-Transparent",
-        "lastChecked": "2026-05-05T10:24:20.416Z",
-        "matchedName": "Mbrojtës ekrani 3mk Silver Protection+ për Samsung Galaxy A54 5G, Transparent",
-        "storeProductId": "/HRT-200008299/Mbrojtes-ekrani-3mk-Silver-Protection-per-Samsung-Galaxy-A54-5G-Transparent",
+        "productUrl": "https://www.neptun.al/categories/FILTER-FSHESE-PHILIPS-FC8010-0",
+        "lastChecked": "2026-05-05T10:25:11.362Z",
+        "matchedName": "FILTER FSHESE PHILIPS FC8010/02",
+        "storeProductId": "/categories/FILTER-FSHESE-PHILIPS-FC8010-0",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
-        "storeId": "shpresa",
-        "price": 24990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/?post_type=product&p=105499&attribute_pa_color=white&attribute_pa_ram=8gb&attribute_pa_memory=128gb",
-        "lastChecked": "2026-05-05T10:24:18.359Z",
-        "matchedName": "Samsung Galaxy A54",
-        "storeProductId": "105821",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "neptun",
-        "price": 2990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-GALAXY-A54-Silicone-Black-CA3694",
-        "lastChecked": "2026-05-05T10:24:18.360Z",
-        "matchedName": "COVER SAMSUNG GALAXY A54 Silicone Black",
-        "storeProductId": "/categories/COVER-SAMSUNG-GALAXY-A54-Silicone-Black-CA3694",
-        "matchConfidence": 100
-      },
-      {
         "storeId": "globe",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/76227",
-        "lastChecked": "2026-05-05T10:24:18.361Z",
-        "matchedName": "Kase Celulari Samsung Galaxy A53 Silicone Cover EF-PA536TBEGWW Black",
-        "storeProductId": "76227",
-        "matchConfidence": 80,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:11.524Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -105,13 +254,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.535Z",
+        "lastChecked": "2026-05-05T10:25:11.457Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:22.597Z"
+    "refreshedAt": "2026-05-05T10:25:12.414Z"
   },
-  "neptun-24202": {
+  "neptun-28413": {
     "prices": [
       {
         "storeId": "foleja",
@@ -119,7 +268,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:20.879Z",
+        "lastChecked": "2026-05-05T10:25:12.515Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -128,7 +277,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:22.920Z",
+        "lastChecked": "2026-05-05T10:25:11.814Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -136,10 +285,10 @@
         "price": 2490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-S23FE-ClearCase-Transparent-CA3829",
-        "lastChecked": "2026-05-05T10:24:18.295Z",
-        "matchedName": "COVER SAMSUNG S23FE ClearCase Transparent",
-        "storeProductId": "/categories/COVER-SAMSUNG-S23FE-ClearCase-Transparent-CA3829",
+        "productUrl": "https://www.neptun.al/categories/AKSESOR-FSHESE-ROBOROCK-MOPPING-CLOTH-AC3400",
+        "lastChecked": "2026-05-05T10:25:11.344Z",
+        "matchedName": "AKSESOR FSHESE ROBOROCK MOPPING CLOTH",
+        "storeProductId": "/categories/AKSESOR-FSHESE-ROBOROCK-MOPPING-CLOTH-AC3400",
         "matchConfidence": 100
       },
       {
@@ -148,7 +297,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.444Z",
+        "lastChecked": "2026-05-05T10:25:11.440Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -157,24 +306,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.533Z",
+        "lastChecked": "2026-05-05T10:25:11.442Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:22.920Z"
+    "refreshedAt": "2026-05-05T10:25:12.573Z"
   },
-  "neptun-21107": {
+  "neptun-28409": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/HRT-200015946/Xham-i-temperuar-PanzerGlass-per-Apple-Watch-4-5-6-SE-40mm-i-zi",
-        "lastChecked": "2026-05-05T10:24:19.240Z",
-        "matchedName": "Xham i temperuar PanzerGlass për Apple Watch 4/5/6/SE, 40mm, i zi",
-        "storeProductId": "/HRT-200015946/Xham-i-temperuar-PanzerGlass-per-Apple-Watch-4-5-6-SE-40mm-i-zi",
-        "matchConfidence": 100,
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:12.530Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -183,18 +329,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:22.936Z",
+        "lastChecked": "2026-05-05T10:25:11.816Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 2490,
+        "price": 4490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/XHAM-MBROJTES-PANZERGLASS-APPLE-WATCH-4-5-6-40mm-CA3650",
-        "lastChecked": "2026-05-05T10:24:18.280Z",
-        "matchedName": "XHAM MBROJTES PANZERGLASS APPLE WATCH 4/5/6 40mm",
-        "storeProductId": "/categories/XHAM-MBROJTES-PANZERGLASS-APPLE-WATCH-4-5-6-40mm-CA3650",
+        "productUrl": "https://www.neptun.al/categories/AKSESOR-FSHESE-ROBOROCK-MAIN-BRUSH-AC3397",
+        "lastChecked": "2026-05-05T10:25:11.359Z",
+        "matchedName": "AKSESOR FSHESE ROBOROCK MAIN BRUSH",
+        "storeProductId": "/categories/AKSESOR-FSHESE-ROBOROCK-MAIN-BRUSH-AC3397",
         "matchConfidence": 100
       },
       {
@@ -203,7 +349,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.445Z",
+        "lastChecked": "2026-05-05T10:25:11.525Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -212,24 +358,24 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.540Z",
+        "lastChecked": "2026-05-05T10:25:11.488Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:22.937Z"
+    "refreshedAt": "2026-05-05T10:25:12.573Z"
   },
-  "neptun-25003": {
+  "neptun-29428": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200011706/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S24-Ultra",
-        "lastChecked": "2026-05-05T10:24:20.728Z",
-        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S24 Ultra",
-        "storeProductId": "/HRT-200011706/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S24-Ultra",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/INP-200011057/filter-fotografik-Freewell-FW-L1-S1-4-White-Snow-Mist-1-4-per-Real-Locking-VND-montim-me-kapese-diameter-i-jashtem-116.6-mm-me-kuti-dhe-lecke-pastruese",
+        "lastChecked": "2026-05-05T10:25:12.686Z",
+        "matchedName": "filter fotografik Freewell FW-L1-S1/4 White Snow Mist 1/4 për Real Locking VND, montim me kapëse, diametër i jashtëm 116.6 mm, me kuti dhe leckë pastruese",
+        "storeProductId": "/INP-200011057/filter-fotografik-Freewell-FW-L1-S1-4-White-Snow-Mist-1-4-per-Real-Locking-VND-montim-me-kapese-diameter-i-jashtem-116.6-mm-me-kuti-dhe-lecke-pastruese",
+        "matchConfidence": 75,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -238,18 +384,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:22.999Z",
+        "lastChecked": "2026-05-05T10:25:11.798Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 2990,
+        "price": 2390,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-S24-Ultra-Silicon-Green-CA3848",
-        "lastChecked": "2026-05-05T10:24:18.368Z",
-        "matchedName": "Cover Samsung S24 Ultra Silicon Green",
-        "storeProductId": "/categories/Cover-Samsung-S24-Ultra-Silicon-Green-CA3848",
+        "productUrl": "https://www.neptun.al/categories/FILTER-PER-PASTRUES-ME-AVULL-KARCHER-SC3-28630180-FI0149",
+        "lastChecked": "2026-05-05T10:25:11.341Z",
+        "matchedName": "FILTER PER PASTRUES ME AVULL KARCHER SC3 28630180",
+        "storeProductId": "/categories/FILTER-PER-PASTRUES-ME-AVULL-KARCHER-SC3-28630180-FI0149",
         "matchConfidence": 100
       },
       {
@@ -258,7 +404,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.444Z",
+        "lastChecked": "2026-05-05T10:25:11.440Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -267,13 +413,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.557Z",
+        "lastChecked": "2026-05-05T10:25:11.434Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:22.999Z"
+    "refreshedAt": "2026-05-05T10:25:12.686Z"
   },
-  "neptun-24200": {
+  "neptun-21073": {
     "prices": [
       {
         "storeId": "foleja",
@@ -281,7 +427,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:20.814Z",
+        "lastChecked": "2026-05-05T10:25:13.335Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -290,18 +436,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:23.501Z",
+        "lastChecked": "2026-05-05T10:25:13.372Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 2990,
+        "price": 1697,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-S23FE-Silicone-Graphite-CA3827",
-        "lastChecked": "2026-05-05T10:24:18.340Z",
-        "matchedName": "COVER SAMSUNG S23FE Silicone Graphite",
-        "storeProductId": "/categories/COVER-SAMSUNG-S23FE-Silicone-Graphite-CA3827",
+        "productUrl": "https://www.neptun.al/categories/FILTER-FSHESE-KARCHER-WD-AC2966",
+        "lastChecked": "2026-05-05T10:25:12.906Z",
+        "matchedName": "FILTER FSHESE KARCHER WD",
+        "storeProductId": "/categories/FILTER-FSHESE-KARCHER-WD-AC2966",
         "matchConfidence": 100
       },
       {
@@ -310,7 +456,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.450Z",
+        "lastChecked": "2026-05-05T10:25:12.935Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -319,852 +465,23 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.522Z",
+        "lastChecked": "2026-05-05T10:25:12.961Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:23.502Z"
+    "refreshedAt": "2026-05-05T10:25:13.382Z"
   },
-  "neptun-24400": {
+  "neptun-29427": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:23.076Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:24.703Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2990,
+        "price": 1488,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-S24--Silicon-Green-CA3843",
-        "lastChecked": "2026-05-05T10:24:18.352Z",
-        "matchedName": "Cover Samsung S24+ Silicon Green",
-        "storeProductId": "/categories/Cover-Samsung-S24--Silicon-Green-CA3843",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.438Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:18.637Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:24.704Z"
-  },
-  "neptun-28608": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.617Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:26.050Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-ZFOLD7-CLEAR-MAGNET-CA4032",
-        "lastChecked": "2026-05-05T10:24:24.969Z",
-        "matchedName": "COVER ZFOLD7 CLEAR MAGNET",
-        "storeProductId": "/categories/COVER-ZFOLD7-CLEAR-MAGNET-CA4032",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.084Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.054Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:26.053Z"
-  },
-  "neptun-28607": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.396Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:26.723Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-ZFLIP7-CLEAR-MAGNET-CA4031",
-        "lastChecked": "2026-05-05T10:24:25.001Z",
-        "matchedName": "COVER ZFLIP7 CLEAR MAGNET",
-        "storeProductId": "/categories/COVER-ZFLIP7-CLEAR-MAGNET-CA4031",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.084Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.055Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:26.739Z"
-  },
-  "neptun-26961": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "lastChecked": "2026-05-05T10:24:26.749Z",
-        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
-        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 54990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
-        "lastChecked": "2026-05-05T10:24:24.993Z",
-        "matchedName": "Samsung Galaxy S25 128GB",
-        "storeProductId": "160857",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-Galaxy-S25--Silicone-Light-Blue-CA3985",
-        "lastChecked": "2026-05-05T10:24:24.993Z",
-        "matchedName": "Cover Samsung Galaxy S25+ Silicone Light Blue",
-        "storeProductId": "/categories/Cover-Samsung-Galaxy-S25--Silicone-Light-Blue-CA3985",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.091Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.353Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:27.439Z"
-  },
-  "neptun-26976": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 1560,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200008020/Mbeshtjellese-per-celular-Samsung-Galaxy-S25-Ultra-Transparente",
-        "lastChecked": "2026-05-05T10:24:26.087Z",
-        "matchedName": "Mbështjellëse per celular Samsung Galaxy S25 Ultra, Transparente",
-        "storeProductId": "/YLL-200008020/Mbeshtjellese-per-celular-Samsung-Galaxy-S25-Ultra-Transparente",
-        "matchConfidence": 83,
-        "suspicious": true
-      },
-      {
-        "storeId": "shpresa",
-        "price": 54990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
-        "lastChecked": "2026-05-05T10:24:24.955Z",
-        "matchedName": "Samsung Galaxy S25 128GB",
-        "storeProductId": "160857",
-        "matchConfidence": 100,
-        "overpriced": true
-      },
-      {
-        "storeId": "neptun",
-        "price": 2990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-Galaxy-S25-ULTRA-Clear-Transparent-CA3993",
-        "lastChecked": "2026-05-05T10:24:24.955Z",
-        "matchedName": "Cover Samsung Galaxy S25 ULTRA Clear Transparent",
-        "storeProductId": "/categories/Cover-Samsung-Galaxy-S25-ULTRA-Clear-Transparent-CA3993",
-        "matchConfidence": 100,
-        "suspicious": true
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.100Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.251Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:27.495Z"
-  },
-  "neptun-26973": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "lastChecked": "2026-05-05T10:24:26.745Z",
-        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
-        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 54990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
-        "lastChecked": "2026-05-05T10:24:24.981Z",
-        "matchedName": "Samsung Galaxy S25 128GB",
-        "storeProductId": "160857",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-Galaxy-S25-ULTRA-Silicone-Gray-CA3990",
-        "lastChecked": "2026-05-05T10:24:24.981Z",
-        "matchedName": "Cover Samsung Galaxy S25 ULTRA Silicone Gray",
-        "storeProductId": "/categories/Cover-Samsung-Galaxy-S25-ULTRA-Silicone-Gray-CA3990",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.074Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.317Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:27.522Z"
-  },
-  "neptun-26995": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "lastChecked": "2026-05-05T10:24:26.742Z",
-        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
-        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 54990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
-        "lastChecked": "2026-05-05T10:24:24.965Z",
-        "matchedName": "Samsung Galaxy S25 128GB",
-        "storeProductId": "160857",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-Galaxy-S25-ULTRA-Clear-Magnet-CA4012",
-        "lastChecked": "2026-05-05T10:24:24.966Z",
-        "matchedName": "Cover Samsung Galaxy S25 ULTRA Clear Magnet",
-        "storeProductId": "/categories/Cover-Samsung-Galaxy-S25-ULTRA-Clear-Magnet-CA4012",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.083Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.219Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:27.564Z"
-  },
-  "neptun-26963": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "lastChecked": "2026-05-05T10:24:26.748Z",
-        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
-        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 54990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
-        "lastChecked": "2026-05-05T10:24:24.962Z",
-        "matchedName": "Samsung Galaxy S25 128GB",
-        "storeProductId": "160857",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "neptun",
-        "price": 2990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-Galaxy-S25-Clear-Transparent-CA3980",
-        "lastChecked": "2026-05-05T10:24:24.962Z",
-        "matchedName": "Cover Samsung Galaxy S25 Clear Transparent",
-        "storeProductId": "/categories/Cover-Samsung-Galaxy-S25-Clear-Transparent-CA3980",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.075Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.329Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:27.601Z"
-  },
-  "neptun-26960": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "lastChecked": "2026-05-05T10:24:27.073Z",
-        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
-        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 54990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
-        "lastChecked": "2026-05-05T10:24:24.973Z",
-        "matchedName": "Samsung Galaxy S25 128GB",
-        "storeProductId": "160857",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-Galaxy-S25-Silicone-Blue-CA3977",
-        "lastChecked": "2026-05-05T10:24:24.973Z",
-        "matchedName": "Cover Samsung Galaxy S25 Silicone Blue",
-        "storeProductId": "/categories/Cover-Samsung-Galaxy-S25-Silicone-Blue-CA3977",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.093Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.929Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:27.793Z"
-  },
-  "neptun-26993": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "lastChecked": "2026-05-05T10:24:26.752Z",
-        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
-        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 54990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
-        "lastChecked": "2026-05-05T10:24:24.977Z",
-        "matchedName": "Samsung Galaxy S25 128GB",
-        "storeProductId": "160857",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-Galaxy-S25-Clear-Magnet-CA4010",
-        "lastChecked": "2026-05-05T10:24:24.977Z",
-        "matchedName": "Cover Samsung Galaxy S25 Clear Magnet",
-        "storeProductId": "/categories/Cover-Samsung-Galaxy-S25-Clear-Magnet-CA4010",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.108Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.382Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:27.804Z"
-  },
-  "neptun-17550": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:26.723Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:28.298Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.355Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.085Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.168Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:28.299Z"
-  },
-  "neptun-24398": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:27.196Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:28.930Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-S24--Flipsuit-White-CA3835",
-        "lastChecked": "2026-05-05T10:24:24.989Z",
-        "matchedName": "Cover Samsung S24+ Flipsuit White",
-        "storeProductId": "/categories/Cover-Samsung-S24--Flipsuit-White-CA3835",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.084Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.215Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:28.930Z"
-  },
-  "neptun-24997": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200011706/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S24-Ultra",
-        "lastChecked": "2026-05-05T10:24:26.744Z",
-        "matchedName": "Xham i temperuar 3mk HardGlass për Samsung Galaxy S24 Ultra",
-        "storeProductId": "/HRT-200011706/Xham-i-temperuar-3mk-HardGlass-per-Samsung-Galaxy-S24-Ultra",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.334Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-S24-Ultra-Flipsuit-White-CA3836",
-        "lastChecked": "2026-05-05T10:24:24.997Z",
-        "matchedName": "Cover Samsung S24 Ultra Flipsuit White",
-        "storeProductId": "/categories/Cover-Samsung-S24-Ultra-Flipsuit-White-CA3836",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.076Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:25.190Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:29.335Z"
-  },
-  "neptun-28573": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300310916/Smartwatch-Samsung-Galaxy-Watch8-LTE-44mm-Graphite",
-        "lastChecked": "2026-05-05T10:24:31.005Z",
-        "matchedName": "Smartwatch Samsung Galaxy Watch8 LTE 44mm, Graphite",
-        "storeProductId": "/ACN-300310916/Smartwatch-Samsung-Galaxy-Watch8-LTE-44mm-Graphite",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-watch8-40mm/",
-        "lastChecked": "2026-05-05T10:24:29.567Z",
-        "matchedName": "Samsung Galaxy Watch8 40MM",
-        "storeProductId": "169723",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/RRIP-SAMSUNG-GALAXY-WATCH8-HYBRID-BLACK-AC3437",
-        "lastChecked": "2026-05-05T10:24:29.567Z",
-        "matchedName": "RRIP SAMSUNG GALAXY WATCH8 HYBRID BLACK",
-        "storeProductId": "/categories/RRIP-SAMSUNG-GALAXY-WATCH8-HYBRID-BLACK-AC3437",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.635Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.767Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:31.006Z"
-  },
-  "neptun-26974": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "lastChecked": "2026-05-05T10:24:31.009Z",
-        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
-        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 54990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
-        "lastChecked": "2026-05-05T10:24:29.552Z",
-        "matchedName": "Samsung Galaxy S25 128GB",
-        "storeProductId": "160857",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-Galaxy-S25-ULTRA-Silicone-Light-Blue-CA3991",
-        "lastChecked": "2026-05-05T10:24:29.553Z",
-        "matchedName": "Cover Samsung Galaxy S25 ULTRA Silicone Light Blue",
-        "storeProductId": "/categories/Cover-Samsung-Galaxy-S25-ULTRA-Silicone-Light-Blue-CA3991",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.599Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.760Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:31.638Z"
-  },
-  "neptun-21655": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 2100,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ALB-200000562/Kartele-memorie-SanDisk-Extreme-PRO-SDXC-64GB-200MB-s",
-        "lastChecked": "2026-05-05T10:24:29.898Z",
-        "matchedName": "Kartelë memorie SanDisk Extreme PRO SDXC, 64GB, 200MB/s",
-        "storeProductId": "/ALB-200000562/Kartele-memorie-SanDisk-Extreme-PRO-SDXC-64GB-200MB-s",
+        "productUrl": "https://www.foleja.al/ACN-300000232/Aksesore-per-thithese-KARCHER-6.904-322.0",
+        "lastChecked": "2026-05-05T10:25:13.992Z",
+        "matchedName": "Aksesorë për thithëse KARCHER 6.904-322.0",
+        "storeProductId": "/ACN-300000232/Aksesore-per-thithese-KARCHER-6.904-322.0",
         "matchConfidence": 67
       },
       {
@@ -1173,18 +490,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:32.566Z",
+        "lastChecked": "2026-05-05T10:25:14.023Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 7790,
+        "price": 3090,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/SanDisk-Extreme-PRO-256GB-SDXC-Memory-Card-KA0817",
-        "lastChecked": "2026-05-05T10:24:29.578Z",
-        "matchedName": "SanDisk Extreme PRO 256GB SDXC Memory Card",
-        "storeProductId": "/categories/SanDisk-Extreme-PRO-256GB-SDXC-Memory-Card-KA0817",
+        "productUrl": "https://www.neptun.al/categories/AKSESOR-FSHESE-KARCHER-AC3463",
+        "lastChecked": "2026-05-05T10:25:12.925Z",
+        "matchedName": "AKSESOR FSHESE KARCHER",
+        "storeProductId": "/categories/AKSESOR-FSHESE-KARCHER-AC3463",
         "matchConfidence": 100
       },
       {
@@ -1193,7 +510,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.641Z",
+        "lastChecked": "2026-05-05T10:25:13.038Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1202,13 +519,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.688Z",
+        "lastChecked": "2026-05-05T10:25:12.957Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:32.567Z"
+    "refreshedAt": "2026-05-05T10:25:14.024Z"
   },
-  "neptun-30850": {
+  "neptun-21071": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1216,7 +533,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:31.419Z",
+        "lastChecked": "2026-05-05T10:25:13.598Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1225,18 +542,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:32.881Z",
+        "lastChecked": "2026-05-05T10:25:14.232Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 3990,
+        "price": 2990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/APPLE-AIRTAG--2GEN--1-PACK-MFE94ZM-A-AC3553",
-        "lastChecked": "2026-05-05T10:24:29.564Z",
-        "matchedName": "APPLE AIRTAG (2GEN) 1 PACK MFE94ZM/A",
-        "storeProductId": "/categories/APPLE-AIRTAG--2GEN--1-PACK-MFE94ZM-A-AC3553",
+        "productUrl": "https://www.neptun.al/categories/AKSESOR-FSHESE-RUL-KARCHER-AC2963",
+        "lastChecked": "2026-05-05T10:25:12.927Z",
+        "matchedName": "AKSESOR FSHESE RUL KARCHER",
+        "storeProductId": "/categories/AKSESOR-FSHESE-RUL-KARCHER-AC2963",
         "matchConfidence": 100
       },
       {
@@ -1245,7 +562,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.636Z",
+        "lastChecked": "2026-05-05T10:25:13.033Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1254,13 +571,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.729Z",
+        "lastChecked": "2026-05-05T10:25:12.960Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:32.882Z"
+    "refreshedAt": "2026-05-05T10:25:14.233Z"
   },
-  "neptun-23938": {
+  "neptun-15226": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1268,7 +585,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:31.318Z",
+        "lastChecked": "2026-05-05T10:25:13.775Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1277,18 +594,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:33.563Z",
+        "lastChecked": "2026-05-05T10:25:14.274Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 3990,
+        "price": 1790,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-SMARTTAG-2-EI-T5600BBEGEU-AC2970",
-        "lastChecked": "2026-05-05T10:24:29.559Z",
-        "matchedName": "SAMSUNG GALAXY SMARTTAG 2 EI-T5600BBEGEU",
-        "storeProductId": "/categories/SAMSUNG-GALAXY-SMARTTAG-2-EI-T5600BBEGEU-AC2970",
+        "productUrl": "https://www.neptun.al/categories/FILTER-FSHESE-ROWENTA-ZR005901-FI0075",
+        "lastChecked": "2026-05-05T10:25:12.909Z",
+        "matchedName": "FILTER FSHESE ROWENTA ZR005901",
+        "storeProductId": "/categories/FILTER-FSHESE-ROWENTA-ZR005901-FI0075",
         "matchConfidence": 100
       },
       {
@@ -1297,7 +614,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.639Z",
+        "lastChecked": "2026-05-05T10:25:12.935Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1306,13 +623,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.721Z",
+        "lastChecked": "2026-05-05T10:25:13.035Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:33.564Z"
+    "refreshedAt": "2026-05-05T10:25:14.274Z"
   },
-  "neptun-31119": {
+  "neptun-30052": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1320,7 +637,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:31.336Z",
+        "lastChecked": "2026-05-05T10:25:14.005Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1329,18 +646,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:33.808Z",
+        "lastChecked": "2026-05-05T10:25:14.785Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 3990,
+        "price": 2697,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-SMARTTAG-2-EI-T5600BWEGEU-I-BARDHE-AC3560",
-        "lastChecked": "2026-05-05T10:24:29.556Z",
-        "matchedName": "SAMSUNG GALAXY SMARTTAG 2 EI-T5600BWEGEU I BARDHE",
-        "storeProductId": "/categories/SAMSUNG-GALAXY-SMARTTAG-2-EI-T5600BWEGEU-I-BARDHE-AC3560",
+        "productUrl": "https://www.neptun.al/categories/FILTER-MIELE-SF-HA-60-11639210-FI0134",
+        "lastChecked": "2026-05-05T10:25:12.932Z",
+        "matchedName": "FILTER MIELE SF-HA 60 11639210",
+        "storeProductId": "/categories/FILTER-MIELE-SF-HA-60-11639210-FI0134",
         "matchConfidence": 100
       },
       {
@@ -1349,7 +666,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.639Z",
+        "lastChecked": "2026-05-05T10:25:13.039Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1358,24 +675,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.713Z",
+        "lastChecked": "2026-05-05T10:25:13.084Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:33.809Z"
+    "refreshedAt": "2026-05-05T10:25:14.786Z"
   },
-  "neptun-25204": {
+  "neptun-29423": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200026486/Xham-i-temperuar-Wozinsky-per-Xiaomi-POCO-M7-2-cope-transparent",
-        "lastChecked": "2026-05-05T10:24:30.073Z",
-        "matchedName": "Xham i temperuar Wozinsky për Xiaomi POCO M7, 2 copë, transparent",
-        "storeProductId": "/HRT-200026486/Xham-i-temperuar-Wozinsky-per-Xiaomi-POCO-M7-2-cope-transparent",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.990Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1384,7 +698,475 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:33.889Z",
+        "lastChecked": "2026-05-05T10:25:14.839Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SET-PER-PASTRIM-DYSHEMEJE-EASYFIX-KARCHER-AC3455",
+        "lastChecked": "2026-05-05T10:25:12.912Z",
+        "matchedName": "SET PER PASTRIM DYSHEMEJE EASYFIX KARCHER",
+        "storeProductId": "/categories/SET-PER-PASTRIM-DYSHEMEJE-EASYFIX-KARCHER-AC3455",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:12.966Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.074Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:14.840Z"
+  },
+  "neptun-30025": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:14.064Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:14.839Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2397,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/AKSESORE-PER-FSHESE-KORENTI-PH-AC0689",
+        "lastChecked": "2026-05-05T10:25:12.930Z",
+        "matchedName": "AKSESORE PER FSHESE KORENTI PH",
+        "storeProductId": "/categories/AKSESORE-PER-FSHESE-KORENTI-PH-AC0689",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.039Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.080Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:14.840Z"
+  },
+  "neptun-28412": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:14.209Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:15.002Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/AKSESOR-FSHESE-ROBOROCK-RUBBER-MAIN-BRUSH-AC3399",
+        "lastChecked": "2026-05-05T10:25:12.923Z",
+        "matchedName": "AKSESOR FSHESE ROBOROCK RUBBER MAIN BRUSH",
+        "storeProductId": "/categories/AKSESOR-FSHESE-ROBOROCK-RUBBER-MAIN-BRUSH-AC3399",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.031Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.082Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:15.003Z"
+  },
+  "neptun-29426": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.950Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:15.032Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SET-MBULUES-PER-PASTRUES-ME-AVULL-KARCHER-AC3461",
+        "lastChecked": "2026-05-05T10:25:12.916Z",
+        "matchedName": "SET MBULUES PER PASTRUES ME AVULL KARCHER",
+        "storeProductId": "/categories/SET-MBULUES-PER-PASTRUES-ME-AVULL-KARCHER-AC3461",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:12.947Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.083Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:15.032Z"
+  },
+  "neptun-15156": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.967Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:15.078Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/QESE-FSHESE-BOSCH-BBZ41FGALL-AC1831",
+        "lastChecked": "2026-05-05T10:25:12.921Z",
+        "matchedName": "QESE FSHESE BOSCH BBZ41FGALL",
+        "storeProductId": "/categories/QESE-FSHESE-BOSCH-BBZ41FGALL-AC1831",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.034Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.086Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:15.079Z"
+  },
+  "neptun-18479": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:14.254Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:15.650Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1797,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PECETE-MIKROFIBER-PER-DYSHEME-PHILIPS-XV1700-01-FI0117",
+        "lastChecked": "2026-05-05T10:25:12.914Z",
+        "matchedName": "PECETE MIKROFIBER PER DYSHEME PHILIPS XV1700/01",
+        "storeProductId": "/categories/PECETE-MIKROFIBER-PER-DYSHEME-PHILIPS-XV1700-01-FI0117",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:12.967Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.109Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:15.651Z"
+  },
+  "neptun-30428": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:14.784Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:16.687Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/FILTER-PHILIPS-PAW0010-01-PET-WATER-FI0161",
+        "lastChecked": "2026-05-05T10:25:12.918Z",
+        "matchedName": "FILTER PHILIPS PAW0010/01 PET WATER",
+        "storeProductId": "/categories/FILTER-PHILIPS-PAW0010-01-PET-WATER-FI0161",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.031Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:13.129Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:16.687Z"
+  },
+  "neptun-8156": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.290Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:18.044Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/ANTICALKARE-HEKURI-HAMA-250ML",
+        "lastChecked": "2026-05-05T10:25:16.920Z",
+        "matchedName": "ANTIKALKARE HEKURI XAVAX 250ML",
+        "storeProductId": "/categories/ANTICALKARE-HEKURI-HAMA-250ML",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.098Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:16.968Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:18.045Z"
+  },
+  "neptun-27427": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.832Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:18.061Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PASTRUES-HEKURI-XAVAX,50-ML-PS0291",
+        "lastChecked": "2026-05-05T10:25:16.923Z",
+        "matchedName": "PASTRUES HEKURI XAVAX,50 ML 00111762",
+        "storeProductId": "/categories/PASTRUES-HEKURI-XAVAX,50-ML-PS0291",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.081Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:16.972Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:18.063Z"
+  },
+  "neptun-21070": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:18.271Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:19.678Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1393,7 +1175,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.991Z",
+        "lastChecked": "2026-05-05T10:25:17.255Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1402,7 +1184,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.649Z",
+        "lastChecked": "2026-05-05T10:25:16.951Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1411,13 +1193,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.720Z",
+        "lastChecked": "2026-05-05T10:25:17.012Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:33.890Z"
+    "refreshedAt": "2026-05-05T10:25:19.679Z"
   },
-  "neptun-24199": {
+  "neptun-28641": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1425,7 +1207,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:31.352Z",
+        "lastChecked": "2026-05-05T10:25:17.892Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1434,7 +1216,215 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:34.197Z",
+        "lastChecked": "2026-05-05T10:25:19.754Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 8490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SET-AKSESORESH-DYSON-972205-01-AC3424",
+        "lastChecked": "2026-05-05T10:25:16.916Z",
+        "matchedName": "SET AKSESORESH DYSON 972205-01",
+        "storeProductId": "/categories/SET-AKSESORESH-DYSON-972205-01-AC3424",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.291Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.022Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:19.755Z"
+  },
+  "neptun-20619": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:18.238Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:19.950Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/HEQES-PUSHI-PER-RROBAT-PHILIPS-GC026-80-AC2927",
+        "lastChecked": "2026-05-05T10:25:16.935Z",
+        "matchedName": "HEQES PUSHI PER RROBAT PHILIPS GC026/80",
+        "storeProductId": "/categories/HEQES-PUSHI-PER-RROBAT-PHILIPS-GC026-80-AC2927",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.163Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.055Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:19.951Z"
+  },
+  "neptun-29431": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:18.014Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:19.956Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/FILTER-I-SHESHTE-KARCHER-2-863-354-0-FI0153",
+        "lastChecked": "2026-05-05T10:25:16.907Z",
+        "matchedName": "FILTER I SHESHTE KARCHER 2.863-354.0",
+        "storeProductId": "/categories/FILTER-I-SHESHTE-KARCHER-2-863-354-0-FI0153",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:16.994Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.021Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:19.957Z"
+  },
+  "neptun-15151": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.878Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:20.244Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MBULESE-TAVOLINE-HEKUROSJE-XL-AC1745",
+        "lastChecked": "2026-05-05T10:25:16.925Z",
+        "matchedName": "MBULESE TAVOLINE HEKUROSJE COLOMBO XL",
+        "storeProductId": "/categories/MBULESE-TAVOLINE-HEKUROSJE-XL-AC1745",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.057Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.013Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:20.245Z"
+  },
+  "neptun-29425": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.370Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:20.375Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1442,10 +1432,10 @@
         "price": 4990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-S23FE-SmartView-Black-CA3826",
-        "lastChecked": "2026-05-05T10:24:29.584Z",
-        "matchedName": "COVER SAMSUNG S23FE SmartView Black",
-        "storeProductId": "/categories/COVER-SAMSUNG-S23FE-SmartView-Black-CA3826",
+        "productUrl": "https://www.neptun.al/categories/SET-PER-PASTRIM-DYSHEMEJE-KARCHER-2-863-346-0-AC3460",
+        "lastChecked": "2026-05-05T10:25:16.911Z",
+        "matchedName": "SET PER PASTRIM DYSHEMEJE KARCHER 2.863-346.0",
+        "storeProductId": "/categories/SET-PER-PASTRIM-DYSHEMEJE-KARCHER-2-863-346-0-AC3460",
         "matchConfidence": 100
       },
       {
@@ -1454,7 +1444,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.651Z",
+        "lastChecked": "2026-05-05T10:25:16.938Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1463,24 +1453,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.766Z",
+        "lastChecked": "2026-05-05T10:25:17.017Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:34.198Z"
+    "refreshedAt": "2026-05-05T10:25:20.376Z"
   },
-  "neptun-25072": {
+  "neptun-26540": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/HRT-200010516/Mbrojtes-ekrani-per-Apple-Watch-9-3mk-Protection-Watch-Protection-ARC-45mm-Transparent",
-        "lastChecked": "2026-05-05T10:24:30.787Z",
-        "matchedName": "Mbrojtës ekrani për Apple Watch 9, 3mk Protection Watch Protection ARC+, 45mm, Transparent",
-        "storeProductId": "/HRT-200010516/Mbrojtes-ekrani-per-Apple-Watch-9-3mk-Protection-Watch-Protection-ARC-45mm-Transparent",
-        "matchConfidence": 100,
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:18.135Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1489,18 +1476,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:34.563Z",
+        "lastChecked": "2026-05-05T10:25:20.397Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 3997,
+        "price": 290,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/RRIP-APPLE-WATCH-45mm--DEMO--3J606ZM-A-AC2912",
-        "lastChecked": "2026-05-05T10:24:29.570Z",
-        "matchedName": "RRIP APPLE WATCH 45mm (DEMO) 3J606ZM/A",
-        "storeProductId": "/categories/RRIP-APPLE-WATCH-45mm--DEMO--3J606ZM-A-AC2912",
+        "productUrl": "https://www.neptun.al/categories/UJE-I-DISTILUAR-PER-HEKUR-PS0122",
+        "lastChecked": "2026-05-05T10:25:16.918Z",
+        "matchedName": "UJE I DISTILUAR PER HEKUR",
+        "storeProductId": "/categories/UJE-I-DISTILUAR-PER-HEKUR-PS0122",
         "matchConfidence": 100
       },
       {
@@ -1509,7 +1496,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.615Z",
+        "lastChecked": "2026-05-05T10:25:17.018Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1518,24 +1505,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.763Z",
+        "lastChecked": "2026-05-05T10:25:17.029Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:34.564Z"
+    "refreshedAt": "2026-05-05T10:25:20.398Z"
   },
-  "neptun-25071": {
+  "neptun-15154": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200004223/Rrip-magnetik-per-Apple-Watch-Hurtel-41mm-Blu",
-        "lastChecked": "2026-05-05T10:24:30.622Z",
-        "matchedName": "Rrip magnetik për Apple Watch Hurtel, 41mm, Blu",
-        "storeProductId": "/HRT-200004223/Rrip-magnetik-per-Apple-Watch-Hurtel-41mm-Blu",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:17.988Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1544,18 +1528,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:34.741Z",
+        "lastChecked": "2026-05-05T10:25:20.547Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 3997,
+        "price": 1190,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/RRIP-APPLE-WATCH-41mm--DEMO--3j599zm-a-AC2907",
-        "lastChecked": "2026-05-05T10:24:29.573Z",
-        "matchedName": "RRIP APPLE WATCH 41mm (DEMO) 3j599zm/a",
-        "storeProductId": "/categories/RRIP-APPLE-WATCH-41mm--DEMO--3j599zm-a-AC2907",
+        "productUrl": "https://www.neptun.al/categories/MBULESE-HEKURI-MBUSHESE-L-AC1779",
+        "lastChecked": "2026-05-05T10:25:16.930Z",
+        "matchedName": "MBULESE TAVOLINE HEKUROSJE COLOMBO MBUSHESE L",
+        "storeProductId": "/categories/MBULESE-HEKURI-MBUSHESE-L-AC1779",
         "matchConfidence": 100
       },
       {
@@ -1564,7 +1548,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.641Z",
+        "lastChecked": "2026-05-05T10:25:17.065Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1573,13 +1557,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.751Z",
+        "lastChecked": "2026-05-05T10:25:17.010Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:34.742Z"
+    "refreshedAt": "2026-05-05T10:25:20.549Z"
   },
-  "neptun-24201": {
+  "neptun-15149": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1587,7 +1571,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:31.272Z",
+        "lastChecked": "2026-05-05T10:25:17.974Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1596,18 +1580,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:34.743Z",
+        "lastChecked": "2026-05-05T10:25:20.622Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 3990,
+        "price": 1390,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-SAMSUNG-S23FE-Silicone-Apricot-CA3828",
-        "lastChecked": "2026-05-05T10:24:29.561Z",
-        "matchedName": "COVER SAMSUNG S23FE Silicone Apricot",
-        "storeProductId": "/categories/COVER-SAMSUNG-S23FE-Silicone-Apricot-CA3828",
+        "productUrl": "https://www.neptun.al/categories/MBULESE-TAVOLINE-HEKUROSJE-L-AC1744",
+        "lastChecked": "2026-05-05T10:25:16.928Z",
+        "matchedName": "MBULESE TAVOLINE HEKUROSJE COLOMBO L",
+        "storeProductId": "/categories/MBULESE-TAVOLINE-HEKUROSJE-L-AC1744",
         "matchConfidence": 100
       },
       {
@@ -1616,7 +1600,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.624Z",
+        "lastChecked": "2026-05-05T10:25:17.062Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1625,13 +1609,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.778Z",
+        "lastChecked": "2026-05-05T10:25:17.009Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:34.743Z"
+    "refreshedAt": "2026-05-05T10:25:20.623Z"
   },
-  "neptun-29370": {
+  "neptun-25092": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1639,7 +1623,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:31.452Z",
+        "lastChecked": "2026-05-05T10:25:18.255Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1648,18 +1632,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.067Z",
+        "lastChecked": "2026-05-05T10:25:21.257Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 4990,
+        "price": 1490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-ZFLIP7-Ring-Red-CA4045",
-        "lastChecked": "2026-05-05T10:24:29.582Z",
-        "matchedName": "COVER ZFLIP7 Ring Red",
-        "storeProductId": "/categories/COVER-ZFLIP7-Ring-Red-CA4045",
+        "productUrl": "https://www.neptun.al/categories/HEQES-PUSHI-PER-RROBAT-PHILIPS-GC026-00-AC3072",
+        "lastChecked": "2026-05-05T10:25:16.932Z",
+        "matchedName": "HEQES PUSHI PER RROBAT PHILIPS GC026/00",
+        "storeProductId": "/categories/HEQES-PUSHI-PER-RROBAT-PHILIPS-GC026-00-AC3072",
         "matchConfidence": 100
       },
       {
@@ -1668,7 +1652,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.640Z",
+        "lastChecked": "2026-05-05T10:25:17.018Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1677,13 +1661,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:29.799Z",
+        "lastChecked": "2026-05-05T10:25:17.054Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:35.068Z"
+    "refreshedAt": "2026-05-05T10:25:21.258Z"
   },
-  "neptun-25944": {
+  "neptun-27372": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1691,7 +1675,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:37.141Z",
+        "lastChecked": "2026-05-05T10:25:22.114Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1700,18 +1684,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:37.623Z",
+        "lastChecked": "2026-05-05T10:25:22.420Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 5490,
+        "price": 1990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PANZERGLASS-PROTECTION-SET-IPHONE-16-PRO-MAX-CA3940",
-        "lastChecked": "2026-05-05T10:24:35.391Z",
-        "matchedName": "PANZERGLASS PROTECTION SET IPHONE 16 PRO MAX",
-        "storeProductId": "/categories/PANZERGLASS-PROTECTION-SET-IPHONE-16-PRO-MAX-CA3940",
+        "productUrl": "https://www.neptun.al/categories/TAVOLINE-HEKUROSJE-MINIASSE-70-TT0181",
+        "lastChecked": "2026-05-05T10:25:21.673Z",
+        "matchedName": "TAVOLINE HEKUROSJE MINIASSE 70",
+        "storeProductId": "/categories/TAVOLINE-HEKUROSJE-MINIASSE-70-TT0181",
         "matchConfidence": 100
       },
       {
@@ -1720,7 +1704,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.461Z",
+        "lastChecked": "2026-05-05T10:25:21.689Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1729,46 +1713,41 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.486Z",
+        "lastChecked": "2026-05-05T10:25:21.724Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:37.624Z"
+    "refreshedAt": "2026-05-05T10:25:22.420Z"
   },
-  "neptun-26958": {
+  "neptun-15340": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "lastChecked": "2026-05-05T10:24:36.762Z",
-        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
-        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:22.242Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 54990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
-        "lastChecked": "2026-05-05T10:24:35.343Z",
-        "matchedName": "Samsung Galaxy S25 128GB",
-        "storeProductId": "160857",
-        "matchConfidence": 100
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:23.096Z",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 5490,
+        "price": 4890,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-Galaxy-S25--Standing-Grip-Gray-CA3982",
-        "lastChecked": "2026-05-05T10:24:35.344Z",
-        "matchedName": "Cover Samsung Galaxy S25+ Standing Grip Gray",
-        "storeProductId": "/categories/Cover-Samsung-Galaxy-S25--Standing-Grip-Gray-CA3982",
+        "productUrl": "https://www.neptun.al/categories/TAVOLINE-HEKUROSJE-PROFI-TT0159",
+        "lastChecked": "2026-05-05T10:25:21.680Z",
+        "matchedName": "TAVOLINE HEKUROSJE PROFI",
+        "storeProductId": "/categories/TAVOLINE-HEKUROSJE-PROFI-TT0159",
         "matchConfidence": 100
       },
       {
@@ -1777,7 +1756,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.427Z",
+        "lastChecked": "2026-05-05T10:25:21.695Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1786,46 +1765,41 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.873Z",
+        "lastChecked": "2026-05-05T10:25:21.729Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:37.819Z"
+    "refreshedAt": "2026-05-05T10:25:23.097Z"
   },
-  "neptun-26971": {
+  "neptun-10726": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "lastChecked": "2026-05-05T10:24:36.769Z",
-        "matchedName": "Celular Samsung Galaxy S25 5G, 12GB 128GB, Icyblue",
-        "storeProductId": "/KST-200051053/Celular-Samsung-Galaxy-S25-5G-12GB-128GB-Icyblue",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:22.255Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 54990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s25-128gb/",
-        "lastChecked": "2026-05-05T10:24:35.347Z",
-        "matchedName": "Samsung Galaxy S25 128GB",
-        "storeProductId": "160857",
-        "matchConfidence": 100
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:23.134Z",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 5490,
+        "price": 2590,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-Galaxy-S25-ULTRA-Standing-Grip-Gray-CA3988",
-        "lastChecked": "2026-05-05T10:24:35.348Z",
-        "matchedName": "Cover Samsung Galaxy S25 ULTRA Standing Grip Gray",
-        "storeProductId": "/categories/Cover-Samsung-Galaxy-S25-ULTRA-Standing-Grip-Gray-CA3988",
+        "productUrl": "https://www.neptun.al/categories/TAVOLINE-HEKUROSJE-EASY",
+        "lastChecked": "2026-05-05T10:25:21.675Z",
+        "matchedName": "TAVOLINE HEKUROSJE EASY",
+        "storeProductId": "/categories/TAVOLINE-HEKUROSJE-EASY",
         "matchConfidence": 100
       },
       {
@@ -1834,7 +1808,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.434Z",
+        "lastChecked": "2026-05-05T10:25:21.697Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1843,13 +1817,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.654Z",
+        "lastChecked": "2026-05-05T10:25:21.722Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:37.824Z"
+    "refreshedAt": "2026-05-05T10:25:23.135Z"
   },
-  "neptun-29572": {
+  "neptun-15268": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1857,7 +1831,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:36.513Z",
+        "lastChecked": "2026-05-05T10:25:22.273Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1866,18 +1840,71 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:38.082Z",
+        "lastChecked": "2026-05-05T10:25:23.144Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 5990,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TAVOLINE--TEFAL--TI1200E0-TT0170",
+        "lastChecked": "2026-05-05T10:25:21.683Z",
+        "matchedName": "TAVOLINE  TEFAL  TI1200E1",
+        "storeProductId": "/categories/TAVOLINE--TEFAL--TI1200E0-TT0170",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:21.699Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:21.716Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:25:23.146Z"
+  },
+  "neptun-10728": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:22.447Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:23.451Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4590,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-Air-Bumper-Black-CA4076",
-        "lastChecked": "2026-05-05T10:24:35.354Z",
-        "matchedName": "Cover iPhone Air Bumper Black",
-        "storeProductId": "/categories/Cover-iPhone-Air-Bumper-Black-CA4076",
+        "productUrl": "https://www.neptun.al/categories/TAVOLINE-HEKUROSJE-COLOMBO-NEW-SCAL",
+        "lastChecked": "2026-05-05T10:25:21.678Z",
+        "matchedName": "TAVOLINE HEKUROSJE COLOMBO SUPER EURO",
+        "storeProductId": "/categories/TAVOLINE-HEKUROSJE-COLOMBO-NEW-SCAL",
         "matchConfidence": 100
       },
       {
@@ -1886,7 +1913,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.436Z",
+        "lastChecked": "2026-05-05T10:25:21.701Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1895,24 +1922,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.495Z",
+        "lastChecked": "2026-05-05T10:25:21.753Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:38.082Z"
+    "refreshedAt": "2026-05-05T10:25:23.452Z"
   },
-  "neptun-23902": {
+  "neptun-15155": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200010381/Mbrojtes-xhami-per-kamera-3mk-Lens-Pro-Full-Cover-per-iPhone-15-15-Plus-Transparent",
-        "lastChecked": "2026-05-05T10:24:37.440Z",
-        "matchedName": "Mbrojtës xhami për kamera, 3mk Lens Pro Full Cover për iPhone 15/15 Plus, Transparent",
-        "storeProductId": "/HRT-200010381/Mbrojtes-xhami-per-kamera-3mk-Lens-Pro-Full-Cover-per-iPhone-15-15-Plus-Transparent",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:22.129Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1921,18 +1945,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:38.275Z",
+        "lastChecked": "2026-05-05T10:25:23.677Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 6990,
+        "price": 1690,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-15-Pro-Silicone-MagSafe-Blue-CA3749",
-        "lastChecked": "2026-05-05T10:24:35.378Z",
-        "matchedName": "Cover iPhone 15 Pro Silicone MagSafe Blue",
-        "storeProductId": "/categories/Cover-iPhone-15-Pro-Silicone-MagSafe-Blue-CA3749",
+        "productUrl": "https://www.neptun.al/categories/MBULESE-HEKURI-MBUSHESE-XL-AC1780",
+        "lastChecked": "2026-05-05T10:25:21.670Z",
+        "matchedName": "MBULESE TAVOLINE HEKUROSJE COLOMBO MBUSHESE XL",
+        "storeProductId": "/categories/MBULESE-HEKURI-MBUSHESE-XL-AC1780",
         "matchConfidence": 100
       },
       {
@@ -1941,7 +1965,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.453Z",
+        "lastChecked": "2026-05-05T10:25:21.693Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1950,47 +1974,41 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.490Z",
+        "lastChecked": "2026-05-05T10:25:21.749Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:38.276Z"
+    "refreshedAt": "2026-05-05T10:25:23.678Z"
   },
-  "neptun-26999": {
+  "neptun-92": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200013004/Mbeshtjelles-Apple-iPhone-16-Pro-me-MagSafe-Transparent",
-        "lastChecked": "2026-05-05T10:24:36.498Z",
-        "matchedName": "Mbështjellës Apple iPhone 16 Pro me MagSafe, Transparent",
-        "storeProductId": "/KST-200013004/Mbeshtjelles-Apple-iPhone-16-Pro-me-MagSafe-Transparent",
-        "matchConfidence": 71,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:22.647Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
         "price": null,
         "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-iphone-16-pro/",
-        "lastChecked": "2026-05-05T10:24:35.373Z",
-        "matchedName": "Apple iPhone 16 Pro",
-        "storeProductId": "148583",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:25:23.808Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 6990,
+        "price": 1397,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Clear-Case-MagSafe-CA4016",
-        "lastChecked": "2026-05-05T10:24:35.374Z",
-        "matchedName": "Apple iPhone 16 Pro Clear Case MagSafe",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Clear-Case-MagSafe-CA4016",
+        "productUrl": "https://www.neptun.al/categories/FILTER-HEKURI-PHILIPS-GC002-00",
+        "lastChecked": "2026-05-05T10:25:21.664Z",
+        "matchedName": "FILTER HEKURI PHILIPS GC002/00",
+        "storeProductId": "/categories/FILTER-HEKURI-PHILIPS-GC002-00",
         "matchConfidence": 100
       },
       {
@@ -1999,7 +2017,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.440Z",
+        "lastChecked": "2026-05-05T10:25:21.693Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2008,13 +2026,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.534Z",
+        "lastChecked": "2026-05-05T10:25:21.751Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:38.752Z"
+    "refreshedAt": "2026-05-05T10:25:23.809Z"
   },
-  "neptun-27208": {
+  "neptun-15150": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2022,7 +2040,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:37.162Z",
+        "lastChecked": "2026-05-05T10:25:22.146Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2031,18 +2049,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:39.161Z",
+        "lastChecked": "2026-05-05T10:25:24.024Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 5990,
+        "price": 1390,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16e-Silicone-Case-Winter-Blue-CA4019",
-        "lastChecked": "2026-05-05T10:24:35.360Z",
-        "matchedName": "Apple iPhone 16e Silicone Case Winter Blue",
-        "storeProductId": "/categories/Apple-iPhone-16e-Silicone-Case-Winter-Blue-CA4019",
+        "productUrl": "https://www.neptun.al/categories/MBULESE-TAVOLINE-HEKUROSJE-L-AC1744",
+        "lastChecked": "2026-05-05T10:25:21.668Z",
+        "matchedName": "MBULESE TAVOLINE HEKUROSJE COLOMBO L",
+        "storeProductId": "/categories/MBULESE-TAVOLINE-HEKUROSJE-L-AC1744",
         "matchConfidence": 100
       },
       {
@@ -2051,7 +2069,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.459Z",
+        "lastChecked": "2026-05-05T10:25:21.697Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2060,1971 +2078,10 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.539Z",
+        "lastChecked": "2026-05-05T10:25:21.754Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:24:39.161Z"
-  },
-  "neptun-27209": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:37.381Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:39.625Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 5990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16e-Silicone-Case-Fuchsia-CA4020",
-        "lastChecked": "2026-05-05T10:24:35.351Z",
-        "matchedName": "Apple iPhone 16e Silicone Case Fuchsia",
-        "storeProductId": "/categories/Apple-iPhone-16e-Silicone-Case-Fuchsia-CA4020",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.454Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.537Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:39.627Z"
-  },
-  "neptun-27210": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:37.179Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:39.710Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 5990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16e-Silicone-Case-Lake-Green-CA4021",
-        "lastChecked": "2026-05-05T10:24:35.363Z",
-        "matchedName": "Apple iPhone 16e Silicone Case Lake Green",
-        "storeProductId": "/categories/Apple-iPhone-16e-Silicone-Case-Lake-Green-CA4021",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.431Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.527Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:39.710Z"
-  },
-  "neptun-23875": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:38.040Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:39.880Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 6990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-15--Silicone-MagSafe-Black-CA3745",
-        "lastChecked": "2026-05-05T10:24:35.370Z",
-        "matchedName": "Cover iPhone 15+ Silicone MagSafe Black",
-        "storeProductId": "/categories/Cover-iPhone-15--Silicone-MagSafe-Black-CA3745",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.433Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.596Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:39.881Z"
-  },
-  "neptun-29367": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:37.276Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.019Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 6990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/COVER-ZFOLD7-Silicone-Mint-CA4040",
-        "lastChecked": "2026-05-05T10:24:35.366Z",
-        "matchedName": "COVER ZFOLD7 Silicone Mint",
-        "storeProductId": "/categories/COVER-ZFOLD7-Silicone-Mint-CA4040",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.430Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.563Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:40.020Z"
-  },
-  "neptun-27206": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 800,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200022284/Mbeshtjelles-Hurtel-Carbon-Case-per-iPhone-16e-silikon-i-zi",
-        "lastChecked": "2026-05-05T10:24:37.184Z",
-        "matchedName": "Mbështjellës Hurtel Carbon Case për iPhone 16e, silikon, i zi",
-        "storeProductId": "/HRT-200022284/Mbeshtjelles-Hurtel-Carbon-Case-per-iPhone-16e-silikon-i-zi",
-        "matchConfidence": 60
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.294Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 5990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16e-Silicone-Case-Black-CA4017",
-        "lastChecked": "2026-05-05T10:24:35.357Z",
-        "matchedName": "Apple iPhone 16e Silicone Case Black",
-        "storeProductId": "/categories/Apple-iPhone-16e-Silicone-Case-Black-CA4017",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.432Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:35.584Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:40.295Z"
-  },
-  "neptun-29563": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:42.162Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:42.854Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Pro-Max-Clear-MagSafe-CA4067",
-        "lastChecked": "2026-05-05T10:24:40.560Z",
-        "matchedName": "Cover iPhone 17 Pro Max Clear MagSafe",
-        "storeProductId": "/categories/Cover-iPhone-17-Pro-Max-Clear-MagSafe-CA4067",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.657Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.648Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:42.855Z"
-  },
-  "neptun-21656": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 2100,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ALB-200000562/Kartele-memorie-SanDisk-Extreme-PRO-SDXC-64GB-200MB-s",
-        "lastChecked": "2026-05-05T10:24:40.868Z",
-        "matchedName": "Kartelë memorie SanDisk Extreme PRO SDXC, 64GB, 200MB/s",
-        "storeProductId": "/ALB-200000562/Kartele-memorie-SanDisk-Extreme-PRO-SDXC-64GB-200MB-s",
-        "matchConfidence": 67
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:43.520Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7790,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/SanDisk-Extreme-PRO-256GB-SDXC-Memory-Card-KA0817",
-        "lastChecked": "2026-05-05T10:24:40.537Z",
-        "matchedName": "SanDisk Extreme PRO 256GB SDXC Memory Card",
-        "storeProductId": "/categories/SanDisk-Extreme-PRO-256GB-SDXC-Memory-Card-KA0817",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.641Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.657Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:43.521Z"
-  },
-  "neptun-24269": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200010381/Mbrojtes-xhami-per-kamera-3mk-Lens-Pro-Full-Cover-per-iPhone-15-15-Plus-Transparent",
-        "lastChecked": "2026-05-05T10:24:41.781Z",
-        "matchedName": "Mbrojtës xhami për kamera, 3mk Lens Pro Full Cover për iPhone 15/15 Plus, Transparent",
-        "storeProductId": "/HRT-200010381/Mbrojtes-xhami-per-kamera-3mk-Lens-Pro-Full-Cover-per-iPhone-15-15-Plus-Transparent",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:43.585Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 6990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-15-Pro-MagSafe-Clear-CA3755",
-        "lastChecked": "2026-05-05T10:24:40.530Z",
-        "matchedName": "Cover iPhone 15 Pro MagSafe Clear",
-        "storeProductId": "/categories/Cover-iPhone-15-Pro-MagSafe-Clear-CA3755",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.651Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.650Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:43.586Z"
-  },
-  "neptun-26998": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200018366/Mbeshtjelles-3mk-MagCase-per-iPhone-16-Pro-Max-Transparent",
-        "lastChecked": "2026-05-05T10:24:41.928Z",
-        "matchedName": "Mbështjellës 3mk MagCase për iPhone 16 Pro Max, Transparent",
-        "storeProductId": "/HRT-200018366/Mbeshtjelles-3mk-MagCase-per-iPhone-16-Pro-Max-Transparent",
-        "matchConfidence": 63,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-iphone-16-pro/",
-        "lastChecked": "2026-05-05T10:24:40.526Z",
-        "matchedName": "Apple iPhone 16 Pro",
-        "storeProductId": "148583",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 6990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Max-Clear-Case-MagSafe-CA4015",
-        "lastChecked": "2026-05-05T10:24:40.526Z",
-        "matchedName": "Apple iPhone 16 Pro Max Clear Case MagSafe",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Max-Clear-Case-MagSafe-CA4015",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.631Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.704Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:43.655Z"
-  },
-  "neptun-29551": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:42.098Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:43.660Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Clear-MagSafe-CA4057",
-        "lastChecked": "2026-05-05T10:24:40.543Z",
-        "matchedName": "Cover iPhone 17 Clear MagSafe",
-        "storeProductId": "/categories/Cover-iPhone-17-Clear-MagSafe-CA4057",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.649Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.659Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:43.661Z"
-  },
-  "neptun-23906": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:42.426Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:43.702Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 6990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-15-MagSafe-Clear-CA3753",
-        "lastChecked": "2026-05-05T10:24:40.534Z",
-        "matchedName": "Cover iPhone 15 MagSafe Clear",
-        "storeProductId": "/categories/Cover-iPhone-15-MagSafe-Clear-CA3753",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.633Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.671Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:43.703Z"
-  },
-  "neptun-29553": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:42.407Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:43.834Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Silicone-MagSafe-Anchor-Blue-CA4055",
-        "lastChecked": "2026-05-05T10:24:40.540Z",
-        "matchedName": "Cover iPhone 17 Silicone MagSafe Anchor Blue",
-        "storeProductId": "/categories/Cover-iPhone-17-Silicone-MagSafe-Anchor-Blue-CA4055",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.649Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.655Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:43.835Z"
-  },
-  "neptun-29561": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:42.390Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:43.899Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-Air-MagSafe-Shadow-CA4065",
-        "lastChecked": "2026-05-05T10:24:40.550Z",
-        "matchedName": "Cover iPhone Air MagSafe Shadow",
-        "storeProductId": "/categories/Cover-iPhone-Air-MagSafe-Shadow-CA4065",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.658Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.663Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:43.900Z"
-  },
-  "neptun-25954": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:42.596Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:44.640Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Silicone-Case-with-MagSafe---Plum-CA3950",
-        "lastChecked": "2026-05-05T10:24:40.569Z",
-        "matchedName": "Apple iPhone?16 Silicone Case with MagSafe - Plum",
-        "storeProductId": "/categories/Apple-iPhone-16-Silicone-Case-with-MagSafe---Plum-CA3950",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.667Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.697Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:44.641Z"
-  },
-  "neptun-25967": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 195400,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200007729/Apple-iPhone-16-Pro-Max-6.9-512GB-white-titanium",
-        "lastChecked": "2026-05-05T10:24:42.864Z",
-        "matchedName": "Apple iPhone 16 Pro Max, 6.9\", 512GB, white titanium",
-        "storeProductId": "/YLL-200007729/Apple-iPhone-16-Pro-Max-6.9-512GB-white-titanium",
-        "matchConfidence": 75,
-        "overpriced": true
-      },
-      {
-        "storeId": "shpresa",
-        "price": 99990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-iphone-16-pro-max/",
-        "lastChecked": "2026-05-05T10:24:40.546Z",
-        "matchedName": "Apple iPhone 16 Pro Max",
-        "storeProductId": "147998",
-        "matchConfidence": 75
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Max-Silicone-with-MagSafe-Plum-CA3965",
-        "lastChecked": "2026-05-05T10:24:40.546Z",
-        "matchedName": "Apple iPhone?16 Pro Max Silicone with MagSafe Plum",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Max-Silicone-with-MagSafe-Plum-CA3965",
-        "matchConfidence": 100,
-        "suspicious": true
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.648Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.693Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:44.857Z"
-  },
-  "neptun-25965": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 195400,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200007729/Apple-iPhone-16-Pro-Max-6.9-512GB-white-titanium",
-        "lastChecked": "2026-05-05T10:24:42.861Z",
-        "matchedName": "Apple iPhone 16 Pro Max, 6.9\", 512GB, white titanium",
-        "storeProductId": "/YLL-200007729/Apple-iPhone-16-Pro-Max-6.9-512GB-white-titanium",
-        "matchConfidence": 75,
-        "overpriced": true
-      },
-      {
-        "storeId": "shpresa",
-        "price": 99990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-iphone-16-pro-max/",
-        "lastChecked": "2026-05-05T10:24:40.556Z",
-        "matchedName": "Apple iPhone 16 Pro Max",
-        "storeProductId": "147998",
-        "matchConfidence": 75
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Max-Silicone-wih-MagSafe-Denim-CA3963",
-        "lastChecked": "2026-05-05T10:24:40.556Z",
-        "matchedName": "Apple iPhone?16 Pro Max Silicone wih MagSafe Denim",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Max-Silicone-wih-MagSafe-Denim-CA3963",
-        "matchConfidence": 100,
-        "suspicious": true
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.667Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.696Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:45.118Z"
-  },
-  "neptun-29565": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:43.490Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.477Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Pro-Max-Silicone-MagSafe-Black-CA4069",
-        "lastChecked": "2026-05-05T10:24:40.553Z",
-        "matchedName": "Cover iPhone 17 Pro Max Silicone MagSafe Black",
-        "storeProductId": "/categories/Cover-iPhone-17-Pro-Max-Silicone-MagSafe-Black-CA4069",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.651Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:40.744Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:45.478Z"
-  },
-  "neptun-29560": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.043Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.854Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Pro-Max--MagSafe-Midnight-CA4064",
-        "lastChecked": "2026-05-05T10:24:45.805Z",
-        "matchedName": "Cover iPhone 17 Pro Max  MagSafe Midnight",
-        "storeProductId": "/categories/Cover-iPhone-17-Pro-Max--MagSafe-Midnight-CA4064",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.894Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.908Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:47.855Z"
-  },
-  "neptun-29558": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.095Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:48.554Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Silicone-MagSafe-Black-CA4062",
-        "lastChecked": "2026-05-05T10:24:45.798Z",
-        "matchedName": "Cover iPhone 17 Silicone MagSafe Black",
-        "storeProductId": "/categories/Cover-iPhone-17-Silicone-MagSafe-Black-CA4062",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.933Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.939Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:48.555Z"
-  },
-  "neptun-29556": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:46.800Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:49.064Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Pro-Max-Silicone-MagSafe-Terra-CA4060",
-        "lastChecked": "2026-05-05T10:24:45.822Z",
-        "matchedName": "Cover iPhone 17 Pro Max Silicone MagSafe Terra",
-        "storeProductId": "/categories/Cover-iPhone-17-Pro-Max-Silicone-MagSafe-Terra-CA4060",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.904Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.909Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:49.065Z"
-  },
-  "neptun-29577": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.115Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:49.097Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Silicone-MagSafe-Light-Moss-CA4081",
-        "lastChecked": "2026-05-05T10:24:45.819Z",
-        "matchedName": "Cover iPhone 17 Silicone MagSafe Light Moss",
-        "storeProductId": "/categories/Cover-iPhone-17-Silicone-MagSafe-Light-Moss-CA4081",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.921Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.922Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:49.098Z"
-  },
-  "neptun-29576": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.078Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:49.242Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Pro-Silicone-MagSafe-Purple-Fog-CA4080",
-        "lastChecked": "2026-05-05T10:24:45.812Z",
-        "matchedName": "Cover iPhone 17 Pro Silicone MagSafe Purple Fog",
-        "storeProductId": "/categories/Cover-iPhone-17-Pro-Silicone-MagSafe-Purple-Fog-CA4080",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.907Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.920Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:49.243Z"
-  },
-  "neptun-25959": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.827Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:49.378Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Silicone-Case-with-MagSafe-Bla-CA3957",
-        "lastChecked": "2026-05-05T10:24:45.790Z",
-        "matchedName": "Apple iPhone?16 Pro Silicone Case with MagSafe Bla",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Silicone-Case-with-MagSafe-Bla-CA3957",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.907Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.971Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:49.379Z"
-  },
-  "neptun-25955": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.148Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:49.491Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Silicone-Case-MagSafe-Lake-Green-CA3951",
-        "lastChecked": "2026-05-05T10:24:45.795Z",
-        "matchedName": "Apple iPhone?16 Silicone Case MagSafe Lake Green",
-        "storeProductId": "/categories/Apple-iPhone-16-Silicone-Case-MagSafe-Lake-Green-CA3951",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.940Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.968Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:49.492Z"
-  },
-  "neptun-25962": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.848Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:49.731Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Silicone-Case-wih-MagSafe-Plum-CA3960",
-        "lastChecked": "2026-05-05T10:24:45.826Z",
-        "matchedName": "Apple iPhone?16 Pro Silicone Case wih MagSafe Plum",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Silicone-Case-wih-MagSafe-Plum-CA3960",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.892Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.945Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:49.732Z"
-  },
-  "neptun-25963": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.803Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:49.755Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Silicone-wih-MagSafe-Lake-Gree-CA3961",
-        "lastChecked": "2026-05-05T10:24:45.829Z",
-        "matchedName": "Apple iPhone?16 Pro Silicone wih MagSafe Lake Gree",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Silicone-wih-MagSafe-Lake-Gree-CA3961",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.929Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.947Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:49.756Z"
-  },
-  "neptun-25953": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.627Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:50.134Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Silicone-with-MagSafe---Stone-Gray-CA3949",
-        "lastChecked": "2026-05-05T10:24:45.802Z",
-        "matchedName": "Apple iPhone?16 Silicone with MagSafe - Stone Gray",
-        "storeProductId": "/categories/Apple-iPhone-16-Silicone-with-MagSafe---Stone-Gray-CA3949",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.887Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.969Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:50.135Z"
-  },
-  "neptun-25964": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 195400,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200007729/Apple-iPhone-16-Pro-Max-6.9-512GB-white-titanium",
-        "lastChecked": "2026-05-05T10:24:47.477Z",
-        "matchedName": "Apple iPhone 16 Pro Max, 6.9\", 512GB, white titanium",
-        "storeProductId": "/YLL-200007729/Apple-iPhone-16-Pro-Max-6.9-512GB-white-titanium",
-        "matchConfidence": 75,
-        "overpriced": true
-      },
-      {
-        "storeId": "shpresa",
-        "price": 99990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-iphone-16-pro-max/",
-        "lastChecked": "2026-05-05T10:24:45.809Z",
-        "matchedName": "Apple iPhone 16 Pro Max",
-        "storeProductId": "147998",
-        "matchConfidence": 75
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Max-Silicone-wih-MagSafe-Black-CA3962",
-        "lastChecked": "2026-05-05T10:24:45.809Z",
-        "matchedName": "Apple iPhone?16 Pro Max Silicone wih MagSafe Black",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Max-Silicone-wih-MagSafe-Black-CA3962",
-        "matchConfidence": 100,
-        "suspicious": true
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.941Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.943Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:50.191Z"
-  },
-  "neptun-29557": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:47.906Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:50.667Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Pro-Silicone-MagSafe-Black-CA4061",
-        "lastChecked": "2026-05-05T10:24:45.815Z",
-        "matchedName": "Cover iPhone 17 Pro Silicone MagSafe Black",
-        "storeProductId": "/categories/Cover-iPhone-17-Pro-Silicone-MagSafe-Black-CA4061",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.886Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:45.993Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:50.668Z"
-  },
-  "neptun-29562": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.901Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:52.750Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Silicone-MagSafe-Purple-Fog-CA4066",
-        "lastChecked": "2026-05-05T10:24:50.974Z",
-        "matchedName": "Cover iPhone 17 Silicone MagSafe Purple Fog",
-        "storeProductId": "/categories/Cover-iPhone-17-Silicone-MagSafe-Purple-Fog-CA4066",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.031Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.040Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:52.751Z"
-  },
-  "neptun-29575": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.850Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:53.055Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Pro-Silicone-MagSafe-Terra-Cotta-CA4079",
-        "lastChecked": "2026-05-05T10:24:50.948Z",
-        "matchedName": "Cover iPhone 17 Pro Silicone MagSafe Terra Cotta",
-        "storeProductId": "/categories/Cover-iPhone-17-Pro-Silicone-MagSafe-Terra-Cotta-CA4079",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.014Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.050Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:53.057Z"
-  },
-  "neptun-29574": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.519Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:53.189Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-17-Pro-Clear-MagSafe-CA4078",
-        "lastChecked": "2026-05-05T10:24:50.970Z",
-        "matchedName": "Cover iPhone 17 Pro Clear MagSafe",
-        "storeProductId": "/categories/Cover-iPhone-17-Pro-Clear-MagSafe-CA4078",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.028Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.057Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:53.190Z"
-  },
-  "neptun-29570": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.969Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:53.428Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Cover-iPhone-Air-MagSafe-Frost-CA4074",
-        "lastChecked": "2026-05-05T10:24:50.960Z",
-        "matchedName": "Cover iPhone Air MagSafe Frost",
-        "storeProductId": "/categories/Cover-iPhone-Air-MagSafe-Frost-CA4074",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.022Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.077Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:53.429Z"
-  },
-  "neptun-25960": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:52.035Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:53.764Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Silicone-with-MagSafe-Denim-CA3958",
-        "lastChecked": "2026-05-05T10:24:50.963Z",
-        "matchedName": "Apple iPhone?16 Pro Silicone with MagSafe Denim",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Silicone-with-MagSafe-Denim-CA3958",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.035Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.099Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:53.765Z"
-  },
-  "neptun-25961": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:52.261Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:53.887Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Silicone-with-MagSafe-Gray-CA3959",
-        "lastChecked": "2026-05-05T10:24:50.967Z",
-        "matchedName": "Apple iPhone?16 Pro Silicone with MagSafe Gray",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Silicone-with-MagSafe-Gray-CA3959",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.029Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.096Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:53.888Z"
-  },
-  "neptun-25951": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:52.360Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:54.306Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Silicone-Case-with-MagSafe---Black-CA3947",
-        "lastChecked": "2026-05-05T10:24:50.952Z",
-        "matchedName": "Apple iPhone?16 Silicone Case with MagSafe - Black",
-        "storeProductId": "/categories/Apple-iPhone-16-Silicone-Case-with-MagSafe---Black-CA3947",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.031Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.097Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:54.307Z"
-  },
-  "neptun-25966": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 195400,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200007729/Apple-iPhone-16-Pro-Max-6.9-512GB-white-titanium",
-        "lastChecked": "2026-05-05T10:24:52.169Z",
-        "matchedName": "Apple iPhone 16 Pro Max, 6.9\", 512GB, white titanium",
-        "storeProductId": "/YLL-200007729/Apple-iPhone-16-Pro-Max-6.9-512GB-white-titanium",
-        "matchConfidence": 75,
-        "overpriced": true
-      },
-      {
-        "storeId": "shpresa",
-        "price": 99990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-iphone-16-pro-max/",
-        "lastChecked": "2026-05-05T10:24:50.956Z",
-        "matchedName": "Apple iPhone 16 Pro Max",
-        "storeProductId": "147998",
-        "matchConfidence": 75
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iPhone-16-Pro-Max-Silicone-with-MagSafe-Gray-CA3964",
-        "lastChecked": "2026-05-05T10:24:50.956Z",
-        "matchedName": "Apple iPhone?16 Pro Max Silicone with MagSafe Gray",
-        "storeProductId": "/categories/Apple-iPhone-16-Pro-Max-Silicone-with-MagSafe-Gray-CA3964",
-        "matchConfidence": 100,
-        "suspicious": true
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.030Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:24:51.081Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:24:54.604Z"
+    "refreshedAt": "2026-05-05T10:25:24.024Z"
   }
 }
