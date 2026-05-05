@@ -1,216 +1,67 @@
 {
-  "shpresa-baseus-usb-c-to-lightning-cafule-cable-20w-pd": {
+  "shpresa-lexar-internal-ssd-ns100-sata-iii-2-5-1tb": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/INP-200003406/Hub-Baseus-T-Space-per-Tesla-USB-C-dhe-Lightning-i-zi",
-        "lastChecked": "2026-05-05T07:53:30.750Z",
-        "matchedName": "Hub Baseus T-Space për Tesla, USB-C dhe Lightning, i zi",
-        "storeProductId": "/INP-200003406/Hub-Baseus-T-Space-per-Tesla-USB-C-dhe-Lightning-i-zi",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T07:54:04.708Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/lexar-internal-ssd-ns100-sata-iii-2-5-1tb/",
+        "lastChecked": "2026-05-05T07:54:04.455Z",
+        "matchedName": "Lexar Internal SSD NS100 SATA III 2.5&#8243; 1TB",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T07:54:04.766Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T07:54:04.522Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T07:54:04.677Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T07:54:05.611Z"
+  },
+  "shpresa-brother-ql-600b-label-printer": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ALB-200000061/Printer-etiketa-Brother-QL-600BXX1-termik-USB-Blu-Bardhe",
+        "lastChecked": "2026-05-05T07:54:05.615Z",
+        "matchedName": "Printer etiketa Brother QL-600BXX1, termik, USB, Blu-Bardhë",
+        "storeProductId": "/ALB-200000061/Printer-etiketa-Brother-QL-600BXX1-termik-USB-Blu-Bardhe",
         "matchConfidence": 75,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 690,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/baseus-usb-c-to-lightning-cafule-cable-20w-pd/",
-        "lastChecked": "2026-05-05T07:53:29.002Z",
-        "matchedName": "Baseus USB-C To Lightning Cafule Cable 20W PD"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:29.283Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:29.025Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:29.095Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:30.751Z"
-  },
-  "shpresa-dji-mic-3-1-tx-1-rx": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:30.179Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:31.962Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:29.204Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:29.008Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:29.087Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:31.962Z"
-  },
-  "shpresa-msi-vector-16-hx-ai-16-16gb-1tb-ssd-core-ultra-9": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:30.485Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:32.781Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:29.337Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:29.015Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:29.134Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:32.782Z"
-  },
-  "shpresa-xiaomi-robot-vacuum-e10": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.989Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 12990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-robot-vacuum-e10/",
-        "lastChecked": "2026-05-05T07:53:33.002Z",
-        "matchedName": "Xiaomi Robot Vacuum E10"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.275Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.026Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.261Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:33.992Z"
-  },
-  "shpresa-xiaomi-induction-cooker-lite": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:34.278Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -218,9 +69,9 @@
         "price": 7990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-induction-cooker-lite/",
-        "lastChecked": "2026-05-05T07:53:33.005Z",
-        "matchedName": "Xiaomi Induction Cooker Lite"
+        "productUrl": "https://shpresa.al/product/brother-ql-600b-label-printer/",
+        "lastChecked": "2026-05-05T07:54:04.462Z",
+        "matchedName": "Brother QL-600B Label Printer"
       },
       {
         "storeId": "neptun",
@@ -228,7 +79,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.353Z",
+        "lastChecked": "2026-05-05T07:54:04.556Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -237,7 +88,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.025Z",
+        "lastChecked": "2026-05-05T07:54:04.524Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -246,338 +97,33 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.240Z",
+        "lastChecked": "2026-05-05T07:54:04.612Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T07:53:34.397Z"
+    "refreshedAt": "2026-05-05T07:54:05.616Z"
   },
-  "shpresa-jbl-go-4-portable-wireless-speaker": {
+  "shpresa-fujifilm-instax-mini-12-album": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:34.397Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 4990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/jbl-go-4-portable-wireless-speaker/",
-        "lastChecked": "2026-05-05T07:53:33.014Z",
-        "matchedName": "JBL GO 4 Portable Wireless Speaker"
-      },
-      {
-        "storeId": "neptun",
-        "price": 4490,
+        "price": 13100,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/BOKS-BLUETOOTH-JBL-GO-4-WHITE-BX1214",
-        "lastChecked": "2026-05-05T07:53:33.014Z",
-        "matchedName": "BOKS BLUETOOTH JBL GO 4 WHITE",
-        "storeProductId": "/categories/BOKS-BLUETOOTH-JBL-GO-4-WHITE-BX1214",
-        "matchConfidence": 67
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.032Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.236Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:34.399Z"
-  },
-  "shpresa-xiaomi-dual-mode-wireless-mouse-2": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:34.690Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 1390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-dual-mode-wireless-mouse-2/",
-        "lastChecked": "2026-05-05T07:53:32.992Z",
-        "matchedName": "Xiaomi Dual Mode Wireless Mouse 2"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.513Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.025Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.297Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:34.692Z"
-  },
-  "shpresa-xiaomi-dust-mite-vacuum-cleaner-pro": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:34.704Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 5490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-dust-mite-vacuum-cleaner-pro/",
-        "lastChecked": "2026-05-05T07:53:33.000Z",
-        "matchedName": "Xiaomi Dust Mite Vacuum Cleaner Pro"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.514Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.024Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.293Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:34.705Z"
-  },
-  "shpresa-xiaomi-hair-clipper-2-2": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KOM-200216780/Makine-rroje-Xiaomi-Hair-Clipper-2-me-ekran-IPX7-gri",
-        "lastChecked": "2026-05-05T07:53:34.015Z",
-        "matchedName": "Makinë rroje Xiaomi Hair Clipper 2, me ekran, IPX7, gri",
-        "storeProductId": "/KOM-200216780/Makine-rroje-Xiaomi-Hair-Clipper-2-me-ekran-IPX7-gri",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 4490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-hair-clipper-2-2/",
-        "lastChecked": "2026-05-05T07:53:32.995Z",
-        "matchedName": "Xiaomi Hair Clipper 2"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.312Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.023Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.241Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:34.716Z"
-  },
-  "shpresa-xiaomi-electric-shaver-s200": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:34.011Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 2490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-electric-shaver-s200/?attribute_pa_color=gray",
-        "lastChecked": "2026-05-05T07:53:32.997Z",
-        "matchedName": "Xiaomi Electric Shaver S200"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.303Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.024Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.231Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:34.894Z"
-  },
-  "shpresa-xiaomi-electric-scooter-5": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.875Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 33990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-electric-scooter-5/",
-        "lastChecked": "2026-05-05T07:53:33.009Z",
-        "matchedName": "Xiaomi Electric Scooter 5"
-      },
-      {
-        "storeId": "neptun",
-        "price": 43497,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/XIAOMI-MI-ELECTRIC-SCOOTER-5-GL-60562-AC3383",
-        "lastChecked": "2026-05-05T07:53:33.010Z",
-        "matchedName": "XIAOMI ELECTRIC SCOOTER 5 GL 60562",
-        "storeProductId": "/categories/XIAOMI-MI-ELECTRIC-SCOOTER-5-GL-60562-AC3383",
+        "productUrl": "https://www.foleja.al/AXR-200002345/Kamere-instant-Fujifilm-Instax-Mini-12-INM12L-16806133-vjollce",
+        "lastChecked": "2026-05-05T07:54:05.621Z",
+        "matchedName": "Kamerë instant Fujifilm Instax Mini 12 INM12L (16806133) vjollcë",
+        "storeProductId": "/AXR-200002345/Kamere-instant-Fujifilm-Instax-Mini-12-INM12L-16806133-vjollce",
         "matchConfidence": 100
       },
       {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.030Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.234Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:34.904Z"
-  },
-  "shpresa-tp-link-150mbps-wireless-n-nano-usb-adapter": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:34.128Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
         "storeId": "shpresa",
-        "price": 1490,
+        "price": 1290,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/tp-link-150mbps-wireless-n-nano-usb-adapter/",
-        "lastChecked": "2026-05-05T07:53:33.019Z",
-        "matchedName": "TP-Link 150Mbps Wireless N Nano USB Adapter"
+        "productUrl": "https://shpresa.al/product/fujifilm-instax-mini-12-album/",
+        "lastChecked": "2026-05-05T07:54:04.445Z",
+        "matchedName": "Fujifilm Instax Mini 12 Album"
       },
       {
         "storeId": "neptun",
@@ -585,7 +131,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.329Z",
+        "lastChecked": "2026-05-05T07:54:04.717Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -594,7 +140,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.036Z",
+        "lastChecked": "2026-05-05T07:54:04.519Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -603,31 +149,34 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.232Z",
+        "lastChecked": "2026-05-05T07:54:04.681Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T07:53:34.908Z"
+    "refreshedAt": "2026-05-05T07:54:05.622Z"
   },
-  "shpresa-apple-usb-type-c-to-lightning-cable-1m-2": {
+  "shpresa-brother-color-laser-printer-hll8260cdwyj1": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:34.840Z",
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200008828/Printer-Brother-MFC-L3740CDWE-Laser-A4-Ngjyre-E-zeze-E-bardhe",
+        "lastChecked": "2026-05-05T07:54:05.814Z",
+        "matchedName": "Printer Brother MFC-L3740CDWE, Laser, A4, Ngjyrë, E zezë, E bardhë",
+        "storeProductId": "/KST-200008828/Printer-Brother-MFC-L3740CDWE-Laser-A4-Ngjyre-E-zeze-E-bardhe",
+        "matchConfidence": 75,
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 1990,
+        "price": 36990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-usb-type-c-to-lightning-cable-1m-2/",
-        "lastChecked": "2026-05-05T07:53:33.016Z",
-        "matchedName": "Apple USB Type-C to Lightning Cable 1M"
+        "productUrl": "https://shpresa.al/product/brother-color-laser-printer-hll8260cdwyj1/",
+        "lastChecked": "2026-05-05T07:54:04.471Z",
+        "matchedName": "Brother Color Laser Printer HLL8260CDWYJ1"
       },
       {
         "storeId": "neptun",
@@ -635,7 +184,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.452Z",
+        "lastChecked": "2026-05-05T07:54:04.729Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -644,7 +193,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.035Z",
+        "lastChecked": "2026-05-05T07:54:04.524Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -653,515 +202,10 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.292Z",
+        "lastChecked": "2026-05-05T07:54:04.673Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T07:53:34.919Z"
-  },
-  "shpresa-xiaomi-electric-scooter-5-pro": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:34.414Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 39990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-electric-scooter-5-pro/",
-        "lastChecked": "2026-05-05T07:53:33.012Z",
-        "matchedName": "Xiaomi Electric Scooter 5 Pro"
-      },
-      {
-        "storeId": "neptun",
-        "price": 47497,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/XIAOMI-MI-ELECTRIC-SCOOTER-5-PRO-GL-AC3381",
-        "lastChecked": "2026-05-05T07:53:33.012Z",
-        "matchedName": "XIAOMI ELECTRIC SCOOTER 5 PRO 60555",
-        "storeProductId": "/categories/XIAOMI-MI-ELECTRIC-SCOOTER-5-PRO-GL-AC3381",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.030Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.295Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:34.944Z"
-  },
-  "shpresa-xiaomi-mi-robot-vacuum-mop-s10": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KOM-200219645/Robot-pastrues-Xiaomi-Robot-Vacuum-5-5200-mAh-20000-Pa-i-bardhe",
-        "lastChecked": "2026-05-05T07:53:35.221Z",
-        "matchedName": "Robot pastrues Xiaomi Robot Vacuum 5, 5200 mAh, 20000 Pa, i bardhë",
-        "storeProductId": "/KOM-200219645/Robot-pastrues-Xiaomi-Robot-Vacuum-5-5200-mAh-20000-Pa-i-bardhe",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 17990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-mi-robot-vacuum-mop-s10/",
-        "lastChecked": "2026-05-05T07:53:33.007Z",
-        "matchedName": "Xiaomi Mi Robot Vacuum Mop S10"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.430Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.026Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:33.264Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:35.222Z"
-  },
-  "shpresa-baseus-dual-usb-c-car-charger-40w": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:36.491Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 1490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/baseus-dual-usb-c-car-charger-40w/",
-        "lastChecked": "2026-05-05T07:53:35.506Z",
-        "matchedName": "Baseus Dual USB-C Car Charger 40W"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.820Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.521Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.594Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:36.492Z"
-  },
-  "shpresa-anker-soundcore-k20i-bluetooth-wireless-headphones": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:36.583Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 2490,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/anker-soundcore-k20i-bluetooth-wireless-headphones/",
-        "lastChecked": "2026-05-05T07:53:35.498Z",
-        "matchedName": "Anker Soundcore K20i Bluetooth Wireless Headphones"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.730Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.519Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.608Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:36.583Z"
-  },
-  "shpresa-space-q45-long-lasting-noise-cancelling-headphones": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:36.331Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 9990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/space-q45-long-lasting-noise-cancelling-headphones/",
-        "lastChecked": "2026-05-05T07:53:35.504Z",
-        "matchedName": "Space Q45 | Long-Lasting Noise Cancelling Headphones"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.727Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.520Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.605Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:36.666Z"
-  },
-  "shpresa-anker-soundcore-liberty-4-nc": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:36.373Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 9990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/anker-soundcore-liberty-4-nc/",
-        "lastChecked": "2026-05-05T07:53:35.501Z",
-        "matchedName": "Anker Soundcore Liberty 4 NC"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.728Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.521Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.573Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:36.722Z"
-  },
-  "shpresa-hifuture-flex-2-smart-watch": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:36.665Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 3990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/hifuture-flex-2-smart-watch/",
-        "lastChecked": "2026-05-05T07:53:35.511Z",
-        "matchedName": "HiFuture Flex 2 Smart Watch"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.727Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.525Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.611Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:36.732Z"
-  },
-  "shpresa-potensic-atom-drone-standard-kit": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:36.195Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 29990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/potensic-atom-drone-standard-kit/",
-        "lastChecked": "2026-05-05T07:53:35.513Z",
-        "matchedName": "Potensic ATOM Drone (Standard Kit)"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.746Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.524Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.593Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:36.800Z"
-  },
-  "shpresa-green-lion-thermal-printer": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.833Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:37.477Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.605Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.523Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.546Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:37.477Z"
-  },
-  "shpresa-potensic-atom-2-drone-standard-kit": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:36.345Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:37.714Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.747Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.531Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T07:53:35.591Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T07:53:37.715Z"
+    "refreshedAt": "2026-05-05T07:54:05.815Z"
   }
 }
