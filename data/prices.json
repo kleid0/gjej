@@ -1,25 +1,432 @@
 {
-  "shpresa-xiaomi-smart-band-8-pendant": {
+  "shpresa-jbl-wind-3s": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 1600,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:10.367Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 4990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200014855/Rrip-celiku-per-Xiaomi-Smart-Band-8-Tech-Protect-MilaneseBand-Roze",
-        "lastChecked": "2026-05-05T08:00:46.762Z",
-        "matchedName": "Rrip çeliku për Xiaomi Smart Band 8 Tech-Protect MilaneseBand, Rozë",
-        "storeProductId": "/HRT-200014855/Rrip-celiku-per-Xiaomi-Smart-Band-8-Tech-Protect-MilaneseBand-Roze",
-        "matchConfidence": 100
+        "productUrl": "https://shpresa.al/product/jbl-wind-3s/",
+        "lastChecked": "2026-05-05T08:01:09.725Z",
+        "matchedName": "JBL Wind 3S"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.891Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.760Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.793Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:11.249Z"
+  },
+  "shpresa-lenovo-thinkpad-e14-14-16gb-512gb-ssd-ryzen-5": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200053634/Kompjuter-Lenovo-ThinkPad-E14-G7-Ryzen-7-16GB-512GB-14-inch-i-zi",
+        "lastChecked": "2026-05-05T08:01:10.628Z",
+        "matchedName": "Kompjuter Lenovo ThinkPad E14 G7, Ryzen 7, 16GB/512GB, 14 inch, i zi",
+        "storeProductId": "/KST-200053634/Kompjuter-Lenovo-ThinkPad-E14-G7-Ryzen-7-16GB-512GB-14-inch-i-zi",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/lenovo-thinkpad-e14-g3-14-16gb-512gb-ssd-ryzen-5/",
+        "lastChecked": "2026-05-05T08:01:09.728Z",
+        "matchedName": "Lenovo Thinkpad E14 G3 14&#8243;, 16GB, 512GB SSD, Ryzen™ 5",
+        "storeProductId": "188926",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.982Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.771Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.842Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:11.279Z"
+  },
+  "shpresa-asus-headphone-rog-delta-s-wireless": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:11.472Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 19990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/asus-headphone-rog-delta-s-wireless/",
+        "lastChecked": "2026-05-05T08:01:09.754Z",
+        "matchedName": "Asus Headphone ROG Delta S Wireless"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:10.324Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.802Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.853Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:11.474Z"
+  },
+  "shpresa-rog-keris-wireless-aimpoint-gaming-mouse": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KOM-200099575/Miun-e-Lojerave-ASUS-ROG-Keris-Wireless-AimPoint-2.0-e-zeze",
+        "lastChecked": "2026-05-05T08:01:11.485Z",
+        "matchedName": "Miun e Lojërave ASUS ROG Keris Wireless AimPoint 2.0, e zezë",
+        "storeProductId": "/KOM-200099575/Miun-e-Lojerave-ASUS-ROG-Keris-Wireless-AimPoint-2.0-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 11990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/rog-keris-wireless-aimpoint-gaming-mouse/",
+        "lastChecked": "2026-05-05T08:01:09.743Z",
+        "matchedName": "ROG Keris Wireless AimPoint Gaming Mouse"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:10.135Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.817Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.855Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:11.486Z"
+  },
+  "shpresa-xiaomi-mi-electric-shaver-s301": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:11.719Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 2990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-mi-electric-shaver-s301/",
+        "lastChecked": "2026-05-05T08:01:09.731Z",
+        "matchedName": "Xiaomi Mi Electric Shaver S301"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:10.200Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.764Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.893Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:11.720Z"
+  },
+  "shpresa-rog-pugio-ii-gaming-mouse": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:10.677Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.176Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:10.025Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.774Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:09.844Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:12.176Z"
+  },
+  "shpresa-psu-be-quiet-dark-power-13-850w-80titanium": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:13.500Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 25990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/psu-be-quiet-dark-power-13-850w-80titanium/",
+        "lastChecked": "2026-05-05T08:01:12.485Z",
+        "matchedName": "PSU Be Quiet Dark Power 13 850W 80+Titanium"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.771Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.555Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.602Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:13.617Z"
+  },
+  "shpresa-psu-be-quiet-dark-power-13-750w-80titanium": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:13.127Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 22990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/psu-be-quiet-dark-power-13-750w-80titanium/",
+        "lastChecked": "2026-05-05T08:01:12.488Z",
+        "matchedName": "PSU Be Quiet Dark Power 13 750W 80+Titanium"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.785Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.642Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.579Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:13.633Z"
+  },
+  "shpresa-havit-anti-shaking-single-axis-gimbal-stabilizer": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:13.003Z",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
         "price": 2490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-smart-band-8-pendant/",
-        "lastChecked": "2026-05-05T08:00:44.235Z",
-        "matchedName": "Xiaomi Smart Band 8 Pendant"
+        "productUrl": "https://shpresa.al/product/havit-anti-shaking-single-axis-gimbal-stabilizer/",
+        "lastChecked": "2026-05-05T08:01:12.500Z",
+        "matchedName": "Havit Single-Axis Gimbal"
       },
       {
         "storeId": "neptun",
@@ -27,7 +434,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:44.648Z",
+        "lastChecked": "2026-05-05T08:01:12.646Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -36,7 +443,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:44.285Z",
+        "lastChecked": "2026-05-05T08:01:12.677Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -45,13 +452,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:44.373Z",
+        "lastChecked": "2026-05-05T08:01:12.549Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:46.763Z"
+    "refreshedAt": "2026-05-05T08:01:13.652Z"
   },
-  "shpresa-wiwu-iphone-wireless-microphone-system": {
+  "shpresa-asus-rog-strix-1000g-psu": {
     "prices": [
       {
         "storeId": "foleja",
@@ -59,17 +466,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:45.281Z",
+        "lastChecked": "2026-05-05T08:01:13.785Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:47.492Z",
-        "error": "Produkti nuk u gjet"
+        "price": 24990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/asus-rog-strix-1000g-psu/",
+        "lastChecked": "2026-05-05T08:01:12.470Z",
+        "matchedName": "Asus ROG STRIX 1000G PSU"
       },
       {
         "storeId": "neptun",
@@ -77,7 +484,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:44.459Z",
+        "lastChecked": "2026-05-05T08:01:12.849Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -86,7 +493,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:44.256Z",
+        "lastChecked": "2026-05-05T08:01:12.510Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -95,13 +502,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:44.306Z",
+        "lastChecked": "2026-05-05T08:01:12.613Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:47.492Z"
+    "refreshedAt": "2026-05-05T08:01:13.866Z"
   },
-  "shpresa-sony-ps5-the-last-of-us-part-ii-remastered": {
+  "shpresa-razer-orochi-v2-mouse": {
     "prices": [
       {
         "storeId": "foleja",
@@ -109,27 +516,282 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:45.834Z",
+        "lastChecked": "2026-05-05T08:01:13.890Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
+        "price": 4490,
+        "inStock": false,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/razer-orochi-v2-mouse/",
+        "lastChecked": "2026-05-05T08:01:12.495Z",
+        "matchedName": "Razer Orochi V2 Mouse"
+      },
+      {
+        "storeId": "neptun",
+        "price": 6490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MOUSE-GAMING-RAZER-OROCHI-V2-MS0971",
+        "lastChecked": "2026-05-05T08:01:12.495Z",
+        "matchedName": "MOUSE GAMING RAZER OROCHI V2",
+        "storeProductId": "/categories/MOUSE-GAMING-RAZER-OROCHI-V2-MS0971",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.181Z",
+        "lastChecked": "2026-05-05T08:01:12.594Z",
         "error": "Produkti nuk u gjet"
       },
       {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.576Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:13.906Z"
+  },
+  "shpresa-asus-strix-raid-dlx-sound-card": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:13.905Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 19990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/asus-strix-raid-dlx-sound-card/",
+        "lastChecked": "2026-05-05T08:01:12.474Z",
+        "matchedName": "Asus Strix Raid DLX Sound Card"
+      },
+      {
         "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.959Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.520Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.628Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:13.908Z"
+  },
+  "shpresa-razer-viper-v2-pro-mouse": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:13.957Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 9990,
+        "inStock": false,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/razer-viper-v2-pro-mouse/",
+        "lastChecked": "2026-05-05T08:01:12.493Z",
+        "matchedName": "Razer Viper V2 Pro Mouse"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.961Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.521Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.625Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:14.019Z"
+  },
+  "shpresa-samaung-galaxy-fit-3": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/HRT-200012599/Film-mbrojtes-per-smartwatch-3mk-Protection-Watch-Protection-ARC-per-Samsung-Galaxy-Fit-3-3-cope",
+        "lastChecked": "2026-05-05T08:01:14.022Z",
+        "matchedName": "Film mbrojtës për smartwatch 3mk Protection Watch Protection ARC+ për Samsung Galaxy Fit 3, 3 copë",
+        "storeProductId": "/HRT-200012599/Film-mbrojtes-per-smartwatch-3mk-Protection-Watch-Protection-ARC-per-Samsung-Galaxy-Fit-3-3-cope",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
         "price": 4990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LOJE-PS5-The-Last-of-Us-Part-II-Remastered-PL4155",
-        "lastChecked": "2026-05-05T08:00:44.221Z",
-        "matchedName": "LOJE PS5 THE LAST OF US PART II REMASTERED",
-        "storeProductId": "/categories/LOJE-PS5-The-Last-of-Us-Part-II-Remastered-PL4155",
+        "productUrl": "https://shpresa.al/product/samaung-galaxy-fit-3/",
+        "lastChecked": "2026-05-05T08:01:12.498Z",
+        "matchedName": "Samsung Galaxy Fit 3"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.801Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.689Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.582Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:14.031Z"
+  },
+  "shpresa-asus-strix-raid-pro-sound-card": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.119Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 15990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/asus-strix-raid-pro-sound-card/",
+        "lastChecked": "2026-05-05T08:01:12.480Z",
+        "matchedName": "Asus Strix Raid Pro Sound Card"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.857Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.688Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:12.638Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:14.120Z"
+  },
+  "shpresa-sony-ps5-prince-of-persia-the-lost-crown": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.187Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 5790,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/sony-ps5-prince-of-persia-the-lost-crown/",
+        "lastChecked": "2026-05-05T08:01:12.490Z",
+        "matchedName": "Sony PS5 Prince of Persia The Lost Crown"
+      },
+      {
+        "storeId": "neptun",
+        "price": 5790,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LOJE-PS5-PRINCE-OF-PERSIA-THE-LOST-CROWN-PL4000",
+        "lastChecked": "2026-05-05T08:01:12.491Z",
+        "matchedName": "LOJE PS5 PRINCE OF PERSIA THE LOST CROWN",
+        "storeProductId": "/categories/LOJE-PS5-PRINCE-OF-PERSIA-THE-LOST-CROWN-PL4000",
         "matchConfidence": 100
       },
       {
@@ -138,7 +800,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:44.357Z",
+        "lastChecked": "2026-05-05T08:01:12.612Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -147,13 +809,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:44.384Z",
+        "lastChecked": "2026-05-05T08:01:12.604Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:48.182Z"
+    "refreshedAt": "2026-05-05T08:01:14.189Z"
   },
-  "shpresa-sennheiser-microphone-e945": {
+  "shpresa-asus-rog-falchion-ace-mechanical-gaming-keyboard": {
     "prices": [
       {
         "storeId": "foleja",
@@ -161,17 +823,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:49.088Z",
+        "lastChecked": "2026-05-05T08:01:14.206Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 14990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/sennheiser-microphone-e945/",
-        "lastChecked": "2026-05-05T08:00:48.435Z",
-        "matchedName": "Sennheiser Microphone E945"
+        "price": 11990,
+        "inStock": false,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/asus-rog-falchion-ace-mechanical-gaming-keyboard/",
+        "lastChecked": "2026-05-05T08:01:12.477Z",
+        "matchedName": "Asus ROG Falchion Ace Mechanical Gaming Keyboard"
       },
       {
         "storeId": "neptun",
@@ -179,7 +841,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.535Z",
+        "lastChecked": "2026-05-05T08:01:12.848Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -188,7 +850,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.461Z",
+        "lastChecked": "2026-05-05T08:01:12.572Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -197,13 +859,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.482Z",
+        "lastChecked": "2026-05-05T08:01:12.639Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:49.537Z"
+    "refreshedAt": "2026-05-05T08:01:14.207Z"
   },
-  "shpresa-hifuture-aurora-smart-watch": {
+  "shpresa-havit-wireless-mouse-ms76gt": {
     "prices": [
       {
         "storeId": "foleja",
@@ -211,7 +873,107 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.928Z",
+        "lastChecked": "2026-05-05T08:01:14.951Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 790,
+        "inStock": false,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-wireless-mouse-ms76gt/?attribute_pa_color=blue",
+        "lastChecked": "2026-05-05T08:01:14.474Z",
+        "matchedName": "HAVIT Wireless Mouse MS76GT"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.634Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.536Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.581Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:15.136Z"
+  },
+  "shpresa-havit-true-wireless-stereo-earbuds-tw969": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:15.433Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 2490,
+        "inStock": false,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-true-wireless-stereo-earbuds-tw969/?attribute_pa_color=beige",
+        "lastChecked": "2026-05-05T08:01:14.477Z",
+        "matchedName": "HAVIT True Wireless Stereo Earbuds TW969"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.795Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.533Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.691Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:15.434Z"
+  },
+  "shpresa-galaxy-s24-ultra-smart-view-wallet-case": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:15.592Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -219,9 +981,9 @@
         "price": 4990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/hifuture-aurora-smart-watch/?attribute_pa_color=blue",
-        "lastChecked": "2026-05-05T08:00:48.446Z",
-        "matchedName": "HiFuture Aurora Smart Watch"
+        "productUrl": "https://shpresa.al/product/galaxy-s24-ultra-smart-view-wallet-case/",
+        "lastChecked": "2026-05-05T08:01:14.451Z",
+        "matchedName": "Galaxy S24 Ultra Smart View Wallet Case"
       },
       {
         "storeId": "neptun",
@@ -229,7 +991,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.569Z",
+        "lastChecked": "2026-05-05T08:01:14.729Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -238,7 +1000,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.504Z",
+        "lastChecked": "2026-05-05T08:01:14.520Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -247,13 +1009,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.516Z",
+        "lastChecked": "2026-05-05T08:01:14.692Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:49.538Z"
+    "refreshedAt": "2026-05-05T08:01:15.654Z"
   },
-  "shpresa-the-t-bone-micscreen-xl": {
+  "shpresa-vacuum-suction-phone-holder-type-c": {
     "prices": [
       {
         "storeId": "foleja",
@@ -261,162 +1023,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:49.073Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 13990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/the-t-bone-micscreen-xl/",
-        "lastChecked": "2026-05-05T08:00:48.424Z",
-        "matchedName": "The T.Bone Micscreen XL"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.552Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.459Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.500Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:49.539Z"
-  },
-  "shpresa-sony-ps5-rise-of-the-ronin": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 5156,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ERG-200000432/Loja-PS5-Koei-Tecmo-Rise-of-the-Ronin",
-        "lastChecked": "2026-05-05T08:00:49.883Z",
-        "matchedName": "Loja PS5 Koei Tecmo Rise of the Ronin",
-        "storeProductId": "/ERG-200000432/Loja-PS5-Koei-Tecmo-Rise-of-the-Ronin",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "shpresa",
-        "price": 8990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/sony-ps5-rise-of-the-ronin/",
-        "lastChecked": "2026-05-05T08:00:48.428Z",
-        "matchedName": "Sony PS5 Rise of the Ronin™"
-      },
-      {
-        "storeId": "neptun",
-        "price": 6497,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LOJE-PS5-RISE-OF-THE-RONIN-PL4164",
-        "lastChecked": "2026-05-05T08:00:48.428Z",
-        "matchedName": "LOJE PS5 RISE OF THE RONIN",
-        "storeProductId": "/categories/LOJE-PS5-RISE-OF-THE-RONIN-PL4164",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.459Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.567Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:49.884Z"
-  },
-  "shpresa-sony-ps5-dragons-dogma-ii": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:49.920Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/sony-ps5-dragons-dogma-ii/",
-        "lastChecked": "2026-05-05T08:00:48.432Z",
-        "matchedName": "Sony PS5 Dragon&#8217;s Dogma II",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.780Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.460Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.584Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:49.920Z"
-  },
-  "shpresa-logitech-m235-wireless-mouse": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:49.694Z",
+        "lastChecked": "2026-05-05T08:01:15.372Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -424,9 +1031,9 @@
         "price": 1490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/logitech-m235-wireless-mouse/",
-        "lastChecked": "2026-05-05T08:00:48.448Z",
-        "matchedName": "Logitech M235 Wireless Mouse"
+        "productUrl": "https://shpresa.al/product/vacuum-suction-phone-holder-type-c/",
+        "lastChecked": "2026-05-05T08:01:14.464Z",
+        "matchedName": "Vacuum Suction Phone Holder Type-C"
       },
       {
         "storeId": "neptun",
@@ -434,7 +1041,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.687Z",
+        "lastChecked": "2026-05-05T08:01:14.740Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -443,7 +1050,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.496Z",
+        "lastChecked": "2026-05-05T08:01:14.525Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -452,13 +1059,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.540Z",
+        "lastChecked": "2026-05-05T08:01:14.696Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:50.085Z"
+    "refreshedAt": "2026-05-05T08:01:15.833Z"
   },
-  "shpresa-konig-meyer-lighting-stand": {
+  "shpresa-havit-bluetooth-selfie-stick": {
     "prices": [
       {
         "storeId": "foleja",
@@ -466,17 +1073,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:49.554Z",
+        "lastChecked": "2026-05-05T08:01:15.065Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 13990,
+        "price": 690,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/konig-meyer-lighting-stand/",
-        "lastChecked": "2026-05-05T08:00:48.420Z",
-        "matchedName": "Konig &#038; Meyer Microphone Stand"
+        "productUrl": "https://shpresa.al/product/havit-bluetooth-selfie-stick/",
+        "lastChecked": "2026-05-05T08:01:14.454Z",
+        "matchedName": "Havit Bluetooth Selfie Stick"
       },
       {
         "storeId": "neptun",
@@ -484,7 +1091,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.674Z",
+        "lastChecked": "2026-05-05T08:01:14.636Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -493,7 +1100,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.458Z",
+        "lastChecked": "2026-05-05T08:01:14.523Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -502,34 +1109,31 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.532Z",
+        "lastChecked": "2026-05-05T08:01:14.619Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:50.105Z"
+    "refreshedAt": "2026-05-05T08:01:15.858Z"
   },
-  "shpresa-msi-pro-h610m-e-ddr4": {
+  "shpresa-havit-h207d-computer-microphone": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300041864/Pllake-ame-MSI-PRO-H610M-E-DDR4-Intel-H610-micro-ATX-GA-1700",
-        "lastChecked": "2026-05-05T08:00:49.557Z",
-        "matchedName": "Pllakë amë MSI PRO H610M-E DDR4, Intel H610, micro ATX, GA 1700",
-        "storeProductId": "/ACN-300041864/Pllake-ame-MSI-PRO-H610M-E-DDR4-Intel-H610-micro-ATX-GA-1700",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.883Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 6990,
+        "price": 490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/msi-pro-h610m-e-ddr4/",
-        "lastChecked": "2026-05-05T08:00:48.443Z",
-        "matchedName": "MSI Pro H610M-E DDR4"
+        "productUrl": "https://shpresa.al/product/havit-h207d-computer-microphone/",
+        "lastChecked": "2026-05-05T08:01:14.462Z",
+        "matchedName": "HAVIT H207D Computer Microphone"
       },
       {
         "storeId": "neptun",
@@ -537,7 +1141,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.628Z",
+        "lastChecked": "2026-05-05T08:01:14.622Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -546,7 +1150,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.462Z",
+        "lastChecked": "2026-05-05T08:01:14.524Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -555,13 +1159,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.546Z",
+        "lastChecked": "2026-05-05T08:01:14.600Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:50.153Z"
+    "refreshedAt": "2026-05-05T08:01:15.868Z"
   },
-  "shpresa-logitech-signature-m650-mouse": {
+  "shpresa-havit-h655bt-anc-wireless-headphones": {
     "prices": [
       {
         "storeId": "foleja",
@@ -569,274 +1173,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:49.784Z",
+        "lastChecked": "2026-05-05T08:01:15.738Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/logitech-signature-m650-mouse/",
-        "lastChecked": "2026-05-05T08:00:48.453Z",
-        "matchedName": "Logitech Signature M650 Mouse"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.705Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.496Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.536Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:50.170Z"
-  },
-  "shpresa-thomann-millenium-ms-2003": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.835Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 8990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/thomann-millenium-ms-2003/",
-        "lastChecked": "2026-05-05T08:00:48.438Z",
-        "matchedName": "Millenium MS 2003"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.616Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.460Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.488Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:50.195Z"
-  },
-  "shpresa-pc-case-lc-power-gaming-804b-obsession_x": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:49.667Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/pc-case-lc-power-gaming-804b-obsession_x/",
-        "lastChecked": "2026-05-05T08:00:48.441Z",
-        "matchedName": "PC Case LC Power Gaming 804B &#8211; Obsession_X",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.701Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.461Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.571Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:50.234Z"
-  },
-  "shpresa-gembird-tv-wall-mount-fixed-23-42": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:49.815Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.643Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.792Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.466Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:48.543Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:51.644Z"
-  },
-  "shpresa-logitech-mx-anywhere-3s": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200000710/Maus-Logitech-MX-Anywhere-3S-per-Mac-910-006946-standard-e-bardhe",
-        "lastChecked": "2026-05-05T08:00:52.908Z",
-        "matchedName": "Maus Logitech MX Anywhere 3S për Mac 910-006946, standard, e bardhë",
-        "storeProductId": "/AXR-200000710/Maus-Logitech-MX-Anywhere-3S-per-Mac-910-006946-standard-e-bardhe",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 9490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/logitech-mx-anywhere-3s/",
-        "lastChecked": "2026-05-05T08:00:51.937Z",
-        "matchedName": "Logitech MX Anywhere 3S"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.156Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.972Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.047Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:52.913Z"
-  },
-  "shpresa-google-pixel-8a": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/HRT-200013347/Xham-mbrojtes-hibrid-3mk-FlexibleGlass-per-Google-Pixel-8A-5G",
-        "lastChecked": "2026-05-05T08:00:53.095Z",
-        "matchedName": "Xham mbrojtës hibrid 3mk FlexibleGlass për Google Pixel 8A 5G",
-        "storeProductId": "/HRT-200013347/Xham-mbrojtes-hibrid-3mk-FlexibleGlass-per-Google-Pixel-8A-5G",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 39990,
+        "price": 2990,
         "inStock": false,
         "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/google-pixel-8a/?attribute_pa_color=obsidian-black",
-        "lastChecked": "2026-05-05T08:00:51.949Z",
-        "matchedName": "Google Pixel 8a"
+        "productUrl": "https://shpresa.al/product/havit-h655bt-anc-wireless-headphones/?attribute_pa_color=beige",
+        "lastChecked": "2026-05-05T08:01:14.467Z",
+        "matchedName": "HAVIT H655BT ANC Wireless Headphones"
       },
       {
         "storeId": "neptun",
@@ -844,7 +1191,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.062Z",
+        "lastChecked": "2026-05-05T08:01:14.738Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -853,7 +1200,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.972Z",
+        "lastChecked": "2026-05-05T08:01:14.525Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -862,13 +1209,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.008Z",
+        "lastChecked": "2026-05-05T08:01:14.694Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:53.096Z"
+    "refreshedAt": "2026-05-05T08:01:15.895Z"
   },
-  "shpresa-xiaomi-router-ax3000t": {
+  "shpresa-havit-10-ring-light-2": {
     "prices": [
       {
         "storeId": "foleja",
@@ -876,17 +1223,68 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:53.122Z",
+        "lastChecked": "2026-05-05T08:01:14.937Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 4990,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-10-ring-light-2/",
+        "lastChecked": "2026-05-05T08:01:14.469Z",
+        "matchedName": "HAVIT 10&#8221; Ring Light",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.640Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.526Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:14.601Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:15.969Z"
+  },
+  "shpresa-havit-rgb-headset-stand": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:15.083Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 2490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-router-ax3000t/",
-        "lastChecked": "2026-05-05T08:00:51.946Z",
-        "matchedName": "Xiaomi Router AX3000T"
+        "productUrl": "https://shpresa.al/product/havit-rgb-headset-stand/",
+        "lastChecked": "2026-05-05T08:01:14.459Z",
+        "matchedName": "HAVIT RGB Headset Stand"
       },
       {
         "storeId": "neptun",
@@ -894,7 +1292,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.156Z",
+        "lastChecked": "2026-05-05T08:01:14.622Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -903,7 +1301,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.973Z",
+        "lastChecked": "2026-05-05T08:01:14.524Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -912,13 +1310,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.060Z",
+        "lastChecked": "2026-05-05T08:01:14.575Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:53.220Z"
+    "refreshedAt": "2026-05-05T08:01:16.016Z"
   },
-  "shpresa-psu-be-quiet-pure-power-12m-1200w": {
+  "shpresa-havit-microphone-bluetooth-speaker-sk894bt": {
     "prices": [
       {
         "storeId": "foleja",
@@ -926,17 +1324,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:53.216Z",
+        "lastChecked": "2026-05-05T08:01:15.327Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 21490,
+        "price": 2390,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/psu-be-quiet-pure-power-12m-1200w/",
-        "lastChecked": "2026-05-05T08:00:51.959Z",
-        "matchedName": "Be Quiet! PSU Pure Power 12M 1200W"
+        "productUrl": "https://shpresa.al/product/havit-microphone-bluetooth-speaker-sk894bt/",
+        "lastChecked": "2026-05-05T08:01:14.448Z",
+        "matchedName": "HAVIT Microphone &amp; Bluetooth Speaker SK894BT"
       },
       {
         "storeId": "neptun",
@@ -944,7 +1342,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.235Z",
+        "lastChecked": "2026-05-05T08:01:14.757Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -953,7 +1351,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.982Z",
+        "lastChecked": "2026-05-05T08:01:14.522Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -962,13 +1360,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.059Z",
+        "lastChecked": "2026-05-05T08:01:14.693Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:53.221Z"
+    "refreshedAt": "2026-05-05T08:01:16.023Z"
   },
-  "shpresa-insta360-ace-pro-action-camera": {
+  "shpresa-havit-bluetooth-speaker-sk889bt": {
     "prices": [
       {
         "storeId": "foleja",
@@ -976,17 +1374,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.950Z",
+        "lastChecked": "2026-05-05T08:01:14.966Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 37990,
+        "price": 990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/insta360-ace-pro-action-camera/",
-        "lastChecked": "2026-05-05T08:00:51.954Z",
-        "matchedName": "Insta360 Ace Pro Action Camera"
+        "productUrl": "https://shpresa.al/product/havit-bluetooth-speaker-sk889bt/",
+        "lastChecked": "2026-05-05T08:01:14.457Z",
+        "matchedName": "HAVIT Bluetooth Speaker SK889BT"
       },
       {
         "storeId": "neptun",
@@ -994,7 +1392,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.072Z",
+        "lastChecked": "2026-05-05T08:01:14.622Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1003,7 +1401,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.980Z",
+        "lastChecked": "2026-05-05T08:01:14.522Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1012,13 +1410,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.020Z",
+        "lastChecked": "2026-05-05T08:01:14.561Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:53.223Z"
+    "refreshedAt": "2026-05-05T08:01:16.032Z"
   },
-  "shpresa-xiaomi-microwave-oven": {
+  "shpresa-havit-gaming-mouse-pad-mp838": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1026,157 +1424,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:53.249Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-microwave-oven/",
-        "lastChecked": "2026-05-05T08:00:51.962Z",
-        "matchedName": "Xiaomi Microwave Oven"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.144Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.988Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.068Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:53.250Z"
-  },
-  "shpresa-amazon-fire-7-kids-edition": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:53.288Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 7990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/amazon-fire-7-kids-edition/?attribute_pa_color=purple",
-        "lastChecked": "2026-05-05T08:00:51.951Z",
-        "matchedName": "Amazon Fire 7 Kids Edition"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.220Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.986Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.045Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:53.289Z"
-  },
-  "shpresa-xiaomi-smart-doorbell-3": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:53.312Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 7490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-smart-doorbell-3/",
-        "lastChecked": "2026-05-05T08:00:51.941Z",
-        "matchedName": "Xiaomi Smart Doorbell 3"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.165Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.971Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.044Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:53.313Z"
-  },
-  "shpresa-lenovo-thinkbook-premium-bag-14": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:53.366Z",
+        "lastChecked": "2026-05-05T08:01:15.546Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1184,71 +1432,20 @@
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/lenovo-thinkbook-premium-bag-14/",
-        "lastChecked": "2026-05-05T08:00:51.964Z",
-        "matchedName": "Lenovo ThinkBook Premium Bag 13&#8221;",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.332Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.989Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.102Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:53.418Z"
-  },
-  "shpresa-samsung-galaxy-s23-ultra-2": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/HRT-200010411/Film-mbrojtes-Wozinsky-Invisible-per-Samsung-Galaxy-S23-Ultra-transparent",
-        "lastChecked": "2026-05-05T08:00:53.450Z",
-        "matchedName": "Film mbrojtës Wozinsky Invisible për Samsung Galaxy S23 Ultra, transparent",
-        "storeProductId": "/HRT-200010411/Film-mbrojtes-Wozinsky-Invisible-per-Samsung-Galaxy-S23-Ultra-transparent",
+        "productUrl": "https://shpresa.al/product/havit-gaming-mouse-pad-mp849/",
+        "lastChecked": "2026-05-05T08:01:14.472Z",
+        "matchedName": "HAVIT Gaming Mouse Pad MP849",
+        "storeProductId": "160361",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
-        "storeId": "shpresa",
-        "price": 29990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-s23-ultra-2/",
-        "lastChecked": "2026-05-05T08:00:51.967Z",
-        "matchedName": "Samsung Galaxy S23 Ultra"
-      },
-      {
         "storeId": "neptun",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.227Z",
+        "lastChecked": "2026-05-05T08:01:14.738Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1257,7 +1454,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.998Z",
+        "lastChecked": "2026-05-05T08:01:14.532Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1266,33 +1463,31 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.069Z",
+        "lastChecked": "2026-05-05T08:01:14.695Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:53.451Z"
+    "refreshedAt": "2026-05-05T08:01:16.696Z"
   },
-  "shpresa-xiaomi-watch-2-pro": {
+  "shpresa-havit-m9036-smart-watch": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 8830,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200059267/Smartwatch-Nothing-CMF-Watch-Pro-2-ash-grey",
-        "lastChecked": "2026-05-05T08:00:53.823Z",
-        "matchedName": "Smartwatch Nothing CMF Watch Pro 2, ash grey",
-        "storeProductId": "/KST-200059267/Smartwatch-Nothing-CMF-Watch-Pro-2-ash-grey",
-        "matchConfidence": 100
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:17.240Z",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 19990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-watch-2-pro/?attribute_pa_color=silver",
-        "lastChecked": "2026-05-05T08:00:51.943Z",
-        "matchedName": "Xiaomi Watch 2 Pro"
+        "price": 2990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-m9036-smart-watch/?attribute_pa_color=grey",
+        "lastChecked": "2026-05-05T08:01:16.926Z",
+        "matchedName": "HAVIT M9036 Smart Watch"
       },
       {
         "storeId": "neptun",
@@ -1300,7 +1495,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.155Z",
+        "lastChecked": "2026-05-05T08:01:17.027Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1309,7 +1504,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.973Z",
+        "lastChecked": "2026-05-05T08:01:16.950Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1318,13 +1513,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.065Z",
+        "lastChecked": "2026-05-05T08:01:16.975Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:53.824Z"
+    "refreshedAt": "2026-05-05T08:01:18.375Z"
   },
-  "shpresa-logitech-pebble-mouse-2-m350s": {
+  "shpresa-havit-dual-port-car-charger": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1332,120 +1527,119 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:53.989Z",
+        "lastChecked": "2026-05-05T08:01:18.219Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-dual-port-car-charger/",
+        "lastChecked": "2026-05-05T08:01:16.923Z",
+        "matchedName": "HAVIT Dual Port Car Charger"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:17.241Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:16.952Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:17.009Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:18.437Z"
+  },
+  "shpresa-havit-i62-wireless-headphones": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:17.431Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
         "price": 1990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/logitech-pebble-mouse-2-m350s/",
-        "lastChecked": "2026-05-05T08:00:51.957Z",
-        "matchedName": "Logitech Pebble Mouse 2 M350s"
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/havit-i62-wireless-headphones/?attribute_pa_color=blue",
+        "lastChecked": "2026-05-05T08:01:16.920Z",
+        "matchedName": "HAVIT I62 Wireless Headphones"
       },
       {
         "storeId": "neptun",
-        "price": 2990,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:17.039Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:16.940Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:16.971Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:18.490Z"
+  },
+  "shpresa-thermaltake-th420-argb-sync-aio-liquid-cooler": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 17861,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MOUSE-PEBBLE-2-M350S-TONAL-GRAPHITE-BT-MS0956",
-        "lastChecked": "2026-05-05T08:00:51.957Z",
-        "matchedName": "MOUSE PEBBLE 2 M350S TONAL GRAPHITE BT",
-        "storeProductId": "/categories/MOUSE-PEBBLE-2-M350S-TONAL-GRAPHITE-BT-MS0956",
+        "productUrl": "https://www.foleja.al/KST-200003894/Ftohes-uji-Thermaltake-TH420-ARGB-Sync-per-CPU-ngjyre-e-bardhe",
+        "lastChecked": "2026-05-05T08:01:18.427Z",
+        "matchedName": "Ftohës uji Thermaltake TH420 ARGB Sync, për CPU, ngjyrë e bardhë",
+        "storeProductId": "/KST-200003894/Ftohes-uji-Thermaltake-TH420-ARGB-Sync-per-CPU-ngjyre-e-bardhe",
         "matchConfidence": 100
       },
       {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:51.986Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:52.073Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:54.041Z"
-  },
-  "shpresa-feelworld-sh7-7-on-camera-monitor": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.715Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
         "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/feelworld-sh7-7-on-camera-monitor/",
-        "lastChecked": "2026-05-05T08:00:54.400Z",
-        "matchedName": "FeelWorld SH7 7&#8243; On-Camera Monitor",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.504Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.422Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.453Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:55.160Z"
-  },
-  "shpresa-instax-square-link-printer-case": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:55.304Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 1490,
+        "price": 9990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/instax-square-link-printer-case/",
-        "lastChecked": "2026-05-05T08:00:54.415Z",
-        "matchedName": "Instax Square Link Printer Case"
+        "productUrl": "https://shpresa.al/product/thermaltake-th420-argb-sync-aio-liquid-cooler/",
+        "lastChecked": "2026-05-05T08:01:16.931Z",
+        "matchedName": "Thermaltake TH420 ARGB Sync AIO Liquid Cooler"
       },
       {
         "storeId": "neptun",
@@ -1453,7 +1647,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.686Z",
+        "lastChecked": "2026-05-05T08:01:17.181Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1462,7 +1656,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.439Z",
+        "lastChecked": "2026-05-05T08:01:16.954Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1471,13 +1665,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.498Z",
+        "lastChecked": "2026-05-05T08:01:17.038Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:55.307Z"
+    "refreshedAt": "2026-05-05T08:01:18.515Z"
   },
-  "shpresa-feelworld-w1000s-sdi-dual-hdmi-wireless-video-transmission-system": {
+  "shpresa-havit-wireless-charger-car-mount": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1485,17 +1679,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.684Z",
+        "lastChecked": "2026-05-05T08:01:17.662Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 54990,
+        "price": 1990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/feelworld-w1000s-sdi-dual-hdmi-wireless-video-transmission-system/",
-        "lastChecked": "2026-05-05T08:00:54.394Z",
-        "matchedName": "FeelWorld W1000S SDI + Dual HDMI Wireless Video Transmission System"
+        "productUrl": "https://shpresa.al/product/havit-wireless-charger-car-mount/",
+        "lastChecked": "2026-05-05T08:01:16.928Z",
+        "matchedName": "HAVIT Wireless Charger Car Mount"
       },
       {
         "storeId": "neptun",
@@ -1503,7 +1697,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.500Z",
+        "lastChecked": "2026-05-05T08:01:17.163Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1512,7 +1706,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.421Z",
+        "lastChecked": "2026-05-05T08:01:16.947Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1521,13 +1715,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.454Z",
+        "lastChecked": "2026-05-05T08:01:17.022Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:55.340Z"
+    "refreshedAt": "2026-05-05T08:01:18.532Z"
   },
-  "shpresa-instax-wide-300-camera-case": {
+  "shpresa-ps5-slim-sony-side-cover": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1535,17 +1729,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:55.220Z",
+        "lastChecked": "2026-05-05T08:01:18.238Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 2490,
+        "price": 5990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/instax-wide-300-camera-case/",
-        "lastChecked": "2026-05-05T08:00:54.413Z",
-        "matchedName": "Instax Wide 300 Camera Case"
+        "productUrl": "https://shpresa.al/product/ps5-slim-sony-side-cover/",
+        "lastChecked": "2026-05-05T08:01:16.934Z",
+        "matchedName": "PlayStation PS5 Slim Side Cover"
       },
       {
         "storeId": "neptun",
@@ -1553,7 +1747,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.633Z",
+        "lastChecked": "2026-05-05T08:01:17.164Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1562,7 +1756,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.431Z",
+        "lastChecked": "2026-05-05T08:01:16.970Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1571,13 +1765,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.487Z",
+        "lastChecked": "2026-05-05T08:01:17.021Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:55.344Z"
+    "refreshedAt": "2026-05-05T08:01:18.567Z"
   },
-  "shpresa-feelworld-fw568-v2-5-5-ips-on-camera-monitor": {
+  "shpresa-havit-true-wireless-stereo-earbuds-tw976": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1585,172 +1779,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:55.267Z",
+        "lastChecked": "2026-05-05T08:01:17.590Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/feelworld-fw568-v2-5-5-ips-on-camera-monitor/",
-        "lastChecked": "2026-05-05T08:00:54.404Z",
-        "matchedName": "FeelWorld FW568 V2 5.5&#8243; IPS On-Camera Monitor",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.686Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.425Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.485Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:55.358Z"
-  },
-  "shpresa-feelworld-f6-plus-5-5-4k-hdmi-monitor": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:55.202Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/feelworld-f6-plus-5-5-4k-hdmi-monitor/",
-        "lastChecked": "2026-05-05T08:00:54.406Z",
-        "matchedName": "FeelWorld F6 Plus 5.5&#8243; 4K HDMI Monitor",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.670Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.435Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.507Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:55.395Z"
-  },
-  "shpresa-dyson-supersonic-hair-dryer-hd15": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:55.570Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 33990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/dyson-supersonic-hair-dryer-hd15/?attribute_pa_color=ceramic-pink-rose-gold",
-        "lastChecked": "2026-05-05T08:00:54.410Z",
-        "matchedName": "Dyson Supersonic Hair Dryer HD15"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.781Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.447Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.516Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T08:00:55.571Z"
-  },
-  "shpresa-asus-rog-keris-gaming-mouse": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KOM-200187859/Maus-Asus-ROG-Keris-Wireless-AimPoint-RGB-i-bardhe",
-        "lastChecked": "2026-05-05T08:00:56.188Z",
-        "matchedName": "Maus Asus ROG Keris Wireless AimPoint, RGB, i bardhë",
-        "storeProductId": "/KOM-200187859/Maus-Asus-ROG-Keris-Wireless-AimPoint-RGB-i-bardhe",
-        "matchConfidence": 75,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 6990,
+        "price": 1190,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/asus-rog-keris-gaming-mouse/",
-        "lastChecked": "2026-05-05T08:00:54.398Z",
-        "matchedName": "ASUS ROG Keris Gaming Mouse"
+        "productUrl": "https://shpresa.al/product/havit-true-wireless-stereo-earbuds-tw976/",
+        "lastChecked": "2026-05-05T08:01:16.917Z",
+        "matchedName": "HAVIT True Wireless Stereo Earbuds TW976"
       },
       {
         "storeId": "neptun",
@@ -1758,7 +1797,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.749Z",
+        "lastChecked": "2026-05-05T08:01:17.163Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1767,7 +1806,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.421Z",
+        "lastChecked": "2026-05-05T08:01:16.940Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1776,10 +1815,60 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T08:00:54.534Z",
+        "lastChecked": "2026-05-05T08:01:16.992Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T08:00:56.189Z"
+    "refreshedAt": "2026-05-05T08:01:18.583Z"
+  },
+  "shpresa-harman-kardon-citation-200": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:17.413Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:19.170Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:17.023Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:16.965Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T08:01:16.979Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T08:01:19.171Z"
   }
 }
