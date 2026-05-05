@@ -1,171 +1,15 @@
 {
-  "neptun-31168": {
+  "neptun-26943": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:58.130Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:59.604Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 18990,
-        "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PRINTER-PIXMA-G3416-EUM--EMB-PI0620",
-        "lastChecked": "2026-05-05T10:30:57.320Z",
-        "matchedName": "PRINTER PIXMA G3416 EUM/ EMB",
-        "storeProductId": "/categories/PRINTER-PIXMA-G3416-EUM--EMB-PI0620",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:57.438Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:58.079Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:30:59.605Z"
-  },
-  "neptun-14677": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:58.022Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:59.712Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 16997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PRINTER-CANON-G3415-PI0480",
-        "lastChecked": "2026-05-05T10:30:57.354Z",
-        "matchedName": "PRINTER CANON PIXMA G3415",
-        "storeProductId": "/categories/PRINTER-CANON-G3415-PI0480",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:57.449Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:58.649Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:30:59.712Z"
-  },
-  "neptun-31167": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:58.109Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:59.721Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 21990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PRINTER-PIXMA-G3470-EUM-EMB-WH-PI0619",
-        "lastChecked": "2026-05-05T10:30:57.344Z",
-        "matchedName": "PRINTER PIXMA G3470 EUM/EMB WH",
-        "storeProductId": "/categories/PRINTER-PIXMA-G3470-EUM-EMB-WH-PI0619",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:57.449Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:57.428Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-05T10:30:59.721Z"
-  },
-  "neptun-24313": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200013007/Printer-shumefunksional-HP-Smart-Tank-790-hiri",
-        "lastChecked": "2026-05-05T10:30:58.475Z",
-        "matchedName": "Printer shumëfunksional HP, Smart Tank 790, hiri",
-        "storeProductId": "/YLL-200013007/Printer-shumefunksional-HP-Smart-Tank-790-hiri",
+        "productUrl": "https://www.foleja.al/ACN-300021189/Printer-HP-LaserJet-Pro-M501-i-zi",
+        "lastChecked": "2026-05-05T10:31:11.692Z",
+        "matchedName": "Printer HP LaserJet Pro M501, i zi",
+        "storeProductId": "/ACN-300021189/Printer-HP-LaserJet-Pro-M501-i-zi",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -175,18 +19,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:31:00.905Z",
+        "lastChecked": "2026-05-05T10:31:11.179Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 21990,
+        "price": 55990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PRINTER-HP-SMART-TANK-585-ALL-IN-ONE-1F3Y4A-PI0576",
-        "lastChecked": "2026-05-05T10:30:57.348Z",
-        "matchedName": "PRINTER HP SMART TANK 585 ALL-IN-ONE 1F3Y4A",
-        "storeProductId": "/categories/PRINTER-HP-SMART-TANK-585-ALL-IN-ONE-1F3Y4A-PI0576",
+        "productUrl": "https://www.neptun.al/categories/PRINTER-HP-LASERJET-PRO-MFP-3303SDW-499M6A-PI0594",
+        "lastChecked": "2026-05-05T10:31:10.195Z",
+        "matchedName": "PRINTER HP LASERJET PRO MFP 3303SDW 499M6A",
+        "storeProductId": "/categories/PRINTER-HP-LASERJET-PRO-MFP-3303SDW-499M6A-PI0594",
         "matchConfidence": 100
       },
       {
@@ -195,7 +39,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:57.440Z",
+        "lastChecked": "2026-05-05T10:31:10.293Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -204,23 +48,23 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:57.482Z",
+        "lastChecked": "2026-05-05T10:31:10.437Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:31:00.905Z"
+    "refreshedAt": "2026-05-05T10:31:11.693Z"
   },
-  "neptun-20124": {
+  "neptun-15771": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300092365/Printer-HP-LaserJet-MFP-M140w-i-bardhe-e-zi",
-        "lastChecked": "2026-05-05T10:30:58.205Z",
-        "matchedName": "Printer HP LaserJet MFP M140w, i bardhë e zi",
-        "storeProductId": "/ACN-300092365/Printer-HP-LaserJet-MFP-M140w-i-bardhe-e-zi",
+        "productUrl": "https://www.foleja.al/ERG-200000146/Apple-Pencil-USB-C",
+        "lastChecked": "2026-05-05T10:31:11.695Z",
+        "matchedName": "Apple Pencil (USB-C)",
+        "storeProductId": "/ERG-200000146/Apple-Pencil-USB-C",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -230,18 +74,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:31:00.989Z",
+        "lastChecked": "2026-05-05T10:31:11.180Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 20990,
+        "price": 997,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PRINTER-HP-LASERJET-MFP-M236dw-PI0548",
-        "lastChecked": "2026-05-05T10:30:57.340Z",
-        "matchedName": "PRINTER HP LASERJET MFP M236dw 9YF95A",
-        "storeProductId": "/categories/PRINTER-HP-LASERJET-MFP-M236dw-PI0548",
+        "productUrl": "https://www.neptun.al/categories/ADAPTOR-APPLE-USB-C---3-5mm-JACK-MU7E2ZM-A-AD0522",
+        "lastChecked": "2026-05-05T10:31:10.202Z",
+        "matchedName": "ADAPTOR APPLE USB-C - 3.5mm JACK MU7E2ZM/A",
+        "storeProductId": "/categories/ADAPTOR-APPLE-USB-C---3-5mm-JACK-MU7E2ZM-A-AD0522",
         "matchConfidence": 100
       },
       {
@@ -250,7 +94,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:57.448Z",
+        "lastChecked": "2026-05-05T10:31:10.268Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -259,10 +103,2935 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-05T10:30:58.667Z",
+        "lastChecked": "2026-05-05T10:31:10.415Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-05T10:31:00.990Z"
+    "refreshedAt": "2026-05-05T10:31:11.696Z"
+  },
+  "neptun-19104": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 328000,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200018677/Laptop-Microsoft-Surface-15in-Ultra5-16GB-256GB-Platinum",
+        "lastChecked": "2026-05-05T10:31:11.803Z",
+        "matchedName": "Laptop Microsoft Surface 15in Ultra5 16GB 256GB Platinum",
+        "storeProductId": "/KST-200018677/Laptop-Microsoft-Surface-15in-Ultra5-16GB-256GB-Platinum",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:10.675Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 6997,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LAPS-MICROSOFT-SURFACE-AC2858",
+        "lastChecked": "2026-05-05T10:31:10.221Z",
+        "matchedName": "LAPS MICROSOFT SURFACE",
+        "storeProductId": "/categories/LAPS-MICROSOFT-SURFACE-AC2858",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:10.307Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:10.301Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:11.803Z"
+  },
+  "neptun-30663": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.786Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.290Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SHISHE-TEFAL-ROZE-K3200212-AC3402",
+        "lastChecked": "2026-05-05T10:31:12.051Z",
+        "matchedName": "SHISHE TEFAL ROZE K3200212",
+        "storeProductId": "/categories/SHISHE-TEFAL-ROZE-K3200212-AC3402",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.203Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.151Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:12.900Z"
+  },
+  "neptun-27335": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200000146/Apple-Pencil-USB-C",
+        "lastChecked": "2026-05-05T10:31:12.767Z",
+        "matchedName": "Apple Pencil (USB-C)",
+        "storeProductId": "/ERG-200000146/Apple-Pencil-USB-C",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.509Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 12990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/APPLE-PENCIL--USB-C--muwa3zm-a-AC3248",
+        "lastChecked": "2026-05-05T10:31:12.032Z",
+        "matchedName": "APPLE PENCIL (USB-C) muwa3zm/a",
+        "storeProductId": "/categories/APPLE-PENCIL--USB-C--muwa3zm-a-AC3248",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.154Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.250Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:12.926Z"
+  },
+  "neptun-25236": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:13.259Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.517Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2090,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KREHER-FLOKESH-BEURER-HT-10-AC3099",
+        "lastChecked": "2026-05-05T10:31:12.053Z",
+        "matchedName": "KREHER FLOKESH BEURER HT 10",
+        "storeProductId": "/categories/KREHER-FLOKESH-BEURER-HT-10-AC3099",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.246Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.261Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:13.293Z"
+  },
+  "neptun-25233": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:13.293Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.521Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PASQYRE-LED-BEURER-BS-45-AC3096",
+        "lastChecked": "2026-05-05T10:31:12.055Z",
+        "matchedName": "PASQYRE LED BEURER BS 45",
+        "storeProductId": "/categories/PASQYRE-LED-BEURER-BS-45-AC3096",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.265Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.266Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:13.296Z"
+  },
+  "neptun-20097": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:13.332Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.520Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3907,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/CANTE-UDHETIMI-DYSON-971313-01-AC2909",
+        "lastChecked": "2026-05-05T10:31:12.057Z",
+        "matchedName": "CANTE UDHETIMI DYSON 971313-01",
+        "storeProductId": "/categories/CANTE-UDHETIMI-DYSON-971313-01-AC2909",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.264Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.244Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:13.333Z"
+  },
+  "neptun-15349": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 12547,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200006633/Apple-Pencil-2nd-Generation",
+        "lastChecked": "2026-05-05T10:31:13.921Z",
+        "matchedName": "Apple Pencil (2nd Generation)",
+        "storeProductId": "/KST-200006633/Apple-Pencil-2nd-Generation",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.759Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 15397,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/APPLE-PENCIL-2ND-GEN-W-AC2320",
+        "lastChecked": "2026-05-05T10:31:12.040Z",
+        "matchedName": "APPLE PENCIL 2ND GEN W",
+        "storeProductId": "/categories/APPLE-PENCIL-2ND-GEN-W-AC2320",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.079Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.321Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:13.922Z"
+  },
+  "neptun-25327": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.095Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:13.607Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 45990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
+        "lastChecked": "2026-05-05T10:31:12.046Z",
+        "matchedName": "TASTIERE APPLE MAGIC IPAD PRO 13\" M4/5 BLACK",
+        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.210Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.350Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:14.173Z"
+  },
+  "neptun-25168": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.273Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:13.427Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 13990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-TAB-APPLE-SMART-FOLIO-PRO-13--M4-BLACK-CA3886",
+        "lastChecked": "2026-05-05T10:31:12.038Z",
+        "matchedName": "COVER TAB APPLE SMART FOLIO PRO 13\" M4/5 BLACK",
+        "storeProductId": "/categories/COVER-TAB-APPLE-SMART-FOLIO-PRO-13--M4-BLACK-CA3886",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.153Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.366Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:14.292Z"
+  },
+  "neptun-25852": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.292Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:13.099Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 13990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COVER-TAB-APPLE-SMART-FOLIO-PRO-13--M4-BLACK-CA3886",
+        "lastChecked": "2026-05-05T10:31:12.035Z",
+        "matchedName": "COVER TAB APPLE SMART FOLIO PRO 13\" M4/5 BLACK",
+        "storeProductId": "/categories/COVER-TAB-APPLE-SMART-FOLIO-PRO-13--M4-BLACK-CA3886",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.155Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.345Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:14.293Z"
+  },
+  "neptun-29947": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.341Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:13.119Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 43990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-IPAD-AIR-11--M3-BLACK-TA0514",
+        "lastChecked": "2026-05-05T10:31:12.044Z",
+        "matchedName": "TASTIERE APPLE MAGIC IPAD AIR 11\" M4/3 BLACK",
+        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-AIR-11--M3-BLACK-TA0514",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.243Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.356Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:14.343Z"
+  },
+  "neptun-20903": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.361Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:13.118Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 37990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TASTIERE-APPLE-MAGIC-FOLIO--10th-gen--TA0432",
+        "lastChecked": "2026-05-05T10:31:12.042Z",
+        "matchedName": "TASTIERE APPLE MAGIC FOLIO A16/10th gen",
+        "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-FOLIO--10th-gen--TA0432",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.152Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:12.353Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:14.362Z"
+  },
+  "neptun-29989": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300043791/Kuti-per-ruajtjen-e-mjeteve-DeWalt-DWST83344-1-e-zeze-e-verdhe",
+        "lastChecked": "2026-05-05T10:31:16.475Z",
+        "matchedName": "Kuti për ruajtjen e mjeteve DeWalt DWST83344-1, e zezë/ e verdhë",
+        "storeProductId": "/ACN-300043791/Kuti-per-ruajtjen-e-mjeteve-DeWalt-DWST83344-1-e-zeze-e-verdhe",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:17.295Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KUTI-PER-RUAJTJEN-E-QUMSHTIT-AVENT-SCF619-05-BE0184",
+        "lastChecked": "2026-05-05T10:31:14.650Z",
+        "matchedName": "KUTI PER RUAJTJEN E QUMSHTIT AVENT SCF619/05",
+        "storeProductId": "/categories/KUTI-PER-RUAJTJEN-E-QUMSHTIT-AVENT-SCF619-05-BE0184",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.680Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.757Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:17.296Z"
+  },
+  "neptun-30000": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:15.931Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:17.302Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 5490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/NGROHES-PER-SHISHE-AVENT-SCF355-09-BE0191",
+        "lastChecked": "2026-05-05T10:31:14.672Z",
+        "matchedName": "NGROHES PER SHISHE AVENT SCF355/09",
+        "storeProductId": "/categories/NGROHES-PER-SHISHE-AVENT-SCF355-09-BE0191",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.691Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.766Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:17.303Z"
+  },
+  "neptun-30002": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:16.152Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:17.609Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/QESE-PER-QUMESHTIN-E-GJIRIT-AVENT-SCF603-25-BE0197",
+        "lastChecked": "2026-05-05T10:31:14.653Z",
+        "matchedName": "QESE PER QUMESHTIN E GJIRIT AVENT SCF603/25",
+        "storeProductId": "/categories/QESE-PER-QUMESHTIN-E-GJIRIT-AVENT-SCF603-25-BE0197",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.680Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.756Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:17.609Z"
+  },
+  "neptun-25235": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:15.672Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:17.651Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PASQYRE-LED-BEURER-BS-59-AC3098",
+        "lastChecked": "2026-05-05T10:31:14.670Z",
+        "matchedName": "PASQYRE LED BEURER BS 59",
+        "storeProductId": "/categories/PASQYRE-LED-BEURER-BS-59-AC3098",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.683Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.765Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:17.652Z"
+  },
+  "neptun-30675": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/FID-200001974/Mbajtese-pecetash-Fine-Dine-Crema-Perla-porcelan-set-6-cope-krem",
+        "lastChecked": "2026-05-05T10:31:16.807Z",
+        "matchedName": "Mbajtëse pecetash Fine Dine Crema/Perla porcelan, set 6 copë, krem",
+        "storeProductId": "/FID-200001974/Mbajtese-pecetash-Fine-Dine-Crema-Perla-porcelan-set-6-cope-krem",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:17.723Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SET-PER-RUAJTJEN-E-USHQIMIT-6M--SCF721-20-BE0211",
+        "lastChecked": "2026-05-05T10:31:14.658Z",
+        "matchedName": "SET PER RUAJTJEN E USHQIMIT 6M+ SCF721/20",
+        "storeProductId": "/categories/SET-PER-RUAJTJEN-E-USHQIMIT-6M--SCF721-20-BE0211",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.681Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.751Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:17.723Z"
+  },
+  "neptun-25117": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:15.836Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:17.742Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 5490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/APARAT-PERGJIMI-PER-FEMIJE-BEURER-BY33-BE0175",
+        "lastChecked": "2026-05-05T10:31:14.665Z",
+        "matchedName": "APARAT PERGJIMI PER FEMIJE BEURER BY33",
+        "storeProductId": "/categories/APARAT-PERGJIMI-PER-FEMIJE-BEURER-BY33-BE0175",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.683Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.755Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:17.743Z"
+  },
+  "neptun-25119": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:15.900Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:17.760Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 11690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PER-FEMIJE-BY90-PE0238",
+        "lastChecked": "2026-05-05T10:31:14.674Z",
+        "matchedName": "PESHORE PER FEMIJE BEURER BY90",
+        "storeProductId": "/categories/PESHORE-PER-FEMIJE-BY90-PE0238",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.699Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.758Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:17.762Z"
+  },
+  "neptun-30141": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:15.917Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:17.773Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 5390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/STERILIZUES-BIBERONI-PHILIPS-SCF281-02-BE0135",
+        "lastChecked": "2026-05-05T10:31:14.663Z",
+        "matchedName": "STERILIZUES BIBERONI PHILIPS SCF281/02",
+        "storeProductId": "/categories/STERILIZUES-BIBERONI-PHILIPS-SCF281-02-BE0135",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.682Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.822Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:17.773Z"
+  },
+  "neptun-25118": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:15.641Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:17.891Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/APARAT-STERILIZIMI-ME-AVULL-BEURER-BY76-BE0176",
+        "lastChecked": "2026-05-05T10:31:14.660Z",
+        "matchedName": "APARAT STERILIZIMI ME AVULL BEURER BY76",
+        "storeProductId": "/categories/APARAT-STERILIZIMI-ME-AVULL-BEURER-BY76-BE0176",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.682Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.764Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:17.892Z"
+  },
+  "neptun-30674": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:16.125Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:18.448Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KUTI-PER-QUMESHT-GJIRI-PHILIPS-AVENT-SCF618-10-BE0210",
+        "lastChecked": "2026-05-05T10:31:14.655Z",
+        "matchedName": "KUTI PER QUMESHT GJIRI PHILIPS AVENT SCF618/10",
+        "storeProductId": "/categories/KUTI-PER-QUMESHT-GJIRI-PHILIPS-AVENT-SCF618-10-BE0210",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.681Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.791Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:18.450Z"
+  },
+  "neptun-20377": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:16.139Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:18.660Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 6890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/NGROHES-BIBERONI-PHILIPS-AVENT-SCF358-00-BE0156",
+        "lastChecked": "2026-05-05T10:31:14.667Z",
+        "matchedName": "NGROHES BIBERONI PHILIPS AVENT SCF358/00",
+        "storeProductId": "/categories/NGROHES-BIBERONI-PHILIPS-AVENT-SCF358-00-BE0156",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.684Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.783Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:18.661Z"
+  },
+  "neptun-29988": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:16.182Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:18.696Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 9890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/AUDIO-MONITOR-PHILIPS-AVENT-SCD502-26-BE0183",
+        "lastChecked": "2026-05-05T10:31:14.677Z",
+        "matchedName": "AUDIO MONITOR PHILIPS AVENT SCD502/26",
+        "storeProductId": "/categories/AUDIO-MONITOR-PHILIPS-AVENT-SCD502-26-BE0183",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.698Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:14.807Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:18.696Z"
+  },
+  "neptun-9204": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.635Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.911Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 790,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FUEGO-BY-516",
+        "lastChecked": "2026-05-05T10:31:18.967Z",
+        "matchedName": "THARESE FLOKESH FUEGO BY-516",
+        "storeProductId": "/categories/THARESE-FLOKESH-FUEGO-BY-516",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.075Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.016Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:19.912Z"
+  },
+  "neptun-9202": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.438Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.301Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FUEGO-BY-536",
+        "lastChecked": "2026-05-05T10:31:18.975Z",
+        "matchedName": "THARESE FLOKESH FUEGO BY-536",
+        "storeProductId": "/categories/THARESE-FLOKESH-FUEGO-BY-536",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.073Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.027Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:20.302Z"
+  },
+  "neptun-9198": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.367Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.345Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FUEGO-BY-508",
+        "lastChecked": "2026-05-05T10:31:18.965Z",
+        "matchedName": "THARESE FLOKESH FUEGO BY-508",
+        "storeProductId": "/categories/THARESE-FLOKESH-FUEGO-BY-508",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.082Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.011Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:20.346Z"
+  },
+  "neptun-9200": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.387Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.466Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FUEGO-BY-510",
+        "lastChecked": "2026-05-05T10:31:18.970Z",
+        "matchedName": "THARESE FLOKESH FUEGO BY-510",
+        "storeProductId": "/categories/THARESE-FLOKESH-FUEGO-BY-510",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.065Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.015Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:20.467Z"
+  },
+  "neptun-30890": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.048Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.807Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FIRST-AUSTRIA-FA-5654-7-BU-TH0944",
+        "lastChecked": "2026-05-05T10:31:18.972Z",
+        "matchedName": "THARESE FLOKESH FIRST AUSTRIA FA-5654-7-BU",
+        "storeProductId": "/categories/THARESE-FLOKESH-FIRST-AUSTRIA-FA-5654-7-BU-TH0944",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.074Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.054Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:20.808Z"
+  },
+  "neptun-30001": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.062Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:21.146Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 32090,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/BABY-VIDEO-MONITOR-AVENT-SCD881-26-BE0196",
+        "lastChecked": "2026-05-05T10:31:18.962Z",
+        "matchedName": "BABY VIDEO MONITOR AVENT SCD881/26",
+        "storeProductId": "/categories/BABY-VIDEO-MONITOR-AVENT-SCD881-26-BE0196",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.061Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.051Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:21.147Z"
+  },
+  "neptun-19184": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.034Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:21.620Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FIRST-AUSTRIA-FA-5655-1-TH0792",
+        "lastChecked": "2026-05-05T10:31:18.980Z",
+        "matchedName": "THARESE FLOKESH FIRST AUSTRIA FA-5655-1",
+        "storeProductId": "/categories/THARESE-FLOKESH-FIRST-AUSTRIA-FA-5655-1-TH0792",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.080Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.070Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:21.621Z"
+  },
+  "neptun-29993": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.297Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:21.797Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 19590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/AUDIO-MONITOR-PHILIPS-AVENT-SCD731-52-BE0188",
+        "lastChecked": "2026-05-05T10:31:18.958Z",
+        "matchedName": "AUDIO MONITOR PHILIPS AVENT SCD731/52",
+        "storeProductId": "/categories/AUDIO-MONITOR-PHILIPS-AVENT-SCD731-52-BE0188",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.014Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.093Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:21.797Z"
+  },
+  "neptun-29994": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.279Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.010Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 16990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/AUDIO-MONITOR-PHILIPS-AVENT-SCD715-52-BE0189",
+        "lastChecked": "2026-05-05T10:31:18.952Z",
+        "matchedName": "AUDIO MONITOR PHILIPS AVENT SCD715/52",
+        "storeProductId": "/categories/AUDIO-MONITOR-PHILIPS-AVENT-SCD715-52-BE0189",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:18.983Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.081Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:22.011Z"
+  },
+  "neptun-9156": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.486Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.057Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-UDHETIMI-PHILIPS-BHC010-10",
+        "lastChecked": "2026-05-05T10:31:18.977Z",
+        "matchedName": "THARESE FLOKESH UDHETIMI PHILIPS BHC010/10",
+        "storeProductId": "/categories/THARESE-FLOKESH-UDHETIMI-PHILIPS-BHC010-10",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.075Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.103Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:22.058Z"
+  },
+  "neptun-23346": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.318Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.152Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 30490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Video-Monitor-Philips-Avent-SCD835-52-BE0160",
+        "lastChecked": "2026-05-05T10:31:18.960Z",
+        "matchedName": "VIDEO MONITOR PHILIPS AVENT SCD835/52",
+        "storeProductId": "/categories/Video-Monitor-Philips-Avent-SCD835-52-BE0160",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:18.992Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.099Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:22.153Z"
+  },
+  "neptun-30800": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:20.503Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.446Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 15290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/STERILIZUES-ELEKTRIK-PHILIPS-AVENT-SCF293-00-BE0213",
+        "lastChecked": "2026-05-05T10:31:18.955Z",
+        "matchedName": "STERILIZUES ELEKTRIK PHILIPS AVENT SCF293/00",
+        "storeProductId": "/categories/STERILIZUES-ELEKTRIK-PHILIPS-AVENT-SCF293-00-BE0213",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.031Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:19.104Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:22.446Z"
+  },
+  "neptun-28706": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.764Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:24.640Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1790,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FUEGO-KF-3141-TH0906",
+        "lastChecked": "2026-05-05T10:31:22.699Z",
+        "matchedName": "THARESE FLOKESH FUEGO KF-3141 HDFGCO3141W",
+        "storeProductId": "/categories/THARESE-FLOKESH-FUEGO-KF-3141-TH0906",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.759Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.854Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:24.640Z"
+  },
+  "neptun-17097": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.928Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:24.718Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FIRST-AUSTRIA-FA-5654-8-TH0754",
+        "lastChecked": "2026-05-05T10:31:22.702Z",
+        "matchedName": "THARESE FLOKESH FIRST AUSTRIA FA-5654-8",
+        "storeProductId": "/categories/THARESE-FLOKESH-FIRST-AUSTRIA-FA-5654-8-TH0754",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.759Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.862Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:24.719Z"
+  },
+  "neptun-28707": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.862Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:24.790Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FUEGO-KF-3149-TH0907",
+        "lastChecked": "2026-05-05T10:31:22.710Z",
+        "matchedName": "THARESE FLOKESH FUEGO KF-3149 HDFGCO3149DG",
+        "storeProductId": "/categories/THARESE-FLOKESH-FUEGO-KF-3149-TH0907",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.785Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.850Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:24.791Z"
+  },
+  "neptun-24389": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.778Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:24.847Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-GRUNDIG-HD-7082-TH0861",
+        "lastChecked": "2026-05-05T10:31:22.705Z",
+        "matchedName": "THARESE FLOKESH GRUNDIG HD 7082",
+        "storeProductId": "/categories/THARESE-FLOKESH-GRUNDIG-HD-7082-TH0861",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.760Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.863Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:24.848Z"
+  },
+  "neptun-20802": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.912Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:24.859Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-ROWENTA-CV1801F0-TH0828",
+        "lastChecked": "2026-05-05T10:31:22.690Z",
+        "matchedName": "THARESE FLOKESH UDHETIMI ROWENTA CV1801F0",
+        "storeProductId": "/categories/THARESE-FLOKESH-ROWENTA-CV1801F0-TH0828",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.758Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.865Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:24.860Z"
+  },
+  "neptun-19311": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.709Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.040Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2790,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FIRST-AUSTRIA-FA-5654-9-BA-TH0804",
+        "lastChecked": "2026-05-05T10:31:22.693Z",
+        "matchedName": "THARESE FLOKESH FIRST AUSTRIA FA-5654-9-BA",
+        "storeProductId": "/categories/THARESE-FLOKESH-FIRST-AUSTRIA-FA-5654-9-BA-TH0804",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.761Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.860Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:25.041Z"
+  },
+  "neptun-17498": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.885Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.116Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-PHILIPS-BHD302-30-TH0767",
+        "lastChecked": "2026-05-05T10:31:22.751Z",
+        "matchedName": "THARESE FLOKESH PHILIPS BHD302/30",
+        "storeProductId": "/categories/THARESE-FLOKESH-PHILIPS-BHD302-30-TH0767",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.810Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.856Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:25.117Z"
+  },
+  "neptun-20833": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.723Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.436Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FIRST-AUSTRIA-FA-5654-4-TH0762",
+        "lastChecked": "2026-05-05T10:31:22.696Z",
+        "matchedName": "THARESE FLOKESH FIRST AUSTRIA FA-5654-4",
+        "storeProductId": "/categories/THARESE-FLOKESH-FIRST-AUSTRIA-FA-5654-4-TH0762",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.758Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.859Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:25.437Z"
+  },
+  "neptun-19523": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:24.070Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.560Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-ROWENTA-CV581LF0-TH0810",
+        "lastChecked": "2026-05-05T10:31:22.713Z",
+        "matchedName": "THARESE FLOKESH ROWENTA x KARL LAGERFELD CV581LF0",
+        "storeProductId": "/categories/THARESE-FLOKESH-ROWENTA-CV581LF0-TH0810",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.786Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.866Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:25.561Z"
+  },
+  "neptun-21310": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.740Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.624Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FIRST-AUSTRIA-5655-1-BA-TH0835",
+        "lastChecked": "2026-05-05T10:31:22.684Z",
+        "matchedName": "THARESE FLOKESH FIRST AUSTRIA FA-5655-1-BA",
+        "storeProductId": "/categories/THARESE-FLOKESH-FIRST-AUSTRIA-5655-1-BA-TH0835",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.756Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.832Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:25.624Z"
+  },
+  "neptun-20805": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.635Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.635Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FIRST-AUSTRIA-5654-9-SI-TH0831",
+        "lastChecked": "2026-05-05T10:31:22.687Z",
+        "matchedName": "THARESE FLOKESH FIRST AUSTRIA FA-5654-9-SI",
+        "storeProductId": "/categories/THARESE-FLOKESH-FIRST-AUSTRIA-5654-9-SI-TH0831",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.757Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.867Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:25.636Z"
+  },
+  "neptun-14354": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:23.793Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.718Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-UDHETIMI-REMINGTON-D1500-TH0734",
+        "lastChecked": "2026-05-05T10:31:22.708Z",
+        "matchedName": "THARESE FLOKESH UDHETIMI REMINGTON D1500",
+        "storeProductId": "/categories/THARESE-FLOKESH-UDHETIMI-REMINGTON-D1500-TH0734",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.770Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:22.842Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:25.719Z"
+  },
+  "neptun-30654": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.567Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.840Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-REVLON-RVDR5251-TH0927",
+        "lastChecked": "2026-05-05T10:31:25.965Z",
+        "matchedName": "THARESE FLOKESH REVLON RVDR5251",
+        "storeProductId": "/categories/THARESE-FLOKESH-REVLON-RVDR5251-TH0927",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.991Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.040Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:26.841Z"
+  },
+  "neptun-19322": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.376Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.978Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 6090,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-GRUNDIG-HD-8080-TH0798",
+        "lastChecked": "2026-05-05T10:31:25.968Z",
+        "matchedName": "THARESE GRUNDIG HD 8080",
+        "storeProductId": "/categories/THARESE-GRUNDIG-HD-8080-TH0798",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.041Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.998Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:26.978Z"
+  },
+  "neptun-17682": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.424Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:27.101Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-REMINGTON-D5210-TH0778",
+        "lastChecked": "2026-05-05T10:31:25.952Z",
+        "matchedName": "THARESE FLOKESH REMINGTON D5210",
+        "storeProductId": "/categories/THARESE-FLOKESH-REMINGTON-D5210-TH0778",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.985Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.004Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:27.102Z"
+  },
+  "neptun-14355": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.547Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:27.133Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 5807,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-REMINGTON-D3010-TH0735",
+        "lastChecked": "2026-05-05T10:31:25.950Z",
+        "matchedName": "THARESE FLOKESH REMINGTON D3010",
+        "storeProductId": "/categories/THARESE-FLOKESH-REMINGTON-D3010-TH0735",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.974Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.997Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:27.134Z"
+  },
+  "neptun-25632": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.638Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:27.151Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-ROWENTA-CV5831F0-TH0868",
+        "lastChecked": "2026-05-05T10:31:25.955Z",
+        "matchedName": "THARESE FLOKESH ROWENTA CV5831F0",
+        "storeProductId": "/categories/THARESE-FLOKESH-ROWENTA-CV5831F0-TH0868",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:25.993Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.002Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:27.152Z"
+  },
+  "neptun-9060": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.312Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:27.193Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3090,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-FUEGO-RG-5100",
+        "lastChecked": "2026-05-05T10:31:25.958Z",
+        "matchedName": "THARESE FLOKESH FUEGO RG-5100",
+        "storeProductId": "/categories/THARESE-FLOKESH-FUEGO-RG-5100",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.037Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.041Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:27.194Z"
+  },
+  "neptun-17496": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.838Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:27.539Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-GRUNDIG-HD-7880-TH0722",
+        "lastChecked": "2026-05-05T10:31:25.960Z",
+        "matchedName": "THARESE FLOKESH GRUNDIG HD 7880",
+        "storeProductId": "/categories/THARESE-FLOKESH-GRUNDIG-HD-7880-TH0722",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.038Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.073Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:27.540Z"
+  },
+  "neptun-28149": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.795Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:27.831Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-PHILIPS-BHD321-00-TH0898",
+        "lastChecked": "2026-05-05T10:31:25.963Z",
+        "matchedName": "THARESE FLOKESH PHILIPS BHD321/00",
+        "storeProductId": "/categories/THARESE-FLOKESH-PHILIPS-BHD321-00-TH0898",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.037Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-05T10:31:26.071Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-05T10:31:27.831Z"
   }
 }
