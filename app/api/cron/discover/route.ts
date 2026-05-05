@@ -8,7 +8,12 @@ import {
   LOWEST_PRICES_TAG,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
-import { commitDirtyFiles } from "@/src/infrastructure/git/commitDataFiles";
+import { commitDirtyFiles, hydrateFromGitHub } from "@/src/infrastructure/git/commitDataFiles";
+import {
+  DISCOVERED_PRODUCTS_FILE,
+  DISCOVERY_LOG_FILE,
+  CATALOGUE_STATE_FILE,
+} from "@/src/infrastructure/persistence/paths";
 
 export const maxDuration = 300;
 
@@ -22,6 +27,14 @@ export async function GET(req: NextRequest) {
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
+
+  // Fetch the latest committed snapshots into /tmp before reading them so
+  // this run merges into the live git state, not the stale bundled snapshot.
+  await hydrateFromGitHub([
+    DISCOVERED_PRODUCTS_FILE,
+    DISCOVERY_LOG_FILE,
+    CATALOGUE_STATE_FILE,
+  ]);
 
   const { discovered, total, fused } = await catalogDiscovery.run();
 

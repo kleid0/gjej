@@ -4,6 +4,9 @@ import {
   fetchTrendsScores,
   writeTrendsCache,
 } from "@/src/infrastructure/trends/TrendsService";
+import { markDirty, takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
+import { commitDirtyFiles, hydrateFromGitHub } from "@/src/infrastructure/git/commitDataFiles";
+import { TRENDS_FILE } from "@/src/infrastructure/persistence/paths";
 
 // Google Trends batches 5 keywords per request with ~1.2s delay between batches.
 // 50 products = 10 batches ≈ 12 seconds. Give plenty of headroom.
@@ -17,6 +20,8 @@ export async function GET(req: NextRequest) {
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
+
+  await hydrateFromGitHub([TRENDS_FILE]);
 
   const [allProducts, allPrices] = await Promise.all([
     productCatalog.getAllProducts(),
@@ -41,11 +46,23 @@ export async function GET(req: NextRequest) {
 
   const scores = await fetchTrendsScores(candidates);
   writeTrendsCache(scores);
+  markDirty(TRENDS_FILE);
+
+  let commitSha: string | null = null;
+  try {
+    commitSha = await commitDirtyFiles(
+      takeDirtyFiles(),
+      "chore(data): update trends scores",
+    );
+  } catch (err) {
+    console.error("[trends] commit failed:", err);
+  }
 
   const nonZero = Object.values(scores).filter((s) => s > 0).length;
   return NextResponse.json({
     total: Object.keys(scores).length,
     nonZero,
+    commitSha,
     timestamp: new Date().toISOString(),
   });
 }

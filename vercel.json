@@ -1,17 +1,3 @@
 {
-  "ignoreCommand": "if git log -1 --pretty=%s | grep -qE '^chore\\(data\\):'; then echo 'chore(data) commit — skipping deploy.'; exit 0; else exit 1; fi",
-  "crons": [
-    {
-      "path": "/api/cron/discover",
-      "schedule": "0 3 * * *"
-    },
-    {
-      "path": "/api/cron/trends",
-      "schedule": "0 7 * * *"
-    },
-    {
-      "path": "/api/cron/check-pcstore",
-      "schedule": "0 5 * * 1"
-    }
-  ]
+  "ignoreCommand": "if git log -1 --pretty=%s | grep -qE '^chore\\(data\\):'; then echo 'chore(data) commit — skipping deploy.'; exit 0; else exit 1; fi"
 }
