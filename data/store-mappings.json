@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-05T07:54:05.861Z",
+  "updatedAt": "2026-05-05T07:54:34.160Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -390,12 +390,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300022736/Procesor-AMD-Ryzen-9-5950X-3.4-GHz-64-MB-hiri",
       "storeProductName": "Procesor AMD Ryzen 9 5950X, 3.4 GHz, 64 MB, hiri",
-      "catalogueProductId": "shpresa-processor-amd-ryzen-9-9900x-tray",
+      "catalogueProductId": "shpresa-processor-amd-ryzen-9-9950x3d",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:33.825Z",
-      "updatedAt": "2026-05-05T07:52:33.523Z"
+      "updatedAt": "2026-05-05T07:54:34.160Z"
     },
     "foleja:/ACN-300041915/Procesor-AMD-Ryzen-7-7800X3D": {
       "storeId": "foleja",
@@ -434,12 +434,12 @@
       "storeId": "foleja",
       "storeProductId": "/ICO-200000026/Monitor-gaming-AOC-27G4HRE-27-200Hz-Fast-IPS-FHD-1ms-G-Sync-zi-kuqe",
       "storeProductName": "Monitor gaming, AOC 27G4HRE, 27\", 200Hz, Fast IPS, FHD, 1ms, G-Sync, zi/kuqe",
-      "catalogueProductId": "shpresa-aoc-23-8-fhd-gaming-monitor-200hz-24g4hre",
+      "catalogueProductId": "shpresa-aoc-27-fhd-gaming-monitor-27g4xe",
       "matchMethod": "name_match",
-      "confidence": 83,
+      "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:37.393Z",
-      "updatedAt": "2026-05-05T07:52:37.577Z"
+      "updatedAt": "2026-05-05T07:54:31.948Z"
     },
     "foleja:/KST-200001659/USB-SanDisk-Extreme-Go-64-GB-USB-Type-A-3.2-Gen-1-Inox": {
       "storeId": "foleja",
@@ -1281,12 +1281,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200003682/Powerbank-Xiaomi-10000mAh-33W-kabllo-USB-C-tan",
       "storeProductName": "Powerbank Xiaomi 10000mAh 33W, kabllo USB-C, tan",
-      "catalogueProductId": "shpresa-xiaomi-power-bank-10000mah-integrated-cable",
+      "catalogueProductId": "shpresa-xiaomi-33w-power-bank-10000-integrated-cable",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:55:46.580Z",
-      "updatedAt": "2026-05-04T10:50:53.928Z"
+      "updatedAt": "2026-05-05T07:54:34.160Z"
     },
     "neptun:/categories/XIAOMI-REDMI-BUDS-6-ACTIVE-BLUE-55694-KU1789": {
       "storeId": "neptun",
@@ -1666,12 +1666,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200008376/Microsoft-Surface-Pro-10-11-Keyboard-Pen2-Copilot-Key",
       "storeProductName": "Microsoft Surface Pro 10 / 11 Keyboard + Pen2 + Copilot Key",
-      "catalogueProductId": "shpresa-microsoft-12-surface-pro-keyboard-cover-with-slim-pen-2",
+      "catalogueProductId": "shpresa-microsoft-surface-pro-keyboard-with-pen-storage",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:57:05.086Z",
-      "updatedAt": "2026-05-02T07:23:10.292Z"
+      "updatedAt": "2026-05-05T07:54:15.123Z"
     },
     "foleja:/THM-200003912/Kamere-smart-Xiaomi-C300-Dual-EU-3MP-dy-lente-2304-1296-pan-tilt-3600-me-ndjekje-AI-Wi-Fi-2.4-5-GHz-e-brendshme-e-bardhe": {
       "storeId": "foleja",
@@ -2073,34 +2073,34 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
       "storeProductName": "Kompjuter AIO Lenovo IdeaCentre AIO 24IRH9, 24\", Intel Core i5, 16GB RAM, 1TB SSD",
-      "catalogueProductId": "neptun-20733",
+      "catalogueProductId": "shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-ryzen-7",
       "matchMethod": "name_match",
-      "confidence": 67,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:42.991Z",
-      "updatedAt": "2026-05-04T10:33:32.365Z"
+      "updatedAt": "2026-05-05T07:54:31.948Z"
     },
     "shpresa:170865": {
       "storeId": "shpresa",
       "storeProductId": "170865",
       "storeProductName": "Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7",
-      "catalogueProductId": "neptun-19200",
+      "catalogueProductId": "shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-ryzen-7",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:42.991Z",
-      "updatedAt": "2026-05-04T10:33:32.365Z"
+      "updatedAt": "2026-05-05T07:54:31.948Z"
     },
     "neptun:/categories/PC-LENOVO-AIO-IDEACENTRE-3-27ITL6-PC1529": {
       "storeId": "neptun",
       "storeProductId": "/categories/PC-LENOVO-AIO-IDEACENTRE-3-27ITL6-PC1529",
       "storeProductName": "PC AIO LENOVO IDEACENTRE 27ITL6",
-      "catalogueProductId": "neptun-19200",
+      "catalogueProductId": "shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-ryzen-7",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:42.991Z",
-      "updatedAt": "2026-05-04T10:33:32.365Z"
+      "updatedAt": "2026-05-05T07:54:31.948Z"
     },
     "foleja:/YLL-200007993/Amazon-Fire-TV-Stick-HD-Alexa-me-telekomande": {
       "storeId": "foleja",
@@ -2271,12 +2271,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200004765/Smartwatch-Apple-Watch-Ultra-3-Cellular-49mm-blu",
       "storeProductName": "Smartwatch Apple Watch Ultra 3 Cellular 49mm blu",
-      "catalogueProductId": "neptun-29464",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:59.817Z",
-      "updatedAt": "2026-05-04T10:32:07.776Z"
+      "updatedAt": "2026-05-05T07:54:15.123Z"
     },
     "neptun:/categories/Apple-Watch-Ultra-3-Blk--Titan-Milanese-Loop-L-SM0251": {
       "storeId": "neptun",
@@ -2529,7 +2529,7 @@
       "confidence": 83,
       "status": "pending",
       "createdAt": "2026-04-30T16:01:15.095Z",
-      "updatedAt": "2026-05-02T07:20:18.619Z"
+      "updatedAt": "2026-05-05T07:54:34.160Z"
     },
     "foleja:/KST-200014425/Kompjuter-Apple-iMac-23.5-Retina-4.5K-Apple-M-16GB-RAM-256GB-blu": {
       "storeId": "foleja",
@@ -9740,12 +9740,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/SSD-SAMSUNG-990-EVO-PLUS-1TB-HD00198",
       "storeProductName": "SSD SAMSUNG 990 EVO PLUS 1TB",
-      "catalogueProductId": "albagame-card-microsdxc-256gb-samsung-evo-plus-130mb-s",
+      "catalogueProductId": "shpresa-samsung-990-evo-plus-pcie4-0-nvme-m-2-ssd",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:52:18.957Z",
-      "updatedAt": "2026-05-04T10:22:14.631Z"
+      "updatedAt": "2026-05-05T07:54:31.948Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-PRO-5-16IAH10-LP2062": {
       "storeId": "neptun",
@@ -11797,12 +11797,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200005485/Procesor-Intel-Core-i5-14400F-LGA-1700-14th-gen",
       "storeProductName": "Procesor Intel Core i5-14400F, LGA 1700, 14th gen",
-      "catalogueProductId": "pcstore-intel-processor-core-i5-14400f",
+      "catalogueProductId": "shpresa-processor-intel-core-i5-14400f",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:11.519Z",
-      "updatedAt": "2026-05-02T08:30:35.643Z"
+      "updatedAt": "2026-05-05T07:54:31.948Z"
     },
     "foleja:/THM-200002564/Maus-gaming-Razer-DeathAdder-Essential-6400-DPI-6-butona-USB-me-kabell-RGB-i-zi": {
       "storeId": "foleja",
@@ -11874,12 +11874,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200050860/Kompjuter-Dell-Pro-16-Plus-PB16250-C5-120U-16GB-RAM-512GB-SSD-16-inc-gri",
       "storeProductName": "Kompjuter Dell Pro 16 Plus PB16250 C5-120U, 16GB RAM, 512GB SSD, 16 inç, gri",
-      "catalogueProductId": "pcstore-dell-pro-16-plus-16-core-ultra-7-266v",
+      "catalogueProductId": "shpresa-dell-pro-16-16-16gb-512gb-ssd-core-ultra-7",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:25.065Z",
-      "updatedAt": "2026-05-02T08:31:02.290Z"
+      "updatedAt": "2026-05-05T07:54:20.027Z"
     },
     "foleja:/ERG-200003585/Kontrollues-Joy-Con-2-Nintendo-Switch-2-i-kuq-R": {
       "storeId": "foleja",
@@ -11973,12 +11973,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200000578/Loja-Minecraft-Nintendo-Switch",
       "storeProductName": "Loja Minecraft Nintendo Switch",
-      "catalogueProductId": "albagame-adjustable-charging-stand-nintendo-switch",
+      "catalogueProductId": "shpresa-pokemon-violet-nintendo-switch",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:38.726Z",
-      "updatedAt": "2026-05-02T09:04:39.745Z"
+      "updatedAt": "2026-05-05T07:54:27.669Z"
     },
     "shpresa:167756": {
       "storeId": "shpresa",
@@ -11995,12 +11995,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/NINTENDO-SWITCH-2-VG0407",
       "storeProductName": "NINTENDO SWITCH 2",
-      "catalogueProductId": "shpresa-nintendo-switch-2",
+      "catalogueProductId": "shpresa-pokemon-violet-nintendo-switch",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:38.726Z",
-      "updatedAt": "2026-05-05T07:53:12.924Z"
+      "updatedAt": "2026-05-05T07:54:27.669Z"
     },
     "foleja:/ERG-200005116/Loje-Nintendo-Switch-2-Animal-Crossing-New-Horizons": {
       "storeId": "foleja",
@@ -12534,12 +12534,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200000595/Loje-Nintendo-Switch-Super-Mario-RPG",
       "storeProductName": "Lojë Nintendo Switch Super Mario RPG",
-      "catalogueProductId": "albagame-figure-nintendo-super-mario-underwater",
+      "catalogueProductId": "shpresa-nintendo-switch-super-mario-rpg",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:02:52.167Z",
-      "updatedAt": "2026-05-04T10:14:48.923Z"
+      "updatedAt": "2026-05-05T07:54:25.174Z"
     },
     "shpresa:175744": {
       "storeId": "shpresa",
@@ -12556,12 +12556,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200003967/Loje-Nintendo-Switch-NBA-2K26-Take-Two-Interactive-EU",
       "storeProductName": "Lojë Nintendo Switch NBA 2K26, Take Two Interactive, EU",
-      "catalogueProductId": "albagame-switch-nba-2k26",
+      "catalogueProductId": "shpresa-nintendo-switch-it-takes-two",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-30T17:02:52.167Z",
-      "updatedAt": "2026-05-02T08:36:21.735Z"
+      "updatedAt": "2026-05-05T07:54:23.347Z"
     },
     "foleja:/PVP-200019697/Maske-per-fytyre-Bielenda-Professional-Strengthening-me-Rutin-dhe-Vitamin-C-per-femra-175ml": {
       "storeId": "foleja",
@@ -16934,12 +16934,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200004123/Loje-Nintendo-Switch-Super-Mario-Party-Jamboree-Jamboree-TV",
       "storeProductName": "Lojë Nintendo Switch Super Mario Party Jamboree + Jamboree TV",
-      "catalogueProductId": "albagame-switch-super-mario-party",
+      "catalogueProductId": "shpresa-nintendo-switch-super-mario-party",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:26:27.735Z",
-      "updatedAt": "2026-05-02T09:07:01.133Z"
+      "updatedAt": "2026-05-05T07:54:27.669Z"
     },
     "shpresa:164873": {
       "storeId": "shpresa",
@@ -18012,12 +18012,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200000576/Loje-Nintendo-Switch-Mario-Vs-Donkey-Kong",
       "storeProductName": "Lojë Nintendo Switch Mario Vs Donkey Kong",
-      "catalogueProductId": "albagame-switch-mario-vs-donkey-kong",
+      "catalogueProductId": "shpresa-nintendo-switch-mario-vs-donkey-kong",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 83,
       "status": "pending",
       "createdAt": "2026-04-30T17:35:03.981Z",
-      "updatedAt": "2026-05-04T10:07:24.388Z"
+      "updatedAt": "2026-05-05T07:54:25.174Z"
     },
     "shpresa:104893": {
       "storeId": "shpresa",
@@ -18078,12 +18078,12 @@
       "storeId": "foleja",
       "storeProductId": "/INP-200007624/Filter-CPL-Freewell-per-DJI-Mini-4-Pro-i-zi",
       "storeProductName": "Filtër CPL Freewell për DJI Mini 4 Pro, i zi",
-      "catalogueProductId": "shpresa-dji-mini-4-pro-fly-more-combo-plus-with-rc-2-controller",
+      "catalogueProductId": "shpresa-dji-mini-4-pro-with-rc-2-controller",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:35:16.944Z",
-      "updatedAt": "2026-05-04T10:25:30.586Z"
+      "updatedAt": "2026-05-05T07:54:31.948Z"
     },
     "shpresa:169924": {
       "storeId": "shpresa",
@@ -18496,12 +18496,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/TASTIERE-APPLE-MAGIC-IPAD-PRO-13--M4-BLACK-TA0464",
       "storeProductName": "TASTIERE APPLE MAGIC IPAD PRO 13\" M4/5 BLACK",
-      "catalogueProductId": "neptun-25328",
+      "catalogueProductId": "shpresa-apple-ipad-pro-m4-13-wi-fi-512gb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:37:52.880Z",
-      "updatedAt": "2026-05-04T10:49:50.652Z"
+      "updatedAt": "2026-05-05T07:54:34.160Z"
     },
     "globe:76050": {
       "storeId": "globe",
@@ -18881,12 +18881,12 @@
       "storeId": "shpresa",
       "storeProductId": "165013",
       "storeProductName": "Nintendo Switch Super Mario RPG™",
-      "catalogueProductId": "albagame-switch-super-mario-rpg",
+      "catalogueProductId": "shpresa-nintendo-switch-super-mario-party-jamboree",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:40:30.105Z",
-      "updatedAt": "2026-05-04T10:14:15.566Z"
+      "updatedAt": "2026-05-05T07:54:23.347Z"
     },
     "neptun:/categories/LOJE-PS4-Sonic-Mania-Plus-PL4656": {
       "storeId": "neptun",
@@ -19365,12 +19365,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LOJE-PS5-DRAGON-BALL:-Sparking--ZERO-PL4258",
       "storeProductName": "LOJE PS5 DRAGON BALL: Sparking! ZERO",
-      "catalogueProductId": "albagame-ps5-dragon-ball-sparking-zero",
+      "catalogueProductId": "shpresa-sony-ps5-dragon-ball-sparking-zero",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:47:26.662Z",
-      "updatedAt": "2026-05-04T10:19:55.472Z"
+      "updatedAt": "2026-05-05T07:54:25.174Z"
     },
     "foleja:/INP-200008797/Printer-3D-Creality-Hi-FDM-500-mm-s-gri": {
       "storeId": "foleja",
@@ -19805,23 +19805,23 @@
       "storeId": "neptun",
       "storeProductId": "/categories/Xiaomi--Mi-WiFi-Range-Extender-AC1200-EU-41335-PC1638",
       "storeProductName": "Xiaomi  Mi WiFi Range Extender AC1200 EU 41335",
-      "catalogueProductId": "neptun-23366",
+      "catalogueProductId": "shpresa-xiaomi-wifi-range-extender-n300",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:38.931Z",
-      "updatedAt": "2026-05-04T10:37:44.984Z"
+      "updatedAt": "2026-05-05T07:54:27.669Z"
     },
     "neptun:/categories/XIAOMI-PORTABLE-ELECTRIC-AIR-COMPRESSOR-2-AC3054": {
       "storeId": "neptun",
       "storeProductId": "/categories/XIAOMI-PORTABLE-ELECTRIC-AIR-COMPRESSOR-2-AC3054",
       "storeProductName": "XIAOMI PORTABLE ELECTRIC AIR COMPRESSOR 2",
-      "catalogueProductId": "shpresa-xiaomi-portable-electric-air-compressor-2-pro",
+      "catalogueProductId": "shpresa-xiaomi-portable-electric-air-compressor-2",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:40.677Z",
-      "updatedAt": "2026-05-04T10:24:41.393Z"
+      "updatedAt": "2026-05-05T07:54:20.027Z"
     },
     "foleja:/KST-200025207/Laptop-ASUS-Vivobook-S-14-OLED-S5406SA-QD151W-Intel-Core-Ultra-7-16-GB-RAM-1-TB-Neutral-Black": {
       "storeId": "foleja",
@@ -19959,12 +19959,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/Apple-Watch-Ultra-3-Nat--Titan-Milanese-Loop-M-SM0261",
       "storeProductName": "Apple Watch Ultra 3?Nat. Titan-Milanese Loop M",
-      "catalogueProductId": "neptun-29475",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:55.556Z",
-      "updatedAt": "2026-05-04T10:32:07.776Z"
+      "updatedAt": "2026-05-05T07:54:15.123Z"
     },
     "neptun:/categories/Apple-Watch-Ultra-3-Blk--Titan-Black-Ocean-Band-SM0259": {
       "storeId": "neptun",
@@ -20047,12 +20047,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200048122/Monitor-gaming-AOC-25G42E-24.5-inc-IPS-180Hz-1ms-FHD-i-zi",
       "storeProductName": "Monitor gaming AOC 25G42E, 24.5 inç, IPS, 180Hz, 1ms, FHD, i zi",
-      "catalogueProductId": "shpresa-aoc-27-fhd-gaming-monitor-120hz-27b35hm",
+      "catalogueProductId": "shpresa-aoc-24-5-fhd-gaming-monitor-25g3zm-bk",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:52:13.094Z",
-      "updatedAt": "2026-05-04T10:25:13.332Z"
+      "updatedAt": "2026-05-05T07:54:15.123Z"
     },
     "foleja:/KST-200062249/Monitor-Philips-34B2U3600CH-34-inc-WQHD-120Hz-USB-C-i-zi": {
       "storeId": "foleja",
@@ -28176,12 +28176,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/POWERBANK-XIAOMI-REDMI-18W-FAST-CHARGE-20000MAH-KR0519",
       "storeProductName": "POWERBANK XIAOMI REDMI 18W FAST CHARGE 20000MAH",
-      "catalogueProductId": "neptun-18806",
+      "catalogueProductId": "shpresa-redmi-power-bank-fast-charger",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T18:06:32.595Z",
-      "updatedAt": "2026-05-04T10:39:09.697Z"
+      "updatedAt": "2026-05-05T07:54:20.027Z"
     },
     "neptun:/categories/POWERBANK-INTENSO-F20000-20000-mAh-Grey-KR0655": {
       "storeId": "neptun",
@@ -43620,12 +43620,12 @@
       "storeId": "shpresa",
       "storeProductId": "156077",
       "storeProductName": "Xiaomi Curved Gaming Monitor G34WQi 34″",
-      "catalogueProductId": "shpresa-xiaomi-curved-gaming-monitor-30",
+      "catalogueProductId": "shpresa-xiaomi-curved-gaming-monitor-g34wqi-34%e2%80%b3",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:00:22.150Z",
-      "updatedAt": "2026-05-05T07:53:08.359Z"
+      "updatedAt": "2026-05-05T07:54:31.948Z"
     },
     "foleja:/INP-200004067/Kabllo-karikimi-3-ne-1-Baseus-Free2Draw-USB-C-ne-USB-C-Lightning-Micro-100W-1.1m-Bardhe": {
       "storeId": "foleja",
@@ -43653,12 +43653,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200005145/Smartwatch-Apple-Watch-Series-11-42mm-Jet-Black",
       "storeProductName": "Smartwatch Apple Watch Series 11 42mm Jet Black",
-      "catalogueProductId": "shpresa-pitaka-air-case-for-apple-watch-series-10-ultra",
+      "catalogueProductId": "shpresa-apple-watch-series-11-46mm-aluminium-gps",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:00:27.791Z",
-      "updatedAt": "2026-05-05T07:53:12.924Z"
+      "updatedAt": "2026-05-05T07:54:15.123Z"
     },
     "neptun:/categories/Apple-Watch-Series-11-GPS-42mm-Silver---M-L-SM0277": {
       "storeId": "neptun",
@@ -43680,7 +43680,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-05-01T08:01:43.217Z",
-      "updatedAt": "2026-05-02T07:19:54.978Z"
+      "updatedAt": "2026-05-05T07:54:15.123Z"
     },
     "neptun:/categories/BOKS-BLUETOOTH-JBL-PARTYBOX-120-BX1182": {
       "storeId": "neptun",
@@ -43691,7 +43691,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:01:43.217Z",
-      "updatedAt": "2026-05-02T07:19:54.978Z"
+      "updatedAt": "2026-05-05T07:54:15.123Z"
     },
     "globe:205821": {
       "storeId": "globe",
@@ -43724,7 +43724,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:01:43.217Z",
-      "updatedAt": "2026-05-02T07:19:54.978Z"
+      "updatedAt": "2026-05-05T07:54:15.123Z"
     },
     "neptun:/categories/GIMBAL-DJI-RS-4-PRO-COMBO-AC3293": {
       "storeId": "neptun",
@@ -43735,7 +43735,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:01:49.803Z",
-      "updatedAt": "2026-05-02T07:20:00.662Z"
+      "updatedAt": "2026-05-05T07:54:20.027Z"
     },
     "shpresa:172711": {
       "storeId": "shpresa",
@@ -43746,7 +43746,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:01:49.803Z",
-      "updatedAt": "2026-05-02T07:20:00.662Z"
+      "updatedAt": "2026-05-05T07:54:20.027Z"
     },
     "shpresa:85227": {
       "storeId": "shpresa",
@@ -43757,29 +43757,29 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:01:49.803Z",
-      "updatedAt": "2026-05-02T07:20:00.662Z"
+      "updatedAt": "2026-05-05T07:54:20.027Z"
     },
     "neptun:/categories/iPhone-16-Pro-1TB-White-Titanium-TL4174": {
       "storeId": "neptun",
       "storeProductId": "/categories/iPhone-16-Pro-1TB-White-Titanium-TL4174",
       "storeProductName": "iPhone 16 Pro 1TB White Titanium",
-      "catalogueProductId": "neptun-25799",
+      "catalogueProductId": "shpresa-dell-pro-16-16-16gb-512gb-ssd-core-ultra-7",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:01:49.803Z",
-      "updatedAt": "2026-05-04T10:30:55.707Z"
+      "updatedAt": "2026-05-05T07:54:20.027Z"
     },
     "foleja:/AXR-200004739/Printer-fotografik-portabel-Fujifilm-Instax-Mini-Link-3-16832077-i-bardhe": {
       "storeId": "foleja",
       "storeProductId": "/AXR-200004739/Printer-fotografik-portabel-Fujifilm-Instax-Mini-Link-3-16832077-i-bardhe",
       "storeProductName": "Printer fotografik portabël, Fujifilm Instax Mini Link 3 16832077, i bardhë",
-      "catalogueProductId": "shpresa-instax-mini-link-3",
+      "catalogueProductId": "shpresa-instax-mini-link-3-bundle",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:01:54.228Z",
-      "updatedAt": "2026-05-02T07:21:49.461Z"
+      "updatedAt": "2026-05-05T07:54:23.347Z"
     },
     "neptun:/categories/BOKS-BLUETOOTH-JBL-XTREME-4-BX1310": {
       "storeId": "neptun",
@@ -43790,7 +43790,7 @@
       "confidence": 60,
       "status": "pending",
       "createdAt": "2026-05-01T08:01:58.278Z",
-      "updatedAt": "2026-05-02T07:20:11.758Z"
+      "updatedAt": "2026-05-05T07:54:27.669Z"
     },
     "foleja:/KST-200033682/Kartele-grafike-Zotac-GAMING-GeForce-RTX-5060-Ti-Twin-Edge-8GB-GDDR7-e-zeze": {
       "storeId": "foleja",
@@ -43801,7 +43801,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:02:03.375Z",
-      "updatedAt": "2026-05-02T07:20:16.921Z"
+      "updatedAt": "2026-05-05T07:54:31.948Z"
     },
     "neptun:/categories/KAMERA-DJI-OSMO-POCKET-3-CREATOR-COMBO-KR0678": {
       "storeId": "neptun",
@@ -43812,7 +43812,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:02:03.375Z",
-      "updatedAt": "2026-05-02T07:20:16.921Z"
+      "updatedAt": "2026-05-05T07:54:31.948Z"
     },
     "foleja:/HRT-200022079/Xham-i-temperuar-3mk-HardGlass-per-Google-Pixel-9A": {
       "storeId": "foleja",
@@ -43823,40 +43823,40 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:02:05.196Z",
-      "updatedAt": "2026-05-02T07:20:18.619Z"
+      "updatedAt": "2026-05-05T07:54:34.160Z"
     },
     "neptun:/categories/Google-Pixel-9a-5G-8-128GB--Obsidian-TL4441": {
       "storeId": "neptun",
       "storeProductId": "/categories/Google-Pixel-9a-5G-8-128GB--Obsidian-TL4441",
       "storeProductName": "Google Pixel 9a 5G 8/128GB  Obsidian",
-      "catalogueProductId": "neptun-29759",
+      "catalogueProductId": "shpresa-google-pixel-9a",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:02:05.196Z",
-      "updatedAt": "2026-05-04T10:30:47.569Z"
+      "updatedAt": "2026-05-05T07:54:34.160Z"
     },
     "foleja:/KST-200017904/Tablet-Apple-iPad-Pro-11-512GB-WiFi-M4-Chip-Ultra-Retina-XDR-Display-Black": {
       "storeId": "foleja",
       "storeProductId": "/KST-200017904/Tablet-Apple-iPad-Pro-11-512GB-WiFi-M4-Chip-Ultra-Retina-XDR-Display-Black",
       "storeProductName": "Tablet Apple iPad Pro 11 512GB WiFi M4 Chip Ultra Retina XDR Display Black",
-      "catalogueProductId": "neptun-29899",
+      "catalogueProductId": "shpresa-apple-ipad-pro-m4-13-wi-fi-512gb",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:02:05.196Z",
-      "updatedAt": "2026-05-04T10:32:31.424Z"
+      "updatedAt": "2026-05-05T07:54:34.160Z"
     },
     "neptun:/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682": {
       "storeId": "neptun",
       "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-S10--WIFI-256GB-GRAY-PLATIN-TB0682",
       "storeProductName": "SAMSUNG GALAXY TAB S10+ WIFI 256GB GRAY PLATIN",
-      "catalogueProductId": "neptun-25873",
+      "catalogueProductId": "shpresa-samsung-galaxy-tab-s10-ultra-5g",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T08:02:05.196Z",
-      "updatedAt": "2026-05-04T10:32:26.363Z"
+      "updatedAt": "2026-05-05T07:54:34.160Z"
     },
     "neptun:/categories/BOKSE-BLUETOOTH-JBL-CHARGE-6-SQUAD-BX1278": {
       "storeId": "neptun",
@@ -54636,7 +54636,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-02T07:20:11.758Z",
-      "updatedAt": "2026-05-02T07:20:11.758Z"
+      "updatedAt": "2026-05-05T07:54:27.669Z"
     },
     "foleja:/INP-200011220/Set-grooming-per-kafshe-shtepiake-me-fshese-me-korrent-Neakasa-S1-Pro-7-ne-1-depozite-3-L-filtrimi-HEPA-modalitet-i-qete-0-dB": {
       "storeId": "foleja",
@@ -59295,12 +59295,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/Apple-Watch-Series-11-GPS-46mm-Silver---S-M-SM0270",
       "storeProductName": "Apple Watch Series 11?GPS?46mm?Silver - S/M",
-      "catalogueProductId": "shpresa-pitaka-air-case-for-apple-watch-series-10-ultra",
+      "catalogueProductId": "shpresa-apple-watch-series-11-46mm-aluminium-gps",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-05T07:53:12.924Z",
-      "updatedAt": "2026-05-05T07:53:12.924Z"
+      "updatedAt": "2026-05-05T07:54:15.123Z"
     },
     "neptun:/categories/BOKS-BLUETOOTH-JBL-GO-4-WHITE-BX1214": {
       "storeId": "neptun",
