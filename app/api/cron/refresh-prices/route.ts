@@ -14,8 +14,14 @@ import {
   type StoreMappingRecord,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
-import { commitDirtyFiles } from "@/src/infrastructure/git/commitDataFiles";
-import { PRICES_FILE } from "@/src/infrastructure/persistence/paths";
+import { commitDirtyFiles, hydrateFromGitHub } from "@/src/infrastructure/git/commitDataFiles";
+import {
+  PRICES_FILE,
+  PRICE_HISTORY_FILE,
+  CATALOGUE_STATE_FILE,
+  SCRAPER_ERRORS_FILE,
+  STORE_MAPPINGS_FILE,
+} from "@/src/infrastructure/persistence/paths";
 import type { Product } from "@/src/domain/catalog/Product";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
@@ -47,6 +53,21 @@ export async function GET(req: NextRequest) {
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
+
+  // Pull the latest committed snapshots into /tmp before reading them. Each
+  // GHA-orchestrated batch runs in its own (often cold) Vercel container, so
+  // without this hydrate every invocation would start from an empty /tmp,
+  // overwrite git's accumulated state with just this batch's slice, and lose
+  // every prior batch's contribution. The bundled data/ snapshot is only as
+  // fresh as the last code deploy, which (per vercel.json's ignoreCommand)
+  // doesn't happen on chore(data): commits.
+  await hydrateFromGitHub([
+    PRICES_FILE,
+    PRICE_HISTORY_FILE,
+    CATALOGUE_STATE_FILE,
+    SCRAPER_ERRORS_FILE,
+    STORE_MAPPINGS_FILE,
+  ]);
 
   const allProducts = await productCatalog.getAllProducts();
 
