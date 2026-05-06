@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-06T10:54:25.002Z",
+  "updatedAt": "2026-05-06T10:54:44.514Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -522,12 +522,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200012766/TV-Stick-Xiaomi-4K-Android-8GB-i-zi",
       "storeProductName": "TV Stick Xiaomi 4K, Android, 8GB, i zi",
-      "catalogueProductId": "shpresa-xiaomi-mi-tv-stick",
+      "catalogueProductId": "shpresa-xiaomi-tv-stick-4k-2nd-gen",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:40.449Z",
-      "updatedAt": "2026-05-06T10:54:25.002Z"
+      "updatedAt": "2026-05-02T07:18:13.420Z"
     },
     "foleja:/ALB-200000153/Lexues-kartash-SanDisk-MobileMate-USB-3.0-SDDR-B531-GN6NN-i-zi": {
       "storeId": "foleja",
@@ -769,7 +769,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T06:19:09.900Z",
-      "updatedAt": "2026-05-05T10:06:52.918Z"
+      "updatedAt": "2026-05-06T10:54:33.579Z"
     },
     "foleja:/ACN-300027752/Furnizues-energjie-MSI-Mag-A550BN-550W-i-zi": {
       "storeId": "foleja",
@@ -2271,12 +2271,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200004765/Smartwatch-Apple-Watch-Ultra-3-Cellular-49mm-blu",
       "storeProductName": "Smartwatch Apple Watch Ultra 3 Cellular 49mm blu",
-      "catalogueProductId": "neptun-29464",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3-ocean-band",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:58:59.817Z",
-      "updatedAt": "2026-05-05T10:14:45.172Z"
+      "updatedAt": "2026-05-06T10:54:42.491Z"
     },
     "neptun:/categories/Apple-Watch-Ultra-3-Blk--Titan-Milanese-Loop-L-SM0251": {
       "storeId": "neptun",
@@ -3646,12 +3646,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-DELL-G15-5530-LP1891",
       "storeProductName": "LAPTOP DELL G15 5530",
-      "catalogueProductId": "foleja-bateri-p-r-laptop-green-cell-de77-dell",
+      "catalogueProductId": "shpresa-dell-24-p2421-monitor",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:10:24.482Z",
-      "updatedAt": "2026-05-06T08:25:56.760Z"
+      "updatedAt": "2026-05-06T10:54:36.075Z"
     },
     "globe:71943": {
       "storeId": "globe",
@@ -3838,7 +3838,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:14:59.531Z",
-      "updatedAt": "2026-05-06T10:54:21.367Z"
+      "updatedAt": "2026-05-05T10:06:43.717Z"
     },
     "neptun:/categories/MONITOR-SAMSUNG-LS27C902PAUXDU-MO0927": {
       "storeId": "neptun",
@@ -5329,12 +5329,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200005572/Kompjuter-Apple-MacBook-Air-13-M5-16-512GB-Starlight",
       "storeProductName": "Kompjuter Apple MacBook Air 13\" M5 16/512GB Starlight",
-      "catalogueProductId": "shpresa-apple-macbook-air-15-3-24gb-1tb-ssd-m5-2026",
+      "catalogueProductId": "globe-184377",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-05-06T10:54:14.577Z"
+      "updatedAt": "2026-05-05T10:12:23.703Z"
     },
     "shpresa:190602": {
       "storeId": "shpresa",
@@ -5351,12 +5351,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
       "storeProductName": "Laptop Apple MacBook Pro 16.2 Apple M4 Pro 24GB 512GB Silver",
-      "catalogueProductId": "shpresa-apple-macbook-pro-16-2-48gb-2tb-ssd-m5-max-2026",
+      "catalogueProductId": "shpresa-apple-macbook-pro-14-24gb-512gb-ssd-m5-2025",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-05-06T10:54:16.236Z"
+      "updatedAt": "2026-05-05T10:32:48.194Z"
     },
     "shpresa:190526": {
       "storeId": "shpresa",
@@ -5373,12 +5373,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
       "storeProductName": "ADAPTOR APPLE USB-C 96W MacBook Pro 16\" mw2l3zm/a",
-      "catalogueProductId": "shpresa-apple-macbook-pro-16-2-48gb-2tb-ssd-m5-max-2026",
+      "catalogueProductId": "shpresa-apple-macbook-pro-14-24gb-512gb-ssd-m5-2025",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-05-06T10:54:16.236Z"
+      "updatedAt": "2026-05-05T10:32:48.194Z"
     },
     "globe:72472": {
       "storeId": "globe",
@@ -8552,12 +8552,12 @@
       "storeId": "foleja",
       "storeProductId": "/ALL-200000262/Printer-Canon-Inkjet-PIXMA-TS3550i-Wi-Fi-e-zeze",
       "storeProductName": "Printer Canon Inkjet PIXMA TS3550i, Wi-Fi, e zezë",
-      "catalogueProductId": "shpresa-canon-pixma-ts3350i-printer",
+      "catalogueProductId": "globe-24909",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 60,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:23.666Z",
-      "updatedAt": "2026-05-06T10:54:16.236Z"
+      "updatedAt": "2026-05-05T10:12:41.936Z"
     },
     "foleja:/THM-200002365/Televizor-LED-4K-Smart-Philips-55PUS7000-12-55-HDMI-2.1-VRR-Dolby-Atmos": {
       "storeId": "foleja",
@@ -9531,12 +9531,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200005922/Kamere-Logitech-C270-HD-3-MP-1280-x-720-pixels-30-fps-720p-550-USB-2.0-e-zeze",
       "storeProductName": "Kamerë Logitech C270 HD, 3 MP, 1280 x 720 pixels, 30 fps, 720p, 55°, USB 2.0, e zezë",
-      "catalogueProductId": "shpresa-logitech-c270-hd-webcam",
+      "catalogueProductId": "neptun-22191",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:35.479Z",
-      "updatedAt": "2026-05-06T10:54:25.002Z"
+      "updatedAt": "2026-05-05T10:19:19.503Z"
     },
     "neptun:/categories/WEBCAMERA-LOGITECH-C270-KM0674": {
       "storeId": "neptun",
@@ -11307,7 +11307,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:58.578Z",
-      "updatedAt": "2026-05-05T10:06:54.855Z"
+      "updatedAt": "2026-05-06T10:54:36.075Z"
     },
     "shpresa:163254": {
       "storeId": "shpresa",
@@ -11318,7 +11318,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:58.578Z",
-      "updatedAt": "2026-05-05T10:06:54.855Z"
+      "updatedAt": "2026-05-06T10:54:36.075Z"
     },
     "foleja:/KST-200005225/Pllake-ame-ASUS-ROG-STRIX-B760-A-GAMING-WIFI-Intel-LGA-1700-DDR5-ATX-Wi-Fi-bardhe-argjend": {
       "storeId": "foleja",
@@ -12402,12 +12402,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/FIGURE-Funko-POP--Vinyl:-Barney-S1---Barney-PL4757",
       "storeProductName": "FIGURE Funko POP! Vinyl: Barney S1 - Barney",
-      "catalogueProductId": "albagame-figure-funko-pop-vinyl-disney-584-frozen-ii-kristoff",
+      "catalogueProductId": "albagame-figure-funko-pop-vinyl-movies-03-harry-potter-hermione-granger",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:02:26.004Z",
-      "updatedAt": "2026-05-06T10:54:11.757Z"
+      "updatedAt": "2026-05-06T10:49:17.951Z"
     },
     "neptun:/categories/Lego-Architecture-Statue-of-Liberty-21042-PL3082": {
       "storeId": "neptun",
@@ -13986,12 +13986,12 @@
       "storeId": "shpresa",
       "storeProductId": "192669",
       "storeProductName": "Sony PS5 Metal Gear Solid Δ: Snake Eater",
-      "catalogueProductId": "albagame-ps5-metal-gear-solid-collection-vol-1",
+      "catalogueProductId": "shpresa-sony-ps5-metal-gear-solid-%ce%b4-snake-eater",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:06:57.095Z",
-      "updatedAt": "2026-05-06T10:10:49.087Z"
+      "updatedAt": "2026-05-06T10:54:42.491Z"
     },
     "neptun:/categories/LOJE-PS5-METAL-GEAR-SOLID-DELTA-SNAKE-EATER-DELUXE-PL4181": {
       "storeId": "neptun",
@@ -14261,23 +14261,23 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300186589/Set-LEGO-Friends-42644-Furgoni-i-Akullores-Heartlake-City",
       "storeProductName": "Set LEGO Friends 42644 Furgoni i Akullores Heartlake City",
-      "catalogueProductId": "albagame-lego-friends-heartlake-city-restaurant-41379",
+      "catalogueProductId": "albagame-lego-friends-heartlake-city-apartments-shops-42670",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:07:36.092Z",
-      "updatedAt": "2026-05-06T10:54:11.757Z"
+      "updatedAt": "2026-05-06T10:16:47.087Z"
     },
     "neptun:/categories/LEGO-HEARTLAKE-CITY-CAF--V29-PL4693": {
       "storeId": "neptun",
       "storeProductId": "/categories/LEGO-HEARTLAKE-CITY-CAF--V29-PL4693",
       "storeProductName": "LEGO FRIENDS HEARTLAKE CITY CAF? 42618",
-      "catalogueProductId": "albagame-lego-friends-heartlake-city-restaurant-41379",
+      "catalogueProductId": "albagame-lego-friends-heartlake-city-apartments-shops-42670",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:07:36.092Z",
-      "updatedAt": "2026-05-06T10:54:11.757Z"
+      "updatedAt": "2026-05-06T10:16:47.087Z"
     },
     "neptun:/categories/LEGO-TECHNIC-1966-FORD-GT40-MKII-RACE-CAR-42223-PL4903": {
       "storeId": "neptun",
@@ -19189,12 +19189,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/KARIKUES-CELLY-USB-C-PER-APPLE-WATCH-KL1212",
       "storeProductName": "KARIKUES CELLY USB-C PER APPLE WATCH",
-      "catalogueProductId": "albagame-cable-ldnio-lightning-apple-usb-cable-1m-white",
+      "catalogueProductId": "albagame-cable-ldnio-lightning-apple-usb-cable-2-1a-1m",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T17:43:17.122Z",
-      "updatedAt": "2026-05-06T10:54:11.757Z"
+      "updatedAt": "2026-05-06T10:44:21.258Z"
     },
     "shpresa:76716": {
       "storeId": "shpresa",
@@ -19766,7 +19766,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:22.473Z",
-      "updatedAt": "2026-05-06T10:54:01.105Z"
+      "updatedAt": "2026-05-05T10:06:24.138Z"
     },
     "foleja:/ALB-200000286/USB-flash-drive-MediaRange-MR908-8-GB": {
       "storeId": "foleja",
@@ -19777,7 +19777,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:37.093Z",
-      "updatedAt": "2026-05-06T10:54:14.577Z"
+      "updatedAt": "2026-05-05T10:06:39.203Z"
     },
     "foleja:/ACN-300044440/USB-flash-drive-SanDisk-Ultra-Flair-512-GB-Silver": {
       "storeId": "foleja",
@@ -19788,29 +19788,29 @@
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:37.093Z",
-      "updatedAt": "2026-05-06T10:54:14.577Z"
+      "updatedAt": "2026-05-05T10:06:39.203Z"
     },
     "neptun:/categories/MacBook-Air-15-3''-M4-Starlight-256gb-mw1j3ze-a-LP2002": {
       "storeId": "neptun",
       "storeProductId": "/categories/MacBook-Air-15-3''-M4-Starlight-256gb-mw1j3ze-a-LP2002",
       "storeProductName": "MacBook Air 15.3'' M4 Starlight 256gb mw1j3ze/a",
-      "catalogueProductId": "shpresa-apple-macbook-air-15-3-24gb-1tb-ssd-m5-2026",
+      "catalogueProductId": "neptun-27496",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:37.093Z",
-      "updatedAt": "2026-05-06T10:54:14.577Z"
+      "updatedAt": "2026-05-05T10:15:57.025Z"
     },
     "neptun:/categories/Xiaomi--Mi-WiFi-Range-Extender-AC1200-EU-41335-PC1638": {
       "storeId": "neptun",
       "storeProductId": "/categories/Xiaomi--Mi-WiFi-Range-Extender-AC1200-EU-41335-PC1638",
       "storeProductName": "Xiaomi  Mi WiFi Range Extender AC1200 EU 41335",
-      "catalogueProductId": "shpresa-mi-wifi-range-extender-ac1200",
+      "catalogueProductId": "neptun-23366",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:38.931Z",
-      "updatedAt": "2026-05-06T10:54:16.236Z"
+      "updatedAt": "2026-05-05T10:19:32.223Z"
     },
     "neptun:/categories/XIAOMI-PORTABLE-ELECTRIC-AIR-COMPRESSOR-2-AC3054": {
       "storeId": "neptun",
@@ -19821,18 +19821,18 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:40.677Z",
-      "updatedAt": "2026-05-06T10:54:21.367Z"
+      "updatedAt": "2026-05-05T10:06:43.717Z"
     },
     "foleja:/KST-200025207/Laptop-ASUS-Vivobook-S-14-OLED-S5406SA-QD151W-Intel-Core-Ultra-7-16-GB-RAM-1-TB-Neutral-Black": {
       "storeId": "foleja",
       "storeProductId": "/KST-200025207/Laptop-ASUS-Vivobook-S-14-OLED-S5406SA-QD151W-Intel-Core-Ultra-7-16-GB-RAM-1-TB-Neutral-Black",
       "storeProductName": "Laptop ASUS Vivobook S 14 OLED S5406SA-QD151W, Intel Core Ultra 7, 16 GB RAM, 1 TB, Neutral Black",
-      "catalogueProductId": "shpresa-asus-vivobook-14-14-12gb-512gb-ssd-core-i7",
+      "catalogueProductId": "neptun-21052",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:40.677Z",
-      "updatedAt": "2026-05-06T10:54:21.367Z"
+      "updatedAt": "2026-05-05T10:15:30.245Z"
     },
     "foleja:/INP-200006184/Filter-CPL-Freewell-per-DJI-Air-3S-i-zi": {
       "storeId": "foleja",
@@ -19843,7 +19843,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:40.677Z",
-      "updatedAt": "2026-05-06T10:54:21.367Z"
+      "updatedAt": "2026-05-05T10:06:43.717Z"
     },
     "foleja:/KST-200005920/Kamere-Logitech-HD-Pro-Webcam-C920-3-MP-1920-x-1080-pixels-Full-HD-30-fps-e-zeze": {
       "storeId": "foleja",
@@ -19854,7 +19854,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:48.286Z",
-      "updatedAt": "2026-05-05T10:06:52.918Z"
+      "updatedAt": "2026-05-06T10:54:33.579Z"
     },
     "foleja:/INP-200006513/Cante-ruajtje-per-dron-Sunnylife-NE-B936-pershtatur-per-DJI-Neo-Motion-Fly-More-Combo-me-insert-te-formesuar-dhe-rrip-shpatulle": {
       "storeId": "foleja",
@@ -19865,7 +19865,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:48.286Z",
-      "updatedAt": "2026-05-05T10:06:52.918Z"
+      "updatedAt": "2026-05-06T10:54:33.579Z"
     },
     "neptun:/categories/DRON-DJI-NEO-MOTION-FLY-MORE-COMBO-DR0046": {
       "storeId": "neptun",
@@ -19876,7 +19876,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:48.286Z",
-      "updatedAt": "2026-05-05T10:06:52.918Z"
+      "updatedAt": "2026-05-06T10:54:33.579Z"
     },
     "foleja:/GAR-200000094/Rrip-per-smartwatch-Garmin-Instinct-3-45mm-Twilight": {
       "storeId": "foleja",
@@ -19887,7 +19887,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:48.286Z",
-      "updatedAt": "2026-05-05T10:06:52.918Z"
+      "updatedAt": "2026-05-06T10:54:33.579Z"
     },
     "foleja:/GAR-200000038/Smartwatch-Garmin-Instinct-3-Solar-Twilight-with-Solstice-Silicone-Strap-50-mm": {
       "storeId": "foleja",
@@ -19898,7 +19898,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:48.286Z",
-      "updatedAt": "2026-05-05T10:06:52.918Z"
+      "updatedAt": "2026-05-06T10:54:33.579Z"
     },
     "foleja:/KOM-200109718/Mi-Dell-MS3320W-Roze": {
       "storeId": "foleja",
@@ -19909,7 +19909,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:50.460Z",
-      "updatedAt": "2026-05-05T10:06:54.855Z"
+      "updatedAt": "2026-05-06T10:54:36.075Z"
     },
     "foleja:/KST-200059268/Smartwatch-Nothing-CMF-Watch-3-Pro-light-grey": {
       "storeId": "foleja",
@@ -19920,18 +19920,18 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:51.999Z",
-      "updatedAt": "2026-05-05T10:06:56.812Z"
+      "updatedAt": "2026-05-06T10:54:38.058Z"
     },
     "neptun:/categories/LAPTOP-HP-OMNIBOOK-5-FLIP-x360-14-FP0029NN-BX8A8EA-LP2052": {
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-HP-OMNIBOOK-5-FLIP-x360-14-FP0029NN-BX8A8EA-LP2052",
       "storeProductName": "LAPTOP HP OMNIBOOK 5 FLIP x360 14-FP0029NN BX8A8EA",
-      "catalogueProductId": "neptun-28852",
+      "catalogueProductId": "shpresa-hp-omnibook-x-flip-14-touchscreen-24gb-1tb-ssd-ryzen-ai-7",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:53.821Z",
-      "updatedAt": "2026-05-05T10:15:42.077Z"
+      "updatedAt": "2026-05-06T10:54:40.061Z"
     },
     "foleja:/KST-200056029/Kase-Deepcool-CG580-4F-V2-Midi-Tower-xham-i-temperuar-RGB-e-zeze": {
       "storeId": "foleja",
@@ -19942,7 +19942,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:55.556Z",
-      "updatedAt": "2026-05-05T10:07:00.846Z"
+      "updatedAt": "2026-05-06T10:54:42.491Z"
     },
     "foleja:/KST-200059931/Smartwatch-Apple-Watch-Ultra-3-Titanium-Cellular-49mm-Trail-Loop-blu-hellblau-M-L": {
       "storeId": "foleja",
@@ -19959,23 +19959,23 @@
       "storeId": "neptun",
       "storeProductId": "/categories/Apple-Watch-Ultra-3-Nat--Titan-Milanese-Loop-M-SM0261",
       "storeProductName": "Apple Watch Ultra 3?Nat. Titan-Milanese Loop M",
-      "catalogueProductId": "neptun-29475",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3-alpine-loop",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:55.556Z",
-      "updatedAt": "2026-05-05T10:14:45.172Z"
+      "updatedAt": "2026-05-06T10:54:42.491Z"
     },
     "neptun:/categories/Apple-Watch-Ultra-3-Blk--Titan-Black-Ocean-Band-SM0259": {
       "storeId": "neptun",
       "storeProductId": "/categories/Apple-Watch-Ultra-3-Blk--Titan-Black-Ocean-Band-SM0259",
       "storeProductName": "Apple Watch Ultra 3?Blk. Titan-Black Ocean Band",
-      "catalogueProductId": "neptun-29472",
+      "catalogueProductId": "shpresa-apple-watch-ultra-3-ocean-band",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:55.556Z",
-      "updatedAt": "2026-05-05T10:14:33.614Z"
+      "updatedAt": "2026-05-06T10:54:42.491Z"
     },
     "foleja:/KST-200059936/Smartwatch-Apple-Watch-Ultra-3-Titanium-Cellular-49mm-Alpine-Loop-e-zeze": {
       "storeId": "foleja",
@@ -19986,7 +19986,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:55.556Z",
-      "updatedAt": "2026-05-05T10:07:00.846Z"
+      "updatedAt": "2026-05-06T10:54:42.491Z"
     },
     "neptun:/categories/LOJE-PS5-DOOM:-The-Dark-Ages-PL4668": {
       "storeId": "neptun",
@@ -19997,18 +19997,18 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:55.556Z",
-      "updatedAt": "2026-05-05T10:07:00.846Z"
+      "updatedAt": "2026-05-06T10:54:42.491Z"
     },
     "foleja:/ERG-200004736/Loje-Nintendo-Switch-Metroid-Prime-4-Beyond": {
       "storeId": "foleja",
       "storeProductId": "/ERG-200004736/Loje-Nintendo-Switch-Metroid-Prime-4-Beyond",
       "storeProductName": "Lojë Nintendo Switch Metroid Prime 4 Beyond",
-      "catalogueProductId": "albagame-switch-metroid-prime-4-beyond",
+      "catalogueProductId": "shpresa-nintendo-switch-metroid-prime-4-beyond",
       "matchMethod": "name_match",
-      "confidence": 80,
+      "confidence": 83,
       "status": "pending",
       "createdAt": "2026-04-30T17:51:55.556Z",
-      "updatedAt": "2026-05-06T09:32:07.838Z"
+      "updatedAt": "2026-05-06T10:54:42.491Z"
     },
     "foleja:/ERG-200004546/Loje-Nintendo-Switch-Hyrule-Warriors-L-era-dell-esilio": {
       "storeId": "foleja",
@@ -20019,7 +20019,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:52:03.658Z",
-      "updatedAt": "2026-05-05T10:07:03.389Z"
+      "updatedAt": "2026-05-06T10:54:44.514Z"
     },
     "neptun:/categories/LOJE-PS5-Split-Fiction-PL4665": {
       "storeId": "neptun",
@@ -59069,7 +59069,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-04T10:24:58.734Z",
-      "updatedAt": "2026-05-05T10:07:00.846Z"
+      "updatedAt": "2026-05-06T10:54:42.491Z"
     },
     "shpresa:188211": {
       "storeId": "shpresa",
@@ -60329,12 +60329,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200008556/Apple-USB-C-Charge-Cable-2m",
       "storeProductName": "Apple USB-C Charge Cable, 2m",
-      "catalogueProductId": "albagame-cable-ldnio-lightning-apple-usb-cable-1m-white",
+      "catalogueProductId": "albagame-cable-ldnio-lightning-apple-usb-cable-2-1a-1m",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-06T10:11:03.372Z",
-      "updatedAt": "2026-05-06T10:54:11.757Z"
+      "updatedAt": "2026-05-06T10:44:21.258Z"
     },
     "foleja:/ACN-300190854/Pllake-ame-ASUS-ROG-STRIX-B850-F-GAMING-WIFI-Socket-AM5-ATX-E-zeze": {
       "storeId": "foleja",
@@ -60401,17 +60401,6 @@
       "status": "pending",
       "createdAt": "2026-05-06T10:44:21.258Z",
       "updatedAt": "2026-05-06T10:44:21.258Z"
-    },
-    "shpresa:126397": {
-      "storeId": "shpresa",
-      "storeProductId": "126397",
-      "storeProductName": "Xiaomi Portable Electric Air Compressor 2",
-      "catalogueProductId": "shpresa-xiaomi-portable-electric-air-compressor-2-pro",
-      "matchMethod": "name_match",
-      "confidence": 100,
-      "status": "pending",
-      "createdAt": "2026-05-06T10:54:21.367Z",
-      "updatedAt": "2026-05-06T10:54:21.367Z"
     }
   }
 }
