@@ -167,7 +167,12 @@ export async function GET(req: NextRequest) {
   try {
     commitSha = await commitDirtyFiles(
       dirty,
-      `chore(data): refresh prices ${startIndex}-${nextIndex}`,
+      // Final batch uses a different prefix so vercel.json's ignoreCommand
+      // allows one Vercel redeploy per day, bundling the fully-accumulated
+      // prices.json for the /api/health snapshot fallback.
+      remaining === 0
+        ? `chore(data,deploy): refresh prices ${startIndex}-${nextIndex}`
+        : `chore(data): refresh prices ${startIndex}-${nextIndex}`,
     );
   } catch (err) {
     console.error("[refresh-prices] commit failed:", err);
