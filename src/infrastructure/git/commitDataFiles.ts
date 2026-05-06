@@ -198,15 +198,28 @@ export async function commitDataFiles(
 export async function hydrateFromGitHub(localPaths: string[]): Promise<void> {
   const cfg = getRepoConfig();
   if (!cfg) return;
+
+  // Resolve the branch to its exact HEAD SHA before fetching. Branch-based
+  // raw.githubusercontent.com URLs are served by a CDN with a short TTL, so
+  // consecutive batches running every ~30 s would each hydrate the same stale
+  // snapshot and overwrite git with only their own slice. Using the concrete
+  // commit SHA bypasses CDN caching (blob-SHA URLs are immutable).
+  let headSha: string;
+  try {
+    const { commitSha } = await getBranchTip(cfg);
+    headSha = commitSha;
+  } catch {
+    return; // can't determine HEAD — skip hydration, snapshot fallback covers reads
+  }
+
   await Promise.all(
     localPaths.map(async (localPath) => {
       const repoPath = repoRelativePath(localPath);
       if (!repoPath) return;
       try {
-        const url = `https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/${cfg.branch}/${repoPath}`;
+        const url = `https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/${headSha}/${repoPath}`;
         const res = await fetch(url, {
           headers: { Authorization: `Bearer ${cfg.token}` },
-          cache: "no-store",
         });
         if (!res.ok) return;
         const body = await res.text();
