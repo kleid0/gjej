@@ -1,16 +1,14 @@
 {
-  "pcstore-hp-quadro-rtx-a4000-16gb": {
+  "globe-70949": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 21163,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200008858/Kartele-grafike-PNY-NVIDIA-RTX-A4000-4GB-Low-Profile",
-        "lastChecked": "2026-05-06T09:19:37.110Z",
-        "matchedName": "Kartelë grafike PNY NVIDIA RTX A4000 4GB, Low Profile",
-        "storeProductId": "/KST-200008858/Kartele-grafike-PNY-NVIDIA-RTX-A4000-4GB-Low-Profile",
-        "matchConfidence": 67
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:01.315Z",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
@@ -18,7 +16,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.586Z",
+        "lastChecked": "2026-05-06T09:16:03.170Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -27,17 +25,19 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.336Z",
+        "lastChecked": "2026-05-06T09:16:00.606Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.321Z",
-        "error": "Produkti nuk u gjet"
+        "price": 4490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/70949",
+        "lastChecked": "2026-05-06T09:16:00.215Z",
+        "matchedName": "Router MikroTik Board hAP lite RB941-2ND",
+        "storeProductId": "70949",
+        "matchConfidence": 100
       },
       {
         "storeId": "albagame",
@@ -45,22 +45,24 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.219Z",
+        "lastChecked": "2026-05-06T09:16:00.325Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:37.111Z"
+    "refreshedAt": "2026-05-06T09:16:08.265Z"
   },
-  "pcstore-lenovo-v15-g4-notebook-pc-i5-13420h-2": {
+  "globe-70947": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.425Z",
-        "error": "Produkti nuk u gjet"
+        "price": 2078,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200024928/Kartele-MicroSDHC-Verbatim-16-GB-Class-10-e-zeze",
+        "lastChecked": "2026-05-06T09:16:01.651Z",
+        "matchedName": "Kartelë MicroSDHC Verbatim 16 GB, Class 10, e zezë",
+        "storeProductId": "/KST-200024928/Kartele-MicroSDHC-Verbatim-16-GB-Class-10-e-zeze",
+        "matchConfidence": 75
       },
       {
         "storeId": "shpresa",
@@ -68,60 +70,62 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.832Z",
+        "lastChecked": "2026-05-06T09:16:02.799Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
         "price": null,
         "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:00.530Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 1490,
+        "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LAPTOP-LENOVO-V15-G4-IRU---CANTE-LP2055",
-        "lastChecked": "2026-05-06T09:19:35.973Z",
-        "matchedName": "LAPTOP LENOVO V15 G4 IRU + CANTE",
-        "storeProductId": "/categories/LAPTOP-LENOVO-V15-G4-IRU---CANTE-LP2055",
+        "productUrl": "https://www.globe.al/products/70947",
+        "lastChecked": "2026-05-06T09:16:00.207Z",
+        "matchedName": "Karte Memorje SD Verbatim 16GB 43962",
+        "storeProductId": "70947",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:00.335Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:08.475Z"
+  },
+  "globe-70959": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300013804/Router-TP-LINK-AC1200-Deco-Wireless-i-bardhe",
+        "lastChecked": "2026-05-06T09:16:10.246Z",
+        "matchedName": "Router TP-LINK AC1200 Deco, Wireless, i bardhë",
+        "storeProductId": "/ACN-300013804/Router-TP-LINK-AC1200-Deco-Wireless-i-bardhe",
         "matchConfidence": 75,
         "error": "Produkti nuk u gjet"
       },
       {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.138Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.244Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:37.427Z"
-  },
-  "pcstore-dell-ecoloop-pro-backpack-case-15-6%e2%80%b3": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.447Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
         "storeId": "shpresa",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.834Z",
+        "lastChecked": "2026-05-06T09:16:11.070Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -130,7 +134,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.419Z",
+        "lastChecked": "2026-05-06T09:16:09.303Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -139,7 +143,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.137Z",
+        "lastChecked": "2026-05-06T09:16:08.790Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -148,13 +152,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.261Z",
+        "lastChecked": "2026-05-06T09:16:08.897Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:37.447Z"
+    "refreshedAt": "2026-05-06T09:16:11.073Z"
   },
-  "pcstore-logitech-mouse-mx-master-3": {
+  "globe-70979": {
     "prices": [
       {
         "storeId": "foleja",
@@ -162,7 +166,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.622Z",
+        "lastChecked": "2026-05-06T09:16:10.025Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -171,7 +175,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.834Z",
+        "lastChecked": "2026-05-06T09:16:11.588Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -180,7 +184,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.461Z",
+        "lastChecked": "2026-05-06T09:16:09.324Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -189,7 +193,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.139Z",
+        "lastChecked": "2026-05-06T09:16:08.882Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -198,13 +202,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.269Z",
+        "lastChecked": "2026-05-06T09:16:08.905Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:37.624Z"
+    "refreshedAt": "2026-05-06T09:16:11.588Z"
   },
-  "pcstore-hp-envy-16-ac0013dx-x360-16-touch-ultra-5-125u": {
+  "globe-70965": {
     "prices": [
       {
         "storeId": "foleja",
@@ -212,7 +216,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.638Z",
+        "lastChecked": "2026-05-06T09:16:10.080Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -221,7 +225,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.836Z",
+        "lastChecked": "2026-05-06T09:16:11.656Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -230,7 +234,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.559Z",
+        "lastChecked": "2026-05-06T09:16:09.324Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -239,7 +243,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.437Z",
+        "lastChecked": "2026-05-06T09:16:08.791Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -248,13 +252,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:36.263Z",
+        "lastChecked": "2026-05-06T09:16:08.898Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:37.639Z"
+    "refreshedAt": "2026-05-06T09:16:11.656Z"
   },
-  "pcstore-qnap-das-4-bay-tr-004": {
+  "globe-70978": {
     "prices": [
       {
         "storeId": "foleja",
@@ -262,7 +266,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.553Z",
+        "lastChecked": "2026-05-06T09:16:10.092Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -271,7 +275,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.528Z",
+        "lastChecked": "2026-05-06T09:16:11.899Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -280,7 +284,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.039Z",
+        "lastChecked": "2026-05-06T09:16:09.238Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -289,7 +293,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.948Z",
+        "lastChecked": "2026-05-06T09:16:08.893Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -298,123 +302,24 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.984Z",
+        "lastChecked": "2026-05-06T09:16:08.906Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:38.613Z"
+    "refreshedAt": "2026-05-06T09:16:11.899Z"
   },
-  "pcstore-bixolon-label-printer-dx220g": {
+  "globe-70967": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.630Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.100Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.969Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.945Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.976Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:38.732Z"
-  },
-  "pcstore-chieftec-iceberg-240-rgb": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 9695,
-        "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200014463/Ftohes-CPU-Chieftec-ICEBERG-240-RGB",
-        "lastChecked": "2026-05-06T09:19:38.946Z",
-        "matchedName": "Ftohës CPU Chieftec ICEBERG 240 RGB",
-        "storeProductId": "/KST-200014463/Ftohes-CPU-Chieftec-ICEBERG-240-RGB",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:39.066Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.049Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.960Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.977Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:39.119Z"
-  },
-  "pcstore-synology-nas-6-bay-ds1621": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.426Z",
+        "productUrl": "https://www.foleja.al/KST-200049621/SSD-i-jashtem-SanDisk-Professional-Extreme-Pro-2TB-USB4-Thunderbolt-4-i-zi",
+        "lastChecked": "2026-05-06T09:16:10.248Z",
+        "matchedName": "SSD i jashtëm SanDisk Professional Extreme Pro 2TB, USB4, Thunderbolt 4, i zi",
+        "storeProductId": "/KST-200049621/SSD-i-jashtem-SanDisk-Professional-Extreme-Pro-2TB-USB4-Thunderbolt-4-i-zi",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -423,7 +328,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:39.138Z",
+        "lastChecked": "2026-05-06T09:16:11.958Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -432,7 +337,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.022Z",
+        "lastChecked": "2026-05-06T09:16:09.240Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -441,7 +346,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.949Z",
+        "lastChecked": "2026-05-06T09:16:08.792Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -450,13 +355,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.998Z",
+        "lastChecked": "2026-05-06T09:16:08.903Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:39.139Z"
+    "refreshedAt": "2026-05-06T09:16:11.958Z"
   },
-  "pcstore-brother-laser-multifunction-l1632w-20ppm": {
+  "globe-70972": {
     "prices": [
       {
         "storeId": "foleja",
@@ -464,7 +369,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.926Z",
+        "lastChecked": "2026-05-06T09:16:10.920Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -473,7 +378,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:39.733Z",
+        "lastChecked": "2026-05-06T09:16:13.129Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -482,7 +387,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.184Z",
+        "lastChecked": "2026-05-06T09:16:09.584Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -491,7 +396,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.947Z",
+        "lastChecked": "2026-05-06T09:16:08.793Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -500,13 +405,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.071Z",
+        "lastChecked": "2026-05-06T09:16:09.126Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:39.734Z"
+    "refreshedAt": "2026-05-06T09:16:13.129Z"
   },
-  "pcstore-logitech-speakers-2-1-z625": {
+  "globe-70964": {
     "prices": [
       {
         "storeId": "foleja",
@@ -514,7 +419,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.747Z",
+        "lastChecked": "2026-05-06T09:16:10.243Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -523,7 +428,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:39.758Z",
+        "lastChecked": "2026-05-06T09:16:13.192Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -532,7 +437,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.110Z",
+        "lastChecked": "2026-05-06T09:16:09.585Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -541,7 +446,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.947Z",
+        "lastChecked": "2026-05-06T09:16:08.793Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -550,923 +455,23 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.025Z",
+        "lastChecked": "2026-05-06T09:16:08.999Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:39.758Z"
+    "refreshedAt": "2026-05-06T09:16:13.192Z"
   },
-  "pcstore-logitech-wireless-presenter-r500s": {
+  "globe-70975": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:39.002Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:39.787Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.092Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.949Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.033Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:39.788Z"
-  },
-  "pcstore-be-quiet-case-light-base-600-fx-argb": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.813Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:40.134Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.204Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.948Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.055Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:40.134Z"
-  },
-  "pcstore-hp-series-7-pro-27-qhd-monitor-727pu": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.912Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:40.863Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.257Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.946Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.092Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:40.863Z"
-  },
-  "pcstore-hp-series-7-pro-27-qhd-monitor-727pq": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:39.241Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:40.872Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.284Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.946Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.051Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:40.872Z"
-  },
-  "pcstore-hp-usb-c-a-dockingstation-g5-100w": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:39.363Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:40.881Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.199Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.950Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.050Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:40.882Z"
-  },
-  "pcstore-hp-pro-290-g9-microtower-pc-i3-13100": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.987Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:40.893Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.291Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:37.950Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:38.065Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:40.893Z"
-  },
-  "pcstore-tp-link-range-extender-tl-wa850re": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.516Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:42.574Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.250Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.251Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.203Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:42.574Z"
-  },
-  "pcstore-viewsonic-video-projector-pa503w": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.531Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:42.731Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.254Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.262Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.181Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:42.732Z"
-  },
-  "pcstore-epson-mfp-inkjet-l3276": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:42.004Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:43.456Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.452Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.252Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.247Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:43.457Z"
-  },
-  "pcstore-dell-optiplex-7420-23-8%e2%80%b3-i5-14500t": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.841Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:43.670Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.345Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.257Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.227Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:43.670Z"
-  },
-  "pcstore-fractal-design-north-mid-tower-white": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.855Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:43.928Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.353Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.162Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.227Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:43.929Z"
-  },
-  "pcstore-nzxt-h9-elite-dual-chamber-tg-black": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:42.101Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:44.188Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.364Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.249Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.240Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:44.189Z"
-  },
-  "pcstore-cooler-master-haf-700-full-tower": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.883Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:44.236Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.425Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.249Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.236Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:44.236Z"
-  },
-  "pcstore-logitech-headset-gaming-zone-vibe-125-wireless": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:42.566Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:44.755Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.502Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.252Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.241Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:44.755Z"
-  },
-  "pcstore-dell-wireless-keyboard-and-mouse-km636-white": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:42.630Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:44.843Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.662Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.263Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.273Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:44.843Z"
-  },
-  "pcstore-lenovo-loq-15-gaming-i5-12450hx-rtx-2050-4gb": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:42.545Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:45.047Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.502Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.251Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.245Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:45.048Z"
-  },
-  "pcstore-dell-alienware-horizon-utility": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:42.492Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:45.159Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.580Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.242Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.248Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:45.160Z"
-  },
-  "pcstore-msi-pro-x870-p-wi-fi": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:42.972Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:45.809Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.662Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.233Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:41.285Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-06T09:19:45.809Z"
-  },
-  "pcstore-tp-link-router-tl-wr840n": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200005349/Ruter-wireless-TP-LINK-TL-WR840N-2.4GHZ-300MBPS-e-bardhe",
-        "lastChecked": "2026-05-06T09:19:46.981Z",
-        "matchedName": "Ruter wireless TP-LINK TL-WR840N, 2.4GHZ, 300MBPS, e bardhë",
-        "storeProductId": "/YLL-200005349/Ruter-wireless-TP-LINK-TL-WR840N-2.4GHZ-300MBPS-e-bardhe",
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/AXR-200001991/Toner-HP-125A-CB542A-rendiment-1400-faqe-e-verdhe",
+        "lastChecked": "2026-05-06T09:16:10.612Z",
+        "matchedName": "Toner HP 125A CB542A rendiment 1400 faqe, e verdhë",
+        "storeProductId": "/AXR-200001991/Toner-HP-125A-CB542A-rendiment-1400-faqe-e-verdhe",
         "matchConfidence": 67,
         "error": "Produkti nuk u gjet"
       },
@@ -1476,7 +481,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:47.057Z",
+        "lastChecked": "2026-05-06T09:16:13.643Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1485,7 +490,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.137Z",
+        "lastChecked": "2026-05-06T09:16:09.466Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1494,7 +499,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.086Z",
+        "lastChecked": "2026-05-06T09:16:08.904Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1503,23 +508,744 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.076Z",
+        "lastChecked": "2026-05-06T09:16:09.006Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:47.057Z"
+    "refreshedAt": "2026-05-06T09:16:13.644Z"
   },
-  "pcstore-tp-link-bluetooth-5-0-usb": {
+  "globe-70973": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 11900,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:10.496Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:13.781Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:09.584Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:08.794Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:08.963Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:13.781Z"
+  },
+  "globe-70976": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/AXR-200001994/Toner-HP-125A-CB543A-1400-faqe-standard-magenta",
+        "lastChecked": "2026-05-06T09:16:09.924Z",
+        "matchedName": "Toner HP 125A CB543A 1400 faqe standard magenta",
+        "storeProductId": "/AXR-200001994/Toner-HP-125A-CB543A-1400-faqe-standard-magenta",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:13.960Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:09.466Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:08.888Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:08.962Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:13.961Z"
+  },
+  "globe-70974": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/AXR-200001979/Toner-HP-125A-CB541A-1400-faqe-standard-cyan",
+        "lastChecked": "2026-05-06T09:16:10.055Z",
+        "matchedName": "Toner HP 125A/CB541A 1400 faqe standard cyan",
+        "storeProductId": "/AXR-200001979/Toner-HP-125A-CB541A-1400-faqe-standard-cyan",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:14.089Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:09.467Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:08.881Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:09.000Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:14.090Z"
+  },
+  "globe-70963": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:10.608Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:13.920Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:09.818Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:08.792Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.061Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:15.062Z"
+  },
+  "globe-70988": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200028161/USB-SanDisk-iXpand-Flash-Drive-Go-256-GB-USB-3.2-Gen-1-Gri-Argjend",
+        "lastChecked": "2026-05-06T09:16:16.268Z",
+        "matchedName": "USB SanDisk iXpand Flash Drive Go, 256 GB, USB 3.2 Gen 1, Gri, Argjend",
+        "storeProductId": "/KST-200028161/USB-SanDisk-iXpand-Flash-Drive-Go-256-GB-USB-3.2-Gen-1-Gri-Argjend",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:17.026Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.484Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.971Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.382Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:17.027Z"
+  },
+  "globe-70987": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:16.263Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:17.452Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.588Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.970Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.428Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:17.452Z"
+  },
+  "globe-70983": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:16.246Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:17.493Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.611Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.736Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.409Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:17.494Z"
+  },
+  "globe-70984": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:16.376Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:17.544Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.637Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.735Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.437Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:17.544Z"
+  },
+  "globe-70980": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:16.402Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:17.699Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.625Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.972Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.430Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:17.699Z"
+  },
+  "globe-70981": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:16.048Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:17.720Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.702Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.972Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.422Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:17.720Z"
+  },
+  "globe-70982": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:16.357Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:17.739Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.627Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.970Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.475Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:17.739Z"
+  },
+  "globe-70986": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2500,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/INP-200011939/Printer-foto-portativ-Liene-Pearl-KW001-2x3-Zink-Bluetooth-5.0-USB-C-set-me-50-flete-roze",
-        "lastChecked": "2026-05-06T09:19:46.903Z",
-        "matchedName": "Printer foto portativ Liene Pearl KW001 2x3\\\" Zink, Bluetooth 5.0, USB-C, set me 50 fletë, rozë",
-        "storeProductId": "/INP-200011939/Printer-foto-portativ-Liene-Pearl-KW001-2x3-Zink-Bluetooth-5.0-USB-C-set-me-50-flete-roze",
+        "productUrl": "https://www.foleja.al/ALB-200000553/USB-Kingston-DataTraveler-Exodia-M-256GB-USB-3.2-Gen-1-zi-jeshile",
+        "lastChecked": "2026-05-06T09:16:16.251Z",
+        "matchedName": "USB Kingston DataTraveler Exodia M 256GB, USB 3.2 Gen 1, zi/jeshile",
+        "storeProductId": "/ALB-200000553/USB-Kingston-DataTraveler-Exodia-M-256GB-USB-3.2-Gen-1-zi-jeshile",
+        "matchConfidence": 80
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:19.163Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:18.578Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.631Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:16:15.517Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:16:19.164Z"
+  },
+  "pcstore-asus-proart-x870e-creator": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:55.265Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 54990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/motherboard-asus-proart-x870e-creator-wifi/",
+        "lastChecked": "2026-05-06T09:19:54.246Z",
+        "matchedName": "Motherboard Asus ProArt X870E-Creator WiFi",
+        "storeProductId": "171024",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.560Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.881Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.408Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:19:55.268Z"
+  },
+  "pcstore-sandisk-extreme-pro-1tb-microsd": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 18635,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ACN-300263149/Kartele-memorie-microSDXC-SanDisk-Extreme-PRO-512-GB-e-kuqe",
+        "lastChecked": "2026-05-06T09:19:55.700Z",
+        "matchedName": "Kartelë memorie microSDXC SanDisk Extreme PRO 512 GB, e kuqe",
+        "storeProductId": "/ACN-300263149/Kartele-memorie-microSDXC-SanDisk-Extreme-PRO-512-GB-e-kuqe",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": 4490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/sandisk-extreme-pro-microsdxc-uhs-i-card/",
+        "lastChecked": "2026-05-06T09:19:54.302Z",
+        "matchedName": "SanDisk Extreme PRO microSDXC™ UHS-I CARD",
+        "storeProductId": "107679",
+        "matchConfidence": 100,
+        "suspicious": true
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.475Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": 54990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/70967",
+        "lastChecked": "2026-05-06T09:19:54.304Z",
+        "matchedName": "SSD Sandisk Extreme Pro Portable 2TB SDSSDE81-2T00-G25 AM",
+        "storeProductId": "70967",
+        "matchConfidence": 75,
+        "overpriced": true
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.357Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:19:56.155Z"
+  },
+  "pcstore-amd-processor-ryzen-5-5500": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 12133,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300022746/Procesor-AMD-Ryzen-5-5500-16MB",
+        "lastChecked": "2026-05-06T09:19:55.604Z",
+        "matchedName": "Procesor AMD Ryzen 5 5500, 16MB",
+        "storeProductId": "/ACN-300022746/Procesor-AMD-Ryzen-5-5500-16MB",
         "matchConfidence": 75
       },
       {
@@ -1528,7 +1254,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:47.179Z",
+        "lastChecked": "2026-05-06T09:19:56.530Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1537,7 +1263,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.120Z",
+        "lastChecked": "2026-05-06T09:19:54.558Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1546,7 +1272,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.070Z",
+        "lastChecked": "2026-05-06T09:19:54.832Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1555,13 +1281,65 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.075Z",
+        "lastChecked": "2026-05-06T09:19:54.406Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:47.180Z"
+    "refreshedAt": "2026-05-06T09:19:56.531Z"
   },
-  "pcstore-creative-stage-2-1ch-soundbar": {
+  "pcstore-amd-processor-ryzen-5-3600": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 27413,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300022742/Procesor-AMD-Ryzen-7-5700X",
+        "lastChecked": "2026-05-06T09:19:55.368Z",
+        "matchedName": "Procesor AMD Ryzen 7-5700X",
+        "storeProductId": "/ACN-300022742/Procesor-AMD-Ryzen-7-5700X",
+        "matchConfidence": 67
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:57.087Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.554Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.846Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.429Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:19:57.087Z"
+  },
+  "pcstore-hp-monitor-z27xs-g3-dreamcolor-27-uhd": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1569,7 +1347,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.416Z",
+        "lastChecked": "2026-05-06T09:19:55.865Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1578,7 +1356,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:47.279Z",
+        "lastChecked": "2026-05-06T09:19:57.496Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1587,7 +1365,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.138Z",
+        "lastChecked": "2026-05-06T09:19:54.651Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1596,7 +1374,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.048Z",
+        "lastChecked": "2026-05-06T09:19:54.961Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1605,13 +1383,70 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.061Z",
+        "lastChecked": "2026-05-06T09:19:54.433Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:47.280Z"
+    "refreshedAt": "2026-05-06T09:19:57.497Z"
   },
-  "pcstore-avtek-video-240-projection-screen-wxl-240cm-x-200cm-murale": {
+  "pcstore-samsung-evo-plus-256gb-micro-sd": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 25281,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200011947/Kartele-MicroSD-Samsung-1TB-EVO-Plus-UHS-I-Blu-e-Bardhe",
+        "lastChecked": "2026-05-06T09:19:55.270Z",
+        "matchedName": "Kartelë MicroSD Samsung 1TB EVO Plus, UHS-I, Blu e Bardhë",
+        "storeProductId": "/KST-200011947/Kartele-MicroSD-Samsung-1TB-EVO-Plus-UHS-I-Blu-e-Bardhe",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:57.701Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 8490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KARTE-MEMORIE-SAMSUNG-EVO-PLUS-MICROSD-512GB-KA0851",
+        "lastChecked": "2026-05-06T09:19:54.291Z",
+        "matchedName": "KARTE MEMORIE SAMSUNG EVO PLUS MICROSD 512GB",
+        "storeProductId": "/categories/KARTE-MEMORIE-SAMSUNG-EVO-PLUS-MICROSD-512GB-KA0851",
+        "matchConfidence": 100,
+        "suspicious": true
+      },
+      {
+        "storeId": "globe",
+        "price": 16990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.globe.al/products/70965",
+        "lastChecked": "2026-05-06T09:19:54.292Z",
+        "matchedName": "SSD e brendshme Laptopi 500GB 970 EVO PLUS 2280 EU PK",
+        "storeProductId": "70965",
+        "matchConfidence": 60
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.450Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:19:57.702Z"
+  },
+  "pcstore-samsung-evo-pro-plus-256-gb-microsd": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1619,7 +1454,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.602Z",
+        "lastChecked": "2026-05-06T09:19:56.036Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1628,7 +1463,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:47.998Z",
+        "lastChecked": "2026-05-06T09:19:57.946Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1637,7 +1472,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.294Z",
+        "lastChecked": "2026-05-06T09:19:54.686Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1646,7 +1481,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.069Z",
+        "lastChecked": "2026-05-06T09:19:54.962Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1655,13 +1490,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.123Z",
+        "lastChecked": "2026-05-06T09:19:54.448Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:47.998Z"
+    "refreshedAt": "2026-05-06T09:19:57.947Z"
   },
-  "pcstore-pc-assembled-intel-ultra-5-245k32-gb-ddr5-rtx-5060-ti-16gb": {
+  "pcstore-hp-eliteone-870-g9-27%e2%80%b3-i7-14700": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1669,7 +1504,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.878Z",
+        "lastChecked": "2026-05-06T09:19:56.052Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1678,7 +1513,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:48.148Z",
+        "lastChecked": "2026-05-06T09:19:58.156Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1687,7 +1522,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.288Z",
+        "lastChecked": "2026-05-06T09:19:54.646Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1696,7 +1531,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.070Z",
+        "lastChecked": "2026-05-06T09:19:55.267Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1705,13 +1540,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.106Z",
+        "lastChecked": "2026-05-06T09:19:54.438Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:48.149Z"
+    "refreshedAt": "2026-05-06T09:19:58.157Z"
   },
-  "pcstore-kaspersky-plus-internet-security-anti-virus-3-user-1y": {
+  "pcstore-hp-z2-g1i-workstation-tower-core-ultra-9-285": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1719,7 +1554,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.899Z",
+        "lastChecked": "2026-05-06T09:19:55.600Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1728,7 +1563,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:48.203Z",
+        "lastChecked": "2026-05-06T09:19:58.175Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1737,7 +1572,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.304Z",
+        "lastChecked": "2026-05-06T09:19:54.744Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1746,7 +1581,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.083Z",
+        "lastChecked": "2026-05-06T09:19:54.967Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1755,13 +1590,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.099Z",
+        "lastChecked": "2026-05-06T09:19:54.436Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:48.203Z"
+    "refreshedAt": "2026-05-06T09:19:58.176Z"
   },
-  "pcstore-dell-optiplex-7000-microtower-pc-i7-12700": {
+  "pcstore-dell-alienware-aw3225qf-qd-oled-curved-31-6-240hz-qhd": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1769,7 +1604,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:47.374Z",
+        "lastChecked": "2026-05-06T09:19:55.809Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1778,7 +1613,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:48.741Z",
+        "lastChecked": "2026-05-06T09:19:58.433Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1787,7 +1622,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.417Z",
+        "lastChecked": "2026-05-06T09:19:54.744Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1796,7 +1631,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.071Z",
+        "lastChecked": "2026-05-06T09:19:55.239Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1805,13 +1640,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.161Z",
+        "lastChecked": "2026-05-06T09:19:54.458Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:48.742Z"
+    "refreshedAt": "2026-05-06T09:19:58.434Z"
   },
-  "pcstore-lenovo-legion-5-core-ultra-9-275hx-rtx-5070-8gb": {
+  "pcstore-lenovo-legion-t7-ultra-9-285k-rtx-5070-ti-16gb": {
     "prices": [
       {
         "storeId": "foleja",
@@ -1819,7 +1654,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:47.301Z",
+        "lastChecked": "2026-05-06T09:19:55.671Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1828,7 +1663,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:48.743Z",
+        "lastChecked": "2026-05-06T09:19:58.461Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1837,7 +1672,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.546Z",
+        "lastChecked": "2026-05-06T09:19:54.833Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1846,7 +1681,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.083Z",
+        "lastChecked": "2026-05-06T09:19:54.857Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -1855,10 +1690,3504 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-06T09:19:46.149Z",
+        "lastChecked": "2026-05-06T09:19:54.429Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-06T09:19:48.743Z"
+    "refreshedAt": "2026-05-06T09:19:58.462Z"
+  },
+  "pcstore-samsung-evo-pro-plus-128-gb-microsd": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:56.071Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.571Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.745Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.827Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:54.437Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:19:58.571Z"
+  },
+  "pcstore-brother-printer-laserjet-hl-1112": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.608Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:00.286Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.975Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.897Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.904Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:00.286Z"
+  },
+  "pcstore-synology-memory-ddr4-ecc-8gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.622Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:00.326Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.961Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.874Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.911Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:00.327Z"
+  },
+  "pcstore-crucial-memory-ddr4-1x16gb-2": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.477Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:00.816Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.940Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.874Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.894Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:00.817Z"
+  },
+  "pcstore-usb-kingston-datatraveler-exodia-dtx-128gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 1441,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200002221/USB-Kingston-DataTraveler-Exodia-M-64GB-Nero-Blu",
+        "lastChecked": "2026-05-06T09:19:59.806Z",
+        "matchedName": "USB Kingston DataTraveler Exodia M 64GB, Nero/Blu",
+        "storeProductId": "/ERG-200002221/USB-Kingston-DataTraveler-Exodia-M-64GB-Nero-Blu",
+        "matchConfidence": 75
+      },
+      {
+        "storeId": "shpresa",
+        "price": 590,
+        "inStock": false,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/kingston-datatraveler-exodia-usb-flash-drive/",
+        "lastChecked": "2026-05-06T09:19:58.839Z",
+        "matchedName": "Kingston DataTraveler Exodia USB Flash Drive",
+        "storeProductId": "91338",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.217Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.870Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.014Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:00.868Z"
+  },
+  "pcstore-makelsan-powerpack-se-online-ups-3000a-2700-watts": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.694Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:01.086Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.145Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.899Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.994Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:01.087Z"
+  },
+  "pcstore-g-skill-memory-trident-m5-neo-rgb-96gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:00.082Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:01.559Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.078Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.871Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.950Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:01.559Z"
+  },
+  "pcstore-makelsan-powerpack-se-rt-online-ups-1000a-900-watts": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.935Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:01.601Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.167Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.898Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.968Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:01.602Z"
+  },
+  "pcstore-g-skill-trident-z5-rgb-ddr5-48gb-6400mhz": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.820Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:01.789Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.084Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.872Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.960Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:01.790Z"
+  },
+  "pcstore-lenovo-casual-backpack-b210-15-6%e2%80%b3": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.876Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:01.892Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.101Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.870Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.959Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:01.893Z"
+  },
+  "pcstore-crucial-memory-ddr5-1x8gb-4800mhz": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:00.137Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.262Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.095Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.898Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.947Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:02.263Z"
+  },
+  "pcstore-lenovo-simple-toploader-t1050-15-6%e2%80%b3": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.891Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.485Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.029Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.871Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.943Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:02.486Z"
+  },
+  "pcstore-makelsan-powerpack-se-rt-online-ups-3000a-2700-watts": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.950Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.617Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:59.172Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.898Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:19:58.953Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:02.618Z"
+  },
+  "pcstore-assembled-amd-ryzen-5-3600-16-gb-ddr4-gtx-1650-4-gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.998Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:05.452Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.233Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.264Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.979Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:05.453Z"
+  },
+  "pcstore-msi-mag-forge-112r-rgb-black": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:04.519Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 11490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/msi-mag-forge-112r/",
+        "lastChecked": "2026-05-06T09:20:02.856Z",
+        "matchedName": "MSI Mag Forge 112R",
+        "storeProductId": "169824",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.202Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.267Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.996Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:05.509Z"
+  },
+  "pcstore-samsung-galaxy-book4-intel-core-ultra-7-150u-de": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200065234/Laptop-Samsung-Galaxy-Book4-Core-i5-120U-16GB-512GB-gri",
+        "lastChecked": "2026-05-06T09:20:04.039Z",
+        "matchedName": "Laptop Samsung Galaxy Book4 Core i5 120U, 16GB, 512GB, gri",
+        "storeProductId": "/KST-200065234/Laptop-Samsung-Galaxy-Book4-Core-i5-120U-16GB-512GB-gri",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:05.794Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.057Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.265Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.966Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:05.795Z"
+  },
+  "pcstore-hpe-switch-aruba-instant-on-1930-48g-48poe": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/YLL-200012946/Switch-i-menaxhuar-HPE-Aruba-Instant-On-JL682A-24x1GbE-4xSFP-per-rack-i-bardhe",
+        "lastChecked": "2026-05-06T09:20:03.942Z",
+        "matchedName": "Switch i menaxhuar HPE Aruba Instant On JL682A, 24x1GbE, 4xSFP+, për rack, i bardhë",
+        "storeProductId": "/YLL-200012946/Switch-i-menaxhuar-HPE-Aruba-Instant-On-JL682A-24x1GbE-4xSFP-per-rack-i-bardhe",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:05.972Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.209Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.263Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.961Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:05.973Z"
+  },
+  "pcstore-epson-perfection-v39ii-scanner": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 14400,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300048246/Skener-Epson-Perfection-V39II-i-zi",
+        "lastChecked": "2026-05-06T09:20:04.306Z",
+        "matchedName": "Skener Epson Perfection V39II, i zi",
+        "storeProductId": "/ACN-300048246/Skener-Epson-Perfection-V39II-i-zi",
+        "matchConfidence": 75
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:06.287Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.030Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.932Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.935Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:06.288Z"
+  },
+  "pcstore-tp-link-av1000-powerline-starter-kit": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.938Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:06.391Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.107Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.931Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.977Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:06.392Z"
+  },
+  "pcstore-samsung-990-evo-plus-ssd-2tb-nvme": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:04.239Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:06.571Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 20990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SSD-SAMSUNG-990-EVO-PLUS-1TB-HD00198",
+        "lastChecked": "2026-05-06T09:20:02.859Z",
+        "matchedName": "SSD SAMSUNG 990 EVO PLUS 1TB",
+        "storeProductId": "/categories/SSD-SAMSUNG-990-EVO-PLUS-1TB-HD00198",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.263Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.005Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:06.572Z"
+  },
+  "pcstore-asus-rog-zephyrus-g14-ryzen-9-8945hs-rtx-4060-8gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200065426/Kompjuter-ASUS-ROG-Zephyrus-G16-GA605KM-QR003W-16-OLED-AI7-RTX5060-16GB-1TB-e-zeze",
+        "lastChecked": "2026-05-06T09:20:04.188Z",
+        "matchedName": "Kompjuter ASUS ROG Zephyrus G16 GA605KM-QR003W, 16\" OLED, AI7, RTX5060, 16GB/1TB, e zezë",
+        "storeProductId": "/KST-200065426/Kompjuter-ASUS-ROG-Zephyrus-G16-GA605KM-QR003W-16-OLED-AI7-RTX5060-16GB-1TB-e-zeze",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:06.690Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.339Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.051Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.018Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:06.691Z"
+  },
+  "pcstore-samsung-990-pro-heatsink-ssd-1tb-nvme": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:04.587Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:06.834Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.235Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.266Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.001Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:06.835Z"
+  },
+  "pcstore-asus-rog-zephyrus-g16-amd-ryzen-ai-9-rtx-4070-8gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200065426/Kompjuter-ASUS-ROG-Zephyrus-G16-GA605KM-QR003W-16-OLED-AI7-RTX5060-16GB-1TB-e-zeze",
+        "lastChecked": "2026-05-06T09:20:04.664Z",
+        "matchedName": "Kompjuter ASUS ROG Zephyrus G16 GA605KM-QR003W, 16\" OLED, AI7, RTX5060, 16GB/1TB, e zezë",
+        "storeProductId": "/KST-200065426/Kompjuter-ASUS-ROG-Zephyrus-G16-GA605KM-QR003W-16-OLED-AI7-RTX5060-16GB-1TB-e-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:06.951Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.291Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.258Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.991Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:06.952Z"
+  },
+  "pcstore-lenovo-ideapad-pro-5-14%e2%80%b3-intel-ultra-7-255h": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:04.532Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.410Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LAPTOP-LENOVO-IDEAPAD-PRO-5-16IAH10-LP2062",
+        "lastChecked": "2026-05-06T09:20:02.865Z",
+        "matchedName": "LAPTOP LENOVO IDEAPAD PRO 5 16IAH10",
+        "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-PRO-5-16IAH10-LP2062",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.272Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.032Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:07.411Z"
+  },
+  "pcstore-msi-ventus-rtx-5060-8gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300248988/Kartele-grafike-MSI-VENTUS-GeForce-RTX-5080-16G-3X-OC-16-GB-Gri",
+        "lastChecked": "2026-05-06T09:20:04.463Z",
+        "matchedName": "Kartelë grafike MSI VENTUS GeForce RTX 5080 16G 3X OC, 16 GB, Gri",
+        "storeProductId": "/ACN-300248988/Kartele-grafike-MSI-VENTUS-GeForce-RTX-5080-16G-3X-OC-16-GB-Gri",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.427Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.233Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:03.257Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:02.998Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:07.428Z"
+  },
+  "pcstore-psu-deepcool-pn850m-850w": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.329Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.693Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.908Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.738Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.902Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:08.695Z"
+  },
+  "pcstore-marshall-major-iv-wireless": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.159Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 9990,
+        "inStock": false,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/marshall-major-iv-wireless-on-ear-headphones/",
+        "lastChecked": "2026-05-06T09:20:07.684Z",
+        "matchedName": "Marshall Major IV Wireless On-Ear Headphones",
+        "storeProductId": "118954",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.909Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.743Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.887Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:09.046Z"
+  },
+  "pcstore-be-quiet-pure-power-12-850w": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ACN-300185837/Furnizues-energjie-BE-QUIET-PURE-POWER-12-550W-ATX-E-zeze",
+        "lastChecked": "2026-05-06T09:20:09.053Z",
+        "matchedName": "Furnizues energjie BE QUIET! PURE POWER 12, 550W, ATX, E zezë",
+        "storeProductId": "/ACN-300185837/Furnizues-energjie-BE-QUIET-PURE-POWER-12-550W-ATX-E-zeze",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:09.529Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.014Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.739Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.955Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:09.530Z"
+  },
+  "pcstore-asus-tuf-rtx-5060-ti-16gb-gddr6-oc": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:09.246Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:10.700Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.162Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.739Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.987Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:10.701Z"
+  },
+  "pcstore-epson-dot-matrix-printer-lq-590iin-network": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200053148/Printer-dot-matrix-Epson-FX-890IIN-9-pin-128KB-i-zi",
+        "lastChecked": "2026-05-06T09:20:09.636Z",
+        "matchedName": "Printer dot matrix Epson FX-890IIN, 9-pin, 128KB, i zi",
+        "storeProductId": "/KST-200053148/Printer-dot-matrix-Epson-FX-890IIN-9-pin-128KB-i-zi",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:11.208Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.103Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.881Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.981Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:11.209Z"
+  },
+  "pcstore-samsung-990-pro-ssd-2tb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.940Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:11.412Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 26990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SSD-SAMSUNG-990-PRO-NVMe-1TB-HD00197",
+        "lastChecked": "2026-05-06T09:20:07.708Z",
+        "matchedName": "SSD SAMSUNG 990 PRO NVMe 1TB",
+        "storeProductId": "/categories/SSD-SAMSUNG-990-PRO-NVMe-1TB-HD00197",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.890Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.944Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:11.413Z"
+  },
+  "pcstore-hp-laserjet-mfp-m236sdw": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.637Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:11.948Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 26990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PRINTER-HP-LASERJET-MFP-M236SDW-PI0530",
+        "lastChecked": "2026-05-06T09:20:07.688Z",
+        "matchedName": "PRINTER HP LASERJET MFP M236sdw",
+        "storeProductId": "/categories/PRINTER-HP-LASERJET-MFP-M236SDW-PI0530",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.860Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.953Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:11.949Z"
+  },
+  "pcstore-msi-monitor-gaming-mag-275f-27-fhd-180-hz": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200060823/Monitor-MSI-MAG-274QRFDE-27-inc-gaming-TFT-i-zi",
+        "lastChecked": "2026-05-06T09:20:09.553Z",
+        "matchedName": "Monitor MSI MAG 274QRFDE 27 inç gaming, TFT, i zi",
+        "storeProductId": "/KST-200060823/Monitor-MSI-MAG-274QRFDE-27-inc-gaming-TFT-i-zi",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:12.036Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MONITOR-GAMING-MSI-MAG-255XF-MO0954",
+        "lastChecked": "2026-05-06T09:20:07.703Z",
+        "matchedName": "MONITOR GAMING MSI MAG 255XF",
+        "storeProductId": "/categories/MONITOR-GAMING-MSI-MAG-255XF-MO0954",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.760Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.986Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:12.038Z"
+  },
+  "pcstore-samsung-flash-drive-fit-plus-64gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.958Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:12.730Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.124Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.742Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.988Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:12.731Z"
+  },
+  "pcstore-msi-lp-nvidia-gt-1030-4gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300161068/Kartele-grafike-MSI-GeForce-GT-1030-4-GB-GDDR4",
+        "lastChecked": "2026-05-06T09:20:08.698Z",
+        "matchedName": "Kartelë grafike MSI GeForce GT 1030, 4 GB GDDR4",
+        "storeProductId": "/ACN-300161068/Kartele-grafike-MSI-GeForce-GT-1030-4-GB-GDDR4",
+        "matchConfidence": 60,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:12.782Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.108Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.741Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.999Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:12.783Z"
+  },
+  "pcstore-psu-msi-mag-a850gl-850w": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300048738/Furnizues-energjie-MSI-MAG-A850GL-PCIE5-850W-80-Gold-modular",
+        "lastChecked": "2026-05-06T09:20:08.910Z",
+        "matchedName": "Furnizues energjie MSI MAG A850GL PCIE5, 850W 80 + Gold, modular",
+        "storeProductId": "/ACN-300048738/Furnizues-energjie-MSI-MAG-A850GL-PCIE5-850W-80-Gold-modular",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:12.786Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.221Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.740Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.032Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:12.788Z"
+  },
+  "pcstore-samsung-990-evo-ssd-2tb-nvme": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:09.072Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:12.858Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.221Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:07.740Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:08.003Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:12.859Z"
+  },
+  "pcstore-sandisk-ultra-dual-drive-luxe-64gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 24093,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ACN-300036310/USB-SanDisk-Ultra-Dual-Drive-Luxe-1TB",
+        "lastChecked": "2026-05-06T09:20:13.372Z",
+        "matchedName": "USB SanDisk Ultra Dual Drive Luxe, 1TB",
+        "storeProductId": "/ACN-300036310/USB-SanDisk-Ultra-Dual-Drive-Luxe-1TB",
+        "matchConfidence": 100,
+        "overpriced": true
+      },
+      {
+        "storeId": "shpresa",
+        "price": 800,
+        "inStock": false,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/sandisk-ultra-dual-drive-luxe-usb-3-1/",
+        "lastChecked": "2026-05-06T09:20:13.123Z",
+        "matchedName": "SanDisk Ultra Dual Drive Luxe USB 3.1",
+        "storeProductId": "46050",
+        "matchConfidence": 100,
+        "suspicious": true
+      },
+      {
+        "storeId": "neptun",
+        "price": 3590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/USB-SANDISK-ULTRA-DUAL-DRIVE-TYPE-C-128GB-FL1269",
+        "lastChecked": "2026-05-06T09:20:13.124Z",
+        "matchedName": "USB SANDISK ULTRA DUAL DRIVE LUXE TYPE-C 128GB",
+        "storeProductId": "/categories/USB-SANDISK-ULTRA-DUAL-DRIVE-TYPE-C-128GB-FL1269",
+        "matchConfidence": 100,
+        "suspicious": true
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.578Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.330Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:14.142Z"
+  },
+  "pcstore-usb-sandisk-ultra-luxe-64gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 1900,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ALB-200000171/USB-SanDisk-Ultra-Luxe-128GB-USB-3.2-argjendte",
+        "lastChecked": "2026-05-06T09:20:14.252Z",
+        "matchedName": "USB SanDisk Ultra Luxe 128GB, USB 3.2, argjendtë",
+        "storeProductId": "/ALB-200000171/USB-SanDisk-Ultra-Luxe-128GB-USB-3.2-argjendte",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": 1500,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/usb-sandisk-ultra-luxe-3-2/",
+        "lastChecked": "2026-05-06T09:20:13.112Z",
+        "matchedName": "USB Sandisk Ultra Luxe 3.2",
+        "storeProductId": "9505",
+        "matchConfidence": 100,
+        "suspicious": true
+      },
+      {
+        "storeId": "neptun",
+        "price": 4990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/USB-SANDISK-ULTRA-LUXE-3-2-GEN-1-256GB-FL1278",
+        "lastChecked": "2026-05-06T09:20:13.112Z",
+        "matchedName": "USB SANDISK ULTRA LUXE 3.2 GEN 1 256GB",
+        "storeProductId": "/categories/USB-SANDISK-ULTRA-LUXE-3-2-GEN-1-256GB-FL1278",
+        "matchConfidence": 100,
+        "overpriced": true
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.404Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.279Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:14.253Z"
+  },
+  "pcstore-avtek-cinema-projection-screen-wxl-200cm-x-200cm-murale-electric": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.716Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:16.058Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.481Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.584Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.338Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:16.059Z"
+  },
+  "pcstore-cooler-master-masterbox-mesh-520-argb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 11100,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/YLL-200004197/Kase-kompjuteri-Cooler-Master-MasterBox-520-Mesh-e-bardhe",
+        "lastChecked": "2026-05-06T09:20:14.722Z",
+        "matchedName": "Kasë kompjuteri Cooler Master MasterBox 520 Mesh, e bardhë",
+        "storeProductId": "/YLL-200004197/Kase-kompjuteri-Cooler-Master-MasterBox-520-Mesh-e-bardhe",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:16.124Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.400Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.584Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.339Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:16.125Z"
+  },
+  "pcstore-schneider-ups-srv-6000-va-6000-watts-online": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:14.133Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:16.193Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.457Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.405Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.348Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:16.194Z"
+  },
+  "pcstore-hp-250r-g9-notebook-pc-core-ultra-5-120u-10c": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:14.774Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:16.269Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LAPTOP-HP-250R-G9-AD2Q1ET-LP2098",
+        "lastChecked": "2026-05-06T09:20:13.097Z",
+        "matchedName": "LAPTOP HP 250R G9 AD2Q1ET",
+        "storeProductId": "/categories/LAPTOP-HP-250R-G9-AD2Q1ET-LP2098",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.580Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.386Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:16.270Z"
+  },
+  "pcstore-verbatim-keypad-secure-128gb-usb-3-2-gen-1": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:14.119Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:16.569Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.408Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.582Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.327Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:16.570Z"
+  },
+  "pcstore-asus-motherboard-tuf-gaming-a620m-plus-wi-fi-am5": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300248134/Pllake-ame-ASUS-TUF-GAMING-B650M-E-Socket-AM5-micro-ATX",
+        "lastChecked": "2026-05-06T09:20:15.275Z",
+        "matchedName": "Pllakë amë ASUS TUF GAMING B650M-E, Socket AM5, micro ATX",
+        "storeProductId": "/ACN-300248134/Pllake-ame-ASUS-TUF-GAMING-B650M-E-Socket-AM5-micro-ATX",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:16.692Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.610Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.581Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.396Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:16.693Z"
+  },
+  "pcstore-msi-pro-motherboard-z890-s-wi-fi-socket-1851": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ACN-300264387/Pllake-ame-Asrock-Z890-Pro-A-WiFi-Socket-1851-ATX-Wi-Fi-6E-Bluetooth-5.3-e-zeze",
+        "lastChecked": "2026-05-06T09:20:14.847Z",
+        "matchedName": "Pllakë amë Asrock Z890 Pro-A WiFi, Socket 1851, ATX, Wi-Fi 6E, Bluetooth 5.3, e zezë",
+        "storeProductId": "/ACN-300264387/Pllake-ame-Asrock-Z890-Pro-A-WiFi-Socket-1851-ATX-Wi-Fi-6E-Bluetooth-5.3-e-zeze",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.075Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.584Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.579Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.397Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:17.076Z"
+  },
+  "pcstore-gigabyte-motherboard-z790-d-axd5-wi-fi-socket-1700": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:14.842Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.123Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.531Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.580Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.398Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:17.125Z"
+  },
+  "pcstore-gigabyte-aorus-elite-wf7-z890-a-wi-fi": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ALL-200000102/Pllake-ame-Gigabyte-X870-AORUS-ELITE-WF7-ICE-Socket-AM5-e-bardhe",
+        "lastChecked": "2026-05-06T09:20:13.804Z",
+        "matchedName": "Pllakë amë Gigabyte X870 AORUS ELITE WF7 ICE, Socket AM5, e bardhë",
+        "storeProductId": "/ALL-200000102/Pllake-ame-Gigabyte-X870-AORUS-ELITE-WF7-ICE-Socket-AM5-e-bardhe",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.448Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.626Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.581Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.402Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:17.450Z"
+  },
+  "pcstore-hp-probook-4-g1i-16-2-5k-intel-core-ultra-7-255h-rtx-3050-4-gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:14.504Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.471Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.987Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.579Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:13.385Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:17.473Z"
+  },
+  "pcstore-verbatim-portable-monitor-15-6-fhd-touch": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.932Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:19.863Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.112Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.999Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.879Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:19.868Z"
+  },
+  "pcstore-sandisk-extreme-pro-64-gb-cfexpress": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 20857,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200004112/Kartele-memorie-SanDisk-Extreme-Pro-64-GB-CFexpress-e-zeze",
+        "lastChecked": "2026-05-06T09:20:18.579Z",
+        "matchedName": "Kartelë memorie SanDisk Extreme Pro 64 GB CFexpress, e zezë",
+        "storeProductId": "/KST-200004112/Kartele-memorie-SanDisk-Extreme-Pro-64-GB-CFexpress-e-zeze",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:19.969Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.001Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.982Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.844Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:19.971Z"
+  },
+  "pcstore-sandisk-extreme-64gb-compactflash": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.231Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:20.045Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.884Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.821Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.834Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:20.046Z"
+  },
+  "pcstore-iiyama-prolite-xub2492hsu-23-8": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.214Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:20.079Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.914Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.999Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.850Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:20.080Z"
+  },
+  "pcstore-lg-27up850k-monitor-27-uhd": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ICO-200002222/Monitor-LG-27UP650K-W-27-4K-UHD-IPS-HDR400-argjendte-zeze-bardhe",
+        "lastChecked": "2026-05-06T09:20:18.826Z",
+        "matchedName": "Monitor LG 27UP650K-W 27\" 4K UHD IPS HDR400, argjendtë/zezë/bardhë",
+        "storeProductId": "/ICO-200002222/Monitor-LG-27UP650K-W-27-4K-UHD-IPS-HDR400-argjendte-zeze-bardhe",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:20.724Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.003Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.987Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.880Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:20.726Z"
+  },
+  "pcstore-asus-zendrive-dvd-rw-external-usb-c": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:19.094Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:20.959Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.110Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.984Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.986Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:20.960Z"
+  },
+  "pcstore-aoc-agon-pro-gaming-monitor-26-5-qd-oled-240hz": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KOM-200218297/Monitor-gaming-AOC-AGON-PRO-AG246FK6-24.1-Full-HD-610Hz-HDR400-eTN-i-zi",
+        "lastChecked": "2026-05-06T09:20:19.225Z",
+        "matchedName": "Monitor gaming AOC AGON PRO AG246FK6, 24.1\", Full HD, 610Hz, HDR400, eTN, i zi",
+        "storeProductId": "/KOM-200218297/Monitor-gaming-AOC-AGON-PRO-AG246FK6-24.1-Full-HD-610Hz-HDR400-eTN-i-zi",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:21.439Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.119Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.997Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.901Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:21.441Z"
+  },
+  "pcstore-dell-monitor-p3223qe-31-5-ips-4k-uhd": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:19.024Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:21.966Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.233Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.998Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.985Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:21.968Z"
+  },
+  "pcstore-asus-blu-ray-bw-16d1h-u-pro-external": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:19.110Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.134Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.197Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.984Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.987Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:22.136Z"
+  },
+  "pcstore-lg-monitor-ultrafine-32up55np-31-5-uhd": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:19.153Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.197Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.233Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.015Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.988Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:22.199Z"
+  },
+  "pcstore-dell-vostro-15-3530-i5-1334u": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:19.131Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.254Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.165Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.982Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.983Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:22.256Z"
+  },
+  "pcstore-hp-laserjet-printer-color-mfp-179fnw": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:19.315Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.296Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:18.233Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.998Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:17.990Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:22.298Z"
+  },
+  "pcstore-aerocool-streak-rgb-minitower": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:23.156Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:23.743Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.694Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.782Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.673Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:23.745Z"
+  },
+  "pcstore-dell-optiplex-7010-mt-pc-i5-14500": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:24.092Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:25.174Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.932Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.643Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.777Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:25.175Z"
+  },
+  "pcstore-dell-monitor-24%e2%80%b3-fhd-u2422h": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:23.472Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:25.682Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.832Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.783Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.719Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:25.683Z"
+  },
+  "pcstore-wd-hdd-ultrastar-dc-ha210-3-5-2tb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:23.899Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:25.835Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.869Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.642Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.775Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:25.836Z"
+  },
+  "pcstore-dell-alienware-curved-aw3423dwf-34%e2%80%b3qd-oled-165hz-qhd": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:24.069Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:26.060Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.970Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.643Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.764Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:26.063Z"
+  },
+  "pcstore-wd-hdd-ultrastar-dc-ha210-3-5-1tb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:23.912Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:26.262Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.887Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.644Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.755Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:26.264Z"
+  },
+  "pcstore-psu-gigabyte-aorus-elite-p1000w-pg5-ice": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200005304/Pllake-ame-Gigabyte-B550M-AORUS-ELITE-mATX",
+        "lastChecked": "2026-05-06T09:20:23.393Z",
+        "matchedName": "Pllakë amë Gigabyte B550M AORUS ELITE mATX",
+        "storeProductId": "/KST-200005304/Pllake-ame-Gigabyte-B550M-AORUS-ELITE-mATX",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:27.391Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:23.079Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.789Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-06T09:20:22.796Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-06T09:20:27.392Z"
   }
 }
