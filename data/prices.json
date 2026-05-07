@@ -1,16 +1,16 @@
 {
-  "neptun-30198": {
+  "neptun-27859": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300311092/Kase-All-in-One-Lenovo-IdeaCentre-AIO-24IRH9-Intel-Core-i3-1315U-8-GB-RAM-512-GB-SSD-23.8-Gri",
-        "lastChecked": "2026-05-07T11:10:50.793Z",
-        "matchedName": "Kasë All-in-One Lenovo IdeaCentre AIO 24IRH9, Intel Core i3-1315U, 8 GB RAM, 512 GB SSD, 23.8\", Gri",
-        "storeProductId": "/ACN-300311092/Kase-All-in-One-Lenovo-IdeaCentre-AIO-24IRH9-Intel-Core-i3-1315U-8-GB-RAM-512-GB-SSD-23.8-Gri",
-        "matchConfidence": 75,
+        "productUrl": "https://www.foleja.al/THM-200002821/Televizor-Samsung-QE55Q7FAAUXXH-55-QLED-4K-UHD-Smart-TV",
+        "lastChecked": "2026-05-07T11:11:49.141Z",
+        "matchedName": "Televizor Samsung QE55Q7FAAUXXH 55\\\" QLED 4K UHD Smart TV",
+        "storeProductId": "/THM-200002821/Televizor-Samsung-QE55Q7FAAUXXH-55-QLED-4K-UHD-Smart-TV",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -19,30 +19,27 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:54.799Z",
+        "lastChecked": "2026-05-07T11:11:48.760Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 70990,
+        "price": 49990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-AIO-LENOVO-IDEACENTRE-24ARR9-F0HR000VRI-PC1852",
-        "lastChecked": "2026-05-07T11:10:48.357Z",
-        "matchedName": "PC AIO LENOVO IDEACENTRE 24ARR9 F0HR000VRI",
-        "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-24ARR9-F0HR000VRI-PC1852",
+        "productUrl": "https://www.neptun.al/categories/TV-SAMSUNG-QLED-QE55Q7FAAUXXH-TV5555",
+        "lastChecked": "2026-05-07T11:11:48.280Z",
+        "matchedName": "TV SAMSUNG QLED QE55Q7FAAUXXH",
+        "storeProductId": "/categories/TV-SAMSUNG-QLED-QE55Q7FAAUXXH-TV5555",
         "matchConfidence": 100
       },
       {
         "storeId": "globe",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/71953",
-        "lastChecked": "2026-05-07T11:10:48.358Z",
-        "matchedName": "Kompjuter Lenovo AIO IdeaCentre 3 24ALC6 F0G1013VRI",
-        "storeProductId": "71953",
-        "matchConfidence": 67,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.349Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -51,23 +48,237 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:48.663Z",
+        "lastChecked": "2026-05-07T11:11:48.386Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-07T11:10:54.810Z"
+    "refreshedAt": "2026-05-07T11:11:49.363Z"
   },
-  "neptun-28685": {
+  "neptun-30933": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:49.108Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.764Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 87990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-TCL-QLED-75P89K-TV5806",
+        "lastChecked": "2026-05-07T11:11:48.303Z",
+        "matchedName": "TV TCL QLED 75P89K",
+        "storeProductId": "/categories/TV-TCL-QLED-75P89K-TV5806",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.329Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.377Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-07T11:11:49.365Z"
+  },
+  "neptun-27842": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300311092/Kase-All-in-One-Lenovo-IdeaCentre-AIO-24IRH9-Intel-Core-i3-1315U-8-GB-RAM-512-GB-SSD-23.8-Gri",
-        "lastChecked": "2026-05-07T11:10:50.805Z",
-        "matchedName": "Kasë All-in-One Lenovo IdeaCentre AIO 24IRH9, Intel Core i3-1315U, 8 GB RAM, 512 GB SSD, 23.8\", Gri",
-        "storeProductId": "/ACN-300311092/Kase-All-in-One-Lenovo-IdeaCentre-AIO-24IRH9-Intel-Core-i3-1315U-8-GB-RAM-512-GB-SSD-23.8-Gri",
+        "productUrl": "https://www.foleja.al/THM-200002854/Televizor-LED-UHD-4K-Smart-Samsung-UE75U8072FUXXH-HDR10-75",
+        "lastChecked": "2026-05-07T11:11:49.135Z",
+        "matchedName": "Televizor LED UHD 4K Smart, Samsung, UE75U8072FUXXH, HDR10+, 75\"",
+        "storeProductId": "/THM-200002854/Televizor-LED-UHD-4K-Smart-Samsung-UE75U8072FUXXH-HDR10-75",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.764Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 54990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-SAMSUNG-LED-UE65U8072FUXXH-TV5530",
+        "lastChecked": "2026-05-07T11:11:48.290Z",
+        "matchedName": "TV SAMSUNG LED UE65U8072FUXXH",
+        "storeProductId": "/categories/TV-SAMSUNG-LED-UE65U8072FUXXH-TV5530",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.328Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.388Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-07T11:11:49.366Z"
+  },
+  "neptun-28950": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:49.220Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.763Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 64990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-LG-65QNED70A6A-TV5765",
+        "lastChecked": "2026-05-07T11:11:48.294Z",
+        "matchedName": "TV LG QNED 65QNED70A6A.AEU",
+        "storeProductId": "/categories/TV-LG-65QNED70A6A-TV5765",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.333Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.379Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-07T11:11:49.492Z"
+  },
+  "neptun-28378": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/THM-200003208/Televizor-Sony-K43S35BP-43-4K-UHD-LED-Google-TV-BRAVIA-3-HDR-i-zi",
+        "lastChecked": "2026-05-07T11:11:48.828Z",
+        "matchedName": "Televizor, Sony, K43S35BP, 43\" 4K UHD LED, Google TV, BRAVIA 3, HDR, i zi",
+        "storeProductId": "/THM-200003208/Televizor-Sony-K43S35BP-43-4K-UHD-LED-Google-TV-BRAVIA-3-HDR-i-zi",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:49.889Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 64990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-SONY-BRAVIA-3-LED-K43S35BP-TV5748",
+        "lastChecked": "2026-05-07T11:11:48.277Z",
+        "matchedName": "TV SONY BRAVIA 3 LED K43S35BP",
+        "storeProductId": "/categories/TV-SONY-BRAVIA-3-LED-K43S35BP-TV5748",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.307Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.473Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-07T11:11:49.889Z"
+  },
+  "neptun-28379": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/THM-200003210/Televizor-Sony-BRAVIA-3-K55S35B-55-LED-UHD-me-Google-TV",
+        "lastChecked": "2026-05-07T11:11:48.993Z",
+        "matchedName": "Televizor Sony BRAVIA 3 K55S35B 55\" LED UHD me Google TV",
+        "storeProductId": "/THM-200003210/Televizor-Sony-BRAVIA-3-K55S35B-55-LED-UHD-me-Google-TV",
         "matchConfidence": 75,
         "error": "Produkti nuk u gjet"
       },
@@ -77,7 +288,163 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.201Z",
+        "lastChecked": "2026-05-07T11:11:49.916Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 74990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-SONY-BRAVIA-3-LED-K50S35B-TV5749",
+        "lastChecked": "2026-05-07T11:11:48.301Z",
+        "matchedName": "TV SONY BRAVIA 3 LED K50S35B",
+        "storeProductId": "/categories/TV-SONY-BRAVIA-3-LED-K50S35B-TV5749",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.329Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:48.480Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-07T11:11:49.917Z"
+  },
+  "neptun-25872": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:50.663Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:51.149Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 64990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-HOOBART-65MCU620ANDT-TV5451",
+        "lastChecked": "2026-05-07T11:11:50.192Z",
+        "matchedName": "TV HOOBART 65MCU620ANDT",
+        "storeProductId": "/categories/TV-HOOBART-65MCU620ANDT-TV5451",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:50.221Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:50.235Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-07T11:11:51.150Z"
+  },
+  "neptun-21488": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:50.958Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:52.052Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 68990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-SAMSUNG-QE55Q80CATXXH-TV5056",
+        "lastChecked": "2026-05-07T11:11:50.204Z",
+        "matchedName": "TV SAMSUNG QLED QE55Q80CATXXH.",
+        "storeProductId": "/categories/TV-SAMSUNG-QE55Q80CATXXH-TV5056",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:50.230Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:50.279Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-07T11:11:52.054Z"
+  },
+  "neptun-28015": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:50.975Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:52.054Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -85,181 +452,10 @@
         "price": 69990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-AIO-LENOVO-IDEACENTRE-3-27ALC6-F0FY00PCRI-PC1815",
-        "lastChecked": "2026-05-07T11:10:48.326Z",
-        "matchedName": "PC AIO LENOVO IDEACENTRE 3 27ALC6 F0FY00PCRI",
-        "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-3-27ALC6-F0FY00PCRI-PC1815",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/71953",
-        "lastChecked": "2026-05-07T11:10:48.327Z",
-        "matchedName": "Kompjuter Lenovo AIO IdeaCentre 3 24ALC6 F0G1013VRI",
-        "storeProductId": "71953",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:48.668Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:10:55.201Z"
-  },
-  "neptun-30148": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:50.408Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.275Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 64990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-HP-AiO-ProOne-240-G10-B70VFAT-PC1826",
-        "lastChecked": "2026-05-07T11:10:48.307Z",
-        "matchedName": "PC HP AiO ProOne 240 G10 B70VFAT",
-        "storeProductId": "/categories/PC-HP-AiO-ProOne-240-G10-B70VFAT-PC1826",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": 64990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/24979",
-        "lastChecked": "2026-05-07T11:10:48.308Z",
-        "matchedName": "Kompjuter HP AiO ProOne 240 G10 B70VFAT",
-        "storeProductId": "24979",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:49.152Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:10:55.276Z"
-  },
-  "neptun-19200": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "lastChecked": "2026-05-07T11:10:56.887Z",
-        "matchedName": "Kompjuter AIO Lenovo IdeaCentre AIO 24IRH9, 24\", Intel Core i5, 16GB RAM, 1TB SSD",
-        "storeProductId": "/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-ryzen-7/",
-        "lastChecked": "2026-05-07T11:10:55.649Z",
-        "matchedName": "Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7",
-        "storeProductId": "170865",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-LENOVO-AIO-IDEACENTRE-3-27ITL6-PC1529",
-        "lastChecked": "2026-05-07T11:10:55.649Z",
-        "matchedName": "PC AIO LENOVO IDEACENTRE 27ITL6",
-        "storeProductId": "/categories/PC-LENOVO-AIO-IDEACENTRE-3-27ITL6-PC1529",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:56.031Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.883Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:10:57.206Z"
-  },
-  "neptun-28285": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "lastChecked": "2026-05-07T11:10:55.866Z",
-        "matchedName": "Kompjuter AIO Lenovo IdeaCentre AIO 24IRH9, 24\", Intel Core i5, 16GB RAM, 1TB SSD",
-        "storeProductId": "/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:59.487Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 96990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-AIO-LENOVO-IDEACENTRE-27IRH9-PC1799",
-        "lastChecked": "2026-05-07T11:10:55.640Z",
-        "matchedName": "PC AIO LENOVO IDEACENTRE 27IRH9",
-        "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-27IRH9-PC1799",
+        "productUrl": "https://www.neptun.al/categories/TV-LG-65QNED80A3A-AEU-TV5642",
+        "lastChecked": "2026-05-07T11:11:50.197Z",
+        "matchedName": "TV LG QNED 65QNED80A3A.AEU",
+        "storeProductId": "/categories/TV-LG-65QNED80A3A-AEU-TV5642",
         "matchConfidence": 100
       },
       {
@@ -268,7 +464,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:56.056Z",
+        "lastChecked": "2026-05-07T11:11:50.232Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -277,130 +473,23 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.853Z",
+        "lastChecked": "2026-05-07T11:11:50.280Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-07T11:10:59.488Z"
+    "refreshedAt": "2026-05-07T11:11:52.055Z"
   },
-  "neptun-20733": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "lastChecked": "2026-05-07T11:10:56.718Z",
-        "matchedName": "Kompjuter AIO Lenovo IdeaCentre AIO 24IRH9, 24\", Intel Core i5, 16GB RAM, 1TB SSD",
-        "storeProductId": "/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:00.559Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 115990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-LENOVO-AIO-IDEACENTER-3-27IAP7-PC1586",
-        "lastChecked": "2026-05-07T11:10:55.658Z",
-        "matchedName": "PC LENOVO AIO IDEACENTER 3 27IAP7",
-        "storeProductId": "/categories/PC-LENOVO-AIO-IDEACENTER-3-27IAP7-PC1586",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.902Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.874Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:00.559Z"
-  },
-  "neptun-28012": {
+  "neptun-27870": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:57.584Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:00.732Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 96990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-HP-AIO-27-CR0013NH-9U599EA-PC1785",
-        "lastChecked": "2026-05-07T11:10:55.636Z",
-        "matchedName": "PC HP AIO 27-CR0013NH 9U599EA",
-        "storeProductId": "/categories/PC-HP-AIO-27-CR0013NH-9U599EA-PC1785",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:56.020Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.903Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:00.732Z"
-  },
-  "neptun-26453": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200014431/iMac-Apple-24-inch-M4-16GB-256GB-SSD-Blu",
-        "lastChecked": "2026-05-07T11:10:57.285Z",
-        "matchedName": "iMac Apple 24-inch M4, 16GB, 256GB SSD, Blu",
-        "storeProductId": "/KST-200014431/iMac-Apple-24-inch-M4-16GB-256GB-SSD-Blu",
+        "productUrl": "https://www.foleja.al/THM-200002822/Televizor-Samsung-QE55Q8FAAUXXH-55-QLED-UHD-4K",
+        "lastChecked": "2026-05-07T11:11:50.619Z",
+        "matchedName": "Televizor Samsung QE55Q8FAAUXXH 55\\\" QLED UHD 4K",
+        "storeProductId": "/THM-200002822/Televizor-Samsung-QE55Q8FAAUXXH-55-QLED-UHD-4K",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -410,18 +499,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:00.837Z",
+        "lastChecked": "2026-05-07T11:11:52.282Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 174990,
+        "price": 69990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iMac-24--M4---Blue-256GB-mwv13ze-a-PC1747",
-        "lastChecked": "2026-05-07T11:10:55.667Z",
-        "matchedName": "Apple iMac 24\" M4 - Blue 256GB mwv13ze/a",
-        "storeProductId": "/categories/Apple-iMac-24--M4---Blue-256GB-mwv13ze-a-PC1747",
+        "productUrl": "https://www.neptun.al/categories/TV-SAMSUNG-QLED-QE55Q8FAAUXXH-TV5561",
+        "lastChecked": "2026-05-07T11:11:50.194Z",
+        "matchedName": "TV SAMSUNG QLED QE55Q8FAAUXXH",
+        "storeProductId": "/categories/TV-SAMSUNG-QLED-QE55Q8FAAUXXH-TV5561",
         "matchConfidence": 100
       },
       {
@@ -430,7 +519,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.930Z",
+        "lastChecked": "2026-05-07T11:11:50.222Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -439,24 +528,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.809Z",
+        "lastChecked": "2026-05-07T11:11:50.271Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-07T11:11:00.838Z"
+    "refreshedAt": "2026-05-07T11:11:52.283Z"
   },
-  "neptun-28239": {
+  "neptun-29695": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "lastChecked": "2026-05-07T11:10:56.660Z",
-        "matchedName": "Kompjuter AIO Lenovo IdeaCentre AIO 24IRH9, 24\", Intel Core i5, 16GB RAM, 1TB SSD",
-        "storeProductId": "/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:51.063Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -465,18 +551,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:00.973Z",
+        "lastChecked": "2026-05-07T11:11:52.463Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 112990,
+        "price": 89990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-AIO-LENOVO-IDEACENTRE-24IRH9-PC1803",
-        "lastChecked": "2026-05-07T11:10:55.645Z",
-        "matchedName": "PC AIO LENOVO IDEACENTRE 24IRH9 F0HN00JWRI Touch",
-        "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-24IRH9-PC1803",
+        "productUrl": "https://www.neptun.al/categories/TV-TCL-75C69K-TV5728",
+        "lastChecked": "2026-05-07T11:11:50.202Z",
+        "matchedName": "TV TCL MINILED 75C69K",
+        "storeProductId": "/categories/TV-TCL-75C69K-TV5728",
         "matchConfidence": 100
       },
       {
@@ -485,7 +571,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.862Z",
+        "lastChecked": "2026-05-07T11:11:50.231Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -494,24 +580,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.869Z",
+        "lastChecked": "2026-05-07T11:11:50.272Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-07T11:11:00.973Z"
+    "refreshedAt": "2026-05-07T11:11:52.464Z"
   },
-  "neptun-28687": {
+  "neptun-28397": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "lastChecked": "2026-05-07T11:10:56.584Z",
-        "matchedName": "Kompjuter AIO Lenovo IdeaCentre AIO 24IRH9, 24\", Intel Core i5, 16GB RAM, 1TB SSD",
-        "storeProductId": "/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
-        "matchConfidence": 67,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-07T11:11:50.837Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -520,18 +603,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:01.155Z",
+        "lastChecked": "2026-05-07T11:11:52.483Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 86990,
+        "price": 74990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-AIO-LENOVO-IDEACENTRE-27IRH9-F0HM00SXRI-PC1817",
-        "lastChecked": "2026-05-07T11:10:55.631Z",
-        "matchedName": "PC AIO LENOVO IDEACENTRE 27IRH9 F0HM00SXRI",
-        "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-27IRH9-F0HM00SXRI-PC1817",
+        "productUrl": "https://www.neptun.al/categories/TV-LG-75UA75006LA-AEUQ-TV5626",
+        "lastChecked": "2026-05-07T11:11:50.206Z",
+        "matchedName": "TV LG LED 75UA75006LA.AEUQ",
+        "storeProductId": "/categories/TV-LG-75UA75006LA-AEUQ-TV5626",
         "matchConfidence": 100
       },
       {
@@ -540,7 +623,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.876Z",
+        "lastChecked": "2026-05-07T11:11:50.231Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -549,13 +632,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.827Z",
+        "lastChecked": "2026-05-07T11:11:50.292Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-07T11:11:01.155Z"
+    "refreshedAt": "2026-05-07T11:11:52.484Z"
   },
-  "neptun-21257": {
+  "neptun-28317": {
     "prices": [
       {
         "storeId": "foleja",
@@ -563,7 +646,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:57.386Z",
+        "lastChecked": "2026-05-07T11:11:51.544Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -572,18 +655,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:01.323Z",
+        "lastChecked": "2026-05-07T11:11:53.266Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 86990,
+        "price": 69990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-HP-AIO-24-cb1307nh-PC1605",
-        "lastChecked": "2026-05-07T11:10:55.613Z",
-        "matchedName": "PC HP AIO 24-cb1307nh 796S7EA Touch",
-        "storeProductId": "/categories/PC-HP-AIO-24-cb1307nh-PC1605",
+        "productUrl": "https://www.neptun.al/categories/TV-LG-55QNED86A3A-AEU-TV5662",
+        "lastChecked": "2026-05-07T11:11:50.188Z",
+        "matchedName": "TV LG QNED EVO 55QNED86A3A.AEU",
+        "storeProductId": "/categories/TV-LG-55QNED86A3A-AEU-TV5662",
         "matchConfidence": 100
       },
       {
@@ -592,7 +675,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.975Z",
+        "lastChecked": "2026-05-07T11:11:50.216Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -601,2454 +684,23 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.856Z",
+        "lastChecked": "2026-05-07T11:11:50.340Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-07T11:11:01.323Z"
+    "refreshedAt": "2026-05-07T11:11:53.266Z"
   },
-  "neptun-30150": {
+  "neptun-28210": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:57.540Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:01.464Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 94990,
+        "price": 87200,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-HP-AIO-27-CR1015NA-C4DN0EA-PC1828",
-        "lastChecked": "2026-05-07T11:10:55.622Z",
-        "matchedName": "PC HP AIO 27-CR1015NA C4DN0EA",
-        "storeProductId": "/categories/PC-HP-AIO-27-CR1015NA-C4DN0EA-PC1828",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:56.020Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.867Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:01.465Z"
-  },
-  "neptun-28683": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:57.312Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:01.499Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 90990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-HP-AIO-ProOne-240-G10-PC1813",
-        "lastChecked": "2026-05-07T11:10:55.618Z",
-        "matchedName": "PC HP AIO ProOne 240 G10 A55A3ET",
-        "storeProductId": "/categories/PC-HP-AIO-ProOne-240-G10-PC1813",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.908Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.880Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:01.500Z"
-  },
-  "neptun-30149": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:57.598Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:01.693Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 96990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-HP-AIO-24-CR1019N-C3FB2EA-PC1827",
-        "lastChecked": "2026-05-07T11:10:55.627Z",
-        "matchedName": "PC HP AIO 24-CR1019N C3FB2EA",
-        "storeProductId": "/categories/PC-HP-AIO-24-CR1019N-C3FB2EA-PC1827",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:56.019Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.845Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:01.694Z"
-  },
-  "neptun-30232": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:57.572Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:01.851Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 154990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PC-AIO-LENOVO-YOGA-27IAH10-F0J2001XRI-PC1860",
-        "lastChecked": "2026-05-07T11:10:55.663Z",
-        "matchedName": "PC AIO LENOVO YOGA 27IAH10 F0J2001XRI",
-        "storeProductId": "/categories/PC-AIO-LENOVO-YOGA-27IAH10-F0J2001XRI-PC1860",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:56.068Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:10:55.889Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:01.851Z"
-  },
-  "neptun-24058": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.568Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:03.540Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-FUEGO-MD2458-23-8--MO0737",
-        "lastChecked": "2026-05-07T11:11:02.203Z",
-        "matchedName": "MONITOR FUEGO MD2458/24?Z75FI 23.8\"",
-        "storeProductId": "/categories/MONITOR-FUEGO-MD2458-23-8--MO0737",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.428Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.273Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:03.543Z"
-  },
-  "neptun-24059": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.815Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:04.330Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 9990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-FUEGO-MD2758-27--MO0738",
-        "lastChecked": "2026-05-07T11:11:02.233Z",
-        "matchedName": "MONITOR FUEGO MD2758/27?Z75FI 27\"",
-        "storeProductId": "/categories/MONITOR-FUEGO-MD2758-27--MO0738",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.459Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.325Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:04.331Z"
-  },
-  "neptun-21440": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:03.161Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:04.829Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 9990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS24C310EAUXEN-MO0718",
-        "lastChecked": "2026-05-07T11:11:02.224Z",
-        "matchedName": "MONITOR SAMSUNG LS24C310EAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS24C310EAUXEN-MO0718",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.446Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.336Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:04.830Z"
-  },
-  "neptun-27219": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ICO-200002233/Monitor-LG-32UN880K-B-32-TFT-LCD-i-zi",
-        "lastChecked": "2026-05-07T11:11:03.543Z",
-        "matchedName": "Monitor LG 32UN880K-B 32\" TFT/LCD i zi",
-        "storeProductId": "/ICO-200002233/Monitor-LG-32UN880K-B-32-TFT-LCD-i-zi",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:04.993Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 9990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-24MR400-B-MO0883",
-        "lastChecked": "2026-05-07T11:11:02.216Z",
-        "matchedName": "MONITOR LG 24MR400-B",
-        "storeProductId": "/categories/MONITOR-LG-24MR400-B-MO0883",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.467Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.323Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:04.993Z"
-  },
-  "neptun-30244": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:03.556Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:05.051Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 8990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS24F330EAUXEN-MO0960",
-        "lastChecked": "2026-05-07T11:11:02.207Z",
-        "matchedName": "MONITOR SAMSUNG LS24F330EAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS24F330EAUXEN-MO0960",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.494Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.319Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:05.052Z"
-  },
-  "neptun-18142": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:03.538Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:05.225Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 9997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LC24F390FHRXEN-MO0667",
-        "lastChecked": "2026-05-07T11:11:02.228Z",
-        "matchedName": "MONITOR SAMSUNG LC24F390FHRXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LC24F390FHRXEN-MO0667",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.479Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.322Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:05.226Z"
-  },
-  "neptun-30006": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:03.571Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:05.269Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 9990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS24F320GAUXEN-MO0948",
-        "lastChecked": "2026-05-07T11:11:02.220Z",
-        "matchedName": "MONITOR SAMSUNG LS24F320GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS24F320GAUXEN-MO0948",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.510Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.312Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:05.269Z"
-  },
-  "neptun-31109": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:03.097Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:05.376Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 7990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-XIAOMI-A24i-100Hz-MO0977",
-        "lastChecked": "2026-05-07T11:11:02.200Z",
-        "matchedName": "MONITOR XIAOMI A24i 100Hz",
-        "storeProductId": "/categories/MONITOR-XIAOMI-A24i-100Hz-MO0977",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.432Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.324Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:05.377Z"
-  },
-  "neptun-23918": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:03.408Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:05.714Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 209990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iMac-24--M3---Green-256GB-mqra3ze-a-PC1646",
-        "lastChecked": "2026-05-07T11:11:02.192Z",
-        "matchedName": "Apple iMac 24\" M3 - Green 256GB mqra3ze/a",
-        "storeProductId": "/categories/Apple-iMac-24--M3---Green-256GB-mqra3ze-a-PC1646",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.432Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.349Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:05.715Z"
-  },
-  "neptun-23917": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:03.510Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.443Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 209990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-iMac-24--M3---Silver-256GB-mqr93ze-a-PC1645",
-        "lastChecked": "2026-05-07T11:11:02.188Z",
-        "matchedName": "Apple iMac 24\" M3 - Silver 256GB mqr93ze/a",
-        "storeProductId": "/categories/Apple-iMac-24--M3---Silver-256GB-mqr93ze-a-PC1645",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.486Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.400Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:06.444Z"
-  },
-  "neptun-16319": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:03.834Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.578Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 64997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Apple-MAC-MINI-LATE-2020-PC1444",
-        "lastChecked": "2026-05-07T11:11:02.196Z",
-        "matchedName": "Apple MAC MINI LATE 2020",
-        "storeProductId": "/categories/Apple-MAC-MINI-LATE-2020-PC1444",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.451Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:02.369Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:06.579Z"
-  },
-  "neptun-31045": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.449Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:08.697Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 10990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-FUEGO-B24F2FK-MO0941",
-        "lastChecked": "2026-05-07T11:11:06.863Z",
-        "matchedName": "MONITOR FUEGO B24F2FK",
-        "storeProductId": "/categories/MONITOR-FUEGO-B24F2FK-MO0941",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.966Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.918Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:08.698Z"
-  },
-  "neptun-18096": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.611Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:08.805Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 10997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-DELL-23-8''-SE2422H-MO0645",
-        "lastChecked": "2026-05-07T11:11:06.869Z",
-        "matchedName": "MONITOR DELL 23.8'' SE2422H",
-        "storeProductId": "/categories/MONITOR-DELL-23-8''-SE2422H-MO0645",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.000Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.989Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:08.806Z"
-  },
-  "neptun-31046": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.421Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:09.065Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 12990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-FUEGO-B27F2FK-MO0942",
-        "lastChecked": "2026-05-07T11:11:06.882Z",
-        "matchedName": "MONITOR FUEGO B27F2FK",
-        "storeProductId": "/categories/MONITOR-FUEGO-B27F2FK-MO0942",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.003Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.935Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:09.067Z"
-  },
-  "neptun-30971": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.835Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:09.137Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 10990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-XIAOMI-A27i-100Hz-MO0978",
-        "lastChecked": "2026-05-07T11:11:06.866Z",
-        "matchedName": "MONITOR XIAOMI A27i 100Hz",
-        "storeProductId": "/categories/MONITOR-XIAOMI-A27i-100Hz-MO0978",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.032Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.985Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:09.138Z"
-  },
-  "neptun-30007": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.784Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:09.212Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 11990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27F320GAUXEN-MO0949",
-        "lastChecked": "2026-05-07T11:11:06.877Z",
-        "matchedName": "MONITOR SAMSUNG LS27F320GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27F320GAUXEN-MO0949",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.002Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.965Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:09.213Z"
-  },
-  "neptun-21470": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200005148/Monitor-Dell-E2425HM-210-BRDN-i-zi",
-        "lastChecked": "2026-05-07T11:11:07.890Z",
-        "matchedName": "Monitor, Dell, E2425HM 210-BRDN, i zi",
-        "storeProductId": "/AXR-200005148/Monitor-Dell-E2425HM-210-BRDN-i-zi",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:09.798Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 11997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-DELL-23-8--E2422HN-MO0726",
-        "lastChecked": "2026-05-07T11:11:06.879Z",
-        "matchedName": "MONITOR DELL 23.8\" E2422HN",
-        "storeProductId": "/categories/MONITOR-DELL-23-8--E2422HN-MO0726",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.002Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.975Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:09.799Z"
-  },
-  "neptun-21824": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.869Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:09.909Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 12997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LF24T450FQRXEN-MO0730",
-        "lastChecked": "2026-05-07T11:11:06.890Z",
-        "matchedName": "MONITOR SAMSUNG LF24T450FQRXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LF24T450FQRXEN-MO0730",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.001Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.976Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:09.910Z"
-  },
-  "neptun-30003": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.905Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:10.114Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 11990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS24D400GAUXEN-MO0940",
-        "lastChecked": "2026-05-07T11:11:06.874Z",
-        "matchedName": "MONITOR SAMSUNG LS24D400GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS24D400GAUXEN-MO0940",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.005Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.969Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:10.114Z"
-  },
-  "neptun-27316": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ICO-200002233/Monitor-LG-32UN880K-B-32-TFT-LCD-i-zi",
-        "lastChecked": "2026-05-07T11:11:08.306Z",
-        "matchedName": "Monitor LG 32UN880K-B 32\" TFT/LCD i zi",
-        "storeProductId": "/ICO-200002233/Monitor-LG-32UN880K-B-32-TFT-LCD-i-zi",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:10.250Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 12990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-27MR400-B-MO0884",
-        "lastChecked": "2026-05-07T11:11:06.887Z",
-        "matchedName": "MONITOR LG 27MR400-B",
-        "storeProductId": "/categories/MONITOR-LG-27MR400-B-MO0884",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.014Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.970Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:10.251Z"
-  },
-  "neptun-26822": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200003357/Monitor-Samsung-S24D364GAU-LS24D364GAUXEN-24-i-zi",
-        "lastChecked": "2026-05-07T11:11:08.303Z",
-        "matchedName": "Monitor Samsung S24D364GAU LS24D364GAUXEN 24\" i zi",
-        "storeProductId": "/AXR-200003357/Monitor-Samsung-S24D364GAU-LS24D364GAUXEN-24-i-zi",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:10.397Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 12990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS24D300GAUXEN-MO0877",
-        "lastChecked": "2026-05-07T11:11:06.884Z",
-        "matchedName": "MONITOR SAMSUNG LS24D300GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS24D300GAUXEN-MO0877",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.001Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:06.975Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:10.398Z"
-  },
-  "neptun-30899": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:08.754Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.198Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 11990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-24U41YA-B-FHD-120Hz-MO0972",
-        "lastChecked": "2026-05-07T11:11:06.872Z",
-        "matchedName": "MONITOR LG 24U41YA-B FHD 120Hz",
-        "storeProductId": "/categories/MONITOR-LG-24U41YA-B-FHD-120Hz-MO0972",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.012Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.058Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:11.199Z"
-  },
-  "neptun-24138": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:08.462Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.233Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 12997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-HP-V24ie-G5-6D8H0AA-MO0736",
-        "lastChecked": "2026-05-07T11:11:06.892Z",
-        "matchedName": "MONITOR HP V24ie G5 6D8H0AA",
-        "storeProductId": "/categories/MONITOR-HP-V24ie-G5-6D8H0AA-MO0736",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.006Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:07.068Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:11.234Z"
-  },
-  "neptun-26946": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200004864/Monitor-Samsung-S27C364EAU-LS27C364EAUXEN-27-FHD-75-Hz-VA-i-lakuar-i-zi",
-        "lastChecked": "2026-05-07T11:11:12.986Z",
-        "matchedName": "Monitor Samsung S27C364EAU / LS27C364EAUXEN 27\" FHD 75 Hz VA i lakuar i zi",
-        "storeProductId": "/AXR-200004864/Monitor-Samsung-S27C364EAU-LS27C364EAUXEN-27-FHD-75-Hz-VA-i-lakuar-i-zi",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:14.323Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 13997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27C390EAUXEN-MO0787",
-        "lastChecked": "2026-05-07T11:11:11.656Z",
-        "matchedName": "MONITOR SAMSUNG LS27C390EAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27C390EAUXEN-MO0787",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.960Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.767Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:14.324Z"
-  },
-  "neptun-18110": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:12.702Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:14.409Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 13997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Monitor-HP-V24-MO0643",
-        "lastChecked": "2026-05-07T11:11:11.659Z",
-        "matchedName": "MONITOR HP V24 9SV73AA",
-        "storeProductId": "/categories/Monitor-HP-V24-MO0643",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.965Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.783Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:14.410Z"
-  },
-  "neptun-26446": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200003357/Monitor-Samsung-S24D364GAU-LS24D364GAUXEN-24-i-zi",
-        "lastChecked": "2026-05-07T11:11:12.791Z",
-        "matchedName": "Monitor Samsung S24D364GAU LS24D364GAUXEN 24\" i zi",
-        "storeProductId": "/AXR-200003357/Monitor-Samsung-S24D364GAU-LS24D364GAUXEN-24-i-zi",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:14.491Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 14990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS24D360GAUXEN-MO0865",
-        "lastChecked": "2026-05-07T11:11:11.663Z",
-        "matchedName": "MONITOR SAMSUNG LS24D360GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS24D360GAUXEN-MO0865",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:12.010Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.777Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:14.492Z"
-  },
-  "neptun-26447": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200003357/Monitor-Samsung-S24D364GAU-LS24D364GAUXEN-24-i-zi",
-        "lastChecked": "2026-05-07T11:11:12.938Z",
-        "matchedName": "Monitor Samsung S24D364GAU LS24D364GAUXEN 24\" i zi",
-        "storeProductId": "/AXR-200003357/Monitor-Samsung-S24D364GAU-LS24D364GAUXEN-24-i-zi",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:14.591Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27D360GAUXEN-MO0866",
-        "lastChecked": "2026-05-07T11:11:11.673Z",
-        "matchedName": "MONITOR SAMSUNG LS27D360GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D360GAUXEN-MO0866",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:12.004Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.791Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:14.592Z"
-  },
-  "neptun-30774": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200004553/Monitor-Samsung-S27D396GAU-LS27D396GAUXEN-27-inch-e-zeze",
-        "lastChecked": "2026-05-07T11:11:13.370Z",
-        "matchedName": "Monitor, Samsung, S27D396GAU LS27D396GAUXEN, 27 inch, e zezë",
-        "storeProductId": "/AXR-200004553/Monitor-Samsung-S27D396GAU-LS27D396GAUXEN-27-inch-e-zeze",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:14.704Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27D390GAUXEN-MO0955",
-        "lastChecked": "2026-05-07T11:11:11.679Z",
-        "matchedName": "MONITOR SAMSUNG LS27D390GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D390GAUXEN-MO0955",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.987Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.771Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:14.706Z"
-  },
-  "neptun-21471": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:12.505Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:14.709Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-DELL-27-0--SE2722H-MO0727",
-        "lastChecked": "2026-05-07T11:11:11.686Z",
-        "matchedName": "MONITOR DELL 27.0\" SE2722H",
-        "storeProductId": "/categories/MONITOR-DELL-27-0--SE2722H-MO0727",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:12.049Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.796Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:14.710Z"
-  },
-  "neptun-27989": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi",
-        "lastChecked": "2026-05-07T11:11:12.965Z",
-        "matchedName": "Monitor, Samsung, ViewFinity S70D LS27D700EAUXEN, 27 inç, zi",
-        "storeProductId": "/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:14.958Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27D300GAUXEN-MO0928",
-        "lastChecked": "2026-05-07T11:11:11.669Z",
-        "matchedName": "MONITOR SAMSUNG LS27D300GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D300GAUXEN-MO0928",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:12.005Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.769Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:14.960Z"
-  },
-  "neptun-26448": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200013426/Monitor-TFT-LCD-Samsung-S36GD-LS27D366GAUXEN-27-zi",
-        "lastChecked": "2026-05-07T11:11:12.434Z",
-        "matchedName": "Monitor TFT/LCD Samsung S36GD LS27D366GAUXEN 27\" zi",
-        "storeProductId": "/YLL-200013426/Monitor-TFT-LCD-Samsung-S36GD-LS27D366GAUXEN-27-zi",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:15.011Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27D366GAUXEN-MO0867",
-        "lastChecked": "2026-05-07T11:11:11.666Z",
-        "matchedName": "MONITOR SAMSUNG LS27D366GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D366GAUXEN-MO0867",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:12.006Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.823Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:15.012Z"
-  },
-  "neptun-27990": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi",
-        "lastChecked": "2026-05-07T11:11:12.971Z",
-        "matchedName": "Monitor, Samsung, ViewFinity S70D LS27D700EAUXEN, 27 inç, zi",
-        "storeProductId": "/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:15.156Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 14990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27D400GAUXEN-MO0934",
-        "lastChecked": "2026-05-07T11:11:11.682Z",
-        "matchedName": "MONITOR SAMSUNG LS27D400GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D400GAUXEN-MO0934",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.966Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.797Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:15.157Z"
-  },
-  "neptun-19839": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:13.438Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:16.340Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 12997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-HP-P22-G4-1A7E4AA-MO0623",
-        "lastChecked": "2026-05-07T11:11:11.652Z",
-        "matchedName": "MONITOR HP P22 G4 1A7E4AA",
-        "storeProductId": "/categories/MONITOR-HP-P22-G4-1A7E4AA-MO0623",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.944Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.865Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:16.341Z"
-  },
-  "neptun-24139": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:13.235Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:16.810Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 12997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-HP-V24v-G5-65P62AA-MO0753",
-        "lastChecked": "2026-05-07T11:11:11.648Z",
-        "matchedName": "MONITOR HP V24v G5 65P62AA",
-        "storeProductId": "/categories/MONITOR-HP-V24v-G5-65P62AA-MO0753",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.945Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.871Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:16.811Z"
-  },
-  "neptun-30776": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:13.693Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:16.881Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-HP-SERIES-5-524sf-94C17AA-MO0965",
-        "lastChecked": "2026-05-07T11:11:11.676Z",
-        "matchedName": "MONITOR HP SERIES 5 524sf 94C17AA",
-        "storeProductId": "/categories/MONITOR-HP-SERIES-5-524sf-94C17AA-MO0965",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:12.005Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:11.867Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:16.882Z"
-  },
-  "neptun-31047": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.577Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:19.234Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 18990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-FUEGO-B32X3QK-MO0943",
-        "lastChecked": "2026-05-07T11:11:17.272Z",
-        "matchedName": "MONITOR FUEGO B32X3QK",
-        "storeProductId": "/categories/MONITOR-FUEGO-B32X3QK-MO0943",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.560Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.427Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:19.236Z"
-  },
-  "neptun-26520": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:18.225Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:19.663Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 18997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27DM500EUXDU-MO0853",
-        "lastChecked": "2026-05-07T11:11:17.287Z",
-        "matchedName": "MONITOR SAMSUNG LS27DM500EUXDU",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27DM500EUXDU-MO0853",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.550Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.484Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:19.664Z"
-  },
-  "neptun-30775": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200004554/Monitor-Samsung-S32D396GAU-LS32D396GAUXEN-32-i-lakuar-e-zeze",
-        "lastChecked": "2026-05-07T11:11:18.631Z",
-        "matchedName": "Monitor Samsung S32D396GAU / LS32D396GAUXEN 32\" i lakuar, e zezë",
-        "storeProductId": "/AXR-200004554/Monitor-Samsung-S32D396GAU-LS32D396GAUXEN-32-i-lakuar-e-zeze",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:19.918Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 20990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS32D390GAUXEN-MO0956",
-        "lastChecked": "2026-05-07T11:11:17.299Z",
-        "matchedName": "MONITOR SAMSUNG LS32D390GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS32D390GAUXEN-MO0956",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.547Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.486Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:19.919Z"
-  },
-  "neptun-21897": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:18.528Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:20.055Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 20990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LC27T550FDRXEN-MO0635",
-        "lastChecked": "2026-05-07T11:11:17.295Z",
-        "matchedName": "MONITOR SAMSUNG LC27T550FDRXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LC27T550FDRXEN-MO0635",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.547Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.476Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:20.057Z"
-  },
-  "neptun-18762": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:18.370Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:20.332Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 18997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LC27F390FHRXDU-MO0671",
-        "lastChecked": "2026-05-07T11:11:17.283Z",
-        "matchedName": "MONITOR SAMSUNG LC27F390FHRXDU",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LC27F390FHRXDU-MO0671",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.528Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.479Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:20.333Z"
-  },
-  "neptun-27321": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ICO-200002233/Monitor-LG-32UN880K-B-32-TFT-LCD-i-zi",
-        "lastChecked": "2026-05-07T11:11:18.586Z",
-        "matchedName": "Monitor LG 32UN880K-B 32\" TFT/LCD i zi",
-        "storeProductId": "/ICO-200002233/Monitor-LG-32UN880K-B-32-TFT-LCD-i-zi",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:20.667Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 16990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-32MR50C-B--MO0885",
-        "lastChecked": "2026-05-07T11:11:17.265Z",
-        "matchedName": "MONITOR LG 32MR50C-B.",
-        "storeProductId": "/categories/MONITOR-LG-32MR50C-B--MO0885",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.533Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.496Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:20.668Z"
-  },
-  "neptun-17526": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:18.027Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:20.695Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-HP-V27i-MO0632",
-        "lastChecked": "2026-05-07T11:11:17.258Z",
-        "matchedName": "MONITOR HP V27i 9SV94AA",
-        "storeProductId": "/categories/MONITOR-HP-V27i-MO0632",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.581Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.477Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:20.696Z"
-  },
-  "neptun-31108": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 20077,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300311744/Monitor-LG-29U511A-B-29-UltraWide-WFHD-IPS-HDR-100Hz-i-zi",
-        "lastChecked": "2026-05-07T11:11:18.335Z",
-        "matchedName": "Monitor LG 29U511A-B, 29\", UltraWide WFHD, IPS, HDR, 100Hz, i zi",
-        "storeProductId": "/ACN-300311744/Monitor-LG-29U511A-B-29-UltraWide-WFHD-IPS-HDR-100Hz-i-zi",
+        "productUrl": "https://www.foleja.al/THM-200003210/Televizor-Sony-BRAVIA-3-K55S35B-55-LED-UHD-me-Google-TV",
+        "lastChecked": "2026-05-07T11:11:50.679Z",
+        "matchedName": "Televizor Sony BRAVIA 3 K55S35B 55\" LED UHD me Google TV",
+        "storeProductId": "/THM-200003210/Televizor-Sony-BRAVIA-3-K55S35B-55-LED-UHD-me-Google-TV",
         "matchConfidence": 100
       },
       {
@@ -3057,18 +709,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:21.409Z",
+        "lastChecked": "2026-05-07T11:11:53.752Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 17990,
+        "price": 84990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-29U511A-B-FHD-100Hz-MO0971",
-        "lastChecked": "2026-05-07T11:11:17.269Z",
-        "matchedName": "MONITOR LG 29U511A-B FHD 100Hz",
-        "storeProductId": "/categories/MONITOR-LG-29U511A-B-FHD-100Hz-MO0971",
+        "productUrl": "https://www.neptun.al/categories/TV-SONY-K55S35B-TV5743",
+        "lastChecked": "2026-05-07T11:11:50.199Z",
+        "matchedName": "TV SONY BRAVIA 3 LED K55S35B",
+        "storeProductId": "/categories/TV-SONY-K55S35B-TV5743",
         "matchConfidence": 100
       },
       {
@@ -3077,7 +729,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.564Z",
+        "lastChecked": "2026-05-07T11:11:50.228Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3086,649 +738,10 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.580Z",
+        "lastChecked": "2026-05-07T11:11:50.338Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-07T11:11:21.410Z"
-  },
-  "neptun-26950": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:18.695Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:21.890Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 20990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-HP-SERIES-5-527SW-27--94F46E9-MO0860",
-        "lastChecked": "2026-05-07T11:11:17.304Z",
-        "matchedName": "MONITOR HP SERIES 5 527SW 27\" 94F46E9",
-        "storeProductId": "/categories/MONITOR-HP-SERIES-5-527SW-27--94F46E9-MO0860",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.542Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.597Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:21.891Z"
-  },
-  "neptun-30896": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:18.926Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:21.957Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 16990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-24MS550-B-FHD-100Hz-SPEAKER-MO0968",
-        "lastChecked": "2026-05-07T11:11:17.262Z",
-        "matchedName": "MONITOR LG 24MS550-B FHD 100Hz SPEAKER",
-        "storeProductId": "/categories/MONITOR-LG-24MS550-B-FHD-100Hz-SPEAKER-MO0968",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.562Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.548Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:21.959Z"
-  },
-  "neptun-30897": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:18.838Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.006Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 18990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-27MS550-B-FHD-100Hz-SPEAKER-MO0969",
-        "lastChecked": "2026-05-07T11:11:17.279Z",
-        "matchedName": "MONITOR LG 27MS550-B FHD 100Hz SPEAKER",
-        "storeProductId": "/categories/MONITOR-LG-27MS550-B-FHD-100Hz-SPEAKER-MO0969",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.530Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.579Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:22.007Z"
-  },
-  "neptun-30898": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:19.209Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.281Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 18990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-27U41YA-B-FHD-120Hz-MO0970",
-        "lastChecked": "2026-05-07T11:11:17.275Z",
-        "matchedName": "MONITOR LG 27U41YA-B FHD 120Hz",
-        "storeProductId": "/categories/MONITOR-LG-27U41YA-B-FHD-120Hz-MO0970",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.582Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:17.596Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:22.282Z"
-  },
-  "neptun-25323": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:23.487Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:24.710Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 32997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS34C500GAUXEN-MO0793",
-        "lastChecked": "2026-05-07T11:11:22.728Z",
-        "matchedName": "MONITOR SAMSUNG LS34C500GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS34C500GAUXEN-MO0793",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.962Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.824Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:24.712Z"
-  },
-  "neptun-26823": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200002155/Monitor-Samsung-LS32D701EAUXEN-ViewFinity-S7-27-inch-i-bardhe",
-        "lastChecked": "2026-05-07T11:11:23.375Z",
-        "matchedName": "Monitor, Samsung, LS32D701EAUXEN ViewFinity S7, 27 inch, i bardhë",
-        "storeProductId": "/AXR-200002155/Monitor-Samsung-LS32D701EAUXEN-ViewFinity-S7-27-inch-i-bardhe",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:24.779Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 30990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS32D701EAUXEN-MO0878",
-        "lastChecked": "2026-05-07T11:11:22.721Z",
-        "matchedName": "MONITOR SAMSUNG LS32D701EAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS32D701EAUXEN-MO0878",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.944Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.825Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:24.781Z"
-  },
-  "neptun-26785": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi",
-        "lastChecked": "2026-05-07T11:11:23.333Z",
-        "matchedName": "Monitor, Samsung, ViewFinity S70D LS27D700EAUXEN, 27 inç, zi",
-        "storeProductId": "/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:25.088Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 29990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27D700EAUXEN-MO0849",
-        "lastChecked": "2026-05-07T11:11:22.715Z",
-        "matchedName": "MONITOR SAMSUNG LS27D700EAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D700EAUXEN-MO0849",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.961Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.829Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:25.090Z"
-  },
-  "neptun-27322": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ICO-200002260/Monitor-LG-UltraWide-34WQ650-W-34-TFT-LCD-argjend-zi-bardhe",
-        "lastChecked": "2026-05-07T11:11:23.341Z",
-        "matchedName": "Monitor LG UltraWide 34WQ650-W 34\" TFT/LCD, argjend/zi/bardhë",
-        "storeProductId": "/ICO-200002260/Monitor-LG-UltraWide-34WQ650-W-34-TFT-LCD-argjend-zi-bardhe",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:25.119Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 20990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-ULTRAWIDE-29WQ600-W-MO0889",
-        "lastChecked": "2026-05-07T11:11:22.704Z",
-        "matchedName": "MONITOR LG ULTRAWIDE 29WQ600-W",
-        "storeProductId": "/categories/MONITOR-LG-ULTRAWIDE-29WQ600-W-MO0889",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.934Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.814Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:25.121Z"
-  },
-  "neptun-20788": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:23.631Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:25.197Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 27997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27A700NWUXEN-MO0686",
-        "lastChecked": "2026-05-07T11:11:22.711Z",
-        "matchedName": "MONITOR SAMSUNG LS27A700NWUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27A700NWUXEN-MO0686",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.963Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.822Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:25.199Z"
-  },
-  "neptun-26784": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200062101/Monitor-Samsung-ViewFinity-S7-LS37D702EAUXEN",
-        "lastChecked": "2026-05-07T11:11:23.827Z",
-        "matchedName": "Monitor Samsung ViewFinity S7 LS37D702EAUXEN",
-        "storeProductId": "/KST-200062101/Monitor-Samsung-ViewFinity-S7-LS37D702EAUXEN",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:25.217Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 30990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS32D700EAUXEN-MO0848",
-        "lastChecked": "2026-05-07T11:11:22.725Z",
-        "matchedName": "MONITOR SAMSUNG LS32D700EAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS32D700EAUXEN-MO0848",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.945Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.807Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:25.219Z"
-  },
-  "neptun-25275": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:24.258Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:26.150Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 26997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-HP-E27-G4-9VG71AA-MO0705",
-        "lastChecked": "2026-05-07T11:11:22.708Z",
-        "matchedName": "MONITOR HP E27 G4 9VG71AA",
-        "storeProductId": "/categories/MONITOR-HP-E27-G4-9VG71AA-MO0705",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.934Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.895Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:26.152Z"
-  },
-  "neptun-17167": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200003014/Monitor-DELL-UltraSharp-U4323QE-109.2-cm-43-4K-Ultra-HD-LCD-Silver",
-        "lastChecked": "2026-05-07T11:11:23.735Z",
-        "matchedName": "Monitor DELL UltraSharp U4323QE, 109.2 cm (43\"), 4K Ultra HD, LCD, Silver",
-        "storeProductId": "/KST-200003014/Monitor-DELL-UltraSharp-U4323QE-109.2-cm-43-4K-Ultra-HD-LCD-Silver",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:26.444Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 29997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Dell-Monitor-Ultra-Sharp-U2421HE-MO0610",
-        "lastChecked": "2026-05-07T11:11:22.718Z",
-        "matchedName": "MONITOR DELL ULTRA SHARP U2421HE",
-        "storeProductId": "/categories/Dell-Monitor-Ultra-Sharp-U2421HE-MO0610",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.937Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-07T11:11:22.918Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-07T11:11:26.445Z"
+    "refreshedAt": "2026-05-07T11:11:53.752Z"
   }
 }
