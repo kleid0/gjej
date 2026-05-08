@@ -1,37 +1,138 @@
 {
-  "shpresa-apple-iphone-14-256gb": {
+  "shpresa-hp-prodesk-600-g5-sff-16gb-256gb-ssd-core-i7": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 79900,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T07:21:47.288Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 34990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ERG-200005833/Celular-Apple-iPhone-14-256GB-6.1-inch-Midnight",
-        "lastChecked": "2026-05-08T07:21:14.369Z",
-        "matchedName": "Celular Apple iPhone 14 256GB 6.1 inch Midnight",
-        "storeProductId": "/ERG-200005833/Celular-Apple-iPhone-14-256GB-6.1-inch-Midnight",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "shpresa",
-        "price": 35990,
-        "inStock": false,
-        "stockLabel": "Jo në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-iphone-14-256gb/",
-        "lastChecked": "2026-05-08T07:21:13.028Z",
-        "matchedName": "Apple iPhone 14 256GB",
-        "suspicious": true
+        "productUrl": "https://shpresa.al/product/hp-prodesk-600-g5-sff-16gb-256gb-ssd-core-i7/",
+        "lastChecked": "2026-05-08T07:21:46.134Z",
+        "matchedName": "HP ProDesk 600 G5 SFF 16GB, 256GB SSD, Core i7"
       },
       {
         "storeId": "neptun",
-        "price": 99997,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T07:21:46.424Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T07:21:46.157Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T07:21:46.260Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T07:21:47.308Z"
+  },
+  "shpresa-lenovo-thinkpad-e14-14-8gb-256gb-ssd-core-i5-3": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200053634/Kompjuter-Lenovo-ThinkPad-E14-G7-Ryzen-7-16GB-512GB-14-inch-i-zi",
+        "lastChecked": "2026-05-08T07:21:47.366Z",
+        "matchedName": "Kompjuter Lenovo ThinkPad E14 G7, Ryzen 7, 16GB/512GB, 14 inch, i zi",
+        "storeProductId": "/KST-200053634/Kompjuter-Lenovo-ThinkPad-E14-G7-Ryzen-7-16GB-512GB-14-inch-i-zi",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/lenovo-thinkpad-e14-g3-14-16gb-512gb-ssd-ryzen-5/",
+        "lastChecked": "2026-05-08T07:21:46.141Z",
+        "matchedName": "Lenovo Thinkpad E14 G3 14&#8243;, 16GB, 512GB SSD, Ryzen™ 5",
+        "storeProductId": "188926",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T07:21:46.338Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T07:21:46.210Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T07:21:46.230Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T07:21:47.392Z"
+  },
+  "shpresa-hp-prodesk-400-g5-sff-16gb-256gb-ssd-core-i5": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T07:21:47.392Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 27990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/iPhone-14-256GB-RED-TL3704",
-        "lastChecked": "2026-05-08T07:21:13.028Z",
-        "matchedName": "iPhone 14 256GB RED",
-        "storeProductId": "/categories/iPhone-14-256GB-RED-TL3704",
-        "matchConfidence": 100
+        "productUrl": "https://shpresa.al/product/hp-prodesk-400-g5-sff-16gb-256gb-ssd-core-i5/",
+        "lastChecked": "2026-05-08T07:21:46.127Z",
+        "matchedName": "HP ProDesk 400 G6 SFF, 16GB, 256GB SSD, Core i5"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T07:21:46.445Z",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "globe",
@@ -39,7 +140,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:13.114Z",
+        "lastChecked": "2026-05-08T07:21:46.206Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -48,436 +149,36 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:13.219Z",
+        "lastChecked": "2026-05-08T07:21:46.255Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T07:21:14.484Z"
+    "refreshedAt": "2026-05-08T07:21:47.392Z"
   },
-  "shpresa-gaming-desktop-custom-build-16gb-512gb-ssd-core-ultra-5": {
+  "shpresa-karcher-wet-dry-vacuum-cleaner-wd-3-s-v-17-4-20": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:13.078Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 104990,
-        "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/gaming-desktop-custom-build-16gb-1tb-ssd-ryzen-7-7/",
-        "lastChecked": "2026-05-08T07:21:13.041Z",
-        "matchedName": "Gaming Desktop Custom Build, 16GB, 1TB SSD, Ryzen 7",
-        "storeProductId": "185351",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:13.159Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:13.172Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:13.093Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T07:21:14.643Z"
-  },
-  "shpresa-xiaomi-sound-party": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:14.119Z",
+        "productUrl": "https://www.foleja.al/ICO-200001509/Fshese-me-uje-e-tharje-Kaercher-WD-3-S-V-17-4-20-1.628-135.0-1000W-depozite-inox-17L-zorre-2m-kabllo-4m-e-verdhe",
+        "lastChecked": "2026-05-08T07:21:47.035Z",
+        "matchedName": "Fshesë me ujë e tharje, Kärcher WD 3 S V-17/4/20 (1.628-135.0), 1000W, depozitë inox 17L, zorrë 2m, kabllo 4m, e verdhë",
+        "storeProductId": "/ICO-200001509/Fshese-me-uje-e-tharje-Kaercher-WD-3-S-V-17-4-20-1.628-135.0-1000W-depozite-inox-17L-zorre-2m-kabllo-4m-e-verdhe",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:15.783Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:13.222Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:13.114Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:13.148Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T07:21:15.783Z"
-  },
-  "shpresa-godox-k-180a-mini-master-studio-flash-kit": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.804Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 39990,
-        "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/godox-k-180a-mini-master-studio-flash-kit/",
-        "lastChecked": "2026-05-08T07:21:16.084Z",
-        "matchedName": "Godox K-180A Mini Master Studio Flash Kit"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.317Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.104Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.146Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T07:21:16.806Z"
-  },
-  "shpresa-godox-vsm-b01-desk-mounted-boom-arm": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.894Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 6990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/godox-vsm-b01-desk-mounted-boom-arm/",
-        "lastChecked": "2026-05-08T07:21:16.079Z",
-        "matchedName": "Godox VSM-B01 Desk-Mounted Boom Arm"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.306Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.107Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.169Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T07:21:17.029Z"
-  },
-  "shpresa-google-pixel-10-pro": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 118383,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200058110/Celular-Google-Pixel-10-Pro-256GB-Porcelain",
-        "lastChecked": "2026-05-08T07:21:17.032Z",
-        "matchedName": "Celular Google Pixel 10 Pro 256GB Porcelain",
-        "storeProductId": "/KST-200058110/Celular-Google-Pixel-10-Pro-256GB-Porcelain",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "shpresa",
-        "price": 74990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/google-pixel-10-pro/",
-        "lastChecked": "2026-05-08T07:21:16.076Z",
-        "matchedName": "Google Pixel 10 Pro"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.190Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.108Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.124Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T07:21:17.033Z"
-  },
-  "shpresa-kingsmith-walkingpad-r3-foldable-walking-pad": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.929Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 44990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/kingsmith-walkingpad-r3-foldable-walking-pad/",
-        "lastChecked": "2026-05-08T07:21:16.074Z",
-        "matchedName": "Kingsmith WalkingPad® R3 Foldable Walking Pad"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.389Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.109Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.160Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T07:21:17.111Z"
-  },
-  "shpresa-godox-dp400iii-studio-flash-kit": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.821Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 79990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/godox-dp400iii-studio-flash-kit/",
-        "lastChecked": "2026-05-08T07:21:16.086Z",
-        "matchedName": "Godox DP400III Studio Flash Kit"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.306Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.109Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.141Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T07:21:17.117Z"
-  },
-  "shpresa-godox-ms300-studio-flash-monolight-3-light-kit": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.951Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 49990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/godox-ms300-studio-flash-monolight-3-light-kit/",
-        "lastChecked": "2026-05-08T07:21:16.081Z",
-        "matchedName": "Godox MS300 Studio Flash Monolight (3-Light Kit)"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.317Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.103Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.161Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T07:21:17.134Z"
-  },
-  "shpresa-inno3d-geforce-rtx-5060-ti-8gb-twin-x2": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 67054,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300256118/Karte-grafike-INNO3D-GeForce-RTX-5060-Ti-TWIN-X2-16GB-Gri",
-        "lastChecked": "2026-05-08T07:21:16.826Z",
-        "matchedName": "Kartë grafike INNO3D GeForce RTX 5060 Ti TWIN X2, 16GB, Gri",
-        "storeProductId": "/ACN-300256118/Karte-grafike-INNO3D-GeForce-RTX-5060-Ti-TWIN-X2-16GB-Gri",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:18.531Z",
+        "productUrl": "https://shpresa.al/product/karcher-wet-dry-vacuum-cleaner-wd-5-v-25-5-22/",
+        "lastChecked": "2026-05-08T07:21:46.143Z",
+        "matchedName": "Kärcher Wet &#038; Dry Vacuum Cleaner WD 5 V-25/5/22",
+        "storeProductId": "152078",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -486,7 +187,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.342Z",
+        "lastChecked": "2026-05-08T07:21:46.650Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -495,7 +196,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.099Z",
+        "lastChecked": "2026-05-08T07:21:46.212Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -504,60 +205,10 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.142Z",
+        "lastChecked": "2026-05-08T07:21:46.298Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T07:21:18.531Z"
-  },
-  "shpresa-kingsmith-walkingpad-r2-walkrun-2in1-foldable-treadmill": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:17.026Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:18.546Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.395Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.131Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T07:21:16.162Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T07:21:18.546Z"
+    "refreshedAt": "2026-05-08T07:21:48.680Z"
   }
 }
