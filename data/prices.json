@@ -1,5 +1,5 @@
 {
-  "neptun-18511": {
+  "neptun-6602": {
     "prices": [
       {
         "storeId": "foleja",
@@ -7,7 +7,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:28.458Z",
+        "lastChecked": "2026-05-08T10:17:10.818Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -16,18 +16,68 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:29.464Z",
+        "lastChecked": "2026-05-08T10:17:11.243Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 1590,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:10.302Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:16.276Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:10.198Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:16.277Z"
+  },
+  "neptun-6668": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:17.657Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:17.855Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4190,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/THEKESE-BUKE-FUEGO-TA01305-TO0352",
-        "lastChecked": "2026-05-08T10:16:27.800Z",
-        "matchedName": "THEKESE BUKE FUEGO TA01305",
-        "storeProductId": "/categories/THEKESE-BUKE-FUEGO-TA01305-TO0352",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-ROWENTA-TN6000F4",
+        "lastChecked": "2026-05-08T10:17:16.682Z",
+        "matchedName": "MAKINE QETHESE ROWENTA TN6000F5",
+        "storeProductId": "/categories/MAKINE-QETHESE-ROWENTA-TN6000F4",
         "matchConfidence": 100
       },
       {
@@ -36,7 +86,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:34.306Z",
+        "lastChecked": "2026-05-08T10:17:16.765Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -45,13 +95,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:27.864Z",
+        "lastChecked": "2026-05-08T10:17:16.755Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:34.310Z"
+    "refreshedAt": "2026-05-08T10:17:17.856Z"
   },
-  "neptun-31160": {
+  "neptun-30172": {
     "prices": [
       {
         "storeId": "foleja",
@@ -59,7 +109,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:28.516Z",
+        "lastChecked": "2026-05-08T10:17:17.820Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -68,18 +118,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:29.323Z",
+        "lastChecked": "2026-05-08T10:17:18.908Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 6790,
+        "price": 4790,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PESHORE-KUZHINE-WMF-0608716030-PE0243",
-        "lastChecked": "2026-05-08T10:16:27.750Z",
-        "matchedName": "PESHORE KUZHINE WMF 0608716030",
-        "storeProductId": "/categories/PESHORE-KUZHINE-WMF-0608716030-PE0243",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-MG5931-15-MK0718",
+        "lastChecked": "2026-05-08T10:17:16.700Z",
+        "matchedName": "MAKINE QETHESE PHILIPS MG5931/15",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-MG5931-15-MK0718",
         "matchConfidence": 100
       },
       {
@@ -88,7 +138,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:34.401Z",
+        "lastChecked": "2026-05-08T10:17:16.765Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -97,13 +147,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:27.859Z",
+        "lastChecked": "2026-05-08T10:17:16.803Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:34.420Z"
+    "refreshedAt": "2026-05-08T10:17:18.908Z"
   },
-  "neptun-14800": {
+  "neptun-20746": {
     "prices": [
       {
         "storeId": "foleja",
@@ -111,7 +161,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:28.250Z",
+        "lastChecked": "2026-05-08T10:17:17.673Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -120,18 +170,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:29.639Z",
+        "lastChecked": "2026-05-08T10:17:19.720Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 1597,
+        "price": 5690,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/RRAHESE-FIRST-AUSTRIA-FA-5263-2-RR0111",
-        "lastChecked": "2026-05-08T10:16:27.754Z",
-        "matchedName": "RRAHESE FIRST AUSTRIA FA-5263-2",
-        "storeProductId": "/categories/RRAHESE-FIRST-AUSTRIA-FA-5263-2-RR0111",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-ROWENTA-TN9400F4-MK0667",
+        "lastChecked": "2026-05-08T10:17:16.704Z",
+        "matchedName": "MAKINE QETHESE ROWENTA TN9400F4",
+        "storeProductId": "/categories/MAKINE-QETHESE-ROWENTA-TN9400F4-MK0667",
         "matchConfidence": 100
       },
       {
@@ -140,7 +190,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:34.576Z",
+        "lastChecked": "2026-05-08T10:17:16.764Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -149,13 +199,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:27.848Z",
+        "lastChecked": "2026-05-08T10:17:16.775Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:34.577Z"
+    "refreshedAt": "2026-05-08T10:17:19.720Z"
   },
-  "neptun-16111": {
+  "neptun-30809": {
     "prices": [
       {
         "storeId": "foleja",
@@ -163,7 +213,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:28.959Z",
+        "lastChecked": "2026-05-08T10:17:17.755Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -172,2157 +222,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:30.659Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 1990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/THEKESE-BUKE-FIRST-AUSTRIA-FA-5366-CH-TO0346",
-        "lastChecked": "2026-05-08T10:16:27.786Z",
-        "matchedName": "THEKESE BUKE FIRST AUSTRIA FA-5366-CH",
-        "storeProductId": "/categories/THEKESE-BUKE-FIRST-AUSTRIA-FA-5366-CH-TO0346",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:34.866Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:27.905Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:34.875Z"
-  },
-  "neptun-18512": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:28.530Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:29.670Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 1190,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/THEKESE-BUKE-FUEGO-TA1057-TO0353",
-        "lastChecked": "2026-05-08T10:16:27.795Z",
-        "matchedName": "THEKESE BUKE FUEGO TA1057",
-        "storeProductId": "/categories/THEKESE-BUKE-FUEGO-TA1057-TO0353",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:35.676Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:27.872Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:35.677Z"
-  },
-  "neptun-10708": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.869Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:37.146Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 4390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/THEKESE-BUKE-TEFAL-TT420D30",
-        "lastChecked": "2026-05-08T10:16:36.070Z",
-        "matchedName": "THEKESE BUKE TEFAL TT420D30",
-        "storeProductId": "/categories/THEKESE-BUKE-TEFAL-TT420D30",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.120Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.195Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:37.147Z"
-  },
-  "neptun-26561": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.631Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:37.635Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3790,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/THEKESE-BUKE-TEFAL-TT2M1410-TO0366",
-        "lastChecked": "2026-05-08T10:16:36.062Z",
-        "matchedName": "THEKESE BUKE TEFAL TT2M1410",
-        "storeProductId": "/categories/THEKESE-BUKE-TEFAL-TT2M1410-TO0366",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.119Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.162Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:37.636Z"
-  },
-  "neptun-21424": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.567Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:37.788Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-VESHJE-GURI---INDUKSION-HOMESTYLE-28-CM-TE0250",
-        "lastChecked": "2026-05-08T10:16:36.102Z",
-        "matchedName": "TENXHERE VESHJE GURI + INDUKSION HOMESTYLE 28 CM",
-        "storeProductId": "/categories/TENXHERE-VESHJE-GURI---INDUKSION-HOMESTYLE-28-CM-TE0250",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.182Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.178Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:37.789Z"
-  },
-  "neptun-8918": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:37.257Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:38.384Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-HOME-STYLE-18-CM-INOX",
-        "lastChecked": "2026-05-08T10:16:36.106Z",
-        "matchedName": "TENXHERE HOME STYLE 18 CM INOX",
-        "storeProductId": "/categories/TENXHERE-HOME-STYLE-18-CM-INOX",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.185Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.216Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:38.384Z"
-  },
-  "neptun-27092": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:37.470Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:38.431Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.458Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.122Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.211Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:38.431Z"
-  },
-  "neptun-27093": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:37.240Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:38.571Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-ZENZERO-1-2-E-THELLE-24-CM-INDUCTION-TE0259",
-        "lastChecked": "2026-05-08T10:16:36.082Z",
-        "matchedName": "TENXHERE ZENZERO 1/2 E THELLE 24 CM INDUCTION",
-        "storeProductId": "/categories/TENXHERE-ZENZERO-1-2-E-THELLE-24-CM-INDUCTION-TE0259",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.141Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.226Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:38.572Z"
-  },
-  "neptun-20473": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:37.349Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:38.621Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 6990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/THEKESE-BUKE-BOSCH-TAT3P424-TO0362",
-        "lastChecked": "2026-05-08T10:16:36.074Z",
-        "matchedName": "THEKESE BUKE BOSCH TAT3P424",
-        "storeProductId": "/categories/THEKESE-BUKE-BOSCH-TAT3P424-TO0362",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.120Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.190Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:38.622Z"
-  },
-  "neptun-27095": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:37.336Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:38.731Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-24-CM-ZENZERO-INDUCTION-TE0261",
-        "lastChecked": "2026-05-08T10:16:36.094Z",
-        "matchedName": "TENXHERE 24 CM ZENZERO INDUCTION",
-        "storeProductId": "/categories/TENXHERE-24-CM-ZENZERO-INDUCTION-TE0261",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.151Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.201Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:38.731Z"
-  },
-  "neptun-27094": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:37.226Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:38.831Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2890,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-ZENZERO-1-2-E-THELLE-28-CM-INDUCTION-TE0260",
-        "lastChecked": "2026-05-08T10:16:36.090Z",
-        "matchedName": "TENXHERE ZENZERO 1/2 E THELLE 28 CM INDUCTION",
-        "storeProductId": "/categories/TENXHERE-ZENZERO-1-2-E-THELLE-28-CM-INDUCTION-TE0260",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.122Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.207Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:38.832Z"
-  },
-  "neptun-24016": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 4500,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KOM-200159941/Tostier-Philips-HD2582-90-ngjyre-e-zeze",
-        "lastChecked": "2026-05-08T10:16:36.948Z",
-        "matchedName": "Tostier Philips HD2582/90, ngjyrë e zezë",
-        "storeProductId": "/KOM-200159941/Tostier-Philips-HD2582-90-ngjyre-e-zeze",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:38.870Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/THEKESE-BUKE-PHILIPS-HD2582-90-TO0365",
-        "lastChecked": "2026-05-08T10:16:36.078Z",
-        "matchedName": "THEKESE BUKE PHILIPS HD2582/90",
-        "storeProductId": "/categories/THEKESE-BUKE-PHILIPS-HD2582-90-TO0365",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.121Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.230Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:38.870Z"
-  },
-  "neptun-8924": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.961Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:38.889Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2690,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-HOME-STYLE-22-CM-9722",
-        "lastChecked": "2026-05-08T10:16:36.097Z",
-        "matchedName": "TENXHERE HOME STYLE 22 CM 9722",
-        "storeProductId": "/categories/TENXHERE-HOME-STYLE-22-CM-9722",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.184Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.204Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:38.890Z"
-  },
-  "neptun-10710": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:37.566Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.162Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 4097,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/THEKESE-BUKE-BEKO-TAM-6201-X",
-        "lastChecked": "2026-05-08T10:16:36.066Z",
-        "matchedName": "THEKESE BUKE BEKO TAM 6201 X",
-        "storeProductId": "/categories/THEKESE-BUKE-BEKO-TAM-6201-X",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.120Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:36.258Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:40.162Z"
-  },
-  "neptun-16344": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:41.135Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:42.661Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/SET-MINIBUFFET-COOKPAN-TE0230",
-        "lastChecked": "2026-05-08T10:16:40.504Z",
-        "matchedName": "SET MINIBUFFET COOKPAN",
-        "storeProductId": "/categories/SET-MINIBUFFET-COOKPAN-TE0230",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.543Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.656Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:42.662Z"
-  },
-  "neptun-17312": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:41.939Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:42.786Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3790,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-INOKSI-E-SHKURTER-HOMESTYLE-28-CM-TE0232",
-        "lastChecked": "2026-05-08T10:16:40.483Z",
-        "matchedName": "TENXHERE INOKSI E SHKURTER HOMESTYLE 28 CM",
-        "storeProductId": "/categories/TENXHERE-INOKSI-E-SHKURTER-HOMESTYLE-28-CM-TE0232",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.522Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.777Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:42.787Z"
-  },
-  "neptun-8928": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:41.638Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:43.242Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3590,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-HOME-STYLE-28-CM-9728",
-        "lastChecked": "2026-05-08T10:16:40.493Z",
-        "matchedName": "TENXHERE HOME STYLE 28 CM 9728",
-        "storeProductId": "/categories/TENXHERE-HOME-STYLE-28-CM-9728",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.541Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.746Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:43.243Z"
-  },
-  "neptun-17741": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:41.753Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:43.345Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 5990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-UNLIMITED-G2554672-24-CM-TE0235",
-        "lastChecked": "2026-05-08T10:16:40.518Z",
-        "matchedName": "TENXHERE TEFAL UNLIMITED G2554672 24 CM",
-        "storeProductId": "/categories/TENXHERE-TEFAL-UNLIMITED-G2554672-24-CM-TE0235",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.544Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.746Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:43.345Z"
-  },
-  "neptun-8900": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:41.540Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:43.460Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3790,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-HOME-STYLE-24-CM-INOX",
-        "lastChecked": "2026-05-08T10:16:40.495Z",
-        "matchedName": "TENXHERE HOME STYLE 24 CM INOX",
-        "storeProductId": "/categories/TENXHERE-HOME-STYLE-24-CM-INOX",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.524Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.743Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:43.460Z"
-  },
-  "neptun-8896": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:41.568Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:43.549Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3190,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-HOME-STYLE-20-CM-INOX",
-        "lastChecked": "2026-05-08T10:16:40.485Z",
-        "matchedName": "TENXHERE HOME STYLE 20 CM INOX",
-        "storeProductId": "/categories/TENXHERE-HOME-STYLE-20-CM-INOX",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.523Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.741Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:43.549Z"
-  },
-  "neptun-30086": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:41.774Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:43.688Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3097,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-ME-INDUKSION-DIAMANTE-ME-KAPAK-20-TE0254",
-        "lastChecked": "2026-05-08T10:16:40.490Z",
-        "matchedName": "TENXHERE ME INDUKSION DIAMANTE ME KAPAK 20",
-        "storeProductId": "/categories/TENXHERE-ME-INDUKSION-DIAMANTE-ME-KAPAK-20-TE0254",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.524Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.758Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:43.689Z"
-  },
-  "neptun-20611": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:41.511Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:43.744Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-G7124645-24-CM---KAPAK-TE0242",
-        "lastChecked": "2026-05-08T10:16:40.500Z",
-        "matchedName": "TENXHERE TEFAL G7124645 24 CM + KAPAK",
-        "storeProductId": "/categories/TENXHERE-TEFAL-G7124645-24-CM---KAPAK-TE0242",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.542Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.755Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:43.744Z"
-  },
-  "neptun-8898": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:41.526Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:43.799Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-HOME-STYLE-22-CM-INOX",
-        "lastChecked": "2026-05-08T10:16:40.488Z",
-        "matchedName": "TENXHERE HOME STYLE 22 CM INOX",
-        "storeProductId": "/categories/TENXHERE-HOME-STYLE-22-CM-INOX",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.523Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.745Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:43.799Z"
-  },
-  "neptun-8926": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:41.556Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:43.912Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3190,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-HOME-STYLE-26-CM-9726",
-        "lastChecked": "2026-05-08T10:16:40.479Z",
-        "matchedName": "TENXHERE HOME STYLE 26 CM 9726",
-        "storeProductId": "/categories/TENXHERE-HOME-STYLE-26-CM-9726",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.522Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.748Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:43.912Z"
-  },
-  "neptun-17739": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ACN-300050557/Tigan-Tefal-Simply-Clean-B5671953",
-        "lastChecked": "2026-05-08T10:16:42.063Z",
-        "matchedName": "Tigan Tefal Simply Clean B5671953",
-        "storeProductId": "/ACN-300050557/Tigan-Tefal-Simply-Clean-B5671953",
-        "matchConfidence": 75,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:43.914Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 3490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-SIMPLY-CLEAN-B5674653-24-CM-TE0233",
-        "lastChecked": "2026-05-08T10:16:40.497Z",
-        "matchedName": "TENXHERE TEFAL SIMPLY CLEAN B5674653 24 CM",
-        "storeProductId": "/categories/TENXHERE-TEFAL-SIMPLY-CLEAN-B5674653-24-CM-TE0233",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.541Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.761Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:43.914Z"
-  },
-  "neptun-17740": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ACN-300050557/Tigan-Tefal-Simply-Clean-B5671953",
-        "lastChecked": "2026-05-08T10:16:42.082Z",
-        "matchedName": "Tigan Tefal Simply Clean B5671953",
-        "storeProductId": "/ACN-300050557/Tigan-Tefal-Simply-Clean-B5671953",
-        "matchConfidence": 75,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:42.794Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 4090,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-SIMPLY-CLEAN-B5677253-28-CM-TE0234",
-        "lastChecked": "2026-05-08T10:16:40.502Z",
-        "matchedName": "TENXHERE TEFAL SIMPLY CLEAN B5677253 28 CM",
-        "storeProductId": "/categories/TENXHERE-TEFAL-SIMPLY-CLEAN-B5677253-28-CM-TE0234",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.542Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:40.748Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:45.965Z"
-  },
-  "neptun-20612": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ALL-200001252/Set-me-5-tenxhere-Zwilling-Essecnce-66220-002-0",
-        "lastChecked": "2026-05-08T10:16:47.286Z",
-        "matchedName": "Set me 5 tenxhere Zwilling Essecnce 66220-002-0",
-        "storeProductId": "/ALL-200001252/Set-me-5-tenxhere-Zwilling-Essecnce-66220-002-0",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:47.526Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-SET-G719S734-7P-TE0246",
-        "lastChecked": "2026-05-08T10:16:46.297Z",
-        "matchedName": "TENXHERE TEFAL SET G719S735 7P",
-        "storeProductId": "/categories/TENXHERE-TEFAL-SET-G719S734-7P-TE0246",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.370Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.340Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:47.526Z"
-  },
-  "neptun-30260": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.859Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:47.609Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 9090,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-P2590701-TE0264",
-        "lastChecked": "2026-05-08T10:16:46.288Z",
-        "matchedName": "TENXHERE TEFAL P2590701",
-        "storeProductId": "/categories/TENXHERE-TEFAL-P2590701-TE0264",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.361Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.352Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:47.610Z"
-  },
-  "neptun-28286": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.656Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:48.054Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 9590,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-8L-P2584401-TE0257",
-        "lastChecked": "2026-05-08T10:16:46.291Z",
-        "matchedName": "TENXHERE TEFAL 8L P2584401",
-        "storeProductId": "/categories/TENXHERE-TEFAL-8L-P2584401-TE0257",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.377Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.348Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:48.055Z"
-  },
-  "neptun-21586": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 22600,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ALL-200001252/Set-me-5-tenxhere-Zwilling-Essecnce-66220-002-0",
-        "lastChecked": "2026-05-08T10:16:47.282Z",
-        "matchedName": "Set me 5 tenxhere Zwilling Essecnce 66220-002-0",
-        "storeProductId": "/ALL-200001252/Set-me-5-tenxhere-Zwilling-Essecnce-66220-002-0",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:48.082Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-SET-G719S734-7P-TE0246",
-        "lastChecked": "2026-05-08T10:16:46.308Z",
-        "matchedName": "TENXHERE TEFAL SET G719S735 7P",
-        "storeProductId": "/categories/TENXHERE-TEFAL-SET-G719S734-7P-TE0246",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.364Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.356Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:48.083Z"
-  },
-  "neptun-30261": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.766Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:48.175Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 10090,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-P2594401-TE0265",
-        "lastChecked": "2026-05-08T10:16:46.294Z",
-        "matchedName": "TENXHERE TEFAL P2594401",
-        "storeProductId": "/categories/TENXHERE-TEFAL-P2594401-TE0265",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.397Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.357Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:48.176Z"
-  },
-  "neptun-30259": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.873Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:48.180Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 14990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-G719SA55-TE0263",
-        "lastChecked": "2026-05-08T10:16:46.305Z",
-        "matchedName": "TENXHERE TEFAL G719SA55",
-        "storeProductId": "/categories/TENXHERE-TEFAL-G719SA55-TE0263",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.362Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.347Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:48.181Z"
-  },
-  "neptun-420": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.641Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:48.236Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 9997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-8L-P2534441",
-        "lastChecked": "2026-05-08T10:16:46.300Z",
-        "matchedName": "TENXHERE TEFAL 8L P2534441",
-        "storeProductId": "/categories/TENXHERE-TEFAL-8L-P2534441",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.390Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.362Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:48.237Z"
-  },
-  "neptun-30186": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ALL-200001252/Set-me-5-tenxhere-Zwilling-Essecnce-66220-002-0",
-        "lastChecked": "2026-05-08T10:16:47.291Z",
-        "matchedName": "Set me 5 tenxhere Zwilling Essecnce 66220-002-0",
-        "storeProductId": "/ALL-200001252/Set-me-5-tenxhere-Zwilling-Essecnce-66220-002-0",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:48.292Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-SET-G719S734-7P-TE0246",
-        "lastChecked": "2026-05-08T10:16:46.314Z",
-        "matchedName": "TENXHERE TEFAL SET G719S735 7P",
-        "storeProductId": "/categories/TENXHERE-TEFAL-SET-G719S734-7P-TE0246",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.390Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.371Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:48.293Z"
-  },
-  "neptun-30842": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.890Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:48.331Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 13890,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-P2584301-TE0266",
-        "lastChecked": "2026-05-08T10:16:46.303Z",
-        "matchedName": "TENXHERE TEFAL P2584301",
-        "storeProductId": "/categories/TENXHERE-TEFAL-P2584301-TE0266",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.383Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.360Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:48.332Z"
-  },
-  "neptun-30366": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.845Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:48.362Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 8690,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-6L-P2580701-TE0256",
-        "lastChecked": "2026-05-08T10:16:46.284Z",
-        "matchedName": "TENXHERE TEFAL 6L P2580701",
-        "storeProductId": "/categories/TENXHERE-TEFAL-6L-P2580701-TE0256",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.355Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.344Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:48.362Z"
-  },
-  "neptun-20615": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:47.169Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:48.782Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-SET-G719S734-7P-TE0246",
-        "lastChecked": "2026-05-08T10:16:46.311Z",
-        "matchedName": "TENXHERE TEFAL SET G719S735 7P",
-        "storeProductId": "/categories/TENXHERE-TEFAL-SET-G719S734-7P-TE0246",
-        "matchConfidence": 80,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.385Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.378Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:48.783Z"
-  },
-  "neptun-17742": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:47.546Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:48.788Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 8690,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-TEFAL-UNLIMITED-G2557172-26-CM-TE0236",
-        "lastChecked": "2026-05-08T10:16:46.317Z",
-        "matchedName": "TENXHERE TEFAL UNLIMITED G2557172 26 CM",
-        "storeProductId": "/categories/TENXHERE-TEFAL-UNLIMITED-G2557172-26-CM-TE0236",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.382Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:46.375Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:48.788Z"
-  },
-  "neptun-19137": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.820Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:50.257Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2507,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-FYTYRE-VEET-DE0208",
-        "lastChecked": "2026-05-08T10:16:49.263Z",
-        "matchedName": "DEPILATOR FYTYRE VEET",
-        "storeProductId": "/categories/DEPILATOR-FYTYRE-VEET-DE0208",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.323Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.400Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:50.258Z"
-  },
-  "neptun-31151": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.686Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:50.737Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 35990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-WMF-0723446380-TE0268",
-        "lastChecked": "2026-05-08T10:16:49.288Z",
-        "matchedName": "TENXHERE WMF 0723446380",
-        "storeProductId": "/categories/TENXHERE-WMF-0723446380-TE0268",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.370Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.317Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:50.738Z"
-  },
-  "neptun-31152": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.927Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:51.056Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 45990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TENXHERE-WMF-0751556040-TE0269",
-        "lastChecked": "2026-05-08T10:16:49.259Z",
-        "matchedName": "TENXHERE WMF 0751556040",
-        "storeProductId": "/categories/TENXHERE-WMF-0751556040-TE0269",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.321Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.336Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:51.057Z"
-  },
-  "neptun-26582": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:50.512Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:51.521Z",
+        "lastChecked": "2026-05-08T10:17:20.253Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2330,10 +230,10 @@
         "price": 4290,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-FYTYRE-BRAUN-FS1000-DE0286",
-        "lastChecked": "2026-05-08T10:16:49.265Z",
-        "matchedName": "DEPILATOR FYTYRE BRAUN FS1000",
-        "storeProductId": "/categories/DEPILATOR-FYTYRE-BRAUN-FS1000-DE0286",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-BRAUN-SK3400-MK0727",
+        "lastChecked": "2026-05-08T10:17:16.697Z",
+        "matchedName": "MAKINE QETHESE BRAUN SK3400",
+        "storeProductId": "/categories/MAKINE-QETHESE-BRAUN-SK3400-MK0727",
         "matchConfidence": 100
       },
       {
@@ -2342,7 +242,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.323Z",
+        "lastChecked": "2026-05-08T10:17:16.772Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2351,13 +251,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.372Z",
+        "lastChecked": "2026-05-08T10:17:16.830Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:51.522Z"
+    "refreshedAt": "2026-05-08T10:17:20.254Z"
   },
-  "neptun-2344": {
+  "neptun-30632": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2365,7 +265,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:50.167Z",
+        "lastChecked": "2026-05-08T10:17:17.576Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2374,18 +274,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:51.688Z",
+        "lastChecked": "2026-05-08T10:17:20.314Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 3997,
+        "price": 3890,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-BRAUN-SE3170-GN",
-        "lastChecked": "2026-05-08T10:16:49.278Z",
-        "matchedName": "DEPILATOR BRAUN SE3170 GN",
-        "storeProductId": "/categories/DEPILATOR-BRAUN-SE3170-GN",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-MG3930-15-MK0719",
+        "lastChecked": "2026-05-08T10:17:16.672Z",
+        "matchedName": "MAKINE QETHESE PHILIPS MG3930/15",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-MG3930-15-MK0719",
         "matchConfidence": 100
       },
       {
@@ -2394,7 +294,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.322Z",
+        "lastChecked": "2026-05-08T10:17:16.767Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2403,13 +303,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.386Z",
+        "lastChecked": "2026-05-08T10:17:16.798Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:51.689Z"
+    "refreshedAt": "2026-05-08T10:17:20.314Z"
   },
-  "neptun-2416": {
+  "neptun-15261": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2417,7 +317,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:50.488Z",
+        "lastChecked": "2026-05-08T10:17:18.180Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2426,18 +326,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:51.774Z",
+        "lastChecked": "2026-05-08T10:17:20.489Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 2997,
+        "price": 3497,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-BRAUN-1170-NEW",
-        "lastChecked": "2026-05-08T10:16:49.271Z",
-        "matchedName": "DEPILATOR BRAUN 1170 NEW",
-        "storeProductId": "/categories/DEPILATOR-BRAUN-1170-NEW",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-HC3535-15-MK0595",
+        "lastChecked": "2026-05-08T10:17:16.693Z",
+        "matchedName": "MAKINE QETHESE PHILIPS HC3535/15",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-HC3535-15-MK0595",
         "matchConfidence": 100
       },
       {
@@ -2446,7 +346,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.320Z",
+        "lastChecked": "2026-05-08T10:17:16.765Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2455,13 +355,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.379Z",
+        "lastChecked": "2026-05-08T10:17:16.811Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:51.775Z"
+    "refreshedAt": "2026-05-08T10:17:20.489Z"
   },
-  "neptun-2386": {
+  "neptun-22143": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2469,7 +369,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:50.151Z",
+        "lastChecked": "2026-05-08T10:17:17.832Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2478,18 +378,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:51.876Z",
+        "lastChecked": "2026-05-08T10:17:20.597Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 6090,
+        "price": 3990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-MASAZHATOR-BRAUN-SE8",
-        "lastChecked": "2026-05-08T10:16:49.283Z",
-        "matchedName": "DEPILATOR/MASAZHATOR BRAUN SE8",
-        "storeProductId": "/categories/DEPILATOR-MASAZHATOR-BRAUN-SE8",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-ROWENTA--X-KARL-LAGERFELD-TN152LF0-MK0690",
+        "lastChecked": "2026-05-08T10:17:16.667Z",
+        "matchedName": "MAKINE QETHESE ROWENTA  X KARL LAGERFELD TN152LF0",
+        "storeProductId": "/categories/MAKINE-QETHESE-ROWENTA--X-KARL-LAGERFELD-TN152LF0-MK0690",
         "matchConfidence": 100
       },
       {
@@ -2498,7 +398,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.346Z",
+        "lastChecked": "2026-05-08T10:17:16.772Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2507,13 +407,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.374Z",
+        "lastChecked": "2026-05-08T10:17:16.807Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:51.877Z"
+    "refreshedAt": "2026-05-08T10:17:20.597Z"
   },
-  "neptun-2356": {
+  "neptun-26589": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2521,7 +421,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:50.462Z",
+        "lastChecked": "2026-05-08T10:17:17.719Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2530,59 +430,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.002Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 2997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATORE-BRAUN-SE1370",
-        "lastChecked": "2026-05-08T10:16:49.276Z",
-        "matchedName": "DEPILATORE BRAUN SE1370",
-        "storeProductId": "/categories/DEPILATORE-BRAUN-SE1370",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.322Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.381Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:52.003Z"
-  },
-  "neptun-30803": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:50.301Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.005Z",
+        "lastChecked": "2026-05-08T10:17:20.743Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2590,10 +438,10 @@
         "price": 5490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-BRAUN-SE3-031-PINK-DE0305",
-        "lastChecked": "2026-05-08T10:16:49.285Z",
-        "matchedName": "DEPILATOR BRAUN SE3-031 PINK",
-        "storeProductId": "/categories/DEPILATOR-BRAUN-SE3-031-PINK-DE0305",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-BRAUN-BT3411-MK0702",
+        "lastChecked": "2026-05-08T10:17:16.677Z",
+        "matchedName": "MAKINE QETHESE BRAUN BT3411",
+        "storeProductId": "/categories/MAKINE-QETHESE-BRAUN-BT3411-MK0702",
         "matchConfidence": 100
       },
       {
@@ -2602,7 +450,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.346Z",
+        "lastChecked": "2026-05-08T10:17:16.770Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2611,13 +459,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.356Z",
+        "lastChecked": "2026-05-08T10:17:16.822Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:52.006Z"
+    "refreshedAt": "2026-05-08T10:17:20.743Z"
   },
-  "neptun-2428": {
+  "neptun-19320": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2625,7 +473,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:50.079Z",
+        "lastChecked": "2026-05-08T10:17:17.743Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2634,18 +482,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.031Z",
+        "lastChecked": "2026-05-08T10:17:20.776Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 2797,
+        "price": 3907,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-PHILIPS-BRE225-00",
-        "lastChecked": "2026-05-08T10:16:49.273Z",
-        "matchedName": "DEPILATOR PHILIPS BRE225/00",
-        "storeProductId": "/categories/DEPILATOR-PHILIPS-BRE225-00",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-GRUNDIG-MGK-9030-MK0671",
+        "lastChecked": "2026-05-08T10:17:16.689Z",
+        "matchedName": "MAKINE QETHESE GRUNDIG MGK 9030",
+        "storeProductId": "/categories/MAKINE-QETHESE-GRUNDIG-MGK-9030-MK0671",
         "matchConfidence": 100
       },
       {
@@ -2654,7 +502,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.322Z",
+        "lastChecked": "2026-05-08T10:17:16.764Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2663,149 +511,43 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.380Z",
+        "lastChecked": "2026-05-08T10:17:16.799Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:52.032Z"
+    "refreshedAt": "2026-05-08T10:17:20.776Z"
   },
-  "neptun-28113": {
+  "neptun-30808": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:50.500Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.105Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 4490,
+        "price": 7560,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-PHILIPS-BRE237-00-DE0292",
-        "lastChecked": "2026-05-08T10:16:49.280Z",
-        "matchedName": "DEPILATOR PHILIPS BRE237/00",
-        "storeProductId": "/categories/DEPILATOR-PHILIPS-BRE237-00-DE0292",
+        "productUrl": "https://www.foleja.al/KST-200019603/Makine-rroje-Braun-Series-3-300s-Foil-shaver-LED-NiMH-e-zeze",
+        "lastChecked": "2026-05-08T10:17:17.837Z",
+        "matchedName": "Makinë rroje Braun Series 3 300s, Foil shaver, LED, NiMH, e zezë",
+        "storeProductId": "/KST-200019603/Makine-rroje-Braun-Series-3-300s-Foil-shaver-LED-NiMH-e-zeze",
         "matchConfidence": 100
       },
       {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.321Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.382Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:52.106Z"
-  },
-  "neptun-25481": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/YLL-200013576/Epilator-Braun-Silk-epil-1-SE1-000-i-bardhe",
-        "lastChecked": "2026-05-08T10:16:50.171Z",
-        "matchedName": "Epilator Braun Silk-épil 1 SE1-000, i bardhë",
-        "storeProductId": "/YLL-200013576/Epilator-Braun-Silk-epil-1-SE1-000-i-bardhe",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
         "storeId": "shpresa",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.177Z",
+        "lastChecked": "2026-05-08T10:17:20.854Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATORE-BRAUN-SE1370",
-        "lastChecked": "2026-05-08T10:16:49.268Z",
-        "matchedName": "DEPILATORE BRAUN SE1370",
-        "storeProductId": "/categories/DEPILATORE-BRAUN-SE1370",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.324Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:49.377Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:52.178Z"
-  },
-  "neptun-20737": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:53.404Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:54.097Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 6290,
+        "price": 7990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-ROWENTA-EP4930F0-DE0276",
-        "lastChecked": "2026-05-08T10:16:52.503Z",
-        "matchedName": "DEPILATOR ROWENTA EP4930F0",
-        "storeProductId": "/categories/DEPILATOR-ROWENTA-EP4930F0-DE0276",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-BRAUN-SERIES-3-300S-MK0726",
+        "lastChecked": "2026-05-08T10:17:16.714Z",
+        "matchedName": "MAKINE RROJE BRAUN SERIES 3 300S",
+        "storeProductId": "/categories/MAKINE-RROJE-BRAUN-SERIES-3-300S-MK0726",
         "matchConfidence": 100
       },
       {
@@ -2814,7 +556,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.622Z",
+        "lastChecked": "2026-05-08T10:17:16.811Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2823,13 +565,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.592Z",
+        "lastChecked": "2026-05-08T10:17:16.871Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:54.098Z"
+    "refreshedAt": "2026-05-08T10:17:20.855Z"
   },
-  "neptun-19349": {
+  "neptun-18499": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2837,7 +579,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:53.463Z",
+        "lastChecked": "2026-05-08T10:17:18.082Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2846,18 +588,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:54.669Z",
+        "lastChecked": "2026-05-08T10:17:21.461Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 26490,
+        "price": 3707,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-BRAUN-SES9-995BS-DE0267",
-        "lastChecked": "2026-05-08T10:16:52.529Z",
-        "matchedName": "DEPILATOR BRAUN SES9-995BS",
-        "storeProductId": "/categories/DEPILATOR-BRAUN-SES9-995BS-DE0267",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-BRAUN-MGK3221-6in1Bk-Grn-MK0654",
+        "lastChecked": "2026-05-08T10:17:16.686Z",
+        "matchedName": "MAKINE QETHESE BRAUN MGK3221 6in1Bk/Grn",
+        "storeProductId": "/categories/MAKINE-QETHESE-BRAUN-MGK3221-6in1Bk-Grn-MK0654",
         "matchConfidence": 100
       },
       {
@@ -2866,7 +608,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.628Z",
+        "lastChecked": "2026-05-08T10:17:16.772Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2875,13 +617,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.660Z",
+        "lastChecked": "2026-05-08T10:17:16.823Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:54.670Z"
+    "refreshedAt": "2026-05-08T10:17:21.461Z"
   },
-  "neptun-12107": {
+  "neptun-30810": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2889,7 +631,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:53.739Z",
+        "lastChecked": "2026-05-08T10:17:18.450Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2898,18 +640,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:55.416Z",
+        "lastChecked": "2026-05-08T10:17:21.774Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 19997,
+        "price": 4890,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-BRAUN-SE9-969V-6SKINSPA",
-        "lastChecked": "2026-05-08T10:16:52.524Z",
-        "matchedName": "DEPILATOR BRAUN SE9-969V+6SKINSPA",
-        "storeProductId": "/categories/DEPILATOR-BRAUN-SE9-969V-6SKINSPA",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-BRAUN-MGK3441-AIO-8-in1--BLACK-MK0728",
+        "lastChecked": "2026-05-08T10:17:16.709Z",
+        "matchedName": "MAKINE QETHESE BRAUN MGK3441 AIO 8 in1  BLACK",
+        "storeProductId": "/categories/MAKINE-QETHESE-BRAUN-MGK3441-AIO-8-in1--BLACK-MK0728",
         "matchConfidence": 100
       },
       {
@@ -2918,7 +660,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.624Z",
+        "lastChecked": "2026-05-08T10:17:16.764Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2927,13 +669,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.640Z",
+        "lastChecked": "2026-05-08T10:17:16.876Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:55.417Z"
+    "refreshedAt": "2026-05-08T10:17:21.774Z"
   },
-  "neptun-25634": {
+  "neptun-29932": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2941,7 +683,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:53.636Z",
+        "lastChecked": "2026-05-08T10:17:22.943Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2950,18 +692,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:55.584Z",
+        "lastChecked": "2026-05-08T10:17:23.687Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 2990,
+        "price": 6890,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/ZJERESE-VEZE-PHILIPS-HD9137-90-ZJ0046",
-        "lastChecked": "2026-05-08T10:16:52.534Z",
-        "matchedName": "ZJERESE VEZE PHILIPS HD9137/90",
-        "storeProductId": "/categories/ZJERESE-VEZE-PHILIPS-HD9137-90-ZJ0046",
+        "productUrl": "https://www.neptun.al/categories/TRIMER-ROWENTA-TN1851E0-MK0713",
+        "lastChecked": "2026-05-08T10:17:22.145Z",
+        "matchedName": "TRIMER ROWENTA TN1851E0",
+        "storeProductId": "/categories/TRIMER-ROWENTA-TN1851E0-MK0713",
         "matchConfidence": 100
       },
       {
@@ -2970,7 +712,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.636Z",
+        "lastChecked": "2026-05-08T10:17:22.327Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -2979,13 +721,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.667Z",
+        "lastChecked": "2026-05-08T10:17:22.215Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:55.585Z"
+    "refreshedAt": "2026-05-08T10:17:23.687Z"
   },
-  "neptun-17501": {
+  "neptun-30769": {
     "prices": [
       {
         "storeId": "foleja",
@@ -2993,7 +735,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:53.511Z",
+        "lastChecked": "2026-05-08T10:17:22.668Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3002,18 +744,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:55.669Z",
+        "lastChecked": "2026-05-08T10:17:23.865Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 9790,
+        "price": 5890,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-PHILIPS-BRE715-00-DE0250",
-        "lastChecked": "2026-05-08T10:16:52.518Z",
-        "matchedName": "DEPILATOR PHILIPS BRE715/00",
-        "storeProductId": "/categories/DEPILATOR-PHILIPS-BRE715-00-DE0250",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-ROWENTA-TN9464E0-MK0725",
+        "lastChecked": "2026-05-08T10:17:22.138Z",
+        "matchedName": "MAKINE QETHESE ROWENTA TN9464E0",
+        "storeProductId": "/categories/MAKINE-QETHESE-ROWENTA-TN9464E0-MK0725",
         "matchConfidence": 100
       },
       {
@@ -3022,7 +764,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.619Z",
+        "lastChecked": "2026-05-08T10:17:22.305Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3031,13 +773,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.666Z",
+        "lastChecked": "2026-05-08T10:17:22.214Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:55.670Z"
+    "refreshedAt": "2026-05-08T10:17:23.866Z"
   },
-  "neptun-26890": {
+  "neptun-30618": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3045,7 +787,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:53.707Z",
+        "lastChecked": "2026-05-08T10:17:22.759Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3054,68 +796,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:55.693Z",
+        "lastChecked": "2026-05-08T10:17:24.084Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.715Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.628Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.644Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-08T10:16:55.694Z"
-  },
-  "neptun-2422": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:53.479Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:55.717Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 5497,
+        "price": 7590,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-BRAUN-SE-3420---BIKINI-TRIMER-RED-LEG",
-        "lastChecked": "2026-05-08T10:16:52.507Z",
-        "matchedName": "DEPILATOR BRAUN SE 3420 + BIKINI TRIMER RED LEG",
-        "storeProductId": "/categories/DEPILATOR-BRAUN-SE-3420---BIKINI-TRIMER-RED-LEG",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-ROWENTA-TN1551E0-MK0722",
+        "lastChecked": "2026-05-08T10:17:22.157Z",
+        "matchedName": "MAKINE QETHESE ROWENTA TN1551E0",
+        "storeProductId": "/categories/MAKINE-QETHESE-ROWENTA-TN1551E0-MK0722",
         "matchConfidence": 100
       },
       {
@@ -3124,7 +816,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.619Z",
+        "lastChecked": "2026-05-08T10:17:22.292Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3133,13 +825,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.654Z",
+        "lastChecked": "2026-05-08T10:17:22.198Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:55.718Z"
+    "refreshedAt": "2026-05-08T10:17:24.084Z"
   },
-  "neptun-15514": {
+  "neptun-30115": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3147,7 +839,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:53.819Z",
+        "lastChecked": "2026-05-08T10:17:23.366Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3156,18 +848,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:55.791Z",
+        "lastChecked": "2026-05-08T10:17:24.143Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 2190,
+        "price": 7790,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/ZJERESE-VEZE-FIRST-AUSTRIA-FA-5115-2-ZJ0042",
-        "lastChecked": "2026-05-08T10:16:52.532Z",
-        "matchedName": "ZJERESE VEZE FIRST AUSTRIA FA-5115-2",
-        "storeProductId": "/categories/ZJERESE-VEZE-FIRST-AUSTRIA-FA-5115-2-ZJ0042",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-BG7470-15-MK0717",
+        "lastChecked": "2026-05-08T10:17:22.159Z",
+        "matchedName": "MAKINE QETHESE PHILIPS BG7470/15",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-BG7470-15-MK0717",
         "matchConfidence": 100
       },
       {
@@ -3176,7 +868,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.636Z",
+        "lastChecked": "2026-05-08T10:17:22.316Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3185,13 +877,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.653Z",
+        "lastChecked": "2026-05-08T10:17:22.248Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:55.792Z"
+    "refreshedAt": "2026-05-08T10:17:24.144Z"
   },
-  "neptun-30046": {
+  "neptun-17677": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3199,7 +891,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:54.384Z",
+        "lastChecked": "2026-05-08T10:17:22.562Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3208,18 +900,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:56.574Z",
+        "lastChecked": "2026-05-08T10:17:24.260Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 19907,
+        "price": 3990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-BRAUN-SES-9002-3D---SWAROVSKI-DE0273",
-        "lastChecked": "2026-05-08T10:16:52.521Z",
-        "matchedName": "DEPILATOR BRAUN SES 9002 3D + SWAROVSKI",
-        "storeProductId": "/categories/DEPILATOR-BRAUN-SES-9002-3D---SWAROVSKI-DE0273",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-REMINGTON-PG3000-MK0660",
+        "lastChecked": "2026-05-08T10:17:22.151Z",
+        "matchedName": "MAKINE QETHESE REMINGTON PG3000",
+        "storeProductId": "/categories/MAKINE-QETHESE-REMINGTON-PG3000-MK0660",
         "matchConfidence": 100
       },
       {
@@ -3228,7 +920,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.627Z",
+        "lastChecked": "2026-05-08T10:17:22.328Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3237,13 +929,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.746Z",
+        "lastChecked": "2026-05-08T10:17:22.207Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:56.575Z"
+    "refreshedAt": "2026-05-08T10:17:24.261Z"
   },
-  "neptun-19347": {
+  "neptun-29924": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3251,7 +943,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:54.153Z",
+        "lastChecked": "2026-05-08T10:17:23.343Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3260,18 +952,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:56.695Z",
+        "lastChecked": "2026-05-08T10:17:24.273Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 5997,
+        "price": 8390,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-BRAUN-SE-3410-RED-DE0265",
-        "lastChecked": "2026-05-08T10:16:52.512Z",
-        "matchedName": "DEPILATOR BRAUN SE 3410 RED",
-        "storeProductId": "/categories/DEPILATOR-BRAUN-SE-3410-RED-DE0265",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-MG7951-15-MK0716",
+        "lastChecked": "2026-05-08T10:17:22.162Z",
+        "matchedName": "MAKINE QETHESE PHILIPS MG7951/15",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-MG7951-15-MK0716",
         "matchConfidence": 100
       },
       {
@@ -3280,7 +972,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.580Z",
+        "lastChecked": "2026-05-08T10:17:22.312Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3289,13 +981,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.734Z",
+        "lastChecked": "2026-05-08T10:17:22.670Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:56.696Z"
+    "refreshedAt": "2026-05-08T10:17:24.274Z"
   },
-  "neptun-30047": {
+  "neptun-6610": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3303,7 +995,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:54.312Z",
+        "lastChecked": "2026-05-08T10:17:23.438Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3312,18 +1004,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:56.817Z",
+        "lastChecked": "2026-05-08T10:17:24.554Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 25907,
+        "price": 5907,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-BRAUN-SES-9100-3D-FLEX---SWAROVSKI-DE0274",
-        "lastChecked": "2026-05-08T10:16:52.527Z",
-        "matchedName": "DEPILATOR BRAUN SES 9100 3D FLEX + SWAROVSKI",
-        "storeProductId": "/categories/DEPILATOR-BRAUN-SES-9100-3D-FLEX---SWAROVSKI-DE0274",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-MG5730",
+        "lastChecked": "2026-05-08T10:17:22.148Z",
+        "matchedName": "MAKINE QETHESE PHILIPS MG5730/15",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-MG5730",
         "matchConfidence": 100
       },
       {
@@ -3332,7 +1024,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.633Z",
+        "lastChecked": "2026-05-08T10:17:22.299Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3341,13 +1033,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.761Z",
+        "lastChecked": "2026-05-08T10:17:22.240Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:56.818Z"
+    "refreshedAt": "2026-05-08T10:17:24.555Z"
   },
-  "neptun-30131": {
+  "neptun-20640": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3355,7 +1047,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:54.336Z",
+        "lastChecked": "2026-05-08T10:17:22.970Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3364,18 +1056,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.085Z",
+        "lastChecked": "2026-05-08T10:17:24.705Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 7290,
+        "price": 5407,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-BRAUN--SES-5-500-L-DE0290",
-        "lastChecked": "2026-05-08T10:16:52.510Z",
-        "matchedName": "DEPILATOR BRAUN  SES 5/500 L",
-        "storeProductId": "/categories/DEPILATOR-BRAUN--SES-5-500-L-DE0290",
+        "productUrl": "https://www.neptun.al/categories/TRIMER-PHILIPS-BT5502-15-MK0677",
+        "lastChecked": "2026-05-08T10:17:22.142Z",
+        "matchedName": "TRIMER PHILIPS BT5502/15",
+        "storeProductId": "/categories/TRIMER-PHILIPS-BT5502-15-MK0677",
         "matchConfidence": 100
       },
       {
@@ -3384,7 +1076,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.564Z",
+        "lastChecked": "2026-05-08T10:17:22.333Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3393,13 +1085,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:52.741Z",
+        "lastChecked": "2026-05-08T10:17:22.306Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:57.086Z"
+    "refreshedAt": "2026-05-08T10:17:24.706Z"
   },
-  "neptun-19301": {
+  "neptun-23394": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3407,7 +1099,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.855Z",
+        "lastChecked": "2026-05-08T10:17:22.997Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3416,18 +1108,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:58.399Z",
+        "lastChecked": "2026-05-08T10:17:24.787Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 1690,
+        "price": 6807,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/TRIMER-ROWENTA-TN3011F0-MK0669",
-        "lastChecked": "2026-05-08T10:16:57.427Z",
-        "matchedName": "TRIMER ROWENTA TN3011F0",
-        "storeProductId": "/categories/TRIMER-ROWENTA-TN3011F0-MK0669",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-MG7940-15-MK0696",
+        "lastChecked": "2026-05-08T10:17:22.154Z",
+        "matchedName": "MAKINE QETHESE PHILIPS MG7940/15",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-MG7940-15-MK0696",
         "matchConfidence": 100
       },
       {
@@ -3436,7 +1128,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.463Z",
+        "lastChecked": "2026-05-08T10:17:22.282Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3445,13 +1137,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.492Z",
+        "lastChecked": "2026-05-08T10:17:22.247Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:58.400Z"
+    "refreshedAt": "2026-05-08T10:17:24.787Z"
   },
-  "neptun-15377": {
+  "neptun-15260": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3459,7 +1151,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:58.037Z",
+        "lastChecked": "2026-05-08T10:17:22.957Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3468,7 +1160,371 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:58.409Z",
+        "lastChecked": "2026-05-08T10:17:24.789Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 7407,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-BG7025-15-MK0594",
+        "lastChecked": "2026-05-08T10:17:22.165Z",
+        "matchedName": "MAKINE QETHESE PHILIPS BG7025/15",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-BG7025-15-MK0594",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:22.294Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:22.253Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:24.789Z"
+  },
+  "neptun-30666": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:23.027Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:24.867Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 9307,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-MG9555-15-MK0723",
+        "lastChecked": "2026-05-08T10:17:22.171Z",
+        "matchedName": "MAKINE QETHESE PHILIPS MG9555/15",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-MG9555-15-MK0723",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:22.323Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:22.239Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:24.867Z"
+  },
+  "neptun-29923": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:23.451Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.050Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 9390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-MG9531-15-MK0715",
+        "lastChecked": "2026-05-08T10:17:22.168Z",
+        "matchedName": "MAKINE QETHESE PHILIPS MG9531/15",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-MG9531-15-MK0715",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:22.317Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:22.243Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:25.051Z"
+  },
+  "neptun-25914": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.961Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:26.797Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-FUEGO-TN-286-MK0708",
+        "lastChecked": "2026-05-08T10:17:25.506Z",
+        "matchedName": "MAKINE RROJE FUEGO TN-286",
+        "storeProductId": "/categories/MAKINE-RROJE-FUEGO-TN-286-MK0708",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.552Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.566Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:26.798Z"
+  },
+  "neptun-14349": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:26.327Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:26.861Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4007,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-REMINGTON-F3000-MK0641",
+        "lastChecked": "2026-05-08T10:17:25.533Z",
+        "matchedName": "MAKINE RROJE REMINGTON F3000",
+        "storeProductId": "/categories/MAKINE-RROJE-REMINGTON-F3000-MK0641",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.619Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.584Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:26.862Z"
+  },
+  "neptun-17676": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:26.312Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:26.918Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1090,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TRIMER-REMINGTON-NE3150-MK0633",
+        "lastChecked": "2026-05-08T10:17:25.514Z",
+        "matchedName": "TRIMER REMINGTON NE3150",
+        "storeProductId": "/categories/TRIMER-REMINGTON-NE3150-MK0633",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.547Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.571Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:26.919Z"
+  },
+  "neptun-14790": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.856Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:27.143Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 807,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TRIMER-FIRST-AUSTRIA-FA-5680-2-SI-MK0627",
+        "lastChecked": "2026-05-08T10:17:25.512Z",
+        "matchedName": "TRIMER FIRST AUSTRIA FA-5680-2-SI",
+        "storeProductId": "/categories/TRIMER-FIRST-AUSTRIA-FA-5680-2-SI-MK0627",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.536Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.567Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:27.144Z"
+  },
+  "neptun-15759": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:26.041Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:27.223Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3476,10 +1532,10 @@
         "price": 590,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-FUEGO-FH-1088-MK0596",
-        "lastChecked": "2026-05-08T10:16:57.410Z",
-        "matchedName": "MAKINE QETHESE FUEGO FH-1088",
-        "storeProductId": "/categories/MAKINE-QETHESE-FUEGO-FH-1088-MK0596",
+        "productUrl": "https://www.neptun.al/categories/TRIMER-FUEGO-MS-027-MK0628",
+        "lastChecked": "2026-05-08T10:17:25.509Z",
+        "matchedName": "TRIMER FUEGO MS 027",
+        "storeProductId": "/categories/TRIMER-FUEGO-MS-027-MK0628",
         "matchConfidence": 100
       },
       {
@@ -3488,7 +1544,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.461Z",
+        "lastChecked": "2026-05-08T10:17:25.547Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3497,13 +1553,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.488Z",
+        "lastChecked": "2026-05-08T10:17:25.563Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:58.410Z"
+    "refreshedAt": "2026-05-08T10:17:27.223Z"
   },
-  "neptun-6582": {
+  "neptun-25913": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3511,7 +1567,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.882Z",
+        "lastChecked": "2026-05-08T10:17:25.973Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3520,18 +1576,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:58.558Z",
+        "lastChecked": "2026-05-08T10:17:27.229Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 990,
+        "price": 1290,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-FUEGO-YG-90",
-        "lastChecked": "2026-05-08T10:16:57.422Z",
-        "matchedName": "MAKINE QETHESE FUEGO YG-90",
-        "storeProductId": "/categories/MAKINE-QETHESE-FUEGO-YG-90",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-FUEGO-RSM-1503A-MK0707",
+        "lastChecked": "2026-05-08T10:17:25.517Z",
+        "matchedName": "MAKINE RROJE FUEGO RSM-1503A",
+        "storeProductId": "/categories/MAKINE-RROJE-FUEGO-RSM-1503A-MK0707",
         "matchConfidence": 100
       },
       {
@@ -3540,7 +1596,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.462Z",
+        "lastChecked": "2026-05-08T10:17:25.619Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3549,13 +1605,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.491Z",
+        "lastChecked": "2026-05-08T10:17:25.576Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:58.559Z"
+    "refreshedAt": "2026-05-08T10:17:27.229Z"
   },
-  "neptun-15596": {
+  "neptun-31122": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3563,7 +1619,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.824Z",
+        "lastChecked": "2026-05-08T10:17:26.425Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3572,18 +1628,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:58.630Z",
+        "lastChecked": "2026-05-08T10:17:27.798Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 790,
+        "price": 2490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-FUEGO-PR-2228-MK0623",
-        "lastChecked": "2026-05-08T10:16:57.413Z",
-        "matchedName": "MAKINE QETHESE FUEGO PR-2228",
-        "storeProductId": "/categories/MAKINE-QETHESE-FUEGO-PR-2228-MK0623",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-PHILIPS-BT3617-15-MK0735",
+        "lastChecked": "2026-05-08T10:17:25.524Z",
+        "matchedName": "MAKINE RROJE PHILIPS BT3617/15",
+        "storeProductId": "/categories/MAKINE-RROJE-PHILIPS-BT3617-15-MK0735",
         "matchConfidence": 100
       },
       {
@@ -3592,7 +1648,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.461Z",
+        "lastChecked": "2026-05-08T10:17:25.573Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3601,13 +1657,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.498Z",
+        "lastChecked": "2026-05-08T10:17:25.664Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:58.631Z"
+    "refreshedAt": "2026-05-08T10:17:27.798Z"
   },
-  "neptun-19302": {
+  "neptun-30665": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3615,7 +1671,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:58.336Z",
+        "lastChecked": "2026-05-08T10:17:26.442Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3624,18 +1680,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:59.266Z",
+        "lastChecked": "2026-05-08T10:17:27.946Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 1990,
+        "price": 3890,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHJE-FIRST-AUSTRIA-FA-5676-5-MK0673",
-        "lastChecked": "2026-05-08T10:16:57.425Z",
-        "matchedName": "MAKINE QETHESE FIRST AUSTRIA FA-5676-5",
-        "storeProductId": "/categories/MAKINE-QETHJE-FIRST-AUSTRIA-FA-5676-5-MK0673",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-PHILIPS-BG3480-15-MK0720",
+        "lastChecked": "2026-05-08T10:17:25.531Z",
+        "matchedName": "MAKINE RROJE PHILIPS BG3480/15",
+        "storeProductId": "/categories/MAKINE-RROJE-PHILIPS-BG3480-15-MK0720",
         "matchConfidence": 100
       },
       {
@@ -3644,7 +1700,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.463Z",
+        "lastChecked": "2026-05-08T10:17:25.620Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3653,13 +1709,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.518Z",
+        "lastChecked": "2026-05-08T10:17:25.600Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:59.267Z"
+    "refreshedAt": "2026-05-08T10:17:27.947Z"
   },
-  "neptun-17489": {
+  "neptun-17683": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3667,7 +1723,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:58.297Z",
+        "lastChecked": "2026-05-08T10:17:26.615Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3676,7 +1732,1466 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:59.395Z",
+        "lastChecked": "2026-05-08T10:17:28.008Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TRIMER-PHILIPS-NT3650-16-MK0657",
+        "lastChecked": "2026-05-08T10:17:25.519Z",
+        "matchedName": "TRIMER PHILIPS NT3650/16",
+        "storeProductId": "/categories/TRIMER-PHILIPS-NT3650-16-MK0657",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.575Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.604Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:28.009Z"
+  },
+  "neptun-15380": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:26.356Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:28.186Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TRIMER-PHILIPS-NT5650-16-MK0624",
+        "lastChecked": "2026-05-08T10:17:25.526Z",
+        "matchedName": "TRIMER PHILIPS NT5650/16",
+        "storeProductId": "/categories/TRIMER-PHILIPS-NT5650-16-MK0624",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.574Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.607Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:28.187Z"
+  },
+  "neptun-31053": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:26.748Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:28.212Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-REMINGTON-HAIR-CLIPPER-ALPHA-HC5150-MK0729",
+        "lastChecked": "2026-05-08T10:17:25.528Z",
+        "matchedName": "MAKINE RROJE REMINGTON HAIR CLIPPER ALPHA HC5150",
+        "storeProductId": "/categories/MAKINE-RROJE-REMINGTON-HAIR-CLIPPER-ALPHA-HC5150-MK0729",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.575Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.605Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:28.212Z"
+  },
+  "neptun-6620": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200025630/Koke-rroje-Philips-Bodygroom-TT2000-43-1-koke-e-zeze-celik-inox",
+        "lastChecked": "2026-05-08T10:17:26.371Z",
+        "matchedName": "Kokë rroje Philips Bodygroom TT2000/43, 1 kokë, e zezë, çelik inox",
+        "storeProductId": "/KST-200025630/Koke-rroje-Philips-Bodygroom-TT2000-43-1-koke-e-zeze-celik-inox",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:28.891Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2090,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-PHILIPS-TT2000",
+        "lastChecked": "2026-05-08T10:17:25.521Z",
+        "matchedName": "RIMBUSHESE MAKINE QETHESE PHILIPS TT2000",
+        "storeProductId": "/categories/MAKINE-QETHESE-PHILIPS-TT2000",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.548Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:25.652Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:28.892Z"
+  },
+  "neptun-6596": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.712Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:30.647Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4997,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-ROWENTA-TN9160F0",
+        "lastChecked": "2026-05-08T10:17:29.306Z",
+        "matchedName": "MAKINE RROJE ROWENTA TN9160F0/1",
+        "storeProductId": "/categories/MAKINE-RROJE-ROWENTA-TN9160F0",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.398Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.433Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:30.648Z"
+  },
+  "neptun-14351": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.683Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:31.575Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4807,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-REMINGTON-R3000-MK0643",
+        "lastChecked": "2026-05-08T10:17:29.285Z",
+        "matchedName": "MAKINE RROJE REMINGTON R3000",
+        "storeProductId": "/categories/MAKINE-RROJE-REMINGTON-R3000-MK0643",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.397Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.444Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:31.576Z"
+  },
+  "neptun-26596": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:30.115Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:31.947Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 12490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-BRAUN-310BT-MK0706",
+        "lastChecked": "2026-05-08T10:17:29.338Z",
+        "matchedName": "MAKINE RROJE BRAUN 310BT",
+        "storeProductId": "/categories/MAKINE-RROJE-BRAUN-310BT-MK0706",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.400Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.495Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:31.948Z"
+  },
+  "neptun-24250": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:30.024Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:32.074Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-PHILIPS-X3002-00-MK0694",
+        "lastChecked": "2026-05-08T10:17:29.283Z",
+        "matchedName": "MAKINE RROJE PHILIPS X3002/00",
+        "storeProductId": "/categories/MAKINE-RROJE-PHILIPS-X3002-00-MK0694",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.396Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.475Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:32.075Z"
+  },
+  "neptun-27767": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:30.417Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:32.260Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-Grundig-MS-9330-MK0710",
+        "lastChecked": "2026-05-08T10:17:29.290Z",
+        "matchedName": "MAKINE RROJE Grundig MS 9330",
+        "storeProductId": "/categories/MAKINE-RROJE-Grundig-MS-9330-MK0710",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.399Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.489Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:32.261Z"
+  },
+  "neptun-6590": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:30.298Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:32.490Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 7697,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-BRAUN-310",
+        "lastChecked": "2026-05-08T10:17:29.341Z",
+        "matchedName": "MAKINE RROJE BRAUN 310",
+        "storeProductId": "/categories/MAKINE-RROJE-BRAUN-310",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.424Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.488Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:32.491Z"
+  },
+  "neptun-6470": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:30.148Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:32.919Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4997,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE--BRAUN--170-1",
+        "lastChecked": "2026-05-08T10:17:29.293Z",
+        "matchedName": "MAKINE RROJE  BRAUN  170-1",
+        "storeProductId": "/categories/MAKINE-RROJE--BRAUN--170-1",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.397Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.499Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:32.919Z"
+  },
+  "neptun-24440": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:30.166Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:32.930Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 5690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/STILUES-MJEKRE-BRAUN-XT5100-MK0700",
+        "lastChecked": "2026-05-08T10:17:29.288Z",
+        "matchedName": "STILUES MJEKRE BRAUN XT5100",
+        "storeProductId": "/categories/STILUES-MJEKRE-BRAUN-XT5100-MK0700",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.398Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.493Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:32.930Z"
+  },
+  "neptun-15465": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:30.882Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:33.190Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 9997,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-BRAUN-3010BT-BLACK-MK0601",
+        "lastChecked": "2026-05-08T10:17:29.380Z",
+        "matchedName": "MAKINE RROJE BRAUN 3010BT BLACK",
+        "storeProductId": "/categories/MAKINE-RROJE-BRAUN-3010BT-BLACK-MK0601",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.514Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.521Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:33.191Z"
+  },
+  "neptun-30077": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:30.788Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:33.326Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4297,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KOKE-MAKINE-RROJE-PHILIPS-SH91-50-MK0678",
+        "lastChecked": "2026-05-08T10:17:29.280Z",
+        "matchedName": "KOKE MAKINE RROJE PHILIPS SH91/50",
+        "storeProductId": "/categories/KOKE-MAKINE-RROJE-PHILIPS-SH91-50-MK0678",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.617Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.524Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:33.327Z"
+  },
+  "neptun-6494": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:30.761Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:33.486Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3997,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-BRAUN-150-150-S1",
+        "lastChecked": "2026-05-08T10:17:29.387Z",
+        "matchedName": "MAKINE RROJE BRAUN 150 150-S1",
+        "storeProductId": "/categories/MAKINE-RROJE-BRAUN-150-150-S1",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.514Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.536Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:33.487Z"
+  },
+  "neptun-15629": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:31.038Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:33.623Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 5697,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-BRAUN-300-BLK-RED-MK0600",
+        "lastChecked": "2026-05-08T10:17:29.333Z",
+        "matchedName": "MAKINE RROJE BRAUN 300 BLK/RED",
+        "storeProductId": "/categories/MAKINE-RROJE-BRAUN-300-BLK-RED-MK0600",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.401Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:29.533Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:33.624Z"
+  },
+  "neptun-7278": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.473Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:35.211Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-FUEGO-901",
+        "lastChecked": "2026-05-08T10:17:34.071Z",
+        "matchedName": "PESHORE PERSONALE FUEGO 901",
+        "storeProductId": "/categories/PESHORE-PERSONALE-FUEGO-901",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.105Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.143Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:35.212Z"
+  },
+  "neptun-15616": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.694Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:35.277Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-FUEGO-601-PE0213",
+        "lastChecked": "2026-05-08T10:17:34.074Z",
+        "matchedName": "PESHORE PERSONALE FUEGO 601",
+        "storeProductId": "/categories/PESHORE-PERSONALE-FUEGO-601-PE0213",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.106Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.150Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:35.278Z"
+  },
+  "neptun-30770": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.607Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:35.392Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-TEFAL-PP1800V0-PE0239",
+        "lastChecked": "2026-05-08T10:17:34.080Z",
+        "matchedName": "PESHORE PERSONALE TEFAL PP1800V0",
+        "storeProductId": "/categories/PESHORE-PERSONALE-TEFAL-PP1800V0-PE0239",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.108Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.132Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:35.393Z"
+  },
+  "neptun-30894": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.941Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:36.340Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8015-2-GR-PE0241",
+        "lastChecked": "2026-05-08T10:17:34.077Z",
+        "matchedName": "PESHORE PERSONALE FIRST AUSTRIA FA-8015-2-GR",
+        "storeProductId": "/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8015-2-GR-PE0241",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.106Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.191Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:36.341Z"
+  },
+  "neptun-14791": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:35.064Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:36.569Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8006-3-BA-PE0218",
+        "lastChecked": "2026-05-08T10:17:34.086Z",
+        "matchedName": "PESHORE PERSONALE FIRST AUSTRIA FA-8006-3-BA",
+        "storeProductId": "/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8006-3-BA-PE0218",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.107Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.196Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:36.570Z"
+  },
+  "neptun-16106": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:35.146Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:36.784Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8020-BU-PE0221",
+        "lastChecked": "2026-05-08T10:17:34.091Z",
+        "matchedName": "PESHORE PERSONALE FIRST AUSTRIA FA-8020-BU",
+        "storeProductId": "/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8020-BU-PE0221",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.110Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.189Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:36.785Z"
+  },
+  "neptun-17494": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:35.035Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:36.815Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8013-3-WI-PE0231",
+        "lastChecked": "2026-05-08T10:17:34.094Z",
+        "matchedName": "PESHORE PERSONALE FIRST AUSTRIA FA-8013-3-WI",
+        "storeProductId": "/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8013-3-WI-PE0231",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.110Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.204Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:36.816Z"
+  },
+  "neptun-14792": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:35.199Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:36.941Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8013-3-GR-PE0219",
+        "lastChecked": "2026-05-08T10:17:34.083Z",
+        "matchedName": "PESHORE PERSONALE FIRST AUSTRIA FA-8013-3-GR",
+        "storeProductId": "/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8013-3-GR-PE0219",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.107Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.192Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:36.942Z"
+  },
+  "neptun-17493": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.928Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:36.954Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1790,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8006-3-SI-PE0230",
+        "lastChecked": "2026-05-08T10:17:34.097Z",
+        "matchedName": "PESHORE PERSONALE FIRST AUSTRIA FA-8006-3-SI",
+        "storeProductId": "/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8006-3-SI-PE0230",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.111Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.193Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:36.955Z"
+  },
+  "neptun-30889": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.953Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:37.267Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8021-PE0242",
+        "lastChecked": "2026-05-08T10:17:34.088Z",
+        "matchedName": "PESHORE PERSONALE FIRST AUSTRIA FA-8021",
+        "storeProductId": "/categories/PESHORE-PERSONALE-FIRST-AUSTRIA-FA-8021-PE0242",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.108Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.187Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:37.268Z"
+  },
+  "neptun-15627": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:35.264Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:37.709Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 29997,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-BRAUN-7893S-SILV-BL-MK0598",
+        "lastChecked": "2026-05-08T10:17:34.068Z",
+        "matchedName": "MAKINE RROJE BRAUN 7893S SILV/BL",
+        "storeProductId": "/categories/MAKINE-RROJE-BRAUN-7893S-SILV-BL-MK0598",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.104Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.216Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:37.710Z"
+  },
+  "neptun-15630": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:35.312Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.137Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 29997,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINE-RROJE-BRAUN-7893PS-SILV-MK0602",
+        "lastChecked": "2026-05-08T10:17:34.100Z",
+        "matchedName": "MAKINE RROJE BRAUN 7893PS SILV",
+        "storeProductId": "/categories/MAKINE-RROJE-BRAUN-7893PS-SILV-MK0602",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.112Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:34.238Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:38.138Z"
+  },
+  "neptun-30771": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.819Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:39.240Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3684,10 +3199,10 @@
         "price": 1490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MAKINE-QETHESE-FIRST-AUSTRIA-FA-5674-4-MK0655",
-        "lastChecked": "2026-05-08T10:16:57.419Z",
-        "matchedName": "MAKINE QETHESE FIRST AUSTRIA FA-5674-4",
-        "storeProductId": "/categories/MAKINE-QETHESE-FIRST-AUSTRIA-FA-5674-4-MK0655",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-TEFAL-PP1801V0-PE0240",
+        "lastChecked": "2026-05-08T10:17:38.455Z",
+        "matchedName": "PESHORE PERSONALE TEFAL PP1801V0",
+        "storeProductId": "/categories/PESHORE-PERSONALE-TEFAL-PP1801V0-PE0240",
         "matchConfidence": 100
       },
       {
@@ -3696,7 +3211,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.462Z",
+        "lastChecked": "2026-05-08T10:17:38.579Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3705,13 +3220,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.539Z",
+        "lastChecked": "2026-05-08T10:17:38.533Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:59.396Z"
+    "refreshedAt": "2026-05-08T10:17:39.253Z"
   },
-  "neptun-21432": {
+  "neptun-7282": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3719,7 +3234,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:58.190Z",
+        "lastChecked": "2026-05-08T10:17:38.806Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3728,18 +3243,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:59.498Z",
+        "lastChecked": "2026-05-08T10:17:39.307Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 54990,
+        "price": 2490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-PHILIPS-LUMEA-BRI977-00-DE0278",
-        "lastChecked": "2026-05-08T10:16:57.407Z",
-        "matchedName": "DEPILATOR PHILIPS LUMEA BRI977/00",
-        "storeProductId": "/categories/DEPILATOR-PHILIPS-LUMEA-BRI977-00-DE0278",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-TEFAL-BM2520V0",
+        "lastChecked": "2026-05-08T10:17:38.461Z",
+        "matchedName": "PESHORE PERSONALE TEFAL BM2520V0",
+        "storeProductId": "/categories/PESHORE-PERSONALE-TEFAL-BM2520V0",
         "matchConfidence": 100
       },
       {
@@ -3748,7 +3263,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.460Z",
+        "lastChecked": "2026-05-08T10:17:38.586Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3757,13 +3272,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.536Z",
+        "lastChecked": "2026-05-08T10:17:38.541Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:59.499Z"
+    "refreshedAt": "2026-05-08T10:17:39.308Z"
   },
-  "neptun-2426": {
+  "neptun-19305": {
     "prices": [
       {
         "storeId": "foleja",
@@ -3771,7 +3286,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:58.078Z",
+        "lastChecked": "2026-05-08T10:17:38.971Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3780,18 +3295,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:59.753Z",
+        "lastChecked": "2026-05-08T10:17:39.492Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 29990,
+        "price": 2290,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/DEPILATOR-PHILIPS-LUMEA-SC1994-00",
-        "lastChecked": "2026-05-08T10:16:57.416Z",
-        "matchedName": "DEPILATOR PHILIPS LUMEA SC1994/00",
-        "storeProductId": "/categories/DEPILATOR-PHILIPS-LUMEA-SC1994-00",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-TEFAL-PP1430V0-PE0236",
+        "lastChecked": "2026-05-08T10:17:38.458Z",
+        "matchedName": "PESHORE PERSONALE TEFAL PP1430V0",
+        "storeProductId": "/categories/PESHORE-PERSONALE-TEFAL-PP1430V0-PE0236",
         "matchConfidence": 100
       },
       {
@@ -3800,7 +3315,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.462Z",
+        "lastChecked": "2026-05-08T10:17:38.578Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -3809,10 +3324,270 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-08T10:16:57.544Z",
+        "lastChecked": "2026-05-08T10:17:38.531Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-08T10:16:59.754Z"
+    "refreshedAt": "2026-05-08T10:17:39.493Z"
+  },
+  "neptun-19304": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:39.080Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:39.704Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-TEFAL-PP1600V0-PE0235",
+        "lastChecked": "2026-05-08T10:17:38.466Z",
+        "matchedName": "PESHORE PERSONALE TEFAL PP1600V0",
+        "storeProductId": "/categories/PESHORE-PERSONALE-TEFAL-PP1600V0-PE0235",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.586Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.532Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:39.705Z"
+  },
+  "neptun-15542": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:39.067Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:39.759Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PIASTER-FLOKESH-FUEGO-BY-605-TH0715",
+        "lastChecked": "2026-05-08T10:17:38.468Z",
+        "matchedName": "PIASTER FLOKESH FUEGO BY-605",
+        "storeProductId": "/categories/PIASTER-FLOKESH-FUEGO-BY-605-TH0715",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.590Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.546Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:39.760Z"
+  },
+  "neptun-19303": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.953Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:39.761Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-TEFAL-PP1400V0-PE0233",
+        "lastChecked": "2026-05-08T10:17:38.473Z",
+        "matchedName": "PESHORE PERSONALE TEFAL PP1400V0",
+        "storeProductId": "/categories/PESHORE-PERSONALE-TEFAL-PP1400V0-PE0233",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.609Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.524Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:39.762Z"
+  },
+  "neptun-19310": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:39.304Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:40.349Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1790,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PIASTER-FLOKESH-FIRST-AUSTRIA-FA-5668-TH0803",
+        "lastChecked": "2026-05-08T10:17:38.471Z",
+        "matchedName": "PIASTER FLOKESH FIRST AUSTRIA FA-5668",
+        "storeProductId": "/categories/PIASTER-FLOKESH-FIRST-AUSTRIA-FA-5668-TH0803",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.590Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.564Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:40.350Z"
+  },
+  "neptun-7270": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:39.252Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:40.427Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PESHORE-PERSONALE-GRUNDIG-PS-4",
+        "lastChecked": "2026-05-08T10:17:38.463Z",
+        "matchedName": "PESHORE PERSONALE GRUNDIG PS 4",
+        "storeProductId": "/categories/PESHORE-PERSONALE-GRUNDIG-PS-4",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.593Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-08T10:17:38.562Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-08T10:17:40.428Z"
   }
 }
