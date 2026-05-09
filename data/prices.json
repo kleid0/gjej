@@ -1,15 +1,426 @@
 {
-  "shpresa-samsung-galaxy-book5-15-6-16gb-512gb-ssd-core-ultra-7": {
+  "shpresa-iiyama-prolite-xub2493hs-b4-24-monitor": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200058769/Laptop-SAMSUNG-Galaxy-Book5-CU7-32GB-RAM-512GB-SSD-256V-W11Pro-silver",
-        "lastChecked": "2026-05-09T10:03:48.405Z",
-        "matchedName": "Laptop SAMSUNG Galaxy Book5 CU7, 32GB RAM, 512GB SSD, 256V, W11Pro, silver",
-        "storeProductId": "/KST-200058769/Laptop-SAMSUNG-Galaxy-Book5-CU7-32GB-RAM-512GB-SSD-256V-W11Pro-silver",
+        "productUrl": "https://www.foleja.al/KST-200022123/Monitor-iiyama-ProLite-XUB2491H-B1-23.8-Full-HD-LED-0.5-ms-i-zi",
+        "lastChecked": "2026-05-09T10:04:00.755Z",
+        "matchedName": "Monitor iiyama ProLite XUB2491H-B1, 23.8\", Full HD, LED, 0.5 ms, i zi",
+        "storeProductId": "/KST-200022123/Monitor-iiyama-ProLite-XUB2491H-B1-23.8-Full-HD-LED-0.5-ms-i-zi",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/iiyama-prolite-xub2493hs-b4-24-monitor/",
+        "lastChecked": "2026-05-09T10:03:59.426Z",
+        "matchedName": "Iiyama ProLite XUB2493HS-B4, 24&#8243; Monitor",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:03:59.573Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.285Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:03:59.511Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:03.286Z"
+  },
+  "shpresa-lenovo-legion-t7-64gb-1tb-ssd-core-ultra-9": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.479Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 269990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/lenovo-legion-t7-64gb-1tb-ssd-core-ultra-9/",
+        "lastChecked": "2026-05-09T10:04:03.726Z",
+        "matchedName": "Lenovo Legion T7, 64GB, 1TB SSD, Core™ Ultra 9"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.956Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.753Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.481Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:04.487Z"
+  },
+  "shpresa-lenovo-legion-t7-32gb-1tb-ssd-core-ultra-9": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.459Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 234990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/lenovo-legion-t7-32gb-1tb-ssd-core-ultra-9/",
+        "lastChecked": "2026-05-09T10:04:03.736Z",
+        "matchedName": "Lenovo Legion T7, 32GB, 1TB SSD, Core™ Ultra 9"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.082Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.799Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.112Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:04.582Z"
+  },
+  "shpresa-dyson-hushjet-compact-purifier": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.647Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 39990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/dyson-hushjet-compact-purifier/",
+        "lastChecked": "2026-05-09T10:04:03.723Z",
+        "matchedName": "Dyson HushJet™ Compact Purifier"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.990Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.756Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.171Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:04.648Z"
+  },
+  "shpresa-tp-link-archer-ax73-ax5400-dual-band-gigabit-wi-fi-6-router": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.870Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 9990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/tp-link-archer-ax73-ax5400-dual-band-gigabit-wi-fi-6-router/",
+        "lastChecked": "2026-05-09T10:04:03.738Z",
+        "matchedName": "Tp-Link Archer AX73 AX5400 Dual Band Gigabit Wi-Fi 6 Router"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.083Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.765Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.508Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:04.910Z"
+  },
+  "shpresa-sony-ps5-resident-evil-requiem": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 8800,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200005431/Loje-PS5-Capcom-Resident-Evil-Requiem-EU",
+        "lastChecked": "2026-05-09T10:04:05.046Z",
+        "matchedName": "Lojë PS5 Capcom Resident Evil Requiem EU",
+        "storeProductId": "/ERG-200005431/Loje-PS5-Capcom-Resident-Evil-Requiem-EU",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": 6990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/sony-ps5-resident-evil-requiem/",
+        "lastChecked": "2026-05-09T10:04:03.729Z",
+        "matchedName": "Sony PS5 Resident Evil Requiem"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.083Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.759Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.190Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:05.047Z"
+  },
+  "shpresa-msi-geforce-rtx-5060-ti-8g-ventus-2x-oc-plus": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300274456/Kartele-grafike-MSI-GeForce-RTX-5060-Ti-8G-VENTUS-2X-OC-PLUS-8-GB-GDDR7-Argjend",
+        "lastChecked": "2026-05-09T10:04:05.051Z",
+        "matchedName": "Kartelë grafike MSI GeForce RTX 5060 Ti 8G VENTUS 2X OC PLUS, 8 GB GDDR7, Argjend",
+        "storeProductId": "/ACN-300274456/Kartele-grafike-MSI-GeForce-RTX-5060-Ti-8G-VENTUS-2X-OC-PLUS-8-GB-GDDR7-Argjend",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 44990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/msi-geforce-rtx-5060-ti-8g-ventus-2x-oc-plus/",
+        "lastChecked": "2026-05-09T10:04:03.749Z",
+        "matchedName": "MSI GeForce RTX™ 5060 Ti 8G VENTUS 2X OC PLUS"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.441Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.803Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.464Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:05.051Z"
+  },
+  "shpresa-laptop-hp-15-6-touchscreen-16gb-512gb-ssd-ryzen-7": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 9525,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KOM-200172022/Printer-HP-DeskJet-4222e-me-Wi-Fi-dhe-touchscreen",
+        "lastChecked": "2026-05-09T10:04:04.440Z",
+        "matchedName": "Printer HP DeskJet 4222e, me Wi-Fi dhe touchscreen",
+        "storeProductId": "/KOM-200172022/Printer-HP-DeskJet-4222e-me-Wi-Fi-dhe-touchscreen",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": 59990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/laptop-hp-15-6-touchscreen-16gb-512gb-ssd-ryzen-7/",
+        "lastChecked": "2026-05-09T10:04:03.740Z",
+        "matchedName": "Laptop HP 15.6&#8243; Touchscreen, 16GB, 512GB SSD, Ryzen™ 7"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.914Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.807Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.357Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:05.062Z"
+  },
+  "shpresa-lenovo-ideapad-5-16-16gb-1tb-ssd-core-7-150u": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200061050/Laptop-Lenovo-IdeaPad-5-14IRH9-i5-16GB-512GB-14-inc-blu",
+        "lastChecked": "2026-05-09T10:04:03.828Z",
+        "matchedName": "Laptop Lenovo IdeaPad 5 14IRH9, i5, 16GB, 512GB, 14 inç, blu",
+        "storeProductId": "/KST-200061050/Laptop-Lenovo-IdeaPad-5-14IRH9-i5-16GB-512GB-14-inc-blu",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -18,9 +429,9 @@
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/samsung-galaxy-book5-15-6-16gb-512gb-ssd-core-ultra-7/",
-        "lastChecked": "2026-05-09T10:03:47.342Z",
-        "matchedName": "Samsung Galaxy Book5 15.6&#8243;, 16GB, 512GB SSD, Core™ Ultra 7",
+        "productUrl": "https://shpresa.al/product/lenovo-ideapad-5-16-16gb-1tb-ssd-core-7-150u/",
+        "lastChecked": "2026-05-09T10:04:03.742Z",
+        "matchedName": "Lenovo IdeaPad 5 16&#8243;, 16GB, 1TB SSD, Core™ 7-150U",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -29,7 +440,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.508Z",
+        "lastChecked": "2026-05-09T10:04:04.010Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -38,7 +449,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.378Z",
+        "lastChecked": "2026-05-09T10:04:03.807Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -47,13 +458,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.731Z",
+        "lastChecked": "2026-05-09T10:04:04.463Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:48.441Z"
+    "refreshedAt": "2026-05-09T10:04:05.122Z"
   },
-  "shpresa-brother-color-all-in-one-printer-dcp-t535dw": {
+  "shpresa-xiaomi-truclean-w20-wet-dry-vacuum": {
     "prices": [
       {
         "storeId": "foleja",
@@ -61,7 +472,262 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:48.539Z",
+        "lastChecked": "2026-05-09T10:04:05.148Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 19990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-truclean-w20-wet-dry-vacuum/",
+        "lastChecked": "2026-05-09T10:04:03.747Z",
+        "matchedName": "Xiaomi Truclean W20 Wet Dry Vacuum"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.212Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.805Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.624Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:05.148Z"
+  },
+  "shpresa-xiaomi-smart-temperature-and-humidity-monitor-3-mini": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:05.384Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-smart-temperature-and-humidity-monitor-3-mini/",
+        "lastChecked": "2026-05-09T10:04:03.731Z",
+        "matchedName": "Xiaomi Smart Temperature and Humidity Monitor 3 Mini"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.212Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.762Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.576Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:05.385Z"
+  },
+  "shpresa-msi-gaming-desktop-32gb-1tb-ssd-ryzen-7-custom-build": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.954Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 104990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/gaming-desktop-custom-build-16gb-1tb-ssd-ryzen-7-7/",
+        "lastChecked": "2026-05-09T10:04:03.734Z",
+        "matchedName": "Gaming Desktop Custom Build, 16GB, 1TB SSD, Ryzen 7",
+        "storeProductId": "185351",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.985Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.759Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.461Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:06.080Z"
+  },
+  "shpresa-dji-mini-4-pro-fly-more-combo-plus-with-rc-2-controller": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/INP-200007624/Filter-CPL-Freewell-per-DJI-Mini-4-Pro-i-zi",
+        "lastChecked": "2026-05-09T10:04:05.044Z",
+        "matchedName": "Filtër CPL Freewell për DJI Mini 4 Pro, i zi",
+        "storeProductId": "/INP-200007624/Filter-CPL-Freewell-per-DJI-Mini-4-Pro-i-zi",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.051Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.127Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:03.802Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:04.482Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:07.052Z"
+  },
+  "shpresa-mijia-smart-air-purifier-6": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.483Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 19990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/mijia-smart-air-purifier-6/",
+        "lastChecked": "2026-05-09T10:04:07.624Z",
+        "matchedName": "Mijia Smart Air Purifier 6"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.853Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.669Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.292Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:08.519Z"
+  },
+  "shpresa-xiaomi-vacuum-cleaner-g20": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.519Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -69,9 +735,9 @@
         "price": 18990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/brother-color-all-in-one-printer-dcp-t535dw/",
-        "lastChecked": "2026-05-09T10:03:47.357Z",
-        "matchedName": "Brother Color All-In-One Printer DCP-T535DW"
+        "productUrl": "https://shpresa.al/product/xiaomi-vacuum-cleaner-g20/",
+        "lastChecked": "2026-05-09T10:04:07.613Z",
+        "matchedName": "Xiaomi Vacuum Cleaner G20"
       },
       {
         "storeId": "neptun",
@@ -79,7 +745,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.595Z",
+        "lastChecked": "2026-05-09T10:04:07.831Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -88,7 +754,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.411Z",
+        "lastChecked": "2026-05-09T10:04:07.665Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -97,13 +763,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.818Z",
+        "lastChecked": "2026-05-09T10:04:08.014Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:48.642Z"
+    "refreshedAt": "2026-05-09T10:04:08.523Z"
   },
-  "shpresa-lenovo-legion-25-10-24-5-fhd-monitor": {
+  "shpresa-garmin-forerunner-265s-running-watch": {
     "prices": [
       {
         "storeId": "foleja",
@@ -111,7 +777,107 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:48.705Z",
+        "lastChecked": "2026-05-09T10:04:08.539Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 49990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/garmin-forerunner-265s-running-watch/",
+        "lastChecked": "2026-05-09T10:04:07.631Z",
+        "matchedName": "Garmin Forerunner® 265S Running Watch"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.919Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.685Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.034Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:08.650Z"
+  },
+  "shpresa-sihoo-m16-ergonomic-office-chair": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.554Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 14990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/sihoo-m16-ergonomic-office-chair/",
+        "lastChecked": "2026-05-09T10:04:07.629Z",
+        "matchedName": "Sihoo M16 Ergonomic Office Chair"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.918Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.679Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.350Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:08.750Z"
+  },
+  "shpresa-karcher-pressure-washer-k3-car-home": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.805Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -119,9 +885,9 @@
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/lenovo-legion-25-10-24-5-fhd-monitor/",
-        "lastChecked": "2026-05-09T10:03:47.334Z",
-        "matchedName": "Lenovo Legion 25-10 24.5&#8243; FHD Monitor",
+        "productUrl": "https://shpresa.al/product/karcher-pressure-washer-k3-car-home/",
+        "lastChecked": "2026-05-09T10:04:07.609Z",
+        "matchedName": "Kärcher Pressure Washer K3 Car &#038; Home",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -130,7 +896,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.692Z",
+        "lastChecked": "2026-05-09T10:04:07.915Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -139,7 +905,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.384Z",
+        "lastChecked": "2026-05-09T10:04:07.657Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -148,13 +914,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:48.276Z",
+        "lastChecked": "2026-05-09T10:04:07.970Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:48.707Z"
+    "refreshedAt": "2026-05-09T10:04:08.881Z"
   },
-  "shpresa-blackview-w90-pro-smart-watch": {
+  "shpresa-palit-geforce-rtx-5080-gamingpro-oc": {
     "prices": [
       {
         "storeId": "foleja",
@@ -162,7 +928,107 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:48.388Z",
+        "lastChecked": "2026-05-09T10:04:08.880Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 129990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/palit-geforce-rtx-5080-gamingpro-oc/",
+        "lastChecked": "2026-05-09T10:04:07.615Z",
+        "matchedName": "Palit GeForce RTX™ 5080 GamingPro OC"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.844Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.663Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.347Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:08.886Z"
+  },
+  "shpresa-brother-mfc-j6955dw-a3-inkjet-aio-printer": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.496Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 59990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/brother-mfc-j6955dw-a3-inkjet-aio-printer/",
+        "lastChecked": "2026-05-09T10:04:07.618Z",
+        "matchedName": "Brother MFC-J6955DW A3 Inkjet AIO Printer"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.915Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.669Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.349Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:08.889Z"
+  },
+  "shpresa-logitech-mk470-slim-combo-wireless-keyboard-and-mouse": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.716Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -170,18 +1036,20 @@
         "price": 3990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/blackview-w90-pro-smart-watch/",
-        "lastChecked": "2026-05-09T10:03:47.319Z",
-        "matchedName": "Blackview W90 Pro Smart Watch"
+        "productUrl": "https://shpresa.al/product/logitech-mk470-slim-combo-wireless-keyboard-and-mouse/",
+        "lastChecked": "2026-05-09T10:04:07.635Z",
+        "matchedName": "Logitech MK470 Slim Combo"
       },
       {
         "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.544Z",
-        "error": "Produkti nuk u gjet"
+        "price": 6990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/COMBO-MK470-SLIM-COMBO-OFFWHITE-MS0967",
+        "lastChecked": "2026-05-09T10:04:07.636Z",
+        "matchedName": "COMBO MK470 SLIM COMBO OFFWHITE",
+        "storeProductId": "/categories/COMBO-MK470-SLIM-COMBO-OFFWHITE-MS0967",
+        "matchConfidence": 100
       },
       {
         "storeId": "globe",
@@ -189,7 +1057,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.369Z",
+        "lastChecked": "2026-05-09T10:04:07.685Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -198,13 +1066,173 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:48.294Z",
+        "lastChecked": "2026-05-09T10:04:08.346Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:48.709Z"
+    "refreshedAt": "2026-05-09T10:04:08.909Z"
   },
-  "shpresa-msi-mag-a750bn-pcie5": {
+  "shpresa-microsoft-surface-pro-12-16gb-256gb-ssd-snapdragon-x-plus": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 180776,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200018610/Tablet-Microsoft-Surface-Pro-Ultra5-16GB-256GB-Win11Pro-Platinum",
+        "lastChecked": "2026-05-09T10:04:08.907Z",
+        "matchedName": "Tablet Microsoft Surface Pro Ultra5 16GB 256GB Win11Pro Platinum",
+        "storeProductId": "/KST-200018610/Tablet-Microsoft-Surface-Pro-Ultra5-16GB-256GB-Win11Pro-Platinum",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": 84990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/microsoft-surface-pro-12-16gb-256gb-ssd-snapdragon-x-plus/",
+        "lastChecked": "2026-05-09T10:04:07.622Z",
+        "matchedName": "Microsoft Surface Pro, 12&#8243;, 16GB, 256GB SSD, Snapdragon X Plus"
+      },
+      {
+        "storeId": "neptun",
+        "price": 144997,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MICROSOFT-SURFACE-PRO-7--LP1770",
+        "lastChecked": "2026-05-09T10:04:07.622Z",
+        "matchedName": "MICROSOFT SURFACE PRO 7+",
+        "storeProductId": "/categories/MICROSOFT-SURFACE-PRO-7--LP1770",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.674Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.290Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:08.944Z"
+  },
+  "shpresa-dji-osmo-action-6-adventure-combo": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 3500,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/INP-200011384/Filter-reduktim-ndotje-drite-Freewell-FW-OA6-LPR-per-DJI-Osmo-Action-6-me-kuti-lecke",
+        "lastChecked": "2026-05-09T10:04:09.278Z",
+        "matchedName": "Filtër reduktim ndotje drite, Freewell, FW-OA6-LPR, për DJI Osmo Action 6, me kuti + leckë",
+        "storeProductId": "/INP-200011384/Filter-reduktim-ndotje-drite-Freewell-FW-OA6-LPR-per-DJI-Osmo-Action-6-me-kuti-lecke",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": 54990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/dji-osmo-action-6-adventure-combo/",
+        "lastChecked": "2026-05-09T10:04:07.620Z",
+        "matchedName": "DJI Osmo Action 6 Adventure Combo"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.918Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.668Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.291Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:09.278Z"
+  },
+  "shpresa-dyson-supersonic-nural-hair-dryer-strawberry-bronze-blush-pink": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 74175,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200045354/Tharese-flokesh-Dyson-HD16-Supersonic-Nural-1600W-5-aksesore-roze",
+        "lastChecked": "2026-05-09T10:04:09.205Z",
+        "matchedName": "Tharëse flokësh Dyson HD16 Supersonic Nural, 1600W, 5 aksesorë, rozë",
+        "storeProductId": "/KST-200045354/Tharese-flokesh-Dyson-HD16-Supersonic-Nural-1600W-5-aksesore-roze",
+        "matchConfidence": 75
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:10.941Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 52490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THARESE-FLOKESH-DYSON-SUPERSONIC-NURAL-SILK-PINK-TH0934",
+        "lastChecked": "2026-05-09T10:04:07.633Z",
+        "matchedName": "THARESE FLOKESH DYSON SUPERSONIC NURAL SILK/PINK",
+        "storeProductId": "/categories/THARESE-FLOKESH-DYSON-SUPERSONIC-NURAL-SILK-PINK-TH0934",
+        "matchConfidence": 75
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:07.690Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:08.752Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:10.942Z"
+  },
+  "shpresa-global-drone-falcon-gd93": {
     "prices": [
       {
         "storeId": "foleja",
@@ -212,17 +1240,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:48.049Z",
+        "lastChecked": "2026-05-09T10:04:12.350Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": 8990,
+        "price": 1490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/msi-mag-a750bn-pcie5/",
-        "lastChecked": "2026-05-09T10:03:47.331Z",
-        "matchedName": "MSI Mag A750BN PCIE5"
+        "productUrl": "https://shpresa.al/product/global-drone-falcon-gd93/",
+        "lastChecked": "2026-05-09T10:04:11.403Z",
+        "matchedName": "Global Drone Falcon GD93 (2 Batteries)"
       },
       {
         "storeId": "neptun",
@@ -230,7 +1258,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.543Z",
+        "lastChecked": "2026-05-09T10:04:11.677Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -239,7 +1267,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.370Z",
+        "lastChecked": "2026-05-09T10:04:11.431Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -248,13 +1276,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:48.295Z",
+        "lastChecked": "2026-05-09T10:04:12.079Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:48.798Z"
+    "refreshedAt": "2026-05-09T10:04:12.431Z"
   },
-  "shpresa-brother-3-in-1-color-inkjet-printer-dcp-t230": {
+  "shpresa-asus-rog-carnyx-professional-microphone": {
     "prices": [
       {
         "storeId": "foleja",
@@ -262,7 +1290,160 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:48.633Z",
+        "lastChecked": "2026-05-09T10:04:12.776Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 24990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/asus-rog-carnyx-professional-microphone/?attribute_pa_color=black",
+        "lastChecked": "2026-05-09T10:04:11.385Z",
+        "matchedName": "ASUS ROG Carnyx Professional Microphone"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.730Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.413Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:12.496Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:12.837Z"
+  },
+  "shpresa-vga-cable-1-5m": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.979Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 100,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/vga-cable-1-5m/",
+        "lastChecked": "2026-05-09T10:04:11.408Z",
+        "matchedName": "VGA Cable 1.5m"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.573Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.432Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.717Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:12.839Z"
+  },
+  "shpresa-dyson-purifier-bigquiet-formaldehyde-bp04": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:12.853Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 84990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/dyson-purifier-bigquiet-formaldehyde-bp04/",
+        "lastChecked": "2026-05-09T10:04:11.390Z",
+        "matchedName": "Dyson Purifier Big+Quiet Formaldehyde BP04"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.695Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.422Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:12.633Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:12.872Z"
+  },
+  "shpresa-tp-link-wi-fi-6-router-archer-ax72": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200024374/Router-TP-Link-Archer-NX200-Wi-Fi-6-Dual-band-5G-Bardhe",
+        "lastChecked": "2026-05-09T10:04:12.920Z",
+        "matchedName": "Router TP-Link Archer NX200, Wi-Fi 6, Dual-band, 5G, Bardhë",
+        "storeProductId": "/KST-200024374/Router-TP-Link-Archer-NX200-Wi-Fi-6-Dual-band-5G-Bardhe",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -270,17 +1451,20 @@
         "price": 13990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/brother-3-in-1-color-inkjet-printer-dcp-t230/",
-        "lastChecked": "2026-05-09T10:03:47.355Z",
-        "matchedName": "Brother 3-in-1 Color Inkjet Printer DCP-T230"
+        "productUrl": "https://shpresa.al/product/tp-link-wi-fi-6-router-archer-ax72/",
+        "lastChecked": "2026-05-09T10:04:11.398Z",
+        "matchedName": "TP-LINK Wi-Fi 6 Router Archer AX72"
       },
       {
         "storeId": "neptun",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.590Z",
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/ROUTER-TP-LINK-ARCHER-AX23--Wi-Fi-6--PC1661",
+        "lastChecked": "2026-05-09T10:04:11.398Z",
+        "matchedName": "ROUTER TP-LINK ARCHER AX23 (Wi-Fi 6)",
+        "storeProductId": "/categories/ROUTER-TP-LINK-ARCHER-AX23--Wi-Fi-6--PC1661",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -289,7 +1473,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.396Z",
+        "lastChecked": "2026-05-09T10:04:11.423Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -298,13 +1482,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:48.291Z",
+        "lastChecked": "2026-05-09T10:04:12.113Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:48.799Z"
+    "refreshedAt": "2026-05-09T10:04:12.921Z"
   },
-  "shpresa-deepcool-cg530-pc-case": {
+  "shpresa-logitech-mx-keys-wireless-keyboard": {
     "prices": [
       {
         "storeId": "foleja",
@@ -312,7 +1496,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.719Z",
+        "lastChecked": "2026-05-09T10:04:13.018Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -320,9 +1504,9 @@
         "price": 9990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/deepcool-cg530-pc-case/",
-        "lastChecked": "2026-05-09T10:03:47.347Z",
-        "matchedName": "DeepCool CG530 PC Case"
+        "productUrl": "https://shpresa.al/product/logitech-mx-keys-wireless-keyboard/",
+        "lastChecked": "2026-05-09T10:04:11.405Z",
+        "matchedName": "Logitech MX Keys Wireless Keyboard"
       },
       {
         "storeId": "neptun",
@@ -330,7 +1514,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.446Z",
+        "lastChecked": "2026-05-09T10:04:11.745Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -339,7 +1523,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.385Z",
+        "lastChecked": "2026-05-09T10:04:11.426Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -348,13 +1532,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.402Z",
+        "lastChecked": "2026-05-09T10:04:12.494Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:48.808Z"
+    "refreshedAt": "2026-05-09T10:04:13.078Z"
   },
-  "shpresa-rongta-thermal-printer-rp325": {
+  "shpresa-xiaomi-smart-pen-2nd-generation": {
     "prices": [
       {
         "storeId": "foleja",
@@ -362,7 +1546,224 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.749Z",
+        "lastChecked": "2026-05-09T10:04:13.123Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 7990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-smart-pen-2nd-generation/",
+        "lastChecked": "2026-05-09T10:04:11.382Z",
+        "matchedName": "Xiaomi Smart Pen 2nd Generation"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.672Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.411Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:12.489Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:13.124Z"
+  },
+  "shpresa-asus-tuf-gaming-750w-bronze-psu": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300052232/Furnizues-i-energjise-ASUS-TUF-Gaming-750W-Gold-20-4-pin-ATX-i-zi",
+        "lastChecked": "2026-05-09T10:04:13.222Z",
+        "matchedName": "Furnizues i energjisë ASUS TUF Gaming 750W Gold, 20+4 pin ATX, i zi",
+        "storeProductId": "/ACN-300052232/Furnizues-i-energjise-ASUS-TUF-Gaming-750W-Gold-20-4-pin-ATX-i-zi",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 11990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/asus-tuf-gaming-750w-bronze-psu/",
+        "lastChecked": "2026-05-09T10:04:11.379Z",
+        "matchedName": "Asus TUF Gaming 750W Bronze PSU"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.783Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.411Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:12.491Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:13.223Z"
+  },
+  "shpresa-logitech-g502x-wireless-gaming-mouse": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200018685/Maus-Logitech-G502-X-LIGHTSPEED-Wireless-25600-DPI-Bardhe",
+        "lastChecked": "2026-05-09T10:04:13.397Z",
+        "matchedName": "Maus Logitech G502 X LIGHTSPEED, Wireless, 25600 DPI, Bardhë",
+        "storeProductId": "/KST-200018685/Maus-Logitech-G502-X-LIGHTSPEED-Wireless-25600-DPI-Bardhe",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 11490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/logitech-g502x-wireless-gaming-mouse/",
+        "lastChecked": "2026-05-09T10:04:11.393Z",
+        "matchedName": "Logitech G502 X Wireless Gaming Mouse"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.857Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.425Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.900Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:13.398Z"
+  },
+  "shpresa-pc-lenovo-aio-ideacentre-3-24alc6-23-8%e2%80%b3-16gb-512gb-ssd-amd-ryzen-7-2": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
+        "lastChecked": "2026-05-09T10:04:12.435Z",
+        "matchedName": "Kompjuter AIO Lenovo IdeaCentre AIO 24IRH9, 24\", Intel Core i5, 16GB RAM, 1TB SSD",
+        "storeProductId": "/ACN-300306465/Kompjuter-AIO-Lenovo-IdeaCentre-AIO-24IRH9-24-Intel-Core-i5-16GB-RAM-1TB-SSD",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 84990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/pc-lenovo-aio-ideacentre-3-24alc6-23-8%e2%80%b3-16gb-512gb-ssd-amd-ryzen-7-2/",
+        "lastChecked": "2026-05-09T10:04:11.400Z",
+        "matchedName": "PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7",
+        "storeProductId": "118655",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/PC-AIO-LENOVO-IDEACENTRE-3-27ALC6-F0FY00PCRI-PC1815",
+        "lastChecked": "2026-05-09T10:04:11.401Z",
+        "matchedName": "PC AIO LENOVO IDEACENTRE 3 27ALC6 F0FY00PCRI",
+        "storeProductId": "/categories/PC-AIO-LENOVO-IDEACENTRE-3-27ALC6-F0FY00PCRI-PC1815",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:11.423Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:12.634Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:13.679Z"
+  },
+  "shpresa-asus-dual-geforce-rtx-3050-oc-edition-6gb": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ACN-300261875/Kartele-grafike-ASUS-Dual-GeForce-RTX-5060-8-GB-GDDR7-e-zeze",
+        "lastChecked": "2026-05-09T10:04:12.742Z",
+        "matchedName": "Kartelë grafike ASUS Dual GeForce RTX 5060, 8 GB GDDR7, e zezë",
+        "storeProductId": "/ACN-300261875/Kartele-grafike-ASUS-Dual-GeForce-RTX-5060-8-GB-GDDR7-e-zeze",
+        "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -371,7 +1772,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.057Z",
+        "lastChecked": "2026-05-09T10:04:15.124Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -380,7 +1781,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.477Z",
+        "lastChecked": "2026-05-09T10:04:11.763Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -389,7 +1790,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.377Z",
+        "lastChecked": "2026-05-09T10:04:11.422Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -398,13 +1799,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:47.720Z",
+        "lastChecked": "2026-05-09T10:04:12.632Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:49.058Z"
+    "refreshedAt": "2026-05-09T10:04:15.125Z"
   },
-  "shpresa-aoc-27-fhd-monitor-27b3cf2": {
+  "shpresa-gembird-premium-quality-usb-a-plug-to-b-plug-cable": {
     "prices": [
       {
         "storeId": "foleja",
@@ -412,18 +1813,17 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:50.150Z",
+        "lastChecked": "2026-05-09T10:04:16.383Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
+        "price": 290,
+        "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/aoc-27-fhd-monitor-27b3cf2/",
-        "lastChecked": "2026-05-09T10:03:49.494Z",
-        "matchedName": "AOC 27&#8243; FHD Monitor 27B3CF2",
-        "error": "Produkti nuk u gjet"
+        "productUrl": "https://shpresa.al/product/gembird-premium-quality-usb-a-plug-to-b-plug-cable/",
+        "lastChecked": "2026-05-09T10:04:15.556Z",
+        "matchedName": "Gembird USB A-Plug to B-Plug Cable"
       },
       {
         "storeId": "neptun",
@@ -431,7 +1831,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.596Z",
+        "lastChecked": "2026-05-09T10:04:15.755Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -440,7 +1840,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.513Z",
+        "lastChecked": "2026-05-09T10:04:15.578Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -449,13 +1849,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.905Z",
+        "lastChecked": "2026-05-09T10:04:16.367Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:50.246Z"
+    "refreshedAt": "2026-05-09T10:04:16.390Z"
   },
-  "shpresa-rongta-rp310d-3-dual-color-thermal-label-printer": {
+  "shpresa-mobile-power-bank-with-4-built-in-cables": {
     "prices": [
       {
         "storeId": "foleja",
@@ -463,112 +1863,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:50.240Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/rongta-rp310d-3-dual-color-thermal-label-printer/",
-        "lastChecked": "2026-05-09T10:03:49.488Z",
-        "matchedName": "Rongta RP310D 3&#8243; Dual Color Thermal Label Printer",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.747Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.511Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:50.130Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-09T10:03:50.336Z"
-  },
-  "shpresa-aoc-27-fhd-gaming-monitor-200hz-27g4ha": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ICO-200000026/Monitor-gaming-AOC-27G4HRE-27-200Hz-Fast-IPS-FHD-1ms-G-Sync-zi-kuqe",
-        "lastChecked": "2026-05-09T10:03:49.970Z",
-        "matchedName": "Monitor gaming, AOC 27G4HRE, 27\", 200Hz, Fast IPS, FHD, 1ms, G-Sync, zi/kuqe",
-        "storeProductId": "/ICO-200000026/Monitor-gaming-AOC-27G4HRE-27-200Hz-Fast-IPS-FHD-1ms-G-Sync-zi-kuqe",
-        "matchConfidence": 83,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/aoc-27-fhd-gaming-monitor-200hz-27g4ha/",
-        "lastChecked": "2026-05-09T10:03:49.497Z",
-        "matchedName": "AOC 27&#8243; FHD Gaming Monitor 200Hz 27G4HA",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.763Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.513Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.882Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-09T10:03:50.336Z"
-  },
-  "shpresa-brother-pt-h110-compact-label-printer": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:50.364Z",
+        "lastChecked": "2026-05-09T10:04:16.333Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -576,9 +1871,9 @@
         "price": 3990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/brother-pt-h110-compact-label-printer/",
-        "lastChecked": "2026-05-09T10:03:49.491Z",
-        "matchedName": "Brother PT-H110 Compact Label Printer"
+        "productUrl": "https://shpresa.al/product/mobile-power-bank-with-4-built-in-cables/",
+        "lastChecked": "2026-05-09T10:04:15.548Z",
+        "matchedName": "Mobile Power Bank With 4 Built-in Cables"
       },
       {
         "storeId": "neptun",
@@ -586,7 +1881,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.698Z",
+        "lastChecked": "2026-05-09T10:04:15.796Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -595,7 +1890,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.512Z",
+        "lastChecked": "2026-05-09T10:04:15.578Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -604,13 +1899,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.592Z",
+        "lastChecked": "2026-05-09T10:04:16.240Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:50.432Z"
+    "refreshedAt": "2026-05-09T10:04:16.393Z"
   },
-  "shpresa-blackview-tab-active-12-pro-5g-11-12gb-256gb": {
+  "shpresa-brother-label-cassette-dk11221": {
     "prices": [
       {
         "storeId": "foleja",
@@ -618,160 +1913,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:50.539Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/blackview-tab-active-12-pro-5g-11-12gb-256gb/",
-        "lastChecked": "2026-05-09T10:03:49.502Z",
-        "matchedName": "Blackview Tab Active 12 Pro 5G, 11&#8243;, 12GB, 256GB",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.778Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.518Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.899Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-09T10:03:50.541Z"
-  },
-  "shpresa-xiaomi-mijia-rotary-tool-kit": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:50.558Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": 2990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/xiaomi-mijia-rotary-tool-kit/",
-        "lastChecked": "2026-05-09T10:03:49.505Z",
-        "matchedName": "Xiaomi Mijia Rotary Tool Kit"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.837Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.522Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:50.297Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-09T10:03:50.559Z"
-  },
-  "shpresa-sandisk-ultra-sdhc-uhs-i-card-and-sdxc-uhs-i-card-256gb": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": 2970,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200045849/Karte-memorie-SanDisk-Ultra-32GB-microSDHC-Class-10-UHS-I-gri-kuqe",
-        "lastChecked": "2026-05-09T10:03:50.562Z",
-        "matchedName": "Kartë memorie SanDisk Ultra 32GB microSDHC, Class 10, UHS-I, gri/kuqe",
-        "storeProductId": "/KST-200045849/Karte-memorie-SanDisk-Ultra-32GB-microSDHC-Class-10-UHS-I-gri-kuqe",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "shpresa",
-        "price": 5990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/sandisk-ultra-sdhc-uhs-i-card-and-sdxc-uhs-i-card-256gb/",
-        "lastChecked": "2026-05-09T10:03:49.507Z",
-        "matchedName": "SanDisk Ultra® SDHC™ UHS-I card and SDXC™ UHS-I card &#8211; 256GB"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.752Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.516Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:50.200Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-09T10:03:50.563Z"
-  },
-  "shpresa-apple-airtag-finewoven-key-ring": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:50.447Z",
+        "lastChecked": "2026-05-09T10:04:16.257Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -779,9 +1921,9 @@
         "price": 690,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/apple-airtag-finewoven-key-ring/?attribute_pa_color=brown",
-        "lastChecked": "2026-05-09T10:03:49.500Z",
-        "matchedName": "Apple AirTag FineWoven Key Ring"
+        "productUrl": "https://shpresa.al/product/brother-label-cassette-dk11221/",
+        "lastChecked": "2026-05-09T10:04:15.545Z",
+        "matchedName": "Brother Label Cassette DK11221"
       },
       {
         "storeId": "neptun",
@@ -789,7 +1931,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.849Z",
+        "lastChecked": "2026-05-09T10:04:15.641Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -798,7 +1940,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:49.515Z",
+        "lastChecked": "2026-05-09T10:04:15.577Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -807,10 +1949,1492 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-09T10:03:50.673Z",
+        "lastChecked": "2026-05-09T10:04:15.879Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-09T10:03:50.674Z"
+    "refreshedAt": "2026-05-09T10:04:16.401Z"
+  },
+  "shpresa-huawei-mobile-pocket-3g-wifi-router-e5730": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.692Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 3990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/huawei-mobile-pocket-3g-wifi-router-e5730/",
+        "lastChecked": "2026-05-09T10:04:15.553Z",
+        "matchedName": "Huawei Mobile Pocket 3G Wifi Router E5730"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.901Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.579Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.416Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:16.755Z"
+  },
+  "shpresa-disc-brake-for-electric-scooter-m365": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.656Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 1900,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/disc-brake-for-electric-scooter-m365/",
+        "lastChecked": "2026-05-09T10:04:15.561Z",
+        "matchedName": "Disc Brake for Electric Scooter M365"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.850Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.580Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.365Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:16.758Z"
+  },
+  "shpresa-portable-wifi-4g-router-lte-mobile": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.788Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 2990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/portable-wifi-4g-router-lte-mobile/",
+        "lastChecked": "2026-05-09T10:04:15.573Z",
+        "matchedName": "Portable Wifi 4G Router LTE Mobile"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.901Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.589Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.385Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:16.822Z"
+  },
+  "shpresa-gembird-usb-2-0-a-plug-b-plug-cable": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ACN-300043555/Kabllo-USB-Gembird-3m-USB-2.0-A-B-M-e-zeza",
+        "lastChecked": "2026-05-09T10:04:16.879Z",
+        "matchedName": "Kabllo USB Gembird 3m USB 2.0 A/B M, e zeza",
+        "storeProductId": "/ACN-300043555/Kabllo-USB-Gembird-3m-USB-2.0-A-B-M-e-zeza",
+        "matchConfidence": 75,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/gembird-usb-2-0-a-plug-b-plug-cable/",
+        "lastChecked": "2026-05-09T10:04:15.551Z",
+        "matchedName": "Gembird USB 2.0 A-plug B-plug Cable"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.867Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.577Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.364Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:16.880Z"
+  },
+  "foleja-celular-xiaomi-redmi-15c-5g-4-256gb-fiolet": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 19600,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KOM-200218271/Celular-Xiaomi-Redmi-15C-5G-4-256GB-fiolet",
+        "lastChecked": "2026-05-09T10:04:16.340Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/xiaomi-redmi-15c/",
+        "lastChecked": "2026-05-09T10:04:15.568Z",
+        "matchedName": "Xiaomi Redmi 15C",
+        "storeProductId": "171660",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Xiaomi-Redmi-15C-8-256GB-Midnight-Black-TL4366",
+        "lastChecked": "2026-05-09T10:04:15.568Z",
+        "matchedName": "Xiaomi Redmi 15C 8/256GB Midnight Black",
+        "storeProductId": "/categories/Xiaomi-Redmi-15C-8-256GB-Midnight-Black-TL4366",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.586Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.457Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:16.996Z"
+  },
+  "foleja-router-mobil-zte-u30-air-5g-wi-fi-6-bateri-4500mah-bardh": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 12085,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KOM-200219743/Router-mobil-ZTE-U30-Air-5G-Wi-Fi-6-bateri-4500mAh-bardhe",
+        "lastChecked": "2026-05-09T10:04:15.939Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:18.178Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.844Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.580Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.239Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:18.179Z"
+  },
+  "foleja-celular-apple-iphone-17-air-512gb-ari": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 133605,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KOM-200219224/Celular-Apple-iPhone-17-Air-512GB-ari",
+        "lastChecked": "2026-05-09T10:04:15.607Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 77990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-iphone-17/",
+        "lastChecked": "2026-05-09T10:04:15.571Z",
+        "matchedName": "Apple iPhone 17",
+        "storeProductId": "173687",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.131Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.593Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.759Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:19.032Z"
+  },
+  "foleja-celular-apple-iphone-17-512gb-lavander": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 148800,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200004223/Celular-Apple-iPhone-17-512GB-Lavander",
+        "lastChecked": "2026-05-09T10:04:15.599Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 77990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-iphone-17/",
+        "lastChecked": "2026-05-09T10:04:15.566Z",
+        "matchedName": "Apple iPhone 17",
+        "storeProductId": "173687",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.114Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.581Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.679Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:19.036Z"
+  },
+  "shpresa-dell-monitor-ultrasharp-24-u2415": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:16.981Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.236Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.867Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.579Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:15.933Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:19.237Z"
+  },
+  "foleja-celular-apple-iphone-17e-256gb-6-1-bardh": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 88900,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ERG-200005835/Celular-Apple-iPhone-17e-256GB-6.1-bardhe",
+        "lastChecked": "2026-05-09T10:04:20.035Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 57990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-iphone-17e/",
+        "lastChecked": "2026-05-09T10:04:19.689Z",
+        "matchedName": "Apple iPhone 17e",
+        "storeProductId": "194346",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.182Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.790Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.578Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:21.000Z"
+  },
+  "foleja-celular-apple-iphone-17-512gb-mist-blue": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 148800,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200004225/Celular-Apple-iPhone-17-512GB-Mist-Blue",
+        "lastChecked": "2026-05-09T10:04:20.051Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 77990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/apple-iphone-17/",
+        "lastChecked": "2026-05-09T10:04:19.660Z",
+        "matchedName": "Apple iPhone 17",
+        "storeProductId": "173687",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.200Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.758Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.847Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:22.062Z"
+  },
+  "foleja-celular-zte-blade-v80-vita-4-256gb-cyan": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 19800,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200005703/Celular-ZTE-Blade-V80-Vita-4-256GB-cyan",
+        "lastChecked": "2026-05-09T10:04:19.891Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:22.181Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.978Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.779Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.255Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:22.182Z"
+  },
+  "foleja-celular-google-pixel-10a-8-256gb-5g-berry": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 75800,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ERG-200005628/Celular-Google-Pixel-10a-8-256GB-5G-Berry",
+        "lastChecked": "2026-05-09T10:04:19.992Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:22.194Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.970Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.759Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.406Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:22.195Z"
+  },
+  "foleja-celular-poco-m8-8gb-256gb-5g-green": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 28000,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ERG-200005362/Celular-POCO-M8-8GB-256GB-5G-Green",
+        "lastChecked": "2026-05-09T10:04:19.871Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:22.890Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.053Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.779Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.394Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:22.891Z"
+  },
+  "foleja-celular-tcl-60se-8gb-512gb-i-zi": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 17300,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KOM-200216066/Celular-TCL-60SE-8GB-512GB-i-zi",
+        "lastChecked": "2026-05-09T10:04:19.927Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:23.200Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.193Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.777Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.804Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:23.201Z"
+  },
+  "foleja-celular-motorola-edge-60-8-256gb-5g-shamrock": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 31900,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ERG-200003881/Celular-Motorola-Edge-60-8-256GB-5G-Shamrock",
+        "lastChecked": "2026-05-09T10:04:19.893Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:23.512Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.203Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.757Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.524Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:23.513Z"
+  },
+  "foleja-mb-shtjell-s-samsung-kindsuit-ef-vs936pbegww-p-r-galaxy-s25-eko-l-kur-zi": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 4498,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/HRT-200020400/Mbeshtjelles-Samsung-KindSuit-EF-VS936PBEGWW-per-Galaxy-S25-eko-lekure-zi",
+        "lastChecked": "2026-05-09T10:04:20.048Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:24.664Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.273Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.803Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.551Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:24.665Z"
+  },
+  "foleja-celular-realme-14-5g-12-256gb-mecha-silver": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 39600,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KOM-200214888/Celular-Realme-14-5G-12-256GB-Mecha-Silver",
+        "lastChecked": "2026-05-09T10:04:19.931Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:24.698Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.281Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.791Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.802Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:24.699Z"
+  },
+  "foleja-celular-realme-note-70t-4gb-128gb-ari": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 13000,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/YLL-200013590/Celular-Realme-Note-70T-4GB-128GB-ari",
+        "lastChecked": "2026-05-09T10:04:20.057Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:24.710Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.209Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.776Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.595Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:24.711Z"
+  },
+  "foleja-mb-shtjell-s-samsung-clear-case-p-r-galaxy-fold7-transparent": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 3190,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200052660/Mbeshtjelles-Samsung-Clear-Case-per-Galaxy-Fold7-transparent",
+        "lastChecked": "2026-05-09T10:04:19.987Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:24.879Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-S24-Clear-Case-CA3856",
+        "lastChecked": "2026-05-09T10:04:19.717Z",
+        "matchedName": "Cover Samsung S24 Clear Case",
+        "storeProductId": "/categories/Cover-Samsung-S24-Clear-Case-CA3856",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.792Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.824Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:24.880Z"
+  },
+  "foleja-celular-realme-16-pro-8-256gb-5g-gold": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 44829,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/ERG-200005244/Celular-Realme-16-Pro-8-512GB-5G-purple",
+        "lastChecked": "2026-05-09T10:04:20.009Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:26.697Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:20.569Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:19.759Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:21.249Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:26.699Z"
+  },
+  "foleja-smartwatch-samsung-galaxy-watch7-1-3-amoled-wi-fi-gps-green": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 21900,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/YLL-200013245/Smartwatch-Samsung-Galaxy-Watch7-1.3-AMOLED-Wi-Fi-GPS-Green",
+        "lastChecked": "2026-05-09T10:04:27.427Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-watch7-44mm/",
+        "lastChecked": "2026-05-09T10:04:27.125Z",
+        "matchedName": "Samsung Galaxy Watch7 44MM",
+        "storeProductId": "144382",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.371Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.163Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.202Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:28.211Z"
+  },
+  "foleja-mb-shtjell-s-ekrani-pr-celular-samsung-galaxy-s24-ultra-transparent": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2500,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/YLL-200008540/Mbeshtjelles-ekrani-pr-celular-Samsung-Galaxy-S24-Ultra-transparent",
+        "lastChecked": "2026-05-09T10:04:27.386Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 57990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-s24-ultra-256gb/",
+        "lastChecked": "2026-05-09T10:04:27.113Z",
+        "matchedName": "Samsung Galaxy S24 Ultra 256GB",
+        "storeProductId": "194460",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.615Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.175Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.874Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:28.415Z"
+  },
+  "foleja-celular-samsung-galaxy-z-flip7-fe-256gb-i-zi": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 100920,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/KST-200054417/Celular-Samsung-Galaxy-Z-Flip7-FE-256GB-i-zi",
+        "lastChecked": "2026-05-09T10:04:27.370Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": 117990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-z-fold7/",
+        "lastChecked": "2026-05-09T10:04:27.100Z",
+        "matchedName": "Samsung Galaxy Z Fold7",
+        "storeProductId": "169037",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "neptun",
+        "price": 199990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-Z-FOLD7-512GB-NAVY-TL4359",
+        "lastChecked": "2026-05-09T10:04:27.100Z",
+        "matchedName": "SAMSUNG GALAXY Z FOLD7 512GB NAVY",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-Z-FOLD7-512GB-NAVY-TL4359",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.152Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:28.562Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:28.564Z"
+  },
+  "foleja-mb-shtjell-s-samsung-galaxy-z-flip6-17-cm-6-7-transparent": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 21481,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200025830/Mbeshtjelles-Samsung-Galaxy-Z-Flip6-17-cm-6.7-Transparent",
+        "lastChecked": "2026-05-09T10:04:27.429Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-z-fold7/",
+        "lastChecked": "2026-05-09T10:04:27.121Z",
+        "matchedName": "Samsung Galaxy Z Fold7",
+        "storeProductId": "169037",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-Z-FOLD7-512GB-NAVY-TL4359",
+        "lastChecked": "2026-05-09T10:04:27.121Z",
+        "matchedName": "SAMSUNG GALAXY Z FOLD7 512GB NAVY",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-Z-FOLD7-512GB-NAVY-TL4359",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.161Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:28.250Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:28.600Z"
+  },
+  "foleja-celular-samsung-galaxy-a17-5g-sm-a176-4gb-128gb-e-zez": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 19000,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/ERG-200004008/Celular-Samsung-Galaxy-A17-5G-SM-A176-4GB-128GB-e-zeze",
+        "lastChecked": "2026-05-09T10:04:27.440Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-a17-5g/",
+        "lastChecked": "2026-05-09T10:04:27.117Z",
+        "matchedName": "Samsung Galaxy A17 5G",
+        "storeProductId": "171625",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-A17-256GB-GRAY-TL4380",
+        "lastChecked": "2026-05-09T10:04:27.117Z",
+        "matchedName": "SAMSUNG GALAXY A17 256GB GRAY",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-A17-256GB-GRAY-TL4380",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.160Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:28.148Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:28.721Z"
+  },
+  "foleja-tablet-samsung-galaxy-tab-s10-fe-13-1-8gb-128gb-gri": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 69615,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200026990/Tablet-Samsung-Galaxy-Tab-S10-FE-13.1-8GB-128GB-gri",
+        "lastChecked": "2026-05-09T10:04:27.380Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/product/samsung-galaxy-tab-a9-8-7-2023/",
+        "lastChecked": "2026-05-09T10:04:27.095Z",
+        "matchedName": "Samsung Galaxy Tab A9 8.7&#8243; LTE",
+        "storeProductId": "124550",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "lastChecked": "2026-05-09T10:04:27.095Z",
+        "matchedName": "SAMSUNG GALAXY TAB A11 64GB SILVER",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-TAB-A11-64GB-SILVER-TB0746",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.151Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:28.197Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:29.361Z"
+  },
+  "foleja-celular-samsung-galaxy-s25-256gb-12ram-5g-icy-blue": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 109980,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200051068/Celular-Samsung-Galaxy-S25-256GB-12RAM-5G-icy-blue",
+        "lastChecked": "2026-05-09T10:04:27.435Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Jo në gjendje",
+        "productUrl": "https://shpresa.al/?post_type=product&p=160544&attribute_pa_color=silver-shadow",
+        "lastChecked": "2026-05-09T10:04:27.104Z",
+        "matchedName": "Samsung Galaxy S25 256GB",
+        "storeProductId": "160551",
+        "matchConfidence": 67,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SAMSUNG-GALAXY-S25--256GB-BLUEBLACK-TL4374",
+        "lastChecked": "2026-05-09T10:04:27.104Z",
+        "matchedName": "Samsung Galaxy S25+  256GB Blueblack",
+        "storeProductId": "/categories/SAMSUNG-GALAXY-S25--256GB-BLUEBLACK-TL4374",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.153Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:28.451Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:30.036Z"
+  },
+  "foleja-mb-shtjell-s-samsung-clear-cover-p-r-galaxy-s25-fe-transparent": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2324,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/KST-200058716/Mbeshtjelles-Samsung-Clear-Cover-per-Galaxy-S25-FE-transparent",
+        "lastChecked": "2026-05-09T10:04:27.549Z"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:30.581Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/Cover-Samsung-A36-Clear-CA4025",
+        "lastChecked": "2026-05-09T10:04:27.109Z",
+        "matchedName": "Cover Samsung A36 Clear",
+        "storeProductId": "/categories/Cover-Samsung-A36-Clear-CA4025",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:27.158Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-09T10:04:28.213Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-09T10:04:30.582Z"
   }
 }
