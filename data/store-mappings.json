@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T08:54:52.031Z",
+  "updatedAt": "2026-05-09T08:55:29.682Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -390,12 +390,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300022736/Procesor-AMD-Ryzen-9-5950X-3.4-GHz-64-MB-hiri",
       "storeProductName": "Procesor AMD Ryzen 9 5950X, 3.4 GHz, 64 MB, hiri",
-      "catalogueProductId": "pcstore-amd-processor-ryzen-9-9900x3d",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-9-9950x3d",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:33.825Z",
-      "updatedAt": "2026-05-09T08:50:21.959Z"
+      "updatedAt": "2026-05-09T08:55:21.529Z"
     },
     "foleja:/ACN-300041915/Procesor-AMD-Ryzen-7-7800X3D": {
       "storeId": "foleja",
@@ -5241,12 +5241,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PRINTER-HP-LASERJET-M111A-PI0549",
       "storeProductName": "PRINTER HP LASERJET M111A",
-      "catalogueProductId": "globe-75487",
+      "catalogueProductId": "pcstore-hp-laserjet-m111a",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-05-09T08:34:42.839Z"
+      "updatedAt": "2026-05-09T08:55:29.682Z"
     },
     "foleja:/ACN-300092365/Printer-HP-LaserJet-MFP-M140w-i-bardhe-e-zi": {
       "storeId": "foleja",
@@ -8728,12 +8728,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300311090/Kase-All-in-One-Lenovo-IdeaCentre-AIO-24IRH9-Intel-Core-i5-13420H-16-GB-RAM-1-TB-SSD-23.8-FHD-Gri",
       "storeProductName": "Kasë All-in-One Lenovo IdeaCentre AIO 24IRH9, Intel Core i5-13420H, 16 GB RAM, 1 TB SSD, 23.8\" FHD, Gri",
-      "catalogueProductId": "pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-icore-5-210h",
+      "catalogueProductId": "pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-i5-13420h-touch-o",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:49.308Z",
-      "updatedAt": "2026-05-09T08:46:30.087Z"
+      "updatedAt": "2026-05-09T08:55:29.682Z"
     },
     "foleja:/KST-200008992/Kase-Thermaltake-View-380-TG-ARGB-Midi-Tower-e-zeze": {
       "storeId": "foleja",
@@ -8827,12 +8827,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200005304/Pllake-ame-Gigabyte-B550M-AORUS-ELITE-mATX",
       "storeProductName": "Pllakë amë Gigabyte B550M AORUS ELITE mATX",
-      "catalogueProductId": "pcstore-gigabyte-motherboard-b550m-aorus-elite",
+      "catalogueProductId": "pcstore-psu-gigabyte-aorus-elite-850w-pg5",
       "matchMethod": "name_match",
-      "confidence": 80,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:58.520Z",
-      "updatedAt": "2026-05-09T08:52:12.843Z"
+      "updatedAt": "2026-05-09T08:55:13.594Z"
     },
     "foleja:/KST-200058611/Tablet-Microsoft-Surface-Pro-10-5G-Ultra5-8GB-256GB-13-inc-Platinum": {
       "storeId": "foleja",
@@ -9421,12 +9421,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200016849/SSD-Crucial-E100-1TB-NVMe-PCIe-4.0",
       "storeProductName": "SSD Crucial E100 1TB NVMe PCIe 4.0",
-      "catalogueProductId": "pcstore-crucial-e100-ssd-480gb-ssd-nvme",
+      "catalogueProductId": "pcstore-crucial-e100-ssd-1tb-nvme",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:21.930Z",
-      "updatedAt": "2026-05-09T08:48:45.468Z"
+      "updatedAt": "2026-05-09T08:55:21.529Z"
     },
     "neptun:/categories/MONITOR-HP-SERIES-5-524SW-94C21E9-MO0873": {
       "storeId": "neptun",
@@ -9740,12 +9740,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/SSD-SAMSUNG-990-EVO-PLUS-1TB-HD00198",
       "storeProductName": "SSD SAMSUNG 990 EVO PLUS 1TB",
-      "catalogueProductId": "pcstore-samsung-990-evo-plus-ssd-4tb-nvme",
+      "catalogueProductId": "pcstore-samsung-990-evo-plus-ssd-1tb-nvme",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:52:18.957Z",
-      "updatedAt": "2026-05-09T08:50:48.396Z"
+      "updatedAt": "2026-05-09T08:55:26.077Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-PRO-5-16IAH10-LP2062": {
       "storeId": "neptun",
@@ -11467,12 +11467,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/SSD-SANDISK-2TB-Portable-HD00131",
       "storeProductName": "HDD WD MY PASSPORT 2TB BLACK",
-      "catalogueProductId": "pcstore-wd-black-hdd-2-5%e2%80%b3-500-gb",
+      "catalogueProductId": "pcstore-wd-passport-2-5-2tb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:57:24.505Z",
-      "updatedAt": "2026-05-09T08:54:33.936Z"
+      "updatedAt": "2026-05-09T08:55:26.077Z"
     },
     "foleja:/KST-200000758/Switch-D-Link-DGS-1024D-24-porta-Gigabit-unmanaged-full-duplex": {
       "storeId": "foleja",
@@ -11681,29 +11681,29 @@
       "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-30T16:57:53.101Z",
-      "updatedAt": "2026-05-08T08:34:37.365Z"
+      "updatedAt": "2026-05-09T08:55:04.487Z"
     },
     "globe:205822": {
       "storeId": "globe",
       "storeProductId": "205822",
       "storeProductName": "Router Wireless TP-LINK AX1500 ARCHER AX12",
-      "catalogueProductId": "shpresa-tp-link-150mbps-wireless-n-nano-usb-adapter",
+      "catalogueProductId": "pcstore-tp-link-wireless-n-4g-lte-router",
       "matchMethod": "name_match",
-      "confidence": 67,
+      "confidence": 60,
       "status": "pending",
       "createdAt": "2026-04-30T16:57:53.101Z",
-      "updatedAt": "2026-05-09T07:32:21.556Z"
+      "updatedAt": "2026-05-09T08:55:04.487Z"
     },
     "foleja:/ACN-300173286/Procesor-Intel-Core-Ultra-5-245KF-14-berthama-deri-ne-5.2-GHz": {
       "storeId": "foleja",
       "storeProductId": "/ACN-300173286/Procesor-Intel-Core-Ultra-5-245KF-14-berthama-deri-ne-5.2-GHz",
       "storeProductName": "Procesor Intel Core Ultra 5 245KF, 14 bërthama, deri në 5.2 GHz",
-      "catalogueProductId": "shpresa-processor-intel-core-ultra-5-245kf",
+      "catalogueProductId": "pcstore-intel-processor-core-ultra-5-245k",
       "matchMethod": "name_match",
-      "confidence": 60,
+      "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-30T16:57:53.101Z",
-      "updatedAt": "2026-05-09T07:40:24.473Z"
+      "updatedAt": "2026-05-09T08:55:04.487Z"
     },
     "foleja:/ACN-300041864/Pllake-ame-MSI-PRO-H610M-E-DDR4-Intel-H610-micro-ATX-GA-1700": {
       "storeId": "foleja",
@@ -11725,18 +11725,18 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:02.710Z",
-      "updatedAt": "2026-05-02T08:30:25.972Z"
+      "updatedAt": "2026-05-09T08:55:13.594Z"
     },
     "foleja:/AXR-200005326/Set-tastiere-dhe-Maus-HP-230-18H24AA-ABD-wireless-GER-layout-madhesi-standarde-e-zeze": {
       "storeId": "foleja",
       "storeProductId": "/AXR-200005326/Set-tastiere-dhe-Maus-HP-230-18H24AA-ABD-wireless-GER-layout-madhesi-standarde-e-zeze",
       "storeProductName": "Set tastierë dhe Maus HP 230 18H24AA#ABD wireless GER layout madhësi standarde, e zezë",
-      "catalogueProductId": "albagame-bundle-hp-230-wireless-keyboard-and-mouse-black-18h24aa",
+      "catalogueProductId": "pcstore-hp-wireless-keyboard-and-mouse-230-2",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:07.695Z",
-      "updatedAt": "2026-05-08T09:34:35.228Z"
+      "updatedAt": "2026-05-09T08:55:18.197Z"
     },
     "foleja:/KST-200004948/Tastiere-wireless-Logitech-MX-Keys-Mini-QWERTZ-LED-Grafit": {
       "storeId": "foleja",
@@ -11753,12 +11753,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300082790/Procesori-AMD-Ryzen-5-8500G",
       "storeProductName": "Procesori AMD Ryzen™ 5 8500G",
-      "catalogueProductId": "pcstore-amd-processor-ryzen-5-3600",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-5-8500g",
       "matchMethod": "name_match",
-      "confidence": 67,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:11.519Z",
-      "updatedAt": "2026-05-09T08:49:38.604Z"
+      "updatedAt": "2026-05-09T08:55:21.529Z"
     },
     "foleja:/KST-200005480/Procesor-Intel-Core-i3-14100F-Intel-Core-i3-LGA-1700-64-bit-14th-gen": {
       "storeId": "foleja",
@@ -11769,7 +11769,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:11.519Z",
-      "updatedAt": "2026-05-08T08:34:57.406Z"
+      "updatedAt": "2026-05-09T08:55:21.529Z"
     },
     "foleja:/ACN-300083283/Procesor-Intel-Core-i9-14900KS": {
       "storeId": "foleja",
@@ -11780,7 +11780,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:11.519Z",
-      "updatedAt": "2026-05-08T08:34:57.406Z"
+      "updatedAt": "2026-05-09T08:55:21.529Z"
     },
     "foleja:/ACN-300077739/Procesori-AMD-Ryzen-7-7700X-4.5-GHz-32-MB-L3": {
       "storeId": "foleja",
@@ -11791,7 +11791,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:11.519Z",
-      "updatedAt": "2026-05-08T08:34:57.406Z"
+      "updatedAt": "2026-05-09T08:55:21.529Z"
     },
     "foleja:/KST-200005485/Procesor-Intel-Core-i5-14400F-LGA-1700-14th-gen": {
       "storeId": "foleja",
@@ -11824,7 +11824,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:11.519Z",
-      "updatedAt": "2026-05-08T08:35:02.133Z"
+      "updatedAt": "2026-05-09T08:55:26.077Z"
     },
     "shpresa:11010": {
       "storeId": "shpresa",
@@ -11835,7 +11835,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:15.299Z",
-      "updatedAt": "2026-05-08T08:35:02.133Z"
+      "updatedAt": "2026-05-09T08:55:26.077Z"
     },
     "foleja:/ACN-300202349/Printer-Epson-EcoTank-M1100-Inkjet-A4-E-zeze": {
       "storeId": "foleja",
@@ -11846,7 +11846,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:16.990Z",
-      "updatedAt": "2026-05-08T08:35:05.944Z"
+      "updatedAt": "2026-05-09T08:55:29.682Z"
     },
     "foleja:/KOM-200212837/Ploter-HP-DesignJet-T630-36-in-i-zi": {
       "storeId": "foleja",
@@ -44159,12 +44159,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300029729/Pllake-ame-ASUS-ROG-STRIX-B760-F-GAMING-WIFI-Intel-B760",
       "storeProductName": "Pllakë amë ASUS ROG STRIX B760-F GAMING WIFI, Intel B760",
-      "catalogueProductId": "pcstore-asus-motherboard-rog-strix-x870-f-wi-fi-am5",
+      "catalogueProductId": "pcstore-asus-motherboard-rog-strix-z890-a-ddr5-wifi7-socket-1851",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-05-01T08:07:48.108Z",
-      "updatedAt": "2026-05-09T08:48:40.883Z"
+      "updatedAt": "2026-05-09T08:55:04.487Z"
     },
     "foleja:/AXR-200004529/Film-instant-Fujifilm-instax-mini-16567828-20-flete-bardhe-set-2x10": {
       "storeId": "foleja",
@@ -47789,12 +47789,12 @@
       "storeId": "foleja",
       "storeProductId": "/AXR-200005346/Maus-Razer-DeathAdder-Essential-RZ01-03850100-R3M1-me-kabllo-optik-gaming-i-zi",
       "storeProductName": "Maus Razer DeathAdder Essential RZ01-03850100-R3M1 me kabllo, optik, gaming, i zi",
-      "catalogueProductId": "albagame-mouse-razer-deathadder-essential-ergonomic-chroma-rgb-black-rz01-03850100-r3m1",
+      "catalogueProductId": "pcstore-razer-deathadder-essential",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-01T09:00:56.487Z",
-      "updatedAt": "2026-05-08T08:43:05.314Z"
+      "updatedAt": "2026-05-09T08:55:21.529Z"
     },
     "globe:71795": {
       "storeId": "globe",
@@ -67116,12 +67116,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200005484/Procesor-Intel-Core-i5-14400F-LGA-1700-14th-gen",
       "storeProductName": "Procesor Intel Core i5-14400F, LGA 1700, 14th gen",
-      "catalogueProductId": "shpresa-processor-intel-core-i5-14400f",
+      "catalogueProductId": "pcstore-intel-processor-core-i5-14400f",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-05-08T07:16:56.165Z",
-      "updatedAt": "2026-05-09T07:34:01.302Z"
+      "updatedAt": "2026-05-09T08:55:21.529Z"
     },
     "foleja:/KST-200013082/Smartwatch-Apple-Watch-Series-10-GPS-Cellular-42mm-64-GB-Rose-Gold": {
       "storeId": "foleja",
@@ -67149,12 +67149,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200005230/Pllake-ame-MSI-PRO-H610M-E-DDR4-Intel-LGA-1700-64-GB",
       "storeProductName": "Pllakë amë MSI PRO H610M-E DDR4, Intel, LGA 1700, 64 GB",
-      "catalogueProductId": "shpresa-msi-pro-h610m-e-ddr4",
+      "catalogueProductId": "pcstore-msi-motherboard-h610m-e-pro-ddr4",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 80,
       "status": "pending",
       "createdAt": "2026-05-08T07:19:29.253Z",
-      "updatedAt": "2026-05-09T07:41:24.802Z"
+      "updatedAt": "2026-05-09T08:55:09.306Z"
     },
     "foleja:/KST-200033576/Pllake-ame-ASUS-Pro-H610T-D4-mITX-DDR4": {
       "storeId": "foleja",
@@ -68106,12 +68106,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200022434/Tastiere-wireless-Logitech-MX-Keys-Mini-QWERTZ-LED-gri",
       "storeProductName": "Tastierë wireless Logitech MX Keys Mini, QWERTZ, LED, gri",
-      "catalogueProductId": "albagame-keyboard-logitech-mx-keys-mini-wireless-bluetooth-920-010498",
+      "catalogueProductId": "pcstore-logitech-mx-keys-keyboard-bluetooth",
       "matchMethod": "name_match",
-      "confidence": 80,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-05-08T08:34:53.866Z",
-      "updatedAt": "2026-05-08T08:42:27.439Z"
+      "updatedAt": "2026-05-09T08:55:18.197Z"
     },
     "foleja:/ICO-200003209/Switch-TP-Link-TL-SG1008-8-porta-Gigabit-1Gbps": {
       "storeId": "foleja",
