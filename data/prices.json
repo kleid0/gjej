@@ -1,15 +1,1313 @@
 {
-  "neptun-26657": {
+  "neptun-11590": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": 54579,
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.561Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:19.500Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 790,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KOM-200184234/Fshese-me-korrent-Dyson-V8-Absolute-pa-qese-vertikale-e-verdhe",
-        "lastChecked": "2026-05-11T12:18:14.126Z",
-        "matchedName": "Fshesë me korrent Dyson V8 Absolute, pa qese, vertikale, e verdhë",
-        "storeProductId": "/KOM-200184234/Fshese-me-korrent-Dyson-V8-Absolute-pa-qese-vertikale-e-verdhe",
+        "productUrl": "https://www.neptun.al/categories/GARUZHDE-GATIMI-TEFAL-K2060114",
+        "lastChecked": "2026-05-11T12:19:17.906Z",
+        "matchedName": "GARUZHDE GATIMI TEFAL K2060114",
+        "storeProductId": "/categories/GARUZHDE-GATIMI-TEFAL-K2060114",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.052Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:17.965Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:19.501Z"
+  },
+  "neptun-21297": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.589Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:19.502Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SET-XAVAX-181599-VA0331",
+        "lastChecked": "2026-05-11T12:19:17.893Z",
+        "matchedName": "SET XAVAX 181599",
+        "storeProductId": "/categories/SET-XAVAX-181599-VA0331",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.051Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:17.977Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:19.503Z"
+  },
+  "neptun-15271": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.698Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:19.580Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 897,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LUGE-MAKARONASH-TEFAL-K2060214-VA0166",
+        "lastChecked": "2026-05-11T12:19:17.912Z",
+        "matchedName": "LUGE MAKARONASH TEFAL K2060214",
+        "storeProductId": "/categories/LUGE-MAKARONASH-TEFAL-K2060214-VA0166",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.073Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:17.967Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:19.580Z"
+  },
+  "neptun-19266": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.548Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:19.700Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THIKE-TEFAL-K1220604-VA0316",
+        "lastChecked": "2026-05-11T12:19:17.882Z",
+        "matchedName": "THIKE TEFAL K1220604",
+        "storeProductId": "/categories/THIKE-TEFAL-K1220604-VA0316",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.085Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:17.960Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:19.701Z"
+  },
+  "neptun-27045": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.628Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:19.741Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SHTYPESE-PATATESH-TEFAL-274471-VA0080",
+        "lastChecked": "2026-05-11T12:19:17.878Z",
+        "matchedName": "SHTYPESE PATATESH TEFAL 274471",
+        "storeProductId": "/categories/SHTYPESE-PATATESH-TEFAL-274471-VA0080",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.085Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:17.968Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:19.742Z"
+  },
+  "neptun-430": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.340Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:19.861Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 5607,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TERMOMETER-OEM-XZW2020",
+        "lastChecked": "2026-05-11T12:19:17.873Z",
+        "matchedName": "TERMOMETER OEM XZW2020",
+        "storeProductId": "/categories/TERMOMETER-OEM-XZW2020",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.090Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:17.964Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:19.862Z"
+  },
+  "neptun-11592": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.616Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:19.969Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 597,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KULLOJSE-GATIMI-TEFAL-K2060314",
+        "lastChecked": "2026-05-11T12:19:17.887Z",
+        "matchedName": "KULLOJSE GATIMI TEFAL K2060314",
+        "storeProductId": "/categories/KULLOJSE-GATIMI-TEFAL-K2060314",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.069Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:17.963Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:19.970Z"
+  },
+  "neptun-31139": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:19.065Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:20.962Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TERMOMETER-DHOME-PHILIPS-AVENT-SCH480-00-TM0018",
+        "lastChecked": "2026-05-11T12:19:17.868Z",
+        "matchedName": "TERMOMETER DHOME PHILIPS AVENT SCH480/00",
+        "storeProductId": "/categories/TERMOMETER-DHOME-PHILIPS-AVENT-SCH480-00-TM0018",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.089Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:18.069Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:20.962Z"
+  },
+  "neptun-11600": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.946Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.184Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/GERSHERE-TEFAL-K2071314",
+        "lastChecked": "2026-05-11T12:19:21.442Z",
+        "matchedName": "GERSHERE TEFAL K2071314",
+        "storeProductId": "/categories/GERSHERE-TEFAL-K2071314",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.512Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.492Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:22.184Z"
+  },
+  "neptun-11598": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.109Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.679Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/GRIRESE-DJATHI-TEFAL-K2070714",
+        "lastChecked": "2026-05-11T12:19:21.440Z",
+        "matchedName": "GRIRESE DJATHI TEFAL K2070714",
+        "storeProductId": "/categories/GRIRESE-DJATHI-TEFAL-K2070714",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.491Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.518Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:22.679Z"
+  },
+  "neptun-21739": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.962Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.849Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1197,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LUGE-WMF-1297776040-AC2992",
+        "lastChecked": "2026-05-11T12:19:21.437Z",
+        "matchedName": "LUGE WMF 1297776040",
+        "storeProductId": "/categories/LUGE-WMF-1297776040-AC2992",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.467Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.509Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:22.849Z"
+  },
+  "neptun-26579": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.899Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.879Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1197,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TERMOMETER-VERE-WMF-658516030-AC3062",
+        "lastChecked": "2026-05-11T12:19:21.435Z",
+        "matchedName": "TERMOMETER VERE WMF 658516030",
+        "storeProductId": "/categories/TERMOMETER-VERE-WMF-658516030-AC3062",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.458Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.490Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:22.879Z"
+  },
+  "neptun-31159": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.814Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.940Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/GOTE-VEZE-WMF-0616687450-VA0340",
+        "lastChecked": "2026-05-11T12:19:21.433Z",
+        "matchedName": "GOTE VEZE WMF 0616687450",
+        "storeProductId": "/categories/GOTE-VEZE-WMF-0616687450-VA0340",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.457Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.497Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:22.940Z"
+  },
+  "neptun-19265": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.130Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:23.254Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TAVE-GATIMI-TEFAL-J1641574-VA0315",
+        "lastChecked": "2026-05-11T12:19:21.454Z",
+        "matchedName": "TAVE GATIMI TEFAL J1641574",
+        "storeProductId": "/categories/TAVE-GATIMI-TEFAL-J1641574-VA0315",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.566Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.483Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:23.255Z"
+  },
+  "neptun-11594": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.757Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:23.376Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/RRAHESE-VEZESH-TEFAL-K2071714",
+        "lastChecked": "2026-05-11T12:19:21.427Z",
+        "matchedName": "RRAHESE VEZESH TEFAL K2071714",
+        "storeProductId": "/categories/RRAHESE-VEZESH-TEFAL-K2071714",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.457Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.491Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:23.376Z"
+  },
+  "neptun-19264": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.003Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:23.399Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TAVE-GATIMI-TEFAL-J1641274-VA0314",
+        "lastChecked": "2026-05-11T12:19:21.449Z",
+        "matchedName": "TAVE GATIMI TEFAL J1641274",
+        "storeProductId": "/categories/TAVE-GATIMI-TEFAL-J1641274-VA0314",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.576Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.581Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:23.400Z"
+  },
+  "neptun-19259": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.980Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:23.472Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TAVE-GATIMI-TEFAL-J5547302-VA0309",
+        "lastChecked": "2026-05-11T12:19:21.451Z",
+        "matchedName": "TAVE GATIMI TEFAL J5547302",
+        "storeProductId": "/categories/TAVE-GATIMI-TEFAL-J5547302-VA0309",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.565Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.496Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:23.473Z"
+  },
+  "neptun-28216": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.038Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:23.501Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/ENE-QELQI-BIALETTI-AC3347",
+        "lastChecked": "2026-05-11T12:19:21.444Z",
+        "matchedName": "ENE QELQI BIALETTI",
+        "storeProductId": "/categories/ENE-QELQI-BIALETTI-AC3347",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.566Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.498Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:23.502Z"
+  },
+  "neptun-31171": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.329Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.201Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KAPESE-PER-MAKARONA-WMF-1287949990-VA0343",
+        "lastChecked": "2026-05-11T12:19:21.447Z",
+        "matchedName": "KAPESE PER MAKARONA WMF 1287949990",
+        "storeProductId": "/categories/KAPESE-PER-MAKARONA-WMF-1287949990-VA0343",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.525Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.533Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:24.202Z"
+  },
+  "neptun-28215": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:22.533Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.212Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 1190,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/XHEZVE-PER-QUMESHT-BIALETTI-50-CL-AC3346",
+        "lastChecked": "2026-05-11T12:19:21.430Z",
+        "matchedName": "XHEZVE PER QUMESHT BIALETTI 50 CL",
+        "storeProductId": "/categories/XHEZVE-PER-QUMESHT-BIALETTI-50-CL-AC3346",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.458Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:21.562Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:24.213Z"
+  },
+  "neptun-31154": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.287Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.809Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SET-PIRUNJ-WMF-1291666046-TK0089",
+        "lastChecked": "2026-05-11T12:19:24.692Z",
+        "matchedName": "SET PIRUNJ WMF 1291666046",
+        "storeProductId": "/categories/SET-PIRUNJ-WMF-1291666046-TK0089",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.713Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.803Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:25.810Z"
+  },
+  "neptun-19260": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.337Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.833Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TAVE-GATIMI-TEFAL-J5547002-VA0310",
+        "lastChecked": "2026-05-11T12:19:24.682Z",
+        "matchedName": "TAVE GATIMI TEFAL J5547002",
+        "storeProductId": "/categories/TAVE-GATIMI-TEFAL-J5547002-VA0310",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.702Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.741Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:25.834Z"
+  },
+  "neptun-282": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.520Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.912Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.794Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.703Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.740Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:25.913Z"
+  },
+  "neptun-31158": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.141Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:26.380Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LUGE-WMF-1873056030-VA0339",
+        "lastChecked": "2026-05-11T12:19:24.677Z",
+        "matchedName": "LUGE WMF 1873056030",
+        "storeProductId": "/categories/LUGE-WMF-1873056030-VA0339",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.702Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.751Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:26.380Z"
+  },
+  "neptun-19263": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.321Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:26.802Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2490,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TAVE-GATIMI-TEFAL-J1640374-VA0313",
+        "lastChecked": "2026-05-11T12:19:24.697Z",
+        "matchedName": "TAVE GATIMI TEFAL J1640374",
+        "storeProductId": "/categories/TAVE-GATIMI-TEFAL-J1640374-VA0313",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.714Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.739Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:26.802Z"
+  },
+  "neptun-26591": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": 2100,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/FID-200002939/Set-mulli-per-kripe-dhe-piper-Fine-Dine-Claro-150-mm-50-ml-akrilik-transparent-2-cope",
+        "lastChecked": "2026-05-11T12:19:26.244Z",
+        "matchedName": "Set mulli për kripë dhe piper Fine Dine Claro 150 mm, 50 ml, akrilik, transparent, 2 copë",
+        "storeProductId": "/FID-200002939/Set-mulli-per-kripe-dhe-piper-Fine-Dine-Claro-150-mm-50-ml-akrilik-transparent-2-cope",
         "matchConfidence": 75
       },
       {
@@ -18,30 +1316,28 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:16.733Z",
+        "lastChecked": "2026-05-11T12:19:27.258Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 33690,
+        "price": 1997,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/FSHESE-VERTIKALE-DYSON-V8-ORIGIN-AC3309",
-        "lastChecked": "2026-05-11T12:18:12.094Z",
-        "matchedName": "FSHESE VERTIKALE DYSON V8 ORIGIN",
-        "storeProductId": "/categories/FSHESE-VERTIKALE-DYSON-V8-ORIGIN-AC3309",
+        "productUrl": "https://www.neptun.al/categories/SET-PER-KRIPE-DHE-PIPER-WMF-661056030-AC3059",
+        "lastChecked": "2026-05-11T12:19:24.674Z",
+        "matchedName": "SET PER KRIPE DHE PIPER WMF 661056030",
+        "storeProductId": "/categories/SET-PER-KRIPE-DHE-PIPER-WMF-661056030-AC3059",
         "matchConfidence": 100
       },
       {
         "storeId": "globe",
-        "price": 37100,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/73921",
-        "lastChecked": "2026-05-11T12:18:12.095Z",
-        "matchedName": "Fshese Dyson V8 Advanced 492636",
-        "storeProductId": "73921",
-        "matchConfidence": 67
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.700Z",
+        "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "albagame",
@@ -49,24 +1345,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:12.407Z",
+        "lastChecked": "2026-05-11T12:19:24.787Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:17.740Z"
+    "refreshedAt": "2026-05-11T12:19:27.259Z"
   },
-  "neptun-24834": {
+  "neptun-14722": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300112884/Pastrues-me-avull-cilindrik-Karcher-SC-4-EasyFix",
-        "lastChecked": "2026-05-11T12:18:13.384Z",
-        "matchedName": "Pastrues me avull cilindrik Karcher SC 4 EasyFix",
-        "storeProductId": "/ACN-300112884/Pastrues-me-avull-cilindrik-Karcher-SC-4-EasyFix",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.899Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -75,80 +1368,80 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:15.886Z",
+        "lastChecked": "2026-05-11T12:19:27.555Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 16990,
+        "price": 1397,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/PASTRUES-ME-AVULL-KARCHER-SC-2-EASYFIX-FS0939",
-        "lastChecked": "2026-05-11T12:18:12.074Z",
-        "matchedName": "PASTRUES ME AVULL KARCHER SC 2 EASYFIX",
-        "storeProductId": "/categories/PASTRUES-ME-AVULL-KARCHER-SC-2-EASYFIX-FS0939",
+        "productUrl": "https://www.neptun.al/categories/TIGAN-PER-PIZZA-FIRST-AUSTRIA-FA-5109-1-AC2548",
+        "lastChecked": "2026-05-11T12:19:24.668Z",
+        "matchedName": "TIGAN PER PIZZA FIRST AUSTRIA FA-5109-1",
+        "storeProductId": "/categories/TIGAN-PER-PIZZA-FIRST-AUSTRIA-FA-5109-1-AC2548",
         "matchConfidence": 100
       },
       {
         "storeId": "globe",
         "price": null,
         "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.701Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:24.784Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:27.556Z"
+  },
+  "neptun-20606": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.623Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:28.042Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.globe.al/products/75011",
-        "lastChecked": "2026-05-11T12:18:12.076Z",
-        "matchedName": "Pastrues me avull Rowenta IN5021F0",
-        "storeProductId": "75011",
+        "productUrl": "https://www.neptun.al/categories/KAPAK-XHAM-TEFAL-28097712-28-CM-AC2943",
+        "lastChecked": "2026-05-11T12:19:24.671Z",
+        "matchedName": "KAPAK XHAM TEFAL 28097712 28 CM",
+        "storeProductId": "/categories/KAPAK-XHAM-TEFAL-28097712-28-CM-AC2943",
         "matchConfidence": 75,
         "error": "Produkti nuk u gjet"
       },
       {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:12.299Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:18.000Z"
-  },
-  "neptun-3842": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:19.353Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:19.878Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.812Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
         "storeId": "globe",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.692Z",
+        "lastChecked": "2026-05-11T12:19:24.700Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -157,25 +1450,24 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.744Z",
+        "lastChecked": "2026-05-11T12:19:24.793Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:19.883Z"
+    "refreshedAt": "2026-05-11T12:19:28.043Z"
   },
-  "neptun-28934": {
+  "neptun-26578": {
     "prices": [
       {
         "storeId": "foleja",
-        "price": null,
-        "inStock": null,
+        "price": 2100,
+        "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300309457/Hekur-Tefal-Virtuo-30-FV2C40E0-2000-W-pllaka-qeramike-pjeshke-bardhe",
-        "lastChecked": "2026-05-11T12:18:19.485Z",
-        "matchedName": "Hekur Tefal Virtuo 30 FV2C40E0, 2000 W, pllaka qeramike, pjeshkë/bardhë",
-        "storeProductId": "/ACN-300309457/Hekur-Tefal-Virtuo-30-FV2C40E0-2000-W-pllaka-qeramike-pjeshke-bardhe",
-        "matchConfidence": 67,
-        "error": "Produkti nuk u gjet"
+        "productUrl": "https://www.foleja.al/FID-200002939/Set-mulli-per-kripe-dhe-piper-Fine-Dine-Claro-150-mm-50-ml-akrilik-transparent-2-cope",
+        "lastChecked": "2026-05-11T12:19:26.247Z",
+        "matchedName": "Set mulli për kripë dhe piper Fine Dine Claro 150 mm, 50 ml, akrilik, transparent, 2 copë",
+        "storeProductId": "/FID-200002939/Set-mulli-per-kripe-dhe-piper-Fine-Dine-Claro-150-mm-50-ml-akrilik-transparent-2-cope",
+        "matchConfidence": 75
       },
       {
         "storeId": "shpresa",
@@ -183,18 +1475,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:19.971Z",
+        "lastChecked": "2026-05-11T12:19:28.181Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 2390,
+        "price": 1997,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-TEFAL-FV2C43E0-HK1024",
-        "lastChecked": "2026-05-11T12:18:18.594Z",
-        "matchedName": "HEKUR TEFAL FV2C43E0",
-        "storeProductId": "/categories/HEKUR-TEFAL-FV2C43E0-HK1024",
+        "productUrl": "https://www.neptun.al/categories/SET-PER-KRIPE-DHE-PIPER-WMF-634546040-AC3058",
+        "lastChecked": "2026-05-11T12:19:24.679Z",
+        "matchedName": "SET PER KRIPE DHE PIPER WMF 634546040",
+        "storeProductId": "/categories/SET-PER-KRIPE-DHE-PIPER-WMF-634546040-AC3058",
         "matchConfidence": 100
       },
       {
@@ -203,7 +1495,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.675Z",
+        "lastChecked": "2026-05-11T12:19:24.703Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -212,13 +1504,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.720Z",
+        "lastChecked": "2026-05-11T12:19:24.800Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:19.972Z"
+    "refreshedAt": "2026-05-11T12:19:28.182Z"
   },
-  "neptun-28469": {
+  "neptun-14725": {
     "prices": [
       {
         "storeId": "foleja",
@@ -226,7 +1518,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:19.313Z",
+        "lastChecked": "2026-05-11T12:19:25.990Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -235,18 +1527,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:20.194Z",
+        "lastChecked": "2026-05-11T12:19:28.184Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 6697,
+        "price": 1797,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-TEFAL-CORDLESS-FV6520E0-HK0952",
-        "lastChecked": "2026-05-11T12:18:18.602Z",
-        "matchedName": "HEKUR TEFAL CORDLESS FV6520E0",
-        "storeProductId": "/categories/HEKUR-TEFAL-CORDLESS-FV6520E0-HK0952",
+        "productUrl": "https://www.neptun.al/categories/BERESE-KREPASH-FIRST-AUSTRIA-FA-5307-AC2551",
+        "lastChecked": "2026-05-11T12:19:24.694Z",
+        "matchedName": "BERESE KREPASH FIRST AUSTRIA FA-5307",
+        "storeProductId": "/categories/BERESE-KREPASH-FIRST-AUSTRIA-FA-5307-AC2551",
         "matchConfidence": 100
       },
       {
@@ -255,7 +1547,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.693Z",
+        "lastChecked": "2026-05-11T12:19:24.710Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -264,24 +1556,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.707Z",
+        "lastChecked": "2026-05-11T12:19:24.798Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:20.194Z"
+    "refreshedAt": "2026-05-11T12:19:28.185Z"
   },
-  "neptun-30255": {
+  "neptun-14723": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ACN-300309457/Hekur-Tefal-Virtuo-30-FV2C40E0-2000-W-pllaka-qeramike-pjeshke-bardhe",
-        "lastChecked": "2026-05-11T12:18:19.445Z",
-        "matchedName": "Hekur Tefal Virtuo 30 FV2C40E0, 2000 W, pllaka qeramike, pjeshkë/bardhë",
-        "storeProductId": "/ACN-300309457/Hekur-Tefal-Virtuo-30-FV2C40E0-2000-W-pllaka-qeramike-pjeshke-bardhe",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:25.609Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -290,18 +1579,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:20.551Z",
+        "lastChecked": "2026-05-11T12:19:28.516Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 2790,
+        "price": 1597,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-TEFAL-FV2C40E0-HK1027",
-        "lastChecked": "2026-05-11T12:18:18.598Z",
-        "matchedName": "HEKUR TEFAL FV2C40E0",
-        "storeProductId": "/categories/HEKUR-TEFAL-FV2C40E0-HK1027",
+        "productUrl": "https://www.neptun.al/categories/BERESE-KOSI-FIRST-AUSTRIA-FA-5120-1-AC2549",
+        "lastChecked": "2026-05-11T12:19:24.687Z",
+        "matchedName": "BERESE KOSI FIRST AUSTRIA FA-5120-1",
+        "storeProductId": "/categories/BERESE-KOSI-FIRST-AUSTRIA-FA-5120-1-AC2549",
         "matchConfidence": 100
       },
       {
@@ -310,7 +1599,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.674Z",
+        "lastChecked": "2026-05-11T12:19:24.705Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -319,13 +1608,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.710Z",
+        "lastChecked": "2026-05-11T12:19:24.783Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:20.552Z"
+    "refreshedAt": "2026-05-11T12:19:28.517Z"
   },
-  "neptun-28953": {
+  "neptun-11948": {
     "prices": [
       {
         "storeId": "foleja",
@@ -333,7 +1622,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:19.341Z",
+        "lastChecked": "2026-05-11T12:19:26.014Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -342,18 +1631,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:20.711Z",
+        "lastChecked": "2026-05-11T12:19:28.624Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 219990,
+        "price": 1690,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-MIELE-B995-D-HK1021",
-        "lastChecked": "2026-05-11T12:18:18.615Z",
-        "matchedName": "HEKUR MIELE B995 D",
-        "storeProductId": "/categories/HEKUR-MIELE-B995-D-HK1021",
+        "productUrl": "https://www.neptun.al/categories/MAKINERI-PER-KOKOSHKA-FUEGO-AOT-PM03",
+        "lastChecked": "2026-05-11T12:19:24.689Z",
+        "matchedName": "MAKINERI PER KOKOSHKA FUEGO AOT-PM03",
+        "storeProductId": "/categories/MAKINERI-PER-KOKOSHKA-FUEGO-AOT-PM03",
         "matchConfidence": 100
       },
       {
@@ -362,7 +1651,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.693Z",
+        "lastChecked": "2026-05-11T12:19:24.707Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -371,13 +1660,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.745Z",
+        "lastChecked": "2026-05-11T12:19:24.759Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:20.711Z"
+    "refreshedAt": "2026-05-11T12:19:28.625Z"
   },
-  "neptun-17712": {
+  "neptun-20262": {
     "prices": [
       {
         "storeId": "foleja",
@@ -385,7 +1674,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:19.900Z",
+        "lastChecked": "2026-05-11T12:19:29.884Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -394,18 +1683,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:22.179Z",
+        "lastChecked": "2026-05-11T12:19:30.822Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 11990,
+        "price": 2497,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-TEFAL-SV6140E0-HK0939",
-        "lastChecked": "2026-05-11T12:18:18.644Z",
-        "matchedName": "HEKUR ME KALDAJE TEFAL SV6140E0",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-TEFAL-SV6140E0-HK0939",
+        "productUrl": "https://www.neptun.al/categories/BERESE-PANCAKE-FUEGO-ZM-1001-AC2709",
+        "lastChecked": "2026-05-11T12:19:29.166Z",
+        "matchedName": "BERESE PANCAKE FUEGO ZM-1001",
+        "storeProductId": "/categories/BERESE-PANCAKE-FUEGO-ZM-1001-AC2709",
         "matchConfidence": 100
       },
       {
@@ -414,7 +1703,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.746Z",
+        "lastChecked": "2026-05-11T12:19:29.197Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -423,13 +1712,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.795Z",
+        "lastChecked": "2026-05-11T12:19:29.221Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:22.180Z"
+    "refreshedAt": "2026-05-11T12:19:30.823Z"
   },
-  "neptun-16215": {
+  "neptun-286": {
     "prices": [
       {
         "storeId": "foleja",
@@ -437,7 +1726,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:19.919Z",
+        "lastChecked": "2026-05-11T12:19:29.946Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -446,18 +1735,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:22.266Z",
+        "lastChecked": "2026-05-11T12:19:30.969Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 9790,
+        "price": 3097,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-TEFAL-SV6116E0-HK0928",
-        "lastChecked": "2026-05-11T12:18:18.628Z",
-        "matchedName": "HEKUR ME KALDAJE TEFAL SV6116E0",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-TEFAL-SV6116E0-HK0928",
+        "productUrl": "https://www.neptun.al/categories/MPREHESE-THIKASH-WMF-1876516030",
+        "lastChecked": "2026-05-11T12:19:29.174Z",
+        "matchedName": "MPREHESE THIKASH WMF 1876516030",
+        "storeProductId": "/categories/MPREHESE-THIKASH-WMF-1876516030",
         "matchConfidence": 100
       },
       {
@@ -466,7 +1755,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.690Z",
+        "lastChecked": "2026-05-11T12:19:29.202Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -475,13 +1764,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.787Z",
+        "lastChecked": "2026-05-11T12:19:29.226Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:22.266Z"
+    "refreshedAt": "2026-05-11T12:19:30.970Z"
   },
-  "neptun-26592": {
+  "neptun-23900": {
     "prices": [
       {
         "storeId": "foleja",
@@ -489,7 +1778,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:19.933Z",
+        "lastChecked": "2026-05-11T12:19:29.799Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -498,18 +1787,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:22.315Z",
+        "lastChecked": "2026-05-11T12:19:31.427Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 5890,
+        "price": 4490,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MASKE-SAUNA-BEURER-FS-60-AC3107",
-        "lastChecked": "2026-05-11T12:18:18.620Z",
-        "matchedName": "MASKE SAUNA BEURER FS 60",
-        "storeProductId": "/categories/MASKE-SAUNA-BEURER-FS-60-AC3107",
+        "productUrl": "https://www.neptun.al/categories/SET-DEPOT-WMF-0661586040-AC3030",
+        "lastChecked": "2026-05-11T12:19:29.176Z",
+        "matchedName": "SET EREZASH WMF 0661586040",
+        "storeProductId": "/categories/SET-DEPOT-WMF-0661586040-AC3030",
         "matchConfidence": 100
       },
       {
@@ -518,7 +1807,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.700Z",
+        "lastChecked": "2026-05-11T12:19:29.202Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -527,13 +1816,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.861Z",
+        "lastChecked": "2026-05-11T12:19:29.235Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:22.322Z"
+    "refreshedAt": "2026-05-11T12:19:31.428Z"
   },
-  "neptun-15758": {
+  "neptun-19861": {
     "prices": [
       {
         "storeId": "foleja",
@@ -541,7 +1830,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:20.113Z",
+        "lastChecked": "2026-05-11T12:19:29.618Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -550,18 +1839,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:22.785Z",
+        "lastChecked": "2026-05-11T12:19:31.494Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 12497,
+        "price": 2097,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-HI5919-30-HK0919",
-        "lastChecked": "2026-05-11T12:18:18.651Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS HI5919/30",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-HI5919-30-HK0919",
+        "productUrl": "https://www.neptun.al/categories/BERESE-KREPASH-FUEGO-Y-8901-AC2852",
+        "lastChecked": "2026-05-11T12:19:29.158Z",
+        "matchedName": "BERESE KREPASH FUEGO Y-8901",
+        "storeProductId": "/categories/BERESE-KREPASH-FUEGO-Y-8901-AC2852",
         "matchConfidence": 100
       },
       {
@@ -570,7 +1859,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.749Z",
+        "lastChecked": "2026-05-11T12:19:29.185Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -579,13 +1868,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.839Z",
+        "lastChecked": "2026-05-11T12:19:29.227Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:22.786Z"
+    "refreshedAt": "2026-05-11T12:19:31.495Z"
   },
-  "neptun-26635": {
+  "neptun-31156": {
     "prices": [
       {
         "storeId": "foleja",
@@ -593,7 +1882,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:20.099Z",
+        "lastChecked": "2026-05-11T12:19:29.812Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -602,7 +1891,579 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:22.820Z",
+        "lastChecked": "2026-05-11T12:19:31.545Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3690,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/GERSHERE-KUZHINE-UNIVERSALE-1883216030-VA0337",
+        "lastChecked": "2026-05-11T12:19:29.160Z",
+        "matchedName": "GERSHERE KUZHINE UNIVERSALE 1883216030",
+        "storeProductId": "/categories/GERSHERE-KUZHINE-UNIVERSALE-1883216030-VA0337",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.183Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.220Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:31.546Z"
+  },
+  "neptun-280": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.869Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:31.547Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3497,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/DEKANTUES-VERE-WMF-0947652000",
+        "lastChecked": "2026-05-11T12:19:29.179Z",
+        "matchedName": "DEKANTUES VERE WMF 0947652000",
+        "storeProductId": "/categories/DEKANTUES-VERE-WMF-0947652000",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.209Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.218Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:31.547Z"
+  },
+  "neptun-31143": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.602Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:31.573Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3390,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/GRIRESE-DJATHI-WMF-1871516030-VA0348",
+        "lastChecked": "2026-05-11T12:19:29.153Z",
+        "matchedName": "GRIRESE DJATHI WMF 1871516030",
+        "storeProductId": "/categories/GRIRESE-DJATHI-WMF-1871516030-VA0348",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.184Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.256Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:31.573Z"
+  },
+  "neptun-31172": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.783Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:31.606Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3290,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/LUGE-WMF-1876656030-VA0344",
+        "lastChecked": "2026-05-11T12:19:29.149Z",
+        "matchedName": "LUGE WMF 1876656030",
+        "storeProductId": "/categories/LUGE-WMF-1876656030-VA0344",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.184Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.248Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:31.606Z"
+  },
+  "neptun-31144": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.958Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:31.660Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KULLESE-METALIKE-8CM-1871706030-VA0350",
+        "lastChecked": "2026-05-11T12:19:29.155Z",
+        "matchedName": "KULLESE METALIKE 8CM 1871706030",
+        "storeProductId": "/categories/KULLESE-METALIKE-8CM-1871706030-VA0350",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.182Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.215Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:31.660Z"
+  },
+  "neptun-18514": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:30.206Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:31.671Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 4890,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SET-AKSESOR-KUZHINE-TEFAL-K206S424-VA0308",
+        "lastChecked": "2026-05-11T12:19:29.171Z",
+        "matchedName": "SET AKSESOR KUZHINE TEFAL K206S424",
+        "storeProductId": "/categories/SET-AKSESOR-KUZHINE-TEFAL-K206S424-VA0308",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.201Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.285Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:31.672Z"
+  },
+  "neptun-29596": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:30.221Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:31.708Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 3990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINERI-PER-KOKOSHKA-ARIETE-PARTY-TIME-2957-00-AC3446",
+        "lastChecked": "2026-05-11T12:19:29.168Z",
+        "matchedName": "MAKINERI PER KOKOSHKA ARIETE PARTY TIME 2957/00",
+        "storeProductId": "/categories/MAKINERI-PER-KOKOSHKA-ARIETE-PARTY-TIME-2957-00-AC3446",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.203Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.253Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:31.709Z"
+  },
+  "neptun-29597": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:30.295Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:32.247Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 2990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/MAKINERI-PER-KOKOSHKA-ARIETE-PARTY-TIME-2956-00-AC3447",
+        "lastChecked": "2026-05-11T12:19:29.163Z",
+        "matchedName": "MAKINERI PER KOKOSHKA ARIETE PARTY TIME 2956/00",
+        "storeProductId": "/categories/MAKINERI-PER-KOKOSHKA-ARIETE-PARTY-TIME-2956-00-AC3447",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.189Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:29.276Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:32.247Z"
+  },
+  "neptun-21749": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:33.580Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:34.035Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 5997,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/SET-AKSESORESH-WMF-0662856040-AC2993",
+        "lastChecked": "2026-05-11T12:19:32.885Z",
+        "matchedName": "SET AKSESORESH WMF 0662856040",
+        "storeProductId": "/categories/SET-AKSESORESH-WMF-0662856040-AC2993",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:32.902Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:32.932Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:34.039Z"
+  },
+  "neptun-31165": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:33.453Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:34.042Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 6990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/KULLESE-METALIKE-20CM-1871736030-VA0349",
+        "lastChecked": "2026-05-11T12:19:32.880Z",
+        "matchedName": "KULLESE METALIKE 20CM 1871736030",
+        "storeProductId": "/categories/KULLESE-METALIKE-20CM-1871736030-VA0349",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:32.901Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:32.929Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:34.043Z"
+  },
+  "neptun-31155": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:33.385Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:34.453Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 5590,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/THIKE-WMF-1291716046-TK0090",
+        "lastChecked": "2026-05-11T12:19:32.895Z",
+        "matchedName": "THIKE WMF 1291716046",
+        "storeProductId": "/categories/THIKE-WMF-1291716046-TK0090",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:32.908Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:32.933Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-05-11T12:19:34.453Z"
+  },
+  "neptun-31162": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:33.368Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-05-11T12:19:34.548Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -610,10 +2471,10 @@
         "price": 10990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG2000-20-HK1015",
-        "lastChecked": "2026-05-11T12:18:18.632Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG2000/20",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG2000-20-HK1015",
+        "productUrl": "https://www.neptun.al/categories/SET-THIKASH-WMF-1289616046-TK0091",
+        "lastChecked": "2026-05-11T12:19:32.888Z",
+        "matchedName": "SET THIKASH WMF 1289616046",
+        "storeProductId": "/categories/SET-THIKASH-WMF-1289616046-TK0091",
         "matchConfidence": 100
       },
       {
@@ -622,7 +2483,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.695Z",
+        "lastChecked": "2026-05-11T12:19:32.905Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -631,13 +2492,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.848Z",
+        "lastChecked": "2026-05-11T12:19:32.945Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:22.821Z"
+    "refreshedAt": "2026-05-11T12:19:34.549Z"
   },
-  "neptun-19596": {
+  "neptun-29595": {
     "prices": [
       {
         "storeId": "foleja",
@@ -645,7 +2506,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:20.127Z",
+        "lastChecked": "2026-05-11T12:19:33.797Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -654,18 +2515,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:23.206Z",
+        "lastChecked": "2026-05-11T12:19:34.835Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 12497,
+        "price": 4390,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-HI5918-20-HK0978",
-        "lastChecked": "2026-05-11T12:18:18.639Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS HI5918/20",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-HI5918-20-HK0978",
+        "productUrl": "https://www.neptun.al/categories/BERESE-KREPASH-ARIETE-PARTY-TIME-0202-00-AC3445",
+        "lastChecked": "2026-05-11T12:19:32.883Z",
+        "matchedName": "BERESE KREPASH ARIETE PARTY TIME 0202/00",
+        "storeProductId": "/categories/BERESE-KREPASH-ARIETE-PARTY-TIME-0202-00-AC3445",
         "matchConfidence": 100
       },
       {
@@ -674,7 +2535,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.694Z",
+        "lastChecked": "2026-05-11T12:19:32.901Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -683,13 +2544,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.840Z",
+        "lastChecked": "2026-05-11T12:19:33.016Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:23.207Z"
+    "refreshedAt": "2026-05-11T12:19:34.836Z"
   },
-  "neptun-19257": {
+  "neptun-17693": {
     "prices": [
       {
         "storeId": "foleja",
@@ -697,7 +2558,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:20.411Z",
+        "lastChecked": "2026-05-11T12:19:33.700Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -706,18 +2567,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:23.705Z",
+        "lastChecked": "2026-05-11T12:19:35.259Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 6997,
+        "price": 4590,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-BEKO-SGA-6124-D-HK0950",
-        "lastChecked": "2026-05-11T12:18:18.624Z",
-        "matchedName": "HEKUR ME KALDAJE BEKO SGA 6124 D",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-BEKO-SGA-6124-D-HK0950",
+        "productUrl": "https://www.neptun.al/categories/BERESE-KREPASH-RUSSEL-HOBBS-20920-56-AC2714",
+        "lastChecked": "2026-05-11T12:19:32.877Z",
+        "matchedName": "BERESE KREPASH RUSSEL HOBBS 20920-56",
+        "storeProductId": "/categories/BERESE-KREPASH-RUSSEL-HOBBS-20920-56-AC2714",
         "matchConfidence": 100
       },
       {
@@ -726,7 +2587,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.697Z",
+        "lastChecked": "2026-05-11T12:19:32.900Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -735,13 +2596,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:18.893Z",
+        "lastChecked": "2026-05-11T12:19:32.982Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:23.706Z"
+    "refreshedAt": "2026-05-11T12:19:35.260Z"
   },
-  "neptun-3820": {
+  "neptun-29594": {
     "prices": [
       {
         "storeId": "foleja",
@@ -749,7 +2610,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.963Z",
+        "lastChecked": "2026-05-11T12:19:34.020Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -758,18 +2619,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:26.713Z",
+        "lastChecked": "2026-05-11T12:19:35.647Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 18597,
+        "price": 4890,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR--KALDAJE-TEFAL-GV6721E0",
-        "lastChecked": "2026-05-11T12:18:24.279Z",
-        "matchedName": "HEKUR  KALDAJE TEFAL GV6721E0",
-        "storeProductId": "/categories/HEKUR--KALDAJE-TEFAL-GV6721E0",
+        "productUrl": "https://www.neptun.al/categories/DEHIDRATUES-USHQIMESH-ARIETE-B-DRY-0616-00-AC3444",
+        "lastChecked": "2026-05-11T12:19:32.874Z",
+        "matchedName": "DEHIDRATUES USHQIMESH ARIETE B-DRY 0616/00",
+        "storeProductId": "/categories/DEHIDRATUES-USHQIMESH-ARIETE-B-DRY-0616-00-AC3444",
         "matchConfidence": 100
       },
       {
@@ -778,7 +2639,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.395Z",
+        "lastChecked": "2026-05-11T12:19:32.900Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -787,13 +2648,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.396Z",
+        "lastChecked": "2026-05-11T12:19:32.974Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:26.714Z"
+    "refreshedAt": "2026-05-11T12:19:35.648Z"
   },
-  "neptun-3912": {
+  "neptun-29598": {
     "prices": [
       {
         "storeId": "foleja",
@@ -801,7 +2662,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.433Z",
+        "lastChecked": "2026-05-11T12:19:33.867Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -810,18 +2671,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:27.192Z",
+        "lastChecked": "2026-05-11T12:19:35.648Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 23997,
+        "price": 4790,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-TEFAL-GV7810",
-        "lastChecked": "2026-05-11T12:18:24.297Z",
-        "matchedName": "HEKUR ME KALDAJE TEFAL GV7810",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-TEFAL-GV7810",
+        "productUrl": "https://www.neptun.al/categories/MAKINERI-PER-SHEQER-PAMBUK-ARIETE-PARTY-TIME-AC3448",
+        "lastChecked": "2026-05-11T12:19:32.866Z",
+        "matchedName": "MAKINERI PER SHEQER PAMBUK ARIETE PARTY TIME",
+        "storeProductId": "/categories/MAKINERI-PER-SHEQER-PAMBUK-ARIETE-PARTY-TIME-AC3448",
         "matchConfidence": 100
       },
       {
@@ -830,7 +2691,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.373Z",
+        "lastChecked": "2026-05-11T12:19:32.899Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -839,2841 +2700,10 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.438Z",
+        "lastChecked": "2026-05-11T12:19:32.986Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-05-11T12:18:27.193Z"
-  },
-  "neptun-28472": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.329Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:27.263Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 28590,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-TEFAL-GV9712E0-HK0996",
-        "lastChecked": "2026-05-11T12:18:24.305Z",
-        "matchedName": "HEKUR ME KALDAJE TEFAL GV9712E0",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-TEFAL-GV9712E0-HK0996",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.368Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.447Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:27.263Z"
-  },
-  "neptun-24845": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.490Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:27.811Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 12590,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG3000-20-HK1008",
-        "lastChecked": "2026-05-11T12:18:24.267Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG3000/20",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG3000-20-HK1008",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.371Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.441Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:27.812Z"
-  },
-  "neptun-27781": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.386Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:27.848Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-TEFAL-SV8151E0-HK1018",
-        "lastChecked": "2026-05-11T12:18:24.275Z",
-        "matchedName": "HEKUR ME KALDAJE TEFAL SV8151E0",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-TEFAL-SV8151E0-HK1018",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.356Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.434Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:27.850Z"
-  },
-  "neptun-3954": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.399Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:27.904Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 18997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-TEFAL-SV8030E0",
-        "lastChecked": "2026-05-11T12:18:24.283Z",
-        "matchedName": "HEKUR ME KALDAJE TEFAL SV8030E0",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-TEFAL-SV8030E0",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.370Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.415Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:27.906Z"
-  },
-  "neptun-17938": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.417Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:27.912Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 25790,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-TEFAL-GV9220E0-HK0942",
-        "lastChecked": "2026-05-11T12:18:24.301Z",
-        "matchedName": "HEKUR ME KALDAJE TEFAL GV9220E0",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-TEFAL-GV9220E0-HK0942",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.379Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.440Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:27.913Z"
-  },
-  "neptun-16192": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.688Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:28.166Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 14997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-GC6740-30-HK0920",
-        "lastChecked": "2026-05-11T12:18:24.271Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS GC6740/30",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-GC6740-30-HK0920",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.378Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.490Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:28.167Z"
-  },
-  "neptun-17291": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.446Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:28.505Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 17990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-GC7844-20-HK0933",
-        "lastChecked": "2026-05-11T12:18:24.289Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS GC7844/20",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-GC7844-20-HK0933",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.376Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.457Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:28.506Z"
-  },
-  "neptun-21448": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.598Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:28.867Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 18090,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-GC7933-30-HK0983",
-        "lastChecked": "2026-05-11T12:18:24.286Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS GC7933/30",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-GC7933-30-HK0983",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.371Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.453Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:28.868Z"
-  },
-  "neptun-3940": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.701Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:29.034Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 30897,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-GC8942-20",
-        "lastChecked": "2026-05-11T12:18:24.309Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS GC8942/20",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-GC8942-20",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.372Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.464Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:29.034Z"
-  },
-  "neptun-26636": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:25.610Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:29.383Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 19990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG6022-20-HK1016",
-        "lastChecked": "2026-05-11T12:18:24.293Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG6022/20",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG6022-20-HK1016",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.385Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:24.466Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:29.384Z"
-  },
-  "neptun-3908": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.105Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:32.225Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 35997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-TEFAL-GV9571E",
-        "lastChecked": "2026-05-11T12:18:30.026Z",
-        "matchedName": "HEKUR ME KALDAJE TEFAL GV9571E",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-TEFAL-GV9571E",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.537Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.187Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:32.226Z"
-  },
-  "neptun-30258": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.850Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:34.020Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 42990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG8050-30-HK1031",
-        "lastChecked": "2026-05-11T12:18:30.050Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG8050/30",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG8050-30-HK1031",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.543Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.241Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:34.021Z"
-  },
-  "neptun-20993": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.035Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:34.105Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 31390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-TEFAL-GV9812-HK0960",
-        "lastChecked": "2026-05-11T12:18:30.011Z",
-        "matchedName": "HEKUR ME KALDAJE TEFAL GV9812",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-TEFAL-GV9812-HK0960",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.541Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.174Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:34.106Z"
-  },
-  "neptun-15728": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.405Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:34.830Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 28990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG7028-30-HK0918",
-        "lastChecked": "2026-05-11T12:18:30.015Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG7028/30",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG7028-30-HK0918",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.537Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.239Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:34.831Z"
-  },
-  "neptun-30280": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.829Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:35.000Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 32590,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG7150-30-HK1032",
-        "lastChecked": "2026-05-11T12:18:30.034Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG7150/30",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG7150-30-HK1032",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.536Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.252Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:35.001Z"
-  },
-  "neptun-19034": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.387Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:35.207Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 29990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-PHILIPS-PSG7130-20-HK0968",
-        "lastChecked": "2026-05-11T12:18:30.023Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG7130/20",
-        "storeProductId": "/categories/HEKUR-PHILIPS-PSG7130-20-HK0968",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.714Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.225Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:35.208Z"
-  },
-  "neptun-29385": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.485Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:35.433Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 32590,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG7300-70-HK1025",
-        "lastChecked": "2026-05-11T12:18:30.038Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG7300/70",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG7300-70-HK1025",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.896Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.229Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:35.433Z"
-  },
-  "neptun-24137": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.372Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:35.457Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 29990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG7030-20-HK1002",
-        "lastChecked": "2026-05-11T12:18:30.018Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG7030/20",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG7030-20-HK1002",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.633Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.238Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:35.458Z"
-  },
-  "neptun-30257": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.247Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:35.509Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 32990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG7140-70-HK1030",
-        "lastChecked": "2026-05-11T12:18:30.042Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG7140/70",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG7140-70-HK1030",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.535Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.253Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:35.509Z"
-  },
-  "neptun-19035": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.814Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:35.668Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 42990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-PHILIPS-PSG8140-80-HK0969",
-        "lastChecked": "2026-05-11T12:18:30.046Z",
-        "matchedName": "HEKUR ME KALDAJE  PHILIPS PSG8140/80",
-        "storeProductId": "/categories/HEKUR-PHILIPS-PSG8140-80-HK0969",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.536Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.256Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:35.669Z"
-  },
-  "neptun-30256": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.799Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:35.818Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 26590,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG6064-80-HK1029",
-        "lastChecked": "2026-05-11T12:18:30.000Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG6064/80",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG6064-80-HK1029",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.634Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.223Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:35.819Z"
-  },
-  "neptun-30058": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:31.234Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:35.884Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 32297,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-GC922-HK0563",
-        "lastChecked": "2026-05-11T12:18:30.008Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS GC922",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-GC922-HK0563",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.576Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:30.240Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:35.885Z"
-  },
-  "neptun-25129": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200018123/Spot-ndricimi-Philips-Hue-929003736401-LED-67-W-6500-K-Bardhe",
-        "lastChecked": "2026-05-11T12:18:38.027Z",
-        "matchedName": "Spot ndriçimi Philips Hue 929003736401, LED, 67 W, 6500 K, Bardhë",
-        "storeProductId": "/KST-200018123/Spot-ndricimi-Philips-Hue-929003736401-LED-67-W-6500-K-Bardhe",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:37.893Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/SPOT-TAPO-L630-LED-SMART-MULTICOLOR-LM0326",
-        "lastChecked": "2026-05-11T12:18:36.492Z",
-        "matchedName": "SPOT TAPO L630 LED SMART MULTICOLOR",
-        "storeProductId": "/categories/SPOT-TAPO-L630-LED-SMART-MULTICOLOR-LM0326",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.586Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.558Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:38.028Z"
-  },
-  "neptun-23229": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:37.111Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:38.035Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "lastChecked": "2026-05-11T12:18:36.488Z",
-        "matchedName": "LLAMBE TAPO L530E LED SMART MULTICOLOR",
-        "storeProductId": "/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.585Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.549Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:38.036Z"
-  },
-  "neptun-23227": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:37.535Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:38.543Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "lastChecked": "2026-05-11T12:18:36.467Z",
-        "matchedName": "LLAMBE TAPO L530E LED SMART MULTICOLOR",
-        "storeProductId": "/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.584Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.564Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:38.548Z"
-  },
-  "neptun-23231": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:37.060Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:38.703Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "lastChecked": "2026-05-11T12:18:36.461Z",
-        "matchedName": "LLAMBE TAPO L530E LED SMART MULTICOLOR",
-        "storeProductId": "/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.582Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.552Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:38.704Z"
-  },
-  "neptun-16507": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:38.020Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:38.841Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 257,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-LEDCOREPRO-LUSTRE-ND-5-5-40W-E14-840-P45-CL-LM0243",
-        "lastChecked": "2026-05-11T12:18:36.501Z",
-        "matchedName": "LLAMBE LEDCOREPRO LUSTRE ND 5.5-40W E14 840 P45 CL",
-        "storeProductId": "/categories/LLAMBE-LEDCOREPRO-LUSTRE-ND-5-5-40W-E14-840-P45-CL-LM0243",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.587Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.600Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:38.842Z"
-  },
-  "neptun-23985": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:37.266Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:38.999Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "lastChecked": "2026-05-11T12:18:36.483Z",
-        "matchedName": "LLAMBE TAPO L530E LED SMART MULTICOLOR",
-        "storeProductId": "/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.577Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.545Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:39.000Z"
-  },
-  "neptun-23220": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:37.152Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:39.276Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "lastChecked": "2026-05-11T12:18:36.479Z",
-        "matchedName": "LLAMBE TAPO L530E LED SMART MULTICOLOR",
-        "storeProductId": "/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.587Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.554Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:39.277Z"
-  },
-  "neptun-5386": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:37.952Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:39.786Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 150,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMPE-LED-DYNAMIC-9W-E276400K",
-        "lastChecked": "2026-05-11T12:18:36.474Z",
-        "matchedName": "LLAMPE LED DYNAMIC 9W E27 6400K",
-        "storeProductId": "/categories/LLAMPE-LED-DYNAMIC-9W-E276400K",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.798Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.588Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:39.787Z"
-  },
-  "neptun-16441": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:37.966Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:40.111Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 247,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/CorePro-LEDbulb-ND-7-5-60W-A60-E27-830-LM0220",
-        "lastChecked": "2026-05-11T12:18:36.497Z",
-        "matchedName": "LLAMBE COREPRO LED ND 7.5-60W A60 E27 830",
-        "storeProductId": "/categories/CorePro-LEDbulb-ND-7-5-60W-A60-E27-830-LM0220",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.590Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.596Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:40.112Z"
-  },
-  "neptun-22679": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:37.867Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:40.162Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 120,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-SOBE-EGLO-E14-15W-300--LM0315",
-        "lastChecked": "2026-05-11T12:18:36.457Z",
-        "matchedName": "LLAMBE SOBE EGLO E14 15W 300?",
-        "storeProductId": "/categories/LLAMBE-SOBE-EGLO-E14-15W-300--LM0315",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.582Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.590Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:40.162Z"
-  },
-  "neptun-26709": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:38.195Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:40.709Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 61690,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG9050-20-HK1013",
-        "lastChecked": "2026-05-11T12:18:36.453Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG9050/20",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG9050-20-HK1013",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.585Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.642Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:40.710Z"
-  },
-  "neptun-30248": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:37.786Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.011Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 48990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG8300-20-HK1026",
-        "lastChecked": "2026-05-11T12:18:36.447Z",
-        "matchedName": "HEKUR ME KALDAJE PHILIPS PSG8300/20",
-        "storeProductId": "/categories/HEKUR-ME-KALDAJE-PHILIPS-PSG8300-20-HK1026",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.586Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:36.619Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:41.012Z"
-  },
-  "neptun-31013": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.955Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:42.775Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "lastChecked": "2026-05-11T12:18:41.478Z",
-        "matchedName": "LLAMBE TAPO L530E LED SMART MULTICOLOR",
-        "storeProductId": "/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.513Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.548Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:42.779Z"
-  },
-  "neptun-30297": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KOM-200065625/Shtrydhese-Philips-HR2738-00-e-bardhe",
-        "lastChecked": "2026-05-11T12:18:42.591Z",
-        "matchedName": "Shtrydhëse Philips HR2738/00, e bardhë",
-        "storeProductId": "/KOM-200065625/Shtrydhese-Philips-HR2738-00-e-bardhe",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://shpresa.al/product/philips-soundbar-2-1-with-subwoofer/",
-        "lastChecked": "2026-05-11T12:18:41.475Z",
-        "matchedName": "Philips Soundbar 2.1 with Subwoofer",
-        "storeProductId": "193608",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 290,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-COREPRO-LED-PHILIPS,-ND-8-60W-A60-E27-830-LM0365",
-        "lastChecked": "2026-05-11T12:18:41.475Z",
-        "matchedName": "LLAMBE COREPRO LED PHILIPS, ND 8-60W A60 E27 830",
-        "storeProductId": "/categories/LLAMBE-COREPRO-LED-PHILIPS,-ND-8-60W-A60-E27-830-LM0365",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.508Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.593Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:42.808Z"
-  },
-  "neptun-16457": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.894Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:43.562Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "lastChecked": "2026-05-11T12:18:41.483Z",
-        "matchedName": "LLAMBE TAPO L530E LED SMART MULTICOLOR",
-        "storeProductId": "/categories/LLAMBE-TAPO-L530E-LED-SMART-MULTICOLOR-LM0324",
-        "matchConfidence": 100,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.513Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.549Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:43.563Z"
-  },
-  "neptun-16461": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:42.999Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:44.159Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Corepro-LEDspot-550lm-GU10-830-120D-LM0217",
-        "lastChecked": "2026-05-11T12:18:41.503Z",
-        "matchedName": "SPOT COREPRO LED 550lm GU10 830 120D",
-        "storeProductId": "/categories/Corepro-LEDspot-550lm-GU10-830-120D-LM0217",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.528Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.609Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:44.161Z"
-  },
-  "neptun-16470": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200000936/Llambe-spot-smart-GU10-TP-Link-Tapo-L630-LED-multicolor-RGB-kontroll-me-aplikacion-e-bardhe",
-        "lastChecked": "2026-05-11T12:18:43.041Z",
-        "matchedName": "Llambë spot smart GU10, TP-Link Tapo L630, LED multicolor RGB, kontroll me aplikacion, e bardhë",
-        "storeProductId": "/AXR-200000936/Llambe-spot-smart-GU10-TP-Link-Tapo-L630-LED-multicolor-RGB-kontroll-me-aplikacion-e-bardhe",
-        "matchConfidence": 75,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:44.225Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 290,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-LED-Start-GU10-5W-50-865-35-DS-LM0236",
-        "lastChecked": "2026-05-11T12:18:41.489Z",
-        "matchedName": "SPOT LED Start GU10 5W 50 865 35 DS",
-        "storeProductId": "/categories/LLAMBE-LED-Start-GU10-5W-50-865-35-DS-LM0236",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.523Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.583Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:44.226Z"
-  },
-  "neptun-16458": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:42.755Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:44.310Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 290,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Corepro-LEDspot-CLA-4-6-50W-GU10-830-36D-LM0214",
-        "lastChecked": "2026-05-11T12:18:41.492Z",
-        "matchedName": "SPOT COREPRO LED CLA 4.6-50W GU10 830 36D",
-        "storeProductId": "/categories/Corepro-LEDspot-CLA-4-6-50W-GU10-830-36D-LM0214",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.524Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.604Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:44.311Z"
-  },
-  "neptun-16445": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:42.528Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:44.366Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 290,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-LED-ECO-A60-9W-840-E27-TU-DS-LM0229",
-        "lastChecked": "2026-05-11T12:18:41.486Z",
-        "matchedName": "LLAMBE LED ECO A60 9W 840 E27 TU DS",
-        "storeProductId": "/categories/LLAMBE-LED-ECO-A60-9W-840-E27-TU-DS-LM0229",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.518Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.600Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:44.367Z"
-  },
-  "neptun-16471": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200000936/Llambe-spot-smart-GU10-TP-Link-Tapo-L630-LED-multicolor-RGB-kontroll-me-aplikacion-e-bardhe",
-        "lastChecked": "2026-05-11T12:18:43.044Z",
-        "matchedName": "Llambë spot smart GU10, TP-Link Tapo L630, LED multicolor RGB, kontroll me aplikacion, e bardhë",
-        "storeProductId": "/AXR-200000936/Llambe-spot-smart-GU10-TP-Link-Tapo-L630-LED-multicolor-RGB-kontroll-me-aplikacion-e-bardhe",
-        "matchConfidence": 75,
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:44.424Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 297,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-LED-ESmart-GU10-5W-50Dim-827-35-DS-LM0237",
-        "lastChecked": "2026-05-11T12:18:41.497Z",
-        "matchedName": "SPOT LED ESmart GU10 5W 50Dim 827 35 DS",
-        "storeProductId": "/categories/LLAMBE-LED-ESmart-GU10-5W-50Dim-827-35-DS-LM0237",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.525Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.585Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:44.431Z"
-  },
-  "neptun-16504": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:42.842Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:44.440Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-COREPRO-LED-ND-7-5-60W-A60-E27-840-LM0221",
-        "lastChecked": "2026-05-11T12:18:41.500Z",
-        "matchedName": "LLAMBE COREPRO LED ND 7.5-60W A60 E27 840",
-        "storeProductId": "/categories/LLAMBE-COREPRO-LED-ND-7-5-60W-A60-E27-840-LM0221",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.526Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.641Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:44.441Z"
-  },
-  "neptun-18225": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:42.565Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:44.467Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 257,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-LED-ECO-A60-13-5W-840-E27-TU-DS-LM0233",
-        "lastChecked": "2026-05-11T12:18:41.472Z",
-        "matchedName": "LLAMBE LED ECO A60 13.5W 840 E27 TU DS",
-        "storeProductId": "/categories/LLAMBE-LED-ECO-A60-13-5W-840-E27-TU-DS-LM0233",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.507Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.621Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:44.468Z"
-  },
-  "neptun-16474": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:42.617Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:44.523Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 290,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-LED-ECO-A60-11-5W-865-E27-TU-DS-LM0240",
-        "lastChecked": "2026-05-11T12:18:41.495Z",
-        "matchedName": "LLAMBE LED ECO A60 11.5W 865 E27 TU DS",
-        "storeProductId": "/categories/LLAMBE-LED-ECO-A60-11-5W-865-E27-TU-DS-LM0240",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.521Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.602Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:44.524Z"
-  },
-  "neptun-30298": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:43.670Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.196Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 290,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-LED-PHILIPS-40W-E14-WW-FR-ND-1PF-6-DISC-LM0366",
-        "lastChecked": "2026-05-11T12:18:41.481Z",
-        "matchedName": "LLAMBE LED PHILIPS 40W E14 WW FR ND 1PF/6-DISC",
-        "storeProductId": "/categories/LLAMBE-LED-PHILIPS-40W-E14-WW-FR-ND-1PF-6-DISC-LM0366",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.507Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:41.680Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:46.197Z"
-  },
-  "neptun-16467": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:48.033Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:49.097Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-LED-ECO-A60-11-5W-840-E27-TU-DS-LM0231",
-        "lastChecked": "2026-05-11T12:18:46.789Z",
-        "matchedName": "LLAMBE LED ECO A60 11.5W 840 E27 TU DS",
-        "storeProductId": "/categories/LLAMBE-LED-ECO-A60-11-5W-840-E27-TU-DS-LM0231",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.888Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.955Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:49.098Z"
-  },
-  "neptun-16475": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:47.695Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:49.227Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-LED-ECO-A60-13-5W-865-E27-TU-DS-LM0241",
-        "lastChecked": "2026-05-11T12:18:46.793Z",
-        "matchedName": "LLAMBE LED ECO A60 13.5W 865 E27 TU DS",
-        "storeProductId": "/categories/LLAMBE-LED-ECO-A60-13-5W-865-E27-TU-DS-LM0241",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.916Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.923Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:49.228Z"
-  },
-  "neptun-16460": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:47.784Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:49.394Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Corepro-LEDspot-550lm-GU10-840-120D-LM0216",
-        "lastChecked": "2026-05-11T12:18:46.803Z",
-        "matchedName": "SPOT COREPRO LED 550lm GU10 840 120D",
-        "storeProductId": "/categories/Corepro-LEDspot-550lm-GU10-840-120D-LM0216",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.880Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.950Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:49.396Z"
-  },
-  "neptun-16464": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:47.935Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:49.397Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/CorePro-LEDbulb-ND-13-100W-A60-E27-830-LM0223",
-        "lastChecked": "2026-05-11T12:18:46.810Z",
-        "matchedName": "LLAMBE COREPRO LED ND 13-100W A60 E27 830",
-        "storeProductId": "/categories/CorePro-LEDbulb-ND-13-100W-A60-E27-830-LM0223",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.889Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.970Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:49.398Z"
-  },
-  "neptun-16442": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:47.906Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:49.533Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/CorePro-LEDbulb-ND-7-5-60W-A60-E27-865-LM0222",
-        "lastChecked": "2026-05-11T12:18:46.785Z",
-        "matchedName": "LLAMBE COREPRO LED ND 7.5-60W A60 E27 865",
-        "storeProductId": "/categories/CorePro-LEDbulb-ND-7-5-60W-A60-E27-865-LM0222",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.914Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.925Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:49.534Z"
-  },
-  "neptun-16443": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:47.949Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:49.602Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/CorePro-LEDbulb-ND-13-100W-A60-E27-865-LM0225",
-        "lastChecked": "2026-05-11T12:18:46.816Z",
-        "matchedName": "LLAMBE COREPRO LED ND 13-100W A60 E27 865",
-        "storeProductId": "/categories/CorePro-LEDbulb-ND-13-100W-A60-E27-865-LM0225",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.891Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.948Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:49.603Z"
-  },
-  "neptun-22680": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:48.129Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:49.763Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 390,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/LLAMBE-LED-FRIGORIFERI-EGLO-E14-2-5W-2700K-LM0316",
-        "lastChecked": "2026-05-11T12:18:46.799Z",
-        "matchedName": "LLAMBE LED FRIGORIFERI EGLO E14 2.5W 2700K",
-        "storeProductId": "/categories/LLAMBE-LED-FRIGORIFERI-EGLO-E14-2-5W-2700K-LM0316",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.890Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.972Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:49.766Z"
-  },
-  "neptun-16505": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:47.922Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:49.854Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 490,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/CorePro-LEDbulb-ND-13-100W-A60-E27-840-LM0224",
-        "lastChecked": "2026-05-11T12:18:46.806Z",
-        "matchedName": "LLAMBE COREPRO LED ND 13-100W A60 E27 840",
-        "storeProductId": "/categories/CorePro-LEDbulb-ND-13-100W-A60-E27-840-LM0224",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.920Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-05-11T12:18:46.958Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-05-11T12:18:49.855Z"
+    "refreshedAt": "2026-05-11T12:19:35.650Z"
   }
 }
