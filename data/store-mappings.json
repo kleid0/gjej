@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T09:34:34.781Z",
+  "updatedAt": "2026-06-20T09:35:11.990Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -390,12 +390,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300022736/Procesor-AMD-Ryzen-9-5950X-3.4-GHz-64-MB-hiri",
       "storeProductName": "Procesor AMD Ryzen 9 5950X, 3.4 GHz, 64 MB, hiri",
-      "catalogueProductId": "shpresa-processor-amd-ryzen-9-9950x3d",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-9-9950x",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:33.825Z",
-      "updatedAt": "2026-06-20T08:41:00.079Z"
+      "updatedAt": "2026-06-20T09:34:59.429Z"
     },
     "foleja:/ACN-300041915/Procesor-AMD-Ryzen-7-7800X3D": {
       "storeId": "foleja",
@@ -544,12 +544,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300036310/USB-SanDisk-Ultra-Dual-Drive-Luxe-1TB",
       "storeProductName": "USB SanDisk Ultra Dual Drive Luxe, 1TB",
-      "catalogueProductId": "shpresa-ultra-dual-drive-usb-3-0",
+      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-1tb",
       "matchMethod": "name_match",
-      "confidence": 80,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:40.449Z",
-      "updatedAt": "2026-05-12T08:22:59.205Z"
+      "updatedAt": "2026-06-20T09:35:03.788Z"
     },
     "foleja:/KOM-200009502/Karte-memorie-SanDisk-Extreme-Pro-SDXC-256GB": {
       "storeId": "foleja",
@@ -599,12 +599,12 @@
       "storeId": "foleja",
       "storeProductId": "/AXR-200005341/Pllake-ame-MSI-Z790-Gaming-Plus-WIFI-7E06-026R-DDR5-LGA1700-ATX-e-zeze",
       "storeProductName": "Pllakë amë MSI Z790 Gaming Plus WIFI 7E06-026R DDR5 LGA1700 ATX, e zezë",
-      "catalogueProductId": "shpresa-motherboard-msi-z890-gaming-plus-wifi",
+      "catalogueProductId": "pcstore-msi-gaming-plus-motherboard-z790",
       "matchMethod": "name_match",
       "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:45.598Z",
-      "updatedAt": "2026-06-20T08:47:06.888Z"
+      "updatedAt": "2026-06-20T09:35:08.394Z"
     },
     "foleja:/ACN-300041861/Pllake-ame-MSI-MAG-Z790-TOMAHAWK-WIFI-Intel-Z790": {
       "storeId": "foleja",
@@ -8920,29 +8920,29 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:15.491Z",
-      "updatedAt": "2026-05-11T10:14:48.433Z"
+      "updatedAt": "2026-06-20T09:34:44.949Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-GAMING-3-15IHU6-LP1883": {
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-LENOVO-IDEAPAD-GAMING-3-15IHU6-LP1883",
       "storeProductName": "LAPTOP LENOVO GAMING IDEAPAD 3 15IHU6",
-      "catalogueProductId": "albagame-notebook-lenovo-ideapad-3-15itl6-15-6-fhd-1920x1080p-intel-core-i3-1115g4-up-to-4-1ghz-8gb-3200mhz-ddr4-512gb-nvme-pcie-m-2-ssd-intel-uhd-graphics-wi-fi-5-bluetooth-5-free-dos-arctic-grey-82h8019kpb-1y",
+      "catalogueProductId": "pcstore-lenovo-ideapad-gaming-3-i7-12650h-rtx-3050ti-4gb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:15.491Z",
-      "updatedAt": "2026-05-11T10:39:48.139Z"
+      "updatedAt": "2026-06-20T09:34:44.949Z"
     },
     "foleja:/KST-200050974/RAM-Memorje-Corsair-Vengeance-32GB-2x16GB-DDR5-5200MHz-e-bardhe": {
       "storeId": "foleja",
       "storeProductId": "/KST-200050974/RAM-Memorje-Corsair-Vengeance-32GB-2x16GB-DDR5-5200MHz-e-bardhe",
       "storeProductName": "RAM Memorje Corsair Vengeance 32GB (2x16GB) DDR5 5200MHz, e bardhë",
-      "catalogueProductId": "albagame-ram-48gb-corsair-vengeance-2x-24gb-7000mhz-ddr5",
+      "catalogueProductId": "pcstore-gb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:17.443Z",
-      "updatedAt": "2026-05-11T11:26:27.654Z"
+      "updatedAt": "2026-06-20T09:34:50.131Z"
     },
     "foleja:/KST-200058914/Kompjuter-Lenovo-ThinkCentre-Neo50s-G5-Intel-Core-i5-14400-16GB-RAM-512GB-SSD-SFF-gri": {
       "storeId": "foleja",
@@ -8953,7 +8953,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:17.443Z",
-      "updatedAt": "2026-05-11T10:14:53.722Z"
+      "updatedAt": "2026-06-20T09:34:50.131Z"
     },
     "foleja:/KST-200044023/Pllake-ame-Gigabyte-Z890M-Aorus-Elite-WF7-ICE-mATX-DDR5-e-bardhe": {
       "storeId": "foleja",
@@ -8975,7 +8975,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:17.443Z",
-      "updatedAt": "2026-05-11T10:14:53.722Z"
+      "updatedAt": "2026-06-20T09:34:50.131Z"
     },
     "foleja:/KOM-200083025/USB-Kingston-IronKey-Vault-Privacy-50-32GB": {
       "storeId": "foleja",
@@ -8986,7 +8986,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:17.443Z",
-      "updatedAt": "2026-05-11T10:14:53.722Z"
+      "updatedAt": "2026-06-20T09:34:50.131Z"
     },
     "foleja:/KOM-200024920/Disk-SSD-Crucial-BX500-1TB-i-zi": {
       "storeId": "foleja",
@@ -9041,7 +9041,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:19.968Z",
-      "updatedAt": "2026-05-11T10:14:59.485Z"
+      "updatedAt": "2026-06-20T09:34:54.536Z"
     },
     "foleja:/KST-200050879/Kompjuter-Dell-Pro-14-Plus-PB14250-32GB-RAM-512GB-SSD-14-inc-argjendte": {
       "storeId": "foleja",
@@ -9052,18 +9052,18 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:22.152Z",
-      "updatedAt": "2026-05-11T10:15:04.233Z"
+      "updatedAt": "2026-06-20T09:34:59.429Z"
     },
     "neptun:/categories/USB-SANDISK-ULTRA-DUAL-DRIVE-TYPE-C-128GB-FL1269": {
       "storeId": "neptun",
       "storeProductId": "/categories/USB-SANDISK-ULTRA-DUAL-DRIVE-TYPE-C-128GB-FL1269",
       "storeProductName": "USB SANDISK ULTRA DUAL DRIVE LUXE TYPE-C 128GB",
-      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-128gb",
+      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-1tb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:24.022Z",
-      "updatedAt": "2026-05-11T10:19:11.524Z"
+      "updatedAt": "2026-06-20T09:35:03.788Z"
     },
     "foleja:/ACN-300260374/Skaner-Canon-CanoScan-LiDE-400-A4-USB-Type-C-Zi": {
       "storeId": "foleja",
@@ -9074,7 +9074,7 @@
       "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:24.022Z",
-      "updatedAt": "2026-05-11T10:15:09.831Z"
+      "updatedAt": "2026-06-20T09:35:03.788Z"
     },
     "foleja:/KST-200033706/Kase-e-forte-Owl-Labs-per-Meeting-Owl-rezistente-ndaj-ujit-dhe-goditjeve-e-zeze": {
       "storeId": "foleja",
@@ -9091,34 +9091,34 @@
       "storeId": "foleja",
       "storeProductId": "/ICO-200003486/Printer-etiketash-Zebra-ZD421d-ZD4A042-D0EE00EZ-ZD4A042D0EE00EZ-203-dpi",
       "storeProductName": "Printer etiketash, Zebra ZD421d ZD4A042-D0EE00EZ ZD4A042D0EE00EZ, 203 dpi",
-      "catalogueProductId": "pcstore-zebra-label-printer-zd421-ethernet",
+      "catalogueProductId": "pcstore-zebra-label-printer-zd421",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:28.153Z",
-      "updatedAt": "2026-05-11T10:16:27.515Z"
+      "updatedAt": "2026-06-20T09:35:08.394Z"
     },
     "foleja:/KST-200043639/Kartele-memorie-Samsung-PRO-Ultimate-512-GB-SDXC-UHS-I-e-bardhe": {
       "storeId": "foleja",
       "storeProductId": "/KST-200043639/Kartele-memorie-Samsung-PRO-Ultimate-512-GB-SDXC-UHS-I-e-bardhe",
       "storeProductName": "Kartelë memorie Samsung PRO Ultimate 512 GB SDXC UHS-I, e bardhë",
-      "catalogueProductId": "pcstore-samsung-pro-ultimate-256gb-sd-reader",
+      "catalogueProductId": "pcstore-samsung-pro-ultimate-512-gb-sd-reader",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:28.153Z",
-      "updatedAt": "2026-05-11T10:22:44.506Z"
+      "updatedAt": "2026-06-20T09:35:08.394Z"
     },
     "neptun:/categories/KARTE-MEMORIE-SAMSUNG-PRO-ULTIMATE-MICROSD-256GB-KA0853": {
       "storeId": "neptun",
       "storeProductId": "/categories/KARTE-MEMORIE-SAMSUNG-PRO-ULTIMATE-MICROSD-256GB-KA0853",
       "storeProductName": "KARTE MEMORIE SAMSUNG PRO ULTIMATE MICROSD 256GB",
-      "catalogueProductId": "pcstore-samsung-pro-ultimate-256gb-sd-reader",
+      "catalogueProductId": "pcstore-samsung-pro-ultimate-512-gb-sd-reader",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:28.153Z",
-      "updatedAt": "2026-05-11T10:22:44.506Z"
+      "updatedAt": "2026-06-20T09:35:08.394Z"
     },
     "foleja:/ACN-300173287/Procesor-Intel-Core-Ultra-9-285K-24-berthama-deri-ne-5.7-GHz": {
       "storeId": "foleja",
@@ -9129,18 +9129,18 @@
       "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:28.153Z",
-      "updatedAt": "2026-05-11T10:15:14.682Z"
+      "updatedAt": "2026-06-20T09:35:08.394Z"
     },
     "foleja:/KST-200008858/Kartele-grafike-PNY-NVIDIA-RTX-A4000-4GB-Low-Profile": {
       "storeId": "foleja",
       "storeProductId": "/KST-200008858/Kartele-grafike-PNY-NVIDIA-RTX-A4000-4GB-Low-Profile",
       "storeProductName": "Kartelë grafike PNY NVIDIA RTX A4000 4GB, Low Profile",
-      "catalogueProductId": "pcstore-hp-quadro-rtx-a4000-16gb",
+      "catalogueProductId": "pcstore-pny-quadro-rtx-a4000-ada-generation-20gb",
       "matchMethod": "name_match",
-      "confidence": 67,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:31.312Z",
-      "updatedAt": "2026-05-11T10:17:26.303Z"
+      "updatedAt": "2026-06-20T09:35:11.990Z"
     },
     "foleja:/KST-200054301/Printer-POS-Epson-TM-m30III-termik-lidhje-Wi-Fi-Bluetooth-Ethernet-USB-i-zi": {
       "storeId": "foleja",
@@ -10070,12 +10070,12 @@
       "storeId": "shpresa",
       "storeProductId": "46050",
       "storeProductName": "SanDisk Ultra Dual Drive Luxe USB 3.1",
-      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-go-128gb-lavender",
+      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-1tb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:53:05.801Z",
-      "updatedAt": "2026-05-11T10:23:35.601Z"
+      "updatedAt": "2026-06-20T09:35:03.788Z"
     },
     "foleja:/ACN-300020761/USB-SanDisk-Ultra-Dual-Drive-Go-64GB-3.2-i-zi": {
       "storeId": "foleja",
@@ -65906,12 +65906,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200062546/Kompjuter-Lenovo-ThinkCentre-neo-50q-G4-i5-13420H-16GB-RAM-1TB-SSD-e-zi",
       "storeProductName": "Kompjuter Lenovo ThinkCentre neo 50q G4, i5 13420H, 16GB RAM, 1TB SSD, e zi",
-      "catalogueProductId": "pcstore-lenovo-thinkcentre-neo-50q-g4-mff-i5-13420h",
+      "catalogueProductId": "pcstore-lenovo-thinkcentre-neo-50t-pc-i7-13700",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-05-07T09:35:25.329Z",
-      "updatedAt": "2026-05-08T08:29:57.571Z"
+      "updatedAt": "2026-06-20T09:34:54.536Z"
     },
     "foleja:/KST-200016522/Hard-disk-Western-Digital-Ultrastar-DC-HC590-24TB-SAS-7200RPM": {
       "storeId": "foleja",
@@ -65933,7 +65933,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-07T09:35:39.410Z",
-      "updatedAt": "2026-05-11T10:15:14.682Z"
+      "updatedAt": "2026-06-20T09:35:08.394Z"
     },
     "foleja:/KOM-200072102/Disk-SSD-Kingston-A400-960GB": {
       "storeId": "foleja",
@@ -74844,6 +74844,83 @@
       "status": "pending",
       "createdAt": "2026-06-20T09:34:28.633Z",
       "updatedAt": "2026-06-20T09:34:28.633Z"
+    },
+    "foleja:/ABS-200000812/Pllake-ame-GIGABYTE-B840M-AORUS-ELITE-WIFI6E-AM5-4x-DDR5-mATX": {
+      "storeId": "foleja",
+      "storeProductId": "/ABS-200000812/Pllake-ame-GIGABYTE-B840M-AORUS-ELITE-WIFI6E-AM5-4x-DDR5-mATX",
+      "storeProductName": "Pllakë amë GIGABYTE B840M AORUS ELITE WIFI6E AM5 4x DDR5 mATX",
+      "catalogueProductId": "pcstore-gigabyte-b860m-a-elite-socket-1851",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-06-20T09:34:50.131Z",
+      "updatedAt": "2026-06-20T09:34:50.131Z"
+    },
+    "foleja:/ABS-200000461/SSD-Crucial-BX500-1TB-2.5-SATA-III-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/ABS-200000461/SSD-Crucial-BX500-1TB-2.5-SATA-III-i-zi",
+      "storeProductName": "SSD Crucial BX500 1TB 2.5\" SATA III, i zi",
+      "catalogueProductId": "pcstore-crucial-bx500-ssd-240-gb",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-06-20T09:34:50.131Z",
+      "updatedAt": "2026-06-20T09:34:50.131Z"
+    },
+    "foleja:/ABS-200001522/Procesor-AMD-Ryzen-7-9800X3D-8-berthama-16-fije-AM5-104MB-cache-120W-me-Radeon-Graphics-Box": {
+      "storeId": "foleja",
+      "storeProductId": "/ABS-200001522/Procesor-AMD-Ryzen-7-9800X3D-8-berthama-16-fije-AM5-104MB-cache-120W-me-Radeon-Graphics-Box",
+      "storeProductName": "Procesor AMD Ryzen 7 9800X3D, 8 bërthama/16 fije, AM5, 104MB cache, 120W, me Radeon Graphics, Box",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-7-9800x3d",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-06-20T09:34:50.131Z",
+      "updatedAt": "2026-06-20T09:34:50.131Z"
+    },
+    "foleja:/ACN-300118345/Procesor-AMD-Ryzen-5-5600GT": {
+      "storeId": "foleja",
+      "storeProductId": "/ACN-300118345/Procesor-AMD-Ryzen-5-5600GT",
+      "storeProductName": "Procesor AMD Ryzen 5 5600GT",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-5-8400f",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-06-20T09:34:54.536Z",
+      "updatedAt": "2026-06-20T09:34:54.536Z"
+    },
+    "foleja:/KST-200006291/Hard-disk-Western-Digital-My-Passport-1-TB-2.5-USB-3.2-Gen-1-Ngjyre-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200006291/Hard-disk-Western-Digital-My-Passport-1-TB-2.5-USB-3.2-Gen-1-Ngjyre-e-zeze",
+      "storeProductName": "Hard disk Western Digital My Passport, 1 TB, 2.5\", USB 3.2 Gen 1, Ngjyrë e zezë",
+      "catalogueProductId": "pcstore-wd-passport-2-5%e2%80%b3-usb-3-2-6tb",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-06-20T09:34:54.536Z",
+      "updatedAt": "2026-06-20T09:34:54.536Z"
+    },
+    "foleja:/KST-200004233/Hard-disk-Western-Digital-Ultrastar-DC-HC550-16TB-3.5-SAS-512MB-7200RPM": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200004233/Hard-disk-Western-Digital-Ultrastar-DC-HC550-16TB-3.5-SAS-512MB-7200RPM",
+      "storeProductName": "Hard disk Western Digital Ultrastar DC HC550 16TB, 3.5\", SAS, 512MB, 7200RPM",
+      "catalogueProductId": "pcstore-wd-hdd-ultrastar-dc-hc550-3-5-16tb-sas",
+      "matchMethod": "name_match",
+      "confidence": 80,
+      "status": "pending",
+      "createdAt": "2026-06-20T09:35:03.788Z",
+      "updatedAt": "2026-06-20T09:35:03.788Z"
+    },
+    "foleja:/KST-200048471/NAS-Synology-DS925-4GB-RAM-4-bay-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200048471/NAS-Synology-DS925-4GB-RAM-4-bay-e-zeze",
+      "storeProductName": "NAS Synology DS925+ 4GB RAM, 4-bay, e zezë",
+      "catalogueProductId": "pcstore-synology-nas-4-bay-ds925",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-06-20T09:35:11.990Z",
+      "updatedAt": "2026-06-20T09:35:11.990Z"
     }
   }
 }
