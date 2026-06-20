@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { priceQuery } from "@/src/infrastructure/container";
 import { STORES } from "@/src/infrastructure/stores/registry";
+import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
 
 export const dynamic = "force-dynamic";
 
@@ -9,7 +10,7 @@ export const dynamic = "force-dynamic";
 // DB liveness is NOT probed on every call — uptime monitors hitting this
 // endpoint would otherwise consume a significant share of the Neon query
 // quota. A stalled cron (lastPriceUpdate > 24h) surfaces DB issues anyway.
-export async function GET() {
+export const GET = withRequestLog("health", async () => {
   const cacheResult = await checkPriceCache().catch(() => null);
 
   const lastPriceUpdate = cacheResult?.lastUpdate ?? null;
@@ -27,7 +28,7 @@ export async function GET() {
     },
     { status: allOk ? 200 : 503 },
   );
-}
+});
 
 async function checkPriceCache(): Promise<{
   lastUpdate: string | null;

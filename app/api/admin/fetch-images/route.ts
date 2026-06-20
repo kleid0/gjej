@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { productRepo } from "@/src/infrastructure/container";
 import { enrichPhone } from "@/src/infrastructure/enrichment/GSMArenaService";
 import { enrichNonPhoneProduct } from "@/src/infrastructure/enrichment/CategoryEnrichmentService";
+import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
 
 // Allow up to 5 minutes — GSMArena fetching takes time
 export const maxDuration = 300;
@@ -15,7 +16,7 @@ const LAPTOP_SUBCATEGORIES = new Set(["Laptop"]);
 // POST /api/admin/fetch-images
 // Fetches missing images from GSMArena for products without an imageUrl.
 // Prioritises phones and laptops. Secured by Bearer CRON_SECRET.
-export async function POST(req: NextRequest) {
+export const POST = withRequestLog("admin/fetch-images", async (req: NextRequest) => {
   const auth = req.headers.get("authorization");
   if (!process.env.CRON_SECRET || auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -100,4 +101,4 @@ export async function POST(req: NextRequest) {
     remaining: Math.max(0, missing.length - batch.length),
     timestamp: new Date().toISOString(),
   });
-}
+});

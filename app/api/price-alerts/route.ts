@@ -1,9 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import { saveAlert } from "@/src/infrastructure/db/PriceHistoryRepository";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const log = createLogger("api/price-alerts");
 
-export async function POST(req: NextRequest) {
+export const POST = withRequestLog("price-alerts", async (req: NextRequest) => {
   let body: { productId?: string; email?: string; threshold?: unknown };
   try {
     body = await req.json();
@@ -26,9 +29,10 @@ export async function POST(req: NextRequest) {
 
   try {
     await saveAlert(productId, email, t);
+    log.info("alert saved", { productId, threshold: t });
     return NextResponse.json({ ok: true });
   } catch (err) {
-    console.error("price-alerts save error:", err);
+    log.error("save failed", { productId, threshold: t, err });
     return NextResponse.json({ error: "Gabim gjatë ruajtjes — provoni sërish" }, { status: 500 });
   }
-}
+});

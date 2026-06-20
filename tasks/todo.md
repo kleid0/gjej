@@ -1,3 +1,76 @@
+# Draconian Logging (2026-06-20) — PLAN / IN PROGRESS
+Branch: `claude/sweet-newton-9iueew`. Goal: comprehensive structured logging
+that (a) Claude can read back later and (b) stays inside Vercel Hobby limits.
+
+## Constraints (why the design is shaped this way)
+- Hobby runtime logs are ephemeral (~24h, capped rows), **no Log Drains**, and
+  each line is truncated past ~4KB → log single-line JSON, never multi-line.
+- `vercel.json` ignoreCommand skips deploys ONLY for `^chore\(data\):` commits.
+  → durable logs must ride the cron's existing `chore(data):` commit, never
+  make their own (an extra commit = an extra Hobby deploy).
+- User-facing routes have no commit-at-end and can't commit per request →
+  console-only for them (read via Vercel MCP runtime logs).
+
+## Design — two channels
+1. **Console**: structured single-line JSON, gated by `LOG_LEVEL` (default
+   `debug` = "everything"). Read live via Vercel MCP `get_runtime_logs`.
+2. **Git NDJSON sink**: in-memory buffer of entries ≥ `LOG_PERSIST_LEVEL`
+   (default `debug`), flushed at end of committing runs to a SINGLE rolling
+   file `data/logs/events.ndjson`, marked dirty so it commits inside the
+   existing `chore(data):` commit. Bounded by a ring-buffer cap (newest
+   5000 lines / 4 MB win). Chose one rolling file over per-day files so
+   pruning is just the cap — no file deletion via the GitHub Git Data API
+   (which the commit helper doesn't support). Durable + readable by Claude
+   via `Read` in any future session.
+
+## Tasks
+- [x] `src/infrastructure/logging/logger.ts` — levels (debug/info/warn/error),
+      `LOG_LEVEL` console gate, single-line JSON `{t,level,scope,msg,...}`,
+      `createLogger(scope)` + `.child()`, Error/bigint-safe serialization,
+      bounded in-memory persist buffer.
+- [x] `src/infrastructure/logging/gitSink.ts` — `flushLogsToGit()`: hydrate
+      existing file from GitHub, append buffer, `capLines()` ring buffer,
+      markDirty. `capLines` is pure + unit-tested.
+- [x] `paths.ts` — `LOGS_DIR` + `EVENTS_LOG_FILE`.
+- [x] `withRequestLog()` wrapper — one compact console line per API request
+      (method, path, status, ms, err). Wrapped all non-committing routes.
+- [x] Replaced all ~21 scattered `console.*` calls with scoped loggers
+      (refresh-prices, discover, trends, check-pcstore, admin/*, PriceScraper,
+      TrendsService, commitDataFiles).
+- [x] Committing routes (4 crons + admin/trigger + admin/recategorize) call
+      `flushLogsToGit()` before `takeDirtyFiles()` so the log rides the commit.
+- [x] `.env.example`: documented `LOG_LEVEL`, `LOG_PERSIST_LEVEL`.
+- [x] Unit test for logger formatting + git-sink cap.
+
+## Verification (all green)
+- [x] `npx tsc --noEmit`
+- [x] `npm run lint` — no warnings/errors
+- [x] `npm test` — 8 files, 127 tests pass (+7 new)
+- [x] `DATABASE_URL='' npx next build` — all routes build
+- [x] End-to-end demo: real NDJSON written; confirmed single-line JSON,
+      Error→{name,message,stack}, and cross-invocation append (ran twice → 6
+      lines, not clobbered to 3). Demo file removed afterward.
+
+## Review
+- **Two channels.** Console (single-line JSON, `LOG_LEVEL`-gated) → Vercel
+  runtime logs, read live via dashboard / Vercel MCP, covers every route.
+  Durable git sink (`LOG_PERSIST_LEVEL`-gated) → `data/logs/events.ndjson`,
+  readable by Claude in any session, covers committing (cron/admin) runs.
+- **Hobby-safe by construction.** Logs ride the existing `chore(data):`
+  commit (no extra commits → no extra deploys). Single-line JSON dodges the
+  ~4 KB per-line truncation. Ring-buffer cap bounds repo growth. Scraper
+  match traces stay gated behind the existing `debugMode` so they don't bury
+  the high-signal cron summaries in the bounded file.
+- **Defaults.** Both levels default to `debug` ("super chatty"). Set
+  `LOG_PERSIST_LEVEL=info` to keep only summaries/warnings/errors in git.
+- **Limitation (inherent).** User-facing route logs are console-only — they
+  have no end-of-run commit to ride, and committing per request is infeasible
+  on Hobby. They live ~24h in Vercel's runtime logs (no Log Drains on Hobby).
+- **How to read later.** `data/logs/events.ndjson` in the repo, or ask me to
+  pull live console logs via the Vercel MCP `get_runtime_logs`.
+
+---
+
 # Release Preparation
 
 ## Git-as-DB Migration (2026-04-20) — DONE

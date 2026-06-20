@@ -5,13 +5,14 @@ import {
   getDiscoveryLog,
 } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { priceQuery } from "@/src/infrastructure/container";
+import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
 
 export const dynamic = "force-dynamic";
 
 // GET /api/admin/stats
 // Returns admin panel data: catalogue stats, errors, discovery log, suspicious prices.
 // Secured by CRON_SECRET (same token used by cron jobs).
-export async function GET(req: NextRequest) {
+export const GET = withRequestLog("admin/stats", async (req: NextRequest) => {
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -52,4 +53,4 @@ export async function GET(req: NextRequest) {
     suspiciousPrices,
     timestamp: new Date().toISOString(),
   });
-}
+});

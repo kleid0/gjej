@@ -1,7 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getPriceHistory } from "@/src/infrastructure/db/PriceHistoryRepository";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
 
-export async function GET(req: NextRequest) {
+const log = createLogger("api/price-history");
+
+export const GET = withRequestLog("price-history", async (req: NextRequest) => {
   const productId = req.nextUrl.searchParams.get("product");
   if (!productId) {
     return NextResponse.json({ error: "Missing product" }, { status: 400 });
@@ -18,7 +22,7 @@ export async function GET(req: NextRequest) {
       daysOldest,
     });
   } catch (err) {
-    console.error("price-history error:", err);
+    log.error("query failed", { productId, days, err });
     return NextResponse.json({ history: [], hasEnoughData: false, daysOldest: 0 });
   }
-}
+});

@@ -6,6 +6,9 @@ import * as cheerio from "cheerio";
 import type { IPriceScraper } from "@/src/application/pricing/PriceQuery";
 import type { Store } from "@/src/domain/pricing/Store";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+
+const log = createLogger("scraper/woo");
 
 const HEADERS = {
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -972,7 +975,7 @@ async function scrapeWooCommerce(
   // Log debug info for percent-encoded product IDs so we can diagnose issues via runtime logs
   const debugMode = productId.includes('%');
   if (debugMode) {
-    console.error(`[WooScraper] store=${store.id} productId=${productId} searchTerms=${JSON.stringify(searchTerms)}`);
+    log.debug("lookup start", { store: store.id, productId, searchTerms });
   }
   if (productId.startsWith(ownPrefix)) {
     // Try the slug lookup with both raw and decoded forms.
@@ -987,7 +990,7 @@ async function scrapeWooCommerce(
 
     for (const slug of slugsToTry) {
       if (debugMode) {
-        console.error(`[WooScraper] slug lookup: store=${store.id} slug=${slug}`);
+        log.debug("slug lookup", { store: store.id, slug });
       }
       try {
         const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
@@ -997,7 +1000,7 @@ async function scrapeWooCommerce(
         });
         const items: WooItem[] = Array.isArray(data) ? data : [];
         if (debugMode) {
-          console.error(`[WooScraper] slug lookup result: items=${items.length} first=${items[0]?.name ?? 'none'}`);
+          log.debug("slug lookup result", { items: items.length, first: items[0]?.name ?? null });
         }
         if (items.length) {
           const item = items[0];
@@ -1018,7 +1021,7 @@ async function scrapeWooCommerce(
         }
       } catch (e) {
         if (debugMode) {
-          console.error(`[WooScraper] slug lookup exception: ${e instanceof Error ? e.message : String(e)}`);
+          log.debug("slug lookup exception", { err: e });
         }
         // try next slug variant
       }
@@ -1028,7 +1031,7 @@ async function scrapeWooCommerce(
   // Cross-store or slug lookup failed — search by name
   const nameQueries = buildQueries(searchTerms);
   if (debugMode) {
-    console.error(`[WooScraper] name search: store=${store.id} queries=${JSON.stringify(nameQueries)}`);
+    log.debug("name search", { store: store.id, queries: nameQueries });
   }
   for (const term of nameQueries) {
     try {
@@ -1039,13 +1042,13 @@ async function scrapeWooCommerce(
       });
       const items: WooItem[] = Array.isArray(data) ? data : [];
       if (debugMode) {
-        console.error(`[WooScraper] name search term="${term}" items=${items.length} names=${JSON.stringify(items.slice(0,3).map(i => i.name))}`);
+        log.debug("name search result", { term, items: items.length, names: items.slice(0, 3).map((i) => i.name) });
       }
       if (!items.length) continue;
 
       const scored = items.map((item) => ({ item, score: strictMatchScore(item.name, [term]) }));
       if (debugMode) {
-        console.error(`[WooScraper] scores: ${JSON.stringify(scored.slice(0,3).map(x => ({ name: x.item.name, score: x.score })))}`);
+        log.debug("match scores", { top: scored.slice(0, 3).map((x) => ({ name: x.item.name, score: x.score })) });
       }
       const best = scored.filter((x) => x.score > 0).sort((a, b) => b.score - a.score)[0]?.item;
       if (!best) continue;
@@ -1064,7 +1067,7 @@ async function scrapeWooCommerce(
       return { ...parseWooItem(best), ...matchInfo };
     } catch (e) {
       if (debugMode) {
-        console.error(`[WooScraper] name search exception: term="${term}" err=${e instanceof Error ? e.message : String(e)}`);
+        log.debug("name search exception", { term, err: e });
       }
       continue;
     }

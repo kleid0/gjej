@@ -1,8 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import { productCatalog } from "@/src/infrastructure/container";
 import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
 
 export const dynamic = "force-dynamic";
+
+const log = createLogger("api/store-coverage");
 
 // GET /api/admin/store-coverage
 // Distribution of per-product store counts for live catalogue products with
@@ -13,7 +17,7 @@ export const dynamic = "force-dynamic";
 //   ?detail=1   — also return a per-product list, sorted by store_count ASC
 //   ?limit=<n>  — cap the detail list (default 500, max 5000)
 //   ?max=<n>    — include only products with store_count <= n in the detail
-export async function GET(req: NextRequest) {
+export const GET = withRequestLog("admin/store-coverage", async (req: NextRequest) => {
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -87,7 +91,7 @@ export async function GET(req: NextRequest) {
     });
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
-    console.error("[store-coverage] failed:", err);
+    log.error("failed", { err });
     return NextResponse.json({ error: message }, { status: 500 });
   }
-}
+});

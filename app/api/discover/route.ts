@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { catalogDiscovery, productCatalog } from "@/src/infrastructure/container";
+import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
 
 function isAuthorized(req: NextRequest): boolean {
   const auth = req.headers.get("authorization");
@@ -7,19 +8,19 @@ function isAuthorized(req: NextRequest): boolean {
 }
 
 // POST /api/discover — runs a full discovery scrape and persists results
-export async function POST(req: NextRequest) {
+export const POST = withRequestLog("discover", async (req: NextRequest) => {
   if (!isAuthorized(req)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
   const { discovered, total, fused } = await catalogDiscovery.run();
   return NextResponse.json({ discovered, total, fused });
-}
+});
 
 // GET /api/discover — returns the current set of discovered products
-export async function GET(req: NextRequest) {
+export const GET = withRequestLog("discover", async (req: NextRequest) => {
   if (!isAuthorized(req)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
   const products = await productCatalog.getAllProducts();
   return NextResponse.json({ total: products.length, products });
-}
+});

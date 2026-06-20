@@ -20,6 +20,12 @@ export const STORE_MAPPINGS_FILE = path.join(DATA_DIR, "store-mappings.json");
 export const SERVICE_PROBES_FILE = path.join(DATA_DIR, "service-probes.json");
 export const CATALOGUE_STATE_FILE = path.join(DATA_DIR, "catalogue-state.json");
 
+// Structured application log, NDJSON (one JSON object per line). Written by the
+// logging git sink and committed to GitHub on the back of the cron's existing
+// chore(data): commit. .ndjson (not .log) so it isn't caught by .gitignore.
+export const LOGS_DIR = path.join(DATA_DIR, "logs");
+export const EVENTS_LOG_FILE = path.join(LOGS_DIR, "events.ndjson");
+
 // On Vercel, /tmp is ephemeral. Fall back to the committed snapshot in data/.
 export function snapshotReadPath(file: string): string {
   if (process.env.VERCEL && !fs.existsSync(file)) {

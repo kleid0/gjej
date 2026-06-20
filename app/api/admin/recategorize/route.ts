@@ -3,9 +3,13 @@ import { productCatalog, productRepo } from "@/src/infrastructure/container";
 import { guessCategory } from "@/src/infrastructure/scrapers/ProductDiscovery";
 import { takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
 import { commitDirtyFiles } from "@/src/infrastructure/git/commitDataFiles";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
 
 // Allow up to 5 minutes for the bulk update
 export const maxDuration = 300;
+
+const log = createLogger("admin/recategorize");
 
 // POST /api/admin/recategorize
 // Re-runs guessCategory on every product using the stored product name
@@ -33,11 +37,13 @@ export async function POST(req: NextRequest) {
 
   await productRepo.saveAll(next);
 
+  log.info("recategorize complete", { total: products.length, updated, distribution: dist });
+  await flushLogsToGit();
   const commitSha = await commitDirtyFiles(
     takeDirtyFiles(),
     `chore(data): recategorize ${updated} products`,
   ).catch((err) => {
-    console.error("[recategorize] commit failed:", err);
+    log.error("commit failed", { err });
     return null;
   });
 

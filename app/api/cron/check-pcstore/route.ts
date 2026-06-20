@@ -6,8 +6,12 @@ import {
 } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
 import { commitDirtyFiles } from "@/src/infrastructure/git/commitDataFiles";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
 
 export const maxDuration = 30;
+
+const log = createLogger("cron/check-pcstore");
 
 const SERVICE = "pcstore";
 const PROBE_URL = "https://www.pcstore.al/wp-json/wc/store/v1/products?per_page=1";
@@ -38,6 +42,9 @@ export async function GET(req: NextRequest) {
 
   await recordServiceProbe(SERVICE, status, notified);
 
+  log.info("probe complete", { status, previousStatus: previous?.lastStatus ?? null, flippedUp, notified });
+
+  await flushLogsToGit();
   let commitSha: string | null = null;
   try {
     commitSha = await commitDirtyFiles(
@@ -45,7 +52,7 @@ export async function GET(req: NextRequest) {
       `chore(data): pcstore probe ${status}`,
     );
   } catch (err) {
-    console.error("[check-pcstore] commit failed:", err);
+    log.error("commit failed", { err });
   }
 
   return NextResponse.json({
@@ -97,7 +104,7 @@ async function notifyAdmin(): Promise<boolean> {
     });
     return true;
   } catch (err) {
-    console.error("Failed to send pcstore-up notification", err);
+    log.error("notify failed", { err });
     return false;
   }
 }
