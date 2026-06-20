@@ -1,3 +1,54 @@
+# Draconian Logging (2026-06-20) — PLAN / IN PROGRESS
+Branch: `claude/sweet-newton-9iueew`. Goal: comprehensive structured logging
+that (a) Claude can read back later and (b) stays inside Vercel Hobby limits.
+
+## Constraints (why the design is shaped this way)
+- Hobby runtime logs are ephemeral (~24h, capped rows), **no Log Drains**, and
+  each line is truncated past ~4KB → log single-line JSON, never multi-line.
+- `vercel.json` ignoreCommand skips deploys ONLY for `^chore\(data\):` commits.
+  → durable logs must ride the cron's existing `chore(data):` commit, never
+  make their own (an extra commit = an extra Hobby deploy).
+- User-facing routes have no commit-at-end and can't commit per request →
+  console-only for them (read via Vercel MCP runtime logs).
+
+## Design — two channels
+1. **Console**: structured single-line JSON, gated by `LOG_LEVEL` (default
+   `debug` = "everything"). Read live via Vercel MCP `get_runtime_logs`.
+2. **Git NDJSON sink**: in-memory buffer of entries ≥ `LOG_PERSIST_LEVEL`
+   (default `debug`), flushed at end of cron runs to
+   `data/logs/<YYYY-MM-DD>.ndjson`, marked dirty so it commits inside the
+   existing `chore(data):` commit. Bounded by: daily rotation + per-file cap
+   (ring buffer, ~5000 lines / ~4 MB) + retention prune (keep last 14 days).
+   Durable + readable by Claude via `Read` in any future session.
+
+## Tasks
+- [ ] `src/infrastructure/logging/logger.ts` — levels (debug/info/warn/error),
+      `LOG_LEVEL` console gate, single-line JSON `{t,level,scope,msg,...}`,
+      `createLogger(scope)` + `.child()`, in-memory persist buffer.
+- [ ] `src/infrastructure/logging/gitSink.ts` — `flushLogsToGit()`: append
+      buffer to today's NDJSON, cap (ring buffer), prune old days, markDirty.
+- [ ] `paths.ts` — `LOGS_DIR` + `logFileForDate()`.
+- [ ] `withRequestLog()` wrapper — one compact console line per API request
+      (method, path, status, durationMs, err). Wrap public routes.
+- [ ] Replace the ~21 scattered `console.*` calls with scoped loggers
+      (refresh-prices, discover, trends, check-pcstore, admin/*, PriceScraper,
+      TrendsService, commitDataFiles).
+- [ ] Cron routes: include the log file in `commitDirtyFiles` list + flush.
+- [ ] `.env.example`: document `LOG_LEVEL`, `LOG_PERSIST_LEVEL`.
+- [ ] Unit test for logger formatting + git-sink cap/prune.
+
+## Verification (Done = all green)
+- [ ] `npx tsc --noEmit`
+- [ ] `npm run lint`
+- [ ] `npm test`
+- [ ] `DATABASE_URL='' npx next build`
+- [ ] Demonstrate a real NDJSON line and the cap/prune behavior.
+
+## Review
+(to be filled in after implementation)
+
+---
+
 # Release Preparation
 
 ## Git-as-DB Migration (2026-04-20) — DONE
