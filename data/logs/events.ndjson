@@ -1,12 +1,3 @@
-{"t":"2026-06-20T09:39:56.201Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-b510-backpack-case-15-6%e2%80%b3","searchTerms":["Lenovo B510 Backpack Case 15.6″"]}
-{"t":"2026-06-20T09:39:56.201Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo B510 Backpack Case","B510 Backpack Case"]}
-{"t":"2026-06-20T09:39:56.220Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-port-designs-chicago-evo-13-3-15-6%e2%80%b3","searchTerms":["Port Designs CHICAGO EVO 13.3″- 15.6″"]}
-{"t":"2026-06-20T09:39:56.220Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Port Designs CHICAGO EVO -","Port Designs CHICAGO EVO"]}
-{"t":"2026-06-20T09:39:56.239Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-port-designs-case-mouse-14-15-6%e2%80%b3","searchTerms":["Port Designs Case + Mouse 14-15.6″"]}
-{"t":"2026-06-20T09:39:56.239Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Port Designs Case"]}
-{"t":"2026-06-20T09:39:56.604Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Targus Geolite PlusBackpack Case","items":0,"names":[]}
-{"t":"2026-06-20T09:39:56.723Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo B510 Backpack Case","items":0,"names":[]}
-{"t":"2026-06-20T09:39:57.185Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Alienware Horizon Commuter Backpack Case","items":0,"names":[]}
 {"t":"2026-06-20T09:39:57.201Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Port Designs CHICAGO EVO -","items":0,"names":[]}
 {"t":"2026-06-20T09:39:57.206Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Prelude Backpack Case","items":0,"names":[]}
 {"t":"2026-06-20T09:39:57.208Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Port Designs Case","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-20T19:50:56.808Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T19:51:00.546Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T19:51:00.546Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2880,"nextIndex":2960,"remaining":17755,"httpFailures":{}}
+{"t":"2026-06-20T19:51:06.316Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2960,"batchSize":80,"total":20715}
+{"t":"2026-06-20T19:51:11.080Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T19:51:16.115Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T19:51:20.512Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T19:51:23.766Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T19:51:25.120Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T19:51:31.060Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T19:51:35.826Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T19:51:35.826Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2960,"nextIndex":3040,"remaining":17675,"httpFailures":{"shpresa:403":34}}
