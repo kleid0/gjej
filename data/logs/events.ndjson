@@ -1,12 +1,3 @@
-{"t":"2026-06-20T11:15:29.104Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27%e2%80%b3-32gb-512gb-ssd-core-i7"}
-{"t":"2026-06-20T11:15:30.082Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T11:15:30.082Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27″-32gb-512gb-ssd-core-i7"}
-{"t":"2026-06-20T11:15:30.083Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T11:15:30.084Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27″-16gb-1tb-ssd-core-i7-2"}
-{"t":"2026-06-20T11:15:30.418Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T11:15:30.418Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
-{"t":"2026-06-20T11:15:30.684Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T11:15:30.684Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
 {"t":"2026-06-20T11:15:31.122Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":11,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H"]}
 {"t":"2026-06-20T11:15:31.123Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","score":1.5517241379310343},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063}]}
 {"t":"2026-06-20T11:15:31.624Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":11,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-20T21:29:28.311Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T21:29:30.875Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T21:29:30.875Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14960,"nextIndex":15040,"remaining":5675,"httpFailures":{"shpresa:403":7}}
+{"t":"2026-06-20T21:29:37.331Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":15040,"batchSize":80,"total":20715}
+{"t":"2026-06-20T21:29:43.797Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T21:29:50.029Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T21:29:54.152Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T21:29:57.734Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T21:30:00.949Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T21:30:05.812Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T21:30:10.694Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T21:30:10.694Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":15040,"nextIndex":15120,"remaining":5595,"httpFailures":{}}
