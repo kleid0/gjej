@@ -24,6 +24,7 @@ import {
 } from "@/src/infrastructure/persistence/paths";
 import { createLogger } from "@/src/infrastructure/logging/logger";
 import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
+import { takeStoreHttpFailures } from "@/src/infrastructure/scrapers/PriceScraper";
 import type { Product } from "@/src/domain/catalog/Product";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
@@ -167,7 +168,10 @@ export async function GET(req: NextRequest) {
   const nextIndex = startIndex + batch.length;
   const remaining = Math.max(0, allProducts.length - nextIndex);
 
-  log.info("run complete", { refreshed, errors: errorCount, startIndex, nextIndex, remaining });
+  log.info("run complete", {
+    refreshed, errors: errorCount, startIndex, nextIndex, remaining,
+    httpFailures: takeStoreHttpFailures(),
+  });
 
   // Persist this invocation's slice of writes to GitHub. prices.json is
   // also written by the scraper so include it explicitly. flushLogsToGit()

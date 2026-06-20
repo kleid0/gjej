@@ -61,9 +61,39 @@ export function drainBuffer(): LogEntry[] {
 }
 
 // ── Serialization ────────────────────────────────────────────────────────────
+
+// axios errors define toJSON(), which JSON.stringify invokes BEFORE the
+// replacer — so by the time we see one it's a plain object carrying the entire
+// request config (headers, params, the full stack...). Detect that shape and
+// keep only the useful, compact fields. Avoids ~1.5 KB lines, keeps Error
+// serialization consistent, and prevents request headers leaking into the log.
+function isAxiosErrorJson(value: unknown): value is Record<string, unknown> {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    "config" in value &&
+    "message" in value &&
+    ("code" in value || "status" in value)
+  );
+}
+
 function replacer(_key: string, value: unknown): unknown {
   if (value instanceof Error) {
     return { name: value.name, message: value.message, stack: value.stack };
+  }
+  if (isAxiosErrorJson(value)) {
+    const v = value as {
+      name?: unknown; message?: unknown; code?: unknown; status?: unknown;
+      response?: { status?: unknown }; config?: { url?: unknown; method?: unknown };
+    };
+    return {
+      name: v.name ?? "AxiosError",
+      message: v.message,
+      code: v.code,
+      status: v.status ?? v.response?.status,
+      url: v.config?.url,
+      method: v.config?.method,
+    };
   }
   if (typeof value === "bigint") return value.toString();
   return value;

@@ -15,6 +15,7 @@ import { commitDirtyFiles } from "@/src/infrastructure/git/commitDataFiles";
 import { PRICES_FILE } from "@/src/infrastructure/persistence/paths";
 import { createLogger } from "@/src/infrastructure/logging/logger";
 import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
+import { takeStoreHttpFailures } from "@/src/infrastructure/scrapers/PriceScraper";
 import type { Product } from "@/src/domain/catalog/Product";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
@@ -116,7 +117,10 @@ export async function POST(req: NextRequest) {
       const { refreshed, errors } = await refreshBatch(batch);
       const nextIndex = startIndex + refreshed;
       const remaining = Math.max(0, allProducts.length - nextIndex);
-      log.info("refresh-prices complete", { startIndex, nextIndex, refreshed, errors, remaining });
+      log.info("refresh-prices complete", {
+        startIndex, nextIndex, refreshed, errors, remaining,
+        httpFailures: takeStoreHttpFailures(),
+      });
       await flushLogsToGit();
       const dirty = takeDirtyFiles();
       if (!dirty.includes(PRICES_FILE)) dirty.push(PRICES_FILE);

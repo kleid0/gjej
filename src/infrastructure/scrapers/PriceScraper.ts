@@ -10,6 +10,31 @@ import { createLogger } from "@/src/infrastructure/logging/logger";
 
 const log = createLogger("scraper/woo");
 
+// Per-invocation tally of store HTTP failures, keyed `${storeId}:${status}`
+// (status = HTTP code, or "timeout"/"network"/"error"). Surfaced once per cron
+// batch in the run-complete log so we can measure the TRUE failure rate — e.g.
+// shpresa's intermittent 403s — without emitting one log line per failure, and
+// regardless of the per-product debug gate. A 403/timeout here otherwise looks
+// identical to "product not found", so the gap was previously invisible.
+const storeHttpFailures = new Map<string, number>();
+
+export function recordStoreHttpFailure(storeId: string, e: unknown): void {
+  let status: string | number = "error";
+  if (axios.isAxiosError(e)) {
+    status = e.response?.status ?? (e.code === "ECONNABORTED" ? "timeout" : e.code ?? "network");
+  }
+  const key = `${storeId}:${status}`;
+  storeHttpFailures.set(key, (storeHttpFailures.get(key) ?? 0) + 1);
+}
+
+/** Snapshot and reset the failure tally. Call once at the end of a cron batch. */
+export function takeStoreHttpFailures(): Record<string, number> {
+  const out: Record<string, number> = {};
+  storeHttpFailures.forEach((v, k) => { out[k] = v; });
+  storeHttpFailures.clear();
+  return out;
+}
+
 const HEADERS = {
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   "Accept": "application/json",
@@ -1020,6 +1045,7 @@ async function scrapeWooCommerce(
           }
         }
       } catch (e) {
+        recordStoreHttpFailure(store.id, e);
         if (debugMode) {
           log.debug("slug lookup exception", { err: e });
         }
@@ -1066,6 +1092,7 @@ async function scrapeWooCommerce(
 
       return { ...parseWooItem(best), ...matchInfo };
     } catch (e) {
+      recordStoreHttpFailure(store.id, e);
       if (debugMode) {
         log.debug("name search exception", { term, err: e });
       }
