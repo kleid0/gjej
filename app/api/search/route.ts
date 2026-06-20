@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { productCatalog } from "@/src/infrastructure/container";
+import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
 
-export async function GET(req: NextRequest) {
+export const GET = withRequestLog("search", async (req: NextRequest) => {
   const q = req.nextUrl.searchParams.get("q")?.trim() ?? "";
   if (q.length < 2) return NextResponse.json({ products: [], categories: [] });
 
@@ -25,4 +26,4 @@ export async function GET(req: NextRequest) {
     );
 
   return NextResponse.json({ products, categories });
-}
+});

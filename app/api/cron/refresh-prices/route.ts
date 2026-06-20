@@ -22,8 +22,12 @@ import {
   SCRAPER_ERRORS_FILE,
   STORE_MAPPINGS_FILE,
 } from "@/src/infrastructure/persistence/paths";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
 import type { Product } from "@/src/domain/catalog/Product";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
+
+const log = createLogger("cron/refresh-prices");
 
 // Allow up to 5 minutes — scraping a batch takes time
 export const maxDuration = 300;
@@ -78,6 +82,8 @@ export async function GET(req: NextRequest) {
   const batch = allProducts.slice(startIndex, startIndex + BATCH_SIZE);
   let refreshed = 0;
   let errorCount = 0;
+
+  log.info("run start", { startIndex, batchSize: batch.length, total: allProducts.length });
 
   for (let i = 0; i < batch.length; i += CONCURRENCY) {
     const chunk = batch.slice(i, i + CONCURRENCY);
@@ -154,13 +160,20 @@ export async function GET(req: NextRequest) {
       }
       await batchMarkAlertsNotified(notifiedIds);
     }
+
+    log.debug("chunk done", { from: i, size: chunk.length, refreshed, errors: errorCount });
   }
 
   const nextIndex = startIndex + batch.length;
   const remaining = Math.max(0, allProducts.length - nextIndex);
 
+  log.info("run complete", { refreshed, errors: errorCount, startIndex, nextIndex, remaining });
+
   // Persist this invocation's slice of writes to GitHub. prices.json is
-  // also written by the scraper so include it explicitly.
+  // also written by the scraper so include it explicitly. flushLogsToGit()
+  // appends the buffered log lines and marks the NDJSON file dirty so it
+  // rides this same commit — must run before takeDirtyFiles().
+  await flushLogsToGit();
   const dirty = takeDirtyFiles();
   if (!dirty.includes(PRICES_FILE)) dirty.push(PRICES_FILE);
   let commitSha: string | null = null;
@@ -175,7 +188,7 @@ export async function GET(req: NextRequest) {
         : `chore(data): refresh prices ${startIndex}-${nextIndex}`,
     );
   } catch (err) {
-    console.error("[refresh-prices] commit failed:", err);
+    log.error("commit failed", { err });
   }
 
   if (remaining === 0) {
@@ -232,6 +245,6 @@ async function sendAlertEmail(
       `,
     });
   } catch (err) {
-    console.error("Failed to send alert email to", email, err);
+    log.error("alert email failed", { email, err });
   }
 }

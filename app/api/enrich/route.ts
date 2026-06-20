@@ -5,6 +5,7 @@ import { productCatalog } from "@/src/infrastructure/container";
 import { enrichPhone } from "@/src/infrastructure/enrichment/GSMArenaService";
 import { enrichFromProductPage } from "@/src/infrastructure/enrichment/ManufacturerService";
 import { enrichNonPhoneProduct } from "@/src/infrastructure/enrichment/CategoryEnrichmentService";
+import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
 
 export const maxDuration = 30;
 
@@ -32,7 +33,7 @@ async function writeCache(productId: string, data: unknown) {
 }
 
 // GET /api/enrich?product=<productId>
-export async function GET(req: NextRequest) {
+export const GET = withRequestLog("enrich", async (req: NextRequest) => {
   const productId = req.nextUrl.searchParams.get("product");
   if (!productId) return NextResponse.json({ error: "product param required" }, { status: 400 });
 
@@ -98,4 +99,4 @@ export async function GET(req: NextRequest) {
     notFound: true,
     source: "",
   });
-}
+});

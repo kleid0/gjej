@@ -1,6 +1,9 @@
 import axios from "axios";
 import fs from "fs";
 import { TRENDS_FILE, snapshotReadPath } from "@/src/infrastructure/persistence/paths";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+
+const log = createLogger("trends");
 
 const EXPLORE_URL = "https://trends.google.com/trends/api/explore";
 const MULTILINE_URL = "https://trends.google.com/trends/api/widgetdata/multiline";
@@ -96,7 +99,7 @@ export async function fetchTrendsScores(
         scores[p.id] = batchScores[idx];
       });
     } catch (err) {
-      console.error(`[trends] batch ${Math.floor(i / BATCH) + 1} failed:`, err);
+      log.error("batch failed", { batch: Math.floor(i / BATCH) + 1, err });
       batch.forEach((p) => {
         scores[p.id] = 0;
       });

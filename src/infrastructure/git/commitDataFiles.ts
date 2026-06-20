@@ -14,9 +14,12 @@
 
 import { promises as fs } from "fs";
 import path from "path";
+import { createLogger } from "@/src/infrastructure/logging/logger";
 
 const GITHUB_API = "https://api.github.com";
 const MAX_RETRIES = 4;
+
+const log = createLogger("git/commit");
 
 interface RepoConfig {
   owner: string;
@@ -116,9 +119,7 @@ export async function commitDataFiles(
   if (files.length === 0) return null;
   const cfg = getRepoConfig();
   if (!cfg) {
-    console.warn(
-      "[commitDataFiles] GITHUB_TOKEN or repo slug not configured; skipping commit.",
-    );
+    log.warn("commit skipped: GITHUB_TOKEN or repo slug not configured");
     return null;
   }
 

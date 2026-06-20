@@ -7,10 +7,14 @@ import {
 import { markDirty, takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
 import { commitDirtyFiles, hydrateFromGitHub } from "@/src/infrastructure/git/commitDataFiles";
 import { TRENDS_FILE } from "@/src/infrastructure/persistence/paths";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
 
 // Google Trends batches 5 keywords per request with ~1.2s delay between batches.
 // 50 products = 10 batches ≈ 12 seconds. Give plenty of headroom.
 export const maxDuration = 120;
+
+const log = createLogger("cron/trends");
 
 // GET /api/cron/trends
 // Fetches Google Trends interest scores for the top products (by store coverage)
@@ -48,6 +52,10 @@ export async function GET(req: NextRequest) {
   writeTrendsCache(scores);
   markDirty(TRENDS_FILE);
 
+  const nonZero = Object.values(scores).filter((s) => s > 0).length;
+  log.info("run complete", { total: Object.keys(scores).length, nonZero, candidates: candidates.length });
+
+  await flushLogsToGit();
   let commitSha: string | null = null;
   try {
     commitSha = await commitDirtyFiles(
@@ -55,10 +63,8 @@ export async function GET(req: NextRequest) {
       "chore(data): update trends scores",
     );
   } catch (err) {
-    console.error("[trends] commit failed:", err);
+    log.error("commit failed", { err });
   }
-
-  const nonZero = Object.values(scores).filter((s) => s > 0).length;
   return NextResponse.json({
     total: Object.keys(scores).length,
     nonZero,

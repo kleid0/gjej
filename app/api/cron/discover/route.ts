@@ -14,8 +14,12 @@ import {
   DISCOVERY_LOG_FILE,
   CATALOGUE_STATE_FILE,
 } from "@/src/infrastructure/persistence/paths";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
 
 export const maxDuration = 300;
+
+const log = createLogger("cron/discover");
 
 // GET /api/cron/discover
 // Called daily by Vercel Cron. Searches all stores for new products,
@@ -54,6 +58,9 @@ export async function GET(req: NextRequest) {
     discontinued,
   });
 
+  log.info("run complete", { discovered, total, fused, discontinued });
+
+  await flushLogsToGit();
   let commitSha: string | null = null;
   try {
     commitSha = await commitDirtyFiles(
@@ -61,7 +68,7 @@ export async function GET(req: NextRequest) {
       `chore(data): daily discovery (+${discovered}, -${discontinued})`,
     );
   } catch (err) {
-    console.error("[discover] commit failed:", err);
+    log.error("commit failed", { err });
   }
 
   // Discontinued flag affects getProductLowestPrices output; stats change too.

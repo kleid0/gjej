@@ -1,11 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import { priceQuery, productCatalog } from "@/src/infrastructure/container";
 import { buildVariantSearchTerms } from "@/src/domain/catalog/variants";
+import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
 
 export const maxDuration = 30;
 
 // GET /api/prices?product=<productId>[&ngjyre=<colour>][&hapesire=<storage>][&force=1]
-export async function GET(req: NextRequest) {
+export const GET = withRequestLog("prices", async (req: NextRequest) => {
   const productId = req.nextUrl.searchParams.get("product");
   if (!productId) {
     return NextResponse.json({ error: "product query param required" }, { status: 400 });
@@ -39,4 +40,4 @@ export async function GET(req: NextRequest) {
   }
 
   return NextResponse.json(result);
-}
+});

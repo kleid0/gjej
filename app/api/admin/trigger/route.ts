@@ -13,10 +13,14 @@ import {
 import { takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
 import { commitDirtyFiles } from "@/src/infrastructure/git/commitDataFiles";
 import { PRICES_FILE } from "@/src/infrastructure/persistence/paths";
+import { createLogger } from "@/src/infrastructure/logging/logger";
+import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
 import type { Product } from "@/src/domain/catalog/Product";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 
 export const maxDuration = 300;
+
+const log = createLogger("admin/trigger");
 
 // How many products to refresh per trigger call.
 // Keep low enough to stay within 5-min Vercel timeout.
@@ -112,13 +116,15 @@ export async function POST(req: NextRequest) {
       const { refreshed, errors } = await refreshBatch(batch);
       const nextIndex = startIndex + refreshed;
       const remaining = Math.max(0, allProducts.length - nextIndex);
+      log.info("refresh-prices complete", { startIndex, nextIndex, refreshed, errors, remaining });
+      await flushLogsToGit();
       const dirty = takeDirtyFiles();
       if (!dirty.includes(PRICES_FILE)) dirty.push(PRICES_FILE);
       const commitSha = await commitDirtyFiles(
         dirty,
         `chore(data): admin refresh ${startIndex}-${nextIndex}`,
       ).catch((err) => {
-        console.error("[admin/trigger refresh-prices] commit failed:", err);
+        log.error("commit failed", { err });
         return null;
       });
       return NextResponse.json({
@@ -144,6 +150,8 @@ export async function POST(req: NextRequest) {
       const data = mode === "detect"
         ? await duplicateFuser.detect()
         : await duplicateFuser.fuse();
+      log.info("fuse-duplicates complete", { mode });
+      await flushLogsToGit();
       const commitSha = await commitDirtyFiles(
         takeDirtyFiles(),
         `chore(data): admin fuse-duplicates`,
@@ -154,6 +162,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Veprim i panjohur" }, { status: 400 });
   } catch (err) {
     const message = err instanceof Error ? err.message : "Internal server error";
+    log.error("action failed", { action, err });
     return NextResponse.json({ ok: false, error: message }, { status: 500 });
   }
 }
