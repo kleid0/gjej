@@ -246,3 +246,52 @@
 {"t":"2026-06-20T08:45:52.861Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T08:45:55.709Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T08:45:55.709Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1040,"nextIndex":1120,"remaining":19595}
+{"t":"2026-06-20T08:46:01.756Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1120,"batchSize":80,"total":20715}
+{"t":"2026-06-20T08:46:01.768Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-1tb-ssd-core-i7-2","searchTerms":["Lenovo AIO IdeaCentre, 27″, 16GB, 1TB SSD, Core™ i7"]}
+{"t":"2026-06-20T08:46:01.769Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27%e2%80%b3-16gb-1tb-ssd-core-i7-2"}
+{"t":"2026-06-20T08:46:01.774Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-27%e2%80%b3-32gb-512gb-ssd-core-i7","searchTerms":["Lenovo AIO IdeaCentre, 27″, 32GB, 512GB SSD, Core™ i7"]}
+{"t":"2026-06-20T08:46:01.774Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27%e2%80%b3-32gb-512gb-ssd-core-i7"}
+{"t":"2026-06-20T08:46:02.894Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T08:46:02.895Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27″-16gb-1tb-ssd-core-i7-2"}
+{"t":"2026-06-20T08:46:02.898Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T08:46:02.898Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27″-32gb-512gb-ssd-core-i7"}
+{"t":"2026-06-20T08:46:03.514Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T08:46:03.514Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
+{"t":"2026-06-20T08:46:04.134Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T08:46:04.134Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
+{"t":"2026-06-20T08:46:04.348Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":11,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H"]}
+{"t":"2026-06-20T08:46:04.349Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","score":1.5517241379310343},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063}]}
+{"t":"2026-06-20T08:46:05.592Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":11,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H"]}
+{"t":"2026-06-20T08:46:05.593Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","score":1.5517241379310343},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063}]}
+{"t":"2026-06-20T08:46:06.269Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T08:46:08.143Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T08:46:11.046Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T08:46:15.801Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T08:46:15.846Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-zbook-power-g8-15-6%e2%80%b3-32gb-512gb-ssd-core-i7","searchTerms":["HP ZBook Power G8, 15.6″, 32GB, 512GB SSD, Core™ i7"]}
+{"t":"2026-06-20T08:46:15.846Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g8-15-6%e2%80%b3-32gb-512gb-ssd-core-i7"}
+{"t":"2026-06-20T08:46:16.571Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T08:46:16.571Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g8-15-6″-32gb-512gb-ssd-core-i7"}
+{"t":"2026-06-20T08:46:17.454Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T08:46:17.454Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ZBook Power G8","ZBook Power G8"]}
+{"t":"2026-06-20T08:46:17.913Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ZBook Power G8","items":1,"names":["HP ZBook Power G8, 15.6″, 32GB, 512GB SSD, Core™ i7"]}
+{"t":"2026-06-20T08:46:17.914Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"HP ZBook Power G8, 15.6″, 32GB, 512GB SSD, Core™ i7","score":2.352941176470588}]}
+{"t":"2026-06-20T08:46:18.622Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T08:46:18.636Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-zbook-power-g8-15-6%e2%80%b3-32gb-1tb-ssd-core-i7","searchTerms":["HP ZBook Power G8, 15.6″, 32GB, 1TB SSD, Core™ i7"]}
+{"t":"2026-06-20T08:46:18.636Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g8-15-6%e2%80%b3-32gb-1tb-ssd-core-i7"}
+{"t":"2026-06-20T08:46:18.639Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-zbook-power-g9-15-6%e2%80%b3-32gb-512gb-ssd-core-i7","searchTerms":["HP ZBook Power G9, 15.6″, 32GB, 512GB SSD, Core™ i7"]}
+{"t":"2026-06-20T08:46:18.640Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g9-15-6%e2%80%b3-32gb-512gb-ssd-core-i7"}
+{"t":"2026-06-20T08:46:19.365Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T08:46:19.365Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g9-15-6″-32gb-512gb-ssd-core-i7"}
+{"t":"2026-06-20T08:46:19.704Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T08:46:19.704Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g8-15-6″-32gb-1tb-ssd-core-i7"}
+{"t":"2026-06-20T08:46:20.027Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T08:46:20.027Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ZBook Power G9","ZBook Power G9"]}
+{"t":"2026-06-20T08:46:20.064Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T08:46:20.064Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ZBook Power G8","ZBook Power G8"]}
+{"t":"2026-06-20T08:46:20.388Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ZBook Power G9","items":0,"names":[]}
+{"t":"2026-06-20T08:46:20.513Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ZBook Power G8","items":1,"names":["HP ZBook Power G8, 15.6″, 32GB, 512GB SSD, Core™ i7"]}
+{"t":"2026-06-20T08:46:20.513Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"HP ZBook Power G8, 15.6″, 32GB, 512GB SSD, Core™ i7","score":2.352941176470588}]}
+{"t":"2026-06-20T08:46:20.769Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ZBook Power G9","items":0,"names":[]}
+{"t":"2026-06-20T08:46:21.747Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T08:46:23.423Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T08:46:23.423Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1120,"nextIndex":1200,"remaining":19515}
