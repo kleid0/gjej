@@ -4179,3 +4179,39 @@
 {"t":"2026-06-20T12:09:59.194Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T12:10:00.934Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T12:10:00.934Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8160,"nextIndex":8240,"remaining":12475}
+{"t":"2026-06-20T12:10:07.831Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8240,"batchSize":80,"total":20715}
+{"t":"2026-06-20T12:10:07.869Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-eliteone-870-g9-27%e2%80%b3-i7-14700","searchTerms":["HP EliteOne 870 G9 27″ i7-14700"]}
+{"t":"2026-06-20T12:10:07.870Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP EliteOne 870 G9 i7-14700","EliteOne 870 G9 i7-14700","HP EliteOne 870 G9"]}
+{"t":"2026-06-20T12:10:08.877Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9 i7-14700","items":0,"names":[]}
+{"t":"2026-06-20T12:10:10.000Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"EliteOne 870 G9 i7-14700","items":0,"names":[]}
+{"t":"2026-06-20T12:10:10.608Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9","items":0,"names":[]}
+{"t":"2026-06-20T12:10:12.373Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T12:10:12.379Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-casual-backpack-b210-15-6%e2%80%b3","searchTerms":["Lenovo Casual Backpack B210 15.6″"]}
+{"t":"2026-06-20T12:10:12.380Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Casual Backpack B210","Casual Backpack B210"]}
+{"t":"2026-06-20T12:10:12.384Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-simple-toploader-t1050-15-6%e2%80%b3","searchTerms":["Lenovo Simple Toploader T1050 15.6″"]}
+{"t":"2026-06-20T12:10:12.384Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Simple Toploader T1050","Simple Toploader T1050"]}
+{"t":"2026-06-20T12:10:13.303Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Casual Backpack B210","items":0,"names":[]}
+{"t":"2026-06-20T12:10:13.356Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Simple Toploader T1050","items":0,"names":[]}
+{"t":"2026-06-20T12:10:13.722Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Simple Toploader T1050","items":0,"names":[]}
+{"t":"2026-06-20T12:10:13.797Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Casual Backpack B210","items":0,"names":[]}
+{"t":"2026-06-20T12:10:15.735Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T12:10:15.757Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideapad-pro-5-14%e2%80%b3-intel-ultra-7-255h","searchTerms":["Lenovo IdeaPad Pro 5 14″ Intel Ultra 7 255H"]}
+{"t":"2026-06-20T12:10:15.757Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaPad Pro 5 Intel Ultra 7 255H","IdeaPad Pro 5 Intel Ultra 7 255H","Lenovo IdeaPad Pro 5"]}
+{"t":"2026-06-20T12:10:16.256Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaPad Pro 5 Intel Ultra 7 255H","items":0,"names":[]}
+{"t":"2026-06-20T12:10:16.839Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaPad Pro 5 Intel Ultra 7 255H","items":0,"names":[]}
+{"t":"2026-06-20T12:10:17.465Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaPad Pro 5","items":0,"names":[]}
+{"t":"2026-06-20T12:10:20.302Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T12:10:25.270Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T12:10:29.479Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T12:10:33.850Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T12:10:33.852Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-alienware-curved-aw3423dwf-34%e2%80%b3qd-oled-165hz-qhd","searchTerms":["DELL Alienware Curved AW3423DWF 34″QD-OLED 165Hz QHD"]}
+{"t":"2026-06-20T12:10:33.852Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Alienware Curved AW3423DWF QD-OLED 165Hz QHD","Alienware Curved AW3423DWF QD-OLED 165Hz QHD","DELL Alienware Curved AW3423DWF"]}
+{"t":"2026-06-20T12:10:33.867Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-24%e2%80%b3-fhd-u2422h","searchTerms":["DELL Monitor 24″ FHD U2422H"]}
+{"t":"2026-06-20T12:10:33.867Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor FHD U2422H","Monitor FHD U2422H"]}
+{"t":"2026-06-20T12:10:34.513Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor FHD U2422H","items":0,"names":[]}
+{"t":"2026-06-20T12:10:34.545Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware Curved AW3423DWF QD-OLED 165Hz QHD","items":0,"names":[]}
+{"t":"2026-06-20T12:10:35.296Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor FHD U2422H","items":0,"names":[]}
+{"t":"2026-06-20T12:10:35.301Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Alienware Curved AW3423DWF QD-OLED 165Hz QHD","items":0,"names":[]}
+{"t":"2026-06-20T12:10:35.800Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware Curved AW3423DWF","items":0,"names":[]}
+{"t":"2026-06-20T12:10:38.132Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T12:10:38.132Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8240,"nextIndex":8320,"remaining":12395}
