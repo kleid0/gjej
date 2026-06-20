@@ -1,171 +1,15 @@
 {
-  "neptun-17526": {
+  "neptun-27869": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:17.303Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.623Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15997,
-        "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-HP-V27i-MO0632",
-        "lastChecked": "2026-06-20T13:29:16.123Z",
-        "matchedName": "MONITOR HP V27i 9SV94AA",
-        "storeProductId": "/categories/MONITOR-HP-V27i-MO0632",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.233Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.402Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-06-20T13:29:17.314Z"
-  },
-  "neptun-21897": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:17.323Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.646Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 20990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LC27T550FDRXEN-MO0635",
-        "lastChecked": "2026-06-20T13:29:16.145Z",
-        "matchedName": "MONITOR SAMSUNG LC27T550FDRXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LC27T550FDRXEN-MO0635",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.237Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.398Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-06-20T13:29:17.358Z"
-  },
-  "neptun-18762": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:17.356Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.625Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 18997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LC27F390FHRXDU-MO0671",
-        "lastChecked": "2026-06-20T13:29:16.141Z",
-        "matchedName": "MONITOR SAMSUNG LC27F390FHRXDU",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LC27F390FHRXDU-MO0671",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.236Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.416Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-06-20T13:29:17.359Z"
-  },
-  "neptun-27321": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/ICO-200002233/Monitor-LG-32UN880K-B-32-TFT-LCD-i-zi",
-        "lastChecked": "2026-06-20T13:29:17.362Z",
-        "matchedName": "Monitor LG 32UN880K-B 32\" TFT/LCD i zi",
-        "storeProductId": "/ICO-200002233/Monitor-LG-32UN880K-B-32-TFT-LCD-i-zi",
+        "productUrl": "https://www.foleja.al/THM-200002831/TV-QLED-Samsung-QE65Q8FAAUXXH-65-UHD-4K",
+        "lastChecked": "2026-06-20T13:29:55.065Z",
+        "matchedName": "TV QLED Samsung QE65Q8FAAUXXH 65\\\" UHD 4K",
+        "storeProductId": "/THM-200002831/TV-QLED-Samsung-QE65Q8FAAUXXH-65-UHD-4K",
         "matchConfidence": 67,
         "error": "Produkti nuk u gjet"
       },
@@ -175,18 +19,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.921Z",
+        "lastChecked": "2026-06-20T13:29:57.071Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 16990,
+        "price": 59990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-32MR50C-B--MO0885",
-        "lastChecked": "2026-06-20T13:29:16.134Z",
-        "matchedName": "MONITOR LG 32MR50C-B.",
-        "storeProductId": "/categories/MONITOR-LG-32MR50C-B--MO0885",
+        "productUrl": "https://www.neptun.al/categories/TV-SAMSUNG-QLED-QE50Q8FAAUXXH-TV5560",
+        "lastChecked": "2026-06-20T13:29:53.896Z",
+        "matchedName": "TV SAMSUNG QLED QE50Q8FAAUXXH",
+        "storeProductId": "/categories/TV-SAMSUNG-QLED-QE50Q8FAAUXXH-TV5560",
         "matchConfidence": 100
       },
       {
@@ -195,7 +39,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.234Z",
+        "lastChecked": "2026-06-20T13:29:53.916Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -204,23 +48,237 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.362Z",
+        "lastChecked": "2026-06-20T13:29:54.004Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-06-20T13:29:17.374Z"
+    "refreshedAt": "2026-06-20T13:29:57.072Z"
   },
-  "neptun-30775": {
+  "neptun-27859": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200004554/Monitor-Samsung-S32D396GAU-LS32D396GAUXEN-32-i-lakuar-e-zeze",
-        "lastChecked": "2026-06-20T13:29:17.519Z",
-        "matchedName": "Monitor Samsung S32D396GAU / LS32D396GAUXEN 32\" i lakuar, e zezë",
-        "storeProductId": "/AXR-200004554/Monitor-Samsung-S32D396GAU-LS32D396GAUXEN-32-i-lakuar-e-zeze",
+        "productUrl": "https://www.foleja.al/THM-200002821/Televizor-Samsung-QE55Q7FAAUXXH-55-QLED-4K-UHD-Smart-TV",
+        "lastChecked": "2026-06-20T13:29:55.098Z",
+        "matchedName": "Televizor Samsung QE55Q7FAAUXXH 55\\\" QLED 4K UHD Smart TV",
+        "storeProductId": "/THM-200002821/Televizor-Samsung-QE55Q7FAAUXXH-55-QLED-4K-UHD-Smart-TV",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:57.463Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 43990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-SAMSUNG-QLED-QE55Q7FAAUXXH-TV5555",
+        "lastChecked": "2026-06-20T13:29:53.868Z",
+        "matchedName": "TV SAMSUNG QLED QE55Q7FAAUXXH",
+        "storeProductId": "/categories/TV-SAMSUNG-QLED-QE55Q7FAAUXXH-TV5555",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:53.906Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:53.996Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-06-20T13:29:57.464Z"
+  },
+  "neptun-28940": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:54.926Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:57.486Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 78990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-TCL-QLED-75P79K-TV5720",
+        "lastChecked": "2026-06-20T13:29:53.898Z",
+        "matchedName": "TV TCL QLED 75P79K",
+        "storeProductId": "/categories/TV-TCL-QLED-75P79K-TV5720",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:53.908Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:54.002Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-06-20T13:29:57.487Z"
+  },
+  "neptun-27848": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/THM-200002851/Televizor-LED-Samsung-UE65U8092FUXXH-65-4K-UHD-Smart-TV-i-zi",
+        "lastChecked": "2026-06-20T13:29:54.425Z",
+        "matchedName": "Televizor LED Samsung UE65U8092FUXXH 65\\\" 4K UHD Smart TV, i zi",
+        "storeProductId": "/THM-200002851/Televizor-LED-Samsung-UE65U8092FUXXH-65-4K-UHD-Smart-TV-i-zi",
+        "matchConfidence": 100,
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:57.568Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 39990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-SAMSUNG-LED-UE65U8092FUXXH-TV5523",
+        "lastChecked": "2026-06-20T13:29:53.879Z",
+        "matchedName": "TV SAMSUNG LED UE65U8092FUXXH",
+        "storeProductId": "/categories/TV-SAMSUNG-LED-UE65U8092FUXXH-TV5523",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:53.907Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:54.012Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-06-20T13:29:57.568Z"
+  },
+  "neptun-30933": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:55.053Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:57.642Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 87990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-TCL-QLED-75P89K-TV5806",
+        "lastChecked": "2026-06-20T13:29:53.903Z",
+        "matchedName": "TV TCL QLED 75P89K",
+        "storeProductId": "/categories/TV-TCL-QLED-75P89K-TV5806",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:53.917Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:54.024Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-06-20T13:29:57.642Z"
+  },
+  "neptun-27842": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/THM-200002850/Televizor-Samsung-UE65U8072-65-LED-UHD-4K",
+        "lastChecked": "2026-06-20T13:29:55.056Z",
+        "matchedName": "Televizor Samsung UE65U8072 65\" LED UHD 4K",
+        "storeProductId": "/THM-200002850/Televizor-Samsung-UE65U8072-65-LED-UHD-4K",
         "matchConfidence": 67,
         "error": "Produkti nuk u gjet"
       },
@@ -230,18 +288,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.673Z",
+        "lastChecked": "2026-06-20T13:29:57.999Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 20990,
+        "price": 39990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS32D390GAUXEN-MO0956",
-        "lastChecked": "2026-06-20T13:29:16.194Z",
-        "matchedName": "MONITOR SAMSUNG LS32D390GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS32D390GAUXEN-MO0956",
+        "productUrl": "https://www.neptun.al/categories/TV-SAMSUNG-LED-UE65U8072FUXXH-TV5530",
+        "lastChecked": "2026-06-20T13:29:53.882Z",
+        "matchedName": "TV SAMSUNG LED UE65U8072FUXXH",
+        "storeProductId": "/categories/TV-SAMSUNG-LED-UE65U8072FUXXH-TV5530",
         "matchConfidence": 100
       },
       {
@@ -250,7 +308,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.276Z",
+        "lastChecked": "2026-06-20T13:29:53.908Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -259,13 +317,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.379Z",
+        "lastChecked": "2026-06-20T13:29:53.993Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-06-20T13:29:17.519Z"
+    "refreshedAt": "2026-06-20T13:29:58.000Z"
   },
-  "neptun-26950": {
+  "neptun-28950": {
     "prices": [
       {
         "storeId": "foleja",
@@ -273,7 +331,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:17.542Z",
+        "lastChecked": "2026-06-20T13:29:55.020Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -282,18 +340,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:17.259Z",
+        "lastChecked": "2026-06-20T13:29:58.012Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 20990,
+        "price": 54990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-HP-SERIES-5-527SW-27--94F46E9-MO0860",
-        "lastChecked": "2026-06-20T13:29:16.197Z",
-        "matchedName": "MONITOR HP SERIES 5 527SW 27\" 94F46E9",
-        "storeProductId": "/categories/MONITOR-HP-SERIES-5-527SW-27--94F46E9-MO0860",
+        "productUrl": "https://www.neptun.al/categories/TV-LG-65QNED70A6A-TV5765",
+        "lastChecked": "2026-06-20T13:29:53.894Z",
+        "matchedName": "TV LG QNED 65QNED70A6A.AEU",
+        "storeProductId": "/categories/TV-LG-65QNED70A6A-TV5765",
         "matchConfidence": 100
       },
       {
@@ -302,7 +360,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.277Z",
+        "lastChecked": "2026-06-20T13:29:53.908Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -311,21 +369,24 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.474Z",
+        "lastChecked": "2026-06-20T13:29:53.998Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-06-20T13:29:17.615Z"
+    "refreshedAt": "2026-06-20T13:29:58.012Z"
   },
-  "neptun-30898": {
+  "neptun-28379": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:17.854Z",
+        "productUrl": "https://www.foleja.al/THM-200003210/Televizor-Sony-BRAVIA-3-K55S35B-55-LED-UHD-me-Google-TV",
+        "lastChecked": "2026-06-20T13:29:55.067Z",
+        "matchedName": "Televizor Sony BRAVIA 3 K55S35B 55\" LED UHD me Google TV",
+        "storeProductId": "/THM-200003210/Televizor-Sony-BRAVIA-3-K55S35B-55-LED-UHD-me-Google-TV",
+        "matchConfidence": 75,
         "error": "Produkti nuk u gjet"
       },
       {
@@ -334,18 +395,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:17.258Z",
+        "lastChecked": "2026-06-20T13:29:58.902Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 14990,
+        "price": 74990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-27U41YA-B-FHD-120Hz-MO0970",
-        "lastChecked": "2026-06-20T13:29:16.137Z",
-        "matchedName": "MONITOR LG 27U41YA-B FHD 120Hz",
-        "storeProductId": "/categories/MONITOR-LG-27U41YA-B-FHD-120Hz-MO0970",
+        "productUrl": "https://www.neptun.al/categories/TV-SONY-BRAVIA-3-LED-K50S35B-TV5749",
+        "lastChecked": "2026-06-20T13:29:53.901Z",
+        "matchedName": "TV SONY BRAVIA 3 LED K50S35B",
+        "storeProductId": "/categories/TV-SONY-BRAVIA-3-LED-K50S35B-TV5749",
         "matchConfidence": 100
       },
       {
@@ -354,7 +415,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.235Z",
+        "lastChecked": "2026-06-20T13:29:53.917Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -363,231 +424,23 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.494Z",
+        "lastChecked": "2026-06-20T13:29:54.078Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-06-20T13:29:17.855Z"
+    "refreshedAt": "2026-06-20T13:29:58.903Z"
   },
-  "neptun-30897": {
+  "neptun-28378": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.122Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:17.259Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 18990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-27MS550-B-FHD-100Hz-SPEAKER-MO0969",
-        "lastChecked": "2026-06-20T13:29:16.139Z",
-        "matchedName": "MONITOR LG 27MS550-B FHD 100Hz SPEAKER",
-        "storeProductId": "/categories/MONITOR-LG-27MS550-B-FHD-100Hz-SPEAKER-MO0969",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.236Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.460Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-06-20T13:29:18.123Z"
-  },
-  "neptun-30896": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.150Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:17.234Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 15990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-24MS550-B-FHD-100Hz-SPEAKER-MO0968",
-        "lastChecked": "2026-06-20T13:29:16.128Z",
-        "matchedName": "MONITOR LG 24MS550-B FHD 100Hz SPEAKER",
-        "storeProductId": "/categories/MONITOR-LG-24MS550-B-FHD-100Hz-SPEAKER-MO0968",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.235Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:16.473Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-06-20T13:29:18.217Z"
-  },
-  "neptun-25323": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:19.436Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:20.392Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 32997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS34C500GAUXEN-MO0793",
-        "lastChecked": "2026-06-20T13:29:18.561Z",
-        "matchedName": "MONITOR SAMSUNG LS34C500GAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS34C500GAUXEN-MO0793",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.576Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.673Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-06-20T13:29:20.393Z"
-  },
-  "neptun-27322": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:19.445Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:20.812Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 20990,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-LG-ULTRAWIDE-29WQ600-W-MO0889",
-        "lastChecked": "2026-06-20T13:29:18.541Z",
-        "matchedName": "MONITOR LG ULTRAWIDE 29WQ600-W",
-        "storeProductId": "/categories/MONITOR-LG-ULTRAWIDE-29WQ600-W-MO0889",
-        "matchConfidence": 100
-      },
-      {
-        "storeId": "globe",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.563Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "albagame",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.637Z",
-        "error": "Produkti nuk u gjet"
-      }
-    ],
-    "refreshedAt": "2026-06-20T13:29:20.813Z"
-  },
-  "neptun-26823": {
-    "prices": [
-      {
-        "storeId": "foleja",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/AXR-200002155/Monitor-Samsung-LS32D701EAUXEN-ViewFinity-S7-27-inch-i-bardhe",
-        "lastChecked": "2026-06-20T13:29:19.192Z",
-        "matchedName": "Monitor, Samsung, LS32D701EAUXEN ViewFinity S7, 27 inch, i bardhë",
-        "storeProductId": "/AXR-200002155/Monitor-Samsung-LS32D701EAUXEN-ViewFinity-S7-27-inch-i-bardhe",
+        "productUrl": "https://www.foleja.al/THM-200003218/Televizor-LED-Sony-BRAVIA-3-K75S35B-75-UHD-4K-Google-TV",
+        "lastChecked": "2026-06-20T13:29:55.124Z",
+        "matchedName": "Televizor LED, Sony BRAVIA 3 K75S35B, 75\", UHD 4K, Google TV",
+        "storeProductId": "/THM-200003218/Televizor-LED-Sony-BRAVIA-3-K75S35B-75-UHD-4K-Google-TV",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
@@ -597,18 +450,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:21.081Z",
+        "lastChecked": "2026-06-20T13:29:59.178Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 30990,
+        "price": 64990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS32D701EAUXEN-MO0878",
-        "lastChecked": "2026-06-20T13:29:18.557Z",
-        "matchedName": "MONITOR SAMSUNG LS32D701EAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS32D701EAUXEN-MO0878",
+        "productUrl": "https://www.neptun.al/categories/TV-SONY-BRAVIA-3-LED-K43S35BP-TV5748",
+        "lastChecked": "2026-06-20T13:29:53.866Z",
+        "matchedName": "TV SONY BRAVIA 3 LED K43S35BP",
+        "storeProductId": "/categories/TV-SONY-BRAVIA-3-LED-K43S35BP-TV5748",
         "matchConfidence": 100
       },
       {
@@ -617,7 +470,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.575Z",
+        "lastChecked": "2026-06-20T13:29:53.906Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -626,24 +479,21 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.648Z",
+        "lastChecked": "2026-06-20T13:29:54.050Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-06-20T13:29:21.082Z"
+    "refreshedAt": "2026-06-20T13:29:59.179Z"
   },
-  "neptun-26785": {
+  "neptun-25872": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi",
-        "lastChecked": "2026-06-20T13:29:19.176Z",
-        "matchedName": "Monitor, Samsung, ViewFinity S70D LS27D700EAUXEN, 27 inç, zi",
-        "storeProductId": "/ICO-200003667/Monitor-Samsung-ViewFinity-S70D-LS27D700EAUXEN-27-inc-zi",
-        "matchConfidence": 100,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:59.996Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -652,18 +502,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:21.167Z",
+        "lastChecked": "2026-06-20T13:30:00.976Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 29990,
+        "price": 64990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27D700EAUXEN-MO0849",
-        "lastChecked": "2026-06-20T13:29:18.553Z",
-        "matchedName": "MONITOR SAMSUNG LS27D700EAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27D700EAUXEN-MO0849",
+        "productUrl": "https://www.neptun.al/categories/TV-HOOBART-65MCU620ANDT-TV5451",
+        "lastChecked": "2026-06-20T13:29:59.478Z",
+        "matchedName": "TV HOOBART 65MCU620ANDT",
+        "storeProductId": "/categories/TV-HOOBART-65MCU620ANDT-TV5451",
         "matchConfidence": 100
       },
       {
@@ -672,7 +522,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.564Z",
+        "lastChecked": "2026-06-20T13:29:59.538Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -681,13 +531,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.662Z",
+        "lastChecked": "2026-06-20T13:29:59.541Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-06-20T13:29:21.168Z"
+    "refreshedAt": "2026-06-20T13:30:00.977Z"
   },
-  "neptun-20788": {
+  "neptun-21488": {
     "prices": [
       {
         "storeId": "foleja",
@@ -695,7 +545,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:19.463Z",
+        "lastChecked": "2026-06-20T13:30:00.351Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -704,18 +554,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:21.399Z",
+        "lastChecked": "2026-06-20T13:30:01.718Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 27997,
+        "price": 68990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS27A700NWUXEN-MO0686",
-        "lastChecked": "2026-06-20T13:29:18.546Z",
-        "matchedName": "MONITOR SAMSUNG LS27A700NWUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS27A700NWUXEN-MO0686",
+        "productUrl": "https://www.neptun.al/categories/TV-SAMSUNG-QE55Q80CATXXH-TV5056",
+        "lastChecked": "2026-06-20T13:29:59.498Z",
+        "matchedName": "TV SAMSUNG QLED QE55Q80CATXXH.",
+        "storeProductId": "/categories/TV-SAMSUNG-QE55Q80CATXXH-TV5056",
         "matchConfidence": 100
       },
       {
@@ -724,7 +574,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.564Z",
+        "lastChecked": "2026-06-20T13:29:59.540Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -733,23 +583,177 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.637Z",
+        "lastChecked": "2026-06-20T13:29:59.558Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-06-20T13:29:21.400Z"
+    "refreshedAt": "2026-06-20T13:30:01.719Z"
   },
-  "neptun-26784": {
+  "neptun-28397": {
     "prices": [
       {
         "storeId": "foleja",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
-        "productUrl": "https://www.foleja.al/KST-200062101/Monitor-Samsung-ViewFinity-S7-LS37D702EAUXEN",
-        "lastChecked": "2026-06-20T13:29:19.508Z",
-        "matchedName": "Monitor Samsung ViewFinity S7 LS37D702EAUXEN",
-        "storeProductId": "/KST-200062101/Monitor-Samsung-ViewFinity-S7-LS37D702EAUXEN",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:30:00.253Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:30:02.148Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 74990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-LG-75UA75006LA-AEUQ-TV5626",
+        "lastChecked": "2026-06-20T13:29:59.500Z",
+        "matchedName": "TV LG LED 75UA75006LA.AEUQ",
+        "storeProductId": "/categories/TV-LG-75UA75006LA-AEUQ-TV5626",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:59.532Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:59.581Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-06-20T13:30:02.148Z"
+  },
+  "neptun-28015": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:30:00.360Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:30:02.183Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": 69990,
+        "inStock": true,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.neptun.al/categories/TV-LG-65QNED80A3A-AEU-TV5642",
+        "lastChecked": "2026-06-20T13:29:59.483Z",
+        "matchedName": "TV LG QNED 65QNED80A3A.AEU",
+        "storeProductId": "/categories/TV-LG-65QNED80A3A-AEU-TV5642",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:59.532Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:59.586Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-06-20T13:30:02.184Z"
+  },
+  "neptun-29695": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:30:00.576Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:30:02.635Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:59.687Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "globe",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:59.529Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "albagame",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:29:59.580Z",
+        "error": "Produkti nuk u gjet"
+      }
+    ],
+    "refreshedAt": "2026-06-20T13:30:02.636Z"
+  },
+  "neptun-27870": {
+    "prices": [
+      {
+        "storeId": "foleja",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "Në gjendje",
+        "productUrl": "https://www.foleja.al/THM-200002831/TV-QLED-Samsung-QE65Q8FAAUXXH-65-UHD-4K",
+        "lastChecked": "2026-06-20T13:30:00.120Z",
+        "matchedName": "TV QLED Samsung QE65Q8FAAUXXH 65\\\" UHD 4K",
+        "storeProductId": "/THM-200002831/TV-QLED-Samsung-QE65Q8FAAUXXH-65-UHD-4K",
         "matchConfidence": 67,
         "error": "Produkti nuk u gjet"
       },
@@ -759,18 +763,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:21.434Z",
+        "lastChecked": "2026-06-20T13:30:02.894Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 30990,
+        "price": 67990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-SAMSUNG-LS32D700EAUXEN-MO0848",
-        "lastChecked": "2026-06-20T13:29:18.559Z",
-        "matchedName": "MONITOR SAMSUNG LS32D700EAUXEN",
-        "storeProductId": "/categories/MONITOR-SAMSUNG-LS32D700EAUXEN-MO0848",
+        "productUrl": "https://www.neptun.al/categories/TV-SAMSUNG-QLED-QE55Q8FAAUXXH-TV5561",
+        "lastChecked": "2026-06-20T13:29:59.480Z",
+        "matchedName": "TV SAMSUNG QLED QE55Q8FAAUXXH",
+        "storeProductId": "/categories/TV-SAMSUNG-QLED-QE55Q8FAAUXXH-TV5561",
         "matchConfidence": 100
       },
       {
@@ -779,7 +783,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.576Z",
+        "lastChecked": "2026-06-20T13:29:59.538Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -788,13 +792,13 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.649Z",
+        "lastChecked": "2026-06-20T13:29:59.576Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-06-20T13:29:21.434Z"
+    "refreshedAt": "2026-06-20T13:30:02.894Z"
   },
-  "neptun-25275": {
+  "neptun-28317": {
     "prices": [
       {
         "storeId": "foleja",
@@ -802,7 +806,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:20.158Z",
+        "lastChecked": "2026-06-20T13:30:00.894Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -811,18 +815,18 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:22.084Z",
+        "lastChecked": "2026-06-20T13:30:03.185Z",
         "error": "Produkti nuk u gjet"
       },
       {
         "storeId": "neptun",
-        "price": 26997,
+        "price": 69990,
         "inStock": true,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/MONITOR-HP-E27-G4-9VG71AA-MO0705",
-        "lastChecked": "2026-06-20T13:29:18.544Z",
-        "matchedName": "MONITOR HP E27 G4 9VG71AA",
-        "storeProductId": "/categories/MONITOR-HP-E27-G4-9VG71AA-MO0705",
+        "productUrl": "https://www.neptun.al/categories/TV-LG-55QNED86A3A-AEU-TV5662",
+        "lastChecked": "2026-06-20T13:29:59.474Z",
+        "matchedName": "TV LG QNED EVO 55QNED86A3A.AEU",
+        "storeProductId": "/categories/TV-LG-55QNED86A3A-AEU-TV5662",
         "matchConfidence": 100
       },
       {
@@ -831,7 +835,7 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.563Z",
+        "lastChecked": "2026-06-20T13:29:59.527Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -840,53 +844,53 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.697Z",
+        "lastChecked": "2026-06-20T13:29:59.650Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-06-20T13:29:22.084Z"
+    "refreshedAt": "2026-06-20T13:30:03.185Z"
   },
-  "neptun-17167": {
+  "neptun-28210": {
     "prices": [
       {
         "storeId": "foleja",
+        "price": 74700,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": "https://www.foleja.al/THM-200003210/Televizor-Sony-BRAVIA-3-K55S35B-55-LED-UHD-me-Google-TV",
+        "lastChecked": "2026-06-20T13:30:00.146Z",
+        "matchedName": "Televizor Sony BRAVIA 3 K55S35B 55\" LED UHD me Google TV",
+        "storeProductId": "/THM-200003210/Televizor-Sony-BRAVIA-3-K55S35B-55-LED-UHD-me-Google-TV",
+        "matchConfidence": 100
+      },
+      {
+        "storeId": "shpresa",
+        "price": null,
+        "inStock": null,
+        "stockLabel": "E panjohur",
+        "productUrl": null,
+        "lastChecked": "2026-06-20T13:30:03.952Z",
+        "error": "Produkti nuk u gjet"
+      },
+      {
+        "storeId": "neptun",
         "price": null,
         "inStock": null,
         "stockLabel": "Në gjendje",
-        "productUrl": "https://www.foleja.al/KST-200021742/Monitor-DELL-UltraSharp-U3224KBA-31.5-6K-Ultra-HD-i-zi-argjendte",
-        "lastChecked": "2026-06-20T13:29:19.578Z",
-        "matchedName": "Monitor DELL UltraSharp U3224KBA, 31.5\", 6K Ultra HD, i zi, argjendtë",
-        "storeProductId": "/KST-200021742/Monitor-DELL-UltraSharp-U3224KBA-31.5-6K-Ultra-HD-i-zi-argjendte",
+        "productUrl": "https://www.neptun.al/categories/TV-SONY-BRAVIA-3-LED-K75S35B-TV5750",
+        "lastChecked": "2026-06-20T13:29:59.493Z",
+        "matchedName": "TV SONY BRAVIA 3 LED K75S35B",
+        "storeProductId": "/categories/TV-SONY-BRAVIA-3-LED-K75S35B-TV5750",
         "matchConfidence": 100,
         "error": "Produkti nuk u gjet"
       },
       {
-        "storeId": "shpresa",
-        "price": null,
-        "inStock": null,
-        "stockLabel": "E panjohur",
-        "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:22.721Z",
-        "error": "Produkti nuk u gjet"
-      },
-      {
-        "storeId": "neptun",
-        "price": 29997,
-        "inStock": true,
-        "stockLabel": "Në gjendje",
-        "productUrl": "https://www.neptun.al/categories/Dell-Monitor-Ultra-Sharp-U2421HE-MO0610",
-        "lastChecked": "2026-06-20T13:29:18.555Z",
-        "matchedName": "MONITOR DELL ULTRA SHARP U2421HE",
-        "storeProductId": "/categories/Dell-Monitor-Ultra-Sharp-U2421HE-MO0610",
-        "matchConfidence": 100
-      },
-      {
         "storeId": "globe",
         "price": null,
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.573Z",
+        "lastChecked": "2026-06-20T13:29:59.540Z",
         "error": "Produkti nuk u gjet"
       },
       {
@@ -895,10 +899,10 @@
         "inStock": null,
         "stockLabel": "E panjohur",
         "productUrl": null,
-        "lastChecked": "2026-06-20T13:29:18.732Z",
+        "lastChecked": "2026-06-20T13:29:59.659Z",
         "error": "Produkti nuk u gjet"
       }
     ],
-    "refreshedAt": "2026-06-20T13:29:22.722Z"
+    "refreshedAt": "2026-06-20T13:30:03.952Z"
   }
 }
