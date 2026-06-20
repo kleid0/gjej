@@ -4484,3 +4484,41 @@
 {"t":"2026-06-20T12:14:37.644Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T12:14:40.827Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T12:14:40.827Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8800,"nextIndex":8880,"remaining":11835}
+{"t":"2026-06-20T12:14:47.221Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8880,"batchSize":80,"total":20715}
+{"t":"2026-06-20T12:14:51.956Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T12:14:52.053Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-black-hdd-2-5%e2%80%b3-1tb","searchTerms":["WD Black HDD 2.5″ 1TB"]}
+{"t":"2026-06-20T12:14:52.053Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Black HDD","Black HDD"]}
+{"t":"2026-06-20T12:14:52.060Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-black-hdd-2-5%e2%80%b3-500-gb","searchTerms":["WD Black HDD 2.5″ 500 GB"]}
+{"t":"2026-06-20T12:14:52.060Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Black HDD","Black HDD"]}
+{"t":"2026-06-20T12:14:52.562Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Black HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:14:52.941Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Black HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:14:53.042Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Black HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:14:53.766Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Black HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:14:55.695Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T12:14:55.934Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-purple-pro-hdd-3-5%e2%80%b3-8tb","searchTerms":["WD Purple Pro HDD 3.5″ 8TB"]}
+{"t":"2026-06-20T12:14:55.934Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Purple Pro HDD","Purple Pro HDD"]}
+{"t":"2026-06-20T12:14:56.718Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Purple Pro HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:14:57.522Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Purple Pro HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:15:00.660Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T12:15:00.722Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-pro-hdd-3-5%e2%80%b3-22tb","searchTerms":["WD Red Pro HDD 3.5″ 22TB"]}
+{"t":"2026-06-20T12:15:00.722Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Pro HDD","Red Pro HDD"]}
+{"t":"2026-06-20T12:15:00.729Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-plus-hdd-3-5%e2%80%b3-2tb","searchTerms":["WD Red Plus HDD 3.5″ 2TB"]}
+{"t":"2026-06-20T12:15:00.729Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
+{"t":"2026-06-20T12:15:00.736Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-pro-hdd-3-5%e2%80%b3-20tb","searchTerms":["WD Red Pro HDD 3.5″ 20TB"]}
+{"t":"2026-06-20T12:15:00.736Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Pro HDD","Red Pro HDD"]}
+{"t":"2026-06-20T12:15:00.743Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-hdd-ultrastar-dc-hc310-3-5%e2%80%b3-6tb","searchTerms":["WD HDD Ultrastar DC HC310 3.5″ 6TB"]}
+{"t":"2026-06-20T12:15:00.743Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD HDD Ultrastar DC HC310","HDD Ultrastar DC HC310","WD HDD Ultrastar DC"]}
+{"t":"2026-06-20T12:15:01.653Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:15:01.945Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Pro HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:15:01.952Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC HC310","items":0,"names":[]}
+{"t":"2026-06-20T12:15:02.006Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Pro HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:15:02.295Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Pro HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:15:02.423Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:15:02.554Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HDD Ultrastar DC HC310","items":0,"names":[]}
+{"t":"2026-06-20T12:15:02.672Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Pro HDD","items":0,"names":[]}
+{"t":"2026-06-20T12:15:03.305Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC","items":0,"names":[]}
+{"t":"2026-06-20T12:15:04.834Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T12:15:08.572Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T12:15:12.451Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T12:15:15.599Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T12:15:15.599Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8880,"nextIndex":8960,"remaining":11755}
