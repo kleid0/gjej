@@ -1,12 +1,3 @@
-{"t":"2026-06-20T09:39:15.608Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Purple HDD","Purple HDD"]}
-{"t":"2026-06-20T09:39:16.739Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Purple HDD","items":0,"names":[]}
-{"t":"2026-06-20T09:39:17.201Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Purple HDD","items":0,"names":[]}
-{"t":"2026-06-20T09:39:17.597Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Purple HDD","items":0,"names":[]}
-{"t":"2026-06-20T09:39:18.108Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Purple HDD","items":0,"names":[]}
-{"t":"2026-06-20T09:39:18.373Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red HDD","items":0,"names":[]}
-{"t":"2026-06-20T09:39:18.820Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red HDD","items":0,"names":[]}
-{"t":"2026-06-20T09:39:20.500Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T09:39:20.505Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-eliteone-870-g9-27%e2%80%b3-i5-14500-touch","searchTerms":["HP EliteOne 870 G9 27″ i5-14500 Touch"]}
 {"t":"2026-06-20T09:39:20.505Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP EliteOne 870 G9 i5-14500 Touch","EliteOne 870 G9 i5-14500 Touch","HP EliteOne 870 G9"]}
 {"t":"2026-06-20T09:39:22.030Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9 i5-14500 Touch","items":0,"names":[]}
 {"t":"2026-06-20T09:39:22.533Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"EliteOne 870 G9 i5-14500 Touch","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-20T19:43:59.349Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T19:44:04.739Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T19:44:04.739Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2160,"nextIndex":2240,"remaining":18475,"httpFailures":{}}
+{"t":"2026-06-20T19:44:10.768Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2240,"batchSize":80,"total":20715}
+{"t":"2026-06-20T19:44:18.536Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T19:44:28.607Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T19:44:35.702Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T19:44:43.541Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T19:44:48.411Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T19:44:56.751Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T19:45:01.214Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T19:45:01.214Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2240,"nextIndex":2320,"remaining":18395,"httpFailures":{}}
