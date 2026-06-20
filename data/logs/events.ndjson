@@ -1,29 +1,3 @@
-{"t":"2026-06-20T08:51:38.792Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T08:51:44.892Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T08:51:50.017Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T08:51:56.202Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T08:52:01.836Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T08:52:06.399Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T08:52:11.208Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T08:52:11.208Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2080,"nextIndex":2160,"remaining":18555}
-{"t":"2026-06-20T08:52:16.885Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2160,"batchSize":80,"total":20715}
-{"t":"2026-06-20T08:52:21.458Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T08:52:25.279Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T08:52:30.026Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T08:52:36.128Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T08:52:40.649Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T08:52:47.929Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T08:52:53.020Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T08:52:53.020Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2160,"nextIndex":2240,"remaining":18475}
-{"t":"2026-06-20T08:52:58.389Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2240,"batchSize":80,"total":20715}
-{"t":"2026-06-20T08:53:06.027Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T08:53:17.877Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T08:53:27.294Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T08:53:34.821Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T08:53:40.804Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T08:53:47.860Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T08:53:52.116Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T08:53:52.117Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2240,"nextIndex":2320,"remaining":18395}
 {"t":"2026-06-20T08:53:57.273Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2320,"batchSize":80,"total":20715}
 {"t":"2026-06-20T08:54:04.920Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
 {"t":"2026-06-20T08:54:18.182Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
@@ -4998,3 +4972,29 @@
 {"t":"2026-06-20T13:17:56.360Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T13:17:59.722Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T13:17:59.723Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16400,"nextIndex":16480,"remaining":4235}
+{"t":"2026-06-20T13:18:05.955Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16480,"batchSize":80,"total":20715}
+{"t":"2026-06-20T13:18:09.790Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T13:18:09.814Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-thinkpad-x13-gen-5-13%e2%80%b3-touch-16gb-1tb-ssd-core-ultra-7","searchTerms":["Lenovo ThinkPad X13 Gen 5, 13″ Touch, 16GB, 1TB SSD, Core™ Ultra 7"]}
+{"t":"2026-06-20T13:18:09.814Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-x13-gen-5-13%e2%80%b3-touch-16gb-1tb-ssd-core-ultra-7"}
+{"t":"2026-06-20T13:18:10.773Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T13:18:10.774Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-x13-gen-5-13″-touch-16gb-1tb-ssd-core-ultra-7"}
+{"t":"2026-06-20T13:18:11.150Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T13:18:11.150Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo ThinkPad X13 Gen 5","ThinkPad X13 Gen 5","Lenovo ThinkPad X13 Gen"]}
+{"t":"2026-06-20T13:18:11.533Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad X13 Gen 5","items":0,"names":[]}
+{"t":"2026-06-20T13:18:11.862Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ThinkPad X13 Gen 5","items":0,"names":[]}
+{"t":"2026-06-20T13:18:12.361Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad X13 Gen","items":0,"names":[]}
+{"t":"2026-06-20T13:18:13.583Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T13:18:17.702Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T13:18:21.042Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T13:18:21.062Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-sony-ps5-metal-gear-solid-%ce%b4-snake-eater","searchTerms":["Sony PS5 Metal Gear Solid Δ: Snake Eater"]}
+{"t":"2026-06-20T13:18:21.062Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"sony-ps5-metal-gear-solid-%ce%b4-snake-eater"}
+{"t":"2026-06-20T13:18:22.077Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T13:18:22.077Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"sony-ps5-metal-gear-solid-δ-snake-eater"}
+{"t":"2026-06-20T13:18:22.457Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T13:18:22.492Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Sony PS5 Metal Gear Solid Δ: Snake Eater","PS5 Metal Gear Solid Δ: Snake Eater","Sony PS5 Metal Gear"]}
+{"t":"2026-06-20T13:18:22.985Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Sony PS5 Metal Gear Solid Δ: Snake Eater","items":1,"names":["Sony PS5 Metal Gear Solid Δ: Snake Eater"]}
+{"t":"2026-06-20T13:18:22.986Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Sony PS5 Metal Gear Solid Δ: Snake Eater","score":8}]}
+{"t":"2026-06-20T13:18:23.872Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T13:18:25.861Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T13:18:27.681Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T13:18:27.681Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16480,"nextIndex":16560,"remaining":4155}
