@@ -1,33 +1,3 @@
-{"t":"2026-06-20T10:24:37.985Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T10:24:40.410Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T10:24:43.095Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T10:24:46.083Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T10:24:49.127Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T10:24:51.527Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T10:24:51.527Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14800,"nextIndex":14880,"remaining":5835}
-{"t":"2026-06-20T10:24:57.254Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14880,"batchSize":80,"total":20715}
-{"t":"2026-06-20T10:25:00.672Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T10:25:02.929Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T10:25:05.850Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T10:25:09.890Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T10:25:12.613Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T10:25:16.400Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T10:25:18.964Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T10:25:18.964Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14880,"nextIndex":14960,"remaining":5755}
-{"t":"2026-06-20T10:25:24.617Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14960,"batchSize":80,"total":20715}
-{"t":"2026-06-20T10:25:28.362Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T10:25:30.767Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T10:25:32.399Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T10:25:33.932Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T10:25:36.149Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T10:25:38.327Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T10:25:40.912Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T10:25:40.912Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14960,"nextIndex":15040,"remaining":5675}
-{"t":"2026-06-20T10:25:46.734Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":15040,"batchSize":80,"total":20715}
-{"t":"2026-06-20T10:25:52.127Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T10:25:58.088Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T10:26:00.779Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T10:26:04.383Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
 {"t":"2026-06-20T10:26:07.387Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
 {"t":"2026-06-20T10:26:10.872Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T10:26:14.559Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
@@ -4998,3 +4968,33 @@
 {"t":"2026-06-20T20:36:42.137Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T20:36:46.312Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T20:36:46.313Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8400,"nextIndex":8480,"remaining":12235,"httpFailures":{}}
+{"t":"2026-06-20T20:36:52.027Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8480,"batchSize":80,"total":20715}
+{"t":"2026-06-20T20:36:52.075Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-passport-2-5%e2%80%b3-usb-3-2-5tb","searchTerms":["WD Passport 2.5″ USB 3.2 5TB"]}
+{"t":"2026-06-20T20:36:52.075Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Passport USB 3.2","Passport USB 3.2"]}
+{"t":"2026-06-20T20:36:53.211Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Passport USB 3.2","items":0,"names":[]}
+{"t":"2026-06-20T20:36:53.957Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Passport USB 3.2","items":0,"names":[]}
+{"t":"2026-06-20T20:36:56.593Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T20:36:56.610Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-e24mv-g4-23-8%e2%80%b3-with-webcam","searchTerms":["HP E24mv G4 23.8″ with Webcam"]}
+{"t":"2026-06-20T20:36:56.611Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP E24mv G4 with Webcam","E24mv G4 with Webcam","HP E24mv G4 with"]}
+{"t":"2026-06-20T20:36:57.909Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP E24mv G4 with Webcam","items":0,"names":[]}
+{"t":"2026-06-20T20:36:58.579Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"E24mv G4 with Webcam","items":0,"names":[]}
+{"t":"2026-06-20T20:36:59.141Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP E24mv G4 with","items":0,"names":[]}
+{"t":"2026-06-20T20:37:01.344Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T20:37:01.408Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-asrock-phantom-monitor-27%e2%80%b3-280hz","searchTerms":["Asrock Phantom Monitor 27″ 280Hz"]}
+{"t":"2026-06-20T20:37:01.408Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Asrock Phantom Monitor 280Hz"]}
+{"t":"2026-06-20T20:37:02.709Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Asrock Phantom Monitor 280Hz","items":0,"names":[]}
+{"t":"2026-06-20T20:37:05.297Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T20:37:05.329Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-iiyama-prolite-monitor-touch-27%e2%80%b3-t2755msc","searchTerms":["iiyama ProLite Monitor Touch 27″ T2755MSC"]}
+{"t":"2026-06-20T20:37:05.329Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["iiyama ProLite Monitor Touch T2755MSC","iiyama ProLite Monitor Touch"]}
+{"t":"2026-06-20T20:37:06.075Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"iiyama ProLite Monitor Touch T2755MSC","items":0,"names":[]}
+{"t":"2026-06-20T20:37:07.209Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"iiyama ProLite Monitor Touch","items":0,"names":[]}
+{"t":"2026-06-20T20:37:09.948Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T20:37:09.957Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-ultrasharp-u4919dw-49%e2%80%b3-dqhd","searchTerms":["Dell Monitor Curved U4924DW 49″ DQHD"]}
+{"t":"2026-06-20T20:37:09.957Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell Monitor Curved U4924DW DQHD","Monitor Curved U4924DW DQHD","Dell Monitor Curved U4924DW"]}
+{"t":"2026-06-20T20:37:11.049Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Monitor Curved U4924DW DQHD","items":0,"names":[]}
+{"t":"2026-06-20T20:37:12.203Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor Curved U4924DW DQHD","items":0,"names":[]}
+{"t":"2026-06-20T20:37:12.821Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Monitor Curved U4924DW","items":0,"names":[]}
+{"t":"2026-06-20T20:37:15.009Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T20:37:22.313Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T20:37:24.326Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T20:37:24.326Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8480,"nextIndex":8560,"remaining":12155,"httpFailures":{"shpresa:403":6}}
