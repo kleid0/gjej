@@ -32,6 +32,35 @@ describe("formatEntry", () => {
     expect(JSON.parse(line).note).toBe("line1\nline2");
   });
 
+  it("compacts axios-style error objects to the useful fields (no header leak)", () => {
+    // Mirrors what AxiosError.toJSON() hands the replacer: a plain object
+    // carrying the whole request config.
+    const axiosLike = {
+      message: "Request failed with status code 403",
+      name: "AxiosError",
+      stack: "AxiosError: Request failed with status code 403\n    at ...",
+      code: "ERR_BAD_REQUEST",
+      status: 403,
+      config: {
+        url: "https://shpresa.al/wp-json/wc/store/v1/products",
+        method: "get",
+        headers: { "User-Agent": "secret-ua", Accept: "application/json" },
+        params: { search: "Lenovo IdeaCentre" },
+      },
+    };
+    const line = formatEntry(entry({ err: axiosLike }));
+    expect(line).not.toContain("\n");
+    expect(line).not.toContain("User-Agent");
+    expect(JSON.parse(line).err).toEqual({
+      name: "AxiosError",
+      message: "Request failed with status code 403",
+      code: "ERR_BAD_REQUEST",
+      status: 403,
+      url: "https://shpresa.al/wp-json/wc/store/v1/products",
+      method: "get",
+    });
+  });
+
   it("falls back gracefully on circular structures instead of throwing", () => {
     const circular: Record<string, unknown> = {};
     circular.self = circular;
