@@ -1,37 +1,3 @@
-{"t":"2026-06-20T10:32:53.944Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T10:32:57.121Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T10:33:01.936Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T10:33:05.023Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T10:33:09.341Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T10:33:13.813Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T10:33:18.857Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T10:33:18.857Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16080,"nextIndex":16160,"remaining":4555}
-{"t":"2026-06-20T10:33:24.702Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16160,"batchSize":80,"total":20715}
-{"t":"2026-06-20T10:33:30.325Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T10:33:33.505Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T10:33:36.519Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T10:33:39.845Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T10:33:42.919Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T10:33:46.671Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T10:33:48.995Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T10:33:48.995Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16160,"nextIndex":16240,"remaining":4475}
-{"t":"2026-06-20T10:33:54.956Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16240,"batchSize":80,"total":20715}
-{"t":"2026-06-20T10:33:59.221Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T10:34:03.033Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T10:34:06.339Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T10:34:09.086Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T10:34:12.609Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T10:34:16.272Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T10:34:20.819Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T10:34:20.820Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16240,"nextIndex":16320,"remaining":4395}
-{"t":"2026-06-20T10:34:26.502Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16320,"batchSize":80,"total":20715}
-{"t":"2026-06-20T10:34:30.277Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T10:34:36.879Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T10:34:40.516Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T10:34:45.219Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T10:34:48.694Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T10:34:51.421Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T10:34:55.052Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T10:34:55.052Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16320,"nextIndex":16400,"remaining":4315}
 {"t":"2026-06-20T10:35:01.045Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16400,"batchSize":80,"total":20715}
 {"t":"2026-06-20T10:35:04.890Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
@@ -4998,3 +4964,37 @@
 {"t":"2026-06-20T20:38:38.842Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T20:38:42.072Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T20:38:42.072Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8640,"nextIndex":8720,"remaining":11995,"httpFailures":{}}
+{"t":"2026-06-20T20:38:48.279Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8720,"batchSize":80,"total":20715}
+{"t":"2026-06-20T20:38:53.212Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T20:38:53.231Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-seagate-ironwolf-hdd-3-5%e2%80%b3-4tb","searchTerms":["Seagate IronWolf HDD 3.5″ 4TB"]}
+{"t":"2026-06-20T20:38:53.231Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Seagate IronWolf HDD","IronWolf HDD"]}
+{"t":"2026-06-20T20:38:53.239Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-hdd-ultrastar-dc-hc520-3-5%e2%80%b3-12tb","searchTerms":["WD HDD Ultrastar DC HC520 3.5″ 12TB"]}
+{"t":"2026-06-20T20:38:53.239Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD HDD Ultrastar DC HC520","HDD Ultrastar DC HC520","WD HDD Ultrastar DC"]}
+{"t":"2026-06-20T20:38:53.883Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Seagate IronWolf HDD","items":0,"names":[]}
+{"t":"2026-06-20T20:38:53.988Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC HC520","items":0,"names":[]}
+{"t":"2026-06-20T20:38:54.386Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IronWolf HDD","items":0,"names":[]}
+{"t":"2026-06-20T20:38:55.686Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HDD Ultrastar DC HC520","items":0,"names":[]}
+{"t":"2026-06-20T20:38:56.622Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC","items":0,"names":[]}
+{"t":"2026-06-20T20:38:58.545Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T20:38:58.564Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-27%e2%80%b3-e2725h","searchTerms":["DELL Monitor 27″ E2725H"]}
+{"t":"2026-06-20T20:38:58.564Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor E2725H","Monitor E2725H"]}
+{"t":"2026-06-20T20:38:59.588Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor E2725H","items":0,"names":[]}
+{"t":"2026-06-20T20:39:00.376Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E2725H","items":0,"names":[]}
+{"t":"2026-06-20T20:39:03.302Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T20:39:03.345Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-hdd-3-5%e2%80%b3-8tb","searchTerms":["WD Red Plus HDD 3.5″ 8TB"]}
+{"t":"2026-06-20T20:39:03.345Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
+{"t":"2026-06-20T20:39:03.349Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-plus-hdd-3-5%e2%80%b3-10tb","searchTerms":["WD Red Plus HDD 3.5″ 10TB"]}
+{"t":"2026-06-20T20:39:03.349Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
+{"t":"2026-06-20T20:39:03.353Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-hdd-plus-3-5%e2%80%b3-4tb","searchTerms":["WD Red HDD Plus 3.5″ 4TB"]}
+{"t":"2026-06-20T20:39:03.353Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red HDD Plus","Red HDD Plus"]}
+{"t":"2026-06-20T20:39:03.975Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-20T20:39:04.143Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-20T20:39:04.174Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red HDD Plus","items":0,"names":[]}
+{"t":"2026-06-20T20:39:04.623Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red HDD Plus","items":0,"names":[]}
+{"t":"2026-06-20T20:39:04.731Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-20T20:39:04.877Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-20T20:39:08.855Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T20:39:13.921Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T20:39:19.235Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T20:39:24.218Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T20:39:24.218Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8720,"nextIndex":8800,"remaining":11915,"httpFailures":{}}
