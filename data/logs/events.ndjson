@@ -1,12 +1,3 @@
-{"t":"2026-06-20T11:15:44.615Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g8-15-6%e2%80%b3-32gb-1tb-ssd-core-i7"}
-{"t":"2026-06-20T11:15:44.617Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-zbook-power-g9-15-6%e2%80%b3-32gb-512gb-ssd-core-i7","searchTerms":["HP ZBook Power G9, 15.6″, 32GB, 512GB SSD, Core™ i7"]}
-{"t":"2026-06-20T11:15:44.618Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g9-15-6%e2%80%b3-32gb-512gb-ssd-core-i7"}
-{"t":"2026-06-20T11:15:45.236Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T11:15:45.236Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g9-15-6″-32gb-512gb-ssd-core-i7"}
-{"t":"2026-06-20T11:15:45.423Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T11:15:45.423Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g8-15-6″-32gb-1tb-ssd-core-i7"}
-{"t":"2026-06-20T11:15:45.744Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T11:15:45.744Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ZBook Power G9","ZBook Power G9"]}
 {"t":"2026-06-20T11:15:45.899Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-20T11:15:45.899Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ZBook Power G8","ZBook Power G8"]}
 {"t":"2026-06-20T11:15:46.160Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ZBook Power G9","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-20T21:31:24.531Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T21:31:28.375Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T21:31:28.375Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":15200,"nextIndex":15280,"remaining":5435,"httpFailures":{}}
+{"t":"2026-06-20T21:31:34.474Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":15280,"batchSize":80,"total":20715}
+{"t":"2026-06-20T21:31:41.078Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T21:31:47.534Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T21:31:53.913Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T21:31:58.007Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T21:32:04.199Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T21:32:10.652Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T21:32:13.307Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T21:32:13.308Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":15280,"nextIndex":15360,"remaining":5355,"httpFailures":{}}
