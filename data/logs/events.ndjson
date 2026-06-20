@@ -1,20 +1,3 @@
-{"t":"2026-06-20T08:55:09.267Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2400,"batchSize":80,"total":20715}
-{"t":"2026-06-20T08:55:18.627Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T08:55:23.713Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T08:55:31.208Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T08:55:36.002Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T08:55:42.457Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T08:55:49.735Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T08:55:53.227Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T08:55:53.227Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2400,"nextIndex":2480,"remaining":18235}
-{"t":"2026-06-20T08:55:59.114Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2480,"batchSize":80,"total":20715}
-{"t":"2026-06-20T08:56:03.220Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T08:56:07.173Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T08:56:11.107Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T08:56:16.846Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T08:56:26.821Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T08:56:33.374Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T08:56:37.233Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T08:56:37.233Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2480,"nextIndex":2560,"remaining":18155}
 {"t":"2026-06-20T08:56:42.676Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2560,"batchSize":80,"total":20715}
 {"t":"2026-06-20T08:56:49.462Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
@@ -4998,3 +4981,20 @@
 {"t":"2026-06-20T13:18:51.361Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T13:18:53.751Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T13:18:53.751Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16560,"nextIndex":16640,"remaining":4075}
+{"t":"2026-06-20T13:18:59.515Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16640,"batchSize":80,"total":20715}
+{"t":"2026-06-20T13:19:03.814Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T13:19:07.544Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T13:19:10.934Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T13:19:10.957Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-pc-lenovo-aio-ideacentre-3-24alc6-23-8%e2%80%b3-16gb-512gb-ssd-amd-ryzen-7-2","searchTerms":["PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7"]}
+{"t":"2026-06-20T13:19:10.958Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pc-lenovo-aio-ideacentre-3-24alc6-23-8%e2%80%b3-16gb-512gb-ssd-amd-ryzen-7-2"}
+{"t":"2026-06-20T13:19:11.875Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T13:19:11.875Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pc-lenovo-aio-ideacentre-3-24alc6-23-8″-16gb-512gb-ssd-amd-ryzen-7-2"}
+{"t":"2026-06-20T13:19:12.241Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T13:19:12.241Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre 3","Lenovo AIO IdeaCentre","PC Lenovo AIO IdeaCentre 3","PC Lenovo AIO IdeaCentre"]}
+{"t":"2026-06-20T13:19:13.057Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre 3","items":1,"names":["PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7-7730U"]}
+{"t":"2026-06-20T13:19:13.071Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7-7730U","score":1.3636363636363638}]}
+{"t":"2026-06-20T13:19:15.377Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T13:19:18.643Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T13:19:27.833Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T13:19:32.618Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T13:19:32.618Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16640,"nextIndex":16720,"remaining":3995}
