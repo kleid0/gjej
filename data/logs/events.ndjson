@@ -2964,3 +2964,36 @@
 {"t":"2026-06-20T11:08:59.699Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T11:09:02.171Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":3,"refreshed":75,"errors":0}
 {"t":"2026-06-20T11:09:02.171Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":75,"errors":0,"startIndex":20640,"nextIndex":20715,"remaining":0}
+{"t":"2026-06-20T11:09:15.097Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":0,"batchSize":80,"total":20715}
+{"t":"2026-06-20T11:09:18.715Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T11:09:18.723Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-proone-240-g10-aio-23-8%e2%80%b3-16gb-512gb-ssd-core-i5","searchTerms":["HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5"]}
+{"t":"2026-06-20T11:09:18.723Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-proone-240-g10-aio-23-8%e2%80%b3-16gb-512gb-ssd-core-i5"}
+{"t":"2026-06-20T11:09:18.738Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-pitaka-moment-%c2%b7-sunset-pitatap-case-for-apple-iphone-16-pro-max","searchTerms":["Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max"]}
+{"t":"2026-06-20T11:09:18.739Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-%c2%b7-sunset-pitatap-case-for-apple-iphone-16-pro-max"}
+{"t":"2026-06-20T11:09:19.375Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T11:09:19.375Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-·-sunset-pitatap-case-for-apple-iphone-16-pro-max"}
+{"t":"2026-06-20T11:09:19.564Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T11:09:19.565Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-proone-240-g10-aio-23-8″-16gb-512gb-ssd-core-i5"}
+{"t":"2026-06-20T11:09:20.032Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T11:09:20.043Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ProOne 240 G10 AIO","ProOne 240 G10 AIO","HP ProOne 240 G10"]}
+{"t":"2026-06-20T11:09:20.045Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T11:09:20.045Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Apple Iphone 16 Pro Max","Apple Iphone 16","Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","Pitaka Moment · Sunset"]}
+{"t":"2026-06-20T11:09:20.663Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ProOne 240 G10 AIO","items":1,"names":["HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U"]}
+{"t":"2026-06-20T11:09:20.664Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U","score":3.0487804878048785}]}
+{"t":"2026-06-20T11:09:21.431Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Apple Iphone 16 Pro Max","items":17,"names":["Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","Pitaka Phone Case For Apple Iphone 16 Pro Max","Pitaka Classic Ultra-Slim Aramid Case 600D For Apple Iphone 16 Pro Max"]}
+{"t":"2026-06-20T11:09:21.432Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Phone Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Classic Ultra-Slim Aramid Case 600D For Apple Iphone 16 Pro Max","score":0}]}
+{"t":"2026-06-20T11:09:21.676Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T11:09:26.292Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T11:09:29.751Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T11:09:32.371Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T11:09:36.816Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T11:09:36.829Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-pitaka-moment-%c2%b7-case-grip-for-apple-iphone-16-pro","searchTerms":["Pitaka Moment · Case & Grip For Apple Iphone 16 Pro"]}
+{"t":"2026-06-20T11:09:36.829Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-%c2%b7-case-grip-for-apple-iphone-16-pro"}
+{"t":"2026-06-20T11:09:37.567Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T11:09:37.568Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-·-case-grip-for-apple-iphone-16-pro"}
+{"t":"2026-06-20T11:09:38.109Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T11:09:38.109Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Apple Iphone 16 Pro","Apple Iphone 16","Pitaka Moment · Case & Grip For Apple Iphone 16 Pro","Pitaka Moment · Case"]}
+{"t":"2026-06-20T11:09:39.109Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Apple Iphone 16 Pro","items":20,"names":["Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","Pitaka Phone Case For Apple Iphone 16 Pro Max","Pitaka Moment · Case &amp; Grip For Apple Iphone 16 Pro"]}
+{"t":"2026-06-20T11:09:39.110Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Phone Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Moment · Case &amp; Grip For Apple Iphone 16 Pro","score":0}]}
+{"t":"2026-06-20T11:09:39.781Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T11:09:39.782Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":0,"nextIndex":80,"remaining":20635}
