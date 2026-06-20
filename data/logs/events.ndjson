@@ -1,12 +1,3 @@
-{"t":"2026-06-20T08:42:53.917Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T08:42:56.888Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T08:43:00.049Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T08:43:00.050Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":640,"nextIndex":720,"remaining":19995}
-{"t":"2026-06-20T08:43:05.328Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":720,"batchSize":80,"total":20715}
-{"t":"2026-06-20T08:43:12.607Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T08:43:17.215Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T08:43:28.883Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T08:43:28.913Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-512gb-ssd-core-i7-2","searchTerms":["Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7"]}
 {"t":"2026-06-20T08:43:28.913Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-512gb-ssd-core-i7-2"}
 {"t":"2026-06-20T08:43:31.138Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-20T08:43:31.139Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8″-16gb-512gb-ssd-core-i7-2"}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-20T12:58:16.019Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T12:58:20.976Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T12:58:20.977Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13920,"nextIndex":14000,"remaining":6715}
+{"t":"2026-06-20T12:58:27.616Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14000,"batchSize":80,"total":20715}
+{"t":"2026-06-20T12:58:33.273Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T12:58:40.799Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T12:58:46.892Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T12:58:53.924Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T12:58:58.698Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T12:59:04.453Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T12:59:07.311Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T12:59:07.311Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14000,"nextIndex":14080,"remaining":6635}
