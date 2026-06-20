@@ -3170,3 +3170,20 @@
 {"t":"2026-06-20T11:14:26.340Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T11:14:28.366Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T11:14:28.367Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":880,"nextIndex":960,"remaining":19755}
+{"t":"2026-06-20T11:14:35.118Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":960,"batchSize":80,"total":20715}
+{"t":"2026-06-20T11:14:38.132Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T11:14:38.147Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-xiaomi-monitor-a24i-23-8%e2%80%b3","searchTerms":["Xiaomi Monitor A24i 23.8″"]}
+{"t":"2026-06-20T11:14:38.147Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-monitor-a24i-23-8%e2%80%b3"}
+{"t":"2026-06-20T11:14:38.810Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T11:14:38.810Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-monitor-a24i-23-8″"}
+{"t":"2026-06-20T11:14:39.495Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T11:14:39.496Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Xiaomi Monitor A24i","Monitor A24i"]}
+{"t":"2026-06-20T11:14:40.063Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Xiaomi Monitor A24i","items":1,"names":["Xiaomi Monitor A24i 23.8″"]}
+{"t":"2026-06-20T11:14:40.064Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Xiaomi Monitor A24i 23.8″","score":2.3684210526315788}]}
+{"t":"2026-06-20T11:14:42.164Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T11:14:45.213Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T11:14:47.752Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T11:14:50.727Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T11:14:53.422Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T11:14:56.142Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T11:14:56.143Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":960,"nextIndex":1040,"remaining":19675}
