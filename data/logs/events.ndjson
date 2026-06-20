@@ -1,12 +1,3 @@
-{"t":"2026-06-20T11:15:55.308Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1200,"batchSize":80,"total":20715}
-{"t":"2026-06-20T11:15:57.688Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T11:15:57.690Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-thinkpad-e16-gen-2-16%e2%80%b3-touchscreen-16gb-512gb-ssd-core-ultra-7","searchTerms":["Lenovo ThinkPad E16 Gen 2, 16″ Touchscreen, 16GB, 512GB SSD, Core™ Ultra 7"]}
-{"t":"2026-06-20T11:15:57.691Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-e16-gen-2-16%e2%80%b3-touchscreen-16gb-512gb-ssd-core-ultra-7"}
-{"t":"2026-06-20T11:15:57.699Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-aio-23-8%e2%80%b3-cr0062na-16gb-512gb-ssd-core-i5","searchTerms":["HP AIO 23.8″ CR0062NA, 16GB, 512GB SSD, Core i5"]}
-{"t":"2026-06-20T11:15:57.699Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-23-8%e2%80%b3-cr0062na-16gb-512gb-ssd-core-i5"}
-{"t":"2026-06-20T11:15:58.342Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T11:15:58.342Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-e16-gen-2-16″-touchscreen-16gb-512gb-ssd-core-ultra-7"}
-{"t":"2026-06-20T11:15:58.592Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-20T11:15:58.592Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-23-8″-cr0062na-16gb-512gb-ssd-core-i5"}
 {"t":"2026-06-20T11:15:58.744Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-20T11:15:58.745Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo ThinkPad E16 Gen 2","ThinkPad E16 Gen 2","Lenovo ThinkPad E16 Gen"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-20T21:32:45.679Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T21:32:49.297Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T21:32:49.297Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":15360,"nextIndex":15440,"remaining":5275,"httpFailures":{}}
+{"t":"2026-06-20T21:32:55.488Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":15440,"batchSize":80,"total":20715}
+{"t":"2026-06-20T21:33:02.691Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T21:33:07.833Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T21:33:13.153Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T21:33:19.053Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T21:33:23.111Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T21:33:26.610Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T21:33:29.848Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T21:33:29.849Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":15440,"nextIndex":15520,"remaining":5195,"httpFailures":{}}
