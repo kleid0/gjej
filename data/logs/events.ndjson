@@ -1,28 +1,3 @@
-{"t":"2026-06-20T09:33:47.017Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T09:33:51.629Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T09:33:57.046Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T09:33:57.145Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-thinkpad-p14s-g5-14%e2%80%b3-3k-ultra-7-165h-nvidia-rtx","searchTerms":["Lenovo P14s G5 14″ 3K Ultra 7 165H + NVIDIA RTX 4GB"]}
-{"t":"2026-06-20T09:33:57.145Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo P14s G5 3K Ultra 7 165H","P14s G5 3K Ultra 7 165H","Lenovo P14s G5 3K"]}
-{"t":"2026-06-20T09:33:58.406Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo P14s G5 3K Ultra 7 165H","items":0,"names":[]}
-{"t":"2026-06-20T09:33:59.178Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"P14s G5 3K Ultra 7 165H","items":0,"names":[]}
-{"t":"2026-06-20T09:33:59.778Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo P14s G5 3K","items":0,"names":[]}
-{"t":"2026-06-20T09:34:01.898Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T09:34:01.901Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-seagate-ironwolf-hdd-3-5%e2%80%b3-8tb","searchTerms":["Seagate IronWolf HDD 3.5″ 8TB"]}
-{"t":"2026-06-20T09:34:01.901Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Seagate IronWolf HDD","IronWolf HDD"]}
-{"t":"2026-06-20T09:34:02.359Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Seagate IronWolf HDD","items":0,"names":[]}
-{"t":"2026-06-20T09:34:02.829Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IronWolf HDD","items":0,"names":[]}
-{"t":"2026-06-20T09:34:05.289Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T09:34:05.289Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7760,"nextIndex":7840,"remaining":12875}
-{"t":"2026-06-20T09:34:11.182Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7840,"batchSize":80,"total":20715}
-{"t":"2026-06-20T09:34:15.197Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T09:34:20.056Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T09:34:20.062Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-a100-23-8%e2%80%b3-fhd-i3-n305","searchTerms":["Lenovo A100 23.8″ FHD i3-N305"]}
-{"t":"2026-06-20T09:34:20.062Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo A100 FHD i3-N305","A100 FHD i3-N305"]}
-{"t":"2026-06-20T09:34:20.066Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-i5-13420h","searchTerms":["Lenovo IdeaCentre 23.8″ FHD i5-13420H"]}
-{"t":"2026-06-20T09:34:20.066Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre FHD i5-13420H","IdeaCentre FHD i5-13420H"]}
-{"t":"2026-06-20T09:34:20.072Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-i3-n300","searchTerms":["HP ProOne 240 G10 23.8″ Intel i3-N300"]}
-{"t":"2026-06-20T09:34:20.072Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ProOne 240 G10 Intel i3-N300","ProOne 240 G10 Intel i3-N300","HP ProOne 240 G10"]}
-{"t":"2026-06-20T09:34:20.666Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ProOne 240 G10 Intel i3-N300","items":0,"names":[]}
 {"t":"2026-06-20T09:34:21.161Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo A100 FHD i3-N305","items":0,"names":[]}
 {"t":"2026-06-20T09:34:21.180Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre FHD i5-13420H","items":0,"names":[]}
 {"t":"2026-06-20T09:34:21.351Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ProOne 240 G10 Intel i3-N300","items":0,"names":[]}
@@ -4998,3 +4973,28 @@
 {"t":"2026-06-20T19:31:59.238Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T19:32:02.325Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T19:32:02.325Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":640,"nextIndex":720,"remaining":19995,"httpFailures":{}}
+{"t":"2026-06-20T19:32:08.051Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":720,"batchSize":80,"total":20715}
+{"t":"2026-06-20T19:32:13.416Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T19:32:17.997Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T19:32:29.079Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T19:32:29.102Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-512gb-ssd-core-i7-2","searchTerms":["Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7"]}
+{"t":"2026-06-20T19:32:29.102Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-512gb-ssd-core-i7-2"}
+{"t":"2026-06-20T19:32:30.392Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T19:32:30.392Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8″-16gb-512gb-ssd-core-i7-2"}
+{"t":"2026-06-20T19:32:31.371Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T19:32:31.371Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
+{"t":"2026-06-20T19:32:32.488Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":11,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H"]}
+{"t":"2026-06-20T19:32:32.489Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","score":1.5517241379310343},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063}]}
+{"t":"2026-06-20T19:32:33.105Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T19:32:33.114Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-apple-ipad-gen-9th-10-2%e2%80%b3-64gb-wi-fi-2021","searchTerms":["Apple iPad Gen 9th 10.2″, 64GB, Wi-Fi"]}
+{"t":"2026-06-20T19:32:33.114Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"apple-ipad-gen-9th-10-2%e2%80%b3-64gb-wi-fi-2021"}
+{"t":"2026-06-20T19:32:36.741Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T19:32:36.741Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"apple-ipad-gen-9th-10-2″-64gb-wi-fi-2021"}
+{"t":"2026-06-20T19:32:37.100Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-20T19:32:37.100Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Apple iPad Gen 9th","iPad Gen 9th"]}
+{"t":"2026-06-20T19:32:39.827Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Apple iPad Gen 9th","items":1,"names":["Apple iPad Gen 9th 10.2″, 64GB, Wi-Fi"]}
+{"t":"2026-06-20T19:32:39.827Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Apple iPad Gen 9th 10.2″, 64GB, Wi-Fi","score":2.6666666666666665}]}
+{"t":"2026-06-20T19:32:40.019Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T19:32:44.694Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T19:32:48.027Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T19:32:48.027Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":720,"nextIndex":800,"remaining":19915,"httpFailures":{}}
