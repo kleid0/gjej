@@ -1,12 +1,3 @@
-{"t":"2026-06-20T11:13:24.309Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"apple-ipad-gen-9th-10-2%e2%80%b3-64gb-wi-fi-2021"}
-{"t":"2026-06-20T11:13:25.345Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T11:13:25.345Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"apple-ipad-gen-9th-10-2″-64gb-wi-fi-2021"}
-{"t":"2026-06-20T11:13:25.684Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T11:13:25.685Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Apple iPad Gen 9th","iPad Gen 9th"]}
-{"t":"2026-06-20T11:13:26.135Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Apple iPad Gen 9th","items":1,"names":["Apple iPad Gen 9th 10.2″, 64GB, Wi-Fi"]}
-{"t":"2026-06-20T11:13:26.136Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Apple iPad Gen 9th 10.2″, 64GB, Wi-Fi","score":2.6666666666666665}]}
-{"t":"2026-06-20T11:13:26.399Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T11:13:29.133Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T11:13:31.516Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T11:13:31.516Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":720,"nextIndex":800,"remaining":19915}
 {"t":"2026-06-20T11:13:37.190Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":800,"batchSize":80,"total":20715}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-20T21:22:03.786Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T21:22:06.306Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T21:22:06.307Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14080,"nextIndex":14160,"remaining":6555,"httpFailures":{}}
+{"t":"2026-06-20T21:22:12.547Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14160,"batchSize":80,"total":20715}
+{"t":"2026-06-20T21:22:17.906Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-20T21:22:23.727Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-20T21:22:30.483Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-20T21:22:36.533Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-20T21:22:41.049Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-20T21:22:45.891Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-20T21:22:49.608Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-20T21:22:49.609Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14160,"nextIndex":14240,"remaining":6475,"httpFailures":{}}
