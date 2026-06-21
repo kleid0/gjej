@@ -1,34 +1,3 @@
-{"t":"2026-06-20T13:01:08.792Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T13:01:08.793Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14240,"nextIndex":14320,"remaining":6395}
-{"t":"2026-06-20T13:01:14.772Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14320,"batchSize":80,"total":20715}
-{"t":"2026-06-20T13:01:19.653Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T13:01:24.517Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T13:01:29.596Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T13:01:34.073Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T13:01:38.299Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T13:01:42.480Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T13:01:45.631Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T13:01:45.631Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14320,"nextIndex":14400,"remaining":6315}
-{"t":"2026-06-20T13:01:51.671Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14400,"batchSize":80,"total":20715}
-{"t":"2026-06-20T13:01:57.155Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T13:01:57.159Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-aio-27-cr1024na-27%e2%80%b3-16gb-512gb-ssd-ultra-5","searchTerms":["HP AIO 27-CR1024NA, 27″, 16GB, 512GB SSD, Ultra 5"]}
-{"t":"2026-06-20T13:01:57.159Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-27-cr1024na-27%e2%80%b3-16gb-512gb-ssd-ultra-5"}
-{"t":"2026-06-20T13:01:57.652Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T13:01:57.652Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-27-cr1024na-27″-16gb-512gb-ssd-ultra-5"}
-{"t":"2026-06-20T13:01:58.346Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T13:01:58.346Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP AIO 27-CR1024NA","AIO 27-CR1024NA"]}
-{"t":"2026-06-20T13:01:58.774Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP AIO 27-CR1024NA","items":0,"names":[]}
-{"t":"2026-06-20T13:01:59.990Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"AIO 27-CR1024NA","items":0,"names":[]}
-{"t":"2026-06-20T13:02:01.756Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T13:02:05.558Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T13:02:10.995Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T13:02:14.935Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T13:02:17.415Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T13:02:18.580Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T13:02:18.580Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14400,"nextIndex":14480,"remaining":6235}
-{"t":"2026-06-20T13:02:24.504Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14480,"batchSize":80,"total":20715}
-{"t":"2026-06-20T13:02:29.119Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T13:02:33.473Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-06-20T13:02:39.013Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
 {"t":"2026-06-20T13:02:43.822Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
 {"t":"2026-06-20T13:02:47.076Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
@@ -4998,3 +4967,34 @@
 {"t":"2026-06-21T10:36:38.009Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware Curved AW3423DWF","items":0,"names":[]}
 {"t":"2026-06-21T10:36:40.117Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T10:36:40.118Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8240,"nextIndex":8320,"remaining":12395,"httpFailures":{}}
+{"t":"2026-06-21T10:36:45.988Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8320,"batchSize":80,"total":20715}
+{"t":"2026-06-21T10:36:51.146Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-21T10:36:51.259Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-legion-r27qc-curved-27%e2%80%b3-qhd-180hz","searchTerms":["Lenovo Legion R27qc Curved 27″ QHD 180Hz"]}
+{"t":"2026-06-21T10:36:51.260Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Legion R27qc Curved QHD 180Hz","Legion R27qc Curved QHD 180Hz","Lenovo Legion R27qc Curved"]}
+{"t":"2026-06-21T10:36:52.811Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Legion R27qc Curved QHD 180Hz","items":0,"names":[]}
+{"t":"2026-06-21T10:36:54.549Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Legion R27qc Curved QHD 180Hz","items":0,"names":[]}
+{"t":"2026-06-21T10:36:56.064Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Legion R27qc Curved","items":0,"names":[]}
+{"t":"2026-06-21T10:36:57.847Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-21T10:36:58.003Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-p2725he-27%e2%80%b3-fhd","searchTerms":["DELL Monitor P2725HE 27″ FHD"]}
+{"t":"2026-06-21T10:36:58.004Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor P2725HE FHD","Monitor P2725HE FHD"]}
+{"t":"2026-06-21T10:36:58.782Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor P2725HE FHD","items":0,"names":[]}
+{"t":"2026-06-21T10:36:59.580Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor P2725HE FHD","items":0,"names":[]}
+{"t":"2026-06-21T10:37:02.144Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-21T10:37:07.318Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-21T10:37:09.621Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-21T10:37:09.625Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-passport-2-5%e2%80%b3-usb-3-2-1tb","searchTerms":["WD Passport 2.5″ USB 3.2 1TB"]}
+{"t":"2026-06-21T10:37:09.625Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Passport USB 3.2","Passport USB 3.2"]}
+{"t":"2026-06-21T10:37:09.671Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-toshiba-desktop-hdd-3-5%e2%80%b3-500-gb","searchTerms":["Toshiba Desktop HDD 3.5″ 500 GB"]}
+{"t":"2026-06-21T10:37:09.671Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Toshiba Desktop HDD","Desktop HDD"]}
+{"t":"2026-06-21T10:37:09.723Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-omen-qhd-gaming-monitor-32q-31-5%e2%80%b3-165hz","searchTerms":["HP Omen QHD Gaming Monitor 32q 31.5″ 165Hz"]}
+{"t":"2026-06-21T10:37:09.723Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Omen QHD Gaming Monitor 32q 165Hz","Omen QHD Gaming Monitor 32q 165Hz","HP Omen QHD Gaming"]}
+{"t":"2026-06-21T10:37:09.772Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"WD Passport USB 3.2","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
+{"t":"2026-06-21T10:37:09.811Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"Toshiba Desktop HDD","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
+{"t":"2026-06-21T10:37:09.838Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"HP Omen QHD Gaming Monitor 32q 165Hz","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
+{"t":"2026-06-21T10:37:09.893Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"Passport USB 3.2","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
+{"t":"2026-06-21T10:37:09.926Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"Desktop HDD","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
+{"t":"2026-06-21T10:37:09.952Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"Omen QHD Gaming Monitor 32q 165Hz","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
+{"t":"2026-06-21T10:37:10.066Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"HP Omen QHD Gaming","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
+{"t":"2026-06-21T10:37:11.445Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-21T10:37:13.746Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-21T10:37:13.746Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8320,"nextIndex":8400,"remaining":12315,"httpFailures":{"shpresa:403":54}}
