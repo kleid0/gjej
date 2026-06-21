@@ -1,12 +1,3 @@
-{"t":"2026-06-20T19:36:58.370Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T19:37:00.930Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T19:37:04.639Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T19:37:06.882Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T19:37:06.892Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1280,"nextIndex":1360,"remaining":19355,"httpFailures":{}}
-{"t":"2026-06-20T19:37:12.756Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1360,"batchSize":80,"total":20715}
-{"t":"2026-06-20T19:37:18.194Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T19:37:20.436Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T19:37:24.088Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
 {"t":"2026-06-20T19:37:24.114Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-feelworld-lut5-5-5-ips-3000-cd-m%c2%b2-on-camera-monitor","searchTerms":["FeelWorld LUT5 5.5″ IPS 3000 cd/m² On-Camera Monitor"]}
 {"t":"2026-06-20T19:37:24.114Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"feelworld-lut5-5-5-ips-3000-cd-m%c2%b2-on-camera-monitor"}
 {"t":"2026-06-20T19:37:25.213Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-21T11:35:05.934Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T11:35:10.224Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T11:35:10.224Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":15520,"nextIndex":15600,"remaining":5115,"httpFailures":{}}
+{"t":"2026-06-21T11:35:16.553Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":15600,"batchSize":80,"total":20715}
+{"t":"2026-06-21T11:35:20.747Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-21T11:35:25.923Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-21T11:35:31.556Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-21T11:35:37.518Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-21T11:35:41.724Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-21T11:35:47.248Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-21T11:35:52.063Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-21T11:35:52.064Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":15600,"nextIndex":15680,"remaining":5035,"httpFailures":{}}
