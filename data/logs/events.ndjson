@@ -1,12 +1,3 @@
-{"t":"2026-06-20T13:31:54.104Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T13:32:00.374Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T13:32:08.024Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T13:32:13.434Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T13:32:15.363Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T13:32:15.363Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":18000,"nextIndex":18080,"remaining":2635}
-{"t":"2026-06-20T13:32:21.535Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":18080,"batchSize":80,"total":20715}
-{"t":"2026-06-20T13:32:30.152Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T13:32:36.404Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-06-20T13:32:41.821Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
 {"t":"2026-06-20T13:32:49.776Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
 {"t":"2026-06-20T13:32:57.773Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-21T10:50:41.710Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T10:50:44.706Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T10:50:44.707Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":9920,"nextIndex":10000,"remaining":10715,"httpFailures":{}}
+{"t":"2026-06-21T10:50:51.719Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":10000,"batchSize":80,"total":20715}
+{"t":"2026-06-21T10:50:56.969Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-21T10:51:01.589Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-21T10:51:05.200Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-21T10:51:10.334Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-21T10:51:14.916Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-21T10:51:18.715Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-21T10:51:22.189Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-21T10:51:22.189Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":10000,"nextIndex":10080,"remaining":10635,"httpFailures":{"shpresa:403":2}}
