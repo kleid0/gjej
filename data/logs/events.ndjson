@@ -1,12 +1,3 @@
-{"t":"2026-06-20T19:32:02.325Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":640,"nextIndex":720,"remaining":19995,"httpFailures":{}}
-{"t":"2026-06-20T19:32:08.051Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":720,"batchSize":80,"total":20715}
-{"t":"2026-06-20T19:32:13.416Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T19:32:17.997Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T19:32:29.079Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T19:32:29.102Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-512gb-ssd-core-i7-2","searchTerms":["Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7"]}
-{"t":"2026-06-20T19:32:29.102Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-512gb-ssd-core-i7-2"}
-{"t":"2026-06-20T19:32:30.392Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T19:32:30.392Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8″-16gb-512gb-ssd-core-i7-2"}
 {"t":"2026-06-20T19:32:31.371Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-20T19:32:31.371Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
 {"t":"2026-06-20T19:32:32.488Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":11,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-21T11:21:01.308Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T11:21:05.546Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T11:21:05.547Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13840,"nextIndex":13920,"remaining":6795,"httpFailures":{}}
+{"t":"2026-06-21T11:21:11.888Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13920,"batchSize":80,"total":20715}
+{"t":"2026-06-21T11:21:15.532Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-21T11:21:20.937Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-21T11:21:25.682Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-21T11:21:29.275Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-21T11:21:33.568Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-21T11:21:38.729Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-21T11:21:42.698Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-21T11:21:42.698Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13920,"nextIndex":14000,"remaining":6715,"httpFailures":{}}
