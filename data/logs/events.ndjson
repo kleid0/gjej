@@ -1,17 +1,3 @@
-{"t":"2026-06-20T13:19:13.071Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7-7730U","score":1.3636363636363638}]}
-{"t":"2026-06-20T13:19:15.377Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T13:19:18.643Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T13:19:27.833Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T13:19:32.618Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T13:19:32.618Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16640,"nextIndex":16720,"remaining":3995}
-{"t":"2026-06-20T13:19:38.584Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16720,"batchSize":80,"total":20715}
-{"t":"2026-06-20T13:19:43.360Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T13:19:49.220Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T13:19:55.575Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T13:20:01.722Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T13:20:07.738Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T13:20:14.021Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T13:20:16.742Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T13:20:16.742Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16720,"nextIndex":16800,"remaining":3915}
 {"t":"2026-06-20T13:20:22.823Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16800,"batchSize":80,"total":20715}
 {"t":"2026-06-20T13:20:30.431Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
@@ -4998,3 +4984,17 @@
 {"t":"2026-06-21T10:41:46.211Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T10:41:49.554Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T10:41:49.554Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8880,"nextIndex":8960,"remaining":11755,"httpFailures":{}}
+{"t":"2026-06-21T10:41:56.038Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8960,"batchSize":80,"total":20715}
+{"t":"2026-06-21T10:42:01.376Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-21T10:42:07.586Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-21T10:42:13.207Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-21T10:42:18.629Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-21T10:42:22.777Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-21T10:42:28.323Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-21T10:42:28.397Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-i5-13420h-touch-o","searchTerms":["Lenovo IdeaCentre 23.8″ FHD i5-13420H Touch"]}
+{"t":"2026-06-21T10:42:28.397Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre FHD i5-13420H Touch","IdeaCentre FHD i5-13420H Touch","Lenovo IdeaCentre FHD i5-13420H"]}
+{"t":"2026-06-21T10:42:29.694Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre FHD i5-13420H Touch","items":0,"names":[]}
+{"t":"2026-06-21T10:42:30.604Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaCentre FHD i5-13420H Touch","items":0,"names":[]}
+{"t":"2026-06-21T10:42:31.017Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre FHD i5-13420H","items":0,"names":[]}
+{"t":"2026-06-21T10:42:32.616Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-21T10:42:32.616Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8960,"nextIndex":9040,"remaining":11675,"httpFailures":{}}
