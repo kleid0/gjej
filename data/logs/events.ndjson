@@ -1,12 +1,3 @@
-{"t":"2026-06-20T19:27:17.986Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ProOne 240 G10 AIO","ProOne 240 G10 AIO","HP ProOne 240 G10"]}
-{"t":"2026-06-20T19:27:18.758Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ProOne 240 G10 AIO","items":1,"names":["HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U"]}
-{"t":"2026-06-20T19:27:18.759Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U","score":3.0487804878048785}]}
-{"t":"2026-06-20T19:27:18.972Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Apple Iphone 16 Pro Max","items":17,"names":["Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","Pitaka Phone Case For Apple Iphone 16 Pro Max","Pitaka Classic Ultra-Slim Aramid Case 600D For Apple Iphone 16 Pro Max"]}
-{"t":"2026-06-20T19:27:18.973Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Phone Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Classic Ultra-Slim Aramid Case 600D For Apple Iphone 16 Pro Max","score":0}]}
-{"t":"2026-06-20T19:27:19.193Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T19:27:24.594Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T19:27:29.995Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T19:27:34.233Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
 {"t":"2026-06-20T19:27:40.355Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T19:27:40.386Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-pitaka-moment-%c2%b7-case-grip-for-apple-iphone-16-pro","searchTerms":["Pitaka Moment · Case & Grip For Apple Iphone 16 Pro"]}
 {"t":"2026-06-20T19:27:40.386Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-%c2%b7-case-grip-for-apple-iphone-16-pro"}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-21T11:13:37.666Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T11:13:40.154Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T11:13:40.155Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":12800,"nextIndex":12880,"remaining":7835,"httpFailures":{}}
+{"t":"2026-06-21T11:13:46.777Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":12880,"batchSize":80,"total":20715}
+{"t":"2026-06-21T11:13:50.076Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-21T11:13:53.128Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-21T11:13:55.825Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-21T11:13:59.444Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-21T11:14:01.900Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-21T11:14:06.054Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-21T11:14:07.871Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-21T11:14:07.871Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":12880,"nextIndex":12960,"remaining":7755,"httpFailures":{"shpresa:403":4}}
