@@ -1,44 +1,3 @@
-{"t":"2026-06-20T12:54:35.371Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T12:54:39.340Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T12:54:45.155Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T12:54:50.179Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T12:54:56.748Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T12:55:00.458Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T12:55:00.458Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13600,"nextIndex":13680,"remaining":7035}
-{"t":"2026-06-20T12:55:06.074Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13680,"batchSize":80,"total":20715}
-{"t":"2026-06-20T12:55:13.481Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T12:55:18.913Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T12:55:25.951Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T12:55:32.823Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T12:55:38.880Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T12:55:44.351Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T12:55:52.199Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T12:55:52.199Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13680,"nextIndex":13760,"remaining":6955}
-{"t":"2026-06-20T12:55:58.451Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13760,"batchSize":80,"total":20715}
-{"t":"2026-06-20T12:56:04.972Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T12:56:11.333Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T12:56:16.900Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T12:56:22.494Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T12:56:27.690Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T12:56:35.216Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T12:56:41.416Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T12:56:41.417Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13760,"nextIndex":13840,"remaining":6875}
-{"t":"2026-06-20T12:56:47.689Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13840,"batchSize":80,"total":20715}
-{"t":"2026-06-20T12:56:53.638Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T12:57:00.291Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T12:57:05.500Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T12:57:15.738Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T12:57:23.676Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T12:57:28.619Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T12:57:33.553Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T12:57:33.554Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13840,"nextIndex":13920,"remaining":6795}
-{"t":"2026-06-20T12:57:39.780Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13920,"batchSize":80,"total":20715}
-{"t":"2026-06-20T12:57:44.816Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T12:57:52.930Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T12:58:00.618Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T12:58:05.081Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T12:58:09.232Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T12:58:16.019Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T12:58:20.976Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T12:58:20.977Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13920,"nextIndex":14000,"remaining":6715}
 {"t":"2026-06-20T12:58:27.616Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14000,"batchSize":80,"total":20715}
@@ -4998,3 +4957,44 @@
 {"t":"2026-06-21T10:35:13.921Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T10:35:17.253Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T10:35:17.253Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8080,"nextIndex":8160,"remaining":12555,"httpFailures":{"shpresa:403":50}}
+{"t":"2026-06-21T10:35:23.052Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8160,"batchSize":80,"total":20715}
+{"t":"2026-06-21T10:35:23.080Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-e24q-g5-24%e2%80%b3","searchTerms":["HP Monitor E24q G5 24″"]}
+{"t":"2026-06-21T10:35:23.080Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Monitor E24q G5","Monitor E24q G5"]}
+{"t":"2026-06-21T10:35:23.102Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-thinkpad-p16s-g2-16%e2%80%b3-i7-1360p-with-sim-card","searchTerms":["Lenovo Thinkpad P16s G2 16″ i7-1360P with Sim Card"]}
+{"t":"2026-06-21T10:35:23.102Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Thinkpad P16s G2 i7-1360P with Sim Card","Thinkpad P16s G2 i7-1360P with Sim Card","Lenovo Thinkpad P16s G2"]}
+{"t":"2026-06-21T10:35:24.583Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Thinkpad P16s G2 i7-1360P with Sim Card","items":0,"names":[]}
+{"t":"2026-06-21T10:35:24.720Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E24q G5","items":0,"names":[]}
+{"t":"2026-06-21T10:35:25.351Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Thinkpad P16s G2 i7-1360P with Sim Card","items":0,"names":[]}
+{"t":"2026-06-21T10:35:25.556Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E24q G5","items":0,"names":[]}
+{"t":"2026-06-21T10:35:26.270Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Thinkpad P16s G2","items":0,"names":[]}
+{"t":"2026-06-21T10:35:28.033Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-21T10:35:28.044Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-x1-carbon-g11-14%e2%80%b3-i7-1355u","searchTerms":["Lenovo X1 Carbon G11 14″ i7-1355U"]}
+{"t":"2026-06-21T10:35:28.044Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo X1 Carbon G11 i7-1355U","X1 Carbon G11 i7-1355U","Lenovo X1 Carbon G11"]}
+{"t":"2026-06-21T10:35:28.067Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-e32k-g5-31-5%e2%80%b3-uhd","searchTerms":["HP Monitor E32K G5 31.5″ UHD"]}
+{"t":"2026-06-21T10:35:28.067Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Monitor E32K G5 UHD","Monitor E32K G5 UHD","HP Monitor E32K G5"]}
+{"t":"2026-06-21T10:35:28.529Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E32K G5 UHD","items":0,"names":[]}
+{"t":"2026-06-21T10:35:29.226Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo X1 Carbon G11 i7-1355U","items":0,"names":[]}
+{"t":"2026-06-21T10:35:29.309Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E32K G5 UHD","items":0,"names":[]}
+{"t":"2026-06-21T10:35:29.850Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"X1 Carbon G11 i7-1355U","items":0,"names":[]}
+{"t":"2026-06-21T10:35:29.940Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E32K G5","items":0,"names":[]}
+{"t":"2026-06-21T10:35:30.437Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo X1 Carbon G11","items":0,"names":[]}
+{"t":"2026-06-21T10:35:33.779Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-21T10:35:33.794Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-gaming-backpack-case-17-3%e2%80%b3","searchTerms":["Dell Gaming Backpack Case 17.3″"]}
+{"t":"2026-06-21T10:35:33.794Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell Gaming Backpack Case","Gaming Backpack Case"]}
+{"t":"2026-06-21T10:35:34.323Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Gaming Backpack Case","items":0,"names":[]}
+{"t":"2026-06-21T10:35:34.846Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Gaming Backpack Case","items":0,"names":[]}
+{"t":"2026-06-21T10:35:38.685Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-21T10:35:38.699Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-ecoloop-pro-backpack-case-15-6%e2%80%b3","searchTerms":["Dell EcoLoop Pro Backpack Case 15.6″"]}
+{"t":"2026-06-21T10:35:38.699Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell EcoLoop Pro Backpack Case","EcoLoop Pro Backpack Case","Dell EcoLoop Pro Backpack"]}
+{"t":"2026-06-21T10:35:39.743Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell EcoLoop Pro Backpack Case","items":0,"names":[]}
+{"t":"2026-06-21T10:35:40.254Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"EcoLoop Pro Backpack Case","items":0,"names":[]}
+{"t":"2026-06-21T10:35:40.946Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell EcoLoop Pro Backpack","items":0,"names":[]}
+{"t":"2026-06-21T10:35:43.302Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-21T10:35:48.267Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-21T10:35:48.294Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-optiplex-7420-23-8%e2%80%b3-i5-14500t","searchTerms":["DELL OptiPlex 7420 23.8″ i5-14500T"]}
+{"t":"2026-06-21T10:35:48.294Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL OptiPlex 7420 i5-14500T","OptiPlex 7420 i5-14500T"]}
+{"t":"2026-06-21T10:35:49.092Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL OptiPlex 7420 i5-14500T","items":0,"names":[]}
+{"t":"2026-06-21T10:35:50.342Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"OptiPlex 7420 i5-14500T","items":0,"names":[]}
+{"t":"2026-06-21T10:35:54.361Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-21T10:35:57.606Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-21T10:35:57.606Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8160,"nextIndex":8240,"remaining":12475,"httpFailures":{}}
