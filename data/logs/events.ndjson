@@ -1,4 +1,3 @@
-{"t":"2026-06-20T11:57:32.107Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T11:57:32.108Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":6560,"nextIndex":6640,"remaining":14075}
 {"t":"2026-06-20T11:57:38.455Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":6640,"batchSize":80,"total":20715}
 {"t":"2026-06-20T11:57:42.289Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
@@ -4998,3 +4997,4 @@
 {"t":"2026-06-20T22:17:19.647Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T22:17:22.579Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":3,"refreshed":75,"errors":0}
 {"t":"2026-06-20T22:17:22.579Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":75,"errors":0,"startIndex":20640,"nextIndex":20715,"remaining":0,"httpFailures":{}}
+{"t":"2026-06-21T07:30:37.991Z","level":"info","scope":"cron/discover","msg":"run complete","discovered":18186,"total":22944,"fused":776,"discontinued":4342}
