@@ -1,30 +1,3 @@
-{"t":"2026-06-20T12:50:08.349Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T12:50:11.073Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T12:50:15.090Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T12:50:20.216Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T12:50:26.116Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T12:50:31.736Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T12:50:34.457Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T12:50:34.458Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13120,"nextIndex":13200,"remaining":7515}
-{"t":"2026-06-20T12:50:41.234Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13200,"batchSize":80,"total":20715}
-{"t":"2026-06-20T12:50:46.276Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T12:50:52.684Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T12:50:59.646Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T12:51:04.586Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T12:51:12.791Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T12:51:18.893Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T12:51:23.512Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T12:51:23.512Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13200,"nextIndex":13280,"remaining":7435}
-{"t":"2026-06-20T12:51:29.007Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13280,"batchSize":80,"total":20715}
-{"t":"2026-06-20T12:51:36.937Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T12:51:41.178Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T12:51:45.272Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T12:51:49.386Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T12:51:53.935Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T12:51:57.774Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T12:52:01.716Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T12:52:01.716Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13280,"nextIndex":13360,"remaining":7355}
-{"t":"2026-06-20T12:52:08.090Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13360,"batchSize":80,"total":20715}
 {"t":"2026-06-20T12:52:14.173Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
 {"t":"2026-06-20T12:52:18.174Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-06-20T12:52:22.253Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
@@ -4998,3 +4971,30 @@
 {"t":"2026-06-21T10:33:11.954Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T10:33:15.672Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T10:33:15.673Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7840,"nextIndex":7920,"remaining":12795,"httpFailures":{"shpresa:403":49}}
+{"t":"2026-06-21T10:33:21.869Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7920,"batchSize":80,"total":20715}
+{"t":"2026-06-21T10:33:27.846Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-21T10:33:33.753Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-21T10:33:33.788Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-passport-2-5%e2%80%b3-usb-3-2-6tb","searchTerms":["WD Passport 2.5″ USB 3.2 6TB"]}
+{"t":"2026-06-21T10:33:33.788Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Passport USB 3.2","Passport USB 3.2"]}
+{"t":"2026-06-21T10:33:33.793Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-thinkpad-p14s-g4-14%e2%80%b3-2-8k-oled-i5-1340p","searchTerms":["Lenovo ThinkPad P14s G4 14″ 2.8K OLED i5-1340P"]}
+{"t":"2026-06-21T10:33:33.793Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo ThinkPad P14s G4 2.8K OLED i5-1340P","ThinkPad P14s G4 2.8K OLED i5-1340P","Lenovo ThinkPad P14s G4"]}
+{"t":"2026-06-21T10:33:35.047Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad P14s G4 2.8K OLED i5-1340P","items":0,"names":[]}
+{"t":"2026-06-21T10:33:35.047Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Passport USB 3.2","items":0,"names":[]}
+{"t":"2026-06-21T10:33:36.589Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ThinkPad P14s G4 2.8K OLED i5-1340P","items":0,"names":[]}
+{"t":"2026-06-21T10:33:36.817Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Passport USB 3.2","items":0,"names":[]}
+{"t":"2026-06-21T10:33:38.058Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad P14s G4","items":0,"names":[]}
+{"t":"2026-06-21T10:33:39.877Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-21T10:33:39.920Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-24-cr1012na-23-8%e2%80%b3-intel-core-ultra-5-125u","searchTerms":["HP 24-cr1012na 23.8″ Intel® Core™ Ultra 5 125U"]}
+{"t":"2026-06-21T10:33:39.920Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP 24-cr1012na Intel Core Ultra 5 125U","24-cr1012na Intel Core Ultra 5 125U","HP 24-cr1012na Intel Core"]}
+{"t":"2026-06-21T10:33:41.005Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP 24-cr1012na Intel Core Ultra 5 125U","items":0,"names":[]}
+{"t":"2026-06-21T10:33:41.908Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"24-cr1012na Intel Core Ultra 5 125U","items":0,"names":[]}
+{"t":"2026-06-21T10:33:42.548Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP 24-cr1012na Intel Core","items":0,"names":[]}
+{"t":"2026-06-21T10:33:44.718Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-21T10:33:50.090Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-21T10:33:50.105Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-benq-monitor-designvue-designer-32%e2%80%b3-uhd","searchTerms":["BenQ Monitor DesignVue Designer 32″ UHD"]}
+{"t":"2026-06-21T10:33:50.105Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["BenQ Monitor DesignVue Designer UHD","BenQ Monitor DesignVue Designer"]}
+{"t":"2026-06-21T10:33:50.702Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"BenQ Monitor DesignVue Designer UHD","items":0,"names":[]}
+{"t":"2026-06-21T10:33:51.104Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"BenQ Monitor DesignVue Designer","items":0,"names":[]}
+{"t":"2026-06-21T10:33:54.965Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-21T10:33:58.246Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-21T10:33:58.246Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7920,"nextIndex":8000,"remaining":12715,"httpFailures":{}}
