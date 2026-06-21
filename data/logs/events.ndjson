@@ -1,12 +1,3 @@
-{"t":"2026-06-20T12:12:53.491Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8560,"nextIndex":8640,"remaining":12075}
-{"t":"2026-06-20T12:12:59.666Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8640,"batchSize":80,"total":20715}
-{"t":"2026-06-20T12:13:03.477Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T12:13:03.528Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-xd-design-flex-gym-backpackcase-15-6%e2%80%b3","searchTerms":["XD Design Flex Gym BackpackCase 15.6″"]}
-{"t":"2026-06-20T12:13:03.528Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["XD Design Flex Gym BackpackCase","XD Design Flex Gym"]}
-{"t":"2026-06-20T12:13:05.211Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"XD Design Flex Gym BackpackCase","items":0,"names":[]}
-{"t":"2026-06-20T12:13:05.755Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"XD Design Flex Gym","items":0,"names":[]}
-{"t":"2026-06-20T12:13:08.254Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T12:13:08.262Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-creator-backpack-16%e2%80%b3","searchTerms":["HP Creator Backpack 16″"]}
 {"t":"2026-06-20T12:13:08.262Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Creator Backpack","Creator Backpack"]}
 {"t":"2026-06-20T12:13:09.735Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Creator Backpack","items":0,"names":[]}
 {"t":"2026-06-20T12:13:10.801Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Creator Backpack","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-21T09:49:55.465Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T09:50:00.736Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T09:50:00.736Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2320,"nextIndex":2400,"remaining":18315,"httpFailures":{}}
+{"t":"2026-06-21T09:50:07.228Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2400,"batchSize":80,"total":20715}
+{"t":"2026-06-21T09:50:14.381Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-21T09:50:18.749Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-21T09:50:26.192Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-21T09:50:30.701Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-21T09:50:37.924Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-21T09:50:44.402Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-21T09:50:48.543Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-21T09:50:48.543Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2400,"nextIndex":2480,"remaining":18235,"httpFailures":{}}
