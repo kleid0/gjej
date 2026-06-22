@@ -1,41 +1,3 @@
-{"t":"2026-06-20T21:41:35.706Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Sony PS5 Metal Gear Solid Δ: Snake Eater","score":8}]}
-{"t":"2026-06-20T21:41:36.358Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:41:38.397Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T21:41:40.640Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:41:40.641Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16480,"nextIndex":16560,"remaining":4155,"httpFailures":{}}
-{"t":"2026-06-20T21:41:46.792Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16560,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:41:49.721Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:41:52.375Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T21:41:55.477Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T21:41:58.599Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T21:42:01.598Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:42:03.835Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T21:42:06.798Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:42:06.798Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16560,"nextIndex":16640,"remaining":4075,"httpFailures":{}}
-{"t":"2026-06-20T21:42:13.453Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16640,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:42:17.386Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:42:20.619Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T21:42:24.675Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T21:42:24.695Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-pc-lenovo-aio-ideacentre-3-24alc6-23-8%e2%80%b3-16gb-512gb-ssd-amd-ryzen-7-2","searchTerms":["PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7"]}
-{"t":"2026-06-20T21:42:24.695Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pc-lenovo-aio-ideacentre-3-24alc6-23-8%e2%80%b3-16gb-512gb-ssd-amd-ryzen-7-2"}
-{"t":"2026-06-20T21:42:25.878Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T21:42:25.878Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pc-lenovo-aio-ideacentre-3-24alc6-23-8″-16gb-512gb-ssd-amd-ryzen-7-2"}
-{"t":"2026-06-20T21:42:26.414Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T21:42:26.414Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre 3","Lenovo AIO IdeaCentre","PC Lenovo AIO IdeaCentre 3","PC Lenovo AIO IdeaCentre"]}
-{"t":"2026-06-20T21:42:27.052Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre 3","items":1,"names":["PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7-7730U"]}
-{"t":"2026-06-20T21:42:27.052Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7-7730U","score":1.3636363636363638}]}
-{"t":"2026-06-20T21:42:29.331Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T21:42:32.876Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:42:41.309Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T21:42:45.456Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:42:45.456Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16640,"nextIndex":16720,"remaining":3995,"httpFailures":{}}
-{"t":"2026-06-20T21:42:51.256Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16720,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:42:55.822Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:43:00.878Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T21:43:08.547Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T21:43:13.854Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T21:43:18.578Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:43:24.914Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T21:43:27.892Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-20T21:43:27.893Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16720,"nextIndex":16800,"remaining":3915,"httpFailures":{}}
 {"t":"2026-06-20T21:43:33.881Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16800,"batchSize":80,"total":20715}
@@ -4998,3 +4960,41 @@
 {"t":"2026-06-22T12:48:56.689Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T12:48:58.961Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T12:48:58.961Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8800,"nextIndex":8880,"remaining":11835,"httpFailures":{"shpresa:403":13}}
+{"t":"2026-06-22T12:49:06.875Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8880,"batchSize":80,"total":20715}
+{"t":"2026-06-22T12:49:12.439Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T12:49:12.543Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-black-hdd-2-5%e2%80%b3-1tb","searchTerms":["WD Black HDD 2.5″ 1TB"]}
+{"t":"2026-06-22T12:49:12.543Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Black HDD","Black HDD"]}
+{"t":"2026-06-22T12:49:12.580Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-black-hdd-2-5%e2%80%b3-500-gb","searchTerms":["WD Black HDD 2.5″ 500 GB"]}
+{"t":"2026-06-22T12:49:12.581Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Black HDD","Black HDD"]}
+{"t":"2026-06-22T12:49:12.945Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Black HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:13.841Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Black HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:13.940Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Black HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:14.243Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Black HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:16.573Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T12:49:16.622Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-purple-pro-hdd-3-5%e2%80%b3-8tb","searchTerms":["WD Purple Pro HDD 3.5″ 8TB"]}
+{"t":"2026-06-22T12:49:16.622Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Purple Pro HDD","Purple Pro HDD"]}
+{"t":"2026-06-22T12:49:17.628Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Purple Pro HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:18.807Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Purple Pro HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:21.674Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T12:49:21.690Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-pro-hdd-3-5%e2%80%b3-22tb","searchTerms":["WD Red Pro HDD 3.5″ 22TB"]}
+{"t":"2026-06-22T12:49:21.690Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Pro HDD","Red Pro HDD"]}
+{"t":"2026-06-22T12:49:21.695Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-plus-hdd-3-5%e2%80%b3-2tb","searchTerms":["WD Red Plus HDD 3.5″ 2TB"]}
+{"t":"2026-06-22T12:49:21.695Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
+{"t":"2026-06-22T12:49:21.700Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-pro-hdd-3-5%e2%80%b3-20tb","searchTerms":["WD Red Pro HDD 3.5″ 20TB"]}
+{"t":"2026-06-22T12:49:21.700Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Pro HDD","Red Pro HDD"]}
+{"t":"2026-06-22T12:49:21.705Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-hdd-ultrastar-dc-hc310-3-5%e2%80%b3-6tb","searchTerms":["WD HDD Ultrastar DC HC310 3.5″ 6TB"]}
+{"t":"2026-06-22T12:49:21.705Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD HDD Ultrastar DC HC310","HDD Ultrastar DC HC310","WD HDD Ultrastar DC"]}
+{"t":"2026-06-22T12:49:22.045Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC HC310","items":0,"names":[]}
+{"t":"2026-06-22T12:49:22.523Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Pro HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:22.649Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Pro HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:22.792Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:22.806Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HDD Ultrastar DC HC310","items":0,"names":[]}
+{"t":"2026-06-22T12:49:23.084Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Pro HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:23.347Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Pro HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:23.591Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC","items":0,"names":[]}
+{"t":"2026-06-22T12:49:23.727Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:49:26.167Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T12:49:30.156Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T12:49:34.460Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T12:49:38.046Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T12:49:38.046Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8880,"nextIndex":8960,"remaining":11755,"httpFailures":{}}
