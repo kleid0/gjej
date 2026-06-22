@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T12:49:37.891Z",
+  "updatedAt": "2026-06-22T12:50:27.929Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -390,12 +390,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300022736/Procesor-AMD-Ryzen-9-5950X-3.4-GHz-64-MB-hiri",
       "storeProductName": "Procesor AMD Ryzen 9 5950X, 3.4 GHz, 64 MB, hiri",
-      "catalogueProductId": "pcstore-amd-processor-ryzen-9-9900x3d",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-9-9950x3d",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:33.825Z",
-      "updatedAt": "2026-06-22T12:44:45.700Z"
+      "updatedAt": "2026-06-22T12:50:16.866Z"
     },
     "foleja:/ACN-300041915/Procesor-AMD-Ryzen-7-7800X3D": {
       "storeId": "foleja",
@@ -5241,12 +5241,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PRINTER-HP-LASERJET-M111A-PI0549",
       "storeProductName": "PRINTER HP LASERJET M111A",
-      "catalogueProductId": "globe-75487",
+      "catalogueProductId": "pcstore-hp-laserjet-m111a",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-06-22T12:28:43.042Z"
+      "updatedAt": "2026-06-22T12:50:27.929Z"
     },
     "foleja:/ACN-300092365/Printer-HP-LaserJet-MFP-M140w-i-bardhe-e-zi": {
       "storeId": "foleja",
@@ -8728,12 +8728,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300311090/Kase-All-in-One-Lenovo-IdeaCentre-AIO-24IRH9-Intel-Core-i5-13420H-16-GB-RAM-1-TB-SSD-23.8-FHD-Gri",
       "storeProductName": "Kasë All-in-One Lenovo IdeaCentre AIO 24IRH9, Intel Core i5-13420H, 16 GB RAM, 1 TB SSD, 23.8\" FHD, Gri",
-      "catalogueProductId": "pcstore-lenovo-ideacentre-pc-core-i7-13620h-32-1tb",
+      "catalogueProductId": "pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-i5-13420h-touch-o",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:49.308Z",
-      "updatedAt": "2026-06-22T12:45:42.592Z"
+      "updatedAt": "2026-06-22T12:50:27.929Z"
     },
     "foleja:/KST-200008992/Kase-Thermaltake-View-380-TG-ARGB-Midi-Tower-e-zeze": {
       "storeId": "foleja",
@@ -8827,12 +8827,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200005304/Pllake-ame-Gigabyte-B550M-AORUS-ELITE-mATX",
       "storeProductName": "Pllakë amë Gigabyte B550M AORUS ELITE mATX",
-      "catalogueProductId": "pcstore-psu-gigabyte-aorus-elite-p1000w-pg5-ice",
+      "catalogueProductId": "pcstore-psu-gigabyte-aorus-elite-850w-pg5",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:58.520Z",
-      "updatedAt": "2026-06-22T12:44:31.985Z"
+      "updatedAt": "2026-06-22T12:50:03.483Z"
     },
     "foleja:/KST-200058611/Tablet-Microsoft-Surface-Pro-10-5G-Ultra5-8GB-256GB-13-inc-Platinum": {
       "storeId": "foleja",
@@ -9421,12 +9421,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200016849/SSD-Crucial-E100-1TB-NVMe-PCIe-4.0",
       "storeProductName": "SSD Crucial E100 1TB NVMe PCIe 4.0",
-      "catalogueProductId": "pcstore-crucial-e100-ssd-480gb-ssd-nvme",
+      "catalogueProductId": "pcstore-crucial-e100-ssd-1tb-nvme",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:21.930Z",
-      "updatedAt": "2026-06-22T12:43:07.082Z"
+      "updatedAt": "2026-06-22T12:50:16.866Z"
     },
     "neptun:/categories/MONITOR-HP-SERIES-5-524SW-94C21E9-MO0873": {
       "storeId": "neptun",
@@ -9740,12 +9740,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/SSD-SAMSUNG-990-EVO-PLUS-1TB-HD00198",
       "storeProductName": "SSD SAMSUNG 990 EVO PLUS 1TB",
-      "catalogueProductId": "pcstore-samsung-990-evo-plus-ssd-4tb-nvme",
+      "catalogueProductId": "pcstore-samsung-990-evo-plus-ssd-1tb-nvme",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:52:18.957Z",
-      "updatedAt": "2026-06-22T12:45:06.735Z"
+      "updatedAt": "2026-06-22T12:50:21.310Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-PRO-5-16IAH10-LP2062": {
       "storeId": "neptun",
@@ -11681,7 +11681,7 @@
       "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-30T16:57:53.101Z",
-      "updatedAt": "2026-06-21T10:42:01.185Z"
+      "updatedAt": "2026-06-22T12:49:51.508Z"
     },
     "globe:205822": {
       "storeId": "globe",
@@ -11692,7 +11692,7 @@
       "confidence": 60,
       "status": "pending",
       "createdAt": "2026-04-30T16:57:53.101Z",
-      "updatedAt": "2026-06-21T10:42:01.185Z"
+      "updatedAt": "2026-06-22T12:49:51.508Z"
     },
     "foleja:/ACN-300173286/Procesor-Intel-Core-Ultra-5-245KF-14-berthama-deri-ne-5.2-GHz": {
       "storeId": "foleja",
@@ -11703,7 +11703,7 @@
       "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-30T16:57:53.101Z",
-      "updatedAt": "2026-06-21T10:42:01.185Z"
+      "updatedAt": "2026-06-22T12:49:51.508Z"
     },
     "foleja:/ACN-300041864/Pllake-ame-MSI-PRO-H610M-E-DDR4-Intel-H610-micro-ATX-GA-1700": {
       "storeId": "foleja",
@@ -11731,12 +11731,12 @@
       "storeId": "foleja",
       "storeProductId": "/AXR-200005326/Set-tastiere-dhe-Maus-HP-230-18H24AA-ABD-wireless-GER-layout-madhesi-standarde-e-zeze",
       "storeProductName": "Set tastierë dhe Maus HP 230 18H24AA#ABD wireless GER layout madhësi standarde, e zezë",
-      "catalogueProductId": "albagame-bundle-hp-230-wireless-keyboard-and-mouse-black-18h24aa",
+      "catalogueProductId": "pcstore-hp-wireless-keyboard-and-mouse-230-2",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:07.695Z",
-      "updatedAt": "2026-06-21T11:31:19.196Z"
+      "updatedAt": "2026-06-22T12:50:13.197Z"
     },
     "foleja:/KST-200004948/Tastiere-wireless-Logitech-MX-Keys-Mini-QWERTZ-LED-Grafit": {
       "storeId": "foleja",
@@ -11758,7 +11758,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:11.519Z",
-      "updatedAt": "2026-06-21T10:42:22.633Z"
+      "updatedAt": "2026-06-22T12:50:16.866Z"
     },
     "foleja:/KST-200005480/Procesor-Intel-Core-i3-14100F-Intel-Core-i3-LGA-1700-64-bit-14th-gen": {
       "storeId": "foleja",
@@ -11769,7 +11769,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:11.519Z",
-      "updatedAt": "2026-06-21T10:42:22.633Z"
+      "updatedAt": "2026-06-22T12:50:16.866Z"
     },
     "foleja:/ACN-300083283/Procesor-Intel-Core-i9-14900KS": {
       "storeId": "foleja",
@@ -11824,7 +11824,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:11.519Z",
-      "updatedAt": "2026-06-21T10:42:28.153Z"
+      "updatedAt": "2026-06-22T12:50:21.310Z"
     },
     "shpresa:11010": {
       "storeId": "shpresa",
@@ -11846,7 +11846,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:16.990Z",
-      "updatedAt": "2026-06-21T10:42:32.480Z"
+      "updatedAt": "2026-06-22T12:50:27.929Z"
     },
     "foleja:/KOM-200212837/Ploter-HP-DesignJet-T630-36-in-i-zi": {
       "storeId": "foleja",
@@ -66043,7 +66043,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-05-07T09:44:44.190Z",
-      "updatedAt": "2026-06-21T10:42:22.633Z"
+      "updatedAt": "2026-06-22T12:50:16.866Z"
     },
     "foleja:/KST-200016687/Maus-Logitech-G502-X-PLUS-wireless-RGB-25600-DPI-i-bardhe": {
       "storeId": "foleja",
@@ -72715,12 +72715,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300022747/Procesor-AMD-Ryzen-7-7700X-4.5GHz-32MB",
       "storeProductName": "Procesor AMD Ryzen 7 7700X, 4.5GHz, 32MB",
-      "catalogueProductId": "pcstore-amd-processor-ryzen-7-9700x",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-7-7700x",
       "matchMethod": "name_match",
-      "confidence": 67,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-06-20T08:44:18.848Z",
-      "updatedAt": "2026-06-22T12:44:45.700Z"
+      "updatedAt": "2026-06-22T12:50:16.866Z"
     },
     "foleja:/ACN-300282881/Pllake-ame-MSI-B850-GAMING-PLUS-WIFI-PZ-Socket-AM5-256-GB-e-bardhe": {
       "storeId": "foleja",
@@ -74959,12 +74959,12 @@
       "storeId": "foleja",
       "storeProductId": "/ABS-200001556/Pllake-ame-ASUS-ROG-Strix-B550-F-Gaming-ATX-AM4-DDR4",
       "storeProductName": "Pllakë amë ASUS ROG Strix B550-F Gaming, ATX, AM4, DDR4",
-      "catalogueProductId": "pcstore-asus-motherboard-rog-strix-x870-f-wi-fi-am5",
+      "catalogueProductId": "pcstore-asus-motherboard-rog-strix-z890-a-ddr5-wifi7-socket-1851",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-06-20T09:36:09.924Z",
-      "updatedAt": "2026-06-22T12:43:02.873Z"
+      "updatedAt": "2026-06-22T12:49:51.508Z"
     },
     "foleja:/KST-200050174/RAM-Memorje-G.Skill-Trident-Z5-RGB-64GB-2x32GB-DDR5-6400MHz-bardhe": {
       "storeId": "foleja",
@@ -75976,7 +75976,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T09:48:29.916Z",
-      "updatedAt": "2026-06-21T10:42:22.633Z"
+      "updatedAt": "2026-06-22T12:50:16.866Z"
     },
     "foleja:/KST-200054521/Altoparlant-Razer-Leviathan-V2-X-Bluetooth-5.0-i-zi": {
       "storeId": "foleja",
@@ -83170,7 +83170,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-21T10:42:07.337Z",
-      "updatedAt": "2026-06-21T10:42:07.337Z"
+      "updatedAt": "2026-06-22T12:49:56.559Z"
     },
     "foleja:/ABS-200001126/Pllake-ame-ASUS-PRIME-Z790-P-ATX-LGA1700-DDR5": {
       "storeId": "foleja",
@@ -83181,7 +83181,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-06-21T10:42:12.897Z",
-      "updatedAt": "2026-06-21T10:42:12.897Z"
+      "updatedAt": "2026-06-22T12:50:03.483Z"
     },
     "foleja:/ABS-200000922/Tastiere-LOGITECH-MX-Keys-Mini-Bluetooth-me-ndricim-US-INT-L-Pale-Grey": {
       "storeId": "foleja",
@@ -83192,7 +83192,7 @@
       "confidence": 83,
       "status": "pending",
       "createdAt": "2026-06-21T10:42:18.335Z",
-      "updatedAt": "2026-06-21T10:42:18.335Z"
+      "updatedAt": "2026-06-22T12:50:13.197Z"
     },
     "shpresa:176256": {
       "storeId": "shpresa",
@@ -83242,12 +83242,12 @@
       "storeId": "foleja",
       "storeProductId": "/ABS-200000780/CPU-Intel-Core-i5-14400F-10-berthama-16-fije-deri-4.7GHz-20MB-Cache-LGA1700-Box",
       "storeProductName": "CPU Intel Core i5-14400F, 10 bërthama/16 fije, deri 4.7GHz, 20MB Cache, LGA1700, Box",
-      "catalogueProductId": "shpresa-processor-intel-core-i5-14400f",
+      "catalogueProductId": "pcstore-intel-processor-core-i5-14400f",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-06-22T11:33:50.967Z",
-      "updatedAt": "2026-06-22T11:33:50.967Z"
+      "updatedAt": "2026-06-22T12:50:16.866Z"
     },
     "foleja:/ERG-200005366/Celular-POCO-M8-8-512GB-6.77-5G-Silver": {
       "storeId": "foleja",

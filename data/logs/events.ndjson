@@ -1,17 +1,3 @@
-{"t":"2026-06-20T21:43:27.892Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:43:27.893Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16720,"nextIndex":16800,"remaining":3915,"httpFailures":{}}
-{"t":"2026-06-20T21:43:33.881Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16800,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:43:39.778Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:43:45.560Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T21:43:53.754Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T21:44:00.333Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T21:44:06.478Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:44:13.532Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T21:44:18.233Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:44:18.234Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16800,"nextIndex":16880,"remaining":3835,"httpFailures":{}}
-{"t":"2026-06-20T21:44:24.891Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16880,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:44:30.673Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:44:38.393Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-06-20T21:44:45.137Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
 {"t":"2026-06-20T21:44:51.737Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
 {"t":"2026-06-20T21:44:57.378Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
@@ -4998,3 +4984,17 @@
 {"t":"2026-06-22T12:49:34.460Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T12:49:38.046Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T12:49:38.046Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8880,"nextIndex":8960,"remaining":11755,"httpFailures":{}}
+{"t":"2026-06-22T12:49:45.620Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8960,"batchSize":80,"total":20715}
+{"t":"2026-06-22T12:49:51.666Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T12:49:56.934Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T12:50:03.740Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T12:50:13.523Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T12:50:17.056Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T12:50:21.646Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T12:50:21.683Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-i5-13420h-touch-o","searchTerms":["Lenovo IdeaCentre 23.8″ FHD i5-13420H Touch"]}
+{"t":"2026-06-22T12:50:21.683Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre FHD i5-13420H Touch","IdeaCentre FHD i5-13420H Touch","Lenovo IdeaCentre FHD i5-13420H"]}
+{"t":"2026-06-22T12:50:22.086Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre FHD i5-13420H Touch","items":0,"names":[]}
+{"t":"2026-06-22T12:50:23.413Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaCentre FHD i5-13420H Touch","items":0,"names":[]}
+{"t":"2026-06-22T12:50:23.746Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre FHD i5-13420H","items":0,"names":[]}
+{"t":"2026-06-22T12:50:28.171Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T12:50:28.172Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8960,"nextIndex":9040,"remaining":11675,"httpFailures":{}}
