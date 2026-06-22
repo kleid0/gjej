@@ -198,3 +198,21 @@ from.
 
 ## Verification
 - [ ] Final lint + typecheck + test + build pass
+
+# Pause cron schedules to stop Fluid Active CPU burn (2026-06-22)
+Branch: `claude/vigilant-lamport-eb106n`. Trigger: Vercel Fluid Active CPU at
+3h18m / 4h — user said "shut it down we can't hit the fluid cpu limit".
+
+Root cause: 5 scheduled GitHub Actions hit Vercel function endpoints daily.
+Biggest = refresh-prices (walks whole catalogue, up to 400 × 300s fn calls/day).
+
+## Done
+- [x] Commented out `schedule:` in refresh-prices / discover / trends /
+      check-pcstore / store-coverage-report. Kept workflow_dispatch + push
+      (on-demand) triggers so nothing auto-fires. Site stays live.
+- [x] Validated all workflow YAML still parses; schedule_active=False on all 5.
+
+## IMPORTANT — not yet effective on production
+GitHub only runs scheduled workflows from the DEFAULT branch (main). These
+edits are on a feature branch, so the live crons keep firing until this lands
+on `main`. Needs merge to main (PR or direct push w/ permission) to take effect.

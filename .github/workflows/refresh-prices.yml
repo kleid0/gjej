@@ -27,8 +27,12 @@ on:
         description: "Index to resume from (default 0)"
         required: false
         default: "0"
-  schedule:
-    - cron: "0 6 * * *"
+  # schedule PAUSED 2026-06-22 — disabled to stop Fluid Active CPU burn
+  # (nearing the Vercel limit). This catalogue walk is by far the biggest
+  # CPU consumer. Re-enable by uncommenting. Manual runs still work via the
+  # workflow_dispatch button above.
+  # schedule:
+  #   - cron: "0 6 * * *"
   push:
     branches: [main]
     paths:

@@ -30,11 +30,12 @@ on:
         description: "Site base URL"
         required: false
         default: "https://gjej.vercel.app"
-  schedule:
-    # 08:30 UTC daily — Vercel price-refresh cron fires at 06:00 UTC and the
-    # self-chaining loop normally finishes the whole catalogue inside 90 min,
-    # so 2.5 h gives comfortable headroom on slow days.
-    - cron: "30 8 * * *"
+  # schedule PAUSED 2026-06-22 — disabled to stop Fluid Active CPU burn
+  # (nearing the Vercel limit). Re-enable by uncommenting. Manual runs
+  # still work via the workflow_dispatch button above.
+  # schedule:
+  #   # 08:30 UTC daily — runs after the price-refresh walk.
+  #   - cron: "30 8 * * *"
   push:
     branches: [main]
     # Sentinel file used as an on-demand trigger: any commit that updates
