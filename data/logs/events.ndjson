@@ -1,12 +1,3 @@
-{"t":"2026-06-20T20:38:36.012Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"B510 Backpack Case","items":0,"names":[]}
-{"t":"2026-06-20T20:38:36.191Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Prelude Backpack Case","items":0,"names":[]}
-{"t":"2026-06-20T20:38:36.543Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Port Designs CHICAGO EVO","items":0,"names":[]}
-{"t":"2026-06-20T20:38:38.842Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T20:38:42.072Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T20:38:42.072Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8640,"nextIndex":8720,"remaining":11995,"httpFailures":{}}
-{"t":"2026-06-20T20:38:48.279Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8720,"batchSize":80,"total":20715}
-{"t":"2026-06-20T20:38:53.212Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T20:38:53.231Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-seagate-ironwolf-hdd-3-5%e2%80%b3-4tb","searchTerms":["Seagate IronWolf HDD 3.5″ 4TB"]}
 {"t":"2026-06-20T20:38:53.231Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Seagate IronWolf HDD","IronWolf HDD"]}
 {"t":"2026-06-20T20:38:53.239Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-hdd-ultrastar-dc-hc520-3-5%e2%80%b3-12tb","searchTerms":["WD HDD Ultrastar DC HC520 3.5″ 12TB"]}
 {"t":"2026-06-20T20:38:53.239Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD HDD Ultrastar DC HC520","HDD Ultrastar DC HC520","WD HDD Ultrastar DC"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-22T11:57:39.131Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T11:57:44.209Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T11:57:44.209Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2880,"nextIndex":2960,"remaining":17755,"httpFailures":{}}
+{"t":"2026-06-22T11:57:52.670Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2960,"batchSize":80,"total":20715}
+{"t":"2026-06-22T11:57:58.424Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T11:58:02.154Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T11:58:06.666Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T11:58:13.688Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T11:58:18.778Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T11:58:25.163Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T11:58:29.934Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T11:58:29.934Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2960,"nextIndex":3040,"remaining":17675,"httpFailures":{}}
