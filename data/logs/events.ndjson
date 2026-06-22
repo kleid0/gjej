@@ -1,39 +1,3 @@
-{"t":"2026-06-20T21:21:43.030Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T21:21:48.816Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T21:21:52.829Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T21:21:59.035Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:22:03.786Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T21:22:06.306Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:22:06.307Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14080,"nextIndex":14160,"remaining":6555,"httpFailures":{}}
-{"t":"2026-06-20T21:22:12.547Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14160,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:22:17.906Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:22:23.727Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T21:22:30.483Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T21:22:36.533Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T21:22:41.049Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:22:45.891Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T21:22:49.608Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:22:49.609Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14160,"nextIndex":14240,"remaining":6475,"httpFailures":{}}
-{"t":"2026-06-20T21:22:56.276Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14240,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:23:02.103Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:23:06.428Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T21:23:12.076Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T21:23:17.923Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T21:23:23.868Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:23:29.411Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T21:23:33.011Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:23:33.012Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14240,"nextIndex":14320,"remaining":6395,"httpFailures":{}}
-{"t":"2026-06-20T21:23:39.169Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14320,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:23:44.653Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:23:50.270Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T21:23:55.070Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T21:24:00.173Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T21:24:06.089Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:24:11.128Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T21:24:14.692Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:24:14.693Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14320,"nextIndex":14400,"remaining":6315,"httpFailures":{}}
-{"t":"2026-06-20T21:24:21.055Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14400,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:24:27.040Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
 {"t":"2026-06-20T21:24:27.041Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-aio-27-cr1024na-27%e2%80%b3-16gb-512gb-ssd-ultra-5","searchTerms":["HP AIO 27-CR1024NA, 27″, 16GB, 512GB SSD, Ultra 5"]}
 {"t":"2026-06-20T21:24:27.042Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-27-cr1024na-27%e2%80%b3-16gb-512gb-ssd-ultra-5"}
 {"t":"2026-06-20T21:24:27.849Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
@@ -4998,3 +4962,39 @@
 {"t":"2026-06-22T12:43:46.741Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T12:43:50.091Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T12:43:50.092Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8160,"nextIndex":8240,"remaining":12475,"httpFailures":{}}
+{"t":"2026-06-22T12:43:58.437Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8240,"batchSize":80,"total":20715}
+{"t":"2026-06-22T12:43:58.481Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-eliteone-870-g9-27%e2%80%b3-i7-14700","searchTerms":["HP EliteOne 870 G9 27″ i7-14700"]}
+{"t":"2026-06-22T12:43:58.481Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP EliteOne 870 G9 i7-14700","EliteOne 870 G9 i7-14700","HP EliteOne 870 G9"]}
+{"t":"2026-06-22T12:43:59.962Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9 i7-14700","items":0,"names":[]}
+{"t":"2026-06-22T12:44:00.366Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"EliteOne 870 G9 i7-14700","items":0,"names":[]}
+{"t":"2026-06-22T12:44:00.839Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9","items":0,"names":[]}
+{"t":"2026-06-22T12:44:04.489Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T12:44:04.498Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-casual-backpack-b210-15-6%e2%80%b3","searchTerms":["Lenovo Casual Backpack B210 15.6″"]}
+{"t":"2026-06-22T12:44:04.498Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Casual Backpack B210","Casual Backpack B210"]}
+{"t":"2026-06-22T12:44:04.502Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-simple-toploader-t1050-15-6%e2%80%b3","searchTerms":["Lenovo Simple Toploader T1050 15.6″"]}
+{"t":"2026-06-22T12:44:04.502Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Simple Toploader T1050","Simple Toploader T1050"]}
+{"t":"2026-06-22T12:44:05.260Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Casual Backpack B210","items":0,"names":[]}
+{"t":"2026-06-22T12:44:05.436Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Simple Toploader T1050","items":0,"names":[]}
+{"t":"2026-06-22T12:44:05.770Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Casual Backpack B210","items":0,"names":[]}
+{"t":"2026-06-22T12:44:06.079Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Simple Toploader T1050","items":0,"names":[]}
+{"t":"2026-06-22T12:44:07.771Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T12:44:07.801Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideapad-pro-5-14%e2%80%b3-intel-ultra-7-255h","searchTerms":["Lenovo IdeaPad Pro 5 14″ Intel Ultra 7 255H"]}
+{"t":"2026-06-22T12:44:07.801Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaPad Pro 5 Intel Ultra 7 255H","IdeaPad Pro 5 Intel Ultra 7 255H","Lenovo IdeaPad Pro 5"]}
+{"t":"2026-06-22T12:44:08.518Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaPad Pro 5 Intel Ultra 7 255H","items":0,"names":[]}
+{"t":"2026-06-22T12:44:08.968Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaPad Pro 5 Intel Ultra 7 255H","items":0,"names":[]}
+{"t":"2026-06-22T12:44:09.531Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaPad Pro 5","items":0,"names":[]}
+{"t":"2026-06-22T12:44:12.910Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T12:44:17.569Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T12:44:22.247Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T12:44:27.226Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T12:44:27.231Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-alienware-curved-aw3423dwf-34%e2%80%b3qd-oled-165hz-qhd","searchTerms":["DELL Alienware Curved AW3423DWF 34″QD-OLED 165Hz QHD"]}
+{"t":"2026-06-22T12:44:27.231Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Alienware Curved AW3423DWF QD-OLED 165Hz QHD","Alienware Curved AW3423DWF QD-OLED 165Hz QHD","DELL Alienware Curved AW3423DWF"]}
+{"t":"2026-06-22T12:44:27.253Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-24%e2%80%b3-fhd-u2422h","searchTerms":["DELL Monitor 24″ FHD U2422H"]}
+{"t":"2026-06-22T12:44:27.253Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor FHD U2422H","Monitor FHD U2422H"]}
+{"t":"2026-06-22T12:44:27.752Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor FHD U2422H","items":0,"names":[]}
+{"t":"2026-06-22T12:44:27.936Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware Curved AW3423DWF QD-OLED 165Hz QHD","items":0,"names":[]}
+{"t":"2026-06-22T12:44:28.254Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor FHD U2422H","items":0,"names":[]}
+{"t":"2026-06-22T12:44:28.498Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Alienware Curved AW3423DWF QD-OLED 165Hz QHD","items":0,"names":[]}
+{"t":"2026-06-22T12:44:29.701Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware Curved AW3423DWF","items":0,"names":[]}
+{"t":"2026-06-22T12:44:32.137Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T12:44:32.137Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8240,"nextIndex":8320,"remaining":12395,"httpFailures":{}}
