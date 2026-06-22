@@ -1,37 +1,3 @@
-{"t":"2026-06-20T21:39:59.894Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16240,"nextIndex":16320,"remaining":4395,"httpFailures":{}}
-{"t":"2026-06-20T21:40:06.075Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16320,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:40:10.548Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:40:14.040Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T21:40:17.595Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T21:40:22.872Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T21:40:26.643Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:40:29.033Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T21:40:32.615Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:40:32.615Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16320,"nextIndex":16400,"remaining":4315,"httpFailures":{"shpresa:403":7}}
-{"t":"2026-06-20T21:40:38.740Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16400,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:40:43.026Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:40:47.711Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T21:40:53.195Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T21:41:01.665Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T21:41:04.794Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T21:41:04.814Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-xiaomi-gaming-monitor-g27i-27%e2%80%b3","searchTerms":["Xiaomi Gaming Monitor G27i 27″"]}
-{"t":"2026-06-20T21:41:04.814Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-gaming-monitor-g27i-27%e2%80%b3"}
-{"t":"2026-06-20T21:41:05.834Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T21:41:05.834Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-gaming-monitor-g27i-27″"}
-{"t":"2026-06-20T21:41:06.648Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T21:41:06.648Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Xiaomi Gaming Monitor G27i","Gaming Monitor G27i"]}
-{"t":"2026-06-20T21:41:07.190Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Xiaomi Gaming Monitor G27i","items":1,"names":["Xiaomi Gaming Monitor G27i 27″"]}
-{"t":"2026-06-20T21:41:07.190Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Xiaomi Gaming Monitor G27i 27″","score":3.6363636363636362}]}
-{"t":"2026-06-20T21:41:08.500Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T21:41:12.076Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T21:41:12.077Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16400,"nextIndex":16480,"remaining":4235,"httpFailures":{}}
-{"t":"2026-06-20T21:41:18.353Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16480,"batchSize":80,"total":20715}
-{"t":"2026-06-20T21:41:22.483Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T21:41:22.508Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-thinkpad-x13-gen-5-13%e2%80%b3-touch-16gb-1tb-ssd-core-ultra-7","searchTerms":["Lenovo ThinkPad X13 Gen 5, 13″ Touch, 16GB, 1TB SSD, Core™ Ultra 7"]}
-{"t":"2026-06-20T21:41:22.508Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-x13-gen-5-13%e2%80%b3-touch-16gb-1tb-ssd-core-ultra-7"}
-{"t":"2026-06-20T21:41:23.609Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-20T21:41:23.609Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-x13-gen-5-13″-touch-16gb-1tb-ssd-core-ultra-7"}
-{"t":"2026-06-20T21:41:24.045Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-20T21:41:24.045Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo ThinkPad X13 Gen 5","ThinkPad X13 Gen 5","Lenovo ThinkPad X13 Gen"]}
 {"t":"2026-06-20T21:41:24.567Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad X13 Gen 5","items":0,"names":[]}
 {"t":"2026-06-20T21:41:24.891Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ThinkPad X13 Gen 5","items":0,"names":[]}
@@ -4998,3 +4964,37 @@
 {"t":"2026-06-22T12:47:39.071Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T12:47:42.074Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T12:47:42.075Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8640,"nextIndex":8720,"remaining":11995,"httpFailures":{}}
+{"t":"2026-06-22T12:47:49.681Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8720,"batchSize":80,"total":20715}
+{"t":"2026-06-22T12:47:54.431Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T12:47:54.442Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-seagate-ironwolf-hdd-3-5%e2%80%b3-4tb","searchTerms":["Seagate IronWolf HDD 3.5″ 4TB"]}
+{"t":"2026-06-22T12:47:54.442Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Seagate IronWolf HDD","IronWolf HDD"]}
+{"t":"2026-06-22T12:47:54.448Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-hdd-ultrastar-dc-hc520-3-5%e2%80%b3-12tb","searchTerms":["WD HDD Ultrastar DC HC520 3.5″ 12TB"]}
+{"t":"2026-06-22T12:47:54.448Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD HDD Ultrastar DC HC520","HDD Ultrastar DC HC520","WD HDD Ultrastar DC"]}
+{"t":"2026-06-22T12:47:55.485Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Seagate IronWolf HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:47:55.558Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC HC520","items":0,"names":[]}
+{"t":"2026-06-22T12:47:56.056Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IronWolf HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:47:56.308Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HDD Ultrastar DC HC520","items":0,"names":[]}
+{"t":"2026-06-22T12:47:57.654Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC","items":0,"names":[]}
+{"t":"2026-06-22T12:47:59.776Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T12:47:59.793Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-27%e2%80%b3-e2725h","searchTerms":["DELL Monitor 27″ E2725H"]}
+{"t":"2026-06-22T12:47:59.793Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor E2725H","Monitor E2725H"]}
+{"t":"2026-06-22T12:48:00.637Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor E2725H","items":0,"names":[]}
+{"t":"2026-06-22T12:48:01.380Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E2725H","items":0,"names":[]}
+{"t":"2026-06-22T12:48:03.670Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T12:48:03.700Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-hdd-3-5%e2%80%b3-8tb","searchTerms":["WD Red Plus HDD 3.5″ 8TB"]}
+{"t":"2026-06-22T12:48:03.701Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
+{"t":"2026-06-22T12:48:03.703Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-plus-hdd-3-5%e2%80%b3-10tb","searchTerms":["WD Red Plus HDD 3.5″ 10TB"]}
+{"t":"2026-06-22T12:48:03.704Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
+{"t":"2026-06-22T12:48:03.707Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-hdd-plus-3-5%e2%80%b3-4tb","searchTerms":["WD Red HDD Plus 3.5″ 4TB"]}
+{"t":"2026-06-22T12:48:03.707Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red HDD Plus","Red HDD Plus"]}
+{"t":"2026-06-22T12:48:04.623Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:48:04.674Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red HDD Plus","items":0,"names":[]}
+{"t":"2026-06-22T12:48:04.722Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:48:05.108Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:48:05.226Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Plus HDD","items":0,"names":[]}
+{"t":"2026-06-22T12:48:05.345Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red HDD Plus","items":0,"names":[]}
+{"t":"2026-06-22T12:48:08.821Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T12:48:12.951Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T12:48:17.995Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T12:48:22.030Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T12:48:22.031Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8720,"nextIndex":8800,"remaining":11915,"httpFailures":{}}
