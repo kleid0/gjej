@@ -1,12 +1,3 @@
-{"t":"2026-06-20T20:41:34.620Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-e27-g5-fhd-27%e2%80%b3","searchTerms":["HP Monitor E27 G5 FHD 27″"]}
-{"t":"2026-06-20T20:41:34.620Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Monitor E27 G5 FHD","Monitor E27 G5 FHD","HP Monitor E27 G5"]}
-{"t":"2026-06-20T20:41:34.634Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-5-pro-524pf-fhd-23-8%e2%80%b3","searchTerms":["HP Monitor 5 Pro 524pf FHD 23.8″"]}
-{"t":"2026-06-20T20:41:34.634Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Monitor 5 Pro 524pf FHD","Monitor 5 Pro 524pf FHD","HP Monitor 5 Pro"]}
-{"t":"2026-06-20T20:41:34.642Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-n200","searchTerms":["HP ProOne 240 G10 23.8″ Intel N200"]}
-{"t":"2026-06-20T20:41:34.642Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ProOne 240 G10 Intel N200","ProOne 240 G10 Intel N200","HP ProOne 240 G10"]}
-{"t":"2026-06-20T20:41:35.108Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware 1ms up to 280Hz AW2723DF","items":0,"names":[]}
-{"t":"2026-06-20T20:41:35.186Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ProOne 240 G10 Intel N200","items":0,"names":[]}
-{"t":"2026-06-20T20:41:35.187Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E27 G5 FHD","items":0,"names":[]}
 {"t":"2026-06-20T20:41:35.590Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Alienware 1ms up to 280Hz AW2723DF","items":0,"names":[]}
 {"t":"2026-06-20T20:41:36.213Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware 1ms up","items":0,"names":[]}
 {"t":"2026-06-20T20:41:36.551Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Pro 27 Plus Video Conferencing QHD P2724DEB","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-22T12:07:03.693Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T12:07:09.189Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T12:07:09.189Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3920,"nextIndex":4000,"remaining":16715,"httpFailures":{}}
+{"t":"2026-06-22T12:07:16.383Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":4000,"batchSize":80,"total":20715}
+{"t":"2026-06-22T12:07:21.219Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T12:07:25.332Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T12:07:28.456Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T12:07:32.219Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T12:07:35.159Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T12:07:38.435Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T12:07:40.973Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T12:07:40.973Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":4000,"nextIndex":4080,"remaining":16635,"httpFailures":{}}
