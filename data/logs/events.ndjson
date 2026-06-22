@@ -1,12 +1,3 @@
-{"t":"2026-06-20T20:38:22.931Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell Professional Backpack Case","Professional Backpack Case"]}
-{"t":"2026-06-20T20:38:22.934Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideapad-gaming-backpack-15-6%e2%80%b3","searchTerms":["Lenovo IdeaPad Gaming Backpack 15.6″"]}
-{"t":"2026-06-20T20:38:22.935Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaPad Gaming Backpack","IdeaPad Gaming Backpack"]}
-{"t":"2026-06-20T20:38:22.938Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-essential-backpack-case-15-6%e2%80%b3","searchTerms":["Dell Essential Backpack Case 15.6″"]}
-{"t":"2026-06-20T20:38:22.938Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell Essential Backpack Case","Essential Backpack Case"]}
-{"t":"2026-06-20T20:38:23.767Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Pavilion Tech Backpack Case","items":0,"names":[]}
-{"t":"2026-06-20T20:38:23.807Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaPad Gaming Backpack","items":0,"names":[]}
-{"t":"2026-06-20T20:38:23.807Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Essential Backpack Case","items":0,"names":[]}
-{"t":"2026-06-20T20:38:23.844Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Targus CityGear Backpack Case","items":0,"names":[]}
 {"t":"2026-06-20T20:38:23.862Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Professional Backpack Case","items":0,"names":[]}
 {"t":"2026-06-20T20:38:24.110Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"XD Design Soft Daypack Anti-theft","items":0,"names":[]}
 {"t":"2026-06-20T20:38:24.114Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Backpack Travel Case","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-22T11:51:07.982Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T11:51:13.795Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T11:51:13.795Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2400,"nextIndex":2480,"remaining":18235,"httpFailures":{}}
+{"t":"2026-06-22T11:51:20.548Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2480,"batchSize":80,"total":20715}
+{"t":"2026-06-22T11:51:28.170Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T11:51:33.235Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T11:51:40.432Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T11:51:52.354Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T11:52:01.655Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T11:52:08.839Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T11:52:14.428Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T11:52:14.429Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2480,"nextIndex":2560,"remaining":18155,"httpFailures":{}}
