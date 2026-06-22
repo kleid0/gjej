@@ -13,4 +13,6 @@ data/enrichment/
 .swarm/
 .mcp.json
 .vercel
-scripts/
+# Ignore ad-hoc local scripts, but keep the committed CI runner(s).
+scripts/*
+!scripts/refresh-prices.ts

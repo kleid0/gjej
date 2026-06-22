@@ -216,3 +216,65 @@ Biggest = refresh-prices (walks whole catalogue, up to 400 × 300s fn calls/day)
 GitHub only runs scheduled workflows from the DEFAULT branch (main). These
 edits are on a feature branch, so the live crons keep firing until this lands
 on `main`. Needs merge to main (PR or direct push w/ permission) to take effect.
+
+# Move scraping off Vercel into GitHub Actions (2026-06-22) — PLAN
+Branch: `claude/vigilant-lamport-eb106n`. Approved direction: run the scrapers
+inside GHA runners and commit the JSON; Vercel only serves the site.
+
+## Why it's low-risk (already supported by the architecture)
+- `paths.ts`: DATA_DIR = VERCEL ? "/tmp" : "data". In GHA, VERCEL is unset →
+  reads/writes hit the repo's data/ dir directly. No hydrate, no commit-API.
+- Heavy state (price-history, catalogue-state, store-mappings, scraper-errors,
+  discovery-log) is ALL file-based via JsonStore.
+- Postgres is used ONLY for price_alerts (emails), and both calls are
+  try/catch no-ops → DB secret is OPTIONAL.
+- Cache refresh = make the commit message `chore(data,deploy): ...`, which
+  vercel.json's ignoreCommand lets through → Vercel does ONE rebuild that
+  publishes fresh data. No revalidateTag needed.
+- src/ is framework-agnostic; only the route uses next/server + revalidateTag.
+
+## Plan
+### Phase 1 — refresh-prices (the ~90% CPU win)
+- [ ] Extract the per-batch scrape+persist loop (route lines ~89-166) into a
+      shared `src/application/pricing/refreshCatalogue.ts` so route + script
+      share ONE implementation (no copy-paste).
+- [ ] Add `scripts/refresh-prices.ts`: load full catalogue, call the shared
+      fn over all products in one pass (no startIndex/maxDuration), optional
+      alert emails.
+- [ ] Add `tsx` devDep + `"refresh:prices": "tsx scripts/refresh-prices.ts"`.
+      Confirm tsx resolves the `@/*` tsconfig path alias (add baseUrl "." if not).
+- [ ] Rewrite refresh-prices.yml: checkout → npm ci → npm run refresh:prices →
+      commit data/ as `chore(data,deploy): refresh prices` → push. Re-enable
+      daily schedule. Keep workflow_dispatch. permissions: contents: write.
+- [ ] Verify: typecheck, tsx alias, workflow_dispatch dry run; confirm fresh
+      data commit + Vercel redeploy + ZERO Fluid CPU.
+
+### Phase 2 — same pattern for discover + trends (smaller)
+- [ ] scripts/discover.ts, scripts/trends.ts + workflow rewrites + re-enable.
+
+### Leave as-is (negligible Vercel CPU)
+- check-pcstore (1 tiny probe/week), store-coverage-report (1 read/day).
+
+## Secrets the user adds (optional, only to keep alert emails working)
+- POSTGRES_URL (or DATABASE_URL), RESEND_API_KEY. Without them refresh still
+  works; it just won't send price-drop emails.
+
+## Risks
+- Store sites may treat GHA runner IPs differently → verify scrape success on
+  first real run.
+- tsx path-alias resolution (mitigation above).
+
+## Phase 1 — implementation status (2026-06-22)
+- [x] src/application/pricing/refreshCatalogue.ts — shared scrape+persist engine.
+- [x] src/infrastructure/email/priceAlertEmail.ts — extracted alert email.
+- [x] route refactored to call refreshProducts() (Vercel hydrate/commit kept).
+- [x] scripts/refresh-prices.ts — whole-catalogue runner; honors REFRESH_LIMIT.
+- [x] tsx devDep + `npm run refresh:prices`. tsx resolves `@/` alias (verified).
+- [x] refresh-prices.yml rewritten: scrape-in-runner + commit data/ +
+      chore(data,deploy) + schedule re-enabled + workflow_dispatch limit/dry_run.
+- [x] Verified locally: tsc OK, eslint clean, 130 tests pass, runner scrapes &
+      writes data/ (partial accidental run, reverted).
+- [ ] OPEN RISK: stores 403'd this sandbox IP (shpresa.al). Must confirm GHA
+      runner IPs aren't blocked → dry-run sample dispatch on the branch.
+- [ ] After green sample: merge workflow to main (needs user OK) so daily
+      schedule runs the new path.
