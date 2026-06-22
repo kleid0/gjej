@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-06-21T07:30:37.991Z",
+  "updatedAt": "2026-06-22T08:55:39.676Z",
   "runs": [
+    {
+      "id": 15,
+      "run_at": "2026-06-22T08:55:39.676Z",
+      "total_discovered": 18176,
+      "auto_added": 18176,
+      "pending_review": 0,
+      "discontinued": 0
+    },
     {
       "id": 14,
       "run_at": "2026-06-21T07:30:37.991Z",
@@ -114,5 +122,5 @@
       "discontinued": 0
     }
   ],
-  "nextId": 15
+  "nextId": 16
 }
