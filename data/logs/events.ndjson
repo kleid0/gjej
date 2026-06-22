@@ -1,20 +1,3 @@
-{"t":"2026-06-21T09:52:19.252Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T09:52:24.555Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T09:52:24.556Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2560,"nextIndex":2640,"remaining":18075,"httpFailures":{"shpresa:403":29}}
-{"t":"2026-06-21T09:52:30.811Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2640,"batchSize":80,"total":20715}
-{"t":"2026-06-21T09:52:37.550Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T09:52:44.618Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T09:52:50.333Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T09:52:56.686Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T09:53:03.686Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T09:53:08.873Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T09:53:10.113Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T09:53:10.113Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2640,"nextIndex":2720,"remaining":17995,"httpFailures":{"shpresa:403":27}}
-{"t":"2026-06-21T09:53:16.260Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2720,"batchSize":80,"total":20715}
-{"t":"2026-06-21T09:53:24.371Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T09:53:30.478Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T09:53:37.420Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T09:53:43.409Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
 {"t":"2026-06-21T09:53:50.396Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
 {"t":"2026-06-21T09:54:01.088Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T09:54:06.148Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
@@ -4998,3 +4981,20 @@
 {"t":"2026-06-22T13:55:42.792Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T13:55:45.377Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T13:55:45.377Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16560,"nextIndex":16640,"remaining":4075,"httpFailures":{}}
+{"t":"2026-06-22T13:55:53.435Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16640,"batchSize":80,"total":20715}
+{"t":"2026-06-22T13:55:57.684Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T13:56:01.691Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T13:56:06.455Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T13:56:06.478Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-pc-lenovo-aio-ideacentre-3-24alc6-23-8%e2%80%b3-16gb-512gb-ssd-amd-ryzen-7-2","searchTerms":["PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7"]}
+{"t":"2026-06-22T13:56:06.478Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pc-lenovo-aio-ideacentre-3-24alc6-23-8%e2%80%b3-16gb-512gb-ssd-amd-ryzen-7-2"}
+{"t":"2026-06-22T13:56:07.491Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T13:56:07.491Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pc-lenovo-aio-ideacentre-3-24alc6-23-8″-16gb-512gb-ssd-amd-ryzen-7-2"}
+{"t":"2026-06-22T13:56:08.728Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T13:56:08.728Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre 3","Lenovo AIO IdeaCentre","PC Lenovo AIO IdeaCentre 3","PC Lenovo AIO IdeaCentre"]}
+{"t":"2026-06-22T13:56:09.246Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre 3","items":1,"names":["PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7-7730U"]}
+{"t":"2026-06-22T13:56:09.247Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"PC Lenovo AIO IdeaCentre 3 23.8″, 16GB, 512GB SSD, AMD Ryzen 7-7730U","score":1.3636363636363638}]}
+{"t":"2026-06-22T13:56:15.405Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T13:56:21.972Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T13:56:30.327Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T13:56:34.962Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T13:56:34.962Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16640,"nextIndex":16720,"remaining":3995,"httpFailures":{}}
