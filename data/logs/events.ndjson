@@ -1,36 +1,3 @@
-{"t":"2026-06-20T20:19:56.154Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T20:20:01.707Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T20:20:07.586Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T20:20:14.208Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T20:20:19.529Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T20:20:19.529Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":6720,"nextIndex":6800,"remaining":13915,"httpFailures":{}}
-{"t":"2026-06-20T20:21:07.175Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":6800,"batchSize":80,"total":20715}
-{"t":"2026-06-20T20:21:12.322Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T20:21:19.698Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T20:21:26.251Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T20:21:34.964Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T20:21:47.506Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T20:21:53.154Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T20:21:59.907Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T20:21:59.907Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":6800,"nextIndex":6880,"remaining":13835,"httpFailures":{}}
-{"t":"2026-06-20T20:22:05.508Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":6880,"batchSize":80,"total":20715}
-{"t":"2026-06-20T20:22:11.488Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T20:22:16.759Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T20:22:24.541Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T20:22:28.879Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T20:22:34.389Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T20:22:38.221Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T20:22:42.593Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T20:22:42.593Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":6880,"nextIndex":6960,"remaining":13755,"httpFailures":{}}
-{"t":"2026-06-20T20:22:49.514Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":6960,"batchSize":80,"total":20715}
-{"t":"2026-06-20T20:22:54.956Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T20:23:00.012Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T20:23:04.922Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T20:23:12.583Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T20:23:18.640Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T20:23:24.906Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T20:23:28.924Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T20:23:28.924Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":6960,"nextIndex":7040,"remaining":13675,"httpFailures":{}}
 {"t":"2026-06-20T20:23:35.351Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7040,"batchSize":80,"total":20715}
 {"t":"2026-06-20T20:23:42.518Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
 {"t":"2026-06-20T20:23:47.421Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
@@ -4998,3 +4965,36 @@
 {"t":"2026-06-21T12:20:42.348Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":75,"errors":0,"startIndex":20640,"nextIndex":20715,"remaining":0,"httpFailures":{}}
 {"t":"2026-06-22T08:55:39.676Z","level":"info","scope":"cron/discover","msg":"run complete","discovered":18176,"total":22950,"fused":773,"discontinued":0}
 {"t":"2026-06-22T10:33:30.855Z","level":"info","scope":"cron/check-pcstore","msg":"probe complete","status":"down","previousStatus":"down","flippedUp":false,"notified":false}
+{"t":"2026-06-22T11:31:02.018Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":0,"batchSize":80,"total":20715}
+{"t":"2026-06-22T11:31:08.434Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T11:31:08.459Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-proone-240-g10-aio-23-8%e2%80%b3-16gb-512gb-ssd-core-i5","searchTerms":["HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5"]}
+{"t":"2026-06-22T11:31:08.459Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-proone-240-g10-aio-23-8%e2%80%b3-16gb-512gb-ssd-core-i5"}
+{"t":"2026-06-22T11:31:08.533Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-pitaka-moment-%c2%b7-sunset-pitatap-case-for-apple-iphone-16-pro-max","searchTerms":["Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max"]}
+{"t":"2026-06-22T11:31:08.534Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-%c2%b7-sunset-pitatap-case-for-apple-iphone-16-pro-max"}
+{"t":"2026-06-22T11:31:09.899Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:31:09.899Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-·-sunset-pitatap-case-for-apple-iphone-16-pro-max"}
+{"t":"2026-06-22T11:31:09.950Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:31:09.950Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-proone-240-g10-aio-23-8″-16gb-512gb-ssd-core-i5"}
+{"t":"2026-06-22T11:31:10.337Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:31:10.337Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ProOne 240 G10 AIO","ProOne 240 G10 AIO","HP ProOne 240 G10"]}
+{"t":"2026-06-22T11:31:10.680Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:31:10.680Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Apple Iphone 16 Pro Max","Apple Iphone 16","Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","Pitaka Moment · Sunset"]}
+{"t":"2026-06-22T11:31:11.102Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ProOne 240 G10 AIO","items":1,"names":["HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U"]}
+{"t":"2026-06-22T11:31:11.104Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U","score":3.0487804878048785}]}
+{"t":"2026-06-22T11:31:12.682Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Apple Iphone 16 Pro Max","items":17,"names":["Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","Pitaka Phone Case For Apple Iphone 16 Pro Max","Pitaka Classic Ultra-Slim Aramid Case 600D For Apple Iphone 16 Pro Max"]}
+{"t":"2026-06-22T11:31:12.683Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Phone Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Classic Ultra-Slim Aramid Case 600D For Apple Iphone 16 Pro Max","score":0}]}
+{"t":"2026-06-22T11:31:12.999Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T11:31:18.227Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T11:31:23.141Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T11:31:27.221Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T11:31:31.989Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T11:31:32.006Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-pitaka-moment-%c2%b7-case-grip-for-apple-iphone-16-pro","searchTerms":["Pitaka Moment · Case & Grip For Apple Iphone 16 Pro"]}
+{"t":"2026-06-22T11:31:32.006Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-%c2%b7-case-grip-for-apple-iphone-16-pro"}
+{"t":"2026-06-22T11:31:33.144Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:31:33.144Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-·-case-grip-for-apple-iphone-16-pro"}
+{"t":"2026-06-22T11:31:33.865Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:31:33.865Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Apple Iphone 16 Pro","Apple Iphone 16","Pitaka Moment · Case & Grip For Apple Iphone 16 Pro","Pitaka Moment · Case"]}
+{"t":"2026-06-22T11:31:35.128Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Apple Iphone 16 Pro","items":20,"names":["Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","Pitaka Phone Case For Apple Iphone 16 Pro Max","Pitaka Moment · Case &amp; Grip For Apple Iphone 16 Pro"]}
+{"t":"2026-06-22T11:31:35.128Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Phone Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Moment · Case &amp; Grip For Apple Iphone 16 Pro","score":0}]}
+{"t":"2026-06-22T11:31:36.238Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T11:31:36.238Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":0,"nextIndex":80,"remaining":20635,"httpFailures":{}}
