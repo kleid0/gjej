@@ -1,29 +1,3 @@
-{"t":"2026-06-20T20:35:06.382Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor FHD U2422H","Monitor FHD U2422H"]}
-{"t":"2026-06-20T20:35:07.110Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor FHD U2422H","items":0,"names":[]}
-{"t":"2026-06-20T20:35:07.166Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware Curved AW3423DWF QD-OLED 165Hz QHD","items":0,"names":[]}
-{"t":"2026-06-20T20:35:07.680Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Alienware Curved AW3423DWF QD-OLED 165Hz QHD","items":0,"names":[]}
-{"t":"2026-06-20T20:35:08.126Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor FHD U2422H","items":0,"names":[]}
-{"t":"2026-06-20T20:35:08.215Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware Curved AW3423DWF","items":0,"names":[]}
-{"t":"2026-06-20T20:35:11.333Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T20:35:11.334Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8240,"nextIndex":8320,"remaining":12395,"httpFailures":{}}
-{"t":"2026-06-20T20:35:17.851Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8320,"batchSize":80,"total":20715}
-{"t":"2026-06-20T20:35:27.155Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T20:35:27.260Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-legion-r27qc-curved-27%e2%80%b3-qhd-180hz","searchTerms":["Lenovo Legion R27qc Curved 27″ QHD 180Hz"]}
-{"t":"2026-06-20T20:35:27.260Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Legion R27qc Curved QHD 180Hz","Legion R27qc Curved QHD 180Hz","Lenovo Legion R27qc Curved"]}
-{"t":"2026-06-20T20:35:27.795Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Legion R27qc Curved QHD 180Hz","items":0,"names":[]}
-{"t":"2026-06-20T20:35:28.462Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Legion R27qc Curved QHD 180Hz","items":0,"names":[]}
-{"t":"2026-06-20T20:35:28.944Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Legion R27qc Curved","items":0,"names":[]}
-{"t":"2026-06-20T20:35:33.674Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-20T20:35:33.777Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-p2725he-27%e2%80%b3-fhd","searchTerms":["DELL Monitor P2725HE 27″ FHD"]}
-{"t":"2026-06-20T20:35:33.777Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor P2725HE FHD","Monitor P2725HE FHD"]}
-{"t":"2026-06-20T20:35:34.969Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor P2725HE FHD","items":0,"names":[]}
-{"t":"2026-06-20T20:35:35.592Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor P2725HE FHD","items":0,"names":[]}
-{"t":"2026-06-20T20:35:39.693Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-20T20:35:45.273Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-20T20:35:51.052Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T20:35:51.081Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-passport-2-5%e2%80%b3-usb-3-2-1tb","searchTerms":["WD Passport 2.5″ USB 3.2 1TB"]}
-{"t":"2026-06-20T20:35:51.081Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Passport USB 3.2","Passport USB 3.2"]}
-{"t":"2026-06-20T20:35:51.123Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-toshiba-desktop-hdd-3-5%e2%80%b3-500-gb","searchTerms":["Toshiba Desktop HDD 3.5″ 500 GB"]}
 {"t":"2026-06-20T20:35:51.123Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Toshiba Desktop HDD","Desktop HDD"]}
 {"t":"2026-06-20T20:35:51.151Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-omen-qhd-gaming-monitor-32q-31-5%e2%80%b3-165hz","searchTerms":["HP Omen QHD Gaming Monitor 32q 31.5″ 165Hz"]}
 {"t":"2026-06-20T20:35:51.151Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Omen QHD Gaming Monitor 32q 165Hz","Omen QHD Gaming Monitor 32q 165Hz","HP Omen QHD Gaming"]}
@@ -4998,3 +4972,29 @@
 {"t":"2026-06-22T11:40:26.504Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T11:40:28.932Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T11:40:28.932Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1120,"nextIndex":1200,"remaining":19515,"httpFailures":{}}
+{"t":"2026-06-22T11:40:36.004Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1200,"batchSize":80,"total":20715}
+{"t":"2026-06-22T11:40:39.528Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T11:40:39.534Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-thinkpad-e16-gen-2-16%e2%80%b3-touchscreen-16gb-512gb-ssd-core-ultra-7","searchTerms":["Lenovo ThinkPad E16 Gen 2, 16″ Touchscreen, 16GB, 512GB SSD, Core™ Ultra 7"]}
+{"t":"2026-06-22T11:40:39.534Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-e16-gen-2-16%e2%80%b3-touchscreen-16gb-512gb-ssd-core-ultra-7"}
+{"t":"2026-06-22T11:40:39.548Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-aio-23-8%e2%80%b3-cr0062na-16gb-512gb-ssd-core-i5","searchTerms":["HP AIO 23.8″ CR0062NA, 16GB, 512GB SSD, Core i5"]}
+{"t":"2026-06-22T11:40:39.548Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-23-8%e2%80%b3-cr0062na-16gb-512gb-ssd-core-i5"}
+{"t":"2026-06-22T11:40:40.841Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:40:40.841Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-23-8″-cr0062na-16gb-512gb-ssd-core-i5"}
+{"t":"2026-06-22T11:40:40.985Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:40:40.985Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-e16-gen-2-16″-touchscreen-16gb-512gb-ssd-core-ultra-7"}
+{"t":"2026-06-22T11:40:41.863Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:40:41.863Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP AIO CR0062NA","AIO CR0062NA"]}
+{"t":"2026-06-22T11:40:41.873Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:40:41.873Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo ThinkPad E16 Gen 2","ThinkPad E16 Gen 2","Lenovo ThinkPad E16 Gen"]}
+{"t":"2026-06-22T11:40:42.506Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad E16 Gen 2","items":0,"names":[]}
+{"t":"2026-06-22T11:40:42.542Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP AIO CR0062NA","items":0,"names":[]}
+{"t":"2026-06-22T11:40:42.908Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ThinkPad E16 Gen 2","items":0,"names":[]}
+{"t":"2026-06-22T11:40:42.998Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"AIO CR0062NA","items":0,"names":[]}
+{"t":"2026-06-22T11:40:43.444Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad E16 Gen","items":0,"names":[]}
+{"t":"2026-06-22T11:40:44.758Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T11:40:49.251Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T11:40:54.284Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T11:40:59.932Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T11:41:03.560Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T11:41:06.090Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T11:41:06.090Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1200,"nextIndex":1280,"remaining":19435,"httpFailures":{}}
