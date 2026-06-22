@@ -1,28 +1,3 @@
-{"t":"2026-06-20T20:33:25.095Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"DELL Alienware 1ms 360Hz","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
-{"t":"2026-06-20T20:33:28.174Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-20T20:33:33.369Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-20T20:33:37.370Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-20T20:33:37.370Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8080,"nextIndex":8160,"remaining":12555,"httpFailures":{"shpresa:403":60}}
-{"t":"2026-06-20T20:33:43.953Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8160,"batchSize":80,"total":20715}
-{"t":"2026-06-20T20:33:43.981Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-e24q-g5-24%e2%80%b3","searchTerms":["HP Monitor E24q G5 24″"]}
-{"t":"2026-06-20T20:33:43.981Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Monitor E24q G5","Monitor E24q G5"]}
-{"t":"2026-06-20T20:33:44.006Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-thinkpad-p16s-g2-16%e2%80%b3-i7-1360p-with-sim-card","searchTerms":["Lenovo Thinkpad P16s G2 16″ i7-1360P with Sim Card"]}
-{"t":"2026-06-20T20:33:44.007Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Thinkpad P16s G2 i7-1360P with Sim Card","Thinkpad P16s G2 i7-1360P with Sim Card","Lenovo Thinkpad P16s G2"]}
-{"t":"2026-06-20T20:33:44.774Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E24q G5","items":0,"names":[]}
-{"t":"2026-06-20T20:33:45.425Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E24q G5","items":0,"names":[]}
-{"t":"2026-06-20T20:33:45.474Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Thinkpad P16s G2 i7-1360P with Sim Card","items":0,"names":[]}
-{"t":"2026-06-20T20:33:46.764Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Thinkpad P16s G2 i7-1360P with Sim Card","items":0,"names":[]}
-{"t":"2026-06-20T20:33:47.121Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Thinkpad P16s G2","items":0,"names":[]}
-{"t":"2026-06-20T20:33:49.809Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-20T20:33:49.826Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-x1-carbon-g11-14%e2%80%b3-i7-1355u","searchTerms":["Lenovo X1 Carbon G11 14″ i7-1355U"]}
-{"t":"2026-06-20T20:33:49.827Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo X1 Carbon G11 i7-1355U","X1 Carbon G11 i7-1355U","Lenovo X1 Carbon G11"]}
-{"t":"2026-06-20T20:33:49.902Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-e32k-g5-31-5%e2%80%b3-uhd","searchTerms":["HP Monitor E32K G5 31.5″ UHD"]}
-{"t":"2026-06-20T20:33:49.902Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Monitor E32K G5 UHD","Monitor E32K G5 UHD","HP Monitor E32K G5"]}
-{"t":"2026-06-20T20:33:50.662Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo X1 Carbon G11 i7-1355U","items":0,"names":[]}
-{"t":"2026-06-20T20:33:50.810Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E32K G5 UHD","items":0,"names":[]}
-{"t":"2026-06-20T20:33:51.550Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E32K G5 UHD","items":0,"names":[]}
-{"t":"2026-06-20T20:33:52.161Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"X1 Carbon G11 i7-1355U","items":0,"names":[]}
-{"t":"2026-06-20T20:33:52.658Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E32K G5","items":0,"names":[]}
 {"t":"2026-06-20T20:33:52.737Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo X1 Carbon G11","items":0,"names":[]}
 {"t":"2026-06-20T20:33:55.446Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-06-20T20:33:55.467Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-gaming-backpack-case-17-3%e2%80%b3","searchTerms":["Dell Gaming Backpack Case 17.3″"]}
@@ -4998,3 +4973,28 @@
 {"t":"2026-06-22T11:38:31.158Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T11:38:35.768Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T11:38:35.768Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":960,"nextIndex":1040,"remaining":19675,"httpFailures":{}}
+{"t":"2026-06-22T11:38:43.185Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1040,"batchSize":80,"total":20715}
+{"t":"2026-06-22T11:38:48.588Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T11:38:53.284Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T11:38:59.141Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T11:39:06.655Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T11:39:06.763Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-core-5","searchTerms":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Core™ 5"]}
+{"t":"2026-06-22T11:39:06.763Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-core-5"}
+{"t":"2026-06-22T11:39:08.536Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:39:08.536Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27″-16gb-512gb-ssd-core-5"}
+{"t":"2026-06-22T11:39:11.339Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:39:11.339Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
+{"t":"2026-06-22T11:39:19.341Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"Lenovo AIO IdeaCentre","err":{"name":"AxiosError","message":"timeout of 8000ms exceeded","code":"ECONNABORTED","url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
+{"t":"2026-06-22T11:39:27.343Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"AIO IdeaCentre","err":{"name":"AxiosError","message":"timeout of 8000ms exceeded","code":"ECONNABORTED","url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
+{"t":"2026-06-22T11:39:32.213Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T11:39:32.282Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-core-i7-3","searchTerms":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Core™ i7"]}
+{"t":"2026-06-22T11:39:32.282Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-core-i7-3"}
+{"t":"2026-06-22T11:39:36.092Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:39:36.092Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27″-16gb-512gb-ssd-core-i7-3"}
+{"t":"2026-06-22T11:39:36.685Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-06-22T11:39:36.685Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
+{"t":"2026-06-22T11:39:43.436Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":11,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H"]}
+{"t":"2026-06-22T11:39:43.437Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","score":1.5517241379310343},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063}]}
+{"t":"2026-06-22T11:39:44.743Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T11:39:51.229Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T11:39:51.229Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1040,"nextIndex":1120,"remaining":19595,"httpFailures":{"shpresa:timeout":2}}
