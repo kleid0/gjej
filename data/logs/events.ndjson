@@ -1,12 +1,3 @@
-{"t":"2026-06-21T09:35:28.946Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Xiaomi Gaming Monitor G24i","items":1,"names":["Xiaomi Gaming Monitor G24i 24″ 2026"]}
-{"t":"2026-06-21T09:35:28.947Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Xiaomi Gaming Monitor G24i 24″ 2026","score":3.3333333333333335}]}
-{"t":"2026-06-21T09:35:29.198Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T09:35:33.367Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T09:35:37.379Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T09:35:39.745Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T09:35:39.755Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-ryzen-7","searchTerms":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7"]}
-{"t":"2026-06-21T09:35:39.755Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-ryzen-7"}
-{"t":"2026-06-21T09:35:39.765Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-xiaomi-curved-gaming-monitor-g34wqi-34%e2%80%b3","searchTerms":["Xiaomi Curved Gaming Monitor G34WQi 34″"]}
 {"t":"2026-06-21T09:35:39.765Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-curved-gaming-monitor-g34wqi-34%e2%80%b3"}
 {"t":"2026-06-21T09:35:41.091Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-21T09:35:41.091Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-curved-gaming-monitor-g34wqi-34″"}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-22T13:25:47.270Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T13:25:51.987Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T13:25:51.988Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13200,"nextIndex":13280,"remaining":7435,"httpFailures":{}}
+{"t":"2026-06-22T13:25:59.926Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13280,"batchSize":80,"total":20715}
+{"t":"2026-06-22T13:26:07.396Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T13:26:11.848Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T13:26:15.506Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T13:26:20.485Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T13:26:25.083Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T13:26:29.808Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T13:26:33.684Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T13:26:33.685Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13280,"nextIndex":13360,"remaining":7355,"httpFailures":{}}
