@@ -1,12 +1,3 @@
-{"t":"2026-06-20T20:35:51.123Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Toshiba Desktop HDD","Desktop HDD"]}
-{"t":"2026-06-20T20:35:51.151Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-omen-qhd-gaming-monitor-32q-31-5%e2%80%b3-165hz","searchTerms":["HP Omen QHD Gaming Monitor 32q 31.5″ 165Hz"]}
-{"t":"2026-06-20T20:35:51.151Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Omen QHD Gaming Monitor 32q 165Hz","Omen QHD Gaming Monitor 32q 165Hz","HP Omen QHD Gaming"]}
-{"t":"2026-06-20T20:35:51.860Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Omen QHD Gaming Monitor 32q 165Hz","items":0,"names":[]}
-{"t":"2026-06-20T20:35:51.950Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Passport USB 3.2","items":0,"names":[]}
-{"t":"2026-06-20T20:35:52.370Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Toshiba Desktop HDD","items":0,"names":[]}
-{"t":"2026-06-20T20:35:52.579Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Passport USB 3.2","items":0,"names":[]}
-{"t":"2026-06-20T20:35:52.702Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Omen QHD Gaming Monitor 32q 165Hz","items":0,"names":[]}
-{"t":"2026-06-20T20:35:53.425Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Desktop HDD","items":0,"names":[]}
 {"t":"2026-06-20T20:35:53.510Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Omen QHD Gaming","items":0,"names":[]}
 {"t":"2026-06-20T20:35:55.830Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-20T20:35:59.910Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
@@ -4998,3 +4989,12 @@
 {"t":"2026-06-22T11:41:03.560Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T11:41:06.090Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T11:41:06.090Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1200,"nextIndex":1280,"remaining":19435,"httpFailures":{}}
+{"t":"2026-06-22T11:41:13.521Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1280,"batchSize":80,"total":20715}
+{"t":"2026-06-22T11:41:17.476Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-06-22T11:41:21.113Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-06-22T11:41:27.436Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-06-22T11:41:32.196Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-06-22T11:41:34.985Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-06-22T11:41:37.414Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-06-22T11:41:39.670Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-06-22T11:41:39.670Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1280,"nextIndex":1360,"remaining":19355,"httpFailures":{}}
