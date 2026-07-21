@@ -1,29 +1,3 @@
-{"t":"2026-06-22T11:37:49.862Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":880,"nextIndex":960,"remaining":19755,"httpFailures":{}}
-{"t":"2026-06-22T11:37:56.997Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":960,"batchSize":80,"total":20715}
-{"t":"2026-06-22T11:38:01.024Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T11:38:01.043Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-xiaomi-monitor-a24i-23-8%e2%80%b3","searchTerms":["Xiaomi Monitor A24i 23.8″"]}
-{"t":"2026-06-22T11:38:01.043Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-monitor-a24i-23-8%e2%80%b3"}
-{"t":"2026-06-22T11:38:03.210Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T11:38:03.210Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-monitor-a24i-23-8″"}
-{"t":"2026-06-22T11:38:03.787Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T11:38:03.787Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Xiaomi Monitor A24i","Monitor A24i"]}
-{"t":"2026-06-22T11:38:05.224Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Xiaomi Monitor A24i","items":1,"names":["Xiaomi Monitor A24i 23.8″"]}
-{"t":"2026-06-22T11:38:05.224Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Xiaomi Monitor A24i 23.8″","score":2.3684210526315788}]}
-{"t":"2026-06-22T11:38:09.085Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T11:38:14.453Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T11:38:19.127Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T11:38:26.599Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T11:38:31.158Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T11:38:35.768Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T11:38:35.768Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":960,"nextIndex":1040,"remaining":19675,"httpFailures":{}}
-{"t":"2026-06-22T11:38:43.185Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1040,"batchSize":80,"total":20715}
-{"t":"2026-06-22T11:38:48.588Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T11:38:53.284Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T11:38:59.141Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T11:39:06.655Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T11:39:06.763Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-core-5","searchTerms":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Core™ 5"]}
-{"t":"2026-06-22T11:39:06.763Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27%e2%80%b3-16gb-512gb-ssd-core-5"}
-{"t":"2026-06-22T11:39:08.536Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-22T11:39:08.536Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27″-16gb-512gb-ssd-core-5"}
 {"t":"2026-06-22T11:39:11.339Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-22T11:39:11.339Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
@@ -4998,3 +4972,29 @@
 {"t":"2026-07-21T19:44:17.238Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T19:44:22.178Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T19:44:22.178Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16400,"nextIndex":16480,"remaining":6470,"httpFailures":{}}
+{"t":"2026-07-21T19:44:31.914Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16480,"batchSize":80,"total":22950}
+{"t":"2026-07-21T19:44:38.898Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T19:44:39.088Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-thinkpad-x13-gen-5-13%e2%80%b3-touch-16gb-1tb-ssd-core-ultra-7","searchTerms":["Lenovo ThinkPad X13 Gen 5, 13″ Touch, 16GB, 1TB SSD, Core™ Ultra 7"]}
+{"t":"2026-07-21T19:44:39.088Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-x13-gen-5-13%e2%80%b3-touch-16gb-1tb-ssd-core-ultra-7"}
+{"t":"2026-07-21T19:44:40.662Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T19:44:40.662Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-x13-gen-5-13″-touch-16gb-1tb-ssd-core-ultra-7"}
+{"t":"2026-07-21T19:44:41.906Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T19:44:41.906Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo ThinkPad X13 Gen 5","ThinkPad X13 Gen 5","Lenovo ThinkPad X13 Gen"]}
+{"t":"2026-07-21T19:44:43.205Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad X13 Gen 5","items":0,"names":[]}
+{"t":"2026-07-21T19:44:43.987Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ThinkPad X13 Gen 5","items":0,"names":[]}
+{"t":"2026-07-21T19:44:44.603Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad X13 Gen","items":0,"names":[]}
+{"t":"2026-07-21T19:44:46.203Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T19:44:52.573Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T19:44:58.578Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T19:44:58.610Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-sony-ps5-metal-gear-solid-%ce%b4-snake-eater","searchTerms":["Sony PS5 Metal Gear Solid Δ: Snake Eater"]}
+{"t":"2026-07-21T19:44:58.610Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"sony-ps5-metal-gear-solid-%ce%b4-snake-eater"}
+{"t":"2026-07-21T19:45:00.470Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T19:45:00.470Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"sony-ps5-metal-gear-solid-δ-snake-eater"}
+{"t":"2026-07-21T19:45:01.392Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T19:45:01.392Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Sony PS5 Metal Gear Solid Δ: Snake Eater","PS5 Metal Gear Solid Δ: Snake Eater","Sony PS5 Metal Gear"]}
+{"t":"2026-07-21T19:45:02.152Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Sony PS5 Metal Gear Solid Δ: Snake Eater","items":1,"names":["Sony PS5 Metal Gear Solid Δ: Snake Eater"]}
+{"t":"2026-07-21T19:45:02.153Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Sony PS5 Metal Gear Solid Δ: Snake Eater","score":8}]}
+{"t":"2026-07-21T19:45:03.973Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T19:45:07.330Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T19:45:10.844Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T19:45:10.845Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16480,"nextIndex":16560,"remaining":6390,"httpFailures":{}}
