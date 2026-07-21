@@ -1,44 +1,3 @@
-{"t":"2026-06-21T10:57:26.598Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T10:57:33.578Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T10:57:40.274Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T10:57:46.806Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T10:57:49.532Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T10:57:49.532Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":10720,"nextIndex":10800,"remaining":9915,"httpFailures":{}}
-{"t":"2026-06-21T10:57:55.940Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":10800,"batchSize":80,"total":20715}
-{"t":"2026-06-21T10:58:00.438Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T10:58:05.089Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T10:58:10.883Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T10:58:17.248Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T10:58:22.787Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T10:58:28.375Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T10:58:33.967Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T10:58:33.968Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":10800,"nextIndex":10880,"remaining":9835,"httpFailures":{}}
-{"t":"2026-06-21T10:58:40.129Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":10880,"batchSize":80,"total":20715}
-{"t":"2026-06-21T10:58:46.517Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T10:58:52.375Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T10:58:57.566Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T10:59:02.207Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T10:59:06.824Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T10:59:12.205Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T10:59:17.529Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T10:59:17.529Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":10880,"nextIndex":10960,"remaining":9755,"httpFailures":{}}
-{"t":"2026-06-21T10:59:24.215Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":10960,"batchSize":80,"total":20715}
-{"t":"2026-06-21T10:59:28.738Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T10:59:32.588Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T10:59:37.214Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T10:59:41.014Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T10:59:44.189Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T10:59:47.735Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T10:59:52.688Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T10:59:52.688Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":10960,"nextIndex":11040,"remaining":9675,"httpFailures":{}}
-{"t":"2026-06-21T10:59:59.418Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":11040,"batchSize":80,"total":20715}
-{"t":"2026-06-21T11:00:05.726Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T11:00:11.079Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T11:00:16.007Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T11:00:20.554Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T11:00:25.565Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T11:00:30.086Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T11:00:33.891Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T11:00:33.891Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":11040,"nextIndex":11120,"remaining":9595,"httpFailures":{}}
 {"t":"2026-06-21T11:00:39.976Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":11120,"batchSize":80,"total":20715}
 {"t":"2026-06-21T11:00:45.894Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
@@ -4998,3 +4957,44 @@
 {"t":"2026-07-21T17:34:06.155Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IronWolf HDD","items":0,"names":[]}
 {"t":"2026-07-21T17:34:12.497Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T17:34:12.497Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7760,"nextIndex":7840,"remaining":15110,"httpFailures":{}}
+{"t":"2026-07-21T17:34:20.564Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7840,"batchSize":80,"total":22950}
+{"t":"2026-07-21T17:34:30.037Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T17:34:41.324Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T17:34:41.330Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-a100-23-8%e2%80%b3-fhd-i3-n305","searchTerms":["Lenovo A100 23.8″ FHD i3-N305"]}
+{"t":"2026-07-21T17:34:41.330Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo A100 FHD i3-N305","A100 FHD i3-N305"]}
+{"t":"2026-07-21T17:34:41.335Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-i5-13420h","searchTerms":["Lenovo IdeaCentre 23.8″ FHD i5-13420H"]}
+{"t":"2026-07-21T17:34:41.335Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre FHD i5-13420H","IdeaCentre FHD i5-13420H"]}
+{"t":"2026-07-21T17:34:41.343Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-i3-n300","searchTerms":["HP ProOne 240 G10 23.8″ Intel i3-N300"]}
+{"t":"2026-07-21T17:34:41.343Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ProOne 240 G10 Intel i3-N300","ProOne 240 G10 Intel i3-N300","HP ProOne 240 G10"]}
+{"t":"2026-07-21T17:34:41.683Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo A100 FHD i3-N305","items":0,"names":[]}
+{"t":"2026-07-21T17:34:41.999Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre FHD i5-13420H","items":0,"names":[]}
+{"t":"2026-07-21T17:34:42.445Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ProOne 240 G10 Intel i3-N300","items":0,"names":[]}
+{"t":"2026-07-21T17:34:43.911Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"A100 FHD i3-N305","items":0,"names":[]}
+{"t":"2026-07-21T17:34:44.294Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaCentre FHD i5-13420H","items":0,"names":[]}
+{"t":"2026-07-21T17:34:44.841Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ProOne 240 G10 Intel i3-N300","items":0,"names":[]}
+{"t":"2026-07-21T17:34:46.985Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ProOne 240 G10","items":1,"names":["HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U"]}
+{"t":"2026-07-21T17:34:46.985Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U","score":0}]}
+{"t":"2026-07-21T17:34:53.447Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T17:34:53.469Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-icore-5-210h","searchTerms":["Lenovo IdeaCentre 23.8″ FHD iCore 5 210H"]}
+{"t":"2026-07-21T17:34:53.469Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre FHD iCore 5 210H","IdeaCentre FHD iCore 5 210H","Lenovo IdeaCentre FHD iCore"]}
+{"t":"2026-07-21T17:34:53.493Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-27-cr1011na-27%e2%80%b3-intel-core-ultra-5-125u","searchTerms":["HP 27-cr1011na 27″ Intel® Core™ Ultra 5 125U"]}
+{"t":"2026-07-21T17:34:53.493Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP 27-cr1011na Intel Core Ultra 5 125U","27-cr1011na Intel Core Ultra 5 125U","HP 27-cr1011na Intel Core"]}
+{"t":"2026-07-21T17:34:53.508Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-27%e2%80%b3-qhd-i7-13620h","searchTerms":["Lenovo IdeaCentre 27″ QHD i7-13620H"]}
+{"t":"2026-07-21T17:34:53.508Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre QHD i7-13620H","IdeaCentre QHD i7-13620H"]}
+{"t":"2026-07-21T17:34:54.334Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre FHD iCore 5 210H","items":0,"names":[]}
+{"t":"2026-07-21T17:34:55.183Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP 27-cr1011na Intel Core Ultra 5 125U","items":0,"names":[]}
+{"t":"2026-07-21T17:34:55.925Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre QHD i7-13620H","items":0,"names":[]}
+{"t":"2026-07-21T17:34:56.532Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaCentre FHD iCore 5 210H","items":0,"names":[]}
+{"t":"2026-07-21T17:34:57.346Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"27-cr1011na Intel Core Ultra 5 125U","items":0,"names":[]}
+{"t":"2026-07-21T17:34:57.987Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaCentre QHD i7-13620H","items":0,"names":[]}
+{"t":"2026-07-21T17:34:58.553Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre FHD iCore","items":0,"names":[]}
+{"t":"2026-07-21T17:34:59.299Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP 27-cr1011na Intel Core","items":0,"names":[]}
+{"t":"2026-07-21T17:35:04.213Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T17:35:04.256Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-27%e2%80%b3-qhd-i9-13900h","searchTerms":["Lenovo IdeaCentre 27″ QHD i9-13900H"]}
+{"t":"2026-07-21T17:35:04.256Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre QHD i9-13900H","IdeaCentre QHD i9-13900H"]}
+{"t":"2026-07-21T17:35:06.383Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre QHD i9-13900H","items":0,"names":[]}
+{"t":"2026-07-21T17:35:08.282Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaCentre QHD i9-13900H","items":0,"names":[]}
+{"t":"2026-07-21T17:35:16.036Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T17:35:27.237Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T17:35:35.460Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T17:35:35.461Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7840,"nextIndex":7920,"remaining":15030,"httpFailures":{}}
