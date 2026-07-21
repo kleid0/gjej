@@ -51,7 +51,7 @@ export default function VariantSelector({
                   /* Minimum 44×44px touch target for mobile (WCAG 2.5.5) */
                   className={`w-11 h-11 rounded-full border-2 transition-all relative flex items-center justify-center ${
                     active
-                      ? "border-orange-500 shadow-md scale-110"
+                      ? "border-ink shadow-md scale-110"
                       : "border-gray-200 hover:border-gray-400 hover:scale-105"
                   }`}
                   style={{ backgroundColor: c.hex }}
@@ -90,7 +90,7 @@ export default function VariantSelector({
                   /* min-h-11 ensures ≥44px touch target on mobile */
                   className={`px-4 min-h-11 rounded-lg text-sm font-semibold border-2 transition-all ${
                     active
-                      ? "border-orange-500 bg-orange-50 text-orange-700"
+                      ? "border-ink bg-paper-deep text-tomato-deep"
                       : "border-gray-200 text-gray-600 hover:border-gray-400 hover:bg-gray-50"
                   }`}
                 >

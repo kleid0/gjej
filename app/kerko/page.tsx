@@ -77,7 +77,7 @@ export default async function KerkoPage({ searchParams }: Props) {
     <div className="max-w-7xl mx-auto px-4 py-6">
       {/* Breadcrumb */}
       <nav className="text-xs text-gray-400 mb-3 flex items-center gap-1 flex-wrap">
-        <Link href="/" className="hover:text-orange-600">
+        <Link href="/" className="hover:text-tomato">
           Kryefaqja
         </Link>
         {category && (
@@ -85,7 +85,7 @@ export default async function KerkoPage({ searchParams }: Props) {
             <span>/</span>
             <Link
               href={`/kerko?kat=${category.id}`}
-              className="hover:text-orange-600"
+              className="hover:text-tomato"
             >
               {category.name}
             </Link>
@@ -119,7 +119,7 @@ export default async function KerkoPage({ searchParams }: Props) {
         <div className="flex flex-wrap gap-2 mb-5">
           <Link
             href="/kerko"
-            className="text-xs px-3 py-1.5 rounded-full border font-medium bg-orange-600 text-white border-orange-600"
+            className="text-xs px-3 py-1.5 rounded-full border font-medium bg-ink text-white text-white border-ink"
           >
             Te gjitha
           </Link>
@@ -131,7 +131,7 @@ export default async function KerkoPage({ searchParams }: Props) {
                   ? `/kerko?q=${encodeURIComponent(query)}&kat=${c.id}`
                   : `/kerko?kat=${c.id}`
               }
-              className="text-xs px-3 py-1.5 rounded-full border font-medium bg-white text-gray-600 border-gray-200 hover:border-orange-300 transition-colors"
+              className="text-xs px-3 py-1.5 rounded-full border font-medium bg-white text-gray-600 border-gray-200 hover:border-ink transition-colors"
             >
               {c.icon} {c.name}
             </Link>

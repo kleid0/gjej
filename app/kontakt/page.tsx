@@ -10,7 +10,7 @@ export default function KontaktPage() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">
       <nav className="text-xs text-gray-400 mb-6 flex items-center gap-1">
-        <Link href="/" className="hover:text-orange-600">Kryefaqja</Link>
+        <Link href="/" className="hover:text-tomato">Kryefaqja</Link>
         <span>/</span>
         <span className="text-gray-600">Na kontaktoni</span>
       </nav>
@@ -24,7 +24,7 @@ export default function KontaktPage() {
           <p className="text-sm text-gray-500 mb-2">Për pyetje të përgjithshme dhe sugjerime:</p>
           <a
             href="mailto:info@gjej.al"
-            className="text-orange-600 font-medium hover:underline text-sm"
+            className="text-tomato font-medium hover:underline text-sm"
           >
             info@gjej.al
           </a>
@@ -38,7 +38,7 @@ export default function KontaktPage() {
           </p>
           <a
             href="mailto:info@gjej.al?subject=Problem me cmimin"
-            className="inline-block mt-3 text-sm text-orange-600 font-medium hover:underline"
+            className="inline-block mt-3 text-sm text-tomato font-medium hover:underline"
           >
             Raporto problem →
           </a>
@@ -52,7 +52,7 @@ export default function KontaktPage() {
           </p>
           <a
             href="mailto:info@gjej.al?subject=Partneritet"
-            className="inline-block mt-3 text-sm text-orange-600 font-medium hover:underline"
+            className="inline-block mt-3 text-sm text-tomato font-medium hover:underline"
           >
             Na shkruani →
           </a>

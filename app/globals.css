@@ -13,10 +13,16 @@ html {
   }
 }
 
+/* ── "Pika" design system ──────────────────────────────────────────
+   Warm paper ground, thick ink outlines, hard offset shadows,
+   sun-yellow price stickers, tomato deal accents, leaf-green wins. */
 :root {
-  --orange: #f57c00;
-  --orange-dark: #e65100;
-  --orange-light: #fff3e0;
+  --ink: #1a1a1a;
+  --paper: #fff8ef;
+  --paper-deep: #fff3e2;
+  --sun: #ffd84d;
+  --tomato: #e63b2e;
+  --leaf: #1f9d55;
 }
 
 /* Admin layout: hide public chrome */
@@ -28,36 +34,43 @@ body:has(.admin-layout) > footer {
 }
 
 body {
-  @apply bg-gray-50 text-gray-900;
+  @apply bg-paper text-ink;
 }
 
+/* Primary action: sun-yellow pill with ink outline + hard shadow.
+   (Class name kept from the orange era so call sites don't churn.) */
 .btn-orange {
-  @apply bg-orange-600 hover:bg-orange-700 text-white font-semibold px-4 py-2 rounded transition-colors;
+  @apply bg-sun hover:bg-sun-deep text-ink font-bold px-4 py-2 rounded-full border-2 border-ink shadow-pika-sm hover:shadow-pika hover:-translate-y-0.5 transition-all;
 }
 
 .card {
-  @apply bg-white rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow;
+  @apply bg-white rounded-2xl border-2 border-ink shadow-pika-sm hover:shadow-pika hover:-translate-y-0.5 transition-all;
 }
 
 .price-tag {
-  @apply text-orange-600 font-bold;
+  @apply text-ink font-extrabold;
+}
+
+/* Tilted price sticker for hero/card prices. */
+.sticker {
+  @apply inline-block bg-sun text-ink font-extrabold px-2 py-0.5 rounded-md -rotate-1;
 }
 
 .badge-in-stock {
-  @apply bg-green-100 text-green-700 text-xs font-semibold px-2 py-0.5 rounded-full;
+  @apply bg-leaf text-white text-xs font-bold px-2 py-0.5 rounded-full;
 }
 
 .badge-out-of-stock {
-  @apply bg-red-100 text-red-700 text-xs font-semibold px-2 py-0.5 rounded-full;
+  @apply bg-tomato text-white text-xs font-bold px-2 py-0.5 rounded-full;
 }
 
 .badge-unknown {
-  @apply bg-gray-100 text-gray-500 text-xs font-semibold px-2 py-0.5 rounded-full;
+  @apply bg-sand text-clay text-xs font-bold px-2 py-0.5 rounded-full;
 }
 
 /* Custom form controls */
 input[type="checkbox"] {
-  accent-color: #f57c00;
+  accent-color: #1a1a1a;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
