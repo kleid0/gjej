@@ -41,11 +41,37 @@ function normBrand(brand: string): string {
  * Build a normalised fusion key for a product.
  * Products that should be considered the same will produce the same key.
  */
+// Tokens inside a trailing parenthetical that mark a REAL product difference,
+// not a finish: connectivity, SIM, regions, tiers, refurb state, bundles.
+const PAREN_PRODUCT_TOKENS = new Set([
+  "wi", "fi", "wifi", "cellular", "lte", "5g", "4g", "3g", "gen",
+  "dual", "sim", "esim", "refurbished", "renewed", "outlet", "demo",
+  "bundle", "pack", "edition", "eu", "us", "uk", "global",
+  "pro", "max", "plus", "mini", "lite",
+]);
+
 export function fusionKey(p: Product): string {
   let cleaned = p.family;
 
   // Strip store-specific prefixes
   cleaned = cleaned.replace(STORE_PREFIXES, "");
+
+  // Colour/finish parentheticals: manufacturers invent colour names faster
+  // than any vocabulary can chase ("(Jasper Plum)", "(Ceramic Pink/Rose
+  // Gold)"), so the COLOURS list below can't catch them all. Strip a
+  // TRAILING parenthetical when it reads as a finish: 1-4 purely-alphabetic
+  // tokens, no digits (keeps "(2024)", "(128GB)"), and no product-signal
+  // token (keeps "(Wi-Fi + Cellular)", "(Dual SIM)", "(Refurbished)").
+  const paren = cleaned.match(/\(([^()]{2,40})\)\s*$/);
+  if (paren) {
+    const tokens = paren[1].toLowerCase().split(/[^a-zëç]+/).filter(Boolean);
+    const isFinish =
+      tokens.length > 0 &&
+      tokens.length <= 4 &&
+      !/\d/.test(paren[1]) &&
+      tokens.every((t) => !PAREN_PRODUCT_TOKENS.has(t));
+    if (isFinish) cleaned = cleaned.slice(0, paren.index).trim();
+  }
 
   // Strip colours
   cleaned = cleaned.replace(COLOURS, "");
@@ -66,6 +92,11 @@ export function fusionKey(p: Product): string {
   if (SCREEN_SIZE_VARIANT_CATEGORIES.has(p.category)) {
     cleaned = cleaned.replace(/\b\d+([.,]\d+)?\s*["″'']\s*/g, "");
   }
+
+  // Within a trailing parenthetical a " + " is a spec, not a bundle separator
+  // ("iPad Air (Wi-Fi + Cellular)") — collapse it so the bundle strip below
+  // doesn't drop "Cellular" and wrongly fuse it with the Wi-Fi-only model.
+  cleaned = cleaned.replace(/\(([^()]*)\)\s*$/, (m) => m.replace(/\s*\+\s*/g, "+"));
 
   // Bundle noise: strip " + <addon>" only when the "+" appears late in the
   // name (word index >= 3), indicating a bundle add-on like "Switch 2 + Mario Kart".
