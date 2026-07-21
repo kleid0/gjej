@@ -1,12 +1,3 @@
-{"t":"2026-06-21T10:38:15.477Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-iiyama-prolite-monitor-touch-27%e2%80%b3-t2755msc","searchTerms":["iiyama ProLite Monitor Touch 27″ T2755MSC"]}
-{"t":"2026-06-21T10:38:15.477Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["iiyama ProLite Monitor Touch T2755MSC","iiyama ProLite Monitor Touch"]}
-{"t":"2026-06-21T10:38:16.321Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"iiyama ProLite Monitor Touch T2755MSC","items":0,"names":[]}
-{"t":"2026-06-21T10:38:16.862Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"iiyama ProLite Monitor Touch","items":0,"names":[]}
-{"t":"2026-06-21T10:38:20.341Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T10:38:20.389Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-ultrasharp-u4919dw-49%e2%80%b3-dqhd","searchTerms":["Dell Monitor Curved U4924DW 49″ DQHD"]}
-{"t":"2026-06-21T10:38:20.389Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell Monitor Curved U4924DW DQHD","Monitor Curved U4924DW DQHD","Dell Monitor Curved U4924DW"]}
-{"t":"2026-06-21T10:38:22.281Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Monitor Curved U4924DW DQHD","items":0,"names":[]}
-{"t":"2026-06-21T10:38:23.277Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor Curved U4924DW DQHD","items":0,"names":[]}
 {"t":"2026-06-21T10:38:24.033Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Monitor Curved U4924DW","items":0,"names":[]}
 {"t":"2026-06-21T10:38:25.643Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
 {"t":"2026-06-21T10:38:31.483Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T16:35:15.292Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T16:35:22.129Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T16:35:22.129Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3840,"nextIndex":3920,"remaining":19030,"httpFailures":{}}
+{"t":"2026-07-21T16:35:30.721Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":3920,"batchSize":80,"total":22950}
+{"t":"2026-07-21T16:35:36.748Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T16:35:43.462Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T16:35:50.509Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T16:35:57.687Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T16:36:05.923Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T16:36:16.068Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T16:36:20.137Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T16:36:20.138Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3920,"nextIndex":4000,"remaining":18950,"httpFailures":{}}
