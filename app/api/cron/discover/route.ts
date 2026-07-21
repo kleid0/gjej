@@ -13,9 +13,11 @@ import {
   DISCOVERED_PRODUCTS_FILE,
   DISCOVERY_LOG_FILE,
   CATALOGUE_STATE_FILE,
+  USAGE_STATS_FILE,
 } from "@/src/infrastructure/persistence/paths";
 import { createLogger } from "@/src/infrastructure/logging/logger";
 import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
+import { recordInvocation } from "@/src/infrastructure/usage/usageTracker";
 
 export const maxDuration = 300;
 
@@ -27,6 +29,7 @@ const log = createLogger("cron/discover");
 // (not seen on any store for 30+ days), and logs the daily summary. All
 // touched JSON files get persisted to GitHub in a single commit at the end.
 export async function GET(req: NextRequest) {
+  const invocationStart = Date.now();
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -38,6 +41,7 @@ export async function GET(req: NextRequest) {
     DISCOVERED_PRODUCTS_FILE,
     DISCOVERY_LOG_FILE,
     CATALOGUE_STATE_FILE,
+    USAGE_STATS_FILE,
   ]);
 
   const { discovered, total, fused } = await catalogDiscovery.run();
@@ -60,6 +64,7 @@ export async function GET(req: NextRequest) {
 
   log.info("run complete", { discovered, total, fused, discontinued });
 
+  await recordInvocation(Date.now() - invocationStart);
   await flushLogsToGit();
   let commitSha: string | null = null;
   try {

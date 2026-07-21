@@ -1,3 +1,23 @@
+# Shpresa 403 Mitigation (2026-06-20) — SHIPPED PENDING VERIFICATION
+Follow-up to the logging work below. The httpFailures tally (PR #59) measured
+shpresa.al 403-ing ~9% of lookups (432/4800), starting only after ~20 min of
+sustained scraping — rate-limiting under the cron's 12-way bursts, not a hard
+block.
+
+Fix (`src/infrastructure/scrapers/storeHttp.ts`):
+- Per-store throttle: shpresa capped at 3 concurrent requests with a 150 ms
+  gap between request starts (requests are latency-bound, so this smooths
+  bursts without meaningfully slowing the run — GHA's 350-min cap was the
+  constraint against heavier throttling).
+- One backoff-retry (1.5 s) on 403; recoveries tallied as
+  `shpresa:403-recovered` in the run-complete log.
+- Tally moved from PriceScraper to storeHttp (re-exported, callers unchanged);
+  variation-fetch and slug-inference catches now also record failures.
+
+Verify by comparing `httpFailures` in data/logs/events.ndjson before/after the
+deploy: expect `shpresa:403` to drop toward 0 and `shpresa:403-recovered` to
+absorb the transient ones.
+
 # Draconian Logging (2026-06-20) — PLAN / IN PROGRESS
 Branch: `claude/sweet-newton-9iueew`. Goal: comprehensive structured logging
 that (a) Claude can read back later and (b) stays inside Vercel Hobby limits.

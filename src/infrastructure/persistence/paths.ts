@@ -20,6 +20,9 @@ export const STORE_MAPPINGS_FILE = path.join(DATA_DIR, "store-mappings.json");
 export const SERVICE_PROBES_FILE = path.join(DATA_DIR, "service-probes.json");
 export const CATALOGUE_STATE_FILE = path.join(DATA_DIR, "catalogue-state.json");
 
+// Self-metered Vercel usage estimate (see usage/usageTracker.ts).
+export const USAGE_STATS_FILE = path.join(DATA_DIR, "usage-stats.json");
+
 // Structured application log, NDJSON (one JSON object per line). Written by the
 // logging git sink and committed to GitHub on the back of the cron's existing
 // chore(data): commit. .ndjson (not .log) so it isn't caught by .gitignore.
