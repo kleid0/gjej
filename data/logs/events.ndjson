@@ -1,12 +1,3 @@
-{"t":"2026-06-21T10:37:07.318Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T10:37:09.621Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T10:37:09.625Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-passport-2-5%e2%80%b3-usb-3-2-1tb","searchTerms":["WD Passport 2.5″ USB 3.2 1TB"]}
-{"t":"2026-06-21T10:37:09.625Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Passport USB 3.2","Passport USB 3.2"]}
-{"t":"2026-06-21T10:37:09.671Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-toshiba-desktop-hdd-3-5%e2%80%b3-500-gb","searchTerms":["Toshiba Desktop HDD 3.5″ 500 GB"]}
-{"t":"2026-06-21T10:37:09.671Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Toshiba Desktop HDD","Desktop HDD"]}
-{"t":"2026-06-21T10:37:09.723Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-omen-qhd-gaming-monitor-32q-31-5%e2%80%b3-165hz","searchTerms":["HP Omen QHD Gaming Monitor 32q 31.5″ 165Hz"]}
-{"t":"2026-06-21T10:37:09.723Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Omen QHD Gaming Monitor 32q 165Hz","Omen QHD Gaming Monitor 32q 165Hz","HP Omen QHD Gaming"]}
-{"t":"2026-06-21T10:37:09.772Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"WD Passport USB 3.2","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
 {"t":"2026-06-21T10:37:09.811Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"Toshiba Desktop HDD","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
 {"t":"2026-06-21T10:37:09.838Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"HP Omen QHD Gaming Monitor 32q 165Hz","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
 {"t":"2026-06-21T10:37:09.893Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"Passport USB 3.2","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T16:25:13.981Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T16:25:18.618Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T16:25:18.618Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3120,"nextIndex":3200,"remaining":19750,"httpFailures":{}}
+{"t":"2026-07-21T16:25:26.288Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":3200,"batchSize":80,"total":22950}
+{"t":"2026-07-21T16:25:34.900Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T16:25:41.523Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T16:25:51.050Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T16:26:00.365Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T16:26:11.675Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T16:26:22.503Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T16:26:29.891Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T16:26:29.891Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3200,"nextIndex":3280,"remaining":19670,"httpFailures":{}}
