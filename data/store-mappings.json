@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T17:38:01.422Z",
+  "updatedAt": "2026-07-21T17:39:28.506Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -401,12 +401,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300041915/Procesor-AMD-Ryzen-7-7800X3D",
       "storeProductName": "Procesor AMD Ryzen 7 -7800X3D",
-      "catalogueProductId": "shpresa-processor-amd-ryzen-7-9700x-tray",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-7-9850x3d",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:33.825Z",
-      "updatedAt": "2026-07-21T15:53:29.329Z"
+      "updatedAt": "2026-07-21T17:39:11.767Z"
     },
     "foleja:/KST-200017581/Procesor-Intel-Core-Ultra-5-235-FCLGA1851-5-GHz": {
       "storeId": "foleja",
@@ -4086,12 +4086,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/SSD-SAMSUNG-990-PRO-NVMe-1TB-HD00197",
       "storeProductName": "SSD SAMSUNG 990 PRO NVMe 1TB",
-      "catalogueProductId": "pcstore-samsung-990-pro-ssd-4tb-nvme",
+      "catalogueProductId": "pcstore-samsung-990-pro-ssd-1tb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:20:29.839Z",
-      "updatedAt": "2026-07-21T17:37:19.646Z"
+      "updatedAt": "2026-07-21T17:39:11.767Z"
     },
     "neptun:/categories/SSD-SAMSUNG-EVO-870-500GB-INTERNAL-HD00153": {
       "storeId": "neptun",
@@ -4922,12 +4922,12 @@
       "storeId": "globe",
       "storeProductId": "71624",
       "storeProductName": "Tablet Lenovo Tab M8 4th Gen 3/32GB 8\" LTE Arctic Grey",
-      "catalogueProductId": "globe-71624",
+      "catalogueProductId": "pcstore-tablet-lenovo-m8-4th-gen-8-0-wi-fi-lte",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T16:27:59.558Z",
-      "updatedAt": "2026-07-21T16:48:53.884Z"
+      "updatedAt": "2026-07-21T17:39:02.114Z"
     },
     "foleja:/KST-200057769/S-Pen-Samsung-Galaxy-Tab-S8-e-zeze": {
       "storeId": "foleja",
@@ -8695,12 +8695,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200045655/Kompjuter-Lenovo-X1-Carbon-G13-Ultra7-32GB-1TB-14-2.8K-5G-i-zi",
       "storeProductName": "Kompjuter Lenovo X1 Carbon G13 Ultra7 32GB 1TB 14\" 2.8K 5G i zi",
-      "catalogueProductId": "pcstore-lenovo-x1-carbon-g13-aura_edition-core-ultra-7-258v",
+      "catalogueProductId": "pcstore-lenovo-x1-carbon-g11-14-2-8k-i7-1370p",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:49:43.821Z",
-      "updatedAt": "2026-07-21T17:34:41.002Z"
+      "updatedAt": "2026-07-21T17:38:29.473Z"
     },
     "foleja:/KST-200050801/Kompjuter-Lenovo-ThinkPad-T14-G6-CU7-255U-16GB-i-zi": {
       "storeId": "foleja",
@@ -9058,12 +9058,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/USB-SANDISK-ULTRA-DUAL-DRIVE-TYPE-C-128GB-FL1269",
       "storeProductName": "USB SANDISK ULTRA DUAL DRIVE LUXE TYPE-C 128GB",
-      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-1tb",
+      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-512gb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:24.022Z",
-      "updatedAt": "2026-07-21T17:36:35.224Z"
+      "updatedAt": "2026-07-21T17:38:40.609Z"
     },
     "foleja:/ACN-300260374/Skaner-Canon-CanoScan-LiDE-400-A4-USB-Type-C-Zi": {
       "storeId": "foleja",
@@ -9294,7 +9294,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:14.080Z",
-      "updatedAt": "2026-06-22T12:42:50.896Z"
+      "updatedAt": "2026-07-21T17:38:40.609Z"
     },
     "foleja:/AXR-200003139/headset-Plantronics-Poly-Blackwire-3220-8X228A6-stereo-me-mikrofon-boom-lidhje-USB-me-kabllo-e-zeze": {
       "storeId": "foleja",
@@ -9316,7 +9316,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:14.080Z",
-      "updatedAt": "2026-06-22T12:42:50.896Z"
+      "updatedAt": "2026-07-21T17:38:40.609Z"
     },
     "neptun:/categories/KARTE-MEMORIE-SAMSUNG-PRO-PLUS-MICROSD-512GB-KA0823": {
       "storeId": "neptun",
@@ -9327,7 +9327,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:14.080Z",
-      "updatedAt": "2026-06-22T12:42:50.896Z"
+      "updatedAt": "2026-07-21T17:38:40.609Z"
     },
     "foleja:/KST-200057388/Mikrofon-gaming-Logitech-Yeti-GX-Dynamic-RGB-LIGHTSYNC-off-white": {
       "storeId": "foleja",
@@ -9399,12 +9399,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200007578/Mini-PC-ASUS-NUC-14-Pro-Intel-Core-Ultra-9",
       "storeProductName": "Mini PC ASUS NUC 14 Pro+, Intel Core Ultra 9",
-      "catalogueProductId": "pcstore-asus-nuc-14-pro-intel-core-ultra-5-125h",
+      "catalogueProductId": "pcstore-asus-nuc-gen14-revel-canyon-intel-core-3-100u",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:21.930Z",
-      "updatedAt": "2026-06-22T12:45:31.363Z"
+      "updatedAt": "2026-07-21T17:39:21.930Z"
     },
     "foleja:/ACN-300256682/Kartele-grafike-ASUS-Dual-RTX-5060-Ti-8-GB-GDDR7-Gri": {
       "storeId": "foleja",
@@ -9426,18 +9426,18 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:21.930Z",
-      "updatedAt": "2026-06-22T12:43:07.082Z"
+      "updatedAt": "2026-07-21T17:39:21.930Z"
     },
     "neptun:/categories/MONITOR-HP-SERIES-5-524SW-94C21E9-MO0873": {
       "storeId": "neptun",
       "storeProductId": "/categories/MONITOR-HP-SERIES-5-524SW-94C21E9-MO0873",
       "storeProductName": "MONITOR HP SERIES 5 524SW 94C21E9",
-      "catalogueProductId": "pcstore-hp-monitor-5-524sw-23-8-white",
+      "catalogueProductId": "pcstore-hp-monitor-series-5-524sh-23-8-fhd",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:23.495Z",
-      "updatedAt": "2026-06-22T12:46:19.511Z"
+      "updatedAt": "2026-07-21T17:39:28.506Z"
     },
     "foleja:/AXR-200003142/Kufje-me-mikrofon-Poly-Plantronics-Blackwire-3320-8X219AA-me-kabllo-USB-C-stereo-kontroll-ne-kabllo-e-zeze": {
       "storeId": "foleja",
@@ -9459,7 +9459,7 @@
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:23.495Z",
-      "updatedAt": "2026-06-22T12:43:09.962Z"
+      "updatedAt": "2026-07-21T17:39:28.506Z"
     },
     "foleja:/KST-200014462/Ftohes-CPU-Chieftec-ICEBERG-240-ARGB-240mm": {
       "storeId": "foleja",
@@ -9707,12 +9707,12 @@
       "storeId": "shpresa",
       "storeProductId": "91338",
       "storeProductName": "Kingston DataTraveler Exodia USB Flash Drive",
-      "catalogueProductId": "albagame-usb-a-128gb-kingston-datatraveler-exodia-usb-3-2-gen1-flash-drive-dtx-128gb",
+      "catalogueProductId": "pcstore-kingston-datatraveler-exodia-256-gb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:52:14.681Z",
-      "updatedAt": "2026-06-22T13:50:20.964Z"
+      "updatedAt": "2026-07-21T17:39:02.114Z"
     },
     "foleja:/ACN-300048246/Skener-Epson-Perfection-V39II-i-zi": {
       "storeId": "foleja",
@@ -10070,12 +10070,12 @@
       "storeId": "shpresa",
       "storeProductId": "46050",
       "storeProductName": "SanDisk Ultra Dual Drive Luxe USB 3.1",
-      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-1tb",
+      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-512gb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:53:05.801Z",
-      "updatedAt": "2026-07-21T17:36:35.224Z"
+      "updatedAt": "2026-07-21T17:38:40.609Z"
     },
     "foleja:/ACN-300020761/USB-SanDisk-Ultra-Dual-Drive-Go-64GB-3.2-i-zi": {
       "storeId": "foleja",
@@ -11687,12 +11687,12 @@
       "storeId": "globe",
       "storeProductId": "205822",
       "storeProductName": "Router Wireless TP-LINK AX1500 ARCHER AX12",
-      "catalogueProductId": "pcstore-tp-link-wireless-n-4g-lte-router",
+      "catalogueProductId": "pcstore-tp-link-150mbps-wireless-n-nano-usb",
       "matchMethod": "name_match",
-      "confidence": 60,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T16:57:53.101Z",
-      "updatedAt": "2026-06-21T10:42:01.185Z"
+      "updatedAt": "2026-07-21T17:39:02.114Z"
     },
     "foleja:/ACN-300173286/Procesor-Intel-Core-Ultra-5-245KF-14-berthama-deri-ne-5.2-GHz": {
       "storeId": "foleja",
@@ -60868,12 +60868,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300036301/USB-SanDisk-Ultra-Dual-Drive-Luxe-3.2-Gen-1-128GB",
       "storeProductName": "USB SanDisk Ultra Dual Drive Luxe, 3.2 Gen 1,128GB",
-      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-1tb",
+      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-512gb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-07T08:16:00.910Z",
-      "updatedAt": "2026-07-21T17:36:35.224Z"
+      "updatedAt": "2026-07-21T17:38:40.609Z"
     },
     "foleja:/KST-200028165/Kartele-MicroSDHC-Sandisk-Max-Endurance-32-GB-e-bardhe": {
       "storeId": "foleja",
@@ -68051,12 +68051,12 @@
       "storeId": "globe",
       "storeProductId": "70986",
       "storeProductName": "USB Kingston DT Exodia 64GB USB 3.2",
-      "catalogueProductId": "globe-70986",
+      "catalogueProductId": "pcstore-kingston-datatraveler-exodia-256-gb",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-05-08T08:22:39.560Z",
-      "updatedAt": "2026-07-21T17:32:46.706Z"
+      "updatedAt": "2026-07-21T17:39:02.114Z"
     },
     "globe:70987": {
       "storeId": "globe",
@@ -70977,12 +70977,12 @@
       "storeId": "globe",
       "storeProductId": "217869",
       "storeProductName": "USB Sandisk 32GB Ultra Luxe SDCZ74-032G-G46",
-      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-1tb",
+      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-512gb",
       "matchMethod": "name_match",
       "confidence": 60,
       "status": "pending",
       "createdAt": "2026-05-12T08:27:12.442Z",
-      "updatedAt": "2026-07-21T17:36:35.224Z"
+      "updatedAt": "2026-07-21T17:38:40.609Z"
     },
     "foleja:/KST-200054780/Monitor-ASUS-ROG-Strix-XG27ACMS-27-QHD-HDMI-DP-i-zi": {
       "storeId": "foleja",
@@ -74942,7 +74942,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T09:35:58.100Z",
-      "updatedAt": "2026-06-22T12:42:55.792Z"
+      "updatedAt": "2026-07-21T17:38:50.585Z"
     },
     "foleja:/YLL-200001040/USB-Kingston-DataTraveler-Exodia-64GB": {
       "storeId": "foleja",
@@ -91668,12 +91668,12 @@
       "storeId": "foleja",
       "storeProductId": "/ERG-200002217/USB-Kingston-DataTraveler-Exodia-128GB-3.2",
       "storeProductName": "USB Kingston DataTraveler Exodia 128GB, 3.2",
-      "catalogueProductId": "globe-70986",
+      "catalogueProductId": "pcstore-kingston-datatraveler-exodia-256-gb",
       "matchMethod": "name_match",
-      "confidence": 80,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T17:32:46.706Z",
-      "updatedAt": "2026-07-21T17:32:46.706Z"
+      "updatedAt": "2026-07-21T17:39:02.114Z"
     },
     "globe:221522": {
       "storeId": "globe",
@@ -91883,6 +91883,83 @@
       "status": "pending",
       "createdAt": "2026-07-21T17:38:01.422Z",
       "updatedAt": "2026-07-21T17:38:01.422Z"
+    },
+    "foleja:/ABS-200001451/Monitor-gaming-Philips-Evnia-8000-32M2N8900-32-4K-UHD-QD-OLED-240Hz-0.03ms-i-bardhe": {
+      "storeId": "foleja",
+      "storeProductId": "/ABS-200001451/Monitor-gaming-Philips-Evnia-8000-32M2N8900-32-4K-UHD-QD-OLED-240Hz-0.03ms-i-bardhe",
+      "storeProductName": "Monitor gaming Philips Evnia 8000 32M2N8900 32\\\" 4K UHD QD-OLED 240Hz 0.03ms, i bardhë",
+      "catalogueProductId": "pcstore-gigabyte-kvm-gaming-monitor-qhd-27%e2%80%b3-240hz",
+      "matchMethod": "name_match",
+      "confidence": 60,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:38:29.473Z",
+      "updatedAt": "2026-07-21T17:38:29.473Z"
+    },
+    "foleja:/KST-200005905/Kamere-streaming-Razer-Kiyo-4-MP-Full-HD-60-fps-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200005905/Kamere-streaming-Razer-Kiyo-4-MP-Full-HD-60-fps-e-zeze",
+      "storeProductName": "Kamerë streaming Razer Kiyo, 4 MP, Full HD, 60 fps, e zezë",
+      "catalogueProductId": "pcstore-razer-kiyo-x-streaming",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:38:29.473Z",
+      "updatedAt": "2026-07-21T17:38:29.473Z"
+    },
+    "foleja:/MOR-200015366/Mikrofon-Logitech-G-Yeti-GX-988-000576-USB-USB-C-dinamik-superkardioid-me-RGB-i-bardhe": {
+      "storeId": "foleja",
+      "storeProductId": "/MOR-200015366/Mikrofon-Logitech-G-Yeti-GX-988-000576-USB-USB-C-dinamik-superkardioid-me-RGB-i-bardhe",
+      "storeProductName": "Mikrofon Logitech G Yeti GX 988-000576 USB/USB-C dinamik superkardioid me RGB i bardhë",
+      "catalogueProductId": "pcstore-logitech-yeti-gx-dynamic-rgb",
+      "matchMethod": "name_match",
+      "confidence": 80,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:38:40.609Z",
+      "updatedAt": "2026-07-21T17:38:40.609Z"
+    },
+    "foleja:/MOR-200023627/Ftohes-me-uje-AIO-Cooler-Master-MasterLiquid-Atmos-II-240-LCD-MLX-D24M-A25SZ-L1-radiator-240mm-2x120mm-ARGB": {
+      "storeId": "foleja",
+      "storeProductId": "/MOR-200023627/Ftohes-me-uje-AIO-Cooler-Master-MasterLiquid-Atmos-II-240-LCD-MLX-D24M-A25SZ-L1-radiator-240mm-2x120mm-ARGB",
+      "storeProductName": "Ftohës me ujë AIO Cooler Master MasterLiquid Atmos II 240 LCD (MLX-D24M-A25SZ-L1), radiator 240mm, 2x120mm ARGB",
+      "catalogueProductId": "pcstore-cooler-master-masterliquid-240l-core-argb-white",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:38:50.585Z",
+      "updatedAt": "2026-07-21T17:38:50.585Z"
+    },
+    "foleja:/ABS-200001320/Router-WiFi-ASUS-RT-AX53U-AX1800-WiFi-6-Dual-Band-3x-Gigabit-LAN-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/ABS-200001320/Router-WiFi-ASUS-RT-AX53U-AX1800-WiFi-6-Dual-Band-3x-Gigabit-LAN-i-zi",
+      "storeProductName": "Router WiFi ASUS RT-AX53U AX1800 WiFi 6 Dual-Band, 3x Gigabit LAN, i zi",
+      "catalogueProductId": "pcstore-asus-ax5700-gigabit-router-rt-ax86u",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:39:11.767Z",
+      "updatedAt": "2026-07-21T17:39:11.767Z"
+    },
+    "foleja:/YLL-200007193/Pllake-ame-ASUS-ROG-STRIX-B660-A-GAMING-WIFI-AMD-B650": {
+      "storeId": "foleja",
+      "storeProductId": "/YLL-200007193/Pllake-ame-ASUS-ROG-STRIX-B660-A-GAMING-WIFI-AMD-B650",
+      "storeProductName": "Pllakë amë ASUS ROG STRIX B660-A GAMING WIFI, AMD B650",
+      "catalogueProductId": "pcstore-asus-motherboard-rog-strix-x870-f-wi-fi-am5",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:39:11.767Z",
+      "updatedAt": "2026-07-21T17:39:11.767Z"
+    },
+    "foleja:/ABS-200000043/Kartele-grafike-PNY-GeForce-RTX-5060-Ti-8GB-GDDR7-Dual-Fan-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/ABS-200000043/Kartele-grafike-PNY-GeForce-RTX-5060-Ti-8GB-GDDR7-Dual-Fan-e-zeze",
+      "storeProductName": "Kartelë grafike PNY GeForce RTX 5060 Ti 8GB GDDR7 Dual Fan, e zezë",
+      "catalogueProductId": "pcstore-asus-nvidia-rtx-5060-ti-16gb",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:39:21.930Z",
+      "updatedAt": "2026-07-21T17:39:21.930Z"
     }
   }
 }

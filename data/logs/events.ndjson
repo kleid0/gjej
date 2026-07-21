@@ -1,22 +1,3 @@
-{"t":"2026-06-21T11:03:18.418Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":11360,"nextIndex":11440,"remaining":9275,"httpFailures":{}}
-{"t":"2026-06-21T11:03:24.979Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":11440,"batchSize":80,"total":20715}
-{"t":"2026-06-21T11:03:29.000Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T11:03:32.309Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T11:03:36.365Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T11:03:40.518Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T11:03:44.947Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T11:03:49.193Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T11:03:51.886Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T11:03:51.886Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":11440,"nextIndex":11520,"remaining":9195,"httpFailures":{}}
-{"t":"2026-06-21T11:03:58.153Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":11520,"batchSize":80,"total":20715}
-{"t":"2026-06-21T11:04:01.626Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T11:04:05.074Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T11:04:08.467Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T11:04:13.254Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T11:04:18.950Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T11:04:24.067Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T11:04:27.637Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T11:04:27.637Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":11520,"nextIndex":11600,"remaining":9115,"httpFailures":{}}
 {"t":"2026-06-21T11:04:33.789Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":11600,"batchSize":80,"total":20715}
 {"t":"2026-06-21T11:04:39.819Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
 {"t":"2026-06-21T11:04:44.150Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
@@ -4998,3 +4979,22 @@
 {"t":"2026-07-21T17:38:01.630Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T17:38:08.652Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T17:38:08.653Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8000,"nextIndex":8080,"remaining":14870,"httpFailures":{}}
+{"t":"2026-07-21T17:38:18.896Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8080,"batchSize":80,"total":22950}
+{"t":"2026-07-21T17:38:18.927Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-gigabyte-kvm-gaming-monitor-qhd-27%e2%80%b3-240hz","searchTerms":["Gigabyte KVM Gaming Monitor QHD 27″ 240Hz"]}
+{"t":"2026-07-21T17:38:18.927Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Gigabyte KVM Gaming Monitor QHD 240Hz","KVM Gaming Monitor QHD 240Hz","Gigabyte KVM Gaming Monitor"]}
+{"t":"2026-07-21T17:38:19.897Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Gigabyte KVM Gaming Monitor QHD 240Hz","items":0,"names":[]}
+{"t":"2026-07-21T17:38:22.308Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"KVM Gaming Monitor QHD 240Hz","items":0,"names":[]}
+{"t":"2026-07-21T17:38:24.140Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Gigabyte KVM Gaming Monitor","items":0,"names":[]}
+{"t":"2026-07-21T17:38:29.839Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T17:38:40.833Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T17:38:50.879Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T17:39:02.418Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T17:39:02.454Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-alienware-25%e2%80%b3-1ms-360hz-aw2523hf","searchTerms":["DELL Alienware 25″ 1ms 360Hz AW2523HF"]}
+{"t":"2026-07-21T17:39:02.454Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Alienware 1ms 360Hz AW2523HF","Alienware 1ms 360Hz AW2523HF","DELL Alienware 1ms 360Hz"]}
+{"t":"2026-07-21T17:39:02.981Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware 1ms 360Hz AW2523HF","items":0,"names":[]}
+{"t":"2026-07-21T17:39:05.344Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Alienware 1ms 360Hz AW2523HF","items":0,"names":[]}
+{"t":"2026-07-21T17:39:07.396Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware 1ms 360Hz","items":0,"names":[]}
+{"t":"2026-07-21T17:39:12.040Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T17:39:22.177Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T17:39:28.710Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T17:39:28.710Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8080,"nextIndex":8160,"remaining":14790,"httpFailures":{}}
