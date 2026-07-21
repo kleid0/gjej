@@ -1,12 +1,3 @@
-{"t":"2026-06-21T10:32:35.465Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IronWolf HDD","items":0,"names":[]}
-{"t":"2026-06-21T10:32:38.453Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T10:32:38.453Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7760,"nextIndex":7840,"remaining":12875,"httpFailures":{}}
-{"t":"2026-06-21T10:32:44.580Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7840,"batchSize":80,"total":20715}
-{"t":"2026-06-21T10:32:49.291Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T10:32:55.047Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T10:32:55.053Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-a100-23-8%e2%80%b3-fhd-i3-n305","searchTerms":["Lenovo A100 23.8″ FHD i3-N305"]}
-{"t":"2026-06-21T10:32:55.054Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo A100 FHD i3-N305","A100 FHD i3-N305"]}
-{"t":"2026-06-21T10:32:55.059Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-i5-13420h","searchTerms":["Lenovo IdeaCentre 23.8″ FHD i5-13420H"]}
 {"t":"2026-06-21T10:32:55.059Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre FHD i5-13420H","IdeaCentre FHD i5-13420H"]}
 {"t":"2026-06-21T10:32:55.068Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-i3-n300","searchTerms":["HP ProOne 240 G10 23.8″ Intel i3-N300"]}
 {"t":"2026-06-21T10:32:55.068Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ProOne 240 G10 Intel i3-N300","ProOne 240 G10 Intel i3-N300","HP ProOne 240 G10"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T16:01:16.138Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T16:01:24.077Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T16:01:24.077Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1440,"nextIndex":1520,"remaining":21430,"httpFailures":{}}
+{"t":"2026-07-21T16:01:33.295Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1520,"batchSize":80,"total":22950}
+{"t":"2026-07-21T16:01:47.812Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T16:01:53.926Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T16:02:02.794Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T16:02:13.080Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T16:02:17.208Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T16:02:21.347Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T16:02:24.075Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T16:02:24.075Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1520,"nextIndex":1600,"remaining":21350,"httpFailures":{}}
