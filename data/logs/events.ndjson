@@ -1,12 +1,3 @@
-{"t":"2026-06-22T11:33:47.036Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T11:33:47.036Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27″-16gb-512gb-ssd-ryzen-7"}
-{"t":"2026-06-22T11:33:47.431Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T11:33:47.431Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-curved-gaming-monitor-g34wqi-34″"}
-{"t":"2026-06-22T11:33:48.582Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T11:33:48.582Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
-{"t":"2026-06-22T11:33:48.685Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T11:33:48.685Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Xiaomi Curved Gaming Monitor G34WQi","Curved Gaming Monitor G34WQi","Xiaomi Curved Gaming Monitor"]}
-{"t":"2026-06-22T11:33:49.602Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Xiaomi Curved Gaming Monitor G34WQi","items":1,"names":["Xiaomi Curved Gaming Monitor G34WQi 34″"]}
 {"t":"2026-06-22T11:33:49.602Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Xiaomi Curved Gaming Monitor G34WQi 34″","score":4.629629629629629}]}
 {"t":"2026-06-22T11:33:50.148Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":11,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H"]}
 {"t":"2026-06-22T11:33:50.149Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Ryzen™ 5-7535HS","score":1.5517241379310343},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063}]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T19:28:55.790Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T19:29:02.434Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T19:29:02.434Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":15360,"nextIndex":15440,"remaining":7510,"httpFailures":{}}
+{"t":"2026-07-21T19:29:11.698Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":15440,"batchSize":80,"total":22950}
+{"t":"2026-07-21T19:29:22.466Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T19:29:32.050Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T19:29:40.346Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T19:29:49.907Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T19:29:58.097Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T19:30:06.889Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T19:30:12.767Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T19:30:12.767Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":15440,"nextIndex":15520,"remaining":7430,"httpFailures":{}}
