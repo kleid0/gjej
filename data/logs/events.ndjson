@@ -1,12 +1,3 @@
-{"t":"2026-06-21T10:37:25.542Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Hp Omen X 25F Gaming 1ms 240Hz","items":0,"names":[]}
-{"t":"2026-06-21T10:37:25.625Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Hp Monitor x27 FHD 1ms 165Hz","items":0,"names":[]}
-{"t":"2026-06-21T10:37:25.879Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Alienware 0.5ms 240Hz 4K AW2725QF","items":0,"names":[]}
-{"t":"2026-06-21T10:37:26.380Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Omen X 25F Gaming 1ms 240Hz","items":0,"names":[]}
-{"t":"2026-06-21T10:37:26.498Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware 0.5ms 240Hz","items":0,"names":[]}
-{"t":"2026-06-21T10:37:26.665Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor x27 FHD 1ms 165Hz","items":0,"names":[]}
-{"t":"2026-06-21T10:37:27.134Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Hp Omen X 25F","items":0,"names":[]}
-{"t":"2026-06-21T10:37:27.535Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Hp Monitor x27 FHD","items":0,"names":[]}
-{"t":"2026-06-21T10:37:29.843Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-06-21T10:37:34.841Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
 {"t":"2026-06-21T10:37:39.939Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
 {"t":"2026-06-21T10:37:39.987Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-hdd-ultrastar-dc-hc580-3-5%e2%80%b3-22tb","searchTerms":["WD HDD Ultrastar DC HC580 3.5″ 22TB"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T16:28:21.601Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T16:28:26.082Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T16:28:26.082Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3360,"nextIndex":3440,"remaining":19510,"httpFailures":{}}
+{"t":"2026-07-21T16:28:34.242Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":3440,"batchSize":80,"total":22950}
+{"t":"2026-07-21T16:28:43.168Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T16:28:50.160Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T16:28:56.339Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T16:29:04.252Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T16:29:17.119Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T16:29:25.141Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T16:29:29.019Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T16:29:29.019Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3440,"nextIndex":3520,"remaining":19430,"httpFailures":{}}
