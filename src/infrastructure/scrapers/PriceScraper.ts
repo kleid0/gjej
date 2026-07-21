@@ -98,12 +98,24 @@ function extractTier(text: string): string | null {
   return null;
 }
 
+// Single-letter suffixes that make a digit token a UNIT, not a model number:
+// 5G/4G connectivity, 4K/8K resolution, 60W power, 24H battery, 220V, 1M/2L.
+// NOT in this set: e/a/s/t/c — those are real generation suffixes ("iPhone
+// 16e", "Pixel 7a", "iPhone 6s", "OnePlus 5T", "Redmi 14C") that distinguish
+// DIFFERENT products from their base model.
+const UNIT_SUFFIXES = new Set(["g", "k", "d", "w", "h", "v", "m", "l"]);
+
 /**
- * Extract 1-4 digit standalone numbers that represent model/generation numbers.
- * Storage sizes (128GB, 256GB, 1TB) and screen-size notations (65") are stripped
- * first so they do not interfere with model number comparison.
+ * Extract standalone model/generation tokens: plain 1-4 digit numbers plus
+ * digit+letter composites ("16e", "7a", "6s"). Storage sizes (128GB, 1TB) and
+ * screen-size notations (65") are stripped first so they do not interfere.
  * Single-digit numbers ARE captured — "Switch 2", "PlayStation 5", "iPad 8"
  * all use single-digit generation numbers that must be matched.
+ *
+ * The composite capture is what stops "iPhone 16e" matching "iPhone 16":
+ * \b\d+\b alone sees NO number in "16e" (no boundary before the e), so the
+ * generation guards never fired and a 75% word-overlap accepted the wrong
+ * phone — a live wrong-store-link bug on the 16e product page.
  */
 function extractGenerationNumbers(text: string): Set<string> {
   const cleaned = text.toLowerCase()
@@ -116,7 +128,13 @@ function extractGenerationNumbers(text: string): Set<string> {
     // spurious generation numbers that break the reverse-check comparison.
     .replace(/\bcore\s+(?:ultra\s*)?i?\s*\d+[a-z0-9]*\b/gi, "")  // Core Ultra 7, Core i7-1335U
     .replace(/\b(?:ryzen|xeon|celeron|pentium|athlon)\s+\w*\s*\d+\b/gi, ""); // Ryzen 7, Xeon E5
-  return new Set(cleaned.match(/\b\d{1,4}\b/g) ?? []);
+  const tokens = new Set<string>();
+  for (const m of cleaned.match(/\b\d{1,4}[a-z]?\b/g) ?? []) {
+    const suffix = m[m.length - 1];
+    if (/[a-z]/.test(suffix) && UNIT_SUFFIXES.has(suffix)) continue; // 5g, 4k, 60w…
+    tokens.add(m);
+  }
+  return tokens;
 }
 
 /** Return the normalised storage string ("256GB", "1TB") or null if none. */
@@ -328,7 +346,7 @@ function confidencePercent(resultName: string, queryTerms: string[]): number {
  * accessory result for a non-accessory query, or confidence below threshold).
  * Otherwise returns the fuzzy matchScore.
  */
-function strictMatchScore(resultName: string, queryTerms: string[]): number {
+export function strictMatchScore(resultName: string, queryTerms: string[]): number {
   const queryText  = queryTerms.join(" ");
   const resultLow  = resultName.toLowerCase();
   const queryLow   = queryText.toLowerCase();
