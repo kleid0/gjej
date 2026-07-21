@@ -10,6 +10,7 @@ export const dynamic = "force-dynamic";
 
 interface Props {
   params: { slug: string };
+  searchParams?: { nen?: string };
 }
 
 export async function generateStaticParams() {
@@ -25,9 +26,11 @@ export function generateMetadata({ params }: Props): Metadata {
   };
 }
 
-export default async function CategoryPage({ params }: Props) {
+export default async function CategoryPage({ params, searchParams }: Props) {
   const category = productCatalog.getCategoryById(params.slug);
   if (!category) notFound();
+  // ?nen=<subcategory> deep-links from the header mega-menu.
+  const initialSub = searchParams?.nen ?? "";
 
   const [products, allPrices, dbPrices] = await Promise.all([
     productCatalog.getProductsByCategory(params.slug),
@@ -86,7 +89,7 @@ export default async function CategoryPage({ params }: Props) {
         query=""
         category={params.slug}
         categoryName={category.name}
-        subcategory=""
+        subcategory={initialSub}
       />
     </div>
   );
