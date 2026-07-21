@@ -1,12 +1,3 @@
-{"t":"2026-06-22T11:40:18.776Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T11:40:18.847Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-zbook-power-g8-15-6%e2%80%b3-32gb-512gb-ssd-core-i7","searchTerms":["HP ZBook Power G8, 15.6″, 32GB, 512GB SSD, Core™ i7"]}
-{"t":"2026-06-22T11:40:18.847Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g8-15-6%e2%80%b3-32gb-512gb-ssd-core-i7"}
-{"t":"2026-06-22T11:40:19.863Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T11:40:19.863Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g8-15-6″-32gb-512gb-ssd-core-i7"}
-{"t":"2026-06-22T11:40:20.385Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T11:40:20.385Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP ZBook Power G8","ZBook Power G8"]}
-{"t":"2026-06-22T11:40:20.921Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ZBook Power G8","items":1,"names":["HP ZBook Power G8, 15.6″, 32GB, 512GB SSD, Core™ i7"]}
-{"t":"2026-06-22T11:40:20.922Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"HP ZBook Power G8, 15.6″, 32GB, 512GB SSD, Core™ i7","score":2.352941176470588}]}
 {"t":"2026-06-22T11:40:22.120Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
 {"t":"2026-06-22T11:40:22.134Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-zbook-power-g8-15-6%e2%80%b3-32gb-1tb-ssd-core-i7","searchTerms":["HP ZBook Power G8, 15.6″, 32GB, 1TB SSD, Core™ i7"]}
 {"t":"2026-06-22T11:40:22.134Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-zbook-power-g8-15-6%e2%80%b3-32gb-1tb-ssd-core-i7"}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T19:48:02.645Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T19:48:08.550Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T19:48:08.551Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16720,"nextIndex":16800,"remaining":6150,"httpFailures":{}}
+{"t":"2026-07-21T19:48:16.836Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16800,"batchSize":80,"total":22950}
+{"t":"2026-07-21T19:48:28.409Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T19:48:39.349Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T19:48:58.600Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T19:49:10.551Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T19:49:21.925Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T19:49:34.820Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T19:49:41.507Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T19:49:41.508Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16800,"nextIndex":16880,"remaining":6070,"httpFailures":{}}
