@@ -40,9 +40,9 @@ export default function ProductCard({ product, lowestPrice: initialPrice, lowest
   return (
     <Link
       href={`/produkt/${product.id}`}
-      className="group bg-white rounded-xl border border-gray-200/60 hover:border-orange-200 hover:shadow-lg transition-all duration-200 flex flex-col overflow-hidden"
+      className="group bg-white rounded-2xl border-2 border-ink shadow-pika-sm hover:shadow-pika hover:-translate-y-0.5 transition-all duration-200 flex flex-col overflow-hidden"
     >
-      <div className="bg-gray-50 p-4 flex items-center justify-center aspect-square">
+      <div className="bg-paper-tint p-4 flex items-center justify-center aspect-square">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={product.imageUrl || "/placeholder.svg"}
@@ -55,14 +55,14 @@ export default function ProductCard({ product, lowestPrice: initialPrice, lowest
         />
       </div>
       <div className="flex-1 flex flex-col p-4">
-        <p className="text-xs text-gray-400">{product.brand}</p>
-        <h3 className="text-sm font-semibold text-gray-900 leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
+        <p className="text-xs uppercase tracking-wide text-clay">{product.brand}</p>
+        <h3 className="text-sm font-semibold text-gray-900 leading-snug line-clamp-2 group-hover:text-tomato transition-colors">
           {product.family}
         </h3>
         <div className="mt-auto pt-3">
           {lowestPrice != null ? (
             <>
-              <p className="text-base font-bold text-orange-600">
+              <p className="sticker text-sm">
                 Nga {Math.round(lowestPrice).toLocaleString("sq-AL")} Lekë
               </p>
               {lowestPriceStore && (
@@ -72,7 +72,7 @@ export default function ProductCard({ product, lowestPrice: initialPrice, lowest
           ) : loading ? (
             <div className="h-5 w-24 bg-gray-100 rounded animate-pulse" />
           ) : (
-            <p className="text-xs text-gray-400">Çmimi i panjohur</p>
+            <p className="text-xs uppercase tracking-wide text-clay">Çmimi i panjohur</p>
           )}
         </div>
       </div>

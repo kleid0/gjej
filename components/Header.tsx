@@ -36,13 +36,13 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
 
   return (
     <header
-      className="bg-orange-600 text-white shadow-md sticky top-0 z-50"
+      className="bg-paper text-ink border-b-2 border-ink sticky top-0 z-50"
       onMouseLeave={() => setOpen(null)}
     >
       {/* Top bar */}
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center gap-4">
         <Link href="/" className="text-2xl font-black tracking-tight shrink-0">
-          gjej<span className="text-orange-200">.al</span>
+          gjej<span className="text-tomato">.al</span>
         </Link>
         {!isHome && (
           <div className="flex-1">
@@ -52,9 +52,9 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
       </div>
 
       {/* Category nav — wraps, never scrolls */}
-      <nav className="bg-orange-700 border-t border-orange-500 relative">
+      <nav className="bg-paper-deep border-t-2 border-ink relative">
         {/* Desktop strip */}
-        <div className="hidden lg:flex max-w-7xl mx-auto px-4 flex-wrap items-center justify-center gap-x-0.5 py-1 text-sm">
+        <div className="hidden lg:flex max-w-7xl mx-auto px-4 flex-wrap items-center justify-center gap-1.5 py-2 text-xs">
           {nav.map((cat) => (
             <Link
               key={cat.id}
@@ -62,8 +62,8 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
               onMouseEnter={() => setOpen(cat.id)}
               onFocus={() => setOpen(cat.id)}
               onClick={() => setOpen(null)}
-              className={`whitespace-nowrap px-2.5 py-1.5 rounded transition-colors ${
-                open === cat.id ? "bg-orange-600" : "hover:bg-orange-600"
+              className={`whitespace-nowrap px-2.5 py-1 rounded-full border-[1.5px] border-ink font-semibold transition-colors ${
+                open === cat.id ? "bg-sun" : "bg-white hover:bg-sun"
               }`}
             >
               {cat.name}
@@ -75,19 +75,19 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
         <div className="lg:hidden max-w-7xl mx-auto px-4 py-1">
           <button
             onClick={() => setMobileOpen((v) => !v)}
-            className="w-full flex items-center justify-between px-3 py-1.5 text-sm rounded hover:bg-orange-600 transition-colors"
+            className="w-full flex items-center justify-between px-3 py-1.5 text-sm font-semibold rounded-full border-[1.5px] border-ink bg-white hover:bg-sun transition-colors"
             aria-expanded={mobileOpen}
           >
             <span>Kategoritë</span>
             <span className={`transition-transform ${mobileOpen ? "rotate-180" : ""}`}>▾</span>
           </button>
           {mobileOpen && (
-            <div className="grid grid-cols-2 gap-1 pb-2">
+            <div className="grid grid-cols-2 gap-1.5 py-2">
               {nav.map((cat) => (
                 <Link
                   key={cat.id}
                   href={`/kategori/${cat.id}`}
-                  className="flex items-center gap-2 px-3 py-2 text-sm rounded hover:bg-orange-600 transition-colors"
+                  className="flex items-center gap-2 px-3 py-2 text-sm font-medium rounded-xl border-[1.5px] border-ink bg-white hover:bg-sun transition-colors"
                 >
                   <span>{cat.icon}</span>
                   <span className="leading-tight">{cat.name}</span>
@@ -99,18 +99,18 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
 
         {/* Mega panel (desktop) */}
         {openCat && (
-          <div className="hidden lg:block absolute left-0 right-0 top-full bg-white text-gray-800 shadow-2xl border-b border-gray-200">
+          <div className="hidden lg:block absolute left-0 right-0 top-full bg-white text-ink border-b-2 border-ink shadow-pika-lg">
             <div className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-12 gap-8">
               {/* Subcategories */}
               <div className="col-span-3">
-                <h3 className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-4">
+                <h3 className="text-xs font-bold tracking-widest uppercase text-clay mb-4">
                   Shiko të gjitha
                 </h3>
                 <ul className="space-y-2.5 text-sm">
                   <li>
                     <Link
                       href={`/kategori/${openCat.id}`}
-                      className="font-semibold text-gray-900 hover:text-orange-600"
+                      className="font-semibold text-ink hover:text-tomato"
                     >
                       Të gjitha — {openCat.name}
                     </Link>
@@ -119,7 +119,7 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
                     <li key={sub}>
                       <Link
                         href={`/kategori/${openCat.id}?nen=${encodeURIComponent(sub)}`}
-                        className="text-gray-600 hover:text-orange-600"
+                        className="text-ink/70 hover:text-tomato"
                       >
                         {sub}
                       </Link>
@@ -130,7 +130,7 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
 
               {/* Brands */}
               <div className="col-span-3">
-                <h3 className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-4">
+                <h3 className="text-xs font-bold tracking-widest uppercase text-clay mb-4">
                   Markat
                 </h3>
                 <ul className="space-y-2.5 text-sm">
@@ -138,7 +138,7 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
                     <li key={brand}>
                       <Link
                         href={`/kerko?q=${encodeURIComponent(brand)}`}
-                        className="text-gray-600 hover:text-orange-600"
+                        className="text-ink/70 hover:text-tomato"
                       >
                         {brand}
                       </Link>
@@ -149,13 +149,13 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
 
               {/* Featured product tiles */}
               <div className="col-span-6">
-                <h3 className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-4">
+                <h3 className="text-xs font-bold tracking-widest uppercase text-clay mb-4">
                   Të zgjedhura
                 </h3>
                 <div className="grid grid-cols-3 gap-4">
                   {openCat.featured.map((p) => (
                     <Link key={p.id} href={`/produkt/${p.id}`} className="group">
-                      <div className="aspect-square bg-gray-50 rounded-lg overflow-hidden flex items-center justify-center">
+                      <div className="aspect-square bg-paper-tint border-[1.5px] border-ink rounded-xl overflow-hidden flex items-center justify-center">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           src={p.imageUrl}
@@ -164,7 +164,7 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
                           loading="lazy"
                         />
                       </div>
-                      <p className="mt-2 text-sm text-gray-700 group-hover:text-orange-600 line-clamp-2">
+                      <p className="mt-2 text-sm text-ink group-hover:text-tomato line-clamp-2">
                         {p.name}
                       </p>
                     </Link>

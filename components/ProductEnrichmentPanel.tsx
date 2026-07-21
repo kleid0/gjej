@@ -108,7 +108,7 @@ export default function ProductEnrichmentPanel({ productId, fallbackImage, produ
                   key={i}
                   onClick={() => setSelectedImage(img)}
                   className={`shrink-0 w-14 h-14 rounded-lg border-2 overflow-hidden bg-gray-50 transition-colors ${
-                    selectedImage === img ? "border-orange-500" : "border-gray-200 hover:border-gray-400"
+                    selectedImage === img ? "border-ink" : "border-gray-200 hover:border-gray-400"
                   }`}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -192,7 +192,7 @@ export default function ProductEnrichmentPanel({ productId, fallbackImage, produ
         <div className="mb-8">
           <button
             onClick={() => setSpecsOpen((o) => !o)}
-            className="flex items-center gap-2 text-base font-bold text-gray-800 mb-3 hover:text-orange-600 transition-colors"
+            className="flex items-center gap-2 text-base font-bold text-gray-800 mb-3 hover:text-tomato transition-colors"
           >
             <span>{specsOpen ? "▾" : "▸"}</span>
             Specifikimet teknike

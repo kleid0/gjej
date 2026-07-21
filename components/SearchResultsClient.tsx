@@ -147,8 +147,8 @@ export default function SearchResultsClient({
               }}
               className={`text-xs px-3 py-1.5 rounded-full border font-medium transition-colors ${
                 !activeSub
-                  ? "bg-orange-600 text-white border-orange-600"
-                  : "bg-white text-gray-600 border-gray-200 hover:border-orange-300"
+                  ? "bg-ink text-white text-white border-ink"
+                  : "bg-white text-gray-600 border-gray-200 hover:border-ink"
               }`}
             >
               Te gjitha
@@ -162,8 +162,8 @@ export default function SearchResultsClient({
                 }}
                 className={`text-xs px-3 py-1.5 rounded-full border font-medium transition-colors ${
                   activeSub === s
-                    ? "bg-orange-600 text-white border-orange-600"
-                    : "bg-white text-gray-600 border-gray-200 hover:border-orange-300"
+                    ? "bg-ink text-white text-white border-ink"
+                    : "bg-white text-gray-600 border-gray-200 hover:border-ink"
                 }`}
               >
                 {s}
@@ -176,7 +176,7 @@ export default function SearchResultsClient({
         <div className="flex items-center gap-3 mb-4 flex-wrap">
           <button
             onClick={() => setMobileFilters(true)}
-            className="lg:hidden flex items-center gap-1.5 text-sm border border-gray-200 rounded-lg px-3 py-2 text-gray-600 hover:border-orange-300 transition-colors"
+            className="lg:hidden flex items-center gap-1.5 text-sm border border-gray-200 rounded-lg px-3 py-2 text-gray-600 hover:border-ink transition-colors"
           >
             <svg
               className="w-4 h-4"
@@ -193,7 +193,7 @@ export default function SearchResultsClient({
             </svg>
             Filtrat
             {activeFilterCount > 0 && (
-              <span className="bg-orange-500 text-white text-[10px] rounded-full w-5 h-5 flex items-center justify-center font-bold">
+              <span className="bg-sun text-white text-[10px] rounded-full w-5 h-5 flex items-center justify-center font-bold">
                 {activeFilterCount}
               </span>
             )}
@@ -210,7 +210,7 @@ export default function SearchResultsClient({
                 setSort(e.target.value as Sort);
                 setPage(1);
               }}
-              className="text-sm border border-gray-200 rounded-lg px-3 py-2 text-gray-700 outline-none focus:ring-2 focus:ring-orange-300 bg-white cursor-pointer"
+              className="text-sm border border-gray-200 rounded-lg px-3 py-2 text-gray-700 outline-none focus:ring-2 focus:ring-sun bg-white cursor-pointer"
             >
               {SORTS.map((o) => (
                 <option key={o.value} value={o.value}>
@@ -224,7 +224,7 @@ export default function SearchResultsClient({
                 onClick={() => setView("grid")}
                 className={`p-2 transition-colors ${
                   view === "grid"
-                    ? "bg-orange-600 text-white"
+                    ? "bg-ink text-white text-white"
                     : "text-gray-400 hover:text-gray-600 bg-white"
                 }`}
                 title="Rrjete"
@@ -240,7 +240,7 @@ export default function SearchResultsClient({
                 onClick={() => setView("list")}
                 className={`p-2 transition-colors ${
                   view === "list"
-                    ? "bg-orange-600 text-white"
+                    ? "bg-ink text-white text-white"
                     : "text-gray-400 hover:text-gray-600 bg-white"
                 }`}
                 title="Liste"
@@ -275,7 +275,7 @@ export default function SearchResultsClient({
               <div className="text-center mt-8 mb-4">
                 <button
                   onClick={() => setPage((n) => n + 1)}
-                  className="bg-white border border-gray-200 text-gray-700 text-sm font-medium px-8 py-2.5 rounded-lg hover:border-orange-400 hover:text-orange-600 transition-colors"
+                  className="bg-white border border-gray-200 text-gray-700 text-sm font-medium px-8 py-2.5 rounded-lg hover:border-ink hover:text-tomato transition-colors"
                 >
                   Ngarko me shume ({sorted.length - shown.length} te tjera)
                 </button>
@@ -324,10 +324,10 @@ function GridCard({ p }: { p: ProductSummary }) {
         )}
       </div>
       <div className="flex-1 min-w-0">
-        <p className="text-[11px] text-orange-600 font-semibold uppercase tracking-wide">
+        <p className="text-[11px] text-tomato font-semibold uppercase tracking-wide">
           {p.brand}
         </p>
-        <h3 className="text-sm font-semibold text-gray-800 leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
+        <h3 className="text-sm font-semibold text-gray-800 leading-snug line-clamp-2 group-hover:text-tomato transition-colors">
           {p.family}
         </h3>
       </div>
@@ -335,13 +335,13 @@ function GridCard({ p }: { p: ProductSummary }) {
         {p.bestPrice !== null ? (
           <div>
             <p className="text-[11px] text-gray-400 leading-none">Nga</p>
-            <p className="text-lg font-bold text-orange-600 leading-tight">
+            <p className="text-lg font-bold text-tomato leading-tight">
               {Math.round(p.bestPrice).toLocaleString("sq-AL")}{" "}
               <span className="text-xs font-medium text-gray-400">Lekë</span>
             </p>
           </div>
         ) : (
-          <p className="text-xs text-orange-500 font-medium">
+          <p className="text-xs text-tomato font-medium">
             Krahaso cmimet →
           </p>
         )}
@@ -371,10 +371,10 @@ function ListCard({ p }: { p: ProductSummary }) {
         />
       </div>
       <div className="flex-1 min-w-0">
-        <p className="text-[11px] text-orange-600 font-semibold uppercase tracking-wide">
+        <p className="text-[11px] text-tomato font-semibold uppercase tracking-wide">
           {p.brand}
         </p>
-        <h3 className="text-sm font-semibold text-gray-800 group-hover:text-orange-600 transition-colors">
+        <h3 className="text-sm font-semibold text-gray-800 group-hover:text-tomato transition-colors">
           {p.family}
         </h3>
         {p.modelNumber && (
@@ -399,13 +399,13 @@ function ListCard({ p }: { p: ProductSummary }) {
         {p.bestPrice !== null ? (
           <>
             <p className="text-[11px] text-gray-400">Nga</p>
-            <p className="text-xl font-bold text-orange-600">
+            <p className="text-xl font-bold text-tomato">
               {Math.round(p.bestPrice).toLocaleString("sq-AL")}
             </p>
             <p className="text-[11px] text-gray-400">Lekë</p>
           </>
         ) : (
-          <span className="text-xs text-orange-500 font-medium">
+          <span className="text-xs text-tomato font-medium">
             Krahaso →
           </span>
         )}
