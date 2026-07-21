@@ -4,6 +4,7 @@ import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
 import SearchResultsClient from "@/components/SearchResultsClient";
 import type { ProductSummary } from "@/components/SearchResultsClient";
+import { collapseToBase } from "@/src/application/catalog/comboVariants";
 
 export const dynamic = "force-dynamic";
 
@@ -37,6 +38,9 @@ export default async function KerkoPage({ searchParams }: Props) {
       : await productCatalog.getAllProducts();
 
   if (kat && query) products = products.filter((p) => p.category === kat);
+
+  // Collapse combo bundles under their base so results show one entry.
+  products = collapseToBase(products);
 
   const [allPrices, dbPrices] = await Promise.all([
     priceQuery.getAllCachedPrices(),

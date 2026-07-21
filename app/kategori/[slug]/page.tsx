@@ -5,6 +5,7 @@ import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import { getProductLowestPrices } from "@/src/infrastructure/db/PriceHistoryRepository";
 import SearchResultsClient from "@/components/SearchResultsClient";
 import type { ProductSummary } from "@/components/SearchResultsClient";
+import { collapseToBase } from "@/src/application/catalog/comboVariants";
 
 export const dynamic = "force-dynamic";
 
@@ -32,11 +33,15 @@ export default async function CategoryPage({ params, searchParams }: Props) {
   // ?nen=<subcategory> deep-links from the header mega-menu.
   const initialSub = searchParams?.nen ?? "";
 
-  const [products, allPrices, dbPrices] = await Promise.all([
+  const [allInCategory, allPrices, dbPrices] = await Promise.all([
     productCatalog.getProductsByCategory(params.slug),
     priceQuery.getAllCachedPrices(),
     getProductLowestPrices(),
   ]);
+  // Collapse combo bundles under their base so listings aren't cluttered with
+  // "Switch 2" AND "Switch 2 + Mario Kart" — the bundle is reachable via the
+  // selector on the base product's page.
+  const products = collapseToBase(allInCategory);
 
   const summaries: ProductSummary[] = products.map((p) => {
     const record = allPrices[p.id];
