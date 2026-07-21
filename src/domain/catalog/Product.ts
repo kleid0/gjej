@@ -40,13 +40,25 @@ export interface Category {
   subcategories: string[];
 }
 
+// Taxonomy note (2026-07 redesign): "elektronike" used to be a junk drawer —
+// 40% of the catalogue (Nintendo consoles, Dyson vacuums, camera film,
+// motherboards...) landed there. TV/audio, gaming, foto, and large appliances
+// are now first-class categories; "elektronike" survives only as the slim
+// accessories/other bucket so old URLs keep working. Every consumer of
+// categories reads this list, so additions flow to the homepage, sitemap,
+// category pages, and search automatically. After changing rules here or in
+// guessCategory, run POST /api/admin/recategorize to migrate the catalogue.
 export const CATEGORIES: Category[] = [
-  { id: "telefona",    name: "Telefona & Tablets",  icon: "📱", subcategories: ["Smartphone", "Tablet", "Smartwatch", "Aksesore Telefoni", "Karikues & Kabllo", "Kufje", "Mbrojtese & Kover"] },
-  { id: "kompjutera",  name: "Kompjutera",          icon: "💻", subcategories: ["Laptop", "Desktop PC", "Monitor", "Printer", "Printer 3D", "Aksesore PC", "Mouse & Tastiere", "Karte Grafike", "SSD & RAM", "Rrjete & WiFi"] },
-  { id: "elektronike", name: "Elektronike",         icon: "🔌", subcategories: ["TV", "Audio & Altoparlant", "Kamera", "Gaming", "Konsola", "Shtepiake", "Dron", "Projektor", "Aksesore"] },
-  { id: "shtepi",      name: "Shtepi & Kopsht",     icon: "🏠", subcategories: ["Pajisje Kuzhine", "Pastrimi", "Aspirapluhar", "Ndricim", "Kopsht", "Mobilje", "Dekorim"] },
-  { id: "sporte",      name: "Sporte & Outdoor",    icon: "⚽", subcategories: ["Fitness", "Veshje Sportive", "Bicikleta", "Camping", "Trotinet Elektrik", "Peshkim"] },
-  { id: "veshje",      name: "Veshje & Kepuce",     icon: "👟", subcategories: ["Kepuce", "Xhakete", "Aksesore Mode", "Canta", "Syze Dielli", "Ore"] },
-  { id: "lodra",       name: "Lodra & Femije",      icon: "🧸", subcategories: ["Lodra", "LEGO", "Lodra Edukative", "Libra Femijesh", "Kujdes Bebe", "Karroca"] },
-  { id: "bukuri",      name: "Bukuri & Shendet",    icon: "💊", subcategories: ["Parfum", "Kujdes Lekure", "Makeup", "Shendet", "Rruajtje", "Kujdes Flokesh", "Elektrik"] },
+  { id: "telefona",    name: "Telefona & Tablets", icon: "📱", subcategories: ["Smartphone", "Tablet", "Smartwatch", "Aksesore Telefoni"] },
+  { id: "kompjutera",  name: "Kompjutera",         icon: "💻", subcategories: ["Laptop", "Desktop PC", "Monitor", "Komponente PC", "Disqe & Ruajtje", "Tastiere & Mouse", "Karte Grafike", "Printer", "Printer 3D", "Rrjete & WiFi", "Aksesore PC"] },
+  { id: "tv-audio",    name: "TV & Audio",         icon: "📺", subcategories: ["TV", "Altoparlant & Soundbar", "Kufje", "Projektor", "Aksesore TV"] },
+  { id: "gaming",      name: "Gaming",             icon: "🎮", subcategories: ["Konsola", "Lojera", "Kontrollera", "Karrige Gaming", "Aksesore Gaming"] },
+  { id: "foto-video",  name: "Foto & Video",       icon: "📷", subcategories: ["Kamera", "Dron", "Aksesore Foto"] },
+  { id: "shtepiake",   name: "Elektroshtepiake",   icon: "🧺", subcategories: ["Lavatrice & Tharese", "Frigorifer", "Furre & Gatim", "Lavastovilje", "Fshesa & Pastrim", "Klimatizim & Ngrohje", "Hekurosje"] },
+  { id: "shtepi",      name: "Shtepi & Kopsht",    icon: "🏠", subcategories: ["Pajisje Kuzhine", "Ene Gatimi", "Ndricim", "Kopsht & Vegla", "Mobilje", "Dekorim"] },
+  { id: "sporte",      name: "Sporte & Outdoor",   icon: "⚽", subcategories: ["Fitness", "Veshje Sportive", "Bicikleta", "Camping", "Trotinet Elektrik", "Peshkim"] },
+  { id: "veshje",      name: "Veshje & Kepuce",    icon: "👟", subcategories: ["Kepuce", "Xhakete", "Aksesore Mode", "Canta", "Syze Dielli", "Ore"] },
+  { id: "lodra",       name: "Lodra & Femije",     icon: "🧸", subcategories: ["LEGO", "Figura & Koleksion", "Kukulla & Plush", "Puzzle & Lojera Tavoline", "Lodra", "Kujdes Bebe", "Karroca"] },
+  { id: "bukuri",      name: "Bukuri & Shendet",   icon: "💊", subcategories: ["Parfum", "Kujdes Lekure", "Makeup", "Kujdes Flokesh", "Rruajtje & Depilim", "Shendet"] },
+  { id: "elektronike", name: "Aksesore & Te Tjera", icon: "🔌", subcategories: ["Karikues & Kabllo", "Power Bank & Bateri", "Smart Home", "Aksesore", "Te Tjera"] },
 ];
