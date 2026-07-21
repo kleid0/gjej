@@ -1,12 +1,3 @@
-{"t":"2026-06-21T10:38:49.064Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Yoga 27 QHD Ultra 7 255H","items":0,"names":[]}
-{"t":"2026-06-21T10:38:49.753Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Yoga 27 QHD Ultra 7 255H","items":0,"names":[]}
-{"t":"2026-06-21T10:38:50.451Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Yoga 27 QHD","items":0,"names":[]}
-{"t":"2026-06-21T10:38:52.000Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T10:38:56.014Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T10:38:56.137Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-purple-hdd-3-5%e2%80%b3-8tb","searchTerms":["WD Purple HDD 3.5″ 8TB"]}
-{"t":"2026-06-21T10:38:56.138Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Purple HDD","Purple HDD"]}
-{"t":"2026-06-21T10:38:56.144Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-hdd-3-5%e2%80%b3-6tb","searchTerms":["WD Purple HDD 3.5″ 6TB","WD Red HDD 3.5″ 6TB"]}
-{"t":"2026-06-21T10:38:56.144Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Purple HDD","Purple HDD","WD Red HDD","Red HDD"]}
 {"t":"2026-06-21T10:38:57.375Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Purple HDD","items":0,"names":[]}
 {"t":"2026-06-21T10:38:57.392Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Purple HDD","items":0,"names":[]}
 {"t":"2026-06-21T10:38:58.156Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Purple HDD","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T16:37:21.257Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T16:37:27.707Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T16:37:27.707Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":4000,"nextIndex":4080,"remaining":18870,"httpFailures":{}}
+{"t":"2026-07-21T16:37:49.967Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":4080,"batchSize":80,"total":22950}
+{"t":"2026-07-21T16:37:58.105Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T16:38:09.498Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T16:38:16.428Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T16:38:23.716Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T16:38:31.608Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T16:38:39.049Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T16:38:44.503Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T16:38:44.503Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":4080,"nextIndex":4160,"remaining":18790,"httpFailures":{"shpresa:timeout":2}}
