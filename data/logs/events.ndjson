@@ -1,12 +1,3 @@
-{"t":"2026-06-22T11:31:12.683Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Phone Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Classic Ultra-Slim Aramid Case 600D For Apple Iphone 16 Pro Max","score":0}]}
-{"t":"2026-06-22T11:31:12.999Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T11:31:18.227Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T11:31:23.141Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T11:31:27.221Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T11:31:31.989Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T11:31:32.006Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-pitaka-moment-%c2%b7-case-grip-for-apple-iphone-16-pro","searchTerms":["Pitaka Moment · Case & Grip For Apple Iphone 16 Pro"]}
-{"t":"2026-06-22T11:31:32.006Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-%c2%b7-case-grip-for-apple-iphone-16-pro"}
-{"t":"2026-06-22T11:31:33.144Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-22T11:31:33.144Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-·-case-grip-for-apple-iphone-16-pro"}
 {"t":"2026-06-22T11:31:33.865Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
 {"t":"2026-06-22T11:31:33.865Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Apple Iphone 16 Pro","Apple Iphone 16","Pitaka Moment · Case & Grip For Apple Iphone 16 Pro","Pitaka Moment · Case"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T19:20:57.146Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T19:21:01.516Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T19:21:01.516Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14800,"nextIndex":14880,"remaining":8070,"httpFailures":{}}
+{"t":"2026-07-21T19:21:10.029Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14880,"batchSize":80,"total":22950}
+{"t":"2026-07-21T19:21:19.238Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T19:21:24.262Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T19:21:32.256Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T19:21:42.080Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T19:21:49.650Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T19:21:57.981Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T19:22:03.620Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T19:22:03.620Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14880,"nextIndex":14960,"remaining":7990,"httpFailures":{}}
