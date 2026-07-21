@@ -7,33 +7,12 @@ import type { IPriceScraper } from "@/src/application/pricing/PriceQuery";
 import type { Store } from "@/src/domain/pricing/Store";
 import type { ScrapedPrice } from "@/src/domain/pricing/Price";
 import { createLogger } from "@/src/infrastructure/logging/logger";
+import { recordStoreHttpFailure, storeGet } from "./storeHttp";
+
+// Re-exported so cron routes (and tests) keep importing the tally from here.
+export { recordStoreHttpFailure, takeStoreHttpFailures } from "./storeHttp";
 
 const log = createLogger("scraper/woo");
-
-// Per-invocation tally of store HTTP failures, keyed `${storeId}:${status}`
-// (status = HTTP code, or "timeout"/"network"/"error"). Surfaced once per cron
-// batch in the run-complete log so we can measure the TRUE failure rate — e.g.
-// shpresa's intermittent 403s — without emitting one log line per failure, and
-// regardless of the per-product debug gate. A 403/timeout here otherwise looks
-// identical to "product not found", so the gap was previously invisible.
-const storeHttpFailures = new Map<string, number>();
-
-export function recordStoreHttpFailure(storeId: string, e: unknown): void {
-  let status: string | number = "error";
-  if (axios.isAxiosError(e)) {
-    status = e.response?.status ?? (e.code === "ECONNABORTED" ? "timeout" : e.code ?? "network");
-  }
-  const key = `${storeId}:${status}`;
-  storeHttpFailures.set(key, (storeHttpFailures.get(key) ?? 0) + 1);
-}
-
-/** Snapshot and reset the failure tally. Call once at the end of a cron batch. */
-export function takeStoreHttpFailures(): Record<string, number> {
-  const out: Record<string, number> = {};
-  storeHttpFailures.forEach((v, k) => { out[k] = v; });
-  storeHttpFailures.clear();
-  return out;
-}
 
 const HEADERS = {
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -933,7 +912,8 @@ async function scrapeWooCommerce(
     if (!variationsWithAttrs.length && parent.id) {
       // Parent came from a list endpoint — re-fetch it to get full variation attributes
       try {
-        const { data: fullParent } = await axios.get<WooItem>(
+        const { data: fullParent } = await storeGet<WooItem>(
+          store.id,
           `${store.url}/wp-json/wc/store/v1/products/${parent.id}`,
           { timeout: 8000, headers: storeHeaders }
         );
@@ -943,7 +923,10 @@ async function scrapeWooCommerce(
             Array.isArray((v as WooVariation).attributes) &&
             ((v as WooVariation).attributes!.length > 0)
         );
-      } catch { return undefined; }
+      } catch (e) {
+        recordStoreHttpFailure(store.id, e);
+        return undefined;
+      }
     }
 
     if (!variationsWithAttrs.length) return undefined;
@@ -973,7 +956,8 @@ async function scrapeWooCommerce(
       permalink: string;
     };
     try {
-      const { data: varData } = await axios.get<VarData>(
+      const { data: varData } = await storeGet<VarData>(
+        store.id,
         `${store.url}/wp-json/wc/store/v1/products/${matchedVar.id}`,
         { timeout: 8000, headers: storeHeaders }
       );
@@ -990,7 +974,8 @@ async function scrapeWooCommerce(
         productUrl: varData.permalink || parent.permalink || null,
         lastChecked,
       };
-    } catch {
+    } catch (e) {
+      recordStoreHttpFailure(store.id, e);
       return { storeId: store.id, price: null, inStock: null, stockLabel: "E panjohur", productUrl: parent.permalink ?? null, lastChecked };
     }
   }
@@ -1018,7 +1003,7 @@ async function scrapeWooCommerce(
         log.debug("slug lookup", { store: store.id, slug });
       }
       try {
-        const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
+        const { data } = await storeGet(store.id, `${store.url}/wp-json/wc/store/v1/products`, {
           params: { slug, per_page: 1 },
           timeout: 8000,
           headers: storeHeaders,
@@ -1061,7 +1046,7 @@ async function scrapeWooCommerce(
   }
   for (const term of nameQueries) {
     try {
-      const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
+      const { data } = await storeGet(store.id, `${store.url}/wp-json/wc/store/v1/products`, {
         params: { search: term, per_page: 20 },
         timeout: 8000,
         headers: storeHeaders,
@@ -1118,7 +1103,7 @@ async function scrapeWooCommerce(
     if (!slug || slugsAttempted.has(slug)) continue;
     slugsAttempted.add(slug);
     try {
-      const { data } = await axios.get(`${store.url}/wp-json/wc/store/v1/products`, {
+      const { data } = await storeGet(store.id, `${store.url}/wp-json/wc/store/v1/products`, {
         params: { slug, per_page: 1 },
         timeout: 6000,
         headers: storeHeaders,
@@ -1136,7 +1121,8 @@ async function scrapeWooCommerce(
         if (varResult !== undefined) return { ...varResult, ...matchInfo };
       }
       return { ...parseWooItem(item), ...matchInfo };
-    } catch {
+    } catch (e) {
+      recordStoreHttpFailure(store.id, e);
       continue;
     }
   }
