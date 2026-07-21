@@ -1,29 +1,3 @@
-{"t":"2026-06-21T10:28:37.877Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7280,"nextIndex":7360,"remaining":13355,"httpFailures":{"shpresa:403":92}}
-{"t":"2026-06-21T10:28:44.161Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7360,"batchSize":80,"total":20715}
-{"t":"2026-06-21T10:28:49.938Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T10:28:53.291Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T10:28:56.218Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T10:29:01.647Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T10:29:05.678Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T10:29:09.473Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T10:29:12.833Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T10:29:12.833Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7360,"nextIndex":7440,"remaining":13275,"httpFailures":{}}
-{"t":"2026-06-21T10:29:18.364Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7440,"batchSize":80,"total":20715}
-{"t":"2026-06-21T10:29:22.088Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T10:29:26.669Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T10:29:30.914Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T10:29:34.156Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T10:29:38.988Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T10:29:42.787Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T10:29:46.532Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T10:29:46.532Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7440,"nextIndex":7520,"remaining":13195,"httpFailures":{}}
-{"t":"2026-06-21T10:29:53.197Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7520,"batchSize":80,"total":20715}
-{"t":"2026-06-21T10:29:58.094Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T10:30:01.891Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T10:30:06.355Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T10:30:10.377Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T10:30:15.029Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T10:30:18.818Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T10:30:22.758Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T10:30:22.758Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7520,"nextIndex":7600,"remaining":13115,"httpFailures":{}}
 {"t":"2026-06-21T10:30:28.450Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7600,"batchSize":80,"total":20715}
@@ -4998,3 +4972,29 @@
 {"t":"2026-07-21T15:57:02.264Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T15:57:05.145Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T15:57:05.145Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1120,"nextIndex":1200,"remaining":21750,"httpFailures":{}}
+{"t":"2026-07-21T15:57:14.301Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1200,"batchSize":80,"total":22950}
+{"t":"2026-07-21T15:57:21.145Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T15:57:21.162Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-aio-23-8%e2%80%b3-cr0062na-16gb-512gb-ssd-core-i5","searchTerms":["HP AIO 23.8″ CR0062NA, 16GB, 512GB SSD, Core i5-1335U"]}
+{"t":"2026-07-21T15:57:21.163Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-23-8%e2%80%b3-cr0062na-16gb-512gb-ssd-core-i5"}
+{"t":"2026-07-21T15:57:21.201Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-thinkpad-e16-gen-2-16%e2%80%b3-touchscreen-16gb-512gb-ssd-core-ultra-7","searchTerms":["Lenovo ThinkPad E16 Gen 2, 16″ Touchscreen, 16GB, 512GB SSD, Core™ Ultra 7"]}
+{"t":"2026-07-21T15:57:21.204Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-e16-gen-2-16%e2%80%b3-touchscreen-16gb-512gb-ssd-core-ultra-7"}
+{"t":"2026-07-21T15:57:21.971Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T15:57:21.971Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-23-8″-cr0062na-16gb-512gb-ssd-core-i5"}
+{"t":"2026-07-21T15:57:23.530Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T15:57:23.530Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-e16-gen-2-16″-touchscreen-16gb-512gb-ssd-core-ultra-7"}
+{"t":"2026-07-21T15:57:23.973Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T15:57:23.973Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP AIO CR0062NA","AIO CR0062NA"]}
+{"t":"2026-07-21T15:57:24.161Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T15:57:24.162Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo ThinkPad E16 Gen 2","ThinkPad E16 Gen 2","Lenovo ThinkPad E16 Gen"]}
+{"t":"2026-07-21T15:57:24.362Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP AIO CR0062NA","items":0,"names":[]}
+{"t":"2026-07-21T15:57:24.760Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad E16 Gen 2","items":0,"names":[]}
+{"t":"2026-07-21T15:57:24.909Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"AIO CR0062NA","items":0,"names":[]}
+{"t":"2026-07-21T15:57:25.180Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ThinkPad E16 Gen 2","items":0,"names":[]}
+{"t":"2026-07-21T15:57:25.618Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad E16 Gen","items":0,"names":[]}
+{"t":"2026-07-21T15:57:27.143Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T15:57:32.622Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T15:57:39.106Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T15:57:45.538Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T15:57:50.642Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T15:57:53.882Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T15:57:53.882Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1200,"nextIndex":1280,"remaining":21670,"httpFailures":{}}
