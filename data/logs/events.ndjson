@@ -1,12 +1,3 @@
-{"t":"2026-06-22T11:37:10.987Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T11:37:14.659Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T11:37:14.659Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":800,"nextIndex":880,"remaining":19835,"httpFailures":{}}
-{"t":"2026-06-22T11:37:22.309Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":880,"batchSize":80,"total":20715}
-{"t":"2026-06-22T11:37:26.799Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T11:37:30.034Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T11:37:34.020Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T11:37:34.030Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-1tb-ssd-core-5","searchTerms":["Lenovo AIO IdeaCentre, 23.8″, 16GB, 1TB SSD, Core™ 5"]}
-{"t":"2026-06-22T11:37:34.030Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-1tb-ssd-core-5"}
 {"t":"2026-06-22T11:37:34.032Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-1tb-ssd-core-7","searchTerms":["Lenovo AIO IdeaCentre, 23.8″, 16GB, 1TB SSD, Core™ 7"]}
 {"t":"2026-06-22T11:37:34.033Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-1tb-ssd-core-7"}
 {"t":"2026-06-22T11:37:34.035Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-1tb-ssd-core-5","searchTerms":["Lenovo AIO IdeaCentre, 27″, 16GB, 1TB SSD, Core™ 5"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T19:41:08.779Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T19:41:14.037Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T19:41:14.037Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16160,"nextIndex":16240,"remaining":6710,"httpFailures":{}}
+{"t":"2026-07-21T19:41:23.972Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16240,"batchSize":80,"total":22950}
+{"t":"2026-07-21T19:41:33.737Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T19:41:40.797Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T19:41:45.941Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T19:41:52.040Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T19:42:00.359Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T19:42:07.573Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T19:42:16.747Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T19:42:16.747Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16240,"nextIndex":16320,"remaining":6630,"httpFailures":{}}
