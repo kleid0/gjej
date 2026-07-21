@@ -27,12 +27,14 @@ on:
         description: "Index to resume from (default 0)"
         required: false
         default: "0"
-  # schedule PAUSED 2026-06-22 — disabled to stop Fluid Active CPU burn
-  # (nearing the Vercel limit). This catalogue walk is by far the biggest
-  # CPU consumer. Re-enable by uncommenting. Manual runs still work via the
-  # workflow_dispatch button above.
-  # schedule:
-  #   - cron: "0 6 * * *"
+  # Re-enabled 2026-07-21 at HALF cadence (every 2 days, was daily) after the
+  # 2026-06-22 pause for Fluid Active CPU burn: daily walks consumed ~a month's
+  # CPU budget in ~3 weeks. The usage circuit breaker in the app
+  # (src/infrastructure/usage/usageTracker.ts) is the hard backstop now — the
+  # endpoint refuses to run past VERCEL_USAGE_BREAKER_PCT of the metered
+  # limits and returns remaining=0 so this walk loop stops cleanly.
+  schedule:
+    - cron: "0 6 */2 * *"
   push:
     branches: [main]
     paths:

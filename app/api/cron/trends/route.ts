@@ -64,10 +64,19 @@ export async function GET(req: NextRequest) {
     .map((s) => s.product);
 
   const scores = await fetchTrendsScores(candidates);
-  writeTrendsCache(scores);
-  markDirty(TRENDS_FILE);
 
   const nonZero = Object.values(scores).filter((s) => s > 0).length;
+  // Google 429s every batch from datacenter IPs (all-zero scores, observed
+  // continuously since 2026-06-21). Writing that would clobber the last good
+  // trends.json with zeros — keep the previous cache when the run is a wash.
+  if (nonZero === 0 && candidates.length > 0) {
+    log.warn("all trends batches failed — keeping previous cache", {
+      candidates: candidates.length,
+    });
+  } else {
+    writeTrendsCache(scores);
+    markDirty(TRENDS_FILE);
+  }
   log.info("run complete", { total: Object.keys(scores).length, nonZero, candidates: candidates.length });
 
   await recordInvocation(Date.now() - invocationStart, process.cpuUsage(invocationCpu));
