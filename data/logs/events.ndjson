@@ -1,12 +1,3 @@
-{"t":"2026-06-21T10:32:58.184Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ProOne 240 G10","items":1,"names":["HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U"]}
-{"t":"2026-06-21T10:32:58.184Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U","score":2.1052631578947367}]}
-{"t":"2026-06-21T10:33:01.553Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T10:33:01.577Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-icore-5-210h","searchTerms":["Lenovo IdeaCentre 23.8″ FHD iCore 5 210H"]}
-{"t":"2026-06-21T10:33:01.577Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre FHD iCore 5 210H","IdeaCentre FHD iCore 5 210H","Lenovo IdeaCentre FHD iCore"]}
-{"t":"2026-06-21T10:33:01.603Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-27-cr1011na-27%e2%80%b3-intel-core-ultra-5-125u","searchTerms":["HP 27-cr1011na 27″ Intel® Core™ Ultra 5 125U"]}
-{"t":"2026-06-21T10:33:01.603Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP 27-cr1011na Intel Core Ultra 5 125U","27-cr1011na Intel Core Ultra 5 125U","HP 27-cr1011na Intel Core"]}
-{"t":"2026-06-21T10:33:01.624Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-27%e2%80%b3-qhd-i7-13620h","searchTerms":["Lenovo IdeaCentre 27″ QHD i7-13620H"]}
-{"t":"2026-06-21T10:33:01.624Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre QHD i7-13620H","IdeaCentre QHD i7-13620H"]}
 {"t":"2026-06-21T10:33:02.315Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre QHD i7-13620H","items":0,"names":[]}
 {"t":"2026-06-21T10:33:02.744Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP 27-cr1011na Intel Core Ultra 5 125U","items":0,"names":[]}
 {"t":"2026-06-21T10:33:02.958Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaCentre QHD i7-13620H","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T16:02:59.409Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T16:03:01.665Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T16:03:01.666Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1600,"nextIndex":1680,"remaining":21270,"httpFailures":{}}
+{"t":"2026-07-21T16:03:10.049Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1680,"batchSize":80,"total":22950}
+{"t":"2026-07-21T16:03:16.624Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T16:03:20.344Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T16:03:23.736Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T16:03:27.399Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T16:03:32.262Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T16:03:37.193Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T16:03:39.635Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T16:03:39.635Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1680,"nextIndex":1760,"remaining":21190,"httpFailures":{}}
