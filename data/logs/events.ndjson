@@ -1,4 +1,3 @@
-{"t":"2026-06-21T10:09:09.356Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
 {"t":"2026-06-21T10:09:12.570Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-21T10:09:17.491Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-21T10:09:17.491Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":4720,"nextIndex":4800,"remaining":15915,"httpFailures":{"shpresa:403":117}}
@@ -4998,3 +4997,4 @@
 {"t":"2026-06-22T14:17:26.510Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T14:17:29.473Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T14:17:29.473Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":18640,"nextIndex":18720,"remaining":1995,"httpFailures":{}}
+{"t":"2026-07-21T15:44:59.889Z","level":"info","scope":"admin/recategorize","msg":"recategorize complete","total":22950,"updated":17583,"distribution":{"kompjutera":4652,"telefona":2109,"shtepiake":1619,"elektronike":6760,"foto-video":214,"bukuri":494,"shtepi":572,"tv-audio":1858,"sporte":49,"gaming":1560,"veshje":422,"lodra":2641}}
