@@ -1,12 +1,3 @@
-{"t":"2026-06-21T10:39:33.968Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Professional Backpack Case","items":0,"names":[]}
-{"t":"2026-06-21T10:39:33.984Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"XD Design Soft Daypack Anti-theft","items":0,"names":[]}
-{"t":"2026-06-21T10:39:34.083Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Pavilion Tech Backpack Case","items":0,"names":[]}
-{"t":"2026-06-21T10:39:34.120Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Backpack Travel Case","items":0,"names":[]}
-{"t":"2026-06-21T10:39:34.380Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Professional Backpack Case","items":0,"names":[]}
-{"t":"2026-06-21T10:39:34.531Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Backpack Travel Case","items":0,"names":[]}
-{"t":"2026-06-21T10:39:35.077Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Essential Backpack Case","items":0,"names":[]}
-{"t":"2026-06-21T10:39:35.167Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Targus CityGear Backpack Case","items":0,"names":[]}
-{"t":"2026-06-21T10:39:35.319Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaPad Gaming Backpack","items":0,"names":[]}
 {"t":"2026-06-21T10:39:35.379Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Essential Backpack Case","items":0,"names":[]}
 {"t":"2026-06-21T10:39:35.775Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"XD Design Soft Daypack","items":0,"names":[]}
 {"t":"2026-06-21T10:39:35.856Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Pavilion Tech Backpack Case","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T16:44:11.574Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T16:44:17.361Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T16:44:17.362Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":4480,"nextIndex":4560,"remaining":18390,"httpFailures":{}}
+{"t":"2026-07-21T16:44:25.758Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":4560,"batchSize":80,"total":22950}
+{"t":"2026-07-21T16:44:34.535Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T16:44:42.734Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T16:44:53.417Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T16:45:06.604Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T16:45:19.452Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T16:45:31.816Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T16:45:41.036Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T16:45:41.036Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":4560,"nextIndex":4640,"remaining":18310,"httpFailures":{}}
