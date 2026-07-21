@@ -1,12 +1,3 @@
-{"t":"2026-06-21T10:42:32.616Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T10:42:32.616Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8960,"nextIndex":9040,"remaining":11675,"httpFailures":{}}
-{"t":"2026-06-21T10:42:38.731Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":9040,"batchSize":80,"total":20715}
-{"t":"2026-06-21T10:42:38.821Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-s2725ds-27%e2%80%b3-qhd-white","searchTerms":["DELL Monitor S2725DS 27″ QHD White"]}
-{"t":"2026-06-21T10:42:38.821Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor S2725DS QHD White","Monitor S2725DS QHD White","DELL Monitor S2725DS QHD"]}
-{"t":"2026-06-21T10:42:40.280Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor S2725DS QHD White","items":0,"names":[]}
-{"t":"2026-06-21T10:42:41.620Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor S2725DS QHD White","items":0,"names":[]}
-{"t":"2026-06-21T10:42:42.243Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor S2725DS QHD","items":0,"names":[]}
-{"t":"2026-06-21T10:42:44.521Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
 {"t":"2026-06-21T10:42:44.533Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-pro-27-plus-video-conferencing-27%e2%80%b3-qhd-p2724deb","searchTerms":["Dell Pro 27 Plus Video Conferencing 27″ QHD P2724DEB"]}
 {"t":"2026-06-21T10:42:44.533Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell Pro 27 Plus Video Conferencing QHD P2724DEB","Pro 27 Plus Video Conferencing QHD P2724DEB","Dell Pro 27 Plus"]}
 {"t":"2026-06-21T10:42:44.550Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-alienware-27%e2%80%b3-1ms-up-to-280hz-aw2723df","searchTerms":["DELL Alienware 27″ 1ms up to 280Hz AW2723DF"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T17:03:35.869Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T17:03:44.943Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T17:03:44.943Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":5840,"nextIndex":5920,"remaining":17030,"httpFailures":{}}
+{"t":"2026-07-21T17:03:53.104Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":5920,"batchSize":80,"total":22950}
+{"t":"2026-07-21T17:04:02.769Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T17:04:11.936Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T17:04:18.052Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T17:04:27.223Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T17:04:35.909Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T17:04:42.433Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T17:04:47.579Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T17:04:47.579Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":5920,"nextIndex":6000,"remaining":16950,"httpFailures":{}}
