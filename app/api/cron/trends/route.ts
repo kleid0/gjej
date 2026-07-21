@@ -9,7 +9,7 @@ import { commitDirtyFiles, hydrateFromGitHub } from "@/src/infrastructure/git/co
 import { TRENDS_FILE, USAGE_STATS_FILE } from "@/src/infrastructure/persistence/paths";
 import { createLogger } from "@/src/infrastructure/logging/logger";
 import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
-import { recordInvocation } from "@/src/infrastructure/usage/usageTracker";
+import { recordInvocation, enforceUsageBreaker } from "@/src/infrastructure/usage/usageTracker";
 
 // Google Trends batches 5 keywords per request with ~1.2s delay between batches.
 // 50 products = 10 batches ≈ 12 seconds. Give plenty of headroom.
@@ -22,12 +22,25 @@ const log = createLogger("cron/trends");
 // and writes the result to data/trends.json. Called daily by Vercel Cron.
 export async function GET(req: NextRequest) {
   const invocationStart = Date.now();
+  const invocationCpu = process.cpuUsage();
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   await hydrateFromGitHub([TRENDS_FILE, USAGE_STATS_FILE]);
+
+  // Usage kill switch — see refresh-prices; resets when the month rolls over.
+  const breaker = await enforceUsageBreaker();
+  if (breaker.tripped) {
+    await flushLogsToGit();
+    try {
+      await commitDirtyFiles(takeDirtyFiles(), "chore(data): usage breaker pause");
+    } catch (err) {
+      log.error("commit failed", { err });
+    }
+    return NextResponse.json({ paused: true, reason: breaker.reason });
+  }
 
   const [allProducts, allPrices] = await Promise.all([
     productCatalog.getAllProducts(),
@@ -57,7 +70,7 @@ export async function GET(req: NextRequest) {
   const nonZero = Object.values(scores).filter((s) => s > 0).length;
   log.info("run complete", { total: Object.keys(scores).length, nonZero, candidates: candidates.length });
 
-  await recordInvocation(Date.now() - invocationStart);
+  await recordInvocation(Date.now() - invocationStart, process.cpuUsage(invocationCpu));
   await flushLogsToGit();
   let commitSha: string | null = null;
   try {

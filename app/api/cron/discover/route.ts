@@ -17,7 +17,7 @@ import {
 } from "@/src/infrastructure/persistence/paths";
 import { createLogger } from "@/src/infrastructure/logging/logger";
 import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
-import { recordInvocation } from "@/src/infrastructure/usage/usageTracker";
+import { recordInvocation, enforceUsageBreaker } from "@/src/infrastructure/usage/usageTracker";
 
 export const maxDuration = 300;
 
@@ -30,6 +30,7 @@ const log = createLogger("cron/discover");
 // touched JSON files get persisted to GitHub in a single commit at the end.
 export async function GET(req: NextRequest) {
   const invocationStart = Date.now();
+  const invocationCpu = process.cpuUsage();
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -43,6 +44,18 @@ export async function GET(req: NextRequest) {
     CATALOGUE_STATE_FILE,
     USAGE_STATS_FILE,
   ]);
+
+  // Usage kill switch — see refresh-prices; resets when the month rolls over.
+  const breaker = await enforceUsageBreaker();
+  if (breaker.tripped) {
+    await flushLogsToGit();
+    try {
+      await commitDirtyFiles(takeDirtyFiles(), "chore(data): usage breaker pause");
+    } catch (err) {
+      log.error("commit failed", { err });
+    }
+    return NextResponse.json({ paused: true, reason: breaker.reason });
+  }
 
   const { discovered, total, fused } = await catalogDiscovery.run();
 
@@ -64,7 +77,7 @@ export async function GET(req: NextRequest) {
 
   log.info("run complete", { discovered, total, fused, discontinued });
 
-  await recordInvocation(Date.now() - invocationStart);
+  await recordInvocation(Date.now() - invocationStart, process.cpuUsage(invocationCpu));
   await flushLogsToGit();
   let commitSha: string | null = null;
   try {

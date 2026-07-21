@@ -1,5 +1,12 @@
 import { describe, it, expect } from "vitest";
-import { monthKeyUtc, projectMonthly, pruneMonths, type MonthUsage } from "../usageTracker";
+import {
+  monthKeyUtc,
+  projectMonthly,
+  pruneMonths,
+  breakerVerdict,
+  type MonthUsage,
+  type BreakerLimits,
+} from "../usageTracker";
 
 const mu = (gbHours: number): MonthUsage => ({
   invocations: 1,
@@ -35,6 +42,35 @@ describe("projectMonthly", () => {
     // 60 by day 15 of a 30-day month → 120 projected → 120% of limit
     const p = projectMonthly(60, new Date("2026-06-15T00:30:00Z"), 100);
     expect(p.pctProjected).toBeCloseTo(120, 5);
+  });
+});
+
+describe("breakerVerdict", () => {
+  const limits: BreakerLimits = { gbHoursLimit: 100, cpuHoursLimit: 4, breakerPct: 95 };
+  const month = (over: Partial<MonthUsage>): MonthUsage => ({ ...mu(0), ...over });
+
+  it("does not trip under both caps", () => {
+    const v = breakerVerdict(month({ gbHours: 50, cpuSeconds: 2 * 3600 }), limits);
+    expect(v.tripped).toBe(false);
+  });
+
+  it("trips on active CPU crossing 95% of its limit", () => {
+    // 3.8 CPU-hours = exactly 95% of 4
+    const v = breakerVerdict(month({ cpuSeconds: 3.8 * 3600 }), limits);
+    expect(v.tripped).toBe(true);
+    expect(v.reason).toContain("active CPU");
+  });
+
+  it("trips on GB-hours crossing 95% of its limit", () => {
+    const v = breakerVerdict(month({ gbHours: 95 }), limits);
+    expect(v.tripped).toBe(true);
+    expect(v.reason).toContain("GB-hour");
+  });
+
+  it("does not trip on a missing month bucket or legacy file without cpuSeconds", () => {
+    expect(breakerVerdict(undefined, limits).tripped).toBe(false);
+    const legacy = { invocations: 1, functionSeconds: 1, gbHours: 10, warnedAt: null };
+    expect(breakerVerdict(legacy, limits).tripped).toBe(false);
   });
 });
 

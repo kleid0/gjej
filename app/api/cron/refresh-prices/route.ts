@@ -23,7 +23,7 @@ import {
   STORE_MAPPINGS_FILE,
   USAGE_STATS_FILE,
 } from "@/src/infrastructure/persistence/paths";
-import { recordInvocation, maybeWarnUsage } from "@/src/infrastructure/usage/usageTracker";
+import { recordInvocation, maybeWarnUsage, enforceUsageBreaker } from "@/src/infrastructure/usage/usageTracker";
 import { createLogger } from "@/src/infrastructure/logging/logger";
 import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
 import { takeStoreHttpFailures } from "@/src/infrastructure/scrapers/PriceScraper";
@@ -57,6 +57,7 @@ const BATCH_SIZE = 80;
 // lowest-prices / admin-stats cache tags.
 export async function GET(req: NextRequest) {
   const invocationStart = Date.now();
+  const invocationCpu = process.cpuUsage();
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -77,6 +78,29 @@ export async function GET(req: NextRequest) {
     STORE_MAPPINGS_FILE,
     USAGE_STATS_FILE,
   ]);
+
+  // Kill switch: once the month's metered usage crosses the breaker
+  // threshold, refuse to scrape. remaining=0 makes the GHA orchestrator's
+  // walk loop stop cleanly instead of hammering a paused endpoint.
+  const breaker = await enforceUsageBreaker();
+  if (breaker.tripped) {
+    await flushLogsToGit();
+    try {
+      await commitDirtyFiles(takeDirtyFiles(), "chore(data): usage breaker pause");
+    } catch (err) {
+      log.error("commit failed", { err });
+    }
+    return NextResponse.json({
+      paused: true,
+      reason: breaker.reason,
+      refreshed: 0,
+      errors: 0,
+      nextIndex: 0,
+      remaining: 0,
+      commitSha: null,
+      timestamp: new Date().toISOString(),
+    });
+  }
 
   const allProducts = await productCatalog.getAllProducts();
 
@@ -177,9 +201,9 @@ export async function GET(req: NextRequest) {
     httpFailures: takeStoreHttpFailures(),
   });
 
-  // Meter this invocation for the Vercel-usage tripwire; on the final batch
-  // of the day, also log the usage snapshot / send the threshold warning.
-  await recordInvocation(Date.now() - invocationStart);
+  // Meter this invocation (wall + active CPU) for the Vercel-usage breaker;
+  // on the final batch of the day, also log the usage snapshot / warning.
+  await recordInvocation(Date.now() - invocationStart, process.cpuUsage(invocationCpu));
   if (remaining === 0) await maybeWarnUsage();
 
   // Persist this invocation's slice of writes to GitHub. prices.json is
