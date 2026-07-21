@@ -6,6 +6,7 @@ import {
 } from "@/src/infrastructure/db/PriceHistoryRepository";
 import { priceQuery } from "@/src/infrastructure/container";
 import { withRequestLog } from "@/src/infrastructure/logging/withRequestLog";
+import { getUsageSnapshot } from "@/src/infrastructure/usage/usageTracker";
 
 export const dynamic = "force-dynamic";
 
@@ -18,11 +19,12 @@ export const GET = withRequestLog("admin/stats", async (req: NextRequest) => {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const [stats, errors, discoveryLog, allPrices] = await Promise.allSettled([
+  const [stats, errors, discoveryLog, allPrices, usage] = await Promise.allSettled([
     getAdminStats(),
     getRecentScraperErrors(50),
     getDiscoveryLog(10),
     priceQuery.getAllCachedPrices(),
+    getUsageSnapshot(),
   ]);
 
   // Collect suspicious and overpriced prices from the cache
@@ -51,6 +53,7 @@ export const GET = withRequestLog("admin/stats", async (req: NextRequest) => {
     errors: errors.status === "fulfilled" ? errors.value : [],
     discoveryLog: discoveryLog.status === "fulfilled" ? discoveryLog.value : [],
     suspiciousPrices,
+    vercelUsage: usage.status === "fulfilled" ? usage.value : null,
     timestamp: new Date().toISOString(),
   });
 });

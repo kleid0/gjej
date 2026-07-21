@@ -6,9 +6,10 @@ import {
 } from "@/src/infrastructure/trends/TrendsService";
 import { markDirty, takeDirtyFiles } from "@/src/infrastructure/persistence/JsonStore";
 import { commitDirtyFiles, hydrateFromGitHub } from "@/src/infrastructure/git/commitDataFiles";
-import { TRENDS_FILE } from "@/src/infrastructure/persistence/paths";
+import { TRENDS_FILE, USAGE_STATS_FILE } from "@/src/infrastructure/persistence/paths";
 import { createLogger } from "@/src/infrastructure/logging/logger";
 import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
+import { recordInvocation } from "@/src/infrastructure/usage/usageTracker";
 
 // Google Trends batches 5 keywords per request with ~1.2s delay between batches.
 // 50 products = 10 batches ≈ 12 seconds. Give plenty of headroom.
@@ -20,12 +21,13 @@ const log = createLogger("cron/trends");
 // Fetches Google Trends interest scores for the top products (by store coverage)
 // and writes the result to data/trends.json. Called daily by Vercel Cron.
 export async function GET(req: NextRequest) {
+  const invocationStart = Date.now();
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  await hydrateFromGitHub([TRENDS_FILE]);
+  await hydrateFromGitHub([TRENDS_FILE, USAGE_STATS_FILE]);
 
   const [allProducts, allPrices] = await Promise.all([
     productCatalog.getAllProducts(),
@@ -55,6 +57,7 @@ export async function GET(req: NextRequest) {
   const nonZero = Object.values(scores).filter((s) => s > 0).length;
   log.info("run complete", { total: Object.keys(scores).length, nonZero, candidates: candidates.length });
 
+  await recordInvocation(Date.now() - invocationStart);
   await flushLogsToGit();
   let commitSha: string | null = null;
   try {

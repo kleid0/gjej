@@ -21,7 +21,9 @@ import {
   CATALOGUE_STATE_FILE,
   SCRAPER_ERRORS_FILE,
   STORE_MAPPINGS_FILE,
+  USAGE_STATS_FILE,
 } from "@/src/infrastructure/persistence/paths";
+import { recordInvocation, maybeWarnUsage } from "@/src/infrastructure/usage/usageTracker";
 import { createLogger } from "@/src/infrastructure/logging/logger";
 import { flushLogsToGit } from "@/src/infrastructure/logging/gitSink";
 import { takeStoreHttpFailures } from "@/src/infrastructure/scrapers/PriceScraper";
@@ -54,6 +56,7 @@ const BATCH_SIZE = 80;
 // resume from. When remaining=0 the response also revalidates the
 // lowest-prices / admin-stats cache tags.
 export async function GET(req: NextRequest) {
+  const invocationStart = Date.now();
   const auth = req.headers.get("authorization");
   if (auth !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -72,6 +75,7 @@ export async function GET(req: NextRequest) {
     CATALOGUE_STATE_FILE,
     SCRAPER_ERRORS_FILE,
     STORE_MAPPINGS_FILE,
+    USAGE_STATS_FILE,
   ]);
 
   const allProducts = await productCatalog.getAllProducts();
@@ -172,6 +176,11 @@ export async function GET(req: NextRequest) {
     refreshed, errors: errorCount, startIndex, nextIndex, remaining,
     httpFailures: takeStoreHttpFailures(),
   });
+
+  // Meter this invocation for the Vercel-usage tripwire; on the final batch
+  // of the day, also log the usage snapshot / send the threshold warning.
+  await recordInvocation(Date.now() - invocationStart);
+  if (remaining === 0) await maybeWarnUsage();
 
   // Persist this invocation's slice of writes to GitHub. prices.json is
   // also written by the scraper so include it explicitly. flushLogsToGit()
