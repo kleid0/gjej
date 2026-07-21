@@ -1,12 +1,3 @@
-{"t":"2026-06-21T10:36:06.722Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"EliteOne 870 G9 i7-14700","items":0,"names":[]}
-{"t":"2026-06-21T10:36:07.426Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9","items":0,"names":[]}
-{"t":"2026-06-21T10:36:09.794Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T10:36:09.806Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-casual-backpack-b210-15-6%e2%80%b3","searchTerms":["Lenovo Casual Backpack B210 15.6″"]}
-{"t":"2026-06-21T10:36:09.806Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Casual Backpack B210","Casual Backpack B210"]}
-{"t":"2026-06-21T10:36:09.809Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-simple-toploader-t1050-15-6%e2%80%b3","searchTerms":["Lenovo Simple Toploader T1050 15.6″"]}
-{"t":"2026-06-21T10:36:09.810Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Simple Toploader T1050","Simple Toploader T1050"]}
-{"t":"2026-06-21T10:36:10.967Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Simple Toploader T1050","items":0,"names":[]}
-{"t":"2026-06-21T10:36:11.204Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Casual Backpack B210","items":0,"names":[]}
 {"t":"2026-06-21T10:36:11.704Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Casual Backpack B210","items":0,"names":[]}
 {"t":"2026-06-21T10:36:12.321Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Simple Toploader T1050","items":0,"names":[]}
 {"t":"2026-06-21T10:36:13.709Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-21T16:18:38.869Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T16:18:45.732Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T16:18:45.732Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2720,"nextIndex":2800,"remaining":20150,"httpFailures":{}}
+{"t":"2026-07-21T16:18:54.001Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2800,"batchSize":80,"total":22950}
+{"t":"2026-07-21T16:19:05.573Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T16:19:18.116Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T16:19:30.509Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T16:19:43.248Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T16:19:52.372Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T16:20:01.327Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T16:20:09.023Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T16:20:09.024Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2800,"nextIndex":2880,"remaining":20070,"httpFailures":{}}
