@@ -1,70 +1,3 @@
-{"t":"2026-06-22T12:19:51.661Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":5600,"nextIndex":5680,"remaining":15035,"httpFailures":{}}
-{"t":"2026-06-22T12:19:58.657Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":5680,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:20:02.244Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:20:05.880Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T12:20:10.367Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T12:20:15.090Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T12:20:17.773Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T12:20:22.581Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T12:20:24.698Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T12:20:24.698Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":5680,"nextIndex":5760,"remaining":14955,"httpFailures":{}}
-{"t":"2026-06-22T12:20:32.682Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":5760,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:20:37.237Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:20:41.956Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T12:20:47.264Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T12:20:50.126Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T12:20:52.219Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T12:20:55.924Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T12:20:59.500Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T12:20:59.501Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":5760,"nextIndex":5840,"remaining":14875,"httpFailures":{}}
-{"t":"2026-06-22T12:21:07.713Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":5840,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:21:12.505Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:21:14.828Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T12:21:19.308Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T12:21:21.842Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T12:21:26.497Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T12:21:33.038Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T12:21:38.319Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T12:21:38.319Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":5840,"nextIndex":5920,"remaining":14795,"httpFailures":{}}
-{"t":"2026-06-22T12:21:45.920Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":5920,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:21:50.812Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:21:53.995Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T12:21:56.759Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T12:22:00.352Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T12:22:04.903Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T12:22:07.878Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T12:22:10.232Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T12:22:10.233Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":5920,"nextIndex":6000,"remaining":14715,"httpFailures":{}}
-{"t":"2026-06-22T12:22:17.876Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":6000,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:22:21.263Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:22:23.775Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T12:22:25.877Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T12:22:32.388Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T12:22:38.466Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T12:22:42.558Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T12:22:46.960Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T12:22:46.960Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":6000,"nextIndex":6080,"remaining":14635,"httpFailures":{}}
-{"t":"2026-06-22T12:22:54.257Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":6080,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:22:58.922Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:23:02.511Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T12:23:06.345Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T12:23:09.352Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T12:23:15.699Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T12:23:21.163Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T12:23:25.462Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T12:23:25.463Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":6080,"nextIndex":6160,"remaining":14555,"httpFailures":{}}
-{"t":"2026-06-22T12:23:32.995Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":6160,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:23:38.795Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:23:45.847Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T12:23:48.855Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T12:23:52.015Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T12:23:55.343Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T12:23:59.211Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T12:24:01.402Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T12:24:01.403Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":6160,"nextIndex":6240,"remaining":14475,"httpFailures":{}}
-{"t":"2026-06-22T12:24:10.204Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":6240,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:24:14.369Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:24:17.556Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-06-22T12:24:23.612Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
 {"t":"2026-06-22T12:24:28.033Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
 {"t":"2026-06-22T12:24:33.905Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
@@ -4998,3 +4931,70 @@
 {"t":"2026-07-21T21:04:32.838Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T21:04:34.904Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T21:04:34.904Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":21600,"nextIndex":21680,"remaining":1270,"httpFailures":{}}
+{"t":"2026-07-21T21:04:43.944Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":21680,"batchSize":80,"total":22950}
+{"t":"2026-07-21T21:04:49.743Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T21:04:52.731Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T21:04:52.754Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-microsoft-surface-laptop-studio-14-4%e2%80%b3-32gb-1tb-ssd-core-i7-11370h-rtx-a2000-4gb","searchTerms":["Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB"]}
+{"t":"2026-07-21T21:04:52.754Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-laptop-studio-14-4%e2%80%b3-32gb-1tb-ssd-core-i7-11370h-rtx-a2000-4gb"}
+{"t":"2026-07-21T21:04:52.759Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-microsoft-surface-laptop-studio-14-4%e2%80%b3-32gb-1tb-ssd-core-i7-11370h-rtx-3050-ti-4gb","searchTerms":["Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB"]}
+{"t":"2026-07-21T21:04:52.759Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-laptop-studio-14-4%e2%80%b3-32gb-1tb-ssd-core-i7-11370h-rtx-3050-ti-4gb"}
+{"t":"2026-07-21T21:04:55.193Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:04:55.193Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-laptop-studio-14-4″-32gb-1tb-ssd-core-i7-11370h-rtx-a2000-4gb"}
+{"t":"2026-07-21T21:04:55.553Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:04:55.553Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-laptop-studio-14-4″-32gb-1tb-ssd-core-i7-11370h-rtx-3050-ti-4gb"}
+{"t":"2026-07-21T21:04:56.254Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:04:56.254Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Microsoft Surface Laptop Studio","Surface Laptop Studio"]}
+{"t":"2026-07-21T21:04:56.490Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:04:56.490Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Microsoft Surface Laptop Studio","Surface Laptop Studio"]}
+{"t":"2026-07-21T21:04:57.289Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface Laptop Studio","items":3,"names":["Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB","Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB","Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB "]}
+{"t":"2026-07-21T21:04:57.289Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB","score":1.9047619047619047},{"name":"Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB","score":1.8181818181818181},{"name":"Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB ","score":1.9047619047619047}]}
+{"t":"2026-07-21T21:04:57.713Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface Laptop Studio","items":3,"names":["Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB","Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB","Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB "]}
+{"t":"2026-07-21T21:04:57.714Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB","score":1.9047619047619047},{"name":"Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB","score":1.8181818181818181},{"name":"Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB ","score":1.9047619047619047}]}
+{"t":"2026-07-21T21:05:00.407Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T21:05:00.436Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-microsoft-surface-laptop-studio-2-14-4%e2%80%b3-16gb-512gb-ssd-core-i7-13800h-rtx-4050-6gb","searchTerms":["Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB"]}
+{"t":"2026-07-21T21:05:00.436Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-laptop-studio-2-14-4%e2%80%b3-16gb-512gb-ssd-core-i7-13800h-rtx-4050-6gb"}
+{"t":"2026-07-21T21:05:00.444Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-microsoft-surface-5-15%e2%80%b3-16gb-512gb-ssd-core-i7-1265u","searchTerms":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U"]}
+{"t":"2026-07-21T21:05:00.444Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-5-15%e2%80%b3-16gb-512gb-ssd-core-i7-1265u"}
+{"t":"2026-07-21T21:05:00.448Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-microsoft-surface-5-13-5%e2%80%b3-16gb-512gb-ssd-core-i7-1265u","searchTerms":["Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U"]}
+{"t":"2026-07-21T21:05:00.448Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-5-13-5%e2%80%b3-16gb-512gb-ssd-core-i7-1265u"}
+{"t":"2026-07-21T21:05:00.455Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-microsoft-surface-5-15%e2%80%b3-16gb-512gb-ssd-core-i5-1245u","searchTerms":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U"]}
+{"t":"2026-07-21T21:05:00.456Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-5-15%e2%80%b3-16gb-512gb-ssd-core-i5-1245u"}
+{"t":"2026-07-21T21:05:01.272Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:05:01.272Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-laptop-studio-2-14-4″-16gb-512gb-ssd-core-i7-13800h-rtx-4050-6gb"}
+{"t":"2026-07-21T21:05:01.681Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:05:01.681Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-5-15″-16gb-512gb-ssd-core-i7-1265u"}
+{"t":"2026-07-21T21:05:01.754Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:05:01.754Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-5-13-5″-16gb-512gb-ssd-core-i7-1265u"}
+{"t":"2026-07-21T21:05:02.136Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:05:02.136Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-5-15″-16gb-512gb-ssd-core-i5-1245u"}
+{"t":"2026-07-21T21:05:03.115Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:05:03.115Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Microsoft Surface Laptop Studio 2","Surface Laptop Studio 2","Microsoft Surface Laptop Studio"]}
+{"t":"2026-07-21T21:05:03.321Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:05:03.321Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Microsoft Surface 5","Surface 5"]}
+{"t":"2026-07-21T21:05:03.458Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:05:03.458Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Microsoft Surface 5","Surface 5"]}
+{"t":"2026-07-21T21:05:03.602Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-21T21:05:03.602Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Microsoft Surface 5","Surface 5"]}
+{"t":"2026-07-21T21:05:03.815Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface Laptop Studio 2","items":1,"names":["Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB "]}
+{"t":"2026-07-21T21:05:03.815Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB ","score":0}]}
+{"t":"2026-07-21T21:05:04.225Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface 5","items":3,"names":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U"]}
+{"t":"2026-07-21T21:05:04.225Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U","score":0}]}
+{"t":"2026-07-21T21:05:04.698Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Surface Laptop Studio 2","items":1,"names":["Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB "]}
+{"t":"2026-07-21T21:05:04.698Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB ","score":0}]}
+{"t":"2026-07-21T21:05:04.846Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface 5","items":3,"names":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U"]}
+{"t":"2026-07-21T21:05:04.846Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U","score":0}]}
+{"t":"2026-07-21T21:05:04.850Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface 5","items":3,"names":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U"]}
+{"t":"2026-07-21T21:05:04.850Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U","score":0}]}
+{"t":"2026-07-21T21:05:05.240Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Surface 5","items":3,"names":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U"]}
+{"t":"2026-07-21T21:05:05.240Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U","score":0}]}
+{"t":"2026-07-21T21:05:05.454Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface Laptop Studio","items":3,"names":["Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB","Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB","Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB "]}
+{"t":"2026-07-21T21:05:05.455Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB","score":1.9047619047619047},{"name":"Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB","score":1.8181818181818181},{"name":"Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB ","score":1.9047619047619047}]}
+{"t":"2026-07-21T21:05:05.807Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Surface 5","items":3,"names":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U"]}
+{"t":"2026-07-21T21:05:05.807Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U","score":0}]}
+{"t":"2026-07-21T21:05:05.973Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Surface 5","items":3,"names":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U"]}
+{"t":"2026-07-21T21:05:05.974Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U","score":0}]}
+{"t":"2026-07-21T21:05:07.281Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T21:05:10.098Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T21:05:14.279Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T21:05:17.652Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T21:05:17.653Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":21680,"nextIndex":21760,"remaining":1190,"httpFailures":{}}
