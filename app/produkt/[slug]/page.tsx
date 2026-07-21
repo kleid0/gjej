@@ -100,9 +100,9 @@ export default async function ProductPage({ params, searchParams }: Props) {
 
       {/* Breadcrumb */}
       <nav className="text-xs text-gray-400 mb-6 flex items-center gap-1 flex-wrap">
-        <Link href="/" className="hover:text-tomato">Kryefaqja</Link>
+        <Link href="/" className="hover:text-orange-600">Kryefaqja</Link>
         <span>/</span>
-        <Link href={`/kategori/${product.category}`} className="hover:text-tomato">
+        <Link href={`/kategori/${product.category}`} className="hover:text-orange-600">
           {category?.name ?? product.category}
         </Link>
         {product.subcategory && (
@@ -110,7 +110,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
             <span>/</span>
             <Link
               href={`/kerko?kat=${product.category}&nënkat=${encodeURIComponent(product.subcategory)}`}
-              className="hover:text-tomato"
+              className="hover:text-orange-600"
             >
               {product.subcategory}
             </Link>
@@ -122,7 +122,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
 
       {/* Product header */}
       <div className="mb-6">
-        <p className="text-xs font-semibold text-tomato uppercase tracking-widest mb-1">
+        <p className="text-xs font-semibold text-orange-600 uppercase tracking-widest mb-1">
           {product.brand}
         </p>
         <h1 className="text-2xl font-bold text-gray-900 leading-snug mb-1">
@@ -147,7 +147,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
                 key={opt.label}
                 className={`text-sm border rounded-lg px-3 py-1.5 font-medium ${
                   i === 0
-                    ? "border-ink text-tomato bg-paper-deep"
+                    ? "border-orange-500 text-orange-600 bg-orange-50"
                     : "border-gray-200 text-gray-600"
                 }`}
               >
@@ -172,7 +172,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
               <Link
                 key={s.id}
                 href={`/produkt/${s.id}`}
-                className="text-xs border border-gray-200 bg-white rounded-lg px-3 py-1.5 hover:border-ink hover:text-tomato font-medium transition-colors"
+                className="text-xs border border-gray-200 bg-white rounded-lg px-3 py-1.5 hover:border-orange-400 hover:text-orange-600 font-medium transition-colors"
               >
                 {s.family}
                 {s.modelNumber && (

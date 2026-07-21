@@ -81,7 +81,7 @@ export default function PriceComparison({ productId, variantColour, variantStora
           <button
             onClick={() => fetchPrices(true)}
             disabled={loading}
-            className="text-tomato hover:text-tomato-deep font-medium disabled:opacity-50"
+            className="text-orange-600 hover:text-orange-700 font-medium disabled:opacity-50"
           >
             {loading ? "Duke kontrolluar…" : "↻ Rifresho"}
           </button>
@@ -119,7 +119,7 @@ export default function PriceComparison({ productId, variantColour, variantStora
                 <div
                   key={p.storeId}
                   className={`flex items-center justify-between px-4 py-3 ${
-                    isCheapest ? "bg-paper-deep" : ""
+                    isCheapest ? "bg-orange-50" : ""
                   }`}
                 >
                   <div className="flex items-center gap-3">
@@ -131,7 +131,7 @@ export default function PriceComparison({ productId, variantColour, variantStora
                       <div className="font-semibold text-sm text-gray-800 flex items-center gap-2">
                         {store?.name ?? p.storeId}
                         {isCheapest && (
-                          <span className="bg-sun text-white text-xs px-1.5 py-0.5 rounded-full font-bold">
+                          <span className="bg-orange-500 text-white text-xs px-1.5 py-0.5 rounded-full font-bold">
                             Çmimi më i mirë
                           </span>
                         )}
@@ -143,7 +143,7 @@ export default function PriceComparison({ productId, variantColour, variantStora
                   <div className="flex items-center gap-3">
                     {p.price !== null ? (
                       <div className="text-right">
-                        <span className={`font-bold text-lg ${isCheapest ? "text-tomato" : "text-gray-800"}`}>
+                        <span className={`font-bold text-lg ${isCheapest ? "text-orange-600" : "text-gray-800"}`}>
                           {Math.round(p.price).toLocaleString("sq-AL")} Lekë
                         </span>
                         {p.suspicious && (

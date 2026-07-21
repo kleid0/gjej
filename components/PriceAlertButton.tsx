@@ -55,7 +55,7 @@ export default function PriceAlertButton({ productId }: Props) {
       {!open ? (
         <button
           onClick={() => setOpen(true)}
-          className="flex items-center gap-2 text-sm font-medium text-tomato hover:text-tomato-deep border border-ink rounded-lg px-4 py-2.5 hover:bg-sun/30 transition-colors"
+          className="flex items-center gap-2 text-sm font-medium text-orange-600 hover:text-orange-700 border border-orange-200 rounded-lg px-4 py-2.5 hover:bg-orange-50 transition-colors"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
@@ -66,7 +66,7 @@ export default function PriceAlertButton({ productId }: Props) {
         <div className="border border-gray-200 rounded-xl p-4 bg-white shadow-sm">
           <div className="flex items-center justify-between mb-3">
             <h3 className="font-semibold text-gray-800 text-sm flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-tomato" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-4 h-4 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
               </svg>
               Njoftim për çmim
@@ -91,7 +91,7 @@ export default function PriceAlertButton({ productId }: Props) {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="emaili@juaj.com"
-                className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-sun focus:border-transparent"
+                className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-orange-300 focus:border-transparent"
               />
             </div>
 
@@ -106,7 +106,7 @@ export default function PriceAlertButton({ productId }: Props) {
                 value={threshold}
                 onChange={(e) => setThreshold(e.target.value)}
                 placeholder="p.sh. 50000"
-                className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-sun focus:border-transparent"
+                className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-orange-300 focus:border-transparent"
               />
             </div>
 

@@ -10,7 +10,7 @@ export default function RrethNeshPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
       <nav className="text-xs text-gray-400 mb-6 flex items-center gap-1">
-        <Link href="/" className="hover:text-tomato">Kryefaqja</Link>
+        <Link href="/" className="hover:text-orange-600">Kryefaqja</Link>
         <span>/</span>
         <span className="text-gray-600">Rreth nesh</span>
       </nav>
@@ -42,11 +42,11 @@ export default function RrethNeshPage() {
           <h2 className="text-xl font-semibold text-gray-800 mb-2">Dyqanet tona partnere</h2>
           <p>Aktualisht mbledhim çmime nga këto dyqane:</p>
           <ul className="list-disc pl-5 space-y-1 mt-2">
-            <li><a href="https://foleja.al" target="_blank" rel="noopener noreferrer" className="text-tomato hover:underline">Foleja.al</a></li>
-            <li><a href="https://shpresa.al" target="_blank" rel="noopener noreferrer" className="text-tomato hover:underline">Shpresa Group</a></li>
-            <li><a href="https://neptun.al" target="_blank" rel="noopener noreferrer" className="text-tomato hover:underline">Neptun</a></li>
-            <li><a href="https://globe.al" target="_blank" rel="noopener noreferrer" className="text-tomato hover:underline">Globe Albania</a></li>
-            <li><a href="https://albagame.al" target="_blank" rel="noopener noreferrer" className="text-tomato hover:underline">AlbaGame</a></li>
+            <li><a href="https://foleja.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">Foleja.al</a></li>
+            <li><a href="https://shpresa.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">Shpresa Group</a></li>
+            <li><a href="https://neptun.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">Neptun</a></li>
+            <li><a href="https://globe.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">Globe Albania</a></li>
+            <li><a href="https://albagame.al" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">AlbaGame</a></li>
           </ul>
         </section>
 

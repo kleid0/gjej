@@ -38,7 +38,7 @@ export default function SiFunksiononPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
       <nav className="text-xs text-gray-400 mb-6 flex items-center gap-1">
-        <Link href="/" className="hover:text-tomato">Kryefaqja</Link>
+        <Link href="/" className="hover:text-orange-600">Kryefaqja</Link>
         <span>/</span>
         <span className="text-gray-600">Si funksionon</span>
       </nav>
@@ -49,7 +49,7 @@ export default function SiFunksiononPage() {
       <div className="space-y-6">
         {steps.map((step) => (
           <div key={step.num} className="flex gap-4 items-start">
-            <div className="shrink-0 w-10 h-10 rounded-full bg-ink text-white text-white flex items-center justify-center font-bold text-lg">
+            <div className="shrink-0 w-10 h-10 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-lg">
               {step.num}
             </div>
             <div>
@@ -60,7 +60,7 @@ export default function SiFunksiononPage() {
         ))}
       </div>
 
-      <div className="mt-10 bg-paper-deep border border-sand rounded-xl p-5">
+      <div className="mt-10 bg-orange-50 border border-orange-100 rounded-xl p-5">
         <h3 className="font-semibold text-gray-800 mb-1">Alarmet e çmimit</h3>
         <p className="text-sm text-gray-600">
           Vendosni një çmim target për çdo produkt dhe ne do t&apos;ju dërgojmë email kur ai çmim

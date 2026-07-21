@@ -68,7 +68,7 @@ export default async function CategoryPage({ params, searchParams }: Props) {
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
       <nav className="text-xs text-gray-400 mb-3 flex items-center gap-1">
-        <Link href="/" className="hover:text-tomato">
+        <Link href="/" className="hover:text-orange-600">
           Kryefaqja
         </Link>
         <span>/</span>

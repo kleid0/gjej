@@ -10,7 +10,7 @@ export default function PrivatesiePage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
       <nav className="text-xs text-gray-400 mb-6 flex items-center gap-1">
-        <Link href="/" className="hover:text-tomato">Kryefaqja</Link>
+        <Link href="/" className="hover:text-orange-600">Kryefaqja</Link>
         <span>/</span>
         <span className="text-gray-600">Politika e privatësisë</span>
       </nav>
@@ -65,7 +65,7 @@ export default function PrivatesiePage() {
           </ul>
           <p className="mt-2">
             Për çdo kërkesë, na kontaktoni në{" "}
-            <Link href="/kontakt" className="text-tomato hover:underline">faqen e kontaktit</Link>.
+            <Link href="/kontakt" className="text-orange-600 hover:underline">faqen e kontaktit</Link>.
           </p>
         </section>
 
