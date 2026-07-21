@@ -35,6 +35,27 @@ function makeRepo(products: Product[]): IProductRepository & {
 
 // ── fusionKey ─────────────────────────────────────────────────────────────────
 
+describe("fusionKey — colour/finish parentheticals", () => {
+  it("fuses invented colour names in trailing parens (the Dyson Airwrap case)", () => {
+    const base = "Dyson Airwrap Co-anda2x™ Multi-Styler and Dryer Straight+Wavy";
+    const a = fusionKey(makeProduct({ brand: "Dyson", category: "bukuri", family: `${base} (Ceramic Pink/Rose Gold)` }));
+    const b = fusionKey(makeProduct({ brand: "Dyson", category: "bukuri", family: `${base} (Jasper Plum)` }));
+    const c = fusionKey(makeProduct({ brand: "Dyson", category: "bukuri", family: base }));
+    expect(a).toBe(b);
+    expect(b).toBe(c);
+  });
+
+  it("does NOT strip parentheticals that mark real product differences", () => {
+    const p = (fam: string) => fusionKey(makeProduct({ brand: "Apple", family: fam }));
+    // connectivity / year / refurb are real variants → distinct keys.
+    // (eSIM vs Dual SIM is intentionally NOT tested here — the fuser strips
+    // both by design, treating them as the same product.)
+    expect(p("iPad Air (Wi-Fi)")).not.toBe(p("iPad Air (Wi-Fi + Cellular)"));
+    expect(p("MacBook Air (2024)")).not.toBe(p("MacBook Air (2023)"));
+    expect(p("iPhone 15 (Refurbished)")).not.toBe(p("iPhone 15"));
+  });
+});
+
 describe("fusionKey", () => {
   it("strips store-specific family prefixes", () => {
     const a = fusionKey(makeProduct({ family: "Celular Apple iPhone 17" }));
