@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T21:18:26.134Z",
+  "updatedAt": "2026-07-21T21:19:14.909Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -28242,12 +28242,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/POWERBANK-ANKER-MAGGO-5K-WIRELESS-KR0628",
       "storeProductName": "POWERBANK ANKER MAGGO 5K WIRELESS",
-      "catalogueProductId": "neptun-27559",
+      "catalogueProductId": "foleja-power-bank-sbs-hd-65w-20000-mah-tebb20000hdpdlcdk-pd-65-w-me-ekran-lcd-2-porta-u",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T18:06:37.340Z",
-      "updatedAt": "2026-07-21T20:15:36.238Z"
+      "updatedAt": "2026-07-21T21:19:14.909Z"
     },
     "neptun:/categories/POWERBANK-INTENSO-XS-20-000-MAH-BLACK-KR0563": {
       "storeId": "neptun",
@@ -59218,12 +59218,12 @@
       "storeId": "globe",
       "storeProductId": "76378",
       "storeProductName": "Power Bank Ugreen 10000 mAh 20W Black",
-      "catalogueProductId": "neptun-29745",
+      "catalogueProductId": "foleja-power-bank-sbs-hd-65w-20000-mah-tebb20000hdpdlcdk-pd-65-w-me-ekran-lcd-2-porta-u",
       "matchMethod": "name_match",
-      "confidence": 60,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-04T10:39:09.697Z",
-      "updatedAt": "2026-07-21T20:15:23.943Z"
+      "updatedAt": "2026-07-21T21:19:14.909Z"
     },
     "globe:76192": {
       "storeId": "globe",
@@ -97328,6 +97328,28 @@
       "status": "pending",
       "createdAt": "2026-07-21T21:15:45.477Z",
       "updatedAt": "2026-07-21T21:15:45.477Z"
+    },
+    "foleja:/ABS-200000598/Power-bank-CANYON-PB-106-10000-mAh-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/ABS-200000598/Power-bank-CANYON-PB-106-10000-mAh-i-zi",
+      "storeProductName": "Power bank CANYON PB-106 10000 mAh, i zi",
+      "catalogueProductId": "foleja-power-bank-dudao-k14-10000-mah-me-kabllo-usb-c-lightning-t-integruara-pd-qc-22-5",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-07-21T21:19:14.909Z",
+      "updatedAt": "2026-07-21T21:19:14.909Z"
+    },
+    "shpresa:164548": {
+      "storeId": "shpresa",
+      "storeProductId": "164548",
+      "storeProductName": "Xiaomi Magnetic Power Bank 5000",
+      "catalogueProductId": "foleja-power-bank-sbs-hd-65w-20000-mah-tebb20000hdpdlcdk-pd-65-w-me-ekran-lcd-2-porta-u",
+      "matchMethod": "name_match",
+      "confidence": 100,
+      "status": "pending",
+      "createdAt": "2026-07-21T21:19:14.909Z",
+      "updatedAt": "2026-07-21T21:19:14.909Z"
     }
   }
 }
