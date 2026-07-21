@@ -1,37 +1,3 @@
-{"t":"2026-06-21T11:23:54.719Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T11:23:58.511Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T11:24:03.730Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T11:24:12.811Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T11:24:20.715Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T11:24:28.264Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T11:24:35.397Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T11:24:35.397Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14240,"nextIndex":14320,"remaining":6395,"httpFailures":{}}
-{"t":"2026-06-21T11:24:42.109Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14320,"batchSize":80,"total":20715}
-{"t":"2026-06-21T11:24:48.534Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T11:24:56.278Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T11:25:00.886Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T11:25:07.126Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T11:25:13.301Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T11:25:18.409Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T11:25:21.745Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T11:25:21.746Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14320,"nextIndex":14400,"remaining":6315,"httpFailures":{}}
-{"t":"2026-06-21T11:25:28.002Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14400,"batchSize":80,"total":20715}
-{"t":"2026-06-21T11:25:34.149Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-21T11:25:34.170Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-hp-aio-27-cr1024na-27%e2%80%b3-16gb-512gb-ssd-ultra-5","searchTerms":["HP AIO 27-CR1024NA, 27″, 16GB, 512GB SSD, Ultra 5"]}
-{"t":"2026-06-21T11:25:34.170Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-27-cr1024na-27%e2%80%b3-16gb-512gb-ssd-ultra-5"}
-{"t":"2026-06-21T11:25:35.447Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-21T11:25:35.448Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"hp-aio-27-cr1024na-27″-16gb-512gb-ssd-ultra-5"}
-{"t":"2026-06-21T11:25:36.834Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-21T11:25:36.834Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP AIO 27-CR1024NA","AIO 27-CR1024NA"]}
-{"t":"2026-06-21T11:25:37.735Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP AIO 27-CR1024NA","items":0,"names":[]}
-{"t":"2026-06-21T11:25:38.588Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"AIO 27-CR1024NA","items":0,"names":[]}
-{"t":"2026-06-21T11:25:39.486Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-21T11:25:43.034Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-21T11:25:48.384Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-21T11:25:52.772Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-21T11:25:58.069Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-21T11:26:00.942Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-21T11:26:00.942Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":14400,"nextIndex":14480,"remaining":6235,"httpFailures":{}}
 {"t":"2026-06-21T11:26:07.510Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":14480,"batchSize":80,"total":20715}
 {"t":"2026-06-21T11:26:12.353Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
 {"t":"2026-06-21T11:26:18.880Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
@@ -4998,3 +4964,37 @@
 {"t":"2026-07-21T17:48:08.985Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-21T17:48:14.227Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T17:48:14.227Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8640,"nextIndex":8720,"remaining":14230,"httpFailures":{}}
+{"t":"2026-07-21T17:48:22.984Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8720,"batchSize":80,"total":22950}
+{"t":"2026-07-21T17:48:32.053Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-21T17:48:32.070Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-seagate-ironwolf-hdd-3-5%e2%80%b3-4tb","searchTerms":["Seagate IronWolf HDD 3.5″ 4TB"]}
+{"t":"2026-07-21T17:48:32.070Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Seagate IronWolf HDD","IronWolf HDD"]}
+{"t":"2026-07-21T17:48:32.078Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-hdd-ultrastar-dc-hc520-3-5%e2%80%b3-12tb","searchTerms":["WD HDD Ultrastar DC HC520 3.5″ 12TB"]}
+{"t":"2026-07-21T17:48:32.078Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD HDD Ultrastar DC HC520","HDD Ultrastar DC HC520","WD HDD Ultrastar DC"]}
+{"t":"2026-07-21T17:48:32.934Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Seagate IronWolf HDD","items":0,"names":[]}
+{"t":"2026-07-21T17:48:33.386Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC HC520","items":0,"names":[]}
+{"t":"2026-07-21T17:48:34.901Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IronWolf HDD","items":0,"names":[]}
+{"t":"2026-07-21T17:48:35.241Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HDD Ultrastar DC HC520","items":0,"names":[]}
+{"t":"2026-07-21T17:48:37.075Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC","items":0,"names":[]}
+{"t":"2026-07-21T17:48:40.572Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-21T17:48:40.588Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-27%e2%80%b3-e2725h","searchTerms":["DELL Monitor 27″ E2725H"]}
+{"t":"2026-07-21T17:48:40.588Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor E2725H","Monitor E2725H"]}
+{"t":"2026-07-21T17:48:41.284Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor E2725H","items":0,"names":[]}
+{"t":"2026-07-21T17:48:43.311Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E2725H","items":0,"names":[]}
+{"t":"2026-07-21T17:48:50.062Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-21T17:48:50.102Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-hdd-3-5%e2%80%b3-8tb","searchTerms":["WD Red Plus HDD 3.5″ 8TB"]}
+{"t":"2026-07-21T17:48:50.102Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
+{"t":"2026-07-21T17:48:50.106Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-plus-hdd-3-5%e2%80%b3-10tb","searchTerms":["WD Red Plus HDD 3.5″ 10TB"]}
+{"t":"2026-07-21T17:48:50.106Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
+{"t":"2026-07-21T17:48:50.110Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-hdd-plus-3-5%e2%80%b3-4tb","searchTerms":["WD Red HDD Plus 3.5″ 4TB"]}
+{"t":"2026-07-21T17:48:50.110Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red HDD Plus","Red HDD Plus"]}
+{"t":"2026-07-21T17:48:51.516Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Plus HDD","items":0,"names":[]}
+{"t":"2026-07-21T17:48:52.137Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red HDD Plus","items":0,"names":[]}
+{"t":"2026-07-21T17:48:52.241Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Plus HDD","items":0,"names":[]}
+{"t":"2026-07-21T17:48:54.137Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Plus HDD","items":0,"names":[]}
+{"t":"2026-07-21T17:48:54.424Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red HDD Plus","items":0,"names":[]}
+{"t":"2026-07-21T17:48:54.560Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Plus HDD","items":0,"names":[]}
+{"t":"2026-07-21T17:49:00.615Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-21T17:49:11.092Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-21T17:49:22.137Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-21T17:49:28.809Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-21T17:49:28.809Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8720,"nextIndex":8800,"remaining":14150,"httpFailures":{}}

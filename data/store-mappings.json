@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T17:48:13.877Z",
+  "updatedAt": "2026-07-21T17:49:21.842Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -555,23 +555,23 @@
       "storeId": "foleja",
       "storeProductId": "/KOM-200009502/Karte-memorie-SanDisk-Extreme-Pro-SDXC-256GB",
       "storeProductName": "Kartë memorie SanDisk, Extreme Pro SDXC, 256GB",
-      "catalogueProductId": "shpresa-sandisk-extreme-pro-sdxc-uhs-ii-card-128gb",
+      "catalogueProductId": "pcstore-sandisk-128gb-extreme-pro-sd",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:40.449Z",
-      "updatedAt": "2026-07-21T15:56:03.834Z"
+      "updatedAt": "2026-07-21T17:48:31.817Z"
     },
     "neptun:/categories/SanDisk-Extreme-PRO-256GB-SDXC-Memory-Card-KA0817": {
       "storeId": "neptun",
       "storeProductId": "/categories/SanDisk-Extreme-PRO-256GB-SDXC-Memory-Card-KA0817",
       "storeProductName": "SanDisk Extreme PRO 256GB SDXC Memory Card",
-      "catalogueProductId": "shpresa-sandisk-extreme-pro-sdxc-uhs-ii-card-128gb",
+      "catalogueProductId": "pcstore-sandisk-128gb-extreme-pro-sd",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:40.449Z",
-      "updatedAt": "2026-07-21T15:56:03.834Z"
+      "updatedAt": "2026-07-21T17:48:31.817Z"
     },
     "foleja:/AXR-200004444/router-mobil-4G-LTE-TP-Link-M7350-ekran-LCD-i-zi": {
       "storeId": "foleja",
@@ -1567,12 +1567,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300263149/Kartele-memorie-microSDXC-SanDisk-Extreme-PRO-512-GB-e-kuqe",
       "storeProductName": "Kartelë memorie microSDXC SanDisk Extreme PRO 512 GB, e kuqe",
-      "catalogueProductId": "pcstore-sandisk-extreme-pro-1tb-microsd",
+      "catalogueProductId": "pcstore-sandisk-extreme-pro-256gb-microsd",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:56:04.862Z",
-      "updatedAt": "2026-07-21T17:41:04.549Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "foleja:/ACN-300014075/Ruter-Wireless-TP-Link-TL-MR6400-Fast-Ethernet-Single-band-3G-4G-2.4GHz-i-zi": {
       "storeId": "foleja",
@@ -7331,12 +7331,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-HP-250-G10-AD1V9ET-LP2097",
       "storeProductName": "LAPTOP HP 250 G10 AD1V9ET",
-      "catalogueProductId": "globe-75578",
+      "catalogueProductId": "pcstore-hp-250-g10-notebook-pc-i5-1334u",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:39:55.429Z",
-      "updatedAt": "2026-07-21T17:17:14.737Z"
+      "updatedAt": "2026-07-21T17:48:31.817Z"
     },
     "shpresa:172019": {
       "storeId": "shpresa",
@@ -9102,23 +9102,23 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200043639/Kartele-memorie-Samsung-PRO-Ultimate-512-GB-SDXC-UHS-I-e-bardhe",
       "storeProductName": "Kartelë memorie Samsung PRO Ultimate 512 GB SDXC UHS-I, e bardhë",
-      "catalogueProductId": "pcstore-samsung-pro-ultimate-128gb-sd-reader",
+      "catalogueProductId": "pcstore-samsung-pro-ultimate-256gb-sd-reader",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:28.153Z",
-      "updatedAt": "2026-07-21T17:46:26.169Z"
+      "updatedAt": "2026-07-21T17:48:31.817Z"
     },
     "neptun:/categories/KARTE-MEMORIE-SAMSUNG-PRO-ULTIMATE-MICROSD-256GB-KA0853": {
       "storeId": "neptun",
       "storeProductId": "/categories/KARTE-MEMORIE-SAMSUNG-PRO-ULTIMATE-MICROSD-256GB-KA0853",
       "storeProductName": "KARTE MEMORIE SAMSUNG PRO ULTIMATE MICROSD 256GB",
-      "catalogueProductId": "pcstore-samsung-pro-ultimate-128gb-sd-reader",
+      "catalogueProductId": "pcstore-samsung-pro-ultimate-256gb-sd-reader",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:50:28.153Z",
-      "updatedAt": "2026-07-21T17:46:26.169Z"
+      "updatedAt": "2026-07-21T17:48:31.817Z"
     },
     "foleja:/ACN-300173287/Procesor-Intel-Core-Ultra-9-285K-24-berthama-deri-ne-5.7-GHz": {
       "storeId": "foleja",
@@ -9597,23 +9597,23 @@
       "storeId": "shpresa",
       "storeProductId": "103941",
       "storeProductName": "Tp-link Switch 5-Port LS1005",
-      "catalogueProductId": "pcstore-tp-link-switch-8-port-gigabit-8-poe",
+      "catalogueProductId": "pcstore-tp-link-switch-5-port-gigabit",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:44.932Z",
-      "updatedAt": "2026-07-21T17:40:19.115Z"
+      "updatedAt": "2026-07-21T17:49:21.842Z"
     },
     "neptun:/categories/SWITCH-TP-LINK-TL-SF1005D-FAST-PC0892": {
       "storeId": "neptun",
       "storeProductId": "/categories/SWITCH-TP-LINK-TL-SF1005D-FAST-PC0892",
       "storeProductName": "SWITCH TP-LINK TL-SF1005D FAST",
-      "catalogueProductId": "pcstore-tp-link-switch-8-port-gigabit-8-poe",
+      "catalogueProductId": "pcstore-tp-link-switch-5-port-gigabit",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:44.932Z",
-      "updatedAt": "2026-07-21T17:40:19.115Z"
+      "updatedAt": "2026-07-21T17:49:21.842Z"
     },
     "foleja:/KST-200014463/Ftohes-CPU-Chieftec-ICEBERG-240-RGB": {
       "storeId": "foleja",
@@ -9674,34 +9674,34 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200011947/Kartele-MicroSD-Samsung-1TB-EVO-Plus-UHS-I-Blu-e-Bardhe",
       "storeProductName": "Kartelë MicroSD Samsung 1TB EVO Plus, UHS-I, Blu e Bardhë",
-      "catalogueProductId": "pcstore-samsung-evo-plus-256gb-micro-sd",
+      "catalogueProductId": "pcstore-samsung-evo-plus-64gb-micro-sd",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:52:07.194Z",
-      "updatedAt": "2026-07-21T17:41:04.549Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "neptun:/categories/KARTE-MEMORIE-SAMSUNG-EVO-PLUS-MICROSD-512GB-KA0851": {
       "storeId": "neptun",
       "storeProductId": "/categories/KARTE-MEMORIE-SAMSUNG-EVO-PLUS-MICROSD-512GB-KA0851",
       "storeProductName": "KARTE MEMORIE SAMSUNG EVO PLUS MICROSD 512GB",
-      "catalogueProductId": "pcstore-samsung-evo-plus-256gb-micro-sd",
+      "catalogueProductId": "pcstore-samsung-evo-plus-64gb-micro-sd",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:52:07.194Z",
-      "updatedAt": "2026-07-21T17:41:04.549Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "shpresa:107679": {
       "storeId": "shpresa",
       "storeProductId": "107679",
       "storeProductName": "SanDisk Extreme PRO microSDXC™ UHS-I CARD",
-      "catalogueProductId": "pcstore-sandisk-extreme-pro-1tb-microsd",
+      "catalogueProductId": "pcstore-sandisk-extreme-pro-256gb-microsd",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:52:07.194Z",
-      "updatedAt": "2026-07-21T17:41:04.549Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "shpresa:91338": {
       "storeId": "shpresa",
@@ -11054,18 +11054,18 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:55:58.586Z",
-      "updatedAt": "2026-06-22T12:47:54.051Z"
+      "updatedAt": "2026-07-21T17:48:31.817Z"
     },
     "globe:70967": {
       "storeId": "globe",
       "storeProductId": "70967",
       "storeProductName": "SSD Sandisk Extreme Pro Portable 2TB SDSSDE81-2T00-G25 AM",
-      "catalogueProductId": "pcstore-sandisk-extreme-pro-64gb-compactflash",
+      "catalogueProductId": "pcstore-sandisk-extreme-pro-256gb-microsd",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:55:58.586Z",
-      "updatedAt": "2026-07-21T17:45:56.718Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "foleja:/AXR-200005148/Monitor-Dell-E2425HM-210-BRDN-i-zi": {
       "storeId": "foleja",
@@ -11098,7 +11098,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:11.329Z",
-      "updatedAt": "2026-06-22T12:48:03.497Z"
+      "updatedAt": "2026-07-21T17:48:49.754Z"
     },
     "foleja:/KST-200004929/Kombo-Logitech-Signature-MK650-per-Biznes-Wireless-Bluetooth-Membrane-QWERTZ-Grafit-Maus-i-perfshire": {
       "storeId": "foleja",
@@ -11159,12 +11159,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/BOXE-LOGITECH-Z533-2-1-BLACK",
       "storeProductName": "BOXE LOGITECH Z533 2.1 BLACK",
-      "catalogueProductId": "neptun-1354",
+      "catalogueProductId": "pcstore-logitech-speakers-2-1-z533",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:17.437Z",
-      "updatedAt": "2026-06-22T14:10:16.174Z"
+      "updatedAt": "2026-07-21T17:49:00.246Z"
     },
     "foleja:/KST-200002308/Sistem-zerimi-Logitech-Z623-2.1-kanale-200-W-Universal-i-zi-400-W-Rotary": {
       "storeId": "foleja",
@@ -11203,12 +11203,12 @@
       "storeId": "foleja",
       "storeProductId": "/KOM-200082846/Karte-e-memories-SanDisk-microSDXC-Extreme-512GB",
       "storeProductName": "Kartë e memories SanDisk, microSDXC Extreme, 512GB",
-      "catalogueProductId": "shpresa-sandisk-extreme-sdxc-170mb-s",
+      "catalogueProductId": "pcstore-sandisk-extreme-64gb-microsd",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:21.802Z",
-      "updatedAt": "2026-07-21T16:03:36.939Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "foleja:/ALB-200000416/Karte-memorie-SanDisk-Ultra-SDSQUNR-032G-GN3MN-32GB-microSDHC-Gri": {
       "storeId": "foleja",
@@ -11252,18 +11252,18 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:21.802Z",
-      "updatedAt": "2026-06-22T12:48:12.701Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "foleja:/KST-200009137/Ftohes-ajri-Be-Quiet-DARK-ROCK-5-12-cm-2100-RPM-i-zi": {
       "storeId": "foleja",
       "storeProductId": "/KST-200009137/Ftohes-ajri-Be-Quiet-DARK-ROCK-5-12-cm-2100-RPM-i-zi",
       "storeProductName": "Ftohës ajri Be Quiet! DARK ROCK 5, 12 cm, 2100 RPM, i zi",
-      "catalogueProductId": "pcstore-cpu-cooling-dark-rock-pro-5",
+      "catalogueProductId": "pcstore-be-quiet-dark-rock-pro-4-tr4",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:56:32.168Z",
-      "updatedAt": "2026-05-11T10:24:32.616Z"
+      "updatedAt": "2026-07-21T17:49:21.842Z"
     },
     "foleja:/KST-200055877/USB-stick-Sandisk-Ultra-Dual-Drive-Go-512GB-USB-Type-C-lavender": {
       "storeId": "foleja",
@@ -47756,12 +47756,12 @@
       "storeId": "globe",
       "storeProductId": "70965",
       "storeProductName": "SSD e brendshme Laptopi 500GB 970 EVO PLUS 2280 EU PK",
-      "catalogueProductId": "pcstore-samsung-evo-plus-256gb-micro-sd",
+      "catalogueProductId": "pcstore-samsung-evo-plus-64gb-micro-sd",
       "matchMethod": "name_match",
       "confidence": 60,
       "status": "pending",
       "createdAt": "2026-05-01T08:56:03.143Z",
-      "updatedAt": "2026-07-21T17:41:04.549Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "foleja:/KST-200022787/Monitor-iiyama-ProLite-T1732MSC-B1SAG-17-LED-Touchscreen-i-zi": {
       "storeId": "foleja",
@@ -65961,12 +65961,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300014472/Switch-TP-Link-LS1005-i-bardhe",
       "storeProductName": "Switch TP-Link LS1005, i bardhë",
-      "catalogueProductId": "pcstore-tp-link-switch-8-port-gigabit-8-poe",
+      "catalogueProductId": "pcstore-tp-link-switch-5-port-gigabit",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-07T09:37:41.397Z",
-      "updatedAt": "2026-07-21T17:40:19.115Z"
+      "updatedAt": "2026-07-21T17:49:21.842Z"
     },
     "foleja:/KOM-200215159/Tastiere-me-maus-HP-680-Comfort-Dual-Mode-wireless-Bluetooth-e-zeze": {
       "storeId": "foleja",
@@ -69332,7 +69332,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-09T08:53:29.682Z",
-      "updatedAt": "2026-06-22T12:48:03.497Z"
+      "updatedAt": "2026-07-21T17:48:49.754Z"
     },
     "neptun:/categories/Figure-Funko-Pop--Games-595:-Pok-mon-Rattata-PL4323": {
       "storeId": "neptun",
@@ -70977,12 +70977,12 @@
       "storeId": "globe",
       "storeProductId": "217869",
       "storeProductName": "USB Sandisk 32GB Ultra Luxe SDCZ74-032G-G46",
-      "catalogueProductId": "pcstore-sandisk-ultra-dual-drive-luxe-512gb",
+      "catalogueProductId": "pcstore-sandisk-extreme-microsdhc-32gb-2",
       "matchMethod": "name_match",
-      "confidence": 60,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-05-12T08:27:12.442Z",
-      "updatedAt": "2026-07-21T17:38:40.609Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "foleja:/KST-200054780/Monitor-ASUS-ROG-Strix-XG27ACMS-27-QHD-HDMI-DP-i-zi": {
       "storeId": "foleja",
@@ -74794,12 +74794,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200004274/Hard-disk-Seagate-IronWolf-ST4000VN006-3.5-4-TB-5400-RPM",
       "storeProductName": "Hard disk Seagate IronWolf ST4000VN006, 3.5\", 4 TB, 5400 RPM",
-      "catalogueProductId": "pcstore-seagate-ironwolf-hdd-3-5%e2%80%b3-8tb",
+      "catalogueProductId": "pcstore-seagate-ironwolf-hdd-3-5%e2%80%b3-4tb",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-06-20T09:34:05.235Z",
-      "updatedAt": "2026-07-21T17:34:12.292Z"
+      "updatedAt": "2026-07-21T17:48:40.324Z"
     },
     "foleja:/ABS-200000183/HDD-SEAGATE-Barracuda-Guardian-1TB-3.5-SATA-III-6Gb-s-7200rpm": {
       "storeId": "foleja",
@@ -75036,12 +75036,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200030688/Kartele-memorie-Sandisk-Extreme-PRO-CFexpress-128GB-1700MB-s-1200MB-s-e-zeze",
       "storeProductName": "Kartelë memorie Sandisk Extreme PRO CFexpress 128GB, 1700MB/s, 1200MB/s, e zezë",
-      "catalogueProductId": "pcstore-sandisk-extreme-pro-64-gb-cfexpress",
+      "catalogueProductId": "pcstore-sandisk-extreme-pro-128-gb-cfexpress",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T09:37:20.471Z",
-      "updatedAt": "2026-07-21T17:41:52.832Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "foleja:/ACN-300062275/Pllake-ame-ASUS-Pro-WS-TRX50-SAGE-WIFI-Socket-sTR5-SSI-CEB": {
       "storeId": "foleja",
@@ -75245,12 +75245,12 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300031681/Hard-disk-HDD-Western-Digital-Red-Plus-3.5-6000GB",
       "storeProductName": "Hard disk HDD Western Digital Red Plus, 3.5'', 6000GB",
-      "catalogueProductId": "albagame-hdd-2tb-western-digital-red-plus",
+      "catalogueProductId": "pcstore-wd-red-hdd-plus-3-5%e2%80%b3-4tb",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-06-20T09:40:28.847Z",
-      "updatedAt": "2026-06-22T13:43:57.108Z"
+      "updatedAt": "2026-07-21T17:49:00.246Z"
     },
     "shpresa:133527": {
       "storeId": "shpresa",
@@ -75261,7 +75261,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T09:40:31.422Z",
-      "updatedAt": "2026-06-22T12:48:12.701Z"
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     },
     "foleja:/KST-200045556/Kase-ftohese-me-leng-ASUS-TUF-Gaming-LC-360-II-ARGB-3-ventilatore-ARGB-e-zeze": {
       "storeId": "foleja",
@@ -92367,6 +92367,50 @@
       "status": "pending",
       "createdAt": "2026-07-21T17:47:59.886Z",
       "updatedAt": "2026-07-21T17:47:59.886Z"
+    },
+    "foleja:/MOR-200015769/Karte-rrjeti-Wi-Fi-USB-TP-Link-Archer-TXE70UH-AXE5400-Wi-Fi-6E-Tri-Band-USB-3.0-e-zeze": {
+      "storeId": "foleja",
+      "storeProductId": "/MOR-200015769/Karte-rrjeti-Wi-Fi-USB-TP-Link-Archer-TXE70UH-AXE5400-Wi-Fi-6E-Tri-Band-USB-3.0-e-zeze",
+      "storeProductName": "Kartë rrjeti Wi‑Fi USB TP-Link Archer TXE70UH AXE5400 Wi‑Fi 6E Tri‑Band USB 3.0, e zezë",
+      "catalogueProductId": "pcstore-tp-link-usb-3-0-card-reader",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:48:31.817Z",
+      "updatedAt": "2026-07-21T17:48:31.817Z"
+    },
+    "globe:75416": {
+      "storeId": "globe",
+      "storeProductId": "75416",
+      "storeProductName": "Laptop HP NoteBook 250 G9 i5-1334U B3AB5AT",
+      "catalogueProductId": "pcstore-hp-250-g10-notebook-pc-i5-1334u",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:48:31.817Z",
+      "updatedAt": "2026-07-21T17:48:31.817Z"
+    },
+    "foleja:/ABS-200000878/Sistem-altoparlantesh-LOGITECH-Z623-2.1-200-W-3.5-mm-i-zi": {
+      "storeId": "foleja",
+      "storeProductId": "/ABS-200000878/Sistem-altoparlantesh-LOGITECH-Z623-2.1-200-W-3.5-mm-i-zi",
+      "storeProductName": "Sistem altoparlantësh LOGITECH Z623 2.1, 200 W, 3.5 mm, i zi",
+      "catalogueProductId": "pcstore-logitech-speakers-2-1-z333",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:49:00.246Z",
+      "updatedAt": "2026-07-21T17:49:00.246Z"
+    },
+    "foleja:/KST-200056174/Kartele-memorie-Sandisk-Ultra-64GB-microSDXC": {
+      "storeId": "foleja",
+      "storeProductId": "/KST-200056174/Kartele-memorie-Sandisk-Ultra-64GB-microSDXC",
+      "storeProductName": "Kartelë memorie Sandisk Ultra 64GB microSDXC",
+      "catalogueProductId": "pcstore-sandisk-extreme-microsdhc-32gb-2",
+      "matchMethod": "name_match",
+      "confidence": 67,
+      "status": "pending",
+      "createdAt": "2026-07-21T17:49:10.860Z",
+      "updatedAt": "2026-07-21T17:49:10.860Z"
     }
   }
 }
