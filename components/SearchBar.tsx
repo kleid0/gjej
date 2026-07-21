@@ -19,13 +19,13 @@ export default function SearchBar({ large = false }: { large?: boolean }) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Kërko produkt ose numër modeli (p.sh. SM-G930F, iPhone 15)…"
-        className={`flex-1 border border-gray-200 rounded-l-lg px-4 outline-none focus:ring-2 focus:ring-ink text-gray-900 ${
+        className={`flex-1 border border-gray-200 rounded-l-lg px-4 outline-none focus:ring-2 focus:ring-orange-400 text-gray-900 ${
           large ? "py-3 text-base" : "py-2 text-sm"
         }`}
       />
       <button
         type="submit"
-        className={`bg-ink text-white hover:bg-ink/80 text-white font-semibold rounded-r-lg transition-colors ${
+        className={`bg-orange-600 hover:bg-orange-700 text-white font-semibold rounded-r-lg transition-colors ${
           large ? "px-6 py-3 text-base" : "px-4 py-2 text-sm"
         }`}
       >

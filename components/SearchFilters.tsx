@@ -82,7 +82,7 @@ export default function SearchFilters({
         {hasActive && (
           <button
             onClick={clearAll}
-            className="text-xs text-tomato hover:underline font-medium"
+            className="text-xs text-orange-600 hover:underline font-medium"
           >
             Pastro
           </button>
@@ -102,7 +102,7 @@ export default function SearchFilters({
             onChange={(e) => setMinInput(e.target.value)}
             onBlur={applyPrice}
             onKeyDown={(e) => e.key === "Enter" && applyPrice()}
-            className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-sun focus:border-ink"
+            className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-orange-300 focus:border-orange-300"
           />
           <span className="text-gray-300 text-sm shrink-0">–</span>
           <input
@@ -112,7 +112,7 @@ export default function SearchFilters({
             onChange={(e) => setMaxInput(e.target.value)}
             onBlur={applyPrice}
             onKeyDown={(e) => e.key === "Enter" && applyPrice()}
-            className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-sun focus:border-ink"
+            className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-orange-300 focus:border-orange-300"
           />
         </div>
         <div className="flex flex-wrap gap-1.5 mt-2">
@@ -125,8 +125,8 @@ export default function SearchFilters({
               }}
               className={`text-xs border rounded-full px-2.5 py-1 transition-colors ${
                 filters.priceMax === v
-                  ? "border-ink text-tomato bg-paper-deep"
-                  : "border-gray-200 text-gray-500 hover:border-ink"
+                  ? "border-orange-500 text-orange-600 bg-orange-50"
+                  : "border-gray-200 text-gray-500 hover:border-orange-300"
               }`}
             >
               deri {v >= 1000 ? `${v / 1000}k` : v}
@@ -147,7 +147,7 @@ export default function SearchFilters({
               placeholder="Kerko marke..."
               value={brandSearch}
               onChange={(e) => setBrandSearch(e.target.value)}
-              className="w-full border border-gray-200 rounded-lg px-3 py-1.5 text-xs mb-2 outline-none focus:ring-2 focus:ring-sun"
+              className="w-full border border-gray-200 rounded-lg px-3 py-1.5 text-xs mb-2 outline-none focus:ring-2 focus:ring-orange-300"
             />
           )}
           <div className="space-y-0.5 max-h-44 overflow-y-auto">
@@ -171,7 +171,7 @@ export default function SearchFilters({
             {!brandSearch && brands.length > 15 && (
               <button
                 onClick={() => setBrandSearch(" ")}
-                className="text-xs text-tomato hover:underline px-1.5 py-1 font-medium"
+                className="text-xs text-orange-600 hover:underline px-1.5 py-1 font-medium"
               >
                 +{brands.length - 15} te tjera
               </button>
@@ -190,7 +190,7 @@ export default function SearchFilters({
             onChange({ ...filters, inStockOnly: !filters.inStockOnly })
           }
           className={`relative w-10 h-5 rounded-full transition-colors ${
-            filters.inStockOnly ? "bg-sun" : "bg-gray-300"
+            filters.inStockOnly ? "bg-orange-500" : "bg-gray-300"
           }`}
         >
           <span
@@ -206,7 +206,7 @@ export default function SearchFilters({
       <div className="lg:hidden pt-3 border-t border-gray-100">
         <button
           onClick={onMobileClose}
-          className="w-full bg-ink text-white text-white text-sm font-semibold py-2.5 rounded-lg hover:bg-ink/80 transition-colors"
+          className="w-full bg-orange-600 text-white text-sm font-semibold py-2.5 rounded-lg hover:bg-orange-700 transition-colors"
         >
           Shiko {resultCount} rezultate
         </button>

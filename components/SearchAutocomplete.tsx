@@ -123,14 +123,14 @@ export default function SearchAutocomplete({
   const isHeader = variant === "header";
 
   const inputCls = isHeader
-    ? "w-full bg-white border-2 border-r-0 border-ink rounded-l-full px-4 py-1.5 text-sm text-ink outline-none placeholder:text-clay"
-    : `w-full bg-white border-2 border-ink rounded-l-full px-4 outline-none focus:ring-2 focus:ring-sun text-ink placeholder:text-clay ${
+    ? "w-full rounded-l-lg px-4 py-2 text-sm text-gray-900 outline-none"
+    : `w-full border border-gray-200 rounded-l-lg px-4 outline-none focus:ring-2 focus:ring-orange-400 text-gray-900 ${
         isHero ? "py-3.5 text-base" : "py-2.5 text-sm"
       }`;
 
   const btnCls = isHeader
-    ? "bg-ink hover:bg-ink/80 border-2 border-ink px-4 py-1.5 rounded-r-full text-sm text-white font-bold transition-colors"
-    : `bg-ink hover:bg-ink/80 border-2 border-ink text-white font-bold rounded-r-full transition-colors ${
+    ? "bg-orange-800 hover:bg-orange-900 px-4 py-2 rounded-r-lg text-sm text-white font-semibold transition-colors"
+    : `bg-orange-600 hover:bg-orange-700 text-white font-semibold rounded-r-lg transition-colors ${
         isHero ? "px-7 py-3.5 text-base" : "px-5 py-2.5 text-sm"
       }`;
 
@@ -200,7 +200,7 @@ export default function SearchAutocomplete({
                     setQuery(r);
                     go(r);
                   }}
-                  className="flex items-center gap-2 w-full px-2 py-1.5 text-sm text-gray-700 hover:bg-sun/30 rounded-lg transition-colors"
+                  className="flex items-center gap-2 w-full px-2 py-1.5 text-sm text-gray-700 hover:bg-orange-50 rounded-lg transition-colors"
                 >
                   <svg
                     className="w-3.5 h-3.5 text-gray-300 shrink-0"
@@ -235,7 +235,7 @@ export default function SearchAutocomplete({
                       setQuery(s);
                       go(s);
                     }}
-                    className="text-xs bg-gray-100 text-gray-600 hover:bg-sun/50 hover:text-tomato-deep rounded-full px-3 py-1.5 transition-colors font-medium"
+                    className="text-xs bg-gray-100 text-gray-600 hover:bg-orange-100 hover:text-orange-700 rounded-full px-3 py-1.5 transition-colors font-medium"
                   >
                     {s}
                   </button>
@@ -255,7 +255,7 @@ export default function SearchAutocomplete({
                   key={c.id}
                   href={`/kerko?kat=${c.id}`}
                   onClick={() => setOpen(false)}
-                  className="flex items-center gap-2 px-2 py-1.5 text-sm text-gray-700 hover:bg-sun/30 rounded-lg transition-colors"
+                  className="flex items-center gap-2 px-2 py-1.5 text-sm text-gray-700 hover:bg-orange-50 rounded-lg transition-colors"
                 >
                   <span>{c.icon}</span>
                   {c.name}
@@ -278,7 +278,7 @@ export default function SearchAutocomplete({
                     saveRecent(p.family);
                     setOpen(false);
                   }}
-                  className="flex items-center gap-3 px-2 py-2 hover:bg-sun/30 rounded-lg transition-colors"
+                  className="flex items-center gap-3 px-2 py-2 hover:bg-orange-50 rounded-lg transition-colors"
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
@@ -305,7 +305,7 @@ export default function SearchAutocomplete({
                   saveRecent(query);
                   setOpen(false);
                 }}
-                className="block text-center text-xs text-tomato hover:text-tomato-deep font-semibold py-2.5 mt-1 border-t border-gray-100"
+                className="block text-center text-xs text-orange-600 hover:text-orange-700 font-semibold py-2.5 mt-1 border-t border-gray-100"
               >
                 Shiko te gjitha rezultatet →
               </Link>

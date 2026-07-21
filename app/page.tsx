@@ -97,29 +97,29 @@ export default async function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-paper-deep border-b-2 border-ink text-ink py-16 sm:py-20 px-4">
-        <div className="absolute top-0 right-0 -translate-y-1/3 translate-x-1/3 w-[500px] h-[500px] rounded-full bg-sun/40 blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-[400px] h-[400px] rounded-full bg-tomato/10 blur-3xl pointer-events-none" />
+      <section className="relative overflow-hidden bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 text-white py-16 sm:py-20 px-4">
+        <div className="absolute top-0 right-0 -translate-y-1/3 translate-x-1/3 w-[500px] h-[500px] rounded-full bg-orange-400/20 blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-[400px] h-[400px] rounded-full bg-orange-800/20 blur-3xl pointer-events-none" />
         <div className="relative max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             {/* Left: headline + search */}
             <div>
-              <h1 className="text-4xl sm:text-5xl font-black tracking-tight mb-4">
-                Gjej çmimin <span className="sticker rotate-[-1.5deg] px-3">më të mirë</span>
+              <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4">
+                Gjej çmimin më të mirë
               </h1>
-              <p className="text-ink/70 text-lg mb-8 max-w-md">
+              <p className="text-orange-100/80 text-lg mb-8 max-w-md">
                 Krahaso çmimet nga dyqanet kryesore shqiptare në një vend
               </p>
               <SearchAutocomplete variant="hero" />
             </div>
             {/* Right: flip board */}
             <div className="flex justify-center lg:justify-end">
-              <div className="inline-flex flex-col items-center gap-2 bg-white border-2 border-ink shadow-pika rounded-2xl px-8 py-6">
-                <p className="text-clay text-sm font-bold tracking-wider uppercase">
+              <div className="inline-flex flex-col items-center gap-2 bg-white/10 backdrop-blur-sm rounded-2xl px-8 py-6">
+                <p className="text-orange-100/90 text-sm font-medium tracking-wider uppercase">
                   Çmimet me të ulëta në
                 </p>
                 <FlipBoard productCount={allProducts.length} />
-                <p className="text-clay text-sm font-bold tracking-wider uppercase">
+                <p className="text-orange-100/90 text-sm font-medium tracking-wider uppercase">
                   produkte
                 </p>
               </div>
@@ -129,11 +129,11 @@ export default async function Home() {
       </section>
 
       {/* Store badges */}
-      <section className="bg-paper border-b-2 border-ink py-5 px-4">
+      <section className="bg-white border-b border-gray-100 py-5 px-4">
         <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-3">
           <span className="text-sm text-gray-400 mr-1">Krahasojmë çmimet nga:</span>
           {["Foleja.al", "Shpresa Group", "Neptun", "Globe Albania", "AlbaGame"].map((s) => (
-            <span key={s} className="text-sm font-semibold text-ink bg-white border-[1.5px] border-ink rounded-full px-4 py-1.5">
+            <span key={s} className="text-sm font-medium text-gray-600 bg-gray-50 border border-gray-200 rounded-full px-4 py-1.5">
               {s}
             </span>
           ))}
@@ -146,7 +146,7 @@ export default async function Home() {
           <h2 className="text-2xl font-bold text-gray-900">Produktet më të kërkuara</h2>
           <Link
             href="/kerko"
-            className="text-sm font-medium text-tomato hover:text-tomato-deep inline-flex items-center gap-1 transition-colors"
+            className="text-sm font-medium text-orange-600 hover:text-orange-700 inline-flex items-center gap-1 transition-colors"
           >
             Shiko të gjitha
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>

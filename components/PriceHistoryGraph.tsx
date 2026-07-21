@@ -142,7 +142,7 @@ export default function PriceHistoryGraph({ productId }: Props) {
               onClick={() => setDays(d)}
               className={`px-3 py-1 text-xs font-medium rounded-full transition-colors ${
                 days === d
-                  ? "bg-sun text-white"
+                  ? "bg-orange-500 text-white"
                   : "bg-gray-100 text-gray-600 hover:bg-gray-200"
               }`}
             >
