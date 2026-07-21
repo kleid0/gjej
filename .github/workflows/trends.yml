@@ -16,9 +16,12 @@ on:
         description: "Site base URL"
         required: false
         default: "https://gjej.vercel.app"
-  # schedule PAUSED 2026-06-22 — disabled to stop Fluid Active CPU burn
-  # (nearing the Vercel limit). Re-enable by uncommenting. Manual runs
-  # still work via the workflow_dispatch button above.
+  # STILL PAUSED (2026-06-22 for CPU burn; kept off 2026-07-21 for a different
+  # reason): Google Trends 429s EVERY batch from datacenter IPs — the durable
+  # log shows 100% batch failure and all-zero scores since at least 2026-06-21.
+  # Re-enabling would only burn CPU to produce nothing. Needs a different
+  # approach (authenticated cookie / proxy) if trends data matters again; the
+  # cron route now refuses to overwrite trends.json with all-zero results.
   # schedule:
   #   - cron: "0 7 * * *"
 
