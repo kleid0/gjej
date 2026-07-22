@@ -38,7 +38,18 @@ export default function VariantSelector({
           <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">
             Ngjyra{selectedColourObj ? ` \u2014 ${selectedColourObj.name}` : ""}
           </p>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 items-center">
+            {/* "All colours" — the default: cheapest across every colour */}
+            <button
+              onClick={() => onColourChange("")}
+              className={`px-3 min-h-11 rounded-full border-2 text-xs font-bold transition-all ${
+                selectedColour === ""
+                  ? "border-ink bg-sun shadow-pika-sm"
+                  : "border-gray-200 text-gray-600 hover:border-ink"
+              }`}
+            >
+              Të gjitha
+            </button>
             {config.colours.map((c) => {
               const active = c.nameEn === selectedColour;
               const light = isLightColour(c.hex);
@@ -51,8 +62,8 @@ export default function VariantSelector({
                   /* Minimum 44×44px touch target for mobile (WCAG 2.5.5) */
                   className={`w-11 h-11 rounded-full border-2 transition-all relative flex items-center justify-center ${
                     active
-                      ? "border-orange-500 shadow-md scale-110"
-                      : "border-gray-200 hover:border-gray-400 hover:scale-105"
+                      ? "border-ink shadow-pika-sm scale-110"
+                      : "border-gray-200 hover:border-ink hover:scale-105"
                   }`}
                   style={{ backgroundColor: c.hex }}
                 >
@@ -90,8 +101,8 @@ export default function VariantSelector({
                   /* min-h-11 ensures ≥44px touch target on mobile */
                   className={`px-4 min-h-11 rounded-lg text-sm font-semibold border-2 transition-all ${
                     active
-                      ? "border-orange-500 bg-orange-50 text-orange-700"
-                      : "border-gray-200 text-gray-600 hover:border-gray-400 hover:bg-gray-50"
+                      ? "border-ink bg-sun text-ink"
+                      : "border-gray-200 text-gray-600 hover:border-ink hover:bg-paper-deep"
                   }`}
                 >
                   {s}

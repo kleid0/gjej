@@ -67,9 +67,11 @@ export default function ProductVariantSection({
   // ── Variant state ──────────────────────────────────────────
   const [colour, setColour] = useState(() => {
     if (!config) return "";
+    // "" = all colours (cheapest across every colour). Only lock to a specific
+    // colour when the URL explicitly asks for one.
     return (
       config.colours.find((c) => c.nameEn.toLowerCase() === initialColour?.toLowerCase())?.nameEn ??
-      config.defaultColour
+      ""
     );
   });
   const [storage, setStorage] = useState(() => {

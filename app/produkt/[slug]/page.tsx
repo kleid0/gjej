@@ -95,8 +95,10 @@ export default async function ProductPage({ params, searchParams }: Props) {
   const variantConfig = getVariantConfig(product);
   const rawNgjyre = searchParams?.ngjyre;
   const rawHapesire = searchParams?.hapesire;
-  const initialColour =
-    (typeof rawNgjyre === "string" ? rawNgjyre : undefined) ?? variantConfig?.defaultColour;
+  // No colour in the URL → default to "all colours" (handled in
+  // ProductVariantSection) so the headline price is the cheapest across every
+  // colour, not a forced default colour.
+  const initialColour = typeof rawNgjyre === "string" ? rawNgjyre : undefined;
   const initialStorage =
     (typeof rawHapesire === "string" ? rawHapesire : undefined) ??
     extractStorageFromFamily(product.family) ??
