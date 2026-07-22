@@ -1,0 +1,48 @@
+name: Fuse Duplicates
+
+# Manual one-shot: re-runs the DuplicateFuser over the whole catalogue and
+# commits the de-duplicated data/discovered-products.json via the app's GitHub
+# helper. Run after changing fusionKey rules (see DuplicateFuser.ts) to merge
+# the existing duplicate pairs already in the catalogue.
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Site base URL"
+        required: false
+        default: "https://gjej.vercel.app"
+
+concurrency:
+  group: fuse-duplicates
+  cancel-in-progress: false
+
+jobs:
+  fuse:
+    name: POST /api/admin/trigger?action=fuse-duplicates
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Call fuse-duplicates action
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          BASE_URL: ${{ inputs.base_url || 'https://gjej.vercel.app' }}
+        run: |
+          set -eu
+          if [ -z "${CRON_SECRET:-}" ]; then
+            echo "::error::CRON_SECRET secret is not set on the repository."
+            exit 1
+          fi
+          body_file="$(mktemp)"
+          http_status="$(curl -LsS \
+            --max-time 310 \
+            -X POST \
+            -H "Content-Type: application/json" \
+            -d "{\"key\":\"${CRON_SECRET}\"}" \
+            -o "${body_file}" \
+            -w "%{http_code}" \
+            "${BASE_URL}/api/admin/trigger?action=fuse-duplicates" || echo "000")"
+          echo "HTTP ${http_status}"
+          cat "${body_file}"
+          echo
+          [ "${http_status}" = "200" ]
