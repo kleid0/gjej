@@ -45,6 +45,22 @@ describe("fusionKey — colour/finish parentheticals", () => {
     expect(b).toBe(c);
   });
 
+  it("fuses colour names after an en-dash separator (Dyson Airwrap i.d. line)", () => {
+    const base = "Dyson Airwrap i.d.™ Multi-Styler and Dryer";
+    const a = fusionKey(makeProduct({ brand: "Dyson", category: "bukuri", family: `${base} – Jasper Plum` }));
+    const b = fusionKey(makeProduct({ brand: "Dyson", category: "bukuri", family: `${base} – Ceramic Pink/Rose Gold` }));
+    const c = fusionKey(makeProduct({ brand: "Dyson", category: "bukuri", family: `${base} – Vinca Blue/Topaz` }));
+    expect(a).toBe(b);
+    expect(b).toBe(c);
+  });
+
+  it("does NOT strip an en-dash suffix that carries a real difference", () => {
+    const k = (fam: string) => fusionKey(makeProduct({ brand: "Logitech", category: "kompjutera", family: fam }));
+    expect(k("MX Keys – Nordic Layout")).not.toBe(k("MX Keys – US Layout"));
+    // hyphenated model names are untouched (no space-dash-space)
+    expect(k("TP-Link Archer AX55")).toBe(k("TP-Link Archer AX55"));
+  });
+
   it("does NOT strip parentheticals that mark real product differences", () => {
     const p = (fam: string) => fusionKey(makeProduct({ brand: "Apple", family: fam }));
     // connectivity / year / refurb are real variants → distinct keys.
