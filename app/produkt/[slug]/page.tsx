@@ -3,8 +3,10 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { productCatalog, priceQuery } from "@/src/infrastructure/container";
 import ProductVariantSection from "@/components/ProductVariantSection";
+import ComboSelector from "@/components/ComboSelector";
 import { CATEGORIES } from "@/src/domain/catalog/Product";
 import { getVariantConfig, extractStorageFromFamily } from "@/src/domain/catalog/variants";
+import { groupCombos } from "@/src/application/catalog/comboVariants";
 
 // ISR: revalidate product pages every hour
 // Specs never change; prices are fetched client-side from /api/prices
@@ -82,7 +84,12 @@ export default async function ProductPage({ params, searchParams }: Props) {
   const product = await productCatalog.getProductById(params.slug);
   if (!product) notFound();
 
-  const siblings = await productCatalog.getFamilySiblings(product);
+  // One catalogue read powers both family siblings and combo grouping.
+  const allProducts = await productCatalog.getAllProducts();
+  const siblings = allProducts.filter(
+    (p) => p.family === product.family && p.id !== product.id,
+  );
+  const combos = groupCombos(product, allProducts);
   const category = CATEGORIES.find((c) => c.id === product.category);
 
   const variantConfig = getVariantConfig(product);
@@ -100,9 +107,9 @@ export default async function ProductPage({ params, searchParams }: Props) {
 
       {/* Breadcrumb */}
       <nav className="text-xs text-gray-400 mb-6 flex items-center gap-1 flex-wrap">
-        <Link href="/" className="hover:text-orange-600">Kryefaqja</Link>
+        <Link href="/" className="hover:text-tomato">Kryefaqja</Link>
         <span>/</span>
-        <Link href={`/kategori/${product.category}`} className="hover:text-orange-600">
+        <Link href={`/kategori/${product.category}`} className="hover:text-tomato">
           {category?.name ?? product.category}
         </Link>
         {product.subcategory && (
@@ -110,7 +117,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
             <span>/</span>
             <Link
               href={`/kerko?kat=${product.category}&nënkat=${encodeURIComponent(product.subcategory)}`}
-              className="hover:text-orange-600"
+              className="hover:text-tomato"
             >
               {product.subcategory}
             </Link>
@@ -122,7 +129,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
 
       {/* Product header */}
       <div className="mb-6">
-        <p className="text-xs font-semibold text-orange-600 uppercase tracking-widest mb-1">
+        <p className="text-xs font-semibold text-tomato uppercase tracking-widest mb-1">
           {product.brand}
         </p>
         <h1 className="text-2xl font-bold text-gray-900 leading-snug mb-1">
@@ -135,10 +142,13 @@ export default async function ProductPage({ params, searchParams }: Props) {
         )}
       </div>
 
+      {/* Bundle / combo selector (e.g. console vs console + game) */}
+      {combos.length > 1 && <ComboSelector variants={combos} activeId={product.id} />}
+
       {/* Storage options (fallback for products without variant config) */}
       {!variantConfig && product.storageOptions.length > 1 && (
-        <div className="mb-6 p-4 bg-amber-50 border border-amber-100 rounded-xl">
-          <p className="text-xs font-semibold text-amber-700 mb-2 uppercase tracking-wide">
+        <div className="mb-6 p-4 bg-paper-deep border border-ink rounded-xl">
+          <p className="text-xs font-semibold text-ink mb-2 uppercase tracking-wide">
             Kapaciteti / RAM — zgjidh variantin
           </p>
           <div className="flex flex-wrap gap-2">
@@ -147,15 +157,15 @@ export default async function ProductPage({ params, searchParams }: Props) {
                 key={opt.label}
                 className={`text-sm border rounded-lg px-3 py-1.5 font-medium ${
                   i === 0
-                    ? "border-orange-500 text-orange-600 bg-orange-50"
-                    : "border-gray-200 text-gray-600"
+                    ? "border-ink text-ink bg-sun/50"
+                    : "border-ink/30 text-ink"
                 }`}
               >
                 {opt.label}
               </span>
             ))}
           </div>
-          <p className="text-xs text-amber-600 mt-2">
+          <p className="text-xs text-clay mt-2">
             * Çmimet tregojnë variantin bazë. Çmimi ndryshon sipas kapacitetit.
           </p>
         </div>
@@ -172,7 +182,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
               <Link
                 key={s.id}
                 href={`/produkt/${s.id}`}
-                className="text-xs border border-gray-200 bg-white rounded-lg px-3 py-1.5 hover:border-orange-400 hover:text-orange-600 font-medium transition-colors"
+                className="text-xs border border-gray-200 bg-white rounded-lg px-3 py-1.5 hover:border-ink hover:text-tomato font-medium transition-colors"
               >
                 {s.family}
                 {s.modelNumber && (

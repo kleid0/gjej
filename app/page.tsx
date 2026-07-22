@@ -7,6 +7,7 @@ import { readTrendsCache } from "@/src/infrastructure/trends/TrendsService";
 import ProductCard from "@/components/ProductCard";
 import FlipBoard from "@/components/FlipBoard";
 import SearchAutocomplete from "@/components/SearchAutocomplete";
+import { pickFeatured, popularityScore } from "@/src/application/catalog/featured";
 
 export const metadata: Metadata = {
   title: "Gjej.al – Krahasimi i Çmimeve në Shqipëri",
@@ -42,34 +43,25 @@ export default async function Home() {
     return { product, storeCount, hasStock };
   });
 
-  // Use Google Trends scores if a fresh cache exists; otherwise fall back to
-  // store-coverage ranking with a daily rotation so the set changes each day.
+  // Rank the featured grid. Google Trends is the real popularity signal when
+  // fresh; otherwise pickFeatured falls back to a desirability heuristic. Both
+  // paths filter to in-stock, image-bearing products and enforce category
+  // diversity so the grid never becomes a homogeneous wall of one category.
   const trendsCache = readTrendsCache();
   const trendsScores = trendsCache?.scores ?? {};
   const hasTrendsData = Object.values(trendsScores).some((s) => s > 0);
+  const dayOfYear = Math.floor(
+    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000,
+  );
 
-  let featured;
-  if (hasTrendsData) {
-    featured = scoredProducts
-      .sort((a, b) => (trendsScores[b.product.id] ?? 0) - (trendsScores[a.product.id] ?? 0))
-      .slice(0, 8)
-      .map((s) => s.product);
-  } else {
-    const dayOfYear = Math.floor(
-      (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000,
-    );
-    const POOL = 24;
-    const PAGE = 8;
-    const windowIdx = dayOfYear % (POOL / PAGE);
-    featured = scoredProducts
-      .sort((a, b) => {
-        if (a.hasStock !== b.hasStock) return a.hasStock ? -1 : 1;
-        return b.storeCount - a.storeCount;
-      })
-      .slice(0, POOL)
-      .slice(windowIdx * PAGE, (windowIdx + 1) * PAGE)
-      .map((s) => s.product);
-  }
+  const featured = pickFeatured(scoredProducts, {
+    count: 8,
+    day: dayOfYear,
+    // When trends data exists, lead with it and break ties on desirability.
+    scoreOf: hasTrendsData
+      ? (s) => (trendsScores[s.product.id] ?? 0) * 100 + popularityScore(s)
+      : undefined,
+  });
 
   // Build lowest-price map: prefer fresh file cache, fall back to DB lowest_price
   const lowestPriceMap: Record<string, { price: number; storeName: string } | null> = {};
