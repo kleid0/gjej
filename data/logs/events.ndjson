@@ -1,4 +1,3 @@
-{"t":"2026-06-22T12:36:56.765Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
 {"t":"2026-06-22T12:37:00.464Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T12:37:03.306Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T12:37:03.306Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7440,"nextIndex":7520,"remaining":13195,"httpFailures":{}}
@@ -4998,3 +4997,4 @@
 {"t":"2026-07-21T21:24:29.049Z","level":"info","scope":"usage","msg":"vercel usage snapshot","month":"2026-07","invocations":287,"gbHours":8.7401,"limitGbHours":100,"pctUsed":8.7,"projectedGbHours":12.9,"pctProjected":12.9,"cpuHours":1.158,"limitCpuHours":4,"cpuPctProjected":42.7}
 {"t":"2026-07-22T05:55:14.897Z","level":"info","scope":"cron/discover","msg":"run complete","discovered":18466,"total":24760,"fused":761,"discontinued":470}
 {"t":"2026-07-22T08:17:45.232Z","level":"info","scope":"admin/trigger","msg":"fuse-duplicates complete","mode":"fuse"}
+{"t":"2026-07-22T08:52:12.446Z","level":"info","scope":"admin/trigger","msg":"fuse-duplicates complete","mode":"fuse"}
