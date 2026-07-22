@@ -163,10 +163,10 @@ const COLOUR_TOKENS: Array<{ key: string; pattern: RegExp }> = [
   { key: "mist-blue",     pattern: /\bmist\s+blu?e?\b/i },
   { key: "icy-blue",      pattern: /\bicy\s+blu?e?\b/i },
   { key: "storm-blue",    pattern: /\bstorm\s+blu?e?\b/i },
-  { key: "light-blue",    pattern: /\b(light\s+blu?e?|blu\s+e\s+leht[eë])\b/i },
+  { key: "light-blue",    pattern: /\b(light\s+blu?e?|blu\s+e\s+lehte)\b/i },
   { key: "deep-blue",     pattern: /\bdeep\s+blu?e?\b/i },
   { key: "silver-shadow", pattern: /\bsilver\s+shadow\b/i },
-  { key: "space-gray",    pattern: /\b(space\s+gr[ae]y|hap[eë]sir[eë]\s+gri)\b/i },
+  { key: "space-gray",    pattern: /\b(space\s+gr[ae]y|hapesire\s+gri)\b/i },
   { key: "space-black",   pattern: /\bspace\s+black\b/i },
   { key: "cosmic-orange", pattern: /\bcosmic\s+orange\b/i },
   { key: "cobalt-violet", pattern: /\bcobalt\s+violet\b/i },
@@ -181,15 +181,15 @@ const COLOUR_TOKENS: Array<{ key: string; pattern: RegExp }> = [
   { key: "starlight",   pattern: /\bstarlight\b/i },
   { key: "moonstone",   pattern: /\bmoonstone\b/i },
   // Generic colours + Albanian / common-European translations
-  { key: "black",  pattern: /\b(black|e\s*ze(?:z[eë])?|i\s+zi|onyx|midnight|graphite|nero|negro)\b/i },
-  { key: "white",  pattern: /\b(white|bardhë?|e\s+bardhë?|i\s+bardhë?|blanc|pearl|ivory)\b/i },
+  { key: "black",  pattern: /\b(black|e\s*zeze?|i\s+zi|onyx|midnight|graphite|nero|negro)\b/i },
+  { key: "white",  pattern: /\b(white|e\s+bardhe?|i\s+bardhe?|bardhe?|blanc|pearl|ivory)\b/i },
   { key: "silver", pattern: /\b(silver|argjend[ti]?[ae]?|platinum)\b/i },
   { key: "blue",   pattern: /\b(blue|blu)\b/i },
-  { key: "green",  pattern: /\b(green|e\s+gjelb[eë]r|verde|lime|forest)\b/i },
-  { key: "purple", pattern: /\b(purple|violet|vjollc[eë]|mauve|purp[eë]l)\b/i },
+  { key: "green",  pattern: /\b(green|e\s+gjelber|verde|lime|forest)\b/i },
+  { key: "purple", pattern: /\b(purple|violet|vjollce|mauve|purpel)\b/i },
   { key: "red",    pattern: /\b(red|e\s+kuqe|rouge|scarlet|crimson)\b/i },
-  { key: "yellow", pattern: /\b(yellow|verdh[eë]|gold|amber)\b/i },
-  { key: "pink",   pattern: /\b(pink|roz[eë]?|rose|peach|coral)\b/i },
+  { key: "yellow", pattern: /\b(yellow|verdhe|gold|amber)\b/i },
+  { key: "pink",   pattern: /\b(pink|roze?|rose|peach|coral)\b/i },
   { key: "gray",   pattern: /\b(gr[ae]y|gri)\b/i },
   { key: "orange", pattern: /\borange\b/i },
 ];
@@ -296,15 +296,30 @@ function validateColour(
 }
 
 /**
+ * Fold Albanian diacritics to ASCII BEFORE colour matching. Critical: JS's \b
+ * is ASCII-only, so a trailing "ë" ("e zezë", "i bardhë") silently breaks the
+ * word-boundary in every colour pattern — the colour goes undetected, colour
+ * confidence returns "unknown", and a wrong-colour store listing can leak
+ * through as the requested colour. This was the "blue → black link" bug.
+ */
+function foldDiacritics(text: string): string {
+  return text.toLowerCase().replace(/ë/g, "e").replace(/ç/g, "c");
+}
+
+/**
  * Return the canonical colour key from a product name / query string, or null.
  * Iterates COLOUR_TOKENS in order so the most-specific pattern wins.
  */
-function extractColour(text: string): string | null {
+export function extractColour(text: string): string | null {
+  const t = foldDiacritics(text);
   for (const { key, pattern } of COLOUR_TOKENS) {
-    if (pattern.test(text)) return key;
+    if (pattern.test(t)) return key;
   }
   return null;
 }
+
+/** Exposed for tests: confidence that candidateText is the requested colour. */
+export { colourConfidence };
 
 /**
  * Extract the requested colour from scraper search terms.
