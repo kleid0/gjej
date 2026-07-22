@@ -314,6 +314,7 @@ function GridCard({ p }: { p: ProductSummary }) {
           src={imgSrc}
           alt={p.family}
           loading="lazy"
+          referrerPolicy="no-referrer"
           className={`max-h-[80%] max-w-[80%] object-contain group-hover:scale-105 transition-all duration-300 ${loaded ? "opacity-100" : "opacity-0"}`}
           onLoad={() => setLoaded(true)}
           onError={() => { setImgSrc("/placeholder.svg"); setLoaded(true); }}
@@ -366,6 +367,7 @@ function ListCard({ p }: { p: ProductSummary }) {
           src={imgSrc}
           alt={p.family}
           loading="lazy"
+          referrerPolicy="no-referrer"
           className={`max-h-[80%] max-w-[80%] object-contain group-hover:scale-105 transition-all duration-300 ${loaded ? "opacity-100" : "opacity-0"}`}
           onLoad={() => setLoaded(true)}
           onError={() => { setImgSrc("/placeholder.svg"); setLoaded(true); }}
