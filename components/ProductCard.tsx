@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Product } from "@/src/domain/catalog/Product";
 import { STORE_MAP } from "@/src/infrastructure/stores/registry";
+import { cleanTitle } from "@/src/application/catalog/title";
 
 interface Props {
   product: Product;
@@ -57,7 +58,7 @@ export default function ProductCard({ product, lowestPrice: initialPrice, lowest
       <div className="flex-1 flex flex-col p-4">
         <p className="text-xs text-gray-400">{product.brand}</p>
         <h3 className="text-sm font-semibold text-gray-900 leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
-          {product.family}
+          {cleanTitle(product.family)}
         </h3>
         <div className="mt-auto pt-3">
           {lowestPrice != null ? (

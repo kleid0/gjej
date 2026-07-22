@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { cleanTitle } from "@/src/application/catalog/title";
 
 interface Suggestion {
   id: string;
@@ -291,7 +292,7 @@ export default function SearchAutocomplete({
                   />
                   <div className="min-w-0 flex-1">
                     <p className="text-sm text-gray-800 font-medium truncate">
-                      {p.family}
+                      {cleanTitle(p.family)}
                     </p>
                     <p className="text-xs text-gray-400">
                       {p.brand} · {p.subcategory || p.category}

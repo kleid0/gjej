@@ -7,6 +7,7 @@ import ComboSelector from "@/components/ComboSelector";
 import { CATEGORIES } from "@/src/domain/catalog/Product";
 import { getVariantConfig, extractStorageFromFamily } from "@/src/domain/catalog/variants";
 import { groupCombos } from "@/src/application/catalog/comboVariants";
+import { cleanTitle } from "@/src/application/catalog/title";
 
 // ISR: revalidate product pages every hour
 // Specs never change; prices are fetched client-side from /api/prices
@@ -29,7 +30,8 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const colour =
     typeof searchParams?.ngjyre === "string" ? searchParams.ngjyre : null;
 
-  const displayName = `${product.family}${storage ? ` ${storage}` : ""}`;
+  const cleanFamily = cleanTitle(product.family);
+  const displayName = `${cleanFamily}${storage ? ` ${storage}` : ""}`;
   const title = `${displayName} çmimi në Shqipëri - Gjej.al`;
 
   // Pull lowest known price from cache for the meta description
@@ -46,8 +48,8 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   } catch { /* non-fatal */ }
 
   const description = lowestPrice
-    ? `Krahaso çmimin e ${product.family} nga ${STORE_COUNT} dyqane shqiptare. Çmimi më i mirë sot: ${lowestPrice.toLocaleString("sq-AL")} Lekë`
-    : `Krahaso çmimin e ${product.family} nga ${STORE_COUNT} dyqane shqiptare. Gjej ofertën më të mirë në Gjej.al`;
+    ? `Krahaso çmimin e ${cleanFamily} nga ${STORE_COUNT} dyqane shqiptare. Çmimi më i mirë sot: ${lowestPrice.toLocaleString("sq-AL")} Lekë`
+    : `Krahaso çmimin e ${cleanFamily} nga ${STORE_COUNT} dyqane shqiptare. Gjej ofertën më të mirë në Gjej.al`;
 
   // Canonical URL always points to base product — variant querystrings are supplemental
   const canonical = `${SITE_URL}/produkt/${product.id}`;
@@ -91,6 +93,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
   );
   const combos = groupCombos(product, allProducts);
   const category = CATEGORIES.find((c) => c.id === product.category);
+  const displayFamily = cleanTitle(product.family);
 
   const variantConfig = getVariantConfig(product);
   const rawNgjyre = searchParams?.ngjyre;
@@ -126,7 +129,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
           </>
         )}
         <span>/</span>
-        <span className="text-gray-600 truncate max-w-xs">{product.family}</span>
+        <span className="text-gray-600 truncate max-w-xs">{displayFamily}</span>
       </nav>
 
       {/* Product header */}
@@ -135,7 +138,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
           {product.brand}
         </p>
         <h1 className="text-2xl font-bold text-gray-900 leading-snug mb-1">
-          {product.family}
+          {displayFamily}
         </h1>
         {product.modelNumber && (
           <p className="text-xs font-mono text-gray-400">
@@ -186,7 +189,7 @@ export default async function ProductPage({ params, searchParams }: Props) {
                 href={`/produkt/${s.id}`}
                 className="text-xs border border-gray-200 bg-white rounded-lg px-3 py-1.5 hover:border-ink hover:text-tomato font-medium transition-colors"
               >
-                {s.family}
+                {cleanTitle(s.family)}
                 {s.modelNumber && (
                   <span className="font-mono text-gray-400 ml-1">({s.modelNumber})</span>
                 )}
