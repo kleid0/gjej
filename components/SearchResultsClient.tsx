@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import SearchFilters, { type FilterState } from "./SearchFilters";
+import { cleanTitle } from "@/src/application/catalog/title";
 
 export interface ProductSummary {
   id: string;
@@ -328,7 +329,7 @@ function GridCard({ p }: { p: ProductSummary }) {
           {p.brand}
         </p>
         <h3 className="text-sm font-semibold text-gray-800 leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
-          {p.family}
+          {cleanTitle(p.family)}
         </h3>
       </div>
       <div className="pt-2 border-t border-gray-100 mt-auto">
@@ -375,7 +376,7 @@ function ListCard({ p }: { p: ProductSummary }) {
           {p.brand}
         </p>
         <h3 className="text-sm font-semibold text-gray-800 group-hover:text-orange-600 transition-colors">
-          {p.family}
+          {cleanTitle(p.family)}
         </h3>
         {p.modelNumber && (
           <p className="text-[11px] font-mono text-gray-400 mt-0.5">
