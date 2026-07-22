@@ -48,7 +48,23 @@ const PAREN_PRODUCT_TOKENS = new Set([
   "dual", "sim", "esim", "refurbished", "renewed", "outlet", "demo",
   "bundle", "pack", "edition", "eu", "us", "uk", "global",
   "pro", "max", "plus", "mini", "lite",
+  "layout", "region", "version", "nordic", "international",
 ]);
+
+/**
+ * Does a trailing captured segment read as a colour/finish rather than a real
+ * product difference? 1-4 alphabetic tokens, no digits (keeps "2024", "128GB"),
+ * and no product-signal token (keeps "Wi-Fi + Cellular", "Dual SIM", "Refurbished").
+ */
+function isFinishText(text: string): boolean {
+  const tokens = text.toLowerCase().split(/[^a-zëç]+/).filter(Boolean);
+  return (
+    tokens.length > 0 &&
+    tokens.length <= 4 &&
+    !/\d/.test(text) &&
+    tokens.every((t) => !PAREN_PRODUCT_TOKENS.has(t))
+  );
+}
 
 export function fusionKey(p: Product): string {
   let cleaned = p.family;
@@ -56,21 +72,22 @@ export function fusionKey(p: Product): string {
   // Strip store-specific prefixes
   cleaned = cleaned.replace(STORE_PREFIXES, "");
 
-  // Colour/finish parentheticals: manufacturers invent colour names faster
-  // than any vocabulary can chase ("(Jasper Plum)", "(Ceramic Pink/Rose
-  // Gold)"), so the COLOURS list below can't catch them all. Strip a
-  // TRAILING parenthetical when it reads as a finish: 1-4 purely-alphabetic
-  // tokens, no digits (keeps "(2024)", "(128GB)"), and no product-signal
-  // token (keeps "(Wi-Fi + Cellular)", "(Dual SIM)", "(Refurbished)").
+  // Colour/finish suffixes: manufacturers invent colour names faster than any
+  // vocabulary can chase ("(Jasper Plum)", "– Ceramic Pink/Rose Gold"), so the
+  // COLOURS list below can't catch them all. Strip a TRAILING finish whether
+  // it's parenthesised OR set off by an en/em-dash separator (Dyson's Airwrap
+  // i.d. line uses " – <colour>"). isFinishText keeps real differences
+  // (Wi-Fi + Cellular, 2024, 128GB, Refurbished, region/layout).
   const paren = cleaned.match(/\(([^()]{2,40})\)\s*$/);
-  if (paren) {
-    const tokens = paren[1].toLowerCase().split(/[^a-zëç]+/).filter(Boolean);
-    const isFinish =
-      tokens.length > 0 &&
-      tokens.length <= 4 &&
-      !/\d/.test(paren[1]) &&
-      tokens.every((t) => !PAREN_PRODUCT_TOKENS.has(t));
-    if (isFinish) cleaned = cleaned.slice(0, paren.index).trim();
+  if (paren && isFinishText(paren[1])) {
+    cleaned = cleaned.slice(0, paren.index).trim();
+  } else {
+    // Only en/em-dash separators (surrounded by spaces) — NOT plain hyphens,
+    // which appear inside model names ("Multi-Styler", "SM-S931B", "TP-Link").
+    const dash = cleaned.match(/\s[–—]\s+([^–—]{2,40})\s*$/);
+    if (dash && isFinishText(dash[1])) {
+      cleaned = cleaned.slice(0, dash.index).trim();
+    }
   }
 
   // Strip colours
