@@ -109,7 +109,13 @@ export default function SearchResultsClient({
       case "az":
         return a.sort((x, y) => x.family.localeCompare(y.family));
       default:
-        return a;
+        // Relevance: lead with products that actually have a price so the
+        // page doesn't open on a wall of "Krahaso cmimet". Stable partition —
+        // priced first, unpriced after, each keeping its original order.
+        return [
+          ...a.filter((p) => p.bestPrice !== null),
+          ...a.filter((p) => p.bestPrice === null),
+        ];
     }
   }, [filtered, sort]);
 
