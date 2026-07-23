@@ -1,22 +1,3 @@
-{"t":"2026-06-22T12:47:33.609Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-prelude-backpack-case-15-6%e2%80%b3","searchTerms":["HP Prelude Backpack Case 15.6″"]}
-{"t":"2026-06-22T12:47:33.609Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Prelude Backpack Case","Prelude Backpack Case"]}
-{"t":"2026-06-22T12:47:33.647Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-b510-backpack-case-15-6%e2%80%b3","searchTerms":["Lenovo B510 Backpack Case 15.6″"]}
-{"t":"2026-06-22T12:47:33.647Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo B510 Backpack Case","B510 Backpack Case"]}
-{"t":"2026-06-22T12:47:33.659Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-port-designs-chicago-evo-13-3-15-6%e2%80%b3","searchTerms":["Port Designs CHICAGO EVO 13.3″- 15.6″"]}
-{"t":"2026-06-22T12:47:33.659Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Port Designs CHICAGO EVO -","Port Designs CHICAGO EVO"]}
-{"t":"2026-06-22T12:47:33.666Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-port-designs-case-mouse-14-15-6%e2%80%b3","searchTerms":["Port Designs Case + Mouse 14-15.6″"]}
-{"t":"2026-06-22T12:47:33.667Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Port Designs Case"]}
-{"t":"2026-06-22T12:47:34.473Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Port Designs Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:34.558Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Alienware Horizon Commuter Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:34.559Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Targus Geolite PlusBackpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:34.560Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo B510 Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:34.795Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Prelude Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:34.901Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Port Designs CHICAGO EVO -","items":0,"names":[]}
-{"t":"2026-06-22T12:47:35.604Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Alienware Horizon Commuter Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:35.670Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"B510 Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:36.249Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Prelude Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:36.440Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Port Designs CHICAGO EVO","items":0,"names":[]}
-{"t":"2026-06-22T12:47:37.280Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Alienware Horizon Commuter","items":0,"names":[]}
 {"t":"2026-06-22T12:47:39.071Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T12:47:42.074Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T12:47:42.075Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8640,"nextIndex":8720,"remaining":11995,"httpFailures":{}}
@@ -4998,3 +4979,22 @@
 {"t":"2026-07-23T08:54:22.001Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T08:54:44.003Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T08:54:44.004Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2400,"nextIndex":2480,"remaining":22015,"httpFailures":{}}
+{"t":"2026-07-23T08:54:52.941Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2480,"batchSize":80,"total":24495}
+{"t":"2026-07-23T08:55:12.370Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T08:55:23.704Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T08:55:44.817Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T08:55:58.427Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T08:56:12.908Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T08:56:13.000Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-alienware-27%e2%80%b3-0-5ms-240hz-4k-aw2725qf","searchTerms":["Monitor Alienware DELL AW2725QF 27\" 4K Ultra HD, 0.5ms, i zi","https://www.foleja.al/KST-200036821/Monitor-Alienware-DELL-AW2725QF-27-4K-Ultra-HD-0.5ms-i-zi","DELL Alienware 27″ 0.5ms 240Hz 4K AW2725QF","Monitor 27\" Alienware AW2725QF , 4K UHD 3840x2160p 180Hz IPS HAS Black 210-BNHT 1Y"]}
+{"t":"2026-07-23T08:56:13.000Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL AW2725QF 4K Ultra HD","DELL AW2725QF 4K","Monitor Alienware DELL AW2725QF 4K Ultra HD","Monitor Alienware DELL AW2725QF","DELL Alienware 0.5ms 240Hz 4K AW2725QF","Alienware 0.5ms 240Hz 4K AW2725QF","DELL Alienware 0.5ms 240Hz","Monitor Alienware AW2725QF"]}
+{"t":"2026-07-23T08:56:14.299Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL AW2725QF 4K Ultra HD","items":0,"names":[]}
+{"t":"2026-07-23T08:56:16.454Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL AW2725QF 4K","items":0,"names":[]}
+{"t":"2026-07-23T08:56:18.413Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor Alienware DELL AW2725QF 4K Ultra HD","items":0,"names":[]}
+{"t":"2026-07-23T08:56:20.231Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor Alienware DELL AW2725QF","items":0,"names":[]}
+{"t":"2026-07-23T08:56:22.059Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware 0.5ms 240Hz 4K AW2725QF","items":0,"names":[]}
+{"t":"2026-07-23T08:56:24.250Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Alienware 0.5ms 240Hz 4K AW2725QF","items":0,"names":[]}
+{"t":"2026-07-23T08:56:26.291Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware 0.5ms 240Hz","items":0,"names":[]}
+{"t":"2026-07-23T08:56:28.101Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor Alienware AW2725QF","items":0,"names":[]}
+{"t":"2026-07-23T08:56:32.275Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T08:56:41.508Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T08:56:41.508Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2480,"nextIndex":2560,"remaining":21935,"httpFailures":{}}
