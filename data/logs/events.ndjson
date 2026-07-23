@@ -1,12 +1,3 @@
-{"t":"2026-07-21T17:45:40.656Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-07-21T17:45:51.413Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-07-21T17:45:56.956Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-07-21T17:45:56.956Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8480,"nextIndex":8560,"remaining":14390,"httpFailures":{}}
-{"t":"2026-07-21T17:46:06.462Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8560,"batchSize":80,"total":22950}
-{"t":"2026-07-21T17:46:16.811Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-07-21T17:46:16.899Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-yoga-27-27%e2%80%b3-qhd-ultra-7-255h","searchTerms":["Lenovo Yoga 27 27″ QHD Ultra 7 255H"]}
-{"t":"2026-07-21T17:46:16.899Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Yoga 27 QHD Ultra 7 255H","Yoga 27 QHD Ultra 7 255H","Lenovo Yoga 27 QHD"]}
-{"t":"2026-07-21T17:46:18.412Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Yoga 27 QHD Ultra 7 255H","items":0,"names":[]}
 {"t":"2026-07-21T17:46:20.536Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Yoga 27 QHD Ultra 7 255H","items":0,"names":[]}
 {"t":"2026-07-21T17:46:23.564Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Yoga 27 QHD","items":0,"names":[]}
 {"t":"2026-07-21T17:46:26.388Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T14:00:52.038Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T14:00:57.845Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T14:00:57.846Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":21600,"nextIndex":21680,"remaining":2815,"httpFailures":{}}
+{"t":"2026-07-23T14:01:07.590Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":21680,"batchSize":80,"total":24495}
+{"t":"2026-07-23T14:01:19.960Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T14:01:37.119Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T14:01:53.047Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T14:02:05.637Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T14:02:21.729Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T14:02:35.683Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T14:02:43.993Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T14:02:43.993Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":21680,"nextIndex":21760,"remaining":2735,"httpFailures":{}}
