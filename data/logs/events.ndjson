@@ -1,12 +1,3 @@
-{"t":"2026-07-21T17:39:28.710Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-07-21T17:39:28.710Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8080,"nextIndex":8160,"remaining":14790,"httpFailures":{}}
-{"t":"2026-07-21T17:39:37.516Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8160,"batchSize":80,"total":22950}
-{"t":"2026-07-21T17:39:37.534Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-e24q-g5-24%e2%80%b3","searchTerms":["HP Monitor E24q G5 24″"]}
-{"t":"2026-07-21T17:39:37.535Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Monitor E24q G5","Monitor E24q G5"]}
-{"t":"2026-07-21T17:39:37.551Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-thinkpad-p16s-g2-16%e2%80%b3-i7-1360p-with-sim-card","searchTerms":["Lenovo Thinkpad P16s G2 16″ i7-1360P with Sim Card"]}
-{"t":"2026-07-21T17:39:37.551Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Thinkpad P16s G2 i7-1360P with Sim Card","Thinkpad P16s G2 i7-1360P with Sim Card","Lenovo Thinkpad P16s G2"]}
-{"t":"2026-07-21T17:39:38.748Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E24q G5","items":0,"names":[]}
-{"t":"2026-07-21T17:39:39.465Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Thinkpad P16s G2 i7-1360P with Sim Card","items":0,"names":[]}
 {"t":"2026-07-21T17:39:41.051Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E24q G5","items":0,"names":[]}
 {"t":"2026-07-21T17:39:41.557Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Thinkpad P16s G2 i7-1360P with Sim Card","items":0,"names":[]}
 {"t":"2026-07-21T17:39:44.049Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Thinkpad P16s G2","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T13:40:03.536Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T13:40:14.789Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T13:40:14.790Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":20240,"nextIndex":20320,"remaining":4175,"httpFailures":{}}
+{"t":"2026-07-23T13:40:25.272Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":20320,"batchSize":80,"total":24495}
+{"t":"2026-07-23T13:40:35.511Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T13:40:44.709Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T13:40:53.345Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T13:41:01.503Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T13:41:08.432Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T13:41:15.806Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T13:41:21.637Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T13:41:21.637Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":20320,"nextIndex":20400,"remaining":4095,"httpFailures":{}}
