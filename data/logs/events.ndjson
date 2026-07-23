@@ -1,46 +1,3 @@
-{"t":"2026-06-22T13:25:51.988Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13200,"nextIndex":13280,"remaining":7435,"httpFailures":{}}
-{"t":"2026-06-22T13:25:59.926Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13280,"batchSize":80,"total":20715}
-{"t":"2026-06-22T13:26:07.396Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T13:26:11.848Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T13:26:15.506Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T13:26:20.485Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T13:26:25.083Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T13:26:29.808Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T13:26:33.684Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T13:26:33.685Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13280,"nextIndex":13360,"remaining":7355,"httpFailures":{}}
-{"t":"2026-06-22T13:26:41.628Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13360,"batchSize":80,"total":20715}
-{"t":"2026-06-22T13:26:47.312Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T13:26:51.206Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T13:26:56.372Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T13:27:01.049Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T13:27:06.053Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T13:27:10.948Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T13:27:15.654Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T13:27:15.654Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13360,"nextIndex":13440,"remaining":7275,"httpFailures":{}}
-{"t":"2026-06-22T13:27:23.256Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13440,"batchSize":80,"total":20715}
-{"t":"2026-06-22T13:27:30.863Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T13:27:37.729Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T13:27:43.426Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T13:27:47.859Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T13:27:53.159Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T13:27:57.704Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T13:28:01.096Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T13:28:01.096Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13440,"nextIndex":13520,"remaining":7195,"httpFailures":{}}
-{"t":"2026-06-22T13:28:08.591Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13520,"batchSize":80,"total":20715}
-{"t":"2026-06-22T13:28:15.081Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T13:28:21.856Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T13:28:28.085Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T13:28:32.797Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T13:28:38.226Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T13:28:45.618Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T13:28:49.826Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T13:28:49.827Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13520,"nextIndex":13600,"remaining":7115,"httpFailures":{}}
-{"t":"2026-06-22T13:28:58.042Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":13600,"batchSize":80,"total":20715}
-{"t":"2026-06-22T13:29:04.645Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T13:29:09.072Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T13:29:14.783Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T13:29:20.506Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T13:29:25.385Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
 {"t":"2026-06-22T13:29:31.293Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-06-22T13:29:34.938Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-06-22T13:29:34.938Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":13600,"nextIndex":13680,"remaining":7035,"httpFailures":{}}
@@ -4998,3 +4955,46 @@
 {"t":"2026-07-23T10:15:06.352Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"AIO PC FHD Lenovo","items":0,"names":[]}
 {"t":"2026-07-23T10:15:11.755Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T10:15:11.755Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7600,"nextIndex":7680,"remaining":16815,"httpFailures":{}}
+{"t":"2026-07-23T10:15:21.882Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7680,"batchSize":80,"total":24495}
+{"t":"2026-07-23T10:15:21.908Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-23-8%e2%80%b3-fhd-icore-5-210h","searchTerms":["Lenovo IdeaCentre 23.8″ FHD iCore 5 210H"]}
+{"t":"2026-07-23T10:15:21.908Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre FHD iCore 5 210H","IdeaCentre FHD iCore 5 210H","Lenovo IdeaCentre FHD iCore"]}
+{"t":"2026-07-23T10:15:21.935Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-27-cr1011na-27%e2%80%b3-intel-core-ultra-5-125u","searchTerms":["HP 27-cr1011na 27″ Intel® Core™ Ultra 5 125U"]}
+{"t":"2026-07-23T10:15:21.937Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP 27-cr1011na Intel Core Ultra 5 125U","27-cr1011na Intel Core Ultra 5 125U","HP 27-cr1011na Intel Core"]}
+{"t":"2026-07-23T10:15:23.368Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre FHD iCore 5 210H","items":0,"names":[]}
+{"t":"2026-07-23T10:15:24.371Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP 27-cr1011na Intel Core Ultra 5 125U","items":0,"names":[]}
+{"t":"2026-07-23T10:15:25.570Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaCentre FHD iCore 5 210H","items":0,"names":[]}
+{"t":"2026-07-23T10:15:26.426Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"27-cr1011na Intel Core Ultra 5 125U","items":0,"names":[]}
+{"t":"2026-07-23T10:15:27.375Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre FHD iCore","items":0,"names":[]}
+{"t":"2026-07-23T10:15:28.130Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP 27-cr1011na Intel Core","items":0,"names":[]}
+{"t":"2026-07-23T10:15:35.626Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T10:15:35.641Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-eliteone-870-g9-27%e2%80%b3-i7-14700","searchTerms":["HP 400 ProDesk G9 Microtower PC i7-14700","HP Pro 290 G9 Microtower PC i7-14700","HP EliteOne 870 G9 27″ i7-14700"]}
+{"t":"2026-07-23T10:15:35.641Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP 400 ProDesk G9 Microtower PC i7-14700","400 ProDesk G9 Microtower PC i7-14700","HP 400 ProDesk G9","HP Pro 290 G9 Microtower PC i7-14700","Pro 290 G9 Microtower PC i7-14700","HP Pro 290 G9","HP EliteOne 870 G9 i7-14700","EliteOne 870 G9 i7-14700","HP EliteOne 870 G9"]}
+{"t":"2026-07-23T10:15:35.668Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideacentre-27%e2%80%b3-qhd-i9-13900h","searchTerms":["Lenovo IdeaCentre 27″ QHD i9-13900H"]}
+{"t":"2026-07-23T10:15:35.669Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaCentre QHD i9-13900H","IdeaCentre QHD i9-13900H"]}
+{"t":"2026-07-23T10:15:36.341Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP 400 ProDesk G9 Microtower PC i7-14700","items":0,"names":[]}
+{"t":"2026-07-23T10:15:37.569Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaCentre QHD i9-13900H","items":0,"names":[]}
+{"t":"2026-07-23T10:15:38.507Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"400 ProDesk G9 Microtower PC i7-14700","items":0,"names":[]}
+{"t":"2026-07-23T10:15:39.422Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaCentre QHD i9-13900H","items":0,"names":[]}
+{"t":"2026-07-23T10:15:40.347Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP 400 ProDesk G9","items":0,"names":[]}
+{"t":"2026-07-23T10:15:42.284Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Pro 290 G9 Microtower PC i7-14700","items":0,"names":[]}
+{"t":"2026-07-23T10:15:44.064Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Pro 290 G9 Microtower PC i7-14700","items":0,"names":[]}
+{"t":"2026-07-23T10:15:45.302Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Pro 290 G9","items":0,"names":[]}
+{"t":"2026-07-23T10:15:46.286Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9 i7-14700","items":0,"names":[]}
+{"t":"2026-07-23T10:15:47.110Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"EliteOne 870 G9 i7-14700","items":0,"names":[]}
+{"t":"2026-07-23T10:15:47.874Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9","items":0,"names":[]}
+{"t":"2026-07-23T10:15:53.283Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T10:16:04.099Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T10:16:14.772Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T10:16:25.961Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T10:16:37.141Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T10:16:37.147Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-passport-2-5%e2%80%b3-usb-3-2-6tb","searchTerms":["WD Passport 2.5″ USB 3.2 6TB"]}
+{"t":"2026-07-23T10:16:37.147Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Passport USB 3.2","Passport USB 3.2"]}
+{"t":"2026-07-23T10:16:37.154Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-thinkpad-p14s-g4-14%e2%80%b3-2-8k-oled-i5-1340p","searchTerms":["Lenovo ThinkPad P14s G4 14″ 2.8K OLED i5-1340P"]}
+{"t":"2026-07-23T10:16:37.154Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo ThinkPad P14s G4 2.8K OLED i5-1340P","ThinkPad P14s G4 2.8K OLED i5-1340P","Lenovo ThinkPad P14s G4"]}
+{"t":"2026-07-23T10:16:37.590Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Passport USB 3.2","items":0,"names":[]}
+{"t":"2026-07-23T10:16:37.698Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad P14s G4 2.8K OLED i5-1340P","items":0,"names":[]}
+{"t":"2026-07-23T10:16:39.175Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Passport USB 3.2","items":0,"names":[]}
+{"t":"2026-07-23T10:16:39.450Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ThinkPad P14s G4 2.8K OLED i5-1340P","items":0,"names":[]}
+{"t":"2026-07-23T10:16:40.797Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad P14s G4","items":0,"names":[]}
+{"t":"2026-07-23T10:16:43.942Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T10:16:43.943Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7680,"nextIndex":7760,"remaining":16735,"httpFailures":{}}
