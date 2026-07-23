@@ -1,12 +1,3 @@
-{"t":"2026-06-22T12:49:16.622Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Purple Pro HDD","Purple Pro HDD"]}
-{"t":"2026-06-22T12:49:17.628Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Purple Pro HDD","items":0,"names":[]}
-{"t":"2026-06-22T12:49:18.807Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Purple Pro HDD","items":0,"names":[]}
-{"t":"2026-06-22T12:49:21.674Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T12:49:21.690Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-pro-hdd-3-5%e2%80%b3-22tb","searchTerms":["WD Red Pro HDD 3.5″ 22TB"]}
-{"t":"2026-06-22T12:49:21.690Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Pro HDD","Red Pro HDD"]}
-{"t":"2026-06-22T12:49:21.695Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-plus-hdd-3-5%e2%80%b3-2tb","searchTerms":["WD Red Plus HDD 3.5″ 2TB"]}
-{"t":"2026-06-22T12:49:21.695Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
-{"t":"2026-06-22T12:49:21.700Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-pro-hdd-3-5%e2%80%b3-20tb","searchTerms":["WD Red Pro HDD 3.5″ 20TB"]}
 {"t":"2026-06-22T12:49:21.700Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Pro HDD","Red Pro HDD"]}
 {"t":"2026-06-22T12:49:21.705Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-hdd-ultrastar-dc-hc310-3-5%e2%80%b3-6tb","searchTerms":["WD HDD Ultrastar DC HC310 3.5″ 6TB"]}
 {"t":"2026-06-22T12:49:21.705Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD HDD Ultrastar DC HC310","HDD Ultrastar DC HC310","WD HDD Ultrastar DC"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T09:07:13.207Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T09:07:18.725Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T09:07:18.725Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3040,"nextIndex":3120,"remaining":21375,"httpFailures":{}}
+{"t":"2026-07-23T09:07:28.151Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":3120,"batchSize":80,"total":24495}
+{"t":"2026-07-23T09:07:36.033Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T09:07:43.258Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T09:07:52.206Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T09:08:00.439Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T09:08:12.741Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T09:08:23.680Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T09:08:31.914Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T09:08:31.915Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3120,"nextIndex":3200,"remaining":21295,"httpFailures":{}}
