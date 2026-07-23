@@ -1,12 +1,3 @@
-{"t":"2026-07-21T17:35:35.461Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":7840,"nextIndex":7920,"remaining":15030,"httpFailures":{}}
-{"t":"2026-07-21T17:35:43.279Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":7920,"batchSize":80,"total":22950}
-{"t":"2026-07-21T17:35:52.181Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-07-21T17:36:03.406Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-07-21T17:36:03.449Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-passport-2-5%e2%80%b3-usb-3-2-6tb","searchTerms":["WD Passport 2.5″ USB 3.2 6TB"]}
-{"t":"2026-07-21T17:36:03.449Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Passport USB 3.2","Passport USB 3.2"]}
-{"t":"2026-07-21T17:36:03.454Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-thinkpad-p14s-g4-14%e2%80%b3-2-8k-oled-i5-1340p","searchTerms":["Lenovo ThinkPad P14s G4 14″ 2.8K OLED i5-1340P"]}
-{"t":"2026-07-21T17:36:03.454Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo ThinkPad P14s G4 2.8K OLED i5-1340P","ThinkPad P14s G4 2.8K OLED i5-1340P","Lenovo ThinkPad P14s G4"]}
-{"t":"2026-07-21T17:36:05.272Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Passport USB 3.2","items":0,"names":[]}
 {"t":"2026-07-21T17:36:05.386Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad P14s G4 2.8K OLED i5-1340P","items":0,"names":[]}
 {"t":"2026-07-21T17:36:07.693Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Passport USB 3.2","items":0,"names":[]}
 {"t":"2026-07-21T17:36:07.902Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ThinkPad P14s G4 2.8K OLED i5-1340P","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T13:32:59.605Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T13:33:05.501Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T13:33:05.501Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":19760,"nextIndex":19840,"remaining":4655,"httpFailures":{}}
+{"t":"2026-07-23T13:33:15.329Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":19840,"batchSize":80,"total":24495}
+{"t":"2026-07-23T13:33:24.878Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T13:33:33.807Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T13:33:42.587Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T13:33:51.237Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T13:33:57.562Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T13:34:08.233Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T13:34:17.305Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T13:34:17.305Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":19840,"nextIndex":19920,"remaining":4575,"httpFailures":{}}
