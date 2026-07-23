@@ -1,12 +1,3 @@
-{"t":"2026-06-22T12:50:41.268Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Alienware 1ms up to 280Hz AW2723DF","items":0,"names":[]}
-{"t":"2026-06-22T12:50:41.283Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Pro 27 Plus Video Conferencing QHD P2724DEB","items":0,"names":[]}
-{"t":"2026-06-22T12:50:41.630Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E27 G5 FHD","items":0,"names":[]}
-{"t":"2026-06-22T12:50:41.698Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor 5 Pro 524pf FHD","items":0,"names":[]}
-{"t":"2026-06-22T12:50:41.761Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP ProOne 240 G10","items":1,"names":["HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U"]}
-{"t":"2026-06-22T12:50:41.761Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"HP ProOne 240 G10 AIO, 23.8″, 16GB, 512GB SSD, Core™ i5-1334U","score":2.1052631578947367}]}
-{"t":"2026-06-22T12:50:41.903Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware 1ms up","items":0,"names":[]}
-{"t":"2026-06-22T12:50:42.141Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Pro 27 Plus","items":0,"names":[]}
-{"t":"2026-06-22T12:50:42.545Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E27 G5","items":0,"names":[]}
 {"t":"2026-06-22T12:50:42.747Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor 5 Pro","items":0,"names":[]}
 {"t":"2026-06-22T12:50:44.633Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-06-22T12:50:49.229Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T09:14:53.090Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T09:15:02.169Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T09:15:02.169Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3600,"nextIndex":3680,"remaining":20815,"httpFailures":{}}
+{"t":"2026-07-23T09:15:12.998Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":3680,"batchSize":80,"total":24495}
+{"t":"2026-07-23T09:15:20.669Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T09:15:29.391Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T09:15:41.060Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T09:15:49.051Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T09:16:03.486Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T09:16:14.391Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T09:16:21.828Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T09:16:21.828Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":3680,"nextIndex":3760,"remaining":20735,"httpFailures":{}}
