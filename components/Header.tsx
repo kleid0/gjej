@@ -160,6 +160,7 @@ export default function Header({ nav }: { nav: NavCategoryData[] }) {
                         <img
                           src={p.imageUrl}
                           alt={p.name}
+                          referrerPolicy="no-referrer"
                           className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform"
                           loading="lazy"
                         />

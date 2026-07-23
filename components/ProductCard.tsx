@@ -49,6 +49,9 @@ export default function ProductCard({ product, lowestPrice: initialPrice, lowest
           src={product.imageUrl || "/placeholder.svg"}
           alt={product.family}
           loading="lazy"
+          /* Store CDNs (foleja, shpresa, neptun…) hotlink-protect by Referer.
+             Sending none lets the image load instead of 403-ing to placeholder. */
+          referrerPolicy="no-referrer"
           className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
           onError={(e) => {
             (e.target as HTMLImageElement).src = "/placeholder.svg";

@@ -285,6 +285,7 @@ export default function SearchAutocomplete({
                   <img
                     src={p.imageUrl}
                     alt=""
+                    referrerPolicy="no-referrer"
                     className="w-9 h-9 object-contain rounded bg-gray-50 p-0.5"
                     onError={(e) => {
                       (e.target as HTMLImageElement).style.display = "none";

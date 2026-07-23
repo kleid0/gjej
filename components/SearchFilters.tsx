@@ -35,6 +35,7 @@ export default function SearchFilters({
   const [minInput, setMinInput] = useState(filters.priceMin?.toString() ?? "");
   const [maxInput, setMaxInput] = useState(filters.priceMax?.toString() ?? "");
   const [brandSearch, setBrandSearch] = useState("");
+  const [showAllBrands, setShowAllBrands] = useState(false);
 
   function toggleBrand(b: string) {
     const next = filters.brands.includes(b)
@@ -55,6 +56,7 @@ export default function SearchFilters({
     setMinInput("");
     setMaxInput("");
     setBrandSearch("");
+    setShowAllBrands(false);
     onChange({
       priceMin: null,
       priceMax: null,
@@ -69,11 +71,16 @@ export default function SearchFilters({
     filters.brands.length > 0 ||
     filters.inStockOnly;
 
-  const visibleBrands = brandSearch
-    ? brands.filter((b) =>
-        b.name.toLowerCase().includes(brandSearch.toLowerCase())
-      )
-    : brands.slice(0, 15);
+  // Brands arrive pre-sorted by count (desc). A search term filters by name;
+  // otherwise we show the top 15 and let "te tjera" expand to the full list.
+  // (The expand toggle must NOT reuse brandSearch — a space there would only
+  // match brands whose name contains a space, dropping HP/ASUS/etc.)
+  const trimmedSearch = brandSearch.trim().toLowerCase();
+  const filteredBrands = trimmedSearch
+    ? brands.filter((b) => b.name.toLowerCase().includes(trimmedSearch))
+    : brands;
+  const visibleBrands =
+    trimmedSearch || showAllBrands ? filteredBrands : filteredBrands.slice(0, 15);
 
   const content = (
     <div className="space-y-5">
@@ -168,12 +175,12 @@ export default function SearchFilters({
                 <span className="text-[11px] text-gray-400">{b.count}</span>
               </label>
             ))}
-            {!brandSearch && brands.length > 15 && (
+            {!trimmedSearch && brands.length > 15 && (
               <button
-                onClick={() => setBrandSearch(" ")}
+                onClick={() => setShowAllBrands((v) => !v)}
                 className="text-xs text-orange-600 hover:underline px-1.5 py-1 font-medium"
               >
-                +{brands.length - 15} te tjera
+                {showAllBrands ? "Me pak" : `+${brands.length - 15} te tjera`}
               </button>
             )}
           </div>
