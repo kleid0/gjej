@@ -1,44 +1,3 @@
-{"t":"2026-06-22T12:43:20.482Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E24q G5","items":0,"names":[]}
-{"t":"2026-06-22T12:43:20.487Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Thinkpad P16s G2 i7-1360P with Sim Card","items":0,"names":[]}
-{"t":"2026-06-22T12:43:21.781Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Thinkpad P16s G2","items":0,"names":[]}
-{"t":"2026-06-22T12:43:23.575Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:43:23.580Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-x1-carbon-g11-14%e2%80%b3-i7-1355u","searchTerms":["Lenovo X1 Carbon G11 14″ i7-1355U"]}
-{"t":"2026-06-22T12:43:23.581Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo X1 Carbon G11 i7-1355U","X1 Carbon G11 i7-1355U","Lenovo X1 Carbon G11"]}
-{"t":"2026-06-22T12:43:23.609Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-e32k-g5-31-5%e2%80%b3-uhd","searchTerms":["HP Monitor E32K G5 31.5″ UHD"]}
-{"t":"2026-06-22T12:43:23.609Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Monitor E32K G5 UHD","Monitor E32K G5 UHD","HP Monitor E32K G5"]}
-{"t":"2026-06-22T12:43:24.147Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo X1 Carbon G11 i7-1355U","items":0,"names":[]}
-{"t":"2026-06-22T12:43:24.416Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E32K G5 UHD","items":0,"names":[]}
-{"t":"2026-06-22T12:43:24.957Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E32K G5 UHD","items":0,"names":[]}
-{"t":"2026-06-22T12:43:26.052Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"X1 Carbon G11 i7-1355U","items":0,"names":[]}
-{"t":"2026-06-22T12:43:26.488Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E32K G5","items":0,"names":[]}
-{"t":"2026-06-22T12:43:26.656Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo X1 Carbon G11","items":0,"names":[]}
-{"t":"2026-06-22T12:43:28.652Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T12:43:28.662Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-gaming-backpack-case-17-3%e2%80%b3","searchTerms":["Dell Gaming Backpack Case 17.3″"]}
-{"t":"2026-06-22T12:43:28.662Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell Gaming Backpack Case","Gaming Backpack Case"]}
-{"t":"2026-06-22T12:43:29.801Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell Gaming Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:43:30.301Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Gaming Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:43:33.844Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T12:43:33.865Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-ecoloop-pro-backpack-case-15-6%e2%80%b3","searchTerms":["Dell EcoLoop Pro Backpack Case 15.6″"]}
-{"t":"2026-06-22T12:43:33.865Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell EcoLoop Pro Backpack Case","EcoLoop Pro Backpack Case","Dell EcoLoop Pro Backpack"]}
-{"t":"2026-06-22T12:43:34.765Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell EcoLoop Pro Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:43:35.231Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"EcoLoop Pro Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:43:35.606Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell EcoLoop Pro Backpack","items":0,"names":[]}
-{"t":"2026-06-22T12:43:37.979Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T12:43:41.774Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T12:43:41.785Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-optiplex-7420-23-8%e2%80%b3-i5-14500t","searchTerms":["DELL OptiPlex 7420 23.8″ i5-14500T"]}
-{"t":"2026-06-22T12:43:41.785Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL OptiPlex 7420 i5-14500T","OptiPlex 7420 i5-14500T"]}
-{"t":"2026-06-22T12:43:42.111Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL OptiPlex 7420 i5-14500T","items":0,"names":[]}
-{"t":"2026-06-22T12:43:42.899Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"OptiPlex 7420 i5-14500T","items":0,"names":[]}
-{"t":"2026-06-22T12:43:46.741Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T12:43:50.091Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T12:43:50.092Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8160,"nextIndex":8240,"remaining":12475,"httpFailures":{}}
-{"t":"2026-06-22T12:43:58.437Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8240,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:43:58.481Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-eliteone-870-g9-27%e2%80%b3-i7-14700","searchTerms":["HP EliteOne 870 G9 27″ i7-14700"]}
-{"t":"2026-06-22T12:43:58.481Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP EliteOne 870 G9 i7-14700","EliteOne 870 G9 i7-14700","HP EliteOne 870 G9"]}
-{"t":"2026-06-22T12:43:59.962Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9 i7-14700","items":0,"names":[]}
-{"t":"2026-06-22T12:44:00.366Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"EliteOne 870 G9 i7-14700","items":0,"names":[]}
-{"t":"2026-06-22T12:44:00.839Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9","items":0,"names":[]}
-{"t":"2026-06-22T12:44:04.489Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
 {"t":"2026-06-22T12:44:04.498Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-casual-backpack-b210-15-6%e2%80%b3","searchTerms":["Lenovo Casual Backpack B210 15.6″"]}
 {"t":"2026-06-22T12:44:04.498Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Casual Backpack B210","Casual Backpack B210"]}
 {"t":"2026-06-22T12:44:04.502Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-simple-toploader-t1050-15-6%e2%80%b3","searchTerms":["Lenovo Simple Toploader T1050 15.6″"]}
@@ -4998,3 +4957,44 @@
 {"t":"2026-07-23T08:35:54.412Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T08:35:56.825Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T08:35:56.825Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":800,"nextIndex":880,"remaining":23615,"httpFailures":{}}
+{"t":"2026-07-23T08:36:06.071Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":880,"batchSize":80,"total":24495}
+{"t":"2026-07-23T08:36:12.013Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T08:36:12.044Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-1tb-ssd-core-5","searchTerms":["Lenovo AIO IdeaCentre, 23.8″, 16GB, 1TB SSD, Core™ 5-210H"]}
+{"t":"2026-07-23T08:36:12.044Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-1tb-ssd-core-5"}
+{"t":"2026-07-23T08:36:12.048Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-1tb-ssd-core-7","searchTerms":["Lenovo AIO IdeaCentre, 23.8″, 16GB, 1TB SSD, Core™ 7-240H"]}
+{"t":"2026-07-23T08:36:12.048Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8%e2%80%b3-16gb-1tb-ssd-core-7"}
+{"t":"2026-07-23T08:36:12.052Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-27%e2%80%b3-16gb-1tb-ssd-core-5","searchTerms":["Lenovo AIO IdeaCentre, 27″, 16GB, 1TB SSD, Core™ 5"]}
+{"t":"2026-07-23T08:36:12.052Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27%e2%80%b3-16gb-1tb-ssd-core-5"}
+{"t":"2026-07-23T08:36:13.677Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T08:36:13.677Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8″-16gb-1tb-ssd-core-5"}
+{"t":"2026-07-23T08:36:13.982Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T08:36:13.983Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-23-8″-16gb-1tb-ssd-core-7"}
+{"t":"2026-07-23T08:36:14.095Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T08:36:14.095Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-27″-16gb-1tb-ssd-core-5"}
+{"t":"2026-07-23T08:36:14.573Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T08:36:14.574Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
+{"t":"2026-07-23T08:36:14.753Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T08:36:14.753Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
+{"t":"2026-07-23T08:36:14.894Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T08:36:14.894Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
+{"t":"2026-07-23T08:36:15.359Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":9,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H"]}
+{"t":"2026-07-23T08:36:15.361Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063},{"name":"Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H","score":1.6666666666666665}]}
+{"t":"2026-07-23T08:36:15.472Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":9,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H"]}
+{"t":"2026-07-23T08:36:15.473Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063},{"name":"Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H","score":1.6666666666666665}]}
+{"t":"2026-07-23T08:36:15.652Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":9,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H"]}
+{"t":"2026-07-23T08:36:15.653Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063},{"name":"Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H","score":1.6666666666666665}]}
+{"t":"2026-07-23T08:36:16.007Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T08:36:20.546Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T08:36:24.860Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T08:36:29.544Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T08:36:35.648Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T08:36:35.671Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-xiaomi-monitor-a24i-23-8%e2%80%b3","searchTerms":["Xiaomi Monitor A24i 23.8″"]}
+{"t":"2026-07-23T08:36:35.671Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-monitor-a24i-23-8%e2%80%b3"}
+{"t":"2026-07-23T08:36:36.961Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T08:36:36.961Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-monitor-a24i-23-8″"}
+{"t":"2026-07-23T08:36:37.715Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T08:36:37.715Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Xiaomi Monitor A24i","Monitor A24i"]}
+{"t":"2026-07-23T08:36:38.526Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Xiaomi Monitor A24i","items":1,"names":["Xiaomi Monitor A24i 23.8″"]}
+{"t":"2026-07-23T08:36:38.526Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Xiaomi Monitor A24i 23.8″","score":2.3684210526315788}]}
+{"t":"2026-07-23T08:36:39.328Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T08:36:39.328Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":880,"nextIndex":960,"remaining":23535,"httpFailures":{}}
