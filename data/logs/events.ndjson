@@ -1,12 +1,3 @@
-{"t":"2026-07-21T15:46:33.368Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-pitaka-moment-%c2%b7-case-grip-for-apple-iphone-16-pro","searchTerms":["Pitaka Moment · Case & Grip For Apple Iphone 16 Pro"]}
-{"t":"2026-07-21T15:46:33.368Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-%c2%b7-case-grip-for-apple-iphone-16-pro"}
-{"t":"2026-07-21T15:46:34.642Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-07-21T15:46:34.642Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"pitaka-moment-·-case-grip-for-apple-iphone-16-pro"}
-{"t":"2026-07-21T15:46:35.307Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-07-21T15:46:35.307Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Apple Iphone 16 Pro","Apple Iphone 16","Pitaka Moment · Case & Grip For Apple Iphone 16 Pro","Pitaka Moment · Case"]}
-{"t":"2026-07-21T15:46:36.603Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Apple Iphone 16 Pro","items":20,"names":["Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","Pitaka Phone Case For Apple Iphone 16 Pro Max","Pitaka Moment · Case &amp; Grip For Apple Iphone 16 Pro"]}
-{"t":"2026-07-21T15:46:36.603Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Pitaka Moment · Sunset Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Phone Case For Apple Iphone 16 Pro Max","score":0},{"name":"Pitaka Moment · Case &amp; Grip For Apple Iphone 16 Pro","score":0}]}
-{"t":"2026-07-21T15:46:37.895Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-21T15:46:37.895Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":0,"nextIndex":80,"remaining":22870,"httpFailures":{}}
 {"t":"2026-07-21T15:46:46.083Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":80,"batchSize":80,"total":22950}
 {"t":"2026-07-21T15:46:52.719Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T11:03:32.908Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T11:03:39.792Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T11:03:39.793Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":10480,"nextIndex":10560,"remaining":13935,"httpFailures":{}}
+{"t":"2026-07-23T11:03:49.141Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":10560,"batchSize":80,"total":24495}
+{"t":"2026-07-23T11:04:00.864Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T11:04:10.313Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T11:04:20.477Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T11:04:30.836Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T11:04:43.490Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T11:04:52.123Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T11:04:57.830Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T11:04:57.830Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":10560,"nextIndex":10640,"remaining":13855,"httpFailures":{}}
