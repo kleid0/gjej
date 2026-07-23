@@ -1,12 +1,3 @@
-{"t":"2026-07-21T17:40:27.898Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-optiplex-7420-23-8%e2%80%b3-i5-14500t","searchTerms":["DELL OptiPlex 7420 23.8″ i5-14500T"]}
-{"t":"2026-07-21T17:40:27.898Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL OptiPlex 7420 i5-14500T","OptiPlex 7420 i5-14500T"]}
-{"t":"2026-07-21T17:40:29.011Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL OptiPlex 7420 i5-14500T","items":0,"names":[]}
-{"t":"2026-07-21T17:40:30.948Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"OptiPlex 7420 i5-14500T","items":0,"names":[]}
-{"t":"2026-07-21T17:40:38.917Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-07-21T17:40:44.651Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-07-21T17:40:44.651Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8160,"nextIndex":8240,"remaining":14710,"httpFailures":{}}
-{"t":"2026-07-21T17:40:53.614Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8240,"batchSize":80,"total":22950}
-{"t":"2026-07-21T17:40:53.652Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-eliteone-870-g9-27%e2%80%b3-i7-14700","searchTerms":["HP EliteOne 870 G9 27″ i7-14700"]}
 {"t":"2026-07-21T17:40:53.652Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP EliteOne 870 G9 i7-14700","EliteOne 870 G9 i7-14700","HP EliteOne 870 G9"]}
 {"t":"2026-07-21T17:40:55.288Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP EliteOne 870 G9 i7-14700","items":0,"names":[]}
 {"t":"2026-07-21T17:40:57.479Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"EliteOne 870 G9 i7-14700","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T13:44:36.389Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T13:44:41.985Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T13:44:41.986Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":20560,"nextIndex":20640,"remaining":3855,"httpFailures":{}}
+{"t":"2026-07-23T13:44:54.015Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":20640,"batchSize":80,"total":24495}
+{"t":"2026-07-23T13:45:03.939Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T13:45:15.879Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T13:45:24.739Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T13:45:33.505Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T13:45:44.084Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T13:45:53.914Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T13:46:04.870Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T13:46:04.870Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":20640,"nextIndex":20720,"remaining":3775,"httpFailures":{}}
