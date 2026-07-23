@@ -1,12 +1,3 @@
-{"t":"2026-07-21T15:49:27.109Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-07-21T15:49:27.109Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Xiaomi Curved Gaming Monitor G34WQi","Curved Gaming Monitor G34WQi","Xiaomi Curved Gaming Monitor"]}
-{"t":"2026-07-21T15:49:28.029Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Xiaomi Curved Gaming Monitor G34WQi","items":1,"names":["Xiaomi Curved Gaming Monitor G34WQi 34″"]}
-{"t":"2026-07-21T15:49:28.030Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Xiaomi Curved Gaming Monitor G34WQi 34″","score":4.629629629629629}]}
-{"t":"2026-07-21T15:49:28.084Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":9,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H"]}
-{"t":"2026-07-21T15:49:28.085Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063},{"name":"Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H","score":1.6666666666666665}]}
-{"t":"2026-07-21T15:49:30.907Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-07-21T15:49:33.927Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-07-21T15:49:33.928Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":320,"nextIndex":400,"remaining":22550,"httpFailures":{}}
 {"t":"2026-07-21T15:49:41.899Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":400,"batchSize":80,"total":22950}
 {"t":"2026-07-21T15:49:45.526Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
 {"t":"2026-07-21T15:49:49.355Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T11:11:53.370Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T11:11:59.488Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T11:11:59.489Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":11040,"nextIndex":11120,"remaining":13375,"httpFailures":{}}
+{"t":"2026-07-23T11:12:10.065Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":11120,"batchSize":80,"total":24495}
+{"t":"2026-07-23T11:12:21.083Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T11:12:30.435Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T11:12:37.457Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T11:12:45.400Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T11:12:53.315Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T11:13:01.139Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T11:13:07.109Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T11:13:07.109Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":11120,"nextIndex":11200,"remaining":13295,"httpFailures":{}}
