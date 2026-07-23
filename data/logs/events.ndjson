@@ -1,12 +1,3 @@
-{"t":"2026-07-21T17:40:02.410Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Gaming Backpack Case","items":0,"names":[]}
-{"t":"2026-07-21T17:40:10.209Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-07-21T17:40:10.221Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-ecoloop-pro-backpack-case-15-6%e2%80%b3","searchTerms":["Dell EcoLoop Pro Backpack Case 15.6″"]}
-{"t":"2026-07-21T17:40:10.222Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell EcoLoop Pro Backpack Case","EcoLoop Pro Backpack Case","Dell EcoLoop Pro Backpack"]}
-{"t":"2026-07-21T17:40:10.884Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell EcoLoop Pro Backpack Case","items":0,"names":[]}
-{"t":"2026-07-21T17:40:13.426Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"EcoLoop Pro Backpack Case","items":0,"names":[]}
-{"t":"2026-07-21T17:40:15.001Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Dell EcoLoop Pro Backpack","items":0,"names":[]}
-{"t":"2026-07-21T17:40:19.310Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-07-21T17:40:27.880Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
 {"t":"2026-07-21T17:40:27.898Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-optiplex-7420-23-8%e2%80%b3-i5-14500t","searchTerms":["DELL OptiPlex 7420 23.8″ i5-14500T"]}
 {"t":"2026-07-21T17:40:27.898Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL OptiPlex 7420 i5-14500T","OptiPlex 7420 i5-14500T"]}
 {"t":"2026-07-21T17:40:29.011Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL OptiPlex 7420 i5-14500T","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T13:43:27.958Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T13:43:32.243Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T13:43:32.244Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":20480,"nextIndex":20560,"remaining":3935,"httpFailures":{}}
+{"t":"2026-07-23T13:43:41.623Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":20560,"batchSize":80,"total":24495}
+{"t":"2026-07-23T13:43:51.879Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T13:44:01.527Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T13:44:10.354Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T13:44:19.167Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T13:44:27.783Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T13:44:36.389Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T13:44:41.985Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T13:44:41.986Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":20560,"nextIndex":20640,"remaining":3855,"httpFailures":{}}
