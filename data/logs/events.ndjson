@@ -1,12 +1,3 @@
-{"t":"2026-07-21T17:45:00.559Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP E24mv G4 with Webcam","items":0,"names":[]}
-{"t":"2026-07-21T17:45:02.830Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"E24mv G4 with Webcam","items":0,"names":[]}
-{"t":"2026-07-21T17:45:04.490Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP E24mv G4 with","items":0,"names":[]}
-{"t":"2026-07-21T17:45:12.062Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-07-21T17:45:12.144Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-asrock-phantom-monitor-27%e2%80%b3-280hz","searchTerms":["Asrock Phantom Monitor 27″ 280Hz"]}
-{"t":"2026-07-21T17:45:12.144Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Asrock Phantom Monitor 280Hz"]}
-{"t":"2026-07-21T17:45:14.805Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Asrock Phantom Monitor 280Hz","items":0,"names":[]}
-{"t":"2026-07-21T17:45:22.367Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-07-21T17:45:22.477Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-iiyama-prolite-monitor-touch-27%e2%80%b3-t2755msc","searchTerms":["iiyama ProLite Monitor Touch 27″ T2755MSC"]}
 {"t":"2026-07-21T17:45:22.477Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["iiyama ProLite Monitor Touch T2755MSC","iiyama ProLite Monitor Touch"]}
 {"t":"2026-07-21T17:45:24.890Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"iiyama ProLite Monitor Touch T2755MSC","items":0,"names":[]}
 {"t":"2026-07-21T17:45:26.991Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"iiyama ProLite Monitor Touch","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T13:58:11.484Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T13:58:18.796Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T13:58:18.797Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":21440,"nextIndex":21520,"remaining":2975,"httpFailures":{}}
+{"t":"2026-07-23T13:58:28.192Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":21520,"batchSize":80,"total":24495}
+{"t":"2026-07-23T13:58:38.153Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T13:58:53.576Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T13:59:03.483Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T13:59:13.697Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T13:59:25.982Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T13:59:36.890Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T13:59:43.061Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T13:59:43.061Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":21520,"nextIndex":21600,"remaining":2895,"httpFailures":{}}
