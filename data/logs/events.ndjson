@@ -1,12 +1,3 @@
-{"t":"2026-06-22T12:44:04.498Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-casual-backpack-b210-15-6%e2%80%b3","searchTerms":["Lenovo Casual Backpack B210 15.6″"]}
-{"t":"2026-06-22T12:44:04.498Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Casual Backpack B210","Casual Backpack B210"]}
-{"t":"2026-06-22T12:44:04.502Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-simple-toploader-t1050-15-6%e2%80%b3","searchTerms":["Lenovo Simple Toploader T1050 15.6″"]}
-{"t":"2026-06-22T12:44:04.502Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Simple Toploader T1050","Simple Toploader T1050"]}
-{"t":"2026-06-22T12:44:05.260Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Casual Backpack B210","items":0,"names":[]}
-{"t":"2026-06-22T12:44:05.436Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Simple Toploader T1050","items":0,"names":[]}
-{"t":"2026-06-22T12:44:05.770Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Casual Backpack B210","items":0,"names":[]}
-{"t":"2026-06-22T12:44:06.079Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Simple Toploader T1050","items":0,"names":[]}
-{"t":"2026-06-22T12:44:07.771Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-06-22T12:44:07.801Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideapad-pro-5-14%e2%80%b3-intel-ultra-7-255h","searchTerms":["Lenovo IdeaPad Pro 5 14″ Intel Ultra 7 255H"]}
 {"t":"2026-06-22T12:44:07.801Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaPad Pro 5 Intel Ultra 7 255H","IdeaPad Pro 5 Intel Ultra 7 255H","Lenovo IdeaPad Pro 5"]}
 {"t":"2026-06-22T12:44:08.518Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo IdeaPad Pro 5 Intel Ultra 7 255H","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T08:36:38.526Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Xiaomi Monitor A24i 23.8″","score":2.3684210526315788}]}
 {"t":"2026-07-23T08:36:39.328Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T08:36:39.328Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":880,"nextIndex":960,"remaining":23535,"httpFailures":{}}
+{"t":"2026-07-23T08:36:48.832Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":960,"batchSize":80,"total":24495}
+{"t":"2026-07-23T08:36:57.608Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T08:37:00.573Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T08:37:06.560Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T08:37:12.046Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T08:37:17.666Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T08:37:24.690Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T08:37:27.568Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T08:37:27.568Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":960,"nextIndex":1040,"remaining":23455,"httpFailures":{}}
