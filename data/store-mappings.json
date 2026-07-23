@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T08:39:01.079Z",
+  "updatedAt": "2026-07-23T08:39:52.271Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -643,12 +643,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200058627/Smartwatch-Samsung-Galaxy-Watch8-40mm-LTE-32GB-grafit",
       "storeProductName": "Smartwatch Samsung Galaxy Watch8 40mm LTE, 32GB, grafit",
-      "catalogueProductId": "shpresa-samsung-galaxy-watch7-40mm",
+      "catalogueProductId": "shpresa-samsung-galaxy-watch7-40mm-lte",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 80,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:45.598Z",
-      "updatedAt": "2026-07-23T08:33:25.845Z"
+      "updatedAt": "2026-07-23T08:39:29.956Z"
     },
     "neptun:/categories/Samsung-Galaxy-Watch8-40mm-Silver-SM0227": {
       "storeId": "neptun",
@@ -1666,12 +1666,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200008376/Microsoft-Surface-Pro-10-11-Keyboard-Pen2-Copilot-Key",
       "storeProductName": "Microsoft Surface Pro 10 / 11 Keyboard + Pen2 + Copilot Key",
-      "catalogueProductId": "shpresa-microsoft-12-surface-pro-keyboard",
+      "catalogueProductId": "shpresa-microsoft-surface-pro-keyboard",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T15:57:05.086Z",
-      "updatedAt": "2026-07-23T08:38:12.766Z"
+      "updatedAt": "2026-07-23T08:39:40.055Z"
     },
     "foleja:/THM-200003912/Kamere-smart-Xiaomi-C300-Dual-EU-3MP-dy-lente-2304-1296-pan-tilt-3600-me-ndjekje-AI-Wi-Fi-2.4-5-GHz-e-brendshme-e-bardhe": {
       "storeId": "foleja",
@@ -2463,7 +2463,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:01:06.056Z",
-      "updatedAt": "2026-07-21T15:58:09.477Z"
+      "updatedAt": "2026-07-23T08:39:47.391Z"
     },
     "foleja:/KST-200017585/Laptop-Lenovo-V17-G4-IRU-i5-13420H-16GB-512SSD-Iron-Grey": {
       "storeId": "foleja",
@@ -2480,12 +2480,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/LAPTOP-LENOVO-V15-G4-IRU---CANTE-LP2055",
       "storeProductName": "LAPTOP LENOVO V15 G4 IRU + CANTE",
-      "catalogueProductId": "neptun-28861",
+      "catalogueProductId": "shpresa-lenovo-v15-g4-15-6-8gb-512gb-ssd-ryzen-5",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:01:08.107Z",
-      "updatedAt": "2026-07-21T20:03:14.597Z"
+      "updatedAt": "2026-07-23T08:39:47.391Z"
     },
     "foleja:/KST-200057752/Tablet-Amazon-Fire-HD-8-Kids-32GB-WiFi-kalter": {
       "storeId": "foleja",
@@ -2502,12 +2502,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/TABLET-XIAOMI-REDMI-PAD-2-128GB-GRAPHITE-GRAY-TB0755",
       "storeProductName": "TABLET XIAOMI REDMI PAD 2 128GB GRAPHITE GRAY",
-      "catalogueProductId": "shpresa-xiaomi-redmi-pad-2-pro-wifi",
+      "catalogueProductId": "shpresa-xiaomi-redmi-pad-2",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:01:15.095Z",
-      "updatedAt": "2026-07-23T08:37:41.122Z"
+      "updatedAt": "2026-07-23T08:39:52.271Z"
     },
     "neptun:/categories/MOUSE-MARATHON-M705-WIRELESS-CHARCOAL-MS0962": {
       "storeId": "neptun",
@@ -5351,12 +5351,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200017448/Laptop-Apple-MacBook-Pro-16.2-Apple-M4-Pro-24GB-512GB-Silver",
       "storeProductName": "Laptop Apple MacBook Pro 16.2 Apple M4 Pro 24GB 512GB Silver",
-      "catalogueProductId": "shpresa-apple-macbook-pro-14-36gb-1tb-ssd-m4-max-2024",
+      "catalogueProductId": "shpresa-apple-macbook-pro-14-16gb-512gb-ssd-m4-2024",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-07-23T08:35:49.344Z"
+      "updatedAt": "2026-07-23T08:39:17.953Z"
     },
     "shpresa:190526": {
       "storeId": "shpresa",
@@ -5373,12 +5373,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/ADAPTOR-APPLE-USB-C-96W-MacBook-Pro-16--mw2l3zm-a-KR0584",
       "storeProductName": "ADAPTOR APPLE USB-C 96W MacBook Pro 16\" mw2l3zm/a",
-      "catalogueProductId": "shpresa-apple-macbook-pro-14-36gb-1tb-ssd-m4-max-2024",
+      "catalogueProductId": "shpresa-apple-macbook-pro-14-16gb-512gb-ssd-m4-2024",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:28:32.883Z",
-      "updatedAt": "2026-07-23T08:35:49.344Z"
+      "updatedAt": "2026-07-23T08:39:17.953Z"
     },
     "globe:72472": {
       "storeId": "globe",
@@ -20454,12 +20454,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/Xiaomi-Redmi-Note-15-4G--8-256GB-Black-TL4485",
       "storeProductName": "Xiaomi Redmi Note 15 4G  8/256GB Black",
-      "catalogueProductId": "foleja-celular-xiaomi-redmi-note-15-pro-8-256gb-6-77-titanium",
+      "catalogueProductId": "shpresa-xiaomi-redmi-note-15-pro-5g",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:53:15.070Z",
-      "updatedAt": "2026-07-21T21:07:35.382Z"
+      "updatedAt": "2026-07-23T08:39:29.956Z"
     },
     "neptun:/categories/KABELL-XIAOMI-MI-USB-C-1M-WHITE-28975-KL1111": {
       "storeId": "neptun",
@@ -20509,12 +20509,12 @@
       "storeId": "globe",
       "storeProductId": "184372",
       "storeProductName": "Laptop Apple MacBook Neo A18 Pro 13\" 512GB MHFC4ZE/A Silver",
-      "catalogueProductId": "neptun-30984",
+      "catalogueProductId": "shpresa-apple-macbook-pro-14-16gb-512gb-ssd-m4-2024",
       "matchMethod": "name_match",
-      "confidence": 67,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T17:53:44.037Z",
-      "updatedAt": "2026-07-21T20:04:39.206Z"
+      "updatedAt": "2026-07-23T08:39:17.953Z"
     },
     "globe:184377": {
       "storeId": "globe",
@@ -24436,12 +24436,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/KUFJE-XIAOMI-REDMI-BUDS-8-LITE-WHITE-71619-KU1852",
       "storeProductName": "XIAOMI REDMI BUDS 8 LITE WHITE 71619",
-      "catalogueProductId": "neptun-30805",
+      "catalogueProductId": "shpresa-xiaomi-redmi-buds-8-lite",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T18:03:59.812Z",
-      "updatedAt": "2026-07-21T20:09:21.106Z"
+      "updatedAt": "2026-07-23T08:39:29.956Z"
     },
     "neptun:/categories/KUFJE-XIAOMI-REDMI-BUDS-8-LITE-BLUE-71617-KU1854": {
       "storeId": "neptun",
@@ -54774,12 +54774,12 @@
       "storeId": "foleja",
       "storeProductId": "/HRT-200006756/Mbrojtes-ekrani-3mk-FlexibleGlass-per-iPad-10.9-10th-Gen-Transparent",
       "storeProductName": "Mbrojtës ekrani 3mk FlexibleGlass për iPad 10.9\" (10th Gen), Transparent",
-      "catalogueProductId": "shpresa-apple-ipad-pro-10th-gen-10-9-64gb",
+      "catalogueProductId": "shpresa-apple-ipad-10th-gen-10-9-wi-fi-cellular-64gb-2022",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-05-02T07:21:49.461Z",
-      "updatedAt": "2026-07-23T08:33:25.845Z"
+      "updatedAt": "2026-07-23T08:39:17.953Z"
     },
     "foleja:/KST-200006339/SSD-portabel-SanDisk-SDSSDE30-1T00-G26-1-TB-USB-Type-C-3.2-Gen-2-800-MB-s-e-zeze": {
       "storeId": "foleja",
@@ -54963,10 +54963,10 @@
       "storeProductName": "STARLINK STANDARD KIT - WHITE",
       "catalogueProductId": "shpresa-starlink-standard-kit-2",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 75,
       "status": "pending",
       "createdAt": "2026-05-02T07:25:47.940Z",
-      "updatedAt": "2026-07-21T15:57:32.354Z"
+      "updatedAt": "2026-07-23T08:39:17.953Z"
     },
     "foleja:/KST-200013473/Pllake-ame-ASUS-ROG-STRIX-X870E-E-GAMING-WIFI-AMD-Socket-AM5-DDR5-192-GB": {
       "storeId": "foleja",
@@ -55010,7 +55010,7 @@
       "confidence": 60,
       "status": "pending",
       "createdAt": "2026-05-02T07:25:58.943Z",
-      "updatedAt": "2026-07-21T15:57:45.347Z"
+      "updatedAt": "2026-07-23T08:39:24.673Z"
     },
     "foleja:/KST-200049343/Pllake-ame-ASUS-ROG-CROSSHAIR-X870E-APEX-AMD-AM5-DDR5-ATX": {
       "storeId": "foleja",
@@ -67072,12 +67072,12 @@
       "storeId": "foleja",
       "storeProductId": "/KOM-200215537/Stajler-flokesh-Dyson-Airwrap-Multistyler-i.d.-Curly-Coily-1300W-kalter-topaz",
       "storeProductName": "Stajler flokësh Dyson Airwrap Multistyler i.d. Curly+Coily, 1300W, kaltër/topaz",
-      "catalogueProductId": "shpresa-dyson-airwrap-i-d-multi-styler-and-dryer-amber-silk",
+      "catalogueProductId": "shpresa-dyson-airwrap-i-d-multi-styler-and-dryer-curly-coily-amber-silk",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-05-08T07:15:30.212Z",
-      "updatedAt": "2026-07-23T08:29:47.979Z"
+      "updatedAt": "2026-07-23T08:39:29.956Z"
     },
     "foleja:/ACN-300013809/Pika-e-Qasjes-se-Jashtme-Wireless-TP-Link-Omada-300Mbps": {
       "storeId": "foleja",
@@ -72209,12 +72209,12 @@
       "storeId": "foleja",
       "storeProductId": "/THM-200004563/Printer-foto-portativ-Xiaomi-Mi-Portable-Photo-Printer-1S-313-x-512-dpi-50-x-76-mm-Bluetooth-5.2-gri-set-me-5-flete",
       "storeProductName": "Printer foto portativ Xiaomi Mi Portable Photo Printer 1S, 313 x 512 dpi, 50 x 76 mm, Bluetooth 5.2, gri, set me 5 fletë",
-      "catalogueProductId": "shpresa-xiaomi-mi-portable-photo-printer-paper",
+      "catalogueProductId": "shpresa-xiaomi-portable-photo-printer-pro",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T08:41:26.866Z",
-      "updatedAt": "2026-07-23T08:31:57.083Z"
+      "updatedAt": "2026-07-23T08:39:52.271Z"
     },
     "foleja:/THM-200004511/Kartrixh-desikant-Xiaomi-Smart-Pet-Food-Feeder-BHR6144GL-i-bardhe": {
       "storeId": "foleja",
@@ -73111,23 +73111,23 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200043504/Laptop-Lenovo-V15-G4-AMN-Ryzen-5-16GB-RAM-512GB-SSD-15.6-Business-Black",
       "storeProductName": "Laptop Lenovo V15 G4 AMN, Ryzen 5, 16GB RAM, 512GB SSD, 15.6\", Business Black",
-      "catalogueProductId": "neptun-28578",
+      "catalogueProductId": "shpresa-lenovo-v15-g4-15-6-8gb-512gb-ssd-ryzen-5",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T08:47:02.282Z",
-      "updatedAt": "2026-07-21T20:03:14.597Z"
+      "updatedAt": "2026-07-23T08:39:47.391Z"
     },
     "foleja:/THM-200000057/Tablet-Amazon-Fire-HD-8-64GB-8-HD-Wi-Fi-e-zeze": {
       "storeId": "foleja",
       "storeProductId": "/THM-200000057/Tablet-Amazon-Fire-HD-8-64GB-8-HD-Wi-Fi-e-zeze",
       "storeProductName": "Tablet, Amazon Fire HD 8, 64GB, 8\" HD, Wi‑Fi, e zezë",
-      "catalogueProductId": "shpresa-amazon-fire-hd-8-32gb",
+      "catalogueProductId": "shpresa-amazon-fire-hd-8-32gb-2024",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T08:47:02.282Z",
-      "updatedAt": "2026-07-21T16:03:52.148Z"
+      "updatedAt": "2026-07-23T08:39:52.271Z"
     },
     "foleja:/KST-200016745/Procesor-Intel-Core-Ultra-5-225F-FCLGA1851-64-bit-i-zi": {
       "storeId": "foleja",
@@ -81432,7 +81432,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T11:16:08.825Z",
-      "updatedAt": "2026-07-21T15:57:38.862Z"
+      "updatedAt": "2026-07-23T08:39:17.953Z"
     },
     "foleja:/ABS-200000024/Pllake-ame-GIGABYTE-X870-EAGLE-WIFI7-AM5-ATX-DDR5-deri-256GB-Wi-Fi-7-2.5GbE-USB4": {
       "storeId": "foleja",
@@ -81443,7 +81443,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T11:16:08.825Z",
-      "updatedAt": "2026-07-21T15:57:38.862Z"
+      "updatedAt": "2026-07-23T08:39:17.953Z"
     },
     "shpresa:189370": {
       "storeId": "shpresa",
@@ -81465,7 +81465,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T11:16:12.774Z",
-      "updatedAt": "2026-07-21T15:57:45.347Z"
+      "updatedAt": "2026-07-23T08:39:24.673Z"
     },
     "foleja:/ABS-200000247/Monitor-gaming-AOC-Q24G4RE-24-Fast-IPS-QHD-2560x1440-180Hz-1ms-i-zi-kuq": {
       "storeId": "foleja",
@@ -81476,7 +81476,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T11:16:12.774Z",
-      "updatedAt": "2026-07-21T15:57:45.347Z"
+      "updatedAt": "2026-07-23T08:39:29.956Z"
     },
     "foleja:/ABS-200001103/Pllake-ame-ASUS-ROG-Crosshair-X870E-Hero-ATX-Socket-AM5-DDR5-AMD-X870E-e-zeze": {
       "storeId": "foleja",
@@ -84122,12 +84122,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200003893/Ftohes-uji-all-in-one-Thermaltake-TH420-ARGB-Sync-420mm-3x140mm-ARGB-i-zi",
       "storeProductName": "Ftohës uji all-in-one Thermaltake TH420 ARGB Sync, 420mm, 3x140mm, ARGB, i zi",
-      "catalogueProductId": "albagame-thermaltake-th240-argb-1",
+      "catalogueProductId": "shpresa-thermaltake-th420-argb-sync-aio-liquid-cooler",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T15:49:56.646Z",
-      "updatedAt": "2026-07-23T08:31:53.277Z"
+      "updatedAt": "2026-07-23T08:39:40.055Z"
     },
     "foleja:/ABS-200000880/Webkamere-Logitech-Brio-100-Full-HD-USB-e-bardhe-off-white": {
       "storeId": "foleja",
@@ -84320,12 +84320,12 @@
       "storeId": "shpresa",
       "storeProductId": "184837",
       "storeProductName": "SkyHawk Video Hard Drives 1TB",
-      "catalogueProductId": "shpresa-skyhawk-video-hard-drives-6tb",
+      "catalogueProductId": "shpresa-skyhawk-video-hard-drives-4tb",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T15:52:27.497Z",
-      "updatedAt": "2026-07-23T08:37:27.252Z"
+      "updatedAt": "2026-07-23T08:39:35.367Z"
     },
     "foleja:/MOR-200034017/Ftohes-me-uje-AIO-MSI-MPG-CoreLiquid-P13-360-radiator-360mm-3x120mm-ARGB-ekran-IPS-2.1-i-bardhe": {
       "storeId": "foleja",
@@ -84683,12 +84683,12 @@
       "storeId": "foleja",
       "storeProductId": "/MOR-200023167/Switch-KVM-UGREEN-CM731-2-ne-1-USB-C-HDMI-4Kat60Hz-USB-3.0-5Gbps-PD-100W",
       "storeProductName": "Switch KVM UGREEN CM731 2-në-1 USB-C + HDMI, 4K@60Hz, USB 3.0 5Gbps, PD 100W",
-      "catalogueProductId": "albagame-kvm-switch-ugreen-2in-4out-4x-usb-a-3-2-gen1-for-2-computers-hub-black-30768",
+      "catalogueProductId": "shpresa-ugreen-2-in-1-usb-3-0-sd-tf-card-reader",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-07-21T15:57:32.354Z",
-      "updatedAt": "2026-07-21T17:59:08.861Z"
+      "updatedAt": "2026-07-23T08:39:17.953Z"
     },
     "foleja:/ABS-200001105/Pllake-ame-ASUS-ROG-Strix-X870E-E-Gaming-WiFi-AM5-ATX-DDR5-5x-M.2-4x-SATA-WiFi-7-5GbE": {
       "storeId": "foleja",
@@ -84699,7 +84699,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T15:57:38.862Z",
-      "updatedAt": "2026-07-21T15:57:38.862Z"
+      "updatedAt": "2026-07-23T08:39:17.953Z"
     },
     "shpresa:64162": {
       "storeId": "shpresa",
@@ -84710,7 +84710,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T15:57:38.862Z",
-      "updatedAt": "2026-07-21T15:57:38.862Z"
+      "updatedAt": "2026-07-23T08:39:24.673Z"
     },
     "foleja:/KST-200060720/Smartwatch-Samsung-Galaxy-Watch-8-46mm-LTE-EU-argjendte-e-bardhe": {
       "storeId": "foleja",
@@ -84732,18 +84732,18 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T15:57:50.411Z",
-      "updatedAt": "2026-07-21T15:57:50.411Z"
+      "updatedAt": "2026-07-23T08:39:35.367Z"
     },
     "shpresa:140446": {
       "storeId": "shpresa",
       "storeProductId": "140446",
       "storeProductName": "Lenovo V15 G4 ABP 15.6&#8243;, 16GB, 512GB SSD, Ryzen™ 7 7730U",
-      "catalogueProductId": "neptun-28861",
+      "catalogueProductId": "shpresa-lenovo-v15-g4-15-6-8gb-512gb-ssd-ryzen-5",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T15:58:15.211Z",
-      "updatedAt": "2026-07-21T20:03:14.597Z"
+      "updatedAt": "2026-07-23T08:39:47.391Z"
     },
     "foleja:/KST-200062103/S-Pen-Samsung-Galaxy-Tab-S11-Series-bardhe": {
       "storeId": "foleja",
@@ -84754,7 +84754,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T15:58:26.007Z",
-      "updatedAt": "2026-07-21T15:58:26.007Z"
+      "updatedAt": "2026-07-23T08:39:52.271Z"
     },
     "foleja:/MOR-200021260/Procesor-Intel-Core-Ultra-5-225F-3.3GHz-20MB-OEM-AT8076806416": {
       "storeId": "foleja",
