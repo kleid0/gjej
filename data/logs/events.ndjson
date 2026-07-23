@@ -1,42 +1,3 @@
-{"t":"2026-07-21T17:42:20.696Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-legion-r27qc-curved-27%e2%80%b3-qhd-180hz","searchTerms":["Lenovo Legion R27qc Curved 27″ QHD 180Hz"]}
-{"t":"2026-07-21T17:42:20.697Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Legion R27qc Curved QHD 180Hz","Legion R27qc Curved QHD 180Hz","Lenovo Legion R27qc Curved"]}
-{"t":"2026-07-21T17:42:22.703Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Legion R27qc Curved QHD 180Hz","items":0,"names":[]}
-{"t":"2026-07-21T17:42:24.520Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Legion R27qc Curved QHD 180Hz","items":0,"names":[]}
-{"t":"2026-07-21T17:42:26.450Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Legion R27qc Curved","items":0,"names":[]}
-{"t":"2026-07-21T17:42:30.600Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-07-21T17:42:30.679Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-p2725he-27%e2%80%b3-fhd","searchTerms":["DELL Monitor P2725HE 27″ FHD"]}
-{"t":"2026-07-21T17:42:30.679Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor P2725HE FHD","Monitor P2725HE FHD"]}
-{"t":"2026-07-21T17:42:32.610Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor P2725HE FHD","items":0,"names":[]}
-{"t":"2026-07-21T17:42:34.974Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor P2725HE FHD","items":0,"names":[]}
-{"t":"2026-07-21T17:42:39.498Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-07-21T17:42:47.566Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-07-21T17:42:57.082Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-07-21T17:42:57.093Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-passport-2-5%e2%80%b3-usb-3-2-1tb","searchTerms":["WD Passport 2.5″ USB 3.2 1TB"]}
-{"t":"2026-07-21T17:42:57.094Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Passport USB 3.2","Passport USB 3.2"]}
-{"t":"2026-07-21T17:42:57.125Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-toshiba-desktop-hdd-3-5%e2%80%b3-500-gb","searchTerms":["Toshiba Desktop HDD 3.5″ 500 GB"]}
-{"t":"2026-07-21T17:42:57.125Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Toshiba Desktop HDD","Desktop HDD"]}
-{"t":"2026-07-21T17:42:57.150Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-omen-qhd-gaming-monitor-32q-31-5%e2%80%b3-165hz","searchTerms":["HP Omen QHD Gaming Monitor 32q 31.5″ 165Hz"]}
-{"t":"2026-07-21T17:42:57.150Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Omen QHD Gaming Monitor 32q 165Hz","Omen QHD Gaming Monitor 32q 165Hz","HP Omen QHD Gaming"]}
-{"t":"2026-07-21T17:42:57.497Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Passport USB 3.2","items":0,"names":[]}
-{"t":"2026-07-21T17:42:58.509Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Toshiba Desktop HDD","items":0,"names":[]}
-{"t":"2026-07-21T17:42:59.037Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Omen QHD Gaming Monitor 32q 165Hz","items":0,"names":[]}
-{"t":"2026-07-21T17:42:59.365Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Passport USB 3.2","items":0,"names":[]}
-{"t":"2026-07-21T17:43:00.311Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Desktop HDD","items":0,"names":[]}
-{"t":"2026-07-21T17:43:01.065Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Omen QHD Gaming Monitor 32q 165Hz","items":0,"names":[]}
-{"t":"2026-07-21T17:43:03.035Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Omen QHD Gaming","items":0,"names":[]}
-{"t":"2026-07-21T17:43:07.146Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-07-21T17:43:21.258Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-07-21T17:43:21.258Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8320,"nextIndex":8400,"remaining":14550,"httpFailures":{}}
-{"t":"2026-07-21T17:43:29.459Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8400,"batchSize":80,"total":22950}
-{"t":"2026-07-21T17:43:39.807Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-07-21T17:43:39.867Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-omen-x-25f-gaming-25%e2%80%b3-1ms-240hz","searchTerms":["Hp Omen X 25F Gaming 25″ 1ms 240Hz"]}
-{"t":"2026-07-21T17:43:39.867Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Hp Omen X 25F Gaming 1ms 240Hz","Omen X 25F Gaming 1ms 240Hz","Hp Omen X 25F"]}
-{"t":"2026-07-21T17:43:39.872Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-x27-27%e2%80%b3-fhd-1ms-165hz","searchTerms":["Hp Monitor x27 27″ FHD 1ms 165Hz"]}
-{"t":"2026-07-21T17:43:39.872Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Hp Monitor x27 FHD 1ms 165Hz","Monitor x27 FHD 1ms 165Hz","Hp Monitor x27 FHD"]}
-{"t":"2026-07-21T17:43:39.883Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-alienware-27%e2%80%b3-0-5ms-240hz-4k-aw2725qf","searchTerms":["DELL Alienware 27″ 0.5ms 240Hz 4K AW2725QF"]}
-{"t":"2026-07-21T17:43:39.884Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Alienware 0.5ms 240Hz 4K AW2725QF","Alienware 0.5ms 240Hz 4K AW2725QF","DELL Alienware 0.5ms 240Hz"]}
-{"t":"2026-07-21T17:43:41.865Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Hp Omen X 25F Gaming 1ms 240Hz","items":0,"names":[]}
-{"t":"2026-07-21T17:43:41.866Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Hp Monitor x27 FHD 1ms 165Hz","items":0,"names":[]}
 {"t":"2026-07-21T17:43:42.367Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Alienware 0.5ms 240Hz 4K AW2725QF","items":0,"names":[]}
 {"t":"2026-07-21T17:43:43.734Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Omen X 25F Gaming 1ms 240Hz","items":0,"names":[]}
 {"t":"2026-07-21T17:43:43.903Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor x27 FHD 1ms 165Hz","items":0,"names":[]}
@@ -4998,3 +4959,42 @@
 {"t":"2026-07-23T13:50:15.026Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T13:50:17.328Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T13:50:17.328Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":20960,"nextIndex":21040,"remaining":3455,"httpFailures":{}}
+{"t":"2026-07-23T13:50:27.294Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":21040,"batchSize":80,"total":24495}
+{"t":"2026-07-23T13:50:34.560Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T13:50:40.847Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T13:50:40.857Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-microsoft-surface-laptop-studio-2-14-4%e2%80%b3-16gb-512gb-ssd-core-i7-13800h-rtx-4050-6gb","searchTerms":["Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB"]}
+{"t":"2026-07-23T13:50:40.857Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-laptop-studio-2-14-4%e2%80%b3-16gb-512gb-ssd-core-i7-13800h-rtx-4050-6gb"}
+{"t":"2026-07-23T13:50:40.860Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-microsoft-surface-laptop-studio-14-4%e2%80%b3-32gb-1tb-ssd-core-i7-11370h-rtx-a2000-4gb","searchTerms":["Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB"]}
+{"t":"2026-07-23T13:50:40.860Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-laptop-studio-14-4%e2%80%b3-32gb-1tb-ssd-core-i7-11370h-rtx-a2000-4gb"}
+{"t":"2026-07-23T13:50:40.873Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-microsoft-surface-5-15%e2%80%b3-16gb-512gb-ssd-core-i5-1245u","searchTerms":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U"]}
+{"t":"2026-07-23T13:50:40.873Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-5-15%e2%80%b3-16gb-512gb-ssd-core-i5-1245u"}
+{"t":"2026-07-23T13:50:41.655Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T13:50:41.655Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-laptop-studio-2-14-4″-16gb-512gb-ssd-core-i7-13800h-rtx-4050-6gb"}
+{"t":"2026-07-23T13:50:41.935Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T13:50:41.935Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-laptop-studio-14-4″-32gb-1tb-ssd-core-i7-11370h-rtx-a2000-4gb"}
+{"t":"2026-07-23T13:50:42.984Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T13:50:42.984Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"microsoft-surface-5-15″-16gb-512gb-ssd-core-i5-1245u"}
+{"t":"2026-07-23T13:50:44.018Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T13:50:44.018Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Microsoft Surface Laptop Studio 2","Surface Laptop Studio 2","Microsoft Surface Laptop Studio"]}
+{"t":"2026-07-23T13:50:44.352Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T13:50:44.353Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Microsoft Surface Laptop Studio","Surface Laptop Studio"]}
+{"t":"2026-07-23T13:50:44.418Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T13:50:44.419Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Microsoft Surface 5","Surface 5"]}
+{"t":"2026-07-23T13:50:45.216Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface Laptop Studio 2","items":1,"names":["Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB "]}
+{"t":"2026-07-23T13:50:45.216Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB ","score":0}]}
+{"t":"2026-07-23T13:50:45.640Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Surface Laptop Studio 2","items":1,"names":["Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB "]}
+{"t":"2026-07-23T13:50:45.641Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB ","score":0}]}
+{"t":"2026-07-23T13:50:45.720Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface Laptop Studio","items":3,"names":["Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB","Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB","Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB "]}
+{"t":"2026-07-23T13:50:45.720Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB","score":1.9047619047619047},{"name":"Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB","score":1.8181818181818181},{"name":"Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB ","score":1.9047619047619047}]}
+{"t":"2026-07-23T13:50:45.890Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface 5","items":3,"names":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U"]}
+{"t":"2026-07-23T13:50:45.890Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U","score":0}]}
+{"t":"2026-07-23T13:50:46.072Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Microsoft Surface Laptop Studio","items":3,"names":["Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB","Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB","Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB "]}
+{"t":"2026-07-23T13:50:46.072Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ A2000 4GB","score":1.9047619047619047},{"name":"Microsoft Surface Laptop Studio, 14.4″, 32GB, 1TB SSD, Core™ i7-11370H, RTX™ 3050 Ti 4GB","score":1.8181818181818181},{"name":"Microsoft Surface Laptop Studio 2, 14.4″, 16GB, 512GB SSD, Core™ i7-13800H, RTX™ 4050 6GB ","score":1.9047619047619047}]}
+{"t":"2026-07-23T13:50:46.406Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Surface 5","items":3,"names":["Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U"]}
+{"t":"2026-07-23T13:50:46.406Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 13.5″, 16GB, 512GB SSD, Core™ i7-1265U","score":0},{"name":"Microsoft Surface 5, 15″, 16GB, 512GB SSD, Core™ i5-1245U","score":0}]}
+{"t":"2026-07-23T13:50:47.665Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T13:50:51.890Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T13:50:57.026Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T13:51:01.128Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T13:51:03.615Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T13:51:03.615Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":21040,"nextIndex":21120,"remaining":3375,"httpFailures":{}}
