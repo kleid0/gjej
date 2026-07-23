@@ -1,20 +1,3 @@
-{"t":"2026-06-22T12:42:59.833Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T12:42:59.981Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-alienware-25%e2%80%b3-1ms-360hz-aw2523hf","searchTerms":["DELL Alienware 25″ 1ms 360Hz AW2523HF"]}
-{"t":"2026-06-22T12:42:59.981Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Alienware 1ms 360Hz AW2523HF","Alienware 1ms 360Hz AW2523HF","DELL Alienware 1ms 360Hz"]}
-{"t":"2026-06-22T12:43:00.105Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"DELL Alienware 1ms 360Hz AW2523HF","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
-{"t":"2026-06-22T12:43:00.218Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"Alienware 1ms 360Hz AW2523HF","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
-{"t":"2026-06-22T12:43:00.332Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"DELL Alienware 1ms 360Hz","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
-{"t":"2026-06-22T12:43:03.125Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T12:43:07.260Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T12:43:10.251Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T12:43:10.252Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8080,"nextIndex":8160,"remaining":12555,"httpFailures":{"shpresa:403":33}}
-{"t":"2026-06-22T12:43:18.072Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8160,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:43:18.092Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-e24q-g5-24%e2%80%b3","searchTerms":["HP Monitor E24q G5 24″"]}
-{"t":"2026-06-22T12:43:18.092Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Monitor E24q G5","Monitor E24q G5"]}
-{"t":"2026-06-22T12:43:18.115Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-thinkpad-p16s-g2-16%e2%80%b3-i7-1360p-with-sim-card","searchTerms":["Lenovo Thinkpad P16s G2 16″ i7-1360P with Sim Card"]}
-{"t":"2026-06-22T12:43:18.116Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Thinkpad P16s G2 i7-1360P with Sim Card","Thinkpad P16s G2 i7-1360P with Sim Card","Lenovo Thinkpad P16s G2"]}
-{"t":"2026-06-22T12:43:19.429Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Thinkpad P16s G2 i7-1360P with Sim Card","items":0,"names":[]}
-{"t":"2026-06-22T12:43:19.465Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E24q G5","items":0,"names":[]}
 {"t":"2026-06-22T12:43:20.482Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E24q G5","items":0,"names":[]}
 {"t":"2026-06-22T12:43:20.487Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Thinkpad P16s G2 i7-1360P with Sim Card","items":0,"names":[]}
 {"t":"2026-06-22T12:43:21.781Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Thinkpad P16s G2","items":0,"names":[]}
@@ -4998,3 +4981,20 @@
 {"t":"2026-07-23T08:35:04.100Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T08:35:08.146Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T08:35:08.146Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":720,"nextIndex":800,"remaining":23695,"httpFailures":{}}
+{"t":"2026-07-23T08:35:18.250Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":800,"batchSize":80,"total":24495}
+{"t":"2026-07-23T08:35:18.284Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-24%e2%80%b3-16gb-512gb-ssd-core-5","searchTerms":["Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H"]}
+{"t":"2026-07-23T08:35:18.284Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-24%e2%80%b3-16gb-512gb-ssd-core-5"}
+{"t":"2026-07-23T08:35:20.095Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T08:35:20.095Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-24″-16gb-512gb-ssd-core-5"}
+{"t":"2026-07-23T08:35:21.273Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
+{"t":"2026-07-23T08:35:21.273Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
+{"t":"2026-07-23T08:35:21.922Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":9,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H"]}
+{"t":"2026-07-23T08:35:21.922Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063},{"name":"Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H","score":1.6666666666666665}]}
+{"t":"2026-07-23T08:35:22.619Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T08:35:32.057Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T08:35:39.341Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T08:35:43.405Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T08:35:49.612Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T08:35:54.412Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T08:35:56.825Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T08:35:56.825Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":800,"nextIndex":880,"remaining":23615,"httpFailures":{}}
