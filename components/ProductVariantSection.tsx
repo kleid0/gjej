@@ -9,6 +9,11 @@ import type { VariantConfig } from "@/src/domain/catalog/variants";
 const PriceHistoryGraph = dynamic(() => import("./PriceHistoryGraph"), { ssr: false });
 const PriceAlertButton = dynamic(() => import("./PriceAlertButton"), { ssr: false });
 import type { ProductSpecs, ProductVariant } from "@/src/domain/catalog/Product";
+import {
+  cleanProductDescription,
+  cleanProductImages,
+  cleanSpecs,
+} from "@/src/application/enrichment/sanitizeEnrichment";
 
 interface EnrichmentData {
   specs?: ProductSpecs;
@@ -102,10 +107,18 @@ export default function ProductVariantSection({
 
     fetch(`/api/enrich?product=${encodeURIComponent(productId)}`)
       .then((r) => r.json())
-      .then((d: EnrichmentData) => {
+      .then((raw: EnrichmentData) => {
         if (cancelled) return;
+        // Strip retailer advertising (og:description plugs, flag/logo/promo
+        // images, shipping/stock "specs") before anything renders.
+        const d: EnrichmentData = {
+          ...raw,
+          description: cleanProductDescription(raw.description),
+          officialImages: cleanProductImages(raw.officialImages),
+          specs: raw.specs ? (cleanSpecs(raw.specs) as ProductSpecs) : raw.specs,
+        };
         setEnrichment(d);
-        // Use colour-specific image if available, else enrichment image
+        // Use colour-specific image if available, else first real product image
         const colourObj = config?.colours.find((c) => c.nameEn === colour);
         if (colourObj?.imageUrl) {
           setSelectedImage(colourObj.imageUrl);
