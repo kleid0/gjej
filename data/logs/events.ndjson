@@ -1,12 +1,3 @@
-{"t":"2026-06-22T12:46:00.061Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Passport USB 3.2","items":0,"names":[]}
-{"t":"2026-06-22T12:46:03.337Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:46:03.382Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-e24mv-g4-23-8%e2%80%b3-with-webcam","searchTerms":["HP E24mv G4 23.8″ with Webcam"]}
-{"t":"2026-06-22T12:46:03.382Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP E24mv G4 with Webcam","E24mv G4 with Webcam","HP E24mv G4 with"]}
-{"t":"2026-06-22T12:46:04.773Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP E24mv G4 with Webcam","items":0,"names":[]}
-{"t":"2026-06-22T12:46:05.885Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"E24mv G4 with Webcam","items":0,"names":[]}
-{"t":"2026-06-22T12:46:06.283Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP E24mv G4 with","items":0,"names":[]}
-{"t":"2026-06-22T12:46:08.111Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T12:46:08.170Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-asrock-phantom-monitor-27%e2%80%b3-280hz","searchTerms":["Asrock Phantom Monitor 27″ 280Hz"]}
 {"t":"2026-06-22T12:46:08.170Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Asrock Phantom Monitor 280Hz"]}
 {"t":"2026-06-22T12:46:09.020Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Asrock Phantom Monitor 280Hz","items":0,"names":[]}
 {"t":"2026-06-22T12:46:11.699Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T08:41:22.993Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T08:41:26.141Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T08:41:26.141Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1360,"nextIndex":1440,"remaining":23055,"httpFailures":{}}
+{"t":"2026-07-23T08:41:36.219Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1440,"batchSize":80,"total":24495}
+{"t":"2026-07-23T08:41:41.774Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T08:41:45.813Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T08:41:51.392Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T08:41:55.877Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T08:42:00.176Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T08:42:02.907Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T08:42:07.374Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T08:42:07.374Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1440,"nextIndex":1520,"remaining":22975,"httpFailures":{}}
