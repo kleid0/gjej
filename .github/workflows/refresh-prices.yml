@@ -27,14 +27,23 @@ on:
         description: "Index to resume from (default 0)"
         required: false
         default: "0"
-  # Re-enabled 2026-07-21 at HALF cadence (every 2 days, was daily) after the
-  # 2026-06-22 pause for Fluid Active CPU burn: daily walks consumed ~a month's
-  # CPU budget in ~3 weeks. The usage circuit breaker in the app
-  # (src/infrastructure/usage/usageTracker.ts) is the hard backstop now — the
-  # endpoint refuses to run past VERCEL_USAGE_BREAKER_PCT of the metered
-  # limits and returns remaining=0 so this walk loop stops cleanly.
-  schedule:
-    - cron: "0 6 */2 * *"
+  # PAUSED 2026-07-23: the scheduled walk was the top cause of Vercel's
+  # "100 deployments/day" (Hobby) cap being blown. Each of the ~300 per-batch
+  # commits this walk makes triggers a Vercel deployment (even skipped
+  # chore(data) ones still COUNT toward the daily cap), and once the cap trips
+  # every deploy — including real code deploys — fails for 24h. That silently
+  # froze production on an old build.
+  #
+  # Re-enable ONLY after the leaner BATCH_SIZE (app/api/cron/refresh-prices)
+  # has actually deployed, so a full walk stays well under the cap. At
+  # BATCH_SIZE=200 a 24.5k catalogue is ~123 commits/walk; a 4-day cadence
+  # keeps that ~30/day, comfortably below 100 with headroom for discovery +
+  # code deploys. Restore by uncommenting and using every-4-day cadence:
+  #   schedule:
+  #     - cron: "0 6 */4 * *"
+  #
+  # Manual runs (workflow_dispatch) and the sentinel-file push below still
+  # work for intentional, one-off walks.
   push:
     branches: [main]
     paths:
