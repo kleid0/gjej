@@ -1,12 +1,3 @@
-{"t":"2026-07-21T17:39:41.051Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E24q G5","items":0,"names":[]}
-{"t":"2026-07-21T17:39:41.557Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Thinkpad P16s G2 i7-1360P with Sim Card","items":0,"names":[]}
-{"t":"2026-07-21T17:39:44.049Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Thinkpad P16s G2","items":0,"names":[]}
-{"t":"2026-07-21T17:39:48.715Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-07-21T17:39:48.727Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-x1-carbon-g11-14%e2%80%b3-i7-1355u","searchTerms":["Lenovo X1 Carbon G11 14″ i7-1355U"]}
-{"t":"2026-07-21T17:39:48.727Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo X1 Carbon G11 i7-1355U","X1 Carbon G11 i7-1355U","Lenovo X1 Carbon G11"]}
-{"t":"2026-07-21T17:39:48.760Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-monitor-e32k-g5-31-5%e2%80%b3-uhd","searchTerms":["HP Monitor E32K G5 31.5″ UHD"]}
-{"t":"2026-07-21T17:39:48.760Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Monitor E32K G5 UHD","Monitor E32K G5 UHD","HP Monitor E32K G5"]}
-{"t":"2026-07-21T17:39:49.564Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo X1 Carbon G11 i7-1355U","items":0,"names":[]}
 {"t":"2026-07-21T17:39:51.105Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Monitor E32K G5 UHD","items":0,"names":[]}
 {"t":"2026-07-21T17:39:51.704Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"X1 Carbon G11 i7-1355U","items":0,"names":[]}
 {"t":"2026-07-21T17:39:53.160Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E32K G5 UHD","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T13:41:15.806Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T13:41:21.637Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T13:41:21.637Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":20320,"nextIndex":20400,"remaining":4095,"httpFailures":{}}
+{"t":"2026-07-23T13:41:32.670Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":20400,"batchSize":80,"total":24495}
+{"t":"2026-07-23T13:41:44.380Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T13:41:53.227Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T13:42:00.908Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T13:42:08.676Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T13:42:16.939Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T13:42:24.815Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T13:42:30.354Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T13:42:30.354Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":20400,"nextIndex":20480,"remaining":4015,"httpFailures":{}}
