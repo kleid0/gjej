@@ -1,12 +1,3 @@
-{"t":"2026-06-22T12:45:35.855Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo Yoga 27 QHD Ultra 9 285H TOUCH","Yoga 27 QHD Ultra 9 285H TOUCH","Lenovo Yoga 27 QHD"]}
-{"t":"2026-06-22T12:45:35.864Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-27%e2%80%b3-qhd-u2724d","searchTerms":["DELL Monitor 27″ QHD U2724D"]}
-{"t":"2026-06-22T12:45:35.864Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor QHD U2724D","Monitor QHD U2724D"]}
-{"t":"2026-06-22T12:45:36.418Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC HC580","items":0,"names":[]}
-{"t":"2026-06-22T12:45:36.664Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Seagate IronWolf Pro HDD","items":0,"names":[]}
-{"t":"2026-06-22T12:45:36.772Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor QHD U2724D","items":0,"names":[]}
-{"t":"2026-06-22T12:45:36.806Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Yoga 27 QHD Ultra 9 285H TOUCH","items":0,"names":[]}
-{"t":"2026-06-22T12:45:37.024Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HDD Ultrastar DC HC580","items":0,"names":[]}
-{"t":"2026-06-22T12:45:37.377Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IronWolf Pro HDD","items":0,"names":[]}
 {"t":"2026-06-22T12:45:37.419Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Yoga 27 QHD Ultra 9 285H TOUCH","items":0,"names":[]}
 {"t":"2026-06-22T12:45:37.996Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo Yoga 27 QHD","items":0,"names":[]}
 {"t":"2026-06-22T12:45:38.266Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor QHD U2724D","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T08:39:47.735Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T08:39:52.662Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T08:39:52.663Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1200,"nextIndex":1280,"remaining":23215,"httpFailures":{}}
+{"t":"2026-07-23T08:40:02.316Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1280,"batchSize":80,"total":24495}
+{"t":"2026-07-23T08:40:09.462Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T08:40:14.238Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T08:40:17.325Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T08:40:22.517Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T08:40:28.439Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T08:40:37.821Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T08:40:40.102Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T08:40:40.102Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1280,"nextIndex":1360,"remaining":23135,"httpFailures":{}}
