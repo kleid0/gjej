@@ -1,12 +1,3 @@
-{"t":"2026-06-22T12:47:26.151Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Backpack Travel Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:26.170Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Targus CityGear Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:26.960Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Pavilion Tech Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:26.960Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Essential Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:27.044Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IdeaPad Gaming Backpack","items":0,"names":[]}
-{"t":"2026-06-22T12:47:27.116Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Professional Backpack Case","items":0,"names":[]}
-{"t":"2026-06-22T12:47:27.145Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"XD Design Soft Daypack","items":0,"names":[]}
-{"t":"2026-06-22T12:47:27.624Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Pavilion Tech Backpack","items":0,"names":[]}
-{"t":"2026-06-22T12:47:29.719Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
 {"t":"2026-06-22T12:47:29.721Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-ecoloop-urban-backpack-case-15-6%e2%80%b3","searchTerms":["Dell EcoLoop Urban Backpack Case 15.6″"]}
 {"t":"2026-06-22T12:47:29.721Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell EcoLoop Urban Backpack Case","EcoLoop Urban Backpack Case","Dell EcoLoop Urban Backpack"]}
 {"t":"2026-06-22T12:47:29.724Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-targus-geolite-advanced-backpack-12-15-6%e2%80%b3","searchTerms":["Targus Geolite Advanced Backpack 12-15.6″"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T08:50:08.602Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T08:50:14.801Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T08:50:14.801Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2160,"nextIndex":2240,"remaining":22255,"httpFailures":{}}
+{"t":"2026-07-23T08:50:26.502Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":2240,"batchSize":80,"total":24495}
+{"t":"2026-07-23T08:50:34.392Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T08:50:42.041Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T08:50:50.281Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T08:51:00.221Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T08:51:07.748Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T08:51:16.745Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T08:51:22.126Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T08:51:22.127Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":2240,"nextIndex":2320,"remaining":22175,"httpFailures":{}}
