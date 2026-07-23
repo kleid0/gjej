@@ -1,12 +1,3 @@
-{"t":"2026-06-22T12:46:59.583Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dicote UltraCase Twin"]}
-{"t":"2026-06-22T12:46:59.713Z","level":"debug","scope":"scraper/woo","msg":"name search exception","term":"Dicote UltraCase Twin","err":{"name":"AxiosError","message":"Request failed with status code 403","code":"ERR_BAD_REQUEST","status":403,"url":"https://shpresa.al/wp-json/wc/store/v1/products","method":"get"}}
-{"t":"2026-06-22T12:47:02.019Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T12:47:02.019Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8560,"nextIndex":8640,"remaining":12075,"httpFailures":{"shpresa:403":32}}
-{"t":"2026-06-22T12:47:10.813Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8640,"batchSize":80,"total":20715}
-{"t":"2026-06-22T12:47:15.878Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T12:47:15.904Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-xd-design-flex-gym-backpackcase-15-6%e2%80%b3","searchTerms":["XD Design Flex Gym BackpackCase 15.6″"]}
-{"t":"2026-06-22T12:47:15.905Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["XD Design Flex Gym BackpackCase","XD Design Flex Gym"]}
-{"t":"2026-06-22T12:47:16.800Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"XD Design Flex Gym BackpackCase","items":0,"names":[]}
 {"t":"2026-06-22T12:47:17.648Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"XD Design Flex Gym","items":0,"names":[]}
 {"t":"2026-06-22T12:47:20.574Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-06-22T12:47:20.576Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-creator-backpack-16%e2%80%b3","searchTerms":["HP Creator Backpack 16″"]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T08:45:21.517Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T08:45:25.555Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T08:45:25.555Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1840,"nextIndex":1920,"remaining":22575,"httpFailures":{}}
+{"t":"2026-07-23T08:45:35.174Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":1920,"batchSize":80,"total":24495}
+{"t":"2026-07-23T08:45:40.495Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T08:45:46.889Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T08:46:01.244Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T08:46:12.341Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T08:46:21.629Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T08:46:29.157Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T08:46:35.434Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T08:46:35.434Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":1920,"nextIndex":2000,"remaining":22495,"httpFailures":{}}
