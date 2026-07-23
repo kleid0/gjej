@@ -1,12 +1,3 @@
-{"t":"2026-07-21T17:44:41.930Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8400,"nextIndex":8480,"remaining":14470,"httpFailures":{}}
-{"t":"2026-07-21T17:44:50.003Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8480,"batchSize":80,"total":22950}
-{"t":"2026-07-21T17:44:50.070Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-passport-2-5%e2%80%b3-usb-3-2-5tb","searchTerms":["WD Passport 2.5″ USB 3.2 5TB"]}
-{"t":"2026-07-21T17:44:50.070Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Passport USB 3.2","Passport USB 3.2"]}
-{"t":"2026-07-21T17:44:51.915Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Passport USB 3.2","items":0,"names":[]}
-{"t":"2026-07-21T17:44:54.392Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Passport USB 3.2","items":0,"names":[]}
-{"t":"2026-07-21T17:44:59.204Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-07-21T17:44:59.273Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-e24mv-g4-23-8%e2%80%b3-with-webcam","searchTerms":["HP E24mv G4 23.8″ with Webcam"]}
-{"t":"2026-07-21T17:44:59.273Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP E24mv G4 with Webcam","E24mv G4 with Webcam","HP E24mv G4 with"]}
 {"t":"2026-07-21T17:45:00.559Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP E24mv G4 with Webcam","items":0,"names":[]}
 {"t":"2026-07-21T17:45:02.830Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"E24mv G4 with Webcam","items":0,"names":[]}
 {"t":"2026-07-21T17:45:04.490Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP E24mv G4 with","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T13:56:44.511Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T13:56:54.650Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T13:56:54.651Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":21360,"nextIndex":21440,"remaining":3055,"httpFailures":{}}
+{"t":"2026-07-23T13:57:04.038Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":21440,"batchSize":80,"total":24495}
+{"t":"2026-07-23T13:57:20.019Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T13:57:28.421Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T13:57:38.995Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T13:57:51.302Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T13:58:01.409Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T13:58:11.484Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T13:58:18.796Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T13:58:18.797Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":21440,"nextIndex":21520,"remaining":2975,"httpFailures":{}}
