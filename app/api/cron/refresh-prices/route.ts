@@ -38,16 +38,21 @@ export const maxDuration = 300;
 // How many products to scrape concurrently to avoid OOM on Vercel
 const CONCURRENCY = 12;
 
-// How many products to refresh per invocation. Tuned so one call fits
-// comfortably inside maxDuration even on slow days. Orchestration is
-// handled externally by .github/workflows/refresh-prices.yml, which
-// loops through the catalogue 80 products at a time until remaining=0.
-// (We previously self-chained inside Vercel by aborted-fetch'ing the
-// next slice, but that proved flaky once the cron also committed JSON
-// files back to git — too many ways for the chain to silently break.
-// Moving orchestration to GHA gives us a 6-hour budget per run and
-// per-batch logs we can actually inspect.)
-const BATCH_SIZE = 80;
+// How many products to refresh per invocation. Each invocation ends in ONE
+// git commit, and every commit triggers a Vercel deployment that counts
+// against Hobby's 100-deploys/day cap — so fewer, larger batches = fewer
+// deploys. At ~0.75s/product a batch of 200 runs in ~150s, safely inside
+// maxDuration (300s), and turns a 24.5k-product walk into ~123 commits
+// instead of ~300. Combined with the 4-day schedule cadence (see
+// refresh-prices.yml) this keeps price-refresh deploys ~30/day.
+//
+// Orchestration is handled externally by .github/workflows/refresh-prices.yml,
+// which loops through the catalogue BATCH_SIZE products at a time until
+// remaining=0. (We previously self-chained inside Vercel by aborted-fetch'ing
+// the next slice, but that proved flaky once the cron also committed JSON
+// files back to git. Moving orchestration to GHA gives us a 6-hour budget per
+// run and per-batch logs we can actually inspect.)
+const BATCH_SIZE = 200;
 
 // GET /api/cron/refresh-prices
 // Processes one BATCH_SIZE slice starting from ?startIndex= (default 0),
