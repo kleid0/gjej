@@ -1,12 +1,3 @@
-{"t":"2026-07-21T15:53:10.168Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-aio-ideacentre-24%e2%80%b3-16gb-512gb-ssd-core-5","searchTerms":["Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H"]}
-{"t":"2026-07-21T15:53:10.168Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-24%e2%80%b3-16gb-512gb-ssd-core-5"}
-{"t":"2026-07-21T15:53:12.095Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-07-21T15:53:12.105Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-aio-ideacentre-24″-16gb-512gb-ssd-core-5"}
-{"t":"2026-07-21T15:53:13.275Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-07-21T15:53:13.275Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo AIO IdeaCentre","AIO IdeaCentre"]}
-{"t":"2026-07-21T15:53:13.927Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo AIO IdeaCentre","items":9,"names":["Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H"]}
-{"t":"2026-07-21T15:53:13.927Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Lenovo AIO IdeaCentre, 27″, 16GB, 512GB SSD, Ryzen™ 7-8845HS","score":1.6666666666666665},{"name":"Lenovo AIO IdeaCentre, 23.8″, 16GB, 512GB SSD, Core™ i7-13620H","score":1.4516129032258063},{"name":"Lenovo AIO IdeaCentre, 24″, 16GB, 512GB SSD, Core™ 5-210H","score":1.6666666666666665}]}
-{"t":"2026-07-21T15:53:14.966Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
 {"t":"2026-07-21T15:53:23.938Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
 {"t":"2026-07-21T15:53:29.519Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
 {"t":"2026-07-21T15:53:33.838Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T11:22:19.231Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T11:22:25.052Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T11:22:25.052Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":11680,"nextIndex":11760,"remaining":12735,"httpFailures":{}}
+{"t":"2026-07-23T11:22:36.498Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":11760,"batchSize":80,"total":24495}
+{"t":"2026-07-23T11:22:45.803Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T11:22:53.143Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T11:23:01.648Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T11:23:08.925Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T11:23:16.156Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T11:23:26.729Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T11:23:33.234Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T11:23:33.234Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":11760,"nextIndex":11840,"remaining":12655,"httpFailures":{}}
