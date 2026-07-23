@@ -1,37 +1,3 @@
-{"t":"2026-06-22T13:54:20.807Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T13:54:29.266Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T13:54:33.302Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
-{"t":"2026-06-22T13:54:33.330Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-xiaomi-gaming-monitor-g27i-27%e2%80%b3","searchTerms":["Xiaomi Gaming Monitor G27i 27″"]}
-{"t":"2026-06-22T13:54:33.330Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-gaming-monitor-g27i-27%e2%80%b3"}
-{"t":"2026-06-22T13:54:33.914Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T13:54:33.914Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"xiaomi-gaming-monitor-g27i-27″"}
-{"t":"2026-06-22T13:54:34.626Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T13:54:34.627Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Xiaomi Gaming Monitor G27i","Gaming Monitor G27i"]}
-{"t":"2026-06-22T13:54:35.093Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Xiaomi Gaming Monitor G27i","items":1,"names":["Xiaomi Gaming Monitor G27i 27″"]}
-{"t":"2026-06-22T13:54:35.093Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Xiaomi Gaming Monitor G27i 27″","score":3.6363636363636362}]}
-{"t":"2026-06-22T13:54:37.079Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
-{"t":"2026-06-22T13:54:41.072Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
-{"t":"2026-06-22T13:54:41.073Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":16400,"nextIndex":16480,"remaining":4235,"httpFailures":{}}
-{"t":"2026-06-22T13:54:48.393Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":16480,"batchSize":80,"total":20715}
-{"t":"2026-06-22T13:54:52.894Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
-{"t":"2026-06-22T13:54:52.927Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-lenovo-thinkpad-x13-gen-5-13%e2%80%b3-touch-16gb-1tb-ssd-core-ultra-7","searchTerms":["Lenovo ThinkPad X13 Gen 5, 13″ Touch, 16GB, 1TB SSD, Core™ Ultra 7"]}
-{"t":"2026-06-22T13:54:52.927Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-x13-gen-5-13%e2%80%b3-touch-16gb-1tb-ssd-core-ultra-7"}
-{"t":"2026-06-22T13:54:53.800Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T13:54:53.800Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"lenovo-thinkpad-x13-gen-5-13″-touch-16gb-1tb-ssd-core-ultra-7"}
-{"t":"2026-06-22T13:54:54.326Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T13:54:54.326Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo ThinkPad X13 Gen 5","ThinkPad X13 Gen 5","Lenovo ThinkPad X13 Gen"]}
-{"t":"2026-06-22T13:54:54.745Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad X13 Gen 5","items":0,"names":[]}
-{"t":"2026-06-22T13:54:55.457Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"ThinkPad X13 Gen 5","items":0,"names":[]}
-{"t":"2026-06-22T13:54:56.244Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Lenovo ThinkPad X13 Gen","items":0,"names":[]}
-{"t":"2026-06-22T13:54:58.027Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
-{"t":"2026-06-22T13:55:03.203Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
-{"t":"2026-06-22T13:55:08.131Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
-{"t":"2026-06-22T13:55:08.171Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"shpresa-sony-ps5-metal-gear-solid-%ce%b4-snake-eater","searchTerms":["Sony PS5 Metal Gear Solid Δ: Snake Eater"]}
-{"t":"2026-06-22T13:55:08.172Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"sony-ps5-metal-gear-solid-%ce%b4-snake-eater"}
-{"t":"2026-06-22T13:55:09.877Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T13:55:09.877Z","level":"debug","scope":"scraper/woo","msg":"slug lookup","store":"shpresa","slug":"sony-ps5-metal-gear-solid-δ-snake-eater"}
-{"t":"2026-06-22T13:55:10.703Z","level":"debug","scope":"scraper/woo","msg":"slug lookup result","items":0,"first":null}
-{"t":"2026-06-22T13:55:10.704Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Sony PS5 Metal Gear Solid Δ: Snake Eater","PS5 Metal Gear Solid Δ: Snake Eater","Sony PS5 Metal Gear"]}
 {"t":"2026-06-22T13:55:11.366Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Sony PS5 Metal Gear Solid Δ: Snake Eater","items":1,"names":["Sony PS5 Metal Gear Solid Δ: Snake Eater"]}
 {"t":"2026-06-22T13:55:11.366Z","level":"debug","scope":"scraper/woo","msg":"match scores","top":[{"name":"Sony PS5 Metal Gear Solid Δ: Snake Eater","score":8}]}
 {"t":"2026-06-22T13:55:11.919Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
@@ -4998,3 +4964,37 @@
 {"t":"2026-07-23T10:29:33.596Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T10:29:45.247Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T10:29:45.247Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8400,"nextIndex":8480,"remaining":16015,"httpFailures":{}}
+{"t":"2026-07-23T10:29:54.483Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":8480,"batchSize":80,"total":24495}
+{"t":"2026-07-23T10:30:03.431Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T10:30:03.439Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-seagate-ironwolf-hdd-3-5%e2%80%b3-4tb","searchTerms":["Seagate IronWolf HDD 3.5″ 4TB"]}
+{"t":"2026-07-23T10:30:03.439Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Seagate IronWolf HDD","IronWolf HDD"]}
+{"t":"2026-07-23T10:30:03.447Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-hdd-ultrastar-dc-hc520-3-5%e2%80%b3-12tb","searchTerms":["WD HDD Ultrastar DC HC520 3.5″ 12TB"]}
+{"t":"2026-07-23T10:30:03.447Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD HDD Ultrastar DC HC520","HDD Ultrastar DC HC520","WD HDD Ultrastar DC"]}
+{"t":"2026-07-23T10:30:04.191Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Seagate IronWolf HDD","items":0,"names":[]}
+{"t":"2026-07-23T10:30:04.564Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC HC520","items":0,"names":[]}
+{"t":"2026-07-23T10:30:06.314Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"IronWolf HDD","items":0,"names":[]}
+{"t":"2026-07-23T10:30:06.762Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HDD Ultrastar DC HC520","items":0,"names":[]}
+{"t":"2026-07-23T10:30:10.022Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD HDD Ultrastar DC","items":0,"names":[]}
+{"t":"2026-07-23T10:30:16.053Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T10:30:16.057Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-monitor-27%e2%80%b3-e2725h","searchTerms":["DELL Monitor 27″ E2725H"]}
+{"t":"2026-07-23T10:30:16.057Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor E2725H","Monitor E2725H"]}
+{"t":"2026-07-23T10:30:16.479Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor E2725H","items":0,"names":[]}
+{"t":"2026-07-23T10:30:19.360Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E2725H","items":0,"names":[]}
+{"t":"2026-07-23T10:30:27.114Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T10:30:27.143Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-hdd-3-5%e2%80%b3-8tb","searchTerms":["WD Red Plus HDD 3.5″ 8TB"]}
+{"t":"2026-07-23T10:30:27.144Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
+{"t":"2026-07-23T10:30:27.148Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-plus-hdd-3-5%e2%80%b3-10tb","searchTerms":["WD Red Plus HDD 3.5″ 10TB"]}
+{"t":"2026-07-23T10:30:27.148Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red Plus HDD","Red Plus HDD"]}
+{"t":"2026-07-23T10:30:27.152Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-wd-red-hdd-plus-3-5%e2%80%b3-4tb","searchTerms":["WD Red HDD Plus 3.5″ 4TB"]}
+{"t":"2026-07-23T10:30:27.152Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["WD Red HDD Plus","Red HDD Plus"]}
+{"t":"2026-07-23T10:30:28.410Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Plus HDD","items":0,"names":[]}
+{"t":"2026-07-23T10:30:28.692Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red Plus HDD","items":0,"names":[]}
+{"t":"2026-07-23T10:30:29.017Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"WD Red HDD Plus","items":0,"names":[]}
+{"t":"2026-07-23T10:30:30.495Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Plus HDD","items":0,"names":[]}
+{"t":"2026-07-23T10:30:30.623Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red Plus HDD","items":0,"names":[]}
+{"t":"2026-07-23T10:30:30.812Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Red HDD Plus","items":0,"names":[]}
+{"t":"2026-07-23T10:30:37.873Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T10:30:45.959Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T10:30:59.102Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T10:31:10.163Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T10:31:10.163Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":8480,"nextIndex":8560,"remaining":15935,"httpFailures":{}}
