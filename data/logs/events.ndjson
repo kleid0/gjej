@@ -1,12 +1,3 @@
-{"t":"2026-07-21T17:47:42.035Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-hp-backpack-travel-case-15-6%e2%80%b3","searchTerms":["HP Backpack Travel Case 15.6″"]}
-{"t":"2026-07-21T17:47:42.036Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["HP Backpack Travel Case","Backpack Travel Case"]}
-{"t":"2026-07-21T17:47:42.039Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-professional-backpack-case-15-6%e2%80%b3","searchTerms":["Dell Professional Backpack Case 15.6″"]}
-{"t":"2026-07-21T17:47:42.045Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell Professional Backpack Case","Professional Backpack Case"]}
-{"t":"2026-07-21T17:47:42.048Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-lenovo-ideapad-gaming-backpack-15-6%e2%80%b3","searchTerms":["Lenovo IdeaPad Gaming Backpack 15.6″"]}
-{"t":"2026-07-21T17:47:42.049Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Lenovo IdeaPad Gaming Backpack","IdeaPad Gaming Backpack"]}
-{"t":"2026-07-21T17:47:42.052Z","level":"debug","scope":"scraper/woo","msg":"lookup start","store":"shpresa","productId":"pcstore-dell-essential-backpack-case-15-6%e2%80%b3","searchTerms":["Dell Essential Backpack Case 15.6″"]}
-{"t":"2026-07-21T17:47:42.052Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["Dell Essential Backpack Case","Essential Backpack Case"]}
-{"t":"2026-07-21T17:47:43.158Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"XD Design Soft Daypack Anti-theft","items":0,"names":[]}
 {"t":"2026-07-21T17:47:43.339Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Targus CityGear Backpack Case","items":0,"names":[]}
 {"t":"2026-07-21T17:47:43.648Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Pavilion Tech Backpack Case","items":0,"names":[]}
 {"t":"2026-07-21T17:47:43.846Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"HP Backpack Travel Case","items":0,"names":[]}
@@ -4998,3 +4989,12 @@
 {"t":"2026-07-23T14:08:33.013Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
 {"t":"2026-07-23T14:08:38.970Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
 {"t":"2026-07-23T14:08:38.970Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":22080,"nextIndex":22160,"remaining":2335,"httpFailures":{}}
+{"t":"2026-07-23T14:08:48.761Z","level":"info","scope":"cron/refresh-prices","msg":"run start","startIndex":22160,"batchSize":80,"total":24495}
+{"t":"2026-07-23T14:08:58.201Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":0,"size":12,"refreshed":12,"errors":0}
+{"t":"2026-07-23T14:09:06.277Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":12,"size":12,"refreshed":24,"errors":0}
+{"t":"2026-07-23T14:09:15.899Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
+{"t":"2026-07-23T14:09:23.223Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":36,"size":12,"refreshed":48,"errors":0}
+{"t":"2026-07-23T14:09:32.097Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":48,"size":12,"refreshed":60,"errors":0}
+{"t":"2026-07-23T14:09:39.379Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":60,"size":12,"refreshed":72,"errors":0}
+{"t":"2026-07-23T14:09:46.111Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":72,"size":8,"refreshed":80,"errors":0}
+{"t":"2026-07-23T14:09:46.111Z","level":"info","scope":"cron/refresh-prices","msg":"run complete","refreshed":80,"errors":0,"startIndex":22160,"nextIndex":22240,"remaining":2255,"httpFailures":{}}
