@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T10:33:49.969Z",
+  "updatedAt": "2026-07-23T10:35:14.691Z",
   "mappings": {
     "foleja:/ERG-200005746/Celular-Samsung-Galaxy-S26-Ultra-SM-S948-12GB-256GB-5G-i-zi": {
       "storeId": "foleja",
@@ -225,12 +225,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PC-HP-AIO-ProOne-240-G10-PC1813",
       "storeProductName": "PC HP AIO ProOne 240 G10 A55A3ET",
-      "catalogueProductId": "pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-i3-n300",
+      "catalogueProductId": "pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-n200",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:27.759Z",
-      "updatedAt": "2026-07-23T10:15:11.386Z"
+      "updatedAt": "2026-07-23T10:35:14.691Z"
     },
     "foleja:/ERG-200004014/Celular-Samsung-Galaxy-A17-8GB-256GB-5G-gri": {
       "storeId": "foleja",
@@ -390,23 +390,23 @@
       "storeId": "foleja",
       "storeProductId": "/ACN-300022736/Procesor-AMD-Ryzen-9-5950X-3.4-GHz-64-MB-hiri",
       "storeProductName": "Procesor AMD Ryzen 9 5950X, 3.4 GHz, 64 MB, hiri",
-      "catalogueProductId": "pcstore-amd-processor-ryzen-9-9900x3d",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-9-9950x3d",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:33.825Z",
-      "updatedAt": "2026-07-23T10:23:12.792Z"
+      "updatedAt": "2026-07-23T10:34:32.260Z"
     },
     "foleja:/ACN-300041915/Procesor-AMD-Ryzen-7-7800X3D": {
       "storeId": "foleja",
       "storeProductId": "/ACN-300041915/Procesor-AMD-Ryzen-7-7800X3D",
       "storeProductName": "Procesor AMD Ryzen 7 -7800X3D",
-      "catalogueProductId": "albagame-cpu-amd-ryzen-7-5800x-8c-8p-0e-16t-up-to-4-7ghz-socket-am4",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-7-7700x",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-29T06:32:33.825Z",
-      "updatedAt": "2026-07-23T10:27:20.352Z"
+      "updatedAt": "2026-07-23T10:34:32.260Z"
     },
     "foleja:/KST-200017581/Procesor-Intel-Core-Ultra-5-235-FCLGA1851-5-GHz": {
       "storeId": "foleja",
@@ -5241,12 +5241,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/PRINTER-HP-LASERJET-M111A-PI0549",
       "storeProductName": "PRINTER HP LASERJET M111A",
-      "catalogueProductId": "globe-75487",
+      "catalogueProductId": "pcstore-hp-laserjet-m111a",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:28:30.436Z",
-      "updatedAt": "2026-07-23T09:57:21.075Z"
+      "updatedAt": "2026-07-23T10:34:52.625Z"
     },
     "foleja:/ACN-300092365/Printer-HP-LaserJet-MFP-M140w-i-bardhe-e-zi": {
       "storeId": "foleja",
@@ -9421,12 +9421,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200016849/SSD-Crucial-E100-1TB-NVMe-PCIe-4.0",
       "storeProductName": "SSD Crucial E100 1TB NVMe PCIe 4.0",
-      "catalogueProductId": "pcstore-crucial-e100-ssd-480gb-ssd-nvme",
+      "catalogueProductId": "pcstore-crucial-e100-ssd-1tb-nvme",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:51:21.930Z",
-      "updatedAt": "2026-07-23T10:20:10.699Z"
+      "updatedAt": "2026-07-23T10:34:32.260Z"
     },
     "neptun:/categories/MONITOR-HP-SERIES-5-524SW-94C21E9-MO0873": {
       "storeId": "neptun",
@@ -9740,12 +9740,12 @@
       "storeId": "neptun",
       "storeProductId": "/categories/SSD-SAMSUNG-990-EVO-PLUS-1TB-HD00198",
       "storeProductName": "SSD SAMSUNG 990 EVO PLUS 1TB",
-      "catalogueProductId": "pcstore-samsung-990-evo-plus-ssd-4tb-nvme",
+      "catalogueProductId": "pcstore-samsung-990-evo-plus-ssd-1tb-nvme",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:52:18.957Z",
-      "updatedAt": "2026-07-23T10:24:12.897Z"
+      "updatedAt": "2026-07-23T10:34:32.260Z"
     },
     "neptun:/categories/LAPTOP-LENOVO-IDEAPAD-PRO-5-16IAH10-LP2062": {
       "storeId": "neptun",
@@ -11824,7 +11824,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-04-30T16:58:11.519Z",
-      "updatedAt": "2026-07-21T17:53:02.949Z"
+      "updatedAt": "2026-07-23T10:34:32.260Z"
     },
     "shpresa:11010": {
       "storeId": "shpresa",
@@ -21257,12 +21257,12 @@
       "storeId": "globe",
       "storeProductId": "24979",
       "storeProductName": "Kompjuter HP AiO ProOne 240 G10 B70VFAT",
-      "catalogueProductId": "pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-i3-n300",
+      "catalogueProductId": "pcstore-hp-proone-240-g10-23-8%e2%80%b3-intel-n200",
       "matchMethod": "name_match",
       "confidence": 67,
       "status": "pending",
       "createdAt": "2026-04-30T18:01:24.485Z",
-      "updatedAt": "2026-07-23T10:15:11.386Z"
+      "updatedAt": "2026-07-23T10:35:14.691Z"
     },
     "neptun:/categories/PC-AIO-LENOVO-IDEACENTRE-3-24ALC6-F0G1013WRI-PC1814": {
       "storeId": "neptun",
@@ -61737,12 +61737,12 @@
       "storeId": "globe",
       "storeProductId": "71922",
       "storeProductName": "Monitor HP 3 Pro 24\" 324pv",
-      "catalogueProductId": "pcstore-hp-monitor-3-pro-322pv-21-45",
+      "catalogueProductId": "pcstore-hp-monitor-3-pro-324pv-23-8",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 100,
       "status": "pending",
       "createdAt": "2026-05-07T08:34:54.627Z",
-      "updatedAt": "2026-07-23T10:20:58.790Z"
+      "updatedAt": "2026-07-23T10:35:03.993Z"
     },
     "globe:71866": {
       "storeId": "globe",
@@ -65851,12 +65851,12 @@
       "storeId": "globe",
       "storeProductId": "71000",
       "storeProductName": "USB verbatim Store N Go 128GB 49189 Grey",
-      "catalogueProductId": "pcstore-verbatim-store-n-go-2-5-2tb",
+      "catalogueProductId": "pcstore-verbatim-store-n-go-2-5-1tb",
       "matchMethod": "name_match",
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-05-07T09:33:37.564Z",
-      "updatedAt": "2026-07-23T10:14:33.759Z"
+      "updatedAt": "2026-07-23T10:34:32.260Z"
     },
     "globe:71007": {
       "storeId": "globe",
@@ -73694,12 +73694,12 @@
       "storeId": "globe",
       "storeProductId": "213656",
       "storeProductName": "Laptop Lenovo LOQ 15AHP10 R7-250 83JG0025RM",
-      "catalogueProductId": "foleja-laptop-lenovo-loq-15-6-amd-ryzen-5-16gb-ram-512gb-ssd-nvidia-geforce-rtx-3050-hi",
+      "catalogueProductId": "pcstore-lenovo-loq-ryzen-7-7435hs-rtx-4050-6gb",
       "matchMethod": "name_match",
-      "confidence": 100,
+      "confidence": 67,
       "status": "pending",
       "createdAt": "2026-06-20T08:54:47.128Z",
-      "updatedAt": "2026-07-23T08:51:58.634Z"
+      "updatedAt": "2026-07-23T10:35:14.691Z"
     },
     "shpresa:196717": {
       "storeId": "shpresa",
@@ -75360,7 +75360,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T09:42:34.189Z",
-      "updatedAt": "2026-07-21T17:53:55.160Z"
+      "updatedAt": "2026-07-23T10:35:14.691Z"
     },
     "foleja:/CLB-200000121/Loje-PS4-Ubisoft-Assassin-s-Creed-Valhalla-PEGI-18": {
       "storeId": "foleja",
@@ -75971,12 +75971,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200002242/Maus-Razer-DeathAdder-Essential-Djathtas-Optik-USB-Type-A-6400-DPI-Zi",
       "storeProductName": "Maus Razer DeathAdder Essential, Djathtas, Optik, USB Type-A, 6400 DPI, Zi",
-      "catalogueProductId": "albagame-mouse-razer-deathadder-essential-ergonomic-chroma-rgb-black-rz01-03850100-r3m1",
+      "catalogueProductId": "pcstore-razer-deathadder-essential",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-06-20T09:48:29.916Z",
-      "updatedAt": "2026-07-21T18:06:21.273Z"
+      "updatedAt": "2026-07-23T10:34:32.260Z"
     },
     "foleja:/KST-200054521/Altoparlant-Razer-Leviathan-V2-X-Bluetooth-5.0-i-zi": {
       "storeId": "foleja",
@@ -83181,7 +83181,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-06-21T10:42:12.897Z",
-      "updatedAt": "2026-07-21T17:52:35.029Z"
+      "updatedAt": "2026-07-23T10:34:11.673Z"
     },
     "foleja:/ABS-200000922/Tastiere-LOGITECH-MX-Keys-Mini-Bluetooth-me-ndricim-US-INT-L-Pale-Grey": {
       "storeId": "foleja",
@@ -83192,7 +83192,7 @@
       "confidence": 83,
       "status": "pending",
       "createdAt": "2026-06-21T10:42:18.335Z",
-      "updatedAt": "2026-07-21T17:52:46.119Z"
+      "updatedAt": "2026-07-23T10:34:23.606Z"
     },
     "shpresa:176256": {
       "storeId": "shpresa",
@@ -84034,12 +84034,12 @@
       "storeId": "foleja",
       "storeProductId": "/KST-200050868/Kompjuter-Dell-Pro-16-Plus-PB16250-U7-266V-16GB-RAM-512GB-SSD-16-inc-gri",
       "storeProductName": "Kompjuter Dell Pro 16 Plus PB16250 U7-266V, 16GB RAM, 512GB SSD, 16 inç, gri",
-      "catalogueProductId": "shpresa-dell-pro-16-16-16gb-512gb-ssd-core-ultra-7",
+      "catalogueProductId": "pcstore-dell-pro-16-plus-16-core-ultra-7-266v",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T15:49:08.050Z",
-      "updatedAt": "2026-07-23T08:31:04.139Z"
+      "updatedAt": "2026-07-23T10:35:14.691Z"
     },
     "foleja:/KST-200004858/Kartele-grafike-Zotac-GAMING-GeForce-RTX-3050-Solo-6-GB-GDDR6-PCI-Express-x8-4.0-e-zeze": {
       "storeId": "foleja",
@@ -84848,12 +84848,12 @@
       "storeId": "foleja",
       "storeProductId": "/MOR-200010253/Pllake-ame-MSI-PRO-H610M-G-DDR4-64GB-max-e-zeze",
       "storeProductName": "Pllakë amë MSI PRO H610M-G DDR4, 64GB max, e zezë",
-      "catalogueProductId": "shpresa-msi-pro-h610m-e-ddr4",
+      "catalogueProductId": "pcstore-msi-motherboard-h610m-e-pro-ddr4",
       "matchMethod": "name_match",
-      "confidence": 75,
+      "confidence": 60,
       "status": "pending",
       "createdAt": "2026-07-21T16:01:05.587Z",
-      "updatedAt": "2026-07-23T08:41:45.534Z"
+      "updatedAt": "2026-07-23T10:34:11.673Z"
     },
     "foleja:/HRT-200013181/Folje-mbrojtese-per-ekran-3mk-Protection-ARC-per-Google-Pixel-8A-5G-transparente": {
       "storeId": "foleja",
@@ -91778,12 +91778,12 @@
       "storeId": "foleja",
       "storeProductId": "/MOR-200017739/Pllake-ame-Gigabyte-X870E-AORUS-ELITE-WIFI7-AM5-ATX-DDR5",
       "storeProductName": "Pllakë amë Gigabyte X870E AORUS ELITE WIFI7 AM5 ATX DDR5",
-      "catalogueProductId": "pcstore-psu-gigabyte-aorus-elite-p1000w-pg5-ice",
+      "catalogueProductId": "pcstore-psu-gigabyte-aorus-elite-850w-pg5",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T17:35:15.753Z",
-      "updatedAt": "2026-07-23T10:23:01.262Z"
+      "updatedAt": "2026-07-23T10:34:11.673Z"
     },
     "foleja:/MOR-200020619/Monitor-gaming-LG-UltraGear-45GX950A-B-OLED-45-5K2K-165Hz-330Hz-i-zi": {
       "storeId": "foleja",
@@ -92509,7 +92509,7 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-07-21T17:52:53.290Z",
-      "updatedAt": "2026-07-21T17:52:53.290Z"
+      "updatedAt": "2026-07-23T10:34:32.260Z"
     },
     "foleja:/MOR-200027352/SSD-MSI-SPATIUM-M371-500GB-M.2-2280-NVMe-PCIe-Gen3-x4-S78-440K160-P83": {
       "storeId": "foleja",
@@ -92520,7 +92520,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T17:53:02.949Z",
-      "updatedAt": "2026-07-21T17:53:02.949Z"
+      "updatedAt": "2026-07-23T10:34:41.467Z"
     },
     "foleja:/ALL-200000382/Printer-Epson-EcoTank-M1100-Inkjet-A4-i-zi": {
       "storeId": "foleja",
@@ -92531,7 +92531,7 @@
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T17:53:12.547Z",
-      "updatedAt": "2026-07-21T17:53:12.547Z"
+      "updatedAt": "2026-07-23T10:34:52.625Z"
     },
     "foleja:/YLL-200014040/Monitor-Dell-S2722DC-210-BBRR-27-QHD-2560x1440-IPS-75Hz-4ms-me-altoparlante-i-zi": {
       "storeId": "foleja",
@@ -92542,18 +92542,18 @@
       "confidence": 75,
       "status": "pending",
       "createdAt": "2026-07-21T17:53:31.905Z",
-      "updatedAt": "2026-07-21T17:53:31.905Z"
+      "updatedAt": "2026-07-23T10:35:03.993Z"
     },
     "foleja:/CLB-200000015/Kontroller-Nintendo-Joy-Con-2-L-per-Nintendo-Switch-2-blu": {
       "storeId": "foleja",
       "storeProductId": "/CLB-200000015/Kontroller-Nintendo-Joy-Con-2-L-per-Nintendo-Switch-2-blu",
       "storeProductName": "Kontroller Nintendo Joy-Con 2 (L) për Nintendo Switch 2, blu",
-      "catalogueProductId": "albagame-u-console-nintendo-switch-joy-con-grey-neon-red-blu",
+      "catalogueProductId": "albagame-charging-grip-nintendo-switch-joy-con",
       "matchMethod": "name_match",
       "confidence": 100,
       "status": "pending",
       "createdAt": "2026-07-21T17:53:55.160Z",
-      "updatedAt": "2026-07-21T20:42:54.801Z"
+      "updatedAt": "2026-07-23T10:35:14.691Z"
     },
     "foleja:/MOR-200004525/Loje-Nintendo-Pokemon-Let-s-Go-Pikachu-per-Nintendo-Switch-anglisht-PEGI-7": {
       "storeId": "foleja",
@@ -103015,6 +103015,17 @@
       "status": "pending",
       "createdAt": "2026-07-23T10:28:42.198Z",
       "updatedAt": "2026-07-23T10:28:42.198Z"
+    },
+    "foleja:/MOR-200029232/Procesor-AMD-Ryzen-5-8500G-6C-12T-3.5-5.0GHz-16MB-AM5-OEM-100-000000931": {
+      "storeId": "foleja",
+      "storeProductId": "/MOR-200029232/Procesor-AMD-Ryzen-5-8500G-6C-12T-3.5-5.0GHz-16MB-AM5-OEM-100-000000931",
+      "storeProductName": "Procesor AMD Ryzen 5 8500G 6C/12T 3.5-5.0GHz 16MB AM5 OEM (100-000000931)",
+      "catalogueProductId": "pcstore-amd-processor-ryzen-5-8500g",
+      "matchMethod": "name_match",
+      "confidence": 75,
+      "status": "pending",
+      "createdAt": "2026-07-23T10:34:23.606Z",
+      "updatedAt": "2026-07-23T10:34:23.606Z"
     }
   }
 }
