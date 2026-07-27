@@ -1,4 +1,3 @@
-{"t":"2026-07-21T17:48:40.588Z","level":"debug","scope":"scraper/woo","msg":"name search","store":"shpresa","queries":["DELL Monitor E2725H","Monitor E2725H"]}
 {"t":"2026-07-21T17:48:41.284Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"DELL Monitor E2725H","items":0,"names":[]}
 {"t":"2026-07-21T17:48:43.311Z","level":"debug","scope":"scraper/woo","msg":"name search result","term":"Monitor E2725H","items":0,"names":[]}
 {"t":"2026-07-21T17:48:50.062Z","level":"debug","scope":"cron/refresh-prices","msg":"chunk done","from":24,"size":12,"refreshed":36,"errors":0}
@@ -4998,3 +4997,4 @@
 {"t":"2026-07-25T05:47:01.480Z","level":"info","scope":"cron/discover","msg":"run complete","discovered":11338,"total":38470,"fused":592,"discontinued":0}
 {"t":"2026-07-26T06:10:40.767Z","level":"info","scope":"cron/discover","msg":"run complete","discovered":18451,"total":38583,"fused":797,"discontinued":0}
 {"t":"2026-07-27T06:35:01.431Z","level":"info","scope":"cron/discover","msg":"run complete","discovered":18451,"total":38592,"fused":795,"discontinued":0}
+{"t":"2026-07-27T08:30:31.128Z","level":"info","scope":"cron/check-pcstore","msg":"probe complete","status":"down","previousStatus":"down","flippedUp":false,"notified":false}
